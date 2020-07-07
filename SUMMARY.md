@@ -45,6 +45,10 @@
 * [Builder's Portal](build/builders-portal.md)
 * [Development Guide](build/development-guide/README.md)
   * [Builders Starter's Guide](build/development-guide/builders-starters-guide.md)
+  * [Deploy Ecosystem Modules](build/development-guide/deploy-ecosystem-modules.md)
+  * [Deploy Smart Contracts \(TBD\)](build/development-guide/deploy-smart-contracts.md)
+  * [Connect via XCMP \(TBD\)](build/development-guide/connect-via-xcmp.md)
+* [Integration Guide](build/integration-guide.md)
 
 ## Maintain
 

@@ -1,3 +1,7 @@
+---
+description: A relatively comprehensive introduction.
+---
+
 # Acala Introduction
 
 **Acala: The Decentralized Financial Network for Stablecoin and Staking Liquidity**

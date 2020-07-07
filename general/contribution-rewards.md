@@ -8,7 +8,9 @@ description: Records of some activity rules and rewards.
 
 You can now check your airdrop KAR & ACA balances on [https://apps.acala.network/wallet](https://apps.acala.network/wallet). The balances are recorded on-chain in the `airdrop` module, which will be used to allocate real tokens upon Karura Canary network and Acala mainnet genesis.
 
-Learn more about ACA & KAR tokens [here](V.-ACA-&-KAR.md).
+![](../.gitbook/assets/image.png)
+
+Learn more about ACA & KAR tokens [here](https://wiki.acala.network/learn/economics/aca-and-kar).
 
 Festival-goers and contributors, have fun, learn & break things, behold & catch the candies 🎁
 
@@ -136,11 +138,11 @@ Festival-goers and contributors, have fun, learn & break things, behold & catch 
 
 #### Runtime Bug Hunters
 
-[See Runtime Bug Bounty]()
+[See Runtime Bug Bounty](https://wiki.acala.network/general/contribution-rewards#runtime-bug-bounty)
 
 #### UI Bug Hunters
 
-[See UI Bug Bounty]()
+[See UI Bug Bounty](https://wiki.acala.network/general/contribution-rewards#ui-bug-bounty)
 
 ## Mandala Festival Season 1 \(Finished\)
 
@@ -237,33 +239,15 @@ Festival-goers and contributors, have fun, learn & break things, behold & catch 
 | :--- | :--- | :--- |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/18](https://github.com/AcalaNetwork/honzon-platform/issues/18) | 5FLcXWfs1hpRqbT4Rv5ACHkenqCGL5MPTDDeFtBFrogY3D9V | reward |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/19](https://github.com/AcalaNetwork/honzon-platform/issues/19) | 5FLcXWfs1hpRqbT4Rv5ACHkenqCGL5MPTDDeFtBFrogY3D9V | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/22](https://github.com/AcalaNetwork/honzon-platform/issues/22) | 5GR5ZkscxFJHRroPDPG6TxZ28xGJBnsrYXJCR9nbmiuWWEDR |  |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/23](https://github.com/AcalaNetwork/honzon-platform/issues/23) | 5GR5ZkscxFJHRroPDPG6TxZ28xGJBnsrYXJCR9nbmiuWWEDR | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/24](https://github.com/AcalaNetwork/honzon-platform/issues/24) | 5GR5ZkscxFJHRroPDPG6TxZ28xGJBnsrYXJCR9nbmiuWWEDR |  |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/26](https://github.com/AcalaNetwork/honzon-platform/issues/26) | 5G8jj92pf4yG9cQmQ6mbRUqBePMptB37b7GGBg8FMoDKL9Gv |  |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/30](https://github.com/AcalaNetwork/honzon-platform/issues/30) | 5G8jj92pf4yG9cQmQ6mbRUqBePMptB37b7GGBg8FMoDKL9Gv |  |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/31](https://github.com/AcalaNetwork/honzon-platform/issues/31) | 5G8jj92pf4yG9cQmQ6mbRUqBePMptB37b7GGBg8FMoDKL9Gv | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/32](https://github.com/AcalaNetwork/honzon-platform/issues/32) | 5G8jj92pf4yG9cQmQ6mbRUqBePMptB37b7GGBg8FMoDKL9Gv |  |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/33](https://github.com/AcalaNetwork/honzon-platform/issues/33) | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/34](https://github.com/AcalaNetwork/honzon-platform/issues/34) | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X |  |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/35](https://github.com/AcalaNetwork/honzon-platform/issues/35) | 5G8jj92pf4yG9cQmQ6mbRUqBePMptB37b7GGBg8FMoDKL9Gv | reward |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/37](https://github.com/AcalaNetwork/honzon-platform/issues/37) | 5F52pY196ZVifs3xGvBK5RTFuWMLsxNPrTfTTfk7NHC4YrS7 | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/38](https://github.com/AcalaNetwork/honzon-platform/issues/38) | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X |  |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/39](https://github.com/AcalaNetwork/honzon-platform/issues/39) | 5F52pY196ZVifs3xGvBK5RTFuWMLsxNPrTfTTfk7NHC4YrS7 | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/40](https://github.com/AcalaNetwork/honzon-platform/issues/40) | 5F52pY196ZVifs3xGvBK5RTFuWMLsxNPrTfTTfk7NHC4YrS7 |  |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/41](https://github.com/AcalaNetwork/honzon-platform/issues/41) | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X |  |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/42](https://github.com/AcalaNetwork/honzon-platform/issues/42) | 5ERd1oVWtXy1N9hW2SxHutdsMPDvUkCFvLtMaHYbPXzFrdSn |  |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/44](https://github.com/AcalaNetwork/honzon-platform/issues/44) | 5HiYHwLSQme1Tmy3VAJYtkCiCSzPhrhfdnKDzvqZtpP6Npna | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/45](https://github.com/AcalaNetwork/honzon-platform/issues/45) | 5HiYHwLSQme1Tmy3VAJYtkCiCSzPhrhfdnKDzvqZtpP6Npna |  |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/46](https://github.com/AcalaNetwork/honzon-platform/issues/46) | 5HiYHwLSQme1Tmy3VAJYtkCiCSzPhrhfdnKDzvqZtpP6Npna |  |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/47](https://github.com/AcalaNetwork/honzon-platform/issues/47) | 5HiYHwLSQme1Tmy3VAJYtkCiCSzPhrhfdnKDzvqZtpP6Npna |  |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/48](https://github.com/AcalaNetwork/honzon-platform/issues/48) | 5DCdUUZSEsdB3JBwdyQsKjEwdjWLyVajJaeki66M5YhGYWyK |  |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/49](https://github.com/AcalaNetwork/honzon-platform/issues/49) | 5GBM5hNhzHerACkb5aFvK1X4T4CMmBSAVxSGmtsLFp7iPtky | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/51](https://github.com/AcalaNetwork/honzon-platform/issues/51) | 5GWj7uVdbEhTad1SwTyqaD2W7h1jX3fMSaWweHR3M3KHj9Qs |  |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/52](https://github.com/AcalaNetwork/honzon-platform/issues/52) | 5HiYHwLSQme1Tmy3VAJYtkCiCSzPhrhfdnKDzvqZtpP6Npna |  |
 | [https://github.com/AcalaNetwork/honzon-platform/issues/53](https://github.com/AcalaNetwork/honzon-platform/issues/53) | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X | reward |
-| [https://github.com/AcalaNetwork/honzon-platform/issues/54](https://github.com/AcalaNetwork/honzon-platform/issues/54) | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X |  |
-|  |  |  |
 
 ### Mandala Festival Season 1 Rules & Rewards
 
