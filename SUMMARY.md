@@ -49,6 +49,10 @@
   * [Deploy Smart Contracts \(TBD\)](build/development-guide/deploy-smart-contracts.md)
   * [Connect via XCMP \(TBD\)](build/development-guide/connect-via-xcmp.md)
 * [Integration Guide](build/integration-guide.md)
+* [Tools](build/tools/README.md)
+  * [Tool Index](build/tools/tool-index.md)
+* [Resources](build/resources/README.md)
+  * [Examples](build/resources/examples.md)
 
 ## Maintain
 

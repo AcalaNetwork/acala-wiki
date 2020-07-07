@@ -1,17 +1,17 @@
 # Governance Overview
 
-* [Governance](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#governance)
-  * [Chambers of Acala Governance](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#chambers-of-acala-governance)
-  * [Progressive Decentralization](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#progressive-decentralization)
-    * [Phase I: Council Governance](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#phase-i-council-governance)
+* [Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#governance)
+  * [Chambers of Acala Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#chambers-of-acala-governance)
+  * [Progressive Decentralization](https://wiki.acala.network/maintain/governance-guides/governance-overview#progressive-decentralization)
+    * [Phase I: Council Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#phase-i-council-governance)
       * [Implementation](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#implementation)
         * [Mandala TC3](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#mandala-tc3)
-    * [Phase II: Elected Council + Referendum Governance](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#phase-ii-elected-council--referendum-governance)
-  * [Jurisdictions](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#jurisdictions)
-    * [Honzon Council Jurisdictions](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#honzon-council-jurisdictions)
-    * [Homa Council Jurisdictions](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#homa-council-jurisdictions)
-    * [General Council Jurisdiction](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#general-council-jurisdiction)
-  * [Under Discussion & Development](https://github.com/AcalaNetwork/Acala/wiki/9.-Governance#under-discussion--development)
+    * [Phase II: Elected Council + Referendum Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#phase-ii-elected-council-referendum-governance)
+  * [Jurisdictions](https://wiki.acala.network/maintain/governance-guides/governance-overview#jurisdictions)
+    * [Honzon Council Jurisdictions](https://wiki.acala.network/maintain/governance-guides/governance-overview#honzon-council-jurisdictions)
+    * [Homa Council Jurisdictions](https://wiki.acala.network/maintain/governance-guides/governance-overview#homa-council-jurisdictions)
+    * [General Council Jurisdiction](https://wiki.acala.network/maintain/governance-guides/governance-overview#general-council-jurisdiction)
+  * [Under Discussion & Development](https://wiki.acala.network/maintain/governance-guides/governance-overview#under-discussion-and-development)
 
 ## Governance
 
@@ -73,9 +73,9 @@ At this stage, decisions of the Acala Foundation regarded the network is made tr
 * **Selection**: elected by the General Council via simple majority.
 * **Proposals/Motions**: can cancel any uncontroversially dangerous motions via unanimous vote.
 
-**Implementation**
+#### **Implementation**
 
-**Mandala TC3**
+#### **Mandala TC3**
 
 Four council chambers have been implemented: General Council, Honzon Council, Homa Council, Technical Council. They currently work alongside with `sudo` for functionality testing purposes only. 'Real' governance will take effect in our canary network **Karura** with real stake.
 
