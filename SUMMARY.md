@@ -25,8 +25,20 @@
 * [Trilogy Networks](learn/trilogy-networks.md)
 * [Get Started](learn/get-started.md)
 * [Basics](learn/basics/README.md)
-  * [Untitled](learn/basics/untitled.md)
-* [Miscellaneous](learn/miscellaneous.md)
+  * [Honzon Stablecoin](learn/basics/honzon-stablecoin.md)
+  * [DeX](learn/basics/dex.md)
+  * [Auctions](learn/basics/auctions.md)
+  * [Homa Liquid DOT](learn/basics/homa-liquid-dot.md)
+  * [Deposit & Earn](learn/basics/deposit-and-earn.md)
+  * [Oracle](https://wiki.acala.network/maintain/oracle)
+  * [Governance](https://wiki.acala.network/maintain/governance-guides)
+* [Economics](learn/economics/README.md)
+  * [ACA & KAR](learn/economics/aca-and-kar.md)
+  * [Parachain Slots Auction](https://wiki.polkadot.network/docs/en/learn-auction)
+  * [Acala Token Economy Paper](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Acala_Token_Economy_Paper.pdf)
+* [Miscellaneous](learn/miscellaneous/README.md)
+  * [Runtime Events](learn/miscellaneous/runtime-events.md)
+  * [Modules](learn/miscellaneous/modules.md)
 
 ## Build
 
