@@ -1,5 +1,5 @@
 ---
-description: Acala Modules
+description: Introduction of the Acala modules.
 ---
 
 # Modules
