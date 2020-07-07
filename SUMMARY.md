@@ -58,6 +58,9 @@
 * [Oracle](maintain/oracle/README.md)
   * [Oracle Overview](maintain/oracle/oracle-overview.md)
   * [Oracle Guide for Mandala Test Network](maintain/oracle/oracle-guide-for-mandala-test-network.md)
-* [Collator](maintain/collator.md)
-* [Governance Guides](maintain/governance-guides.md)
+* [Collator](maintain/collator/README.md)
+  * [Collator](maintain/collator/collator.md)
+  * [Collator Guides](maintain/collator/collator-guides.md)
+* [Governance](maintain/governance-guides/README.md)
+  * [Governance Overview](maintain/governance-guides/governance-overview.md)
 
