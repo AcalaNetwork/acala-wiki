@@ -1,7 +1,5 @@
 # Acala Introduction
 
-
-
 **Acala: The Decentralized Financial Network for Stablecoin and Staking Liquidity**
 
 **Version 0.9.1** \| May 2020
