@@ -228,7 +228,7 @@ Unlike Bitcoin-like Proof-of-Work \(PoW\) chains, which uses computing power to 
 
 Polkadot network targets 50% active DOT staking with a 20% annual return. Effectively this creates an **opportunity cost for using DOT** in other applications versus staking. Ethereum as it currently stands as a PoW network has no such barrier, and in fact, has an incentive for ETH holder to participate in DeFi applications like MakerDAO or Compound. On the other hand, if DeFi lending applications provide a better yield than staking, it could motivate the collective movement of funds from staking to lending, **causing a 'bank run' and risking the security of the entire network**.
 
-#### 3.1 The Homa Protocol
+### 3.1 The Homa Protocol
 
 In any case, the task at hand is to solve the **illiquidity challenge of staked assets**. We would introduce the Homa Protocol that establishes a staking pool tokenizing users' staked assets as L-Asset \(e.g. L-DOT as locked DOT\), which users can invest or use in other applications. For example, lend L-DOT to earn interest or use L-DOT as collateral for stablecoin aUSD. The Homa Protocol tokenizes staked DOT as L-DOT where
 
@@ -241,7 +241,7 @@ In any case, the task at hand is to solve the **illiquidity challenge of staked 
 
 The Homa Protocol resides on the Acala Network, establishes a **decentralized staking pool** where users would lock their DOTs to gain staking yield while receiving **L-DOTs as a receipt that are liquid and tradable**. The protocol manages issuance of L-DOTs and redemption of underlying assets. The protocol would managed the locked assets, participate in staking, execute staking strategies \(e.g. validator selection based on uptime etc.\), manage rewards and slashed penalties.
 
-#### 3.2 Staking
+### 3.2 Staking
 
 Unlike direct validating or nominating, where a user's asset are bonded directly for staking, the Homa Protocol would aggregate the supply of each user, and participate in staking collectively.
 
@@ -249,7 +249,7 @@ DOTs supplied to the staking pool are represented as L-DOT account balance, whic
 
 The balance of the two is the profit/loss that would increase/decrease the amount of the underlying asset of L-DOT. This means **earning staking reward is as simple as holding an L-DOT token**, while L-DOT is cross-chain capable and can be used to participate in other network activities such as lending or as collaterals in Honzon Stablecoin Protocol.
 
-#### 3.3 Redeeming
+### 3.3 Redeeming
 
 When users redeem L-DOTs for the underlying DOTs, the protocol would unbound staked assets; generally one would have to wait for certain recovery time \(28 days as this is written\) for the DOTs to be transferrable. The redeem service fee is payable in ACA tokens.
 
@@ -262,7 +262,7 @@ At any point in time, the Homa Protocol
 
 The amount of premium payable is algorithmically set relative to a number of factors including the amount withdrawn, transferrable timeframe required, potentially lost yield if any, etc. The premium would be retained in the staking pool and shared amongst L-DOT holders.
 
-#### 3.4 Tokenized Staked DOT: L-DOT
+### 3.4 Tokenized Staked DOT: L-DOT
 
 Through the Homa Protocol, staked DOTs become fungible and liquid L-DOTs that exploit the derivative value of the DOTs fueling and powering more applications without sacrificing the security of the whole network.
 
@@ -276,7 +276,7 @@ The effective profit/loss, however, is determined by various factors including b
 * the chosen staking strategy.
 * the performance of chosen validator nodes.
 
-#### 3.5 Staking Strategy
+### 3.5 Staking Strategy
 
 The Homa Protocol will execute the staking strategy to deploy locked DOTs. The staking strategy and parameters are governed via the Homa council where L-DOT holders can submit change proposals and have voting rights
 
@@ -289,7 +289,7 @@ The staking strategy would be devised with but not limited to the following comp
 
 There will be an economic whitepaper detailing further the algorithms, calculations and staking strategies.
 
-#### 3.6 Governance
+### 3.6 Governance
 
 The overall Acala network is governed by the General Council and specialized councils. Specialized councils would govern specific domains of the network e.g. the Financial Council would govern the financial and risk management of the network, and the Homa Council would govern the Homa protocol.
 
