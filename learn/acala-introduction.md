@@ -73,7 +73,7 @@ Anyone who owns the type of crypto assets supported by the ACALA network can lev
 
 **auction**: is a common auction interface for bidding on an item. How a particular auction is performed and settled is managed by individual implementation of `AuctionHandler`.
 
-The above modules are generic common good utilities that can be used for any projects. They reside in the [Open Runtime Module Library](https://github.com/laminar-protocol/open-runtime-module-library).
+The above modules are generic common good utilities that can be used for any projects. They reside in the [Open Runtime Module Library](https://github.com/open-web3-stack/open-runtime-module-library).
 
 **honzon**: is the proxy module that users will interact with for stablecoin functionalities such as create, update and transfer CDPs.
 
