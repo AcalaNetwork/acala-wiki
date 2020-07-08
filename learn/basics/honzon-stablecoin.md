@@ -4,20 +4,20 @@ description: Stablecoin Protocol - Honzon
 
 # Honzon Stablecoin
 
-* [Overview](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#overview)
-* [Honzon on Mandala Test Network](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#honzon-on-mandala-test-network)
-  * [Via Acala DApp](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#via-acala-dapp)
-    * [Liquidation & Collateralization](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#liquidation--collateralization)
-    * [Create Loan](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#create-loan)
-    * [Update Loan](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#update-loan)
-  * [Via Polkadot UI](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#via-polkadot-ui)
-    * [Check Required Collateral Ratio](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#check-required-collateral-ratio)
-    * [Check Token Prices](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#check-token-prices)
-    * [Create a Self Serviced Loan for aUSD](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#create-a-self-serviced-loan-for-ausd)
-    * [Check Loan Status](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#check-loan-status)
-    * [Withdraw Residual Collateral & Payback Loan](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#withdraw-residual-collateral--payback-loan)
-  * [SDK \(Coming soon\)](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#sdk-coming-soon)
-  * [Check Transaction Details](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin#check-transaction-details)
+* [Overview](https://wiki.acala.network/learn/basics/honzon-stablecoin#overview)
+* [Honzon on Mandala Test Network](https://wiki.acala.network/learn/basics/honzon-stablecoin#honzon-on-mandala-test-network)
+  * [Via Acala DApp](https://wiki.acala.network/learn/basics/honzon-stablecoin#via-acala-dapp)
+    * [Liquidation & Collateralization](https://wiki.acala.network/learn/basics/honzon-stablecoin#liquidation-and-collateralization)
+    * [Create Loan](https://wiki.acala.network/learn/basics/honzon-stablecoin#create-loan)
+    * [Update Loan](https://wiki.acala.network/learn/basics/honzon-stablecoin#update-loan)
+  * [Via Polkadot UI](https://wiki.acala.network/learn/basics/honzon-stablecoin#via-polkadot-ui)
+    * [Check Required Collateral Ratio](https://wiki.acala.network/learn/basics/honzon-stablecoin#check-required-collateral-ratio)
+    * [Check Token Prices](https://wiki.acala.network/learn/basics/honzon-stablecoin#check-token-prices)
+    * [Create a Self Serviced Loan for aUSD](https://wiki.acala.network/learn/basics/honzon-stablecoin#create-a-self-serviced-loan-for-ausd)
+    * [Check Loan Status](https://wiki.acala.network/learn/basics/honzon-stablecoin#check-loan-status)
+    * [Withdraw Residual Collateral & Payback Loan](https://wiki.acala.network/learn/basics/honzon-stablecoin#withdraw-residual-collateral-and-payback-loan)
+  * [SDK \(Coming soon\)](https://wiki.acala.network/learn/basics/honzon-stablecoin#sdk-coming-soon)
+  * [Check Transaction Details](https://wiki.acala.network/learn/basics/honzon-stablecoin#check-transaction-details)
 
 ## Overview
 
@@ -62,13 +62,13 @@ Mandala Test Network available test tokens
 
 #### Create Loan
 
-![Click Img For Create Loan Video](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_appcreateloan.png)
+[![Click Img For Create Loan Video](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_appcreateloan.png)](http://www.youtube.com/watch?v=CjwJgm_yz-I "Acala: Create an aUSD loan")
 
 Click the `Create Loan` button, follow the prompt to select a collateral type, and the amount of aUSD to generate.
 
 #### Update Loan
 
-![Click Img For Update Loan Video](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_appupdateloan.png)
+[![Click Img For Update Loan Video](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_appupdateloan.png)](http://www.youtube.com/watch?v=iEWlY5Kosp8 "Acala: Update aUSD loan")
 
 For the aUSD borrowed, you can pay back, and generate more if there is enough collateral. For the collateral asset, you can deposit more \(but not immediately generate aUSD\), or withdraw available collateral.
 
