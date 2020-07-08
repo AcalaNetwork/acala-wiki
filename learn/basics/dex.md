@@ -7,7 +7,7 @@ description: Acala DeX Protocol
 * [Overview](https://wiki.acala.network/learn/basics/dex#overview)
 * [Guide](https://wiki.acala.network/learn/basics/dex#guide)
   * [Via Acala App](https://wiki.acala.network/learn/basics/dex#via-acala-app)
-  * [Via Polkadot UI](https://wiki.acala.network/learn/basics/dex#via-polkadot-ui)
+  * [Via Polkadot UI](https://wiki.acala.network/learn/basics/dex#via-polkadot-ui){:target=""}
     * [Check Exchange](https://wiki.acala.network/learn/basics/dex#check-exchange)
     * [Swap](https://wiki.acala.network/learn/basics/dex#swap)
 
