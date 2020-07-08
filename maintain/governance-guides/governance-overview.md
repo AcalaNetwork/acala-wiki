@@ -108,7 +108,7 @@ Coming soon...
 
 | Parameter | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| SurplusBufferSize | Balance | Surplus auction buffer 当New surplus auction will be created when suplus &gt; surplus buffer + fixed size | 1,000,000 aUSD |
+| SurplusBufferSize | Balance | Surplus auction buffer. New surplus auction will be created when suplus &gt; surplus buffer + fixed size | 1,000,000 aUSD |
 | SurplusAuctionFixedSize | Balance | Surplus auction size in aUSD | 10000 aUSD |
 | InitialAmountPerDebitAuction | Balance | Initial ACA auction amount in a debt auction | 80000 ACA |
 | DebitAuctionFixedSize | Balance | Debt auction size in aUSD | 10,000 aUSD |

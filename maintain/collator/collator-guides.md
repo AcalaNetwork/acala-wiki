@@ -1,4 +1,4 @@
 # Collator Guides
 
-coming soon.
+Coming Soon!
 
