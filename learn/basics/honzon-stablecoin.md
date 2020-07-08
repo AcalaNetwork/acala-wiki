@@ -49,7 +49,7 @@ Mandala Test Network available test tokens
 
 #### Liquidation & Collateralization
 
- Check important figures for a particular loan:
+Check important figures for a particular loan:
 
 ![Dapp](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_app.png)
 
@@ -62,21 +62,21 @@ Mandala Test Network available test tokens
 
 #### Create Loan
 
-[![Click Img For Create Loan Video](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_appcreateloan.png)](http://www.youtube.com/watch?v=CjwJgm_yz-I "Acala: Create an aUSD loan")
+![Create Loan](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_appcreateloan.png)
 
-Click the `Create Loan` button, follow the prompt to select a collateral type, and the amount of aUSD to generate.
+Click the `Create Loan` button, follow the prompt to select a collateral type, and the amount of aUSD to generate. [Create Loan Video](http://www.youtube.com/watch?v=CjwJgm_yz-I)
 
 #### Update Loan
 
-[![Click Img For Update Loan Video](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_appupdateloan.png)](http://www.youtube.com/watch?v=iEWlY5Kosp8 "Acala: Update aUSD loan")
+![Update Loan](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_appupdateloan.png)
 
-For the aUSD borrowed, you can pay back, and generate more if there is enough collateral. For the collateral asset, you can deposit more \(but not immediately generate aUSD\), or withdraw available collateral.
+For the aUSD borrowed, you can pay back, and generate more if there is enough collateral. For the collateral asset, you can deposit more \(but not immediately generate aUSD\), or withdraw available collateral. [Update Loan Video](http://www.youtube.com/watch?v=iEWlY5Kosp8)
 
 ### Via Polkadot UI
 
 #### Check Required Collateral Ratio
 
- Use `Chain state` -&gt; `cdpEngine` -&gt; `requiredCollateralRatio` to check required collateral ratio for a given token.
+Use `Chain state` -&gt; `cdpEngine` -&gt; `requiredCollateralRatio` to check required collateral ratio for a given token.
 
 ![collateral ratio](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_checkratio.png)
 
@@ -84,13 +84,13 @@ On `Mandala Test Network`, DOT at 160%, and BTC at 150%.
 
 #### Check Token Prices
 
- Use `Chain state` -&gt; `oracle` -&gt; `values` to check price for a given token. Convert the hex value to number.
+Use `Chain state` -&gt; `oracle` -&gt; `values` to check price for a given token. Convert the hex value to number.
 
 ![check price](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_checkprice.png)
 
 #### Create a Self Serviced Loan for aUSD
 
- Use `Extrinsics` -&gt; `honzon` -&gt; `updateVault` to loan out aUSD.
+Use `Extrinsics` -&gt; `honzon` -&gt; `updateVault` to loan out aUSD.
 
 ![create loan](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_createloan.png)
 
@@ -98,7 +98,7 @@ On `Mandala Test Network`, DOT at 160%, and BTC at 150%.
 * `collateral`: amount to deposit as collateral for this loan
 * `debit`: the amount to loan out, note this is not aUSD amount, but a debit unit to account for aUSD owed plus accumulated interest etc.
 
-To get debit to aUSD exchange rate, use `Chain state` -&gt; `cdpEngine` -&gt; `debitExchangeRate`.  On `Mandala Test Network`, the debit to aUSD exchange rate starts at `0.1`.
+To get debit to aUSD exchange rate, use `Chain state` -&gt; `cdpEngine` -&gt; `debitExchangeRate`. On `Mandala Test Network`, the debit to aUSD exchange rate starts at `0.1`.
 
 ![debit rate](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_checkdebitrate.png)
 
@@ -110,7 +110,7 @@ As for the above aUSD example
 
 #### Check Loan Status
 
- Use `Chain state` -&gt; `loan` -&gt; `collaterals` to check collaterals locked in the loan.
+Use `Chain state` -&gt; `loan` -&gt; `collaterals` to check collaterals locked in the loan.
 
 ![Check Loan](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_checkloan.png)
 
@@ -118,7 +118,7 @@ Use `Chain state` -&gt; `loan` -&gt; `debits` to check amount owing, again this 
 
 #### Withdraw Residual Collateral & Payback Loan
 
- Use `Extrinsics` -&gt; `honzon` -&gt; `updateVault` to withdraw collateral and/or payback aUSD loan.
+Use `Extrinsics` -&gt; `honzon` -&gt; `updateVault` to withdraw collateral and/or payback aUSD loan.
 
 ![Withdraw Payback](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_withdrawpayback.png)
 
