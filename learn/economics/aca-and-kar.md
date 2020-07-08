@@ -4,17 +4,17 @@ description: Token Economics
 
 # ACA & KAR
 
-* [What are ACAs & KARs](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#what-are-acas--kars)
-* [Usage of ACAs](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#usage-of-acas)
-  * [Mainnet ACAs](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#mainnet-acas)
-  * [Testnet ACAs](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#testnet-acas)
-  * [Karura Tokens \(KAR\)](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#karura-tokens-kar)
-* [Token Economics Overview](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#token-economics-overview)
-  * [Treasuries and Funds](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#treasuries-and-funds)
-    * [Decentralized Sovereign Wealth Fund \(dSWF\)](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#decentralized-sovereign-wealth-fund-dswf)
-    * [Acala Treasury](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#acala-treasury)
-    * [Honzon Treasury](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#honzon-treasury)
-    * [Homa Treasury](https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR#homa-treasury)
+* [What are ACAs & KARs](https://wiki.acala.network/learn/economics/aca-and-kar#what-are-acas-and-kars)
+* [Usage of ACAs](https://wiki.acala.network/learn/economics/aca-and-kar#usage-of-acas)
+  * [Mainnet ACAs](https://wiki.acala.network/learn/economics/aca-and-kar#mainnet-acas)
+  * [Testnet ACAs](https://wiki.acala.network/learn/economics/aca-and-kar#testnet-acas)
+  * [Karura Tokens \(KAR\)](https://wiki.acala.network/learn/economics/aca-and-kar#karura-tokens-kar)
+* [Token Economics Overview](https://wiki.acala.network/learn/economics/aca-and-kar#token-economics-overview)
+  * [Treasuries and Funds](https://wiki.acala.network/learn/economics/aca-and-kar#treasuries-and-funds)
+    * [Decentralized Sovereign Wealth Fund \(dSWF\)](https://wiki.acala.network/learn/economics/aca-and-kar#decentralized-sovereign-wealth-fund-dswf)
+    * [Acala Treasury](https://wiki.acala.network/learn/economics/aca-and-kar#acala-treasury)
+    * [Honzon Treasury](https://wiki.acala.network/learn/economics/aca-and-kar#honzon-treasury)
+    * [Homa Treasury](https://wiki.acala.network/learn/economics/aca-and-kar#homa-treasury)
 
 ## What are ACAs & KARs
 
