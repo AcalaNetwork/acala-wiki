@@ -1,3 +1,7 @@
+---
+description: Need to be used when integrating applications.
+---
+
 # Type Documentation
 
 ## Mandala TestNet Types

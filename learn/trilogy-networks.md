@@ -1,3 +1,7 @@
+---
+description: The evolution of the Acala Network will be marked by trilogy networks.
+---
+
 # Trilogy Networks
 
 The evolution of the Acala Network will be marked by trilogy networks:

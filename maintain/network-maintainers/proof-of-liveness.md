@@ -1,3 +1,7 @@
+---
+description: To maintain the operation of the Acala.
+---
+
 # Proof-of-Liveness \(PoL\) Node \(Coming Soon\)
 
 ### Proof-of-Liveness \(PoL\) Node \(Coming Soon\)

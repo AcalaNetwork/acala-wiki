@@ -1,3 +1,7 @@
+---
+description: Basic network parameters.
+---
+
 # Network Configuration
 
 ##  Tokens

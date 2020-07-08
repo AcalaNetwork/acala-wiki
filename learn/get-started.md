@@ -50,7 +50,9 @@ There are a number of ways you can generate an account. For most users, we recom
 
 1. Open [the Console UI](https://console.acala.network/#/accounts) and navigate to accounts, ensure it is Mandala Test Network
 
-![ui](https://github.com/AcalaNetwork/Acala/wiki/image/started_ui.png) 2. Click on `Add Account`, put in a `name`, a `password`, and keep the default cryptography option `Schnorrkel (sr25519)`
+ 2. Click on `Add Account`, put in a `name`, a `password`, and keep the default cryptography option `Schnorrkel (sr25519)`
+
+![Polkadot UI](https://github.com/AcalaNetwork/Acala/wiki/image/started_ui.png)
 
 ![create](https://github.com/AcalaNetwork/Acala/wiki/image/started_createacc.png)
 
@@ -74,7 +76,9 @@ The Faucet will drip maximum twice a day to a given account.
 
 Use the [Acala Discord bot](https://discord.gg/Huh7F4p).
 
-Use the [Acala Riot Faucet Bot](https://riot.im/app/#/room/#acala-faucet:matrix.org). ![faucet](https://github.com/AcalaNetwork/Acala/wiki/image/started_faucet.png)
+Use the [Acala Riot Faucet Bot](https://riot.im/app/#/room/#acala-faucet:matrix.org). 
+
+![faucet](https://github.com/AcalaNetwork/Acala/wiki/image/started_faucet.png)
 
 ### Borrow aUSD Stablecoin
 

@@ -1,3 +1,7 @@
+---
+description: Building with Acala at the runtime level using sub-module.
+---
+
 # Deploy Ecosystem Modules
 
 Below is a rough guideline for building with Acala at the runtime level using sub-module:

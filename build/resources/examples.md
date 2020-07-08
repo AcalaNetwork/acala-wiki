@@ -1,5 +1,5 @@
 ---
-description: Some examples of development projects
+description: Examples are helpful to demonstrate patterns of development.
 ---
 
 # Examples

@@ -1,3 +1,7 @@
+---
+description: Here is a guide to set up a node and ways to participate in the Acala.
+---
+
 # Mandala Test Network Maintainers Guide
 
 ### Full Node

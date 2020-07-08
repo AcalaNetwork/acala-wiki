@@ -32,7 +32,7 @@
   * [Deposit & Earn](learn/basics/deposit-and-earn.md)
   * [Oracle](https://wiki.acala.network/maintain/oracle)
   * [Governance](https://wiki.acala.network/maintain/governance-guides)
-  * [Flexible Fee Payment](learn/basics/flexible-fee-payment.md)
+  * [FlexiFee](learn/basics/flexifee.md)
 * [Economics](learn/economics/README.md)
   * [ACA & KAR](learn/economics/aca-and-kar.md)
   * [Parachain Slots Auction](https://wiki.polkadot.network/docs/en/learn-auction)

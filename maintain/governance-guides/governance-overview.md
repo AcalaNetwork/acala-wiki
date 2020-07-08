@@ -1,3 +1,7 @@
+---
+description: The development direction.
+---
+
 # Governance Overview
 
 * [Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#governance)

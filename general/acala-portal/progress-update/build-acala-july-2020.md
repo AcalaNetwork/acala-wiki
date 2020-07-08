@@ -6,7 +6,7 @@ description: >-
 
 # Build Acala \| July 2020
 
-![Image for post](https://miro.medium.com/max/1600/0*nIM9o3JI8LB2jpqH)
+![](https://miro.medium.com/max/1600/0*nIM9o3JI8LB2jpqH)
 
 ## Ecosystem Update <a id="068a"></a>
 
@@ -26,7 +26,7 @@ The event showed the world there is plenty to get very excited about in DeFi: Ac
 * We have upgraded to use [the weight system for transaction fee](https://wiki.polkadot.network/docs/en/learn-transaction-fees) estimation, although it’s still work-in-progress to benchmark all modules, **our oracle infrastructure can support free \(or low fee but safe\) price feed transactions** with **prioritized processing** similar to Quality of Service. This is a significant enhancement that will effectively avoid oracle being stuck due to network congestion that happened on [Black Thursday](https://defipulse.com/blog/defi-status-report-black-thursday/). Find out more on our oracle implementation, see details [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/d804a14101909adcc7d1a563bcf30807cb0f4650/oracle).
 * Coming out of the [IDEO CoLab Product Validation Day](https://medium.com/acalanetwork/acala-joining-product-validation-day-with-ideo-colab-ventures-3735f9592cf6), we have further **enhanced the UX of our web application** — a smoother flow for the stablecoin product, and a drastically simplified instant and liquid staking process i.e. swap DOT to LDOT \(the fungible staking derivative\) for staking.
 
-![Image for post](https://miro.medium.com/max/1600/0*UjO5c7tSWmmN8xWd)
+![](https://miro.medium.com/max/1600/0*UjO5c7tSWmmN8xWd)
 
 ## Events <a id="5222"></a>
 
@@ -34,7 +34,7 @@ The event showed the world there is plenty to get very excited about in DeFi: Ac
 
 **Unitize 2020 \(July 6–10\)** is organized by the SF Blockchain Week and the Block Show with a great lineup of [speakers](https://unitize.online/speakers), such as SEC Commissioner Hon. Hester Peirce, Polkadot Founder Dr. Gavin Wood, Polychain Founder Olaf Carlson-Wee and more. Our co-founder Bette Chen will present the cross-chain financial hub on Polkadot and DAO 3.0. You can register for free [here](https://t.co/kriqqGhBcX?amp=1).
 
-![Image for post](https://miro.medium.com/max/1024/0*sP8IpufL1E-PKtR8)
+![](https://miro.medium.com/max/1024/0*sP8IpufL1E-PKtR8)
 
 **Figment Network**’s Staking Hub hosted an [AMA for Acala](https://twitter.com/StakingHub/status/1276194861838974976?s=20) on July 2, where we answered questions on Acala’s DeFi hub position in Polkadot, collator’s role and reward, initial liquidity provisioning to the stablecoin and DeX and incentive schemes, initial parachain offering and rewarding supporters and more. We’ll share the blog from Figment Network as soon as it’s live.
 

@@ -35,11 +35,11 @@ Liquidity provider is rewarded with **exchange fee** and **an additional reward*
 
  Note: withdrawn amount is NOT token amount, but a share amount reflecting your contribution to a particular liquidity pool.
 
-![app](https://github.com/AcalaNetwork/Acala/wiki/image/depositearn_withdraw.png)
+![](https://github.com/AcalaNetwork/Acala/wiki/image/depositearn_withdraw.png)
 
 #### Withdraw Reward
 
  These are the additional profit share from stability fee revenue to recognize the contribution of DeX liquidity towards stability of aUSD.
 
-![Dapp](https://github.com/AcalaNetwork/Acala/wiki/image/depositearn_reward.png)
+![](https://github.com/AcalaNetwork/Acala/wiki/image/depositearn_reward.png)
 

@@ -10,7 +10,7 @@ By [Acala Network](https://medium.com/u/43f74518f3f4?source=post_page-----6de2a9
 
 Our New Zealand team has returned to the office as the country easing lockdown restrictions. May has been a fruitful month, with highly anticipated Polkadot launch, Acala completing stablecoin development milestone, and a rather successful testnet campaign with overwhelming community participation and support.
 
-![Image for post](https://miro.medium.com/max/1920/1*rZibL9lR7TvBTAPxx1pJrg.jpeg)
+![](https://miro.medium.com/max/1920/1*rZibL9lR7TvBTAPxx1pJrg.jpeg)
 
 ## Ecosystem Update <a id="983b"></a>
 
@@ -20,7 +20,7 @@ Our New Zealand team has returned to the office as the country easing lockdown r
 
 **Mandala \(Acala’s Test Network\) Festival Season \#2:** A campaign that rewards crypto enthusiasts, end-users, node runners, bloggers and developers. We have received overwhelming community participation and support. At its peak, the network had 1400+ nodes running from 43 different cities \(Acala has the most nodes online than any Substrate chain\), nearly 2,000 new accounts, 40,000+ meaningful transactions, totally given out 10,000+ ACA and 700,000 KAR. Read more [here](https://wiki.acala.network/general/contribution-rewards).
 
-![Image for post](https://miro.medium.com/max/600/0*aScSPcE8yAmiHEsr)
+![](https://miro.medium.com/max/600/0*aScSPcE8yAmiHEsr)
 
 ## Development Update <a id="ca97"></a>
 
@@ -52,7 +52,7 @@ Get your ticket [here](https://www.crowdcast.io/e/polkadefi-conference), event w
 
 We look forward to seeing you at the first PolkaDeFi Day!
 
-![Image for post](https://miro.medium.com/max/1131/0*qObEF4zYBEmUif8S)
+![](https://miro.medium.com/max/1131/0*qObEF4zYBEmUif8S)
 
 ## About Acala <a id="75ca"></a>
 

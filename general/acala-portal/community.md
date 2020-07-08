@@ -22,7 +22,7 @@ Issue can be raised directly in respective [Github](https://github.com/AcalaNetw
 
 Acala Ecosystem projects may participate in any number of ways including using and integrating Acala's technologies and products such as aUSD stablecoin, staking derivative Liquid DOT, providing liveness \(validation\), oracle or other services to Acala network, and/or other forms of collaboration mutually agreed upon. Ecosystem projects will enjoy first-line support from the Acala team, technical collaboration, have opportunities to partake in product promotion/incentive programs, and co-marketing etc.
 
-There are multiple ways you can build with Acala, by deploying smart contracts on the Acala Network, developing runtime modules on Acala, or integrating as parachain. Find out more on how to get started, visit [Build with Acala](https://github.com/AcalaNetwork/Acala/wiki/U.-Build-with-Acala).
+There are multiple ways you can build with Acala, by deploying smart contracts on the Acala Network, developing runtime modules on Acala, or integrating as parachain. Find out more on how to get started, visit [Build with Acala](https://wiki.acala.network/build/builders-portal).
 
 Join [Acala Ecosystem Program](https://forms.gle/KahyKRUEJg49ryXj8).
 
