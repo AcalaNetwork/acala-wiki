@@ -30,7 +30,7 @@ Refer to [Deposit & Earn](https://wiki.acala.network/learn/basics/deposit-and-ea
 
 #### Check Exchange
 
- Use `Chain state` -&gt; `dex` -&gt; `liquidityPool` to check the amount of aUSD and the amount of selected token in the pool Convert the hex value to number.
+Use `Chain state` -&gt; `dex` -&gt; `liquidityPool` to check the amount of aUSD and the amount of selected token in the pool Convert the hex value to number.
 
 ![exchange rate](https://github.com/AcalaNetwork/Acala/wiki/image/dex_liquiditypool.png)
 
@@ -40,7 +40,7 @@ Refer to [Deposit & Earn](https://wiki.acala.network/learn/basics/deposit-and-ea
 
 #### Swap
 
- Use `Extrinsics` -&gt; `dex` -&gt; `swapCurrency` to swap tokens.
+Use `Extrinsics` -&gt; `dex` -&gt; `swapCurrency` to swap tokens.
 
 ![swap](https://github.com/AcalaNetwork/Acala/wiki/image/dex_swap.png)
 
