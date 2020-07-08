@@ -4,12 +4,12 @@ description: Acala DeX Protocol
 
 # DeX
 
-* [Overview](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX#overview)
-* [Guide](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX#guide)
-  * [Via Acala App](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX#via-acala-app)
-  * [Via Polkadot UI](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX#via-polkadot-ui)
-    * [Check Exchange](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX#check-exchange)
-    * [Swap](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX#swap)
+* [Overview](https://wiki.acala.network/learn/basics/dex#overview)
+* [Guide](https://wiki.acala.network/learn/basics/dex#guide)
+  * [Via Acala App](https://wiki.acala.network/learn/basics/dex#via-acala-app)
+  * [Via Polkadot UI](https://wiki.acala.network/learn/basics/dex#via-polkadot-ui)
+    * [Check Exchange](https://wiki.acala.network/learn/basics/dex#check-exchange)
+    * [Swap](https://wiki.acala.network/learn/basics/dex#swap)
 
 ## Overview
 

@@ -4,14 +4,14 @@ description: Auctions are one of the stability mechanisms employed by the Honzon
 
 # Auctions
 
-* [Overview](https://github.com/AcalaNetwork/Acala/wiki/6.-Auctions#overview)
-* [Mandala Test Network](https://github.com/AcalaNetwork/Acala/wiki/6.-Auctions#mandala-test-network)
-  * [Surplus Auction](https://github.com/AcalaNetwork/Acala/wiki/6.-Auctions#surplus-auction)
-    * [Start an Auction](https://github.com/AcalaNetwork/Acala/wiki/6.-Auctions#start-an-auction)
-    * [Liquidator](https://github.com/AcalaNetwork/Acala/wiki/6.-Auctions#liquidator)
-    * [Closing an Auction](https://github.com/AcalaNetwork/Acala/wiki/6.-Auctions#closing-an-auction)
-  * [Debit Auction](https://github.com/AcalaNetwork/Acala/wiki/6.-Auctions#debit-auction)
-  * [Collateral Auction](https://github.com/AcalaNetwork/Acala/wiki/6.-Auctions#collateral-auction)
+* [Overview](https://wiki.acala.network/learn/basics/auctions#overview)
+* [Mandala Test Network](https://wiki.acala.network/learn/basics/auctions#mandala-test-network)
+  * [Surplus Auction](https://wiki.acala.network/learn/basics/auctions#surplus-auction)
+    * [Start an Auction](https://wiki.acala.network/learn/basics/auctions#start-an-auction)
+    * [Liquidator](https://wiki.acala.network/learn/basics/auctions#liquidator)
+    * [Closing an Auction](https://wiki.acala.network/learn/basics/auctions#closing-an-auction)
+  * [Debit Auction](https://wiki.acala.network/learn/basics/auctions#debit-auction)
+  * [Collateral Auction](https://wiki.acala.network/learn/basics/auctions#collateral-auction)
 
 ## Overview
 

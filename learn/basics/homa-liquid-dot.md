@@ -4,15 +4,15 @@ description: Staking Liquidity Protocol - Homa
 
 # Homa Liquid DOT
 
-* [Overview](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#overview)
-  * [Liquid DOT](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#liquid-dot)
-  * [Early Unbonding](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#early-unbonding)
-  * [Staking Pool](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#staking-pool)
-  * [L-DOT Holder Voting for Validators](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#l-dot-holder-voting-for-validators)
-* [Mandala Test Network](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#mandala-test-network)
-  * [Via Web DApp](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#via-web-dapp)
-    * [Deposit DOT](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#deposit-dot)
-    * [Redeem DOT](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT#redeem-dot)
+* [Overview](https://wiki.acala.network/learn/basics/homa-liquid-dot#overview)
+  * [Liquid DOT](https://wiki.acala.network/learn/basics/homa-liquid-dot#liquid-dot)
+  * [Early Unbonding](https://wiki.acala.network/learn/basics/homa-liquid-dot#early-unbonding)
+  * [Staking Pool](https://wiki.acala.network/learn/basics/homa-liquid-dot#staking-pool)
+  * [L-DOT Holder Voting for Validators](https://wiki.acala.network/learn/basics/homa-liquid-dot#l-dot-holder-voting-for-validators)
+* [Mandala Test Network](https://wiki.acala.network/learn/basics/homa-liquid-dot#mandala-test-network)
+  * [Via Web DApp](https://wiki.acala.network/learn/basics/homa-liquid-dot#via-web-dapp)
+    * [Deposit DOT](https://wiki.acala.network/learn/basics/homa-liquid-dot#deposit-dot)
+    * [Redeem DOT](https://wiki.acala.network/learn/basics/homa-liquid-dot#redeem-dot)
 
 ## Overview
 

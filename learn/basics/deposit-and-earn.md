@@ -1,15 +1,15 @@
 ---
-description: Liquidity provider is rewarded with exchange fee and an additional reward
+description: Liquidity provider is rewarded with exchange fee and an additional reward.
 ---
 
 # Deposit & Earn
 
-* [Overview](https://github.com/AcalaNetwork/Acala/wiki/8.-Deposit-&-Earn#overview)
-* [Mandala Test Network](https://github.com/AcalaNetwork/Acala/wiki/8.-Deposit-&-Earn#mandala-test-network)
-  * [Via Web DApp](https://github.com/AcalaNetwork/Acala/wiki/8.-Deposit-&-Earn#via-web-dapp)
-    * [Deposit Liquidity](https://github.com/AcalaNetwork/Acala/wiki/8.-Deposit-&-Earn#deposit-liquidity)
-    * [Withdraw Liquidity](https://github.com/AcalaNetwork/Acala/wiki/8.-Deposit-&-Earn#withdraw-liquidity)
-    * [Withdraw Reward](https://github.com/AcalaNetwork/Acala/wiki/8.-Deposit-&-Earn#withdraw-reward)
+* [Overview](https://wiki.acala.network/learn/basics/deposit-and-earn#overview)
+* [Mandala Test Network](https://wiki.acala.network/learn/basics/deposit-and-earn#mandala-test-network)
+  * [Via Web DApp](https://wiki.acala.network/learn/basics/deposit-and-earn#via-web-dapp)
+    * [Deposit Liquidity](https://wiki.acala.network/learn/basics/deposit-and-earn#deposit-liquidity)
+    * [Withdraw Liquidity](https://wiki.acala.network/learn/basics/deposit-and-earn#withdraw-liquidity)
+    * [Withdraw Reward](https://wiki.acala.network/learn/basics/deposit-and-earn#withdraw-reward)
 
 ## Overview
 
