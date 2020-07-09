@@ -51,7 +51,7 @@ Mandala Test Network available test tokens
 
 Check important figures for a particular loan:
 
-![Dapp](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_app.png)
+![Dapp](../../.gitbook/assets/honzon_app.png)
 
 * `liquidation price`: if a collateral price drops to or under the `liquidation price`, then the loan is unsafe
 * `liquidation ratio`: if the collateral ratio of a loan is below this ratio, then the loan is unsafe
