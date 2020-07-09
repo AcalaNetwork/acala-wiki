@@ -26,6 +26,6 @@ If you're looking for an introduction to Acala please [see here](https://wiki.ac
 ### Resources
 
 * [Community / Ecosystem](https://wiki.acala.network/general/acala-portal/community) - List of community rooms and channels to talk to others about Acala.
-* [News](https://wiki.acala.network/general/acala-portal/news) - Links to the hottest news about Acala, aggregated every week.
+* [News](https://wiki.acala.network/general/acala-portal/news) - Links to the hottest news about Acala, aggregated the latest updates.
 * [Contributing Guide](https://wiki.acala.network/general/contributing) - Rules for contributing to the wiki.
 
