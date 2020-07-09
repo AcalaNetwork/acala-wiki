@@ -36,7 +36,7 @@ Surplus auction criteria
  2. Surplus is over certain limit:  surplusPool > surplusBufferSize + surplusAuctionFixedSize
 ```
 
-![](https://github.com/AcalaNetwork/Acala/wiki/image/auction_treasuryvalues.png)
+![](../../.gitbook/assets/auction_treasuryvalues.png)
 
 This is checked each block. Whenever the criteria is met, a new auction is created.  External actors e.g. liquidators can monitor the `NewSurplusAuction` event.
 
@@ -46,17 +46,17 @@ This is checked each block. Whenever the criteria is met, a new auction is creat
 
 Use `Extrinsics` - `auction.Bid` to participate in auction.  The Console UI is more as an illustration than useful, as liquidators would be more likely as a bot or participate via a DApp UI \(coming soon\).
 
-![](https://github.com/AcalaNetwork/Acala/wiki/image/auction_bid.png)
+![](../../.gitbook/assets/auction_bid.png)
 
 #### Closing an Auction
 
  Every new bid will increment bidding price more than the `minimumIncrementSize`, and extend auction time by the `auctionTimeToClose`. Until then if there is no more new bidders, the auction will close with the highest bidder winning. If the overall auction time reaches the `auctionDurationSoftCap`, then the `auctionTimeToClose` will half, and the `minimumIncrementSize` will double to expedite the process.
 
-![](https://github.com/AcalaNetwork/Acala/wiki/image/auction_surplusvalues.png)
+![](../../.gitbook/assets/auction_surplusvalues.png)
 
  Monitor the `AuctionDealed` event for closing an auction. \[TODO\] More events will be added.
 
-![](https://github.com/AcalaNetwork/Acala/wiki/image/auction_auctiondealed.png)
+![](../../.gitbook/assets/auction_auctiondealed.png)
 
 ### Debit Auction
 
@@ -75,17 +75,17 @@ If a loan is unsafe, that is the collateral ratio of this loan is below the `liq
 
  Use `Chain state` -&gt; `cdpEngine` -&gt; `liquidationRatio` to check.
 
-![liquidation ratio](https://github.com/AcalaNetwork/Acala/wiki/image/honzon_liquidationratio.png)
+![liquidation ratio](../../.gitbook/assets/honzon_liquidationratio.png)
 
 Use `Extrinsics` -&gt; `honzon` -&gt; `liquidationPenalty` to check penalty. As an example, the `liquidation ratio` is 10%. It is applied on top of the debit amount and paid to the liquidator.
 
  Use `Extrinsics` -&gt; `honzon` -&gt; `liquidate` to liquidate a loan at danger. The liquidation action might trigger a collateral auction if it cannot complete the liquidation via Acala DeX within required slippage. \[TODO\] more details on DeX.
 
-![liquidate](https://github.com/AcalaNetwork/Acala/wiki/image/auction_liquidate.png)
+![liquidate](../../.gitbook/assets/auction_liquidate.png)
 
 You can monitor the `NewCollateralAuction` to participate in one. 
 
-![liquidate](https://github.com/AcalaNetwork/Acala/wiki/image/auction_liquidateevents.png)
+![liquidate](../../.gitbook/assets/auction_liquidateevents.png)
 
 The `target price` for the auction is made of `amount owed` + `penalty`. If bid price is greater than the `target`, then a reverse auction is triggered. Bidders would bid for the same price, how little asset they are willing to accept.
 
