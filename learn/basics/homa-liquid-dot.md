@@ -49,9 +49,9 @@ L-DOT holders have rights to vote for favorite validators using a selection mech
 
 #### Deposit DOT
 
-![Dapp](https://github.com/AcalaNetwork/Acala/wiki/image/liquiddot_mint.png)
+![Dapp](../../.gitbook/assets/liquiddot_mint.png)
 
 #### Redeem DOT
 
-![](https://github.com/AcalaNetwork/Acala/wiki/image/liquiddot_redeem.png)
+![](../../.gitbook/assets/liquiddot_redeem.png)
 

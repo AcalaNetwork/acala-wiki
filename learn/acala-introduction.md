@@ -65,7 +65,7 @@ Anyone who owns the type of crypto assets supported by the ACALA network can lev
 
 ## 2. Honzon - The Stablecoin Protocol
 
-![The Honzon Protocol](https://github.com/AcalaNetwork/Acala/wiki/image/Acala_honzon_protocol.jpeg)
+![The Honzon Protocol](../.gitbook/assets/acala_honzon_protocol.jpeg)
 
 **tokens**: while the `pallet-balances` module handles the native token on the Acala Network, the `orml-tokens` module supports additional multiple assets on the chain, to manage balance and transfer tokens.
 
@@ -272,7 +272,7 @@ Through the Homa Protocol, staked DOTs become fungible and liquid L-DOTs that ex
 
 Users can essentially mint L-DOTs by supplying DOTs to the staking pool managed by the Homa Protocol, and redeem L-DOTs for the underlying DOTs. The exchange rate between L-DOTs and the underlying DOTs are likely to increase over time, as staking rewards are accrued by validating and nominating, and is equal to
 
-![](https://github.com/AcalaNetwork/Acala/wiki/image/exchangerate.png)
+![](../.gitbook/assets/exchangerate.png)
 
 The effective profit/loss, however, is determined by various factors including but not limited to
 

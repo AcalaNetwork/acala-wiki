@@ -10,13 +10,13 @@ April has been a month of strict lockdown for those of us in New Zealand and Eur
 
 And April was about launching a revamped web DApp, preparing Mandala Testnet Candidate 3 with exciting new products — a staking liquidity protocol for tokenizing staked DOT, and a savings product, as well as welcoming new ecosystem collaborations.
 
-![](https://miro.medium.com/max/1920/1*rZibL9lR7TvBTAPxx1pJrg.jpeg)
+![](../../../.gitbook/assets/1_rzibl9lr7tvbtapxx1pjrg.jpeg)
 
 ## Development Update <a id="c66e"></a>
 
 Mandala Test Network Candidate 3 \(TC3\) will be launched with the following new features: Loan out aUSD with DOT, BTC and Liquid DOT!
 
-![](https://miro.medium.com/max/2864/1*52tHSnwfg2Sye_kXU1oQkw.png)
+![](../../../.gitbook/assets/1_52thsnwfg2sye_kxu1oqkw.png)
 
 * **Homa staking liquidity protocol**: you can get fungible Liquid DOT \(L-DOT\) by staking with Homa trustlessly. L-DOT can be used as collateral for aUSD stablecoin. This is still a PoC as delegated staking from parachain to relay chain is mocked lying in wait for XCMP readiness. [Read more here](https://wiki.acala.network/learn/basics/homa-liquid-dot).
 * **Revamped** [**web DApp**](https://apps.acala.network/) with better design, full-fledged DeX features, and more. It is still work in progress, do expect crudity and bugs.
@@ -26,7 +26,7 @@ Mandala Test Network Candidate 3 \(TC3\) will be launched with the following new
 
 ## Ecosystem Update <a id="31ff"></a>
 
-![](https://miro.medium.com/max/4000/1*NDKKa_KA0xM_DyiRV2hjYw.jpeg)
+![](../../../.gitbook/assets/1_ndkka_ka0xm_dyirv2hjyw.jpeg)
 
 We welcome new ecosystem collaborators and partners on board to build an open finance stack together.
 
@@ -37,7 +37,7 @@ We welcome new ecosystem collaborators and partners on board to build an open fi
 
 ## Events <a id="e485"></a>
 
-![](https://miro.medium.com/max/1798/1*dxvZtbBjYteMW4QIX4G22w.png)
+![](../../../.gitbook/assets/1_dxvztbbjytemw4qix4g22w.png)
 
 * [Ruitao Su](https://medium.com/u/16c79136e2c8?source=post_page-----1dada8d2f239----------------------), Co-Founder of Acala & Laminar, will give a talk on cross-chain DeFi on Polkadot at [Ready Layer One](https://hs-7522932.t.hubspotfree.net/e2t/c/*W5jgPpg210Z7kW5kJV9Q6Cj5fd0/*N16Qtgp-rw9yW2PZ6gn2734Hg0/5/f18dQhb0S8318XJ9qWN7rHT1THyjJqVS9TqF2B8g46N3hHh9_VMsQMVnQ9Qq8-tSw_W3250Rl1BvgkKW8Vmvs58HbRxPW8j-gCZ55nSC9W1VJH714c2Rr9W7MPDNB69NG1wW6PqSg98mQMYTW7NM5zG748L3LW3X0g0y6bp1cMVbq5fx4TKc2lW6QxKym2_hq10W7ZcMZH4MjsD3VN-Nn263PMX8W3zXpJL5slRmrN87wLynRw9KXVcW2MX3TsngfW6ZH3H_61JBJnV217mw2zq6YPW8rh_X35wr89QW4VwR174VLgJ3W5vq34_3g7YfWW7fgKPf1bBvW3W403w0f6YRPV1W53NYtc4PLwTVW7pGBJq1xh_ZKW7PxbcB1P_7jwW1M7g_g6_989lW2nRzM35700__W21Jh-l3ntDdrW5_5hcZ6X8rtQW3g_5Qd5_70J1W3YSbp332wFFHw1NsfDKk6vf136wc302) at _**Mon May 4th 3pm PST**_ amongst other layer one protocols like Filecoin, Tezos, NEAR, and Cosmos.
 * He will also join Jack Platts from W3F and Vance Spencer from Framework Ventures on a panel “The Power of Cross-Chain DeFi Applications” at [DeFi Virtual Summit by Dystopia](https://hs-7522932.t.hubspotfree.net/e2t/c/*W5jgPpg210Z7kW5kJV9Q6Cj5fd0/*N4t8J4HKpDVpW2zhxZy5R4Pqt0/5/f18dQhb0Smj38XJ8yvN7rHT1THyjJqVS9TqF2B8g46N3hHhdGXL0jYVnQ9Qq8-2y0hW1Sz80l55pfnrW54GzCm549v-lW54SyRr1RQqhMW5p683j8Wm1whW2MznrN567bYVW5lKvt_5420y5MJVPYMVVW1HW32p-C34cMfVrW3Kqlz72KFZxKW3Z79f55rkYxhVMMQxX80gSRfW97rB1b8yxLlyN3NNR02W7cwnW4qPrSy3LX-PXW6Pcp084wKB-LVgvlbC3Mb5pNN5CzLdF84czHW3My3dT2F0fF5N1q7K_b_kK5qW2vmp6494wCzwW5qL7GC61LR6gW5q9V5n4X4DZgW1rMcNG4qYbyGV8WHw87wTY8FW568dX12Wc3KhVcZLWR86l1YTW8fcxNH5lKZhzW3HyjvC8T6tpMN8WxWYtWDM01W798BF44wBdQpW769mGj1TK5ldW7Flgrs5xd2DXW1Nhjrd6RNLDlN2dpqD7cTSRKVcSn6G2h8vLV102) _**Sat May 2nd 10pm PST**_.
@@ -54,7 +54,7 @@ We have established a [collective councilor membership](https://kusama.polkassem
 
 > Verified Account: HSNBs8VHxcZiqz9NfSQq2YaznTa8BzSvuEWVe4uTihcGiQN
 
-![](https://miro.medium.com/max/4000/1*WXB_-S0JACexv7JzOah4ZQ.jpeg)
+![](../../../.gitbook/assets/1_wxb_-s0jacexv7jzoah4zq.jpeg)
 
 ## Build DeFi Together <a id="01af"></a>
 
@@ -66,5 +66,5 @@ To stay informed of the Acala launch, subscribe to our [newsletter](https://shar
 
 [Acala is a first-of-its-kind decentralized finance consortium](https://medium.com/acalanetwork/acala-powering-cross-blockchain-open-finance-applications-on-polkadot-abb6075a6edf) with a vision to create cross-chain open finance infrastructure for the [Polkadot](https://polkadot.network/) ecosystem. The Acala Network is a dual-protocol network: a decentralized cross-chain capable multi-collateralized stablecoin protocol, Honzon, and a trustless tokenized staking liquidity protocol, Homa. Acala aims to bring stability and liquidity to the crypto world and beyond. 
 
-![The Acala Stablecoin Project is proudly supported by the Web3 Foundation](https://miro.medium.com/max/750/0*BBJ4ffRi9G4PVJin)
+![](../../../.gitbook/assets/0_bbj4ffri9g4pvjin.jpeg)
 

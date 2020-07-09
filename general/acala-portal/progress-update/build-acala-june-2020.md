@@ -10,7 +10,7 @@ By [Acala Network](https://medium.com/u/43f74518f3f4?source=post_page-----6de2a9
 
 Our New Zealand team has returned to the office as the country easing lockdown restrictions. May has been a fruitful month, with highly anticipated Polkadot launch, Acala completing stablecoin development milestone, and a rather successful testnet campaign with overwhelming community participation and support.
 
-![](https://miro.medium.com/max/1920/1*rZibL9lR7TvBTAPxx1pJrg.jpeg)
+![](../../../.gitbook/assets/1_rzibl9lr7tvbtapxx1pjrg%20%281%29.jpeg)
 
 ## Ecosystem Update <a id="983b"></a>
 
@@ -20,7 +20,7 @@ Our New Zealand team has returned to the office as the country easing lockdown r
 
 **Mandala \(Acala’s Test Network\) Festival Season \#2:** A campaign that rewards crypto enthusiasts, end-users, node runners, bloggers and developers. We have received overwhelming community participation and support. At its peak, the network had 1400+ nodes running from 43 different cities \(Acala has the most nodes online than any Substrate chain\), nearly 2,000 new accounts, 40,000+ meaningful transactions, totally given out 10,000+ ACA and 700,000 KAR. Read more [here](https://wiki.acala.network/general/contribution-rewards).
 
-![](https://miro.medium.com/max/600/0*aScSPcE8yAmiHEsr)
+![](../../../.gitbook/assets/0_ascspce8yamihesr.gif)
 
 ## Development Update <a id="ca97"></a>
 
@@ -40,7 +40,7 @@ Acala Foundation is now a council member of Kusama, holding a first-of-its-kind 
 
 Please continue to support us and **Vote Acala — DeFi for All** [via Kusama Council](https://polkadot.js.org/apps/#/council) **👇**
 
-![Verified Account: HSNBs8VHxcZiqz9NfSQq2YaznTa8BzSvuEWVe4uTihcGiQN](https://miro.medium.com/max/1280/0*8wB2ZR5m1vZ22g7i)
+![Verified Account: HSNBs8VHxcZiqz9NfSQq2YaznTa8BzSvuEWVe4uTihcGiQN](../../../.gitbook/assets/0_8wb2zr5m1vz22g7i.png)
 
 ## Events <a id="f3bd"></a>
 
@@ -52,7 +52,7 @@ Get your ticket [here](https://www.crowdcast.io/e/polkadefi-conference), event w
 
 We look forward to seeing you at the first PolkaDeFi Day!
 
-![](https://miro.medium.com/max/1131/0*qObEF4zYBEmUif8S)
+![](../../../.gitbook/assets/0_qobef4zybemuif8s.jpeg)
 
 ## About Acala <a id="75ca"></a>
 

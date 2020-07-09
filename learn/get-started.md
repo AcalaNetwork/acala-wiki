@@ -44,7 +44,9 @@ There are a number of ways you can generate an account. For most users, we recom
 3. Enter a name and type a password
 4. Click \`Add the account with the generated seed
 5. Click `Export` of the newly created account and keep it in a safe place
-6. To copy the address, just click on the icon of the account ![extension](https://github.com/AcalaNetwork/Acala/wiki/image/started_extension.png)
+6. To copy the address, just click on the icon of the account
+
+![](../.gitbook/assets/started_extension.png)
 
 #### Using Polkadot UI
 
@@ -52,9 +54,9 @@ There are a number of ways you can generate an account. For most users, we recom
 
  2. Click on `Add Account`, put in a `name`, a `password`, and keep the default cryptography option `Schnorrkel (sr25519)`
 
-![Polkadot UI](https://github.com/AcalaNetwork/Acala/wiki/image/started_ui.png)
+![Polkadot UI](../.gitbook/assets/started_ui.png)
 
-![create](https://github.com/AcalaNetwork/Acala/wiki/image/started_createacc.png)
+![create](../.gitbook/assets/started_createacc.png)
 
 1. Click `Save`, and backup the account in a safe place
 2. Click on the icon of the account to copy the address
@@ -78,7 +80,7 @@ Use the [Acala Discord bot](https://discord.gg/Huh7F4p).
 
 Use the [Acala Riot Faucet Bot](https://riot.im/app/#/room/#acala-faucet:matrix.org). 
 
-![faucet](https://github.com/AcalaNetwork/Acala/wiki/image/started_faucet.png)
+![faucet](../.gitbook/assets/started_faucet.png)
 
 ### Borrow aUSD Stablecoin
 

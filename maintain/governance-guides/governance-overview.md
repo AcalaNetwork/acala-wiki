@@ -83,9 +83,13 @@ At this stage, decisions of the Acala Foundation regarded the network is made tr
 
 Four council chambers have been implemented: General Council, Honzon Council, Homa Council, Technical Council. They currently work alongside with `sudo` for functionality testing purposes only. 'Real' governance will take effect in our canary network **Karura** with real stake.
 
-**Council Chambers** ![app](https://github.com/AcalaNetwork/Acala/wiki/image/gov_council.png)
+**Council Chambers** 
 
-**Council Motions** ![app](https://github.com/AcalaNetwork/Acala/wiki/image/gov_motion.png)
+![Dapp](../../.gitbook/assets/gov_council.png)
+
+**Council Motions** 
+
+![Dapp](../../.gitbook/assets/gov_motion.png)
 
 We are watching closely good practices and tools for documenting governance proposals, gathering opinions and debates, publishing voting result and execution status etc. As an example, [Polkassembly](https://kusama.polkassembly.io/) seems to be good place to start, and we might consider integrating or using similar approach for Acala governance.
 

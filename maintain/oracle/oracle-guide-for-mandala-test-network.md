@@ -10,7 +10,7 @@ Below are simple guidelines for
 
 ### Check Membership \(via Polkadot-UI\)
 
-![Check](https://github.com/AcalaNetwork/Acala/wiki/image/oracle_membership.png)
+![Check](../../.gitbook/assets/oracle_membership.png)
 
 ### Request for Membership
 
@@ -26,12 +26,7 @@ The default oracle server we are using is open sourced [here](https://github.com
 * `FEED_ACALA`: as `true`
 * `CONSOLE_LOG`: as `true` for logging
 
- 
+![Check](../../.gitbook/assets/oracle_successlog.png)
 
-![Check](https://github.com/AcalaNetwork/Acala/wiki/image/oracle_successlog.png)
-
-  
-
-
-![Check](https://github.com/AcalaNetwork/Acala/wiki/image/oracle_tx.png)
+![Check](../../.gitbook/assets/oracle_tx.png)
 
