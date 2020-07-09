@@ -24,7 +24,7 @@ Refer to [Deposit & Earn](https://wiki.acala.network/learn/basics/deposit-and-ea
 
 ### Via Acala App
 
-![Dapp](https://github.com/AcalaNetwork/Acala/wiki/image/dex_app.png)
+![Dapp](../../.gitbook/assets/dex_app.png)
 
 ### Via Polkadot UI
 
@@ -32,7 +32,7 @@ Refer to [Deposit & Earn](https://wiki.acala.network/learn/basics/deposit-and-ea
 
 Use `Chain state` -&gt; `dex` -&gt; `liquidityPool` to check the amount of aUSD and the amount of selected token in the pool Convert the hex value to number.
 
-![exchange rate](https://github.com/AcalaNetwork/Acala/wiki/image/dex_liquiditypool.png)
+![exchange rate](../../.gitbook/assets/dex_liquiditypool.png)
 
 * number of DOT tokens `0x00000000000000003d055121747a4273` as `4397009815327097459`
 * number of aUSD tokens `0x000000000000003babfb8f48dfeed58e` as `1100750556691660985742`
@@ -42,7 +42,7 @@ Use `Chain state` -&gt; `dex` -&gt; `liquidityPool` to check the amount of aUSD 
 
 Use `Extrinsics` -&gt; `dex` -&gt; `swapCurrency` to swap tokens.
 
-![swap](https://github.com/AcalaNetwork/Acala/wiki/image/dex_swap.png)
+![swap](../../.gitbook/assets/dex_swap.png)
 
 * `Supply` is the token you pay
 * `Target` is the token you want to buy, target price also covers for slippage
