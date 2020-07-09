@@ -4,5 +4,91 @@ description: This page contains basic information about running a Acala client.
 
 # Node Management
 
-\[TODO\]
+This page contains basic information about running a Acala client. There are a lot of ways to obtain/run a client, e.g. compiling from source, running in Docker, or downloading a binary. This guide will always refer to the executable as `acala`.
+
+**Always refer to the client's help `acala --help` for the most up-to-date information.**
+
+### Basic Node Operations
+
+**Selecting a chain**
+
+Use the `--chain <chainspec>` option to select the chain. Can be `mandala` or a custom chain spec. By default, the client will start Polkadot.
+
+**Archive node**
+
+An archive node does not prune any block or state data. Use the `--archive` flag. Certain types of nodes, like validators and sentries, must run in archive mode. Likewise, all events are cleared from state in each block, so if you want to store events then you will need an archive node.
+
+**Exporting blocks**
+
+To export blocks to a file, use `export-blocks`. Export in JSON \(default\) or binary \(`--binary true`\).
+
+```text
+acala export-blocks --from 0 <output_file>
+```
+
+**RPC ports**
+
+Use the `--rpc-external` flag to expose RPC ports and `--ws-external` to expose websockets. Not all RPC calls are safe to allow and you should use an RPC proxy to filter unsafe calls. Select ports with the `--rpc-port` and `--ws-port` options. To limit the hosts who can access, use the `--rpc-cors` and `--ws-cors` options.
+
+**Execution**
+
+The runtime must compile to WebAssembly and is stored on-chain. If the client's runtime is the same spec as the runtime that is stored on-chain, then the client will execute blocks using the client binary. Otherwise, the client will execute the Wasm runtime.
+
+Therefore, when syncing the chain, the client will execute blocks from past runtimes using their associated Wasm binary. This feature also allows forkless upgrades: the client can execute a new runtime without updating the client.
+
+Acala client has two Wasm execution methods, interpreted \(default\) and compiled. Set the preferred method to use when executing Wasm with `--wasm-execution <Interpreted|Compiled>`. Compiled execution will run much faster, especially when syncing the chain, but is experimental and may use more memory/CPU. A reasonable tradeoff would be to sync the chain with compiled execution and then restart the node with interpreted execution.
+
+### File Structure
+
+The node stores a number of files in: `/home/$USER/.local/share/acala/chains/<chain name>/`. You can set a custom path with `--base-path <path>`.
+
+**`keystore`**
+
+The keystore stores session keys, which are important for validator operations.
+
+* [Substrate documentation](https://substrate.dev/docs/en/knowledgebase/learn-substrate/session-keys)
+
+**`db`**
+
+The database stores blocks and the state trie. If you want to start a new machine without resyncing, you can stop your node, back up the DB, and move it to a new machine.
+
+To delete your DB and re-sync from genesis, run:
+
+```text
+acala purge-chain
+```
+
+### Monitoring and Telemetry
+
+**Node status**
+
+You can check the node's health via RPC with:
+
+```text
+curl -H "Content-Type: application/json" --data '{ "jsonrpc":"2.0", "method":"system_health", "params":[],"id":1 }' localhost:9933 
+```
+
+**Logs**
+
+The Acala client has a number of log targets. The most interesting to users may be:
+
+* `telemetry`
+* `txpool`
+* `usage`
+
+Other targets include: `db, gossip, peerset, state-db, state-trace, sub-libp2p, trie, wasm-executor, wasm-heap`.
+
+The log levels, from least to most verbose, are:
+
+* `error`
+* `warn`
+* `info`
+* `debug`
+* `trace`
+
+All targets are set to `info` logging by default. You can adjust individual log levels using the `--log (-l short)` option, for example `-l afg=trace,sync=debug` or globally with `-ldebug`.
+
+**Telemetry & Metrics**
+
+The Acala client connects to telemetry by default. You can disable it with `--no-telemetry`, or connect only to specified telemetry servers with the `--telemetry-url` option \(see the help options for instructions\). Connecting to public telemetry may expose information that puts your node at higher risk of attack. You can run your own, private [telemetry server](https://github.com/paritytech/substrate-telemetry) or deploy a `substrate-telemetry` instance to a Kubernetes cluster using [this Helm chart](https://github.com/w3f/substrate-telemetry-chart).
 
