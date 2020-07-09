@@ -4,6 +4,11 @@
 In alphabetical order.
 {% endhint %}
 
+## Founding Members
+
+* [Laminar](https://laminar.one/)
+* [Polkawallet](https://polkawallet.io/)
+
 ## **Partners**
 
 * [Berkeley Xcelerator](https://www.xcelerator.berkeley.edu/)
