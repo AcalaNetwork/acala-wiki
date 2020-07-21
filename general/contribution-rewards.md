@@ -298,7 +298,7 @@ The total prize pool is capped at 40,000 ACA and 2,000,000 KAR, and Acala reserv
 
 Generally, a bug that poses significant vulnerability or causing systemic defects would be eligible. 1. Open an issue in Github, provide as much information as you can, including a description of the bug, its potential impact, steps for reproducing it 2. Include your Acala Mandala Address for prize giving in the Github issue 3. Submit the issue to [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY\_RUNTIME\_BUG
 
-**PRIZE** **Total Prize Pool**: 66,666 ACA and 3,333,300 KAR, and Acala reserves the right to extend it further.
+**PRIZE** **Total Prize Pool**: 16,666 ACA and 833,333 KAR, and Acala reserves the right to extend it further.
 
 Bugs are judged on significance and severity by the Acala Engineering team, and are awarded based roughly on the levels below:
 
@@ -314,7 +314,7 @@ Bugs are judged on significance and severity by the Acala Engineering team, and 
 
 Generally, a bug that poses significant vulnerability or causing systemic defects would be eligible. 1. Open an issue in Github, provide as much information as you can, including a description of the bug, its potential impact, steps for reproducing it 2. Include your Acala Mandala Address for prize giving in the Github issue 3. Submit to the [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY\_UI\_BUG
 
-**PRIZE** **Total Prize Pool**: 6 2,000 ACA and 100,000 KAR, and Acala reserves the right to extend it further.
+**PRIZE** **Total Prize Pool**: 2,000 ACA and 100,000 KAR, and Acala reserves the right to extend it further.
 
 Bugs are judged on significance and severity by the Acala Engineering team, and are awarded based roughly on the levels below:
 
