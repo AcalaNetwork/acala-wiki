@@ -24,7 +24,7 @@ description: Basic network parameters.
   <tbody>
     <tr>
       <td style="text-align:left">ACA</td>
-      <td style="text-align:left">u128</td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">aUSD</td>
