@@ -20,13 +20,307 @@ Festival-goers and contributors, have fun, learn & break things, behold & catch 
 
 #### -Week 1: User Participation
 
+No. of Qualified Users: 10,525 \(&gt;5,000\),  
+Lucky Draw: 20%,  
+Number of lucky accounts: 2105,  
+Reward for each lucky account: 9.5 ACA, 9.5 KAR.  
+List of winning accounts: [Google List](https://docs.google.com/spreadsheets/d/1RRJfDDpigMsiFKocTrkurJrG43f4d163WjErWErfdNQ/edit?usp=sharing)
+
 #### -Week 2: Trading Competition
+
+As of 10th Aug, the top 10 traders are as follows, they will share the reward pool. Congrats for all winners! Also well done on everyone who has participated, there will be more yield farming opportunities once Acala is live, and your effort will be rewarded 🎉
+
+| \# | Top Trader Address | Profit Margin 100% |
+| :--- | :--- | :--- |
+| 1 | 5G6ud7FEZZuFXtGX7rG9Vpq1w575w6NHkEQfzGZpKdaDbFGo | 504.9 |
+| 2 | 5Dd8SGx5FyYxCgJtUC3MWdqCPB9QiAADVHWTy9ztVxqLaT1Y | 274.9 |
+| 3 | 5HgXhg8HBUZQmCPumRMztC9vsKYk1CWfzmRUZJVaXnEDMEVS | 262.8 |
+| 4 | 5E1rKcxMf2fqrZh1J3UgBKTGxuvAz8Y699THMtxMXeg5nDv4 | 215.3 |
+| 5 | 5CRwrzRYhnUw2uSZvTy6h4dogYQYx7bV6sNnkTocpanBSt3T | 204.8 |
+| 6 | 5DfM8dtKWwURKjpQBopS6GudCr9qRYq1KgBHVCmbmKkqdMeR | 199.1 |
+| 7 | 5FPBkZKmB7UCnEyJF78cpW9nczUyUMgn5vhesHBnfoptfsdC | 198.4 |
+| 8 | 5GzkBJDZLhpaqfHq6sbB82L7tiGCcBVwd8LjxhPAT72PSdRk | 198.2 |
+| 9 | 5EKsrAsRAfQM9wyR9sRFVqNcwQCLQyVBjLMuSr2GqYE9JPUh | 193.4 |
+| 10 | 5FhA3c1pw2zwnJRxNQSQfv8nYMpNNSopgSuLc5bZ2MVX6vTC | 170.9 |
 
 #### -Week 3: Black Thursday Simulation
 
+Number of winners: 200  
+The reward for each lucky account: 20 ACA + 20 KAR
+
+| Winner Address |
+| :--- |
+| 5C5SQQH3cGCHjat3gQ1naELHWQLGRuiRGpCYfe1rrLMZuNWY |
+| 5C8c6AkPdo83jvNvvrB1jnTi4rfkuLp7H5ziuLTDsT42gntN |
+| 5CB3wjdK7a71arTf27oXoLVQR9fvDAwikPMC7AHptCYRadVR |
+| 5CccLc64WB2hwWorqg92A4S5y9fwAiAdbAKLRY5obDskA26N |
+| 5CcjG2MnkAMWzTzdFU3hVnDhuxf9D7yoA7dcXmJYenSMAxzW |
+| 5CDGLUhq1uFbjdic7WBMP9BeFmEwkWdm5sy4wQzgewu6zLLN |
+| 5CDJND47a1NSjyx3cBxztY6rcXc8WcWeRecnjRF13gP2TGfV |
+| 5CDp3rjzgrXfiJNMUK4JbpsMMTnPbXK5YCBC756ZGC8uQyFf |
+| 5CGADrJ1Yc9aTaDGGQ5WYMDpiwHdxdunj23b2KCdDHcm8kAi |
+| 5CGQPCeg9wDQJBRU9NpoQbV1yCHnCakejg2FousPxjaUaNDz |
+| 5ChYSYTom6BLoXBfJhrpzcADd5PpBxvbUuyHqArzatKfzMJy |
+| 5CiJReWwBbtX7t9vEmsqwgRHH9JegTG1m5w8gZMnAsvsBDRc |
+| 5Ckg6bSerNfQLk5mazUnZ4rbWP2x8fjzNgT6ceAfPHXDL5tv |
+| 5CMb7ZxVdBCijk1pAy2UQxtBfsi6nVM1fcpjpcfpMR32hUsd |
+| 5CmBPNRJE7onTbsRrJq5zHFt7xHQQ9enoUx7x8WtuA3YsSbj |
+| 5CMcAipQEFvQv8XWPtTkWPcAnJAJrQLRiVAVNtpRGbtDngVf |
+| 5CoEECmREJW5TsvsC9bhhDPvcUTLbpfsprmae9hkHRfKYchT |
+| 5Coiddko324JRzZpr7yKMEhXhhmEEZS1PL3bW3zuydiiyj1G |
+| 5CqjU44RL4bpwmTQhNoeiA5QS2qEzqVbNv2KqkAonk2f1MjT |
+| 5CqtjpcREcpPiJDhtdfdpCPm7rVDobEMb2fy6n8oWEfj2RAS |
+| 5Cr1RxQ1qZuXrtr9w6Gd5VxFnoammWEmcLByZRdvVorm2DMG |
+| 5CRsL3X5DYsvRZRG35FoqopTUzDKktzsG2ZpDDHVznAdhHjR |
+| 5CSDymnTbuW54PCiXJtYsZbw3bZp75RVRVdyhfbDmEq4dX5c |
+| 5Ct8CDacSNanB6NXkdtkCLreQMwE5PR3taGUUwSaS8KZ6d77 |
+| 5CtasrgEkbisry55oK4WVRZwEN9tKvLypJKXuKAbF9T5yUg8 |
+| 5CtS7BM64fpvw5rwvwMs2ADEdUxSGfP3UgQAXoX3S91QKaFo |
+| 5CUMfUy5KASogbyNDdWvoNAe8TZ9cMGqSzeWS4R9WH5gyVJW |
+| 5CwH4XaupdCLdZqg9VwHPgxwE13J6v41p7f4jsWGf8H8KJ4y |
+| 5CXgWqJC9akm2gmmN7YD1EewLCmr9Z3HmM56aYDvwof5opRD |
+| 5CXii7ZFZ4Fcj5v22thivJNNyDKt2FS9H3m1wWL3GRdWgz1n |
+| 5CXuDA4NNP6w2Y6NYG4MTMK1mNixjyr1vnhNqf2eFrr8HnX7 |
+| 5D1uoLbkdopC8SWtzs9kq7tfyYg48p9dJTzWqW2jvybjXbAS |
+| 5D1vzT24fxPvGkkaRuEHLD3pLeNBakHuLfRksZ1yEGjddoPL |
+| 5D2c1W5FGN1gR2JHEAAqTMmLPRG8KWNuyprw6gTPVavBnFQZ |
+| 5D54bkBy4S8618H8BLLQhC7jzWiWRYds2iyA1ShWRrqansSb |
+| 5D7Bh9iXwPTgvcuJsvhBMdyBkQwhXZenM1hxTcXPZ8pvniu4 |
+| 5DAEqUAxncr5k4jcNqhn3MAk4ws8ni8k9dX9Dg4Fgf76gbSD |
+| 5DaLr2t4ZzKtdDQ1m5Qf83Gwe5AbjPJLqaRCWeDGqkj3mBpR |
+| 5DCdzuRtU1TK81X6FtY8SFbVhhEuCUMtggw7bJTTpG73MWnm |
+| 5DCg23FGDYuGw52A9xWYHH2Qx4UrNHJUdWhZHsnMZ1BEGsHA |
+| 5DD7KrBrLMPZr2GdqHUzJLUFHd83tyoudT4Gmvj8kEKz2Pnr |
+| 5DeeT5CanCJtRfpdPpbhTE6CPojCTkzWf6n2mpAmgcBJPah8 |
+| 5DJBW33de9ERCFg3tMVvPtYypS6YMHiP9dxocg13MDworvmT |
+| 5DjuLGE8hXjGeyySChdUsLTLb5XkQs9g4QHpnnKC5Ctzecuy |
+| 5DkuUCmz4Ydx4QyCeikezwWHxq5iMrEtvttsYKxvWpDetHRU |
+| 5DkwphVMnrfCVFhfQgqzpDzoAKpyDVn72sHrAjMdMRutKPUW |
+| 5DLJhbcn9SXE12r5JDW8tLBKTkgvD3ULAsPc54mtDfwsHeM9 |
+| 5DMRE6xoiey3GV9gw2ZQiojXo7NydvvmiTGY7V2AoUXjc9LM |
+| 5DnV2mGEL2TqipM4vCeQxgLYD5umaHdRGnbh8Xoz3UXJQQS9 |
+| 5Dnyp5ZimHYnpV49yZjmCd1e6XAtvo9QYyiXjzMko1WkhtmN |
+| 5DqWqLZJe2XZF1jSPkngxW5q5ppMYcWkN6MJw9X1aoW1YHYK |
+| 5DqYYDu1wunTTNx3oYuLAZ8JG7ADqNMJqHBDWSK7wDzTuqsW |
+| 5DRvDgPEsH9FGTkyQ323fnUg22ZUNJ5CjDVDJhEe1wuFwx3g |
+| 5DsdVGJD2WNYyxHFD5qoXVoDrahXKqqooTA8xuTMFFmqZYD2 |
+| 5DSLfBLuiQQvNsqWiweW9p4KtF1wCkjJUusSMcJt5SDHUW8c |
+| 5DUtFupSAYyQCSq8bmeUQYNg2xHnuRubG1xFoMqtr3ai12ZZ |
+| 5DVGjNBSNpTQAXjthsYh2sbYJCoc8eu2MfxntGcyYsgFRuLr |
+| 5DwKZrbKEEqYHECNkYGbqXbdGgNCcT78KEFUS8c2sSpaKjjJ |
+| 5DXV14EXkVDgoL32XHNZtsrk15QGQZxi2kdAdfQEE9tz5b4X |
+| 5Dy2oAaRyqtjZcEXYCvCxo4eKw9wmBJqm7HomGiDv5riDF6f |
+| 5DZbMRWJV9m5xWjMRfwtA19PGP2bKBKKhUeTyv9CPq1jvNvk |
+| 5DZs7c4aD3EkzYoGujUp5fLyzBFD2GM4EDmmxBwN4msqYeWY |
+| 5E1oYNJG1drkFBZc6TXFGfrCBx6ufEuVMbGaNsDMhDb2o5q2 |
+| 5E6tn8PRo6psdTiisnvXbzQCfBychyqaDCC8uV4CoZKV2YQG |
+| 5E7Eemxv5rwRedbGbBiCoJo31i3HgHREoVkmLa4ShYPhDzxw |
+| 5E7sF34tLuJYdDaKMaAVb7APBS9KPJQdtBRvqUTDVaF1miiy |
+| 5E9uMyb8udLgLjWJpsDnnthwRMwUfC7GqzKRMN2rA3hEZ72U |
+| 5EA3xgxrp7STTKwarjFC6etpZFmRJmJxsJ34wnKPhE77Fezj |
+| 5EA9BTvzziittbDdBk5jfktxsZDtfZ2LffDNLkv4M4iMs4Mg |
+| 5EAPa5UX3FbC81msUXZkV7dYv2tqw1kniZGEVSgy9cmtUGD2 |
+| 5EbpVkQhZcCVqNJdMFyHcf28nKgMiXJQ8vDLFvbHvB7Z4xmh |
+| 5ECCEtRk8Sa5F92QEMq4ovX9pLbXCXMRKGFhj9Stkq66incg |
+| 5ECfKYuCFCDLP7dTC9afVmbEybrYfBQ36ikwCXYfbRHj6eqg |
+| 5EcgE8Gd4tcycjeCTkDbHCoPYYUaaeWFtj8b6jBuHrsFotY9 |
+| 5ECzzmd2tBECJinysQAdxPraig5hq4TSoduwy65wowpZpndR |
+| 5EDAyEEbsM9hqCpAhNswMe3xYRSxpEbmFRUevVekXqorzybN |
+| 5EF7pepHEUMgTWFGBqqfDYbv85FkrU6gSVs3ejB5guQAnH5V |
+| 5EHffteKBAi8EdvDAaqRTX8DokWCBYogEi2DsK4BUtUqE3t8 |
+| 5EhNjKbKxZZYNvqUtnfH7GNyjuztcRyNbTMTb1LYbvrQLGXb |
+| 5EHNX2vpAh2ZN6dfNvkr1shDKqSu6FiiY81Xz8QGUtkbUTaj |
+| 5ELcnYTbHC6A1DHg5xwXtRkvUDmLCKm365JWkhBCnyKnnxt8 |
+| 5Eo1U11i3b7NZcGbCSxxz3cqiZd11h34nYPGQiaytAvB37Zy |
+| 5Epk8XmMU3VCEu7HC22kCLwHaSi5YKJQLgHF1rGN949qFBxE |
+| 5ES9fyfV56kkEP1qazNzN1S6YwbSTfFWp2Q3i4QG4eyT2Ng8 |
+| 5ESAv67AGRXr6wky8mfF7hUCKTKSDz5pTp97Su2xAFZ58YDx |
+| 5EsdPnjVwT1FjwEdbqQbSJSZkKv6WGR8w7woyqf4vySLUuef |
+| 5ESF68P8kxP577vfeKNbBvDdyyTbinTLbsP5WVFfADTyhQF7 |
+| 5ESGSwJhe7oihCJdMnHoyw5AsitTdd36wFNavum6Jxc9KkhE |
+| 5EskBzCLMU5cM7D5jp4GAK2WKe28vo8j8sAZFo27TUoHwwYn |
+| 5EsUoB6DmJyX7y9KDyjNHspK7Cs263xTgDGz1sLrirc4KTpT |
+| 5Et2gX3hioDAhdaziqfswo9MeK4REQC6VJedHPju4s6KEea3 |
+| 5EUaKBPyXMXvJKokHCDRxvjAnvYiLWX7jM6LRMYfxwsG1zT7 |
+| 5EUhyN2i6Adh6NnYzeBERpQDANfJwxrWH6Nox78jnParsRyN |
+| 5EuvTF7TAY98AgKPqxCD4cVVMFhjFB1WeiiDCNuWSYkUJWby |
+| 5EWzRzRSJ52FgTbdxRHMwxRVgHUE14LQhwZeh6NT9LUr197a |
+| 5EX41ALzBGbhbkGHXT4stJ2bVWF4axCNKQA9RniaR9Bx6dR4 |
+| 5ExsBG3eAuRPF4eCSxDQvMXF6uVVkTbeaVJ5rFEQhB7LjUbu |
+| 5EZMEd5bNFs1Czw8JP9DcLWBfMehvopipfBbeSJ3JUTRiWtD |
+| 5F1kLosiWXQn4C7TEX4Zy8fkRdHTLvKugkEM3JHZr7zR5M6W |
+| 5F1mcCMJX8vW3VpsNWBZi13DCBGsECgiUqRiLNveTJn8tc1d |
+| 5F1V1pLHDetngC7uAKDSqpAE42NR9nz6f6Dxvjm4sbMHNNeT |
+| 5F3rYPmFB53XttPd8Zq9QqPxMFDUuVqDx4zjVjmqy6n4Ve4M |
+| 5F3vSWoxpyeTNrUqyRZ4EkihosmoPJMGEgKAZiGE9WXWFhcY |
+| 5F7f3kQxSSxpEjHHGdXZ2oFdCfy1EthTU4oVbqdhnn4THJvo |
+| 5F9cnDyCs4CT9K8Y1vUdkc3iox4eMATyF1PqEbfbzpzEuJmC |
+| 5F9v9Dh833m7GHznA8yxuVnGN3FdcrqtU8B9fqsFojMZQday |
+| 5FByN4TX9Mh8YBeLocr7WDQCQ6da5Rjf4vq8j7HbHZQ9gkpk |
+| 5Fc86bWmXQ6BrxVuEf3AMr2KHrbQWTE3zRYeNo7YGSGNVkav |
+| 5Fc8Bm7cdEqV52TFjpQcRSf782iru348wQs25T7Eb8qUbkWX |
+| 5FekmPiN3BRjZFFZTL6B19DvWks9wSFmPt2GjpGuo2UX1oWW |
+| 5FeobeFfTqkRo8FcxfK4PM8dyroKvo7evgX8G4Xq6GbULgBp |
+| 5Ff46r7kSwe7Wmc6mD81PQ3bz9596ztJQrwPt92ibZAfT1TG |
+| 5FF99759ko3ZGEwVyheGfCvU3a1U428KYA2qKDgqyfRRyV7i |
+| 5FfAwy8MXtACXy9ZzTXGvr6vpMF5DkAHcPCxmA4bVx4f65WD |
+| 5FFEZ4e3wBT9Nq1gvYbCgZteybRSHMVMzjnkHGQ9uMVq4VcH |
+| 5Fgc53zVCZ5QneUX1ShgZnKB6GB49CHyCP5CnKukEWHnJYTe |
+| 5FhAyh4dCATKKNc6pycp3FDEvFdcDpqLM7hye9N6ZQ31n82e |
+| 5FHook4GYvTQh7ZUY1QsNVmGN1DxGhWDZkk47ypnM4Uj6XP7 |
+| 5FHSQfVcfVQ4kQPbbXKU26hJhy6mvF8sjybmkKtbDLpKCcmF |
+| 5FhWwJJ79QvYcXr7Hw745r4GbyAW6qhrJogkED9GLPd72GkJ |
+| 5FKmWyV3jEC32UCTMuEdot7WQM3LUe5n8kFG7zHeAPiC5khc |
+| 5FkN95SMDSyo95gcfAUMwD4mfhjHr4qjqQ1edXmifs9WB2Wi |
+| 5FKxaskGiQrRkJY8fmwwYfnt3T8iRfqiNzWJkwHimMAiEaZC |
+| 5FLPVDd25MHFaErAThUGgbkcVzZe6dn1HH1dPkNGHCRzesML |
+| 5FLWVLV3GPXhffAWLNuzMM1SKJA71pkSHzxegq68g7PzEbre |
+| 5Fn8ytY7CW8fhMGSxKcG8PBr1A2t8MbYBtizPXtet8bVQKeX |
+| 5FNuxCpDvTfiwcxgcgqo1oKJGkFwXQkmRcgBCcezNvub5hHg |
+| 5FNZUvf4o5eyeNjxEfRTZ5535yeJnHgGHpeAUWU5C6a2HSbF |
+| 5FP7Ko5aqW7xNTVASk6cqLdKCsafiefeeoCPLHFDukSmpMfo |
+| 5FPCh4QTAQ7fJBFggHY67Lbz3i8Hodt5VdipfDTfxQ54cw6Z |
+| 5FqTYBzGTZ481A5Tw1P2LJns7GDAkLBdpQiQjyoAx2TD9irE |
+| 5FsYjqYG5arYv83wEjzFQ2VQfzum9t5RVQHuiDAssj9Q6vJ3 |
+| 5FW7heMz9BjDLetkwYVs61NzFaCo3Xj473fQyQVw1sHFCFA5 |
+| 5FxKdMEYJyqLAZMCGfU6m5UBAqggXsWbwRsAbQSFkakb9xC3 |
+| 5FxQoRf1YRB9ZZoq6Xbx4KJyhir8KtVwBiRKAmvyuxJx1cKL |
+| 5FYf5E6isLJ57mBCs9XHswFR5GjEG43ddE7tvF5xj5ZtgTpb |
+| 5FyQ2nKuX9RGtshigu2y4rVXuN8HMBLz1SWZMA7ik7YgWwYH |
+| 5FySKeAoxa9XoyhmQiqWHKZHpNSUauEjXxB1NNzuZe5bAaEB |
+| 5FYsPvBvRxkLoUwpPD9wJxqaYPoVhdiovSPhuQWVjopEbM7M |
+| 5G3habEPHywTzvEZGS7yJsUpPuhabkXAxkn9jv2bCh4z4hJr |
+| 5G3hZZRkhzkZ6VyWB7UbFHUi5HLe9o5X6TBUcCWQwLBPD4bZ |
+| 5G6AUvijXNoVr3wZTXjYMg6xMaii6LirGDsLdJhV1UauVzq2 |
+| 5G7J1DGiQCRuKpSBStck1eJRZzq27uBenJTQJuzpLtJPJ4Zv |
+| 5G9QQdiNAGXqFPrnhkprbY9iYY2etfbkqA1ZUXkmRSyc5pM4 |
+| 5G9WDNRN1ztDWPfcPeGx2Va8aQxmrzDJxGWCugfUYHAunbK8 |
+| 5GBqcBdAYSmiLKt1463AGUAfk1eis6yURBSSxtnxrUgfKVJT |
+| 5GBsexiz2Cvdh3MsxdkDL5jYL178XwvnvK5LnZbfUA9QZBsE |
+| 5GCUzxsXBqKw4mHcq6uXLvQniSb64ogXssKedvtZ5Bq96jeC |
+| 5GEvwZvZGLTKYJanTxDcAdwqLzERXiRJSe5CMRrbvWykp2KK |
+| 5GGjEWiwHE3q4rdK8FJ3oBEgTjrYuncTzQ8qiidGaBeU85Jc |
+| 5Ggkr7PbDv5oQDgsTT6TF6YYJA39YYCHZdGTyDc3jfaDBwWt |
+| 5GhPYXN73ML5meMJKoYHrsFGRH3VDH6Set1ENRBKnZf7gyvq |
+| 5GhSXup19dSPrJBv6T7aSHD3hwKihSNf4U2aNWmEd188PXTb |
+| 5GjiwyFXKUnxNRMsc8SAQGaUxpwW9UczNFafD1SCtKZoMdbu |
+| 5GKrJF6m8oW5SrvJYH2LksjtCRZUM6HrkbzuUnx4mc7bANpJ |
+| 5GKTAMU9PTVjeMbwiT8i3umtf1bEBp314cFGcGpuTb4Fw3Aa |
+| 5GL5S829ACcHHyUPmofuc8rTZxinWxPDmhPR4UMj2ghjyy8D |
+| 5GMvp5okVesv3JHxNA21SeFbXtMMtwy6EmPvtN5HpHLUuRCy |
+| 5GNSwbXVkk2ZtQrwKSDi8ikAg1dHhtqXgL4MsSuBeCcdkzs9 |
+| 5GppZzPjcCSwpxArzCKAjpcEUnRZnLkfAUApmdcFZWG3Cfza |
+| 5Gq4EDReGUDnMiY7UN6CAgq1qN2mz3dkVgZN3PrDF9gk158k |
+| 5Grk1M8uWgWD7Dm7vvbuAxSwyqR6s2cB8EykgRZi9sCKtrbr |
+| 5GrnNToStJHU3Dr9j1G1eExotL68L6fMKgJzLJvC8g5DpR8v |
+| 5GrxeYVFV26xM8BKgTJ6LgoYezfBpq5cM4dN4okV37JxkVny |
+| 5GRYTPdyq7fizkJ1MwiMdLnBnpetqYH4t6nDwrWSsEFZG8tA |
+| 5GrzfEwHwfstmvWUBTi4BEfRWKmgmyTkXynhTbGNh5o9j46H |
+| 5GW7F2dB4s9maZEL5mbTie6s4FwgdkKDhgvagdwHNH1EHbYL |
+| 5Gy82AD4imcUxmHLK12vbScvS6MvzsS9sPTc17egPJ4v2Vuq |
+| 5H1gfcTekfVRM81CwgTEBWJgW2hBqzfeJspb1jYVr3uEqwPb |
+| 5H3P3MAt5DESm9ixLarn1VMdGSergF7WbfpMX7MghpZb62b9 |
+| 5H3Sq1HXiQepCBdAcgnrKS4BMJzJU1Q1khGQxzRFrdwtx696 |
+| 5H4SRrwYfTUXTe41LTGLBioDmcSgTdS7aLLvkXzAFY4aNjNW |
+| 5HdcZBYv8Evk8XUbxKPnKG7CmC1odwmTv7NRt9ghCumZ8tqc |
+| 5HE8YAYM7cVEBm8iJ7BrAULy535UZaQDgaJbD6gFtiwJAM1Y |
+| 5HgAFiXN8HhhETQVJW4E64pn5qki9GJhEZUi1rDX2jYDuNXt |
+| 5HGwTFxnH78CcTgKqxVkFe7cQE6KteVkQezxHFqMwv6rT5B9 |
+| 5HHC1f96qebeBWiLGj8Uwmv2xD1hfjVmt5P7f6PScM8bSCYm |
+| 5HHKVxC3VrBs1h3d4mNtdoZ4DULC2HLp3PnBnJkQKgXnfsPN |
+| 5HHMpRWexQWhMMMeV433Dt7ThgXBwo1pjs2M4AcDjUaFQmKb |
+| 5HjLts9JryK3huW5MtmfjUSacirbbZHQXmC13UNxjNpQSQmX |
+| 5HK7MdumTL8uNV5hMk6z7XTkQA5xDZ15phnngR9aLGLPXko6 |
+| 5HKMPQYa1Bpre7fyGxLcnB6LKhTZkY6hMd5vjXFANNzFYLQ1 |
+| 5Hn7ed8VRW5D8d6MDz7YRhC2J9fpZX7c3nkafe4jNxZcrHXb |
+| 5HNi2g4R7vefffJxrSN3mHXGa96Lof26AJwhoNut86MuBJJv |
+| 5HNosDRqJNao5ewuXvYE8z88554ffDpZvEm4KbZCTFdAD3XH |
+| 5Hp4X46LACzqDorZkeEgSds4Fqd8nQAAQmftNKvZktn3WPrn |
+| 5Hpi9rYJV1ULKDWBYGa74xPXRi7Kaf89eB3PGW5P8FK7trU8 |
+| 5HptHBL5acE3T3n5kfvDnJwYHo9UrpB2L5j7pBUKqbfSeBw1 |
+| 5HQWx9SXXDUGfLNjuhcYXAwzuKBDnTmvuz33zWZ27nGVYjgh |
+| 5HU3qwWwvfKZo5tp6Cwk169AKCwDHugBK2LfXYfDy94KSmmV |
+| 5HVcH8j3v4T64UYvRpUTwkDKTR36tpgftg2yF5XdwxvSyLWQ |
+| 5HWYa6e1BjfNoGBJWCWidVt3CwJRPFsBuq3c46GLuJ4Myq5k |
+| 5HYbbvJ5BYMdFe5fSomWaeEgMWURG6PisraJMNbPTFYqSjBo |
+| 5HYEJRV5S13TDDSRKSWUafRsvRMzS4PGTWh5DQwEz2oSHyLZ |
+| 5HYwJ2AYfsPAAgecnEXj8qqRLuBmQiqYWmZexZL6TVgg2xxQ |
+| 5CPQoDqdzt1ggeaVzuJyK2WYnTV2s7XDoPE1eKSrLVdHrHfg |
+| 5HjhTLGk5V6HXuwjpdbHMWUXc5LH3rMtLKpcqSn8Z5x8xLUS |
+| 5HnJRCcbFaTjaYhmhTiNavSStkxRAmeX2EiEJq2vSnN5Q4TJ |
+| 5CCdo3gfsnjg8WCTChrB4jQKXNncfbSN3H9NhNVqfD7EjNmz |
+| 5DqFgUVwGMGurJrJJTbtFA3U6HS6ezomTHnpbREKbnKjD9md |
+
 #### -Blog Bounty \(Throughout Festival\)
 
+| Link | Mandala address |
+| :--- | :--- |
+| [https://medium.com/@gafaruzb70/acalanetwork-%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BA-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-51124b71aefb](https://medium.com/@gafaruzb70/acalanetwork-%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%B8%D1%82%D1%81%D1%8F-%D0%BA-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D1%83-51124b71aefb) | 5DCdUUZSEsdB3JBwdyQsKjEwdjWLyVajJaeki66M5YhGYWyK |
+| [https://medium.com/@Fanniee/polkadot-%EC%83%9D%ED%83%9C%EA%B3%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-acala-8a3be713bd42](https://medium.com/@Fanniee/polkadot-%EC%83%9D%ED%83%9C%EA%B3%84%EC%9D%98-%EC%A4%91%EC%9A%94%ED%95%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-acala-8a3be713bd42) | 5DZpD7NqtPAitsdZVsjuMjyvicTfcudr1oFfHMUUqLhS9u77 |
+| [https://medium.com/@nguynlongthnh\_89762/learn-the-basics-of-acala-network-you-should-know-d8b1e13a13f4](https://medium.com/@nguynlongthnh_89762/learn-the-basics-of-acala-network-you-should-know-d8b1e13a13f4) | 5DqZSHwqts1Dmyg4qPQUMj3H2tQVBtWvDJ3hd32gUJTBgEoL |
+| [https://www.youtube.com/watch?v=0\_BeLFBqZuc&feature=youtu.be](https://www.youtube.com/watch?v=0_BeLFBqZuc&feature=youtu.be) | 5Hg96xTCugbbFd55F9iBNofie4gpAgmJUVGd8nRL5vqCPCSp |
+| [https://medium.com/@knowledgeiskey2017/a-comprehensive-overview-of-the-acala-network-8b13135ab885](https://medium.com/@knowledgeiskey2017/a-comprehensive-overview-of-the-acala-network-8b13135ab885) | 5Hg96xTCugbbFd55F9iBNofie4gpAgmJUVGd8nRL5vqCPCSp |
+| [https://www.youtube.com/watch?v=weBI9tzqfQU&t=](https://www.youtube.com/watch?v=weBI9tzqfQU&t=) | 5HYRXR7TC4jkEjokhNzvYup2WcxmejbVNkoQqVbZtaWovj4F |
+| [https://www.youtube.com/watch?v=X-Fh04aXYz0&feature=youtu.be](https://www.youtube.com/watch?v=X-Fh04aXYz0&feature=youtu.be) | 5C4m2LpoCEAxmueTWBXs3kka3NCEtgH9TXMqhLpu2vYv9Tkj |
+| [https://medium.com/@ltfschoen/journey-into-defi-using-acala-and-laminar-991c168902db](https://medium.com/@ltfschoen/journey-into-defi-using-acala-and-laminar-991c168902db) | 5DHcRs9udMCKtEmJEABY2HpECyTHHxgLL85pFFzN72SatAoQ |
+| [https://www.youtube.com/watch?v=faylI5\_xs00&feature=youtu.be](https://www.youtube.com/watch?v=faylI5_xs00&feature=youtu.be) | 5Fj8pQ1e7iDfrAvae9k6WhrZRqM4Lqd6Umvk8J9cg1BXcJL9 |
+| [https://bihu.com/article/1614934379](https://bihu.com/article/1614934379) | 5GWrTC5D7FPEg3iaikv8Yp35K1A6qWyyCVMF1GZd5PCbq2Fk |
+
 #### -Bug Bounty \(Throughout Festival\)
+
+| Github issue | Mandala address | Judging results |
+| :--- | :--- | :--- |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/241](https://github.com/AcalaNetwork/acala-dapp/issues/241) | 5F2FNhhVeG9bW4tP5te4a7asBJvSHQg31RzkoETLpUN161gV | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/238](https://github.com/AcalaNetwork/acala-dapp/issues/238) | 5F2QSwPHobet1pLFTEw6mkcT8bwZdEMmHfBGYPkiK7Pgxdex | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/237](https://github.com/AcalaNetwork/acala-dapp/issues/237) | 5DEvvJA5Mz82GPLbf9t3RxWVYX5KfqkkxwJvJ6tmB3e5n5Wn | bug-A |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/234](https://github.com/AcalaNetwork/acala-dapp/issues/234) | 5DfNVfJTgpspTA4bz7w1DNJmf4eAEcCZ76AktJonPXUPwR6U | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/233](https://github.com/AcalaNetwork/acala-dapp/issues/233) | 5GRbkRH3hi1vbuNd7s3eW9u2YRfhMtDJVVCe3a8M1jvhBuvZ | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/229](https://github.com/AcalaNetwork/acala-dapp/issues/229) | 5H985QyVoRZudfw2p6DvmwhdfYob8LkgK4pCZdf9rnioUZUd | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/225](https://github.com/AcalaNetwork/acala-dapp/issues/225) | 5F2FNhhVeG9bW4tP5te4a7asBJvSHQg31RzkoETLpUN161gV | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/222](https://github.com/AcalaNetwork/acala-dapp/issues/222) | 5H985QyVoRZudfw2p6DvmwhdfYob8LkgK4pCZdf9rnioUZUd | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/221](https://github.com/AcalaNetwork/acala-dapp/issues/221) | 5H985QyVoRZudfw2p6DvmwhdfYob8LkgK4pCZdf9rnioUZUd | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/220](https://github.com/AcalaNetwork/acala-dapp/issues/220) | 5H985QyVoRZudfw2p6DvmwhdfYob8LkgK4pCZdf9rnioUZUd | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/217](https://github.com/AcalaNetwork/acala-dapp/issues/217) | 5H985QyVoRZudfw2p6DvmwhdfYob8LkgK4pCZdf9rnioUZUd | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/215](https://github.com/AcalaNetwork/acala-dapp/issues/215) | 5F2FNhhVeG9bW4tP5te4a7asBJvSHQg31RzkoETLpUN161gV | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/212](https://github.com/AcalaNetwork/acala-dapp/issues/212) | 5F2FNhhVeG9bW4tP5te4a7asBJvSHQg31RzkoETLpUN161gV | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/191](https://github.com/AcalaNetwork/acala-dapp/issues/191) | 5DfNVfJTgpspTA4bz7w1DNJmf4eAEcCZ76AktJonPXUPwR6U | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/188](https://github.com/AcalaNetwork/acala-dapp/issues/188) | 5DfNVfJTgpspTA4bz7w1DNJmf4eAEcCZ76AktJonPXUPwR6U | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/186](https://github.com/AcalaNetwork/acala-dapp/issues/186) | 5F2QSwPHobet1pLFTEw6mkcT8bwZdEMmHfBGYPkiK7Pgxdex | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/185](https://github.com/AcalaNetwork/acala-dapp/issues/185) | 5Coiddko324JRzZpr7yKMEhXhhmEEZS1PL3bW3zuydiiyj1G | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/177](https://github.com/AcalaNetwork/acala-dapp/issues/177) | 5CcTrXNHdJUYttyDNsQFDdWMcBPY8YvZF8x6WMXVapYQ644p | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/159](https://github.com/AcalaNetwork/acala-dapp/issues/159) | 5HnJRCcbFaTjaYhmhTiNavSStkxRAmeX2EiEJq2vSnN5Q4TJ | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/146](https://github.com/AcalaNetwork/acala-dapp/issues/146) | 5GMvp5okVesv3JHxNA21SeFbXtMMtwy6EmPvtN5HpHLUuRCy | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/144](https://github.com/AcalaNetwork/acala-dapp/issues/144) | 5FEoLBq9BP8X3iU6iPmW2KWJahcCazeSaLPd2CamVfdwsCc1 | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/143](https://github.com/AcalaNetwork/acala-dapp/issues/143) | 5FFCfSJJaVN8WRRNiFxHKcYQh5MXfpFYyVhjrv99Qgvqorp9 | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/142](https://github.com/AcalaNetwork/acala-dapp/issues/142) | 5GNqaqhFJvAJBuk9Vz6fziBMavZF9QfPZNX7X57u2zZeRNHy | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/140](https://github.com/AcalaNetwork/acala-dapp/issues/140) | 5GNqaqhFJvAJBuk9Vz6fziBMavZF9QfPZNX7X57u2zZeRNHy | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/138](https://github.com/AcalaNetwork/acala-dapp/issues/138) | 5Coiddko324JRzZpr7yKMEhXhhmEEZS1PL3bW3zuydiiyj1G | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/137](https://github.com/AcalaNetwork/acala-dapp/issues/137) | 5HY8hYMttrbm57MmN3o9p5ipF8i7eBjdWw7TQVsecoP7Uos6 | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/132](https://github.com/AcalaNetwork/acala-dapp/issues/132) | 5Coiddko324JRzZpr7yKMEhXhhmEEZS1PL3bW3zuydiiyj1G | bug-C |
+| [https://github.com/AcalaNetwork/acala-dapp/issues/128](https://github.com/AcalaNetwork/acala-dapp/issues/128) | 5GHj5DF25uK85M4Uq29cSFVQMRkzHc1RmVXZPW4zf3NXf1c1 | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/64](https://github.com/polkawallet-io/polkawallet-flutter/issues/64) | 5GNqaqhFJvAJBuk9Vz6fziBMavZF9QfPZNX7X57u2zZeRNHy | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/65](https://github.com/polkawallet-io/polkawallet-flutter/issues/65) | 5E7b8rmiWDahDN6ZUNuyqmSirQsPj8PAMZ9CYMaURCjcDEqn | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/68](https://github.com/polkawallet-io/polkawallet-flutter/issues/68) | 5EnWSikTvi8Y3S6vQ8TM3q5joFe8pCa4LjAbmEaXywwE6ioG | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/70](https://github.com/polkawallet-io/polkawallet-flutter/issues/70) | 5EnWSikTvi8Y3S6vQ8TM3q5joFe8pCa4LjAbmEaXywwE6ioG | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/75](https://github.com/polkawallet-io/polkawallet-flutter/issues/75) | 5HWMnApHzkVV2ZqVLjjLzPETL8wwf1PvkFv4G7sMDMWqpHHS | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/80](https://github.com/polkawallet-io/polkawallet-flutter/issues/80) | 5Coiddko324JRzZpr7yKMEhXhhmEEZS1PL3bW3zuydiiyj1G | bug-B |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/81](https://github.com/polkawallet-io/polkawallet-flutter/issues/81) | 5EnWSikTvi8Y3S6vQ8TM3q5joFe8pCa4LjAbmEaXywwE6ioG | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/91](https://github.com/polkawallet-io/polkawallet-flutter/issues/91) | 5DHcRs9udMCKtEmJEABY2HpECyTHHxgLL85pFFzN72SatAoQ | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/92](https://github.com/polkawallet-io/polkawallet-flutter/issues/92) | 5Coiddko324JRzZpr7yKMEhXhhmEEZS1PL3bW3zuydiiyj1G | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/94](https://github.com/polkawallet-io/polkawallet-flutter/issues/94) | 5Coiddko324JRzZpr7yKMEhXhhmEEZS1PL3bW3zuydiiyj1G | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/112](https://github.com/polkawallet-io/polkawallet-flutter/issues/112) | 5CG4jmkk1neZzbKCeQg7kYv9PMko8zkcRqVvAFzPHuBD673q | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/114](https://github.com/polkawallet-io/polkawallet-flutter/issues/114) | 5GNqaqhFJvAJBuk9Vz6fziBMavZF9QfPZNX7X57u2zZeRNHy | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/118](https://github.com/polkawallet-io/polkawallet-flutter/issues/118) | 5GsQUJ8ShoFrt16vWLekvk3T5e2tYLTVWN5mHrwthSdxL6Fv | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/120](https://github.com/polkawallet-io/polkawallet-flutter/issues/120) | 5GsQUJ8ShoFrt16vWLekvk3T5e2tYLTVWN5mHrwthSdxL6Fv | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/127](https://github.com/polkawallet-io/polkawallet-flutter/issues/127) | 5GHj5DF25uK85M4Uq29cSFVQMRkzHc1RmVXZPW4zf3NXf1c1 | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/128](https://github.com/polkawallet-io/polkawallet-flutter/issues/128) | 5HnJRCcbFaTjaYhmhTiNavSStkxRAmeX2EiEJq2vSnN5Q4TJ | bug-C |
+| [https://github.com/polkawallet-io/polkawallet-flutter/issues/137](https://github.com/polkawallet-io/polkawallet-flutter/issues/137) | 5FEp7o7MW6m5Tx6G5pGeto9ZQpfHKePVREVkmDxV58ZoPg6H | bug-C |
+
+#### -Coding
+
+| Github issue | Mandala address | Judging results |
+| :--- | :--- | :--- |
+| [https://github.com/Ryabina-io/substratebot/tree/master/packages/acala](https://github.com/Ryabina-io/substratebot/tree/master/packages/acala) | 5FEoLBq9BP8X3iU6iPmW2KWJahcCazeSaLPd2CamVfdwsCc1 | 1000 ACA & KAR |
 
 ### Season 3 Rules & Rewards
 
