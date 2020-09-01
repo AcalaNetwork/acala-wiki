@@ -102,6 +102,10 @@ Check out [the Liquid DOT guide](https://wiki.acala.network/learn/basics/homa-li
 
 Provide liquidity of any of these tokens: ACA, aUSD, DOT and BTC to earn exchange fee and additional reward! See [user guide here](https://wiki.acala.network/learn/basics/deposit-and-earn).
 
+### Cross-chain DeFi
+
+To use aUSD on Laminar Chain, and mint renBTC to use on Acala, please see [this guide](https://github.com/AcalaNetwork/Acala/wiki/T.-Cross-chain-DeFi.md)
+
 ### Governance
 
 Check out [our progressive decentralization governance guide](https://wiki.acala.network/maintain/governance-guides)

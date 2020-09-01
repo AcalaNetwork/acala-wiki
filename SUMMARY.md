@@ -25,6 +25,7 @@
 * [Trilogy Networks](learn/trilogy-networks.md)
 * [Get Started](learn/get-started.md)
 * [Basics](learn/basics/README.md)
+  * [Cross chain DeFi](learn/basics/cross-chain-defi.md)
   * [Honzon Stablecoin](learn/basics/honzon-stablecoin.md)
   * [DeX](learn/basics/dex.md)
   * [Auctions](learn/basics/auctions/README.md)
