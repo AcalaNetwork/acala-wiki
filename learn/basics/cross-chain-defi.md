@@ -1,4 +1,4 @@
-# Cross chain DeFi
+# Cross Chain DeFi
 
 ## Cross-chain DeFi with Acala
 

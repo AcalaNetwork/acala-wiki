@@ -104,7 +104,7 @@ Provide liquidity of any of these tokens: ACA, aUSD, DOT and BTC to earn exchang
 
 ### Cross-chain DeFi
 
-To use aUSD on Laminar Chain, and mint renBTC to use on Acala, please see [this guide](https://github.com/AcalaNetwork/Acala/wiki/T.-Cross-chain-DeFi.md)
+To use aUSD on Laminar Chain, and mint renBTC to use on Acala, please see [this guide](https://wiki.acala.network/learn/basics/cross-chain-defi)
 
 ### Governance
 
