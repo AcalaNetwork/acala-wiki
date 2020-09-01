@@ -37,6 +37,7 @@
   * [ACA & KAR](learn/economics/aca-and-kar.md)
   * [Parachain Slots Auction](https://wiki.polkadot.network/docs/en/learn-auction)
   * [Acala Token Economy Paper](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Acala_Token_Economy_Paper.pdf)
+  * [Acala Parachain](learn/economics/acala-parachain.md)
 * [Miscellaneous](learn/miscellaneous/README.md)
   * [Runtime Events](learn/miscellaneous/runtime-events.md)
   * [Modules](learn/miscellaneous/modules.md)

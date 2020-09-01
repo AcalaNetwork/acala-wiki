@@ -12,7 +12,7 @@ You can now check your airdrop KAR & ACA balances on [https://apps.acala.network
 
 Learn more about ACA & KAR tokens [here](https://wiki.acala.network/learn/economics/aca-and-kar).
 
-Festival-goers and contributors, have fun, learn & break things, behold & catch the candies 🎁  
+Festival-goers and contributors, have fun, learn & break things, behold & catch the candies 🎁
 
 ## Mandala Festival Season 3 🎉🍬🔥
 
@@ -24,98 +24,114 @@ Festival-goers and contributors, have fun, learn & break things, behold & catch 
 
 #### -Week 3: Black Thursday Simulation
 
-#### -Blog Bounty (Throughout Festival)
+#### -Blog Bounty \(Throughout Festival\)
 
-#### -Bug Bounty (Throughout Festival)
+#### -Bug Bounty \(Throughout Festival\)
 
 ### Season 3 Rules & Rewards
 
 #### Week 1: User Participation
 
-**Duration:** 27-July-2020 to 03-August-2020 (one week)  
-**Award Pool:** 20,000 ACA + 20,000 KAR  
-- All qualified users will share the reward pool  
-- All rewards will be recorded and published
+**Duration:** 27-July-2020 to 03-August-2020 \(one week\)  
+**Award Pool:** 20,000 ACA + 20,000 KAR
+
+* All qualified users will share the reward pool  
+* All rewards will be recorded and published
 
 ![](https://miro.medium.com/max/700/1*yVdIVTMQIPWp8FgCtrT9MQ.png)
 
-**Participation Rules:**  
-- Get test aUSD from the faucet, fees are payable in aUSD  
-- Users completing three meaningful transactions will be rewarded  
+**Participation Rules:**
 
-**Meaningful transactions include:**  
-- Use DeX to swap tokens  
-- Use DeX to provide liquidity  
-- Use Honzon stablecoin to collateralize for aUSD  
-- Use Homa protocol to get staking derivative LDOT  
-- Transfer aUSD to Laminar Chain, and use it either for synthetic asset, or margin trading  
-- Mint renBTC and use it in above activities  
-- Participate in auctions of system   
+* Get test aUSD from the faucet, fees are payable in aUSD  
+* Users completing three meaningful transactions will be rewarded  
+
+**Meaningful transactions include:**
+
+* Use DeX to swap tokens  
+* Use DeX to provide liquidity  
+* Use Honzon stablecoin to collateralize for aUSD  
+* Use Homa protocol to get staking derivative LDOT  
+* Transfer aUSD to Laminar Chain, and use it either for synthetic asset, or margin trading  
+* Mint renBTC and use it in above activities  
+* Participate in auctions of system   
 
 #### Week 2: Trading Competition
 
-**Duration:** 03-August-2020 to 10-August-2020 (one week)  
-**Award Pool:** 5,000 ACA + 5,000 KAR  
-- Top 10 qualified traders will share the reward pool  
-- All rewards will be recorded and published  
+**Duration:** 03-August-2020 to 10-August-2020 \(one week\)  
+**Award Pool:** 5,000 ACA + 5,000 KAR
+
+* Top 10 qualified traders will share the reward pool  
+* All rewards will be recorded and published  
 
 **Participation Rules:**
-- Use the balance of USD as the unit of account  
-- Profit calculated as ending balance — beginning balance  
+
+* Use the balance of USD as the unit of account  
+* Profit calculated as ending balance — beginning balance  
 
 **The rules for ranking of trading competition:**
-- Snapshots will be taken for both Acala and Laminar networks at the beginning of the trading competition; the total net value of various assets (including debts) will be calculated based on the price feed at the time as the initial balance.  
-- Another snapshot will be taken at the end of the competition, using the feed price at that time as the final balance. Cross-chain transfers (e.g. transfers between Acala and Laminar) are not counted, while transfers between addresses are counted as capital.  
-- Profit margin = total value of final balance / (total value of initial balance + capital sum correction) — 100%, all accounts are ranked according to this function.  
+
+* Snapshots will be taken for both Acala and Laminar networks at the beginning of the trading competition; the total net value of various assets \(including debts\) will be calculated based on the price feed at the time as the initial balance.  
+* Another snapshot will be taken at the end of the competition, using the feed price at that time as the final balance. Cross-chain transfers \(e.g. transfers between Acala and Laminar\) are not counted, while transfers between addresses are counted as capital.  
+* Profit margin = total value of final balance / \(total value of initial balance + capital sum correction\) — 100%, all accounts are ranked according to this function.  
 
 **The following are included in the balance calculation:**  
 **Balances of all assets:**  
 — Acala : aUSD, ACA, renBTC, XBTC, DOT, LDOT  
-— Laminar : aUSD, LAMI, synthetic assets  
+— Laminar : aUSD, LAMI, synthetic assets
 
 **Balances of all DeFi positions:**  
-— Acala : CDP (net value of collateral value minus debt value), share value in Deposit & Earn  
-— Laminar : margin position value  
+— Acala : CDP \(net value of collateral value minus debt value\), share value in Deposit & Earn  
+— Laminar : margin position value
 
 #### Week 3: Black Thursday Simulation
 
-**Duration:** 10-August-2020 to 17-August-2020 (one week)  
-**Award Pool:** 4,000 ACA + 4,000 KAR  
-- A draw of 200 qualified users will share the reward pool  
-- All rewards will be recorded and published  
+**Duration:** 10-August-2020 to 17-August-2020 \(one week\)  
+**Award Pool:** 4,000 ACA + 4,000 KAR
 
-**Participation Rules:**  
-- Day 1 — Day 3 liquidation events: users participate by closing CDP or increasing collateral  
-- Day 4: emergency shutdown will be triggered, participants will use aUSD to buy back collaterals  
-- Users who took part in the above activity will benefit from rewards  
+* A draw of 200 qualified users will share the reward pool  
+* All rewards will be recorded and published  
 
-#### Blog Bounty (Throughout Festival)
+**Participation Rules:**
 
-**Duration:** 27-July-2020 to 17-August-2020 (three weeks)  
-**Award Pool:** 2,000 ACA + 2,000 KAR  
-- 10 awards will be awarded in total  
-- Awards will be published one week after the event ends  
+* Day 1 — Day 3 liquidation events: users participate by closing CDP or increasing collateral  
+* Day 4: emergency shutdown will be triggered, participants will use aUSD to buy back collaterals  
+* Users who took part in the above activity will benefit from rewards  
 
-**Participation Rules:**  
-- Submit a blog to either [Medium](https://medium.com/), [Bihu](https://bihu.com/), or [YouTube](https://www.youtube.com/) regarding the Acala Network.
-- The article must include your Acala Mandala Address to receive prizes.
-- Submit the link to your piece of content to Acala [Telegram](https://t.me/acalaofficial), [Discord](https://discord.com/invite/vdbFVCH) or [Riot channel](https://riot.im/app/#/room/#acala:matrix.org) using the hashtag #MandalaFest3
-- The content must be original
-- We will judge both the **quality** (how appealing is the story, idea, perspective, insights, analysis, etc) and social reactions (number of comments, likes, twitter or other social sharing, etc).
+#### Blog Bounty \(Throughout Festival\)
 
-#### Bug Bounty (Throughout Festival)
+**Duration:** 27-July-2020 to 17-August-2020 \(three weeks\)  
+**Award Pool:** 2,000 ACA + 2,000 KAR
 
-**Duration:** 27-July-2020 to 17-August-2020 (three weeks)  
-**Award Pool:** 10,000 ACA + 10,000 KAR  
-- Please allow one week from your submission for our review.
+* 10 awards will be awarded in total  
+* Awards will be published one week after the event ends  
 
-**Participation Rules:**  
-- Find bugs for the following two repos:  
-<https://github.com/AcalaNetwork/Acala>  
-<https://github.com/AcalaNetwork/acala-dapp>  
-<https://github.com/polkawallet-io/polkawallet-flutter> (Acala part)  
-- Bugs are judged on significance and severity by the Acala Engineering team, and are awarded roughly based on the levels [here](https://github.com/AcalaNetwork/Acala/wiki/W.-Contribution-&-Rewards#runtime-bug-bounty)
-- Please **include your Acala Mandala Address in the Github issue** for easy prize disbursal
+**Participation Rules:**
+
+* Submit a blog to either [Medium](https://medium.com/), [Bihu](https://bihu.com/), or [YouTube](https://www.youtube.com/) regarding the Acala Network.
+* The article must include your Acala Mandala Address to receive prizes.
+* Submit the link to your piece of content to Acala [Telegram](https://t.me/acalaofficial), [Discord](https://discord.com/invite/vdbFVCH) or [Riot channel](https://riot.im/app/#/room/#acala:matrix.org) using the hashtag \#MandalaFest3
+* The content must be original
+* We will judge both the **quality** \(how appealing is the story, idea, perspective, insights, analysis, etc\) and social reactions \(number of comments, likes, twitter or other social sharing, etc\).
+
+#### Bug Bounty \(Throughout Festival\)
+
+**Duration:** 27-July-2020 to 17-August-2020 \(three weeks\)  
+**Award Pool:** 10,000 ACA + 10,000 KAR
+
+* Please allow one week from your submission for our review.
+
+**Participation Rules:**
+
+* Find bugs for the following two repos:  
+
+  [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)  
+
+  [https://github.com/AcalaNetwork/acala-dapp](https://github.com/AcalaNetwork/acala-dapp)  
+
+  [https://github.com/polkawallet-io/polkawallet-flutter](https://github.com/polkawallet-io/polkawallet-flutter) \(Acala part\)  
+
+* Bugs are judged on significance and severity by the Acala Engineering team, and are awarded roughly based on the levels [here](https://github.com/AcalaNetwork/Acala/wiki/W.-Contribution-&-Rewards#runtime-bug-bounty)
+* Please **include your Acala Mandala Address in the Github issue** for easy prize disbursal
 
 ## Mandala Festival Season 2 🎉🍬🔥
 
