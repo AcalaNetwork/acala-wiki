@@ -11,6 +11,7 @@
   * [Partnerships](general/acala-portal/partnerships.md)
   * [Audits](general/acala-portal/audits.md)
   * [Progress Update](general/acala-portal/progress-update/README.md)
+    * [Build Acala \| September 2020](general/acala-portal/progress-update/build-acala-or-september-2020.md)
     * [Build Acala \| August 2020](general/acala-portal/progress-update/build-acala-or-august-2020.md)
     * [Build Acala \| July 2020](general/acala-portal/progress-update/build-acala-july-2020.md)
     * [Build Acala \| June 2020](general/acala-portal/progress-update/build-acala-june-2020.md)
