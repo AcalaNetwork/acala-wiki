@@ -4,7 +4,7 @@ description: >-
   PolkaDeFi Day | June 2020
 ---
 
-# Build Acala \| June 2020
+# Build Acala \| Jun 2020
 
 By [Acala Network](https://medium.com/u/43f74518f3f4?source=post_page-----6de2a967e588----------------------)
 

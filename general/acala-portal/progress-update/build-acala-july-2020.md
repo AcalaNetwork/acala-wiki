@@ -4,7 +4,7 @@ description: >-
   July 2020
 ---
 
-# Build Acala \| July 2020
+# Build Acala \| Jul 2020
 
 ![](../../../.gitbook/assets/0_nim9o3ji8lb2jpqh.jpeg)
 

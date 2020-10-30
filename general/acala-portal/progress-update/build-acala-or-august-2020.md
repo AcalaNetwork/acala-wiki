@@ -4,7 +4,7 @@ description: >-
   testnet mania, on The Defiant | Aug 2020
 ---
 
-# Build Acala \| August 2020
+# Build Acala \| Aug 2020
 
 July has been a month of buidling with ecosystem collaborators like [Ren](https://renproject.io/) and [Laminar](http://laminar.one/), stress testing the network with tens of thousands of new accounts and transactions throughout the Mandala Festival Season \#3 testnet campaign, and getting ready to launch on Polkadot’s parachain testnet Rococo.
 
