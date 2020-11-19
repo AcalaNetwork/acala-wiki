@@ -1,4 +1,4 @@
-# Mandala Test Network
+# Oracle on Mandala Testnet
 
 ## Existing Oracles
 

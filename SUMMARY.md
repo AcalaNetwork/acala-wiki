@@ -72,7 +72,7 @@
   * [Mandala Test Network Maintainers Guide](maintain/network-maintainers/mandala-maintainers-guide.md)
   * [Proof-of-Liveness \(PoL\) Node \(Coming Soon\)](maintain/network-maintainers/proof-of-liveness.md)
 * [Open Oracle Gateway](maintain/oracle/README.md)
-  * [Mandala Test Network](maintain/oracle/oracle-guide-for-mandala-test-network.md)
+  * [Oracle on Mandala Testnet](maintain/oracle/oracle-guide-for-mandala-test-network.md)
 * [Collator](maintain/collator/README.md)
   * [Collator](maintain/collator/collator.md)
   * [Collator Guides](maintain/collator/collator-guides.md)
