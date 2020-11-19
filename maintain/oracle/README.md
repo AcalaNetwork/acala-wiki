@@ -28,7 +28,7 @@ The Oracle Gateway is deployed and running on Acala’s Mandala Test Network. In
 
 **Pre Acala/Karura genesis**
 
-* please contact us directly to express your interest
+* please contact us directly \(hello@acala.network\) or ask on [Discord](https://discord.gg/vdbFVCH) to express your interest
 * submit a Pull Request
 * we'll review and approve PR
 * then merge the code and deploy on the testnet
