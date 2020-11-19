@@ -8,7 +8,7 @@
 
 ## Check States of an Oracle
 
-![](../../.gitbook/assets/acala-oracle.png)
+![](../../../.gitbook/assets/acala-oracle.png)
 
 As an example, checking Acala Oracle states, go to [Polkadot JS App](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fnode-6714447553211260928.rz.onfinality.io%2Fws#/chainstate) --&gt; Developer --&gt; Chainstate, select 'acalaOracle' and other query parameters to check operator membership, token prices etc.
 
