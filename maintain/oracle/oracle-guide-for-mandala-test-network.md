@@ -1,32 +1,14 @@
-# Oracle Guide for Mandala Test Network
+# Mandala Test Network
 
-Price feeds on Mandala are rather arbitrary. DOT is set at $300 until a proper market establishes. ACA mirrors MKR price until market bootstrap. Other crypto prices like BTC come from [Alpha Vantage](https://www.alphavantage.co/).
+## Existing Oracles
 
-Below are simple guidelines for
+* You can find currently available Oracle Providers [here](https://github.com/AcalaNetwork/Acala/blob/master/primitives/src/lib.rs#L106-L110)
+* Acala Oracle running on the Mandala Test Network [here](https://acala-testnet.subscan.io/runtime/OperatorMembershipAcala?version=606)
+* One of the Acala Oracle Operators feeding prices on-chain [here](https://acala-testnet.subscan.io/account/5Fe3jZRbKes6aeuQ6HkcTvQeNhkkRPTXBwmNkuAPoimGEv45)
 
-1. Check Membership
-2. Set Up an Oracle Server
-3. Request for Membership
+## Check States of an Oracle
 
-### Check Membership \(via Polkadot-UI\)
+![](../../.gitbook/assets/acala-oracle.png)
 
-![Check](../../.gitbook/assets/oracle_membership.png)
-
-### Request for Membership
-
-Membership is by invitation only. If you would like to become an oracle provider, please submit your interest [here](https://forms.gle/NnEqCZK49d1jUT696)
-
-### Set Up an Oracle Server
-
-The default oracle server we are using is open sourced [here](https://github.com/laminar-protocol/oracle-server). Follow the instructions there to set up environment variable, build and start the server.
-
-* `SUB_KEY_SEED`: is the hex raw seed of your oracle server account. Make sure it has enough ACA for transaction fees.
-* `SUB_ENDPOINT`: `wss://node-6632097881473671168.au.onfinality.cloud/ws`
-* `PRICE_FEED_INTERVAL_MS`: price feed interval in milli seconds e.g. `300000` as 5 minutes
-* `FEED_ACALA`: as `true`
-* `CONSOLE_LOG`: as `true` for logging
-
-![Check](../../.gitbook/assets/oracle_successlog.png)
-
-![Check](../../.gitbook/assets/oracle_tx.png)
+As an example, checking Acala Oracle states, go to [Polkadot JS App](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fnode-6714447553211260928.rz.onfinality.io%2Fws#/chainstate) --&gt; Developer --&gt; Chainstate, select 'acalaOracle' and other query parameters to check operator membership, token prices etc.
 
