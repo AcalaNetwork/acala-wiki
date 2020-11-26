@@ -77,7 +77,7 @@ You can begin syncing your node by running the following command:
 Once your node is fully synced, stop the process by pressing Ctrl-C. At your terminal prompt, you will now start running the node.
 
 ```text
-./polkadot --validator --name "name on telemetry"
+./acala --validator --name "name on telemetry"
 ```
 
 You can give your validator any name that you like, but note that others will be able to see it, and it will be included in the list of all servers using the same telemetry server. Since numerous people are using telemetry, it is recommended that you choose something likely to be unique.
@@ -88,7 +88,7 @@ You need to tell the chain your Session keys by signing and submitting an extrin
 
 **Option 1: AcalaJS-APPS**
 
-You can generate your Session keys in the client via the apps RPC. If you are doing this, make sure that you have the PolkadotJS-Apps explorer attached to your validator node. You can configure the apps dashboard to connect to the endpoint of your validator in the Settings tab
+You can generate your Session keys in the client via the apps RPC. If you are doing this, make sure that you have the AcalaJS-Apps explorer attached to your validator node. You can configure the apps dashboard to connect to the endpoint of your validator in the Settings tab
 
 Once ensuring that you have connected to your node, the easiest way to set session keys for your node is by calling the `author_rotateKeys` RPC request to create new keys in your validator's keystore. Navigate to Toolbox tab and select RPC Calls then select the author &gt; rotateKeys\(\) option and remember to save the output that you get back for a later step.
 
@@ -116,7 +116,7 @@ Submit this extrinsic and you are now ready to start validating.
 
 #### Validate
 
-o verify that your node is live and synchronized, head to [Telemetry](https://telemetry.polkadot.io/) and find your node. Note that this will show all nodes on the Polkadot network, which is why it is important to select a unique name!
+o verify that your node is live and synchronized, head to [Telemetry](https://telemetry.polkadot.io/) and find your node. Note that this will show all nodes on the Acala network, which is why it is important to select a unique name!
 
 If everything looks good, go ahead and click on "Validate" in Acala UI.
 
