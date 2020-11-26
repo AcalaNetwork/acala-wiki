@@ -60,6 +60,7 @@
   * [Network Configuration](build/integration-guide/network-configuration.md)
   * [Node Management](build/integration-guide/node-management.md)
   * [Node Interaction](build/integration-guide/node-interaction.md)
+  * [Node Validator](build/integration-guide/node-validator.md)
   * [Type Documentation](build/integration-guide/types-doc.md)
   * [Transaction Construction](build/integration-guide/transaction-construction.md)
 * [Tools](build/tools/README.md)
