@@ -2,7 +2,7 @@
 
 ## Existing Oracles
 
-* You can find currently available Oracle Providers [here](https://github.com/AcalaNetwork/Acala/blob/master/primitives/src/lib.rs#L106-L110)
+* You can find currently available Oracle Providers [here](https://github.com/AcalaNetwork/Acala/blob/master/primitives/src/lib.rs#L174)
 * Acala Oracle running on the Mandala Test Network [here](https://acala-testnet.subscan.io/runtime/OperatorMembershipAcala?version=606)
 * One of the Acala Oracle Operators feeding prices on-chain [here](https://acala-testnet.subscan.io/account/5Fe3jZRbKes6aeuQ6HkcTvQeNhkkRPTXBwmNkuAPoimGEv45)
 
