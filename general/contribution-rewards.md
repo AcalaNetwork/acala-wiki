@@ -14,6 +14,132 @@ Learn more about ACA & KAR tokens [here](https://wiki.acala.network/learn/econom
 
 Festival-goers and contributors, have fun, learn & break things, behold & catch the candies 🎁
 
+## Mandala Festival Season 4 🎉🍬🔥
+
+Building Acala is a community effort, and Mandala Fest then becomes a celebration of this growing community and the wealth of possibility that awaits us all in building web3. All past festival-goers would have a chance to claim Acala & Karura Halloween themed badges.  
+These collectibles don’t have a monetary value nor a market, they are our mere way of honoring our shared experience and saying thank you. Newcomers to the community who complete required tasks would also have a chance to claim these collectibles.  
+Here’s what the festival looks like and the rewards:
+
+* Part I \(31-October-2020 to 06-November-2020 \| Award Pool: 2,000 ACA + 2,000 KAR\): Welcome Newcomers — complete required transactions to qualify.
+* Part II \(31-October-2020 to 13-November-2020 \| Award Pool ≈ 30,000 ACA + 30,000 KAR\): Thank You — reward claim by qualified past festival participants
+* Part III \(31-October-2020 to 13-November-2020 \| Award Pool: 3,000 ACA + 3,000 KAR\): Bounties — bugs, better memes, stickers or else
+
+### Season 4 Halloween Give-Back Get Started
+
+* Get started with Acala including creating a wallet and obtain test tokens [here](https://github.com/AcalaNetwork/Acala/wiki/1.-Get-Started)
+* Check out these guides to use [Honzon stablecoin](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin), [Acala Dex](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX), and [Homa staking derivative](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT).
+* Check out guides on cross-chain trading with Laminar and Ren [here](https://github.com/AcalaNetwork/Acala/wiki/T.-Cross-chain-DeFi)
+* Check out these guides on Laminar [synthetic asset](https://github.com/laminar-protocol/laminar-chain/wiki/2.-Synthetic-Asset) & [margin trading](https://github.com/laminar-protocol/laminar-chain/wiki/3.-Margin-Trading)
+* Results are published [here](https://github.com/AcalaNetwork/Acala/wiki/W.-Contribution-&-Rewards)
+
+### Season 4 Full Schedule and Rules
+
+#### Season 4 Part 1: Welcome Newcomers
+
+Duration: 31-October-2020 to 06-November-2020 \(one week\)  
+Award Pool: 2,000 ACA + 2,000 KAR
+
+* All qualified users will share the reward pool
+* All rewards will be recorded and published
+* Note these rewards are lucky draws, not guaranteed
+
+![](https://camo.githubusercontent.com/a293930f14d75fa055a1b38c994957f00fec844ee501c57df717ea229ca73c63/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a3863745f4f53676955505063494d486c475a676641512e706e67)
+
+Participation Rules:
+
+* Get test aUSD from the faucet, fees are payable in aUSD
+* Users completing three meaningful transactions will be rewarded
+
+Meaningful transactions include:
+
+* Use DeX to swap tokens
+* Use DeX to provide liquidity and transfer LP Tokens to another account
+* Use the Self Service Loan service to collateralize for Acala Dollar \(aUSD\)
+* Use Homa protocol to get staking derivative LDOT
+* Transfer aUSD to Laminar Chain, and use it either for synthetic assets or margin trading
+* Mint renBTC and use it in the above activities
+
+#### Season 4 Part 2: Thank You
+
+Duration: 31-October-2020 to 13-November-2020 \(two weeks\)  
+Award Pool ≈ 30,000 ACA + 30,000 KAR
+
+Participation Rules:
+
+* Each account which participated Mandala TC2/TC3/TC4 can get 1 ACA + 1 KAR（If all testnet you participated, you will get 3 ACA + 3 KAR ）
+* The nonce of each Mandala TC2/TC3/TC4 account must greater than or equal to two
+* All rewards need be claimed in Acala Dapp
+* You can see the rewards in your wallet Airdrop account
+
+#### Season 4 Part 3: Bounties for Bugs, Sticker & Emojis sets \(Throughout the Festival\)
+
+Duration: 31-October-2020 to 13-November-2020 \(two weeks\)  
+Award Pool: 3,000 ACA + 3,000 KAR  
+Please allow one week from your submission for our review.  
+Participation Rules:
+
+**Bug Bounties**
+
+Find bugs for the following repos:  
+[https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)  
+[https://github.com/AcalaNetwork/acala-dapp](https://github.com/AcalaNetwork/acala-dapp)  
+[https://github.com/polkawallet-io/polkawallet-flutter](https://github.com/polkawallet-io/polkawallet-flutter) \(Acala part\)
+
+* Bugs are judged on significance and severity by the Acala Engineering team and are awarded roughly based on the levels [here](https://github.com/AcalaNetwork/Acala/wiki/W.-Contribution-&-Rewards#runtime-bug-bounty)
+* Please include your Acala Mandala Address in the Github issue for easy prize distribution
+
+**Stickers & Emojis sets**
+
+* Rewards are not guaranteed for this category
+* Feel free to submit Acala/Karura themed Sticker & Emoji sets
+* Sticker & Emoji sets selected for our Discord channels will receive rewards
+* Please include your Acala Mandala Address in the submission
+
+### Season 4 Prize Giving
+
+#### Season 4 Part 1 Prize Giving: Welcome Newcomers
+
+No. of Qualified Users: 4,712 \(&lt; 5,000\),  
+Lucky Draw: 60%,  
+Number of lucky accounts: 2,827,  
+The reward for each lucky account: 0.7 ACA, 0.7 KAR.  
+List of winning accounts: [Google List](https://docs.google.com/spreadsheets/d/1iSlG5trQnyOR5uzsT7puOsIODiWm7HfZtAi3ys4ietg/edit?usp=sharing)
+
+#### Season 4 Part 2 Prize Giving: Thank You
+
+Claim candy information within the valid time frame \(Not included in the activity time not claimed\):
+
+The number of accounts that have claimed candy: 11,635  
+Claimed candy reward: 13,739 ACA + 13,739 KAR  
+List of claimed candy: [Google List](https://docs.google.com/spreadsheets/d/18comqh2wg6d-NNFb-HFetaToiPSkrS59wt1OmeGyxcQ/edit?usp=sharing)
+
+#### Season 4 Part 3 Prize Giving: Bounties for Bugs
+
+| Repos | BUG level | Issue link | Address |
+| :--- | :--- | :--- | :--- |
+| acala-dapp | bug-c | [\#273](https://github.com/AcalaNetwork/acala-dapp/issues/273) | 5HpLku5nX1Qqr2jUHDXH7rMBB5UVD7gJubNzVijvg6JhJJ9Q |
+| acala-dapp | bug-c | [\#277](https://github.com/AcalaNetwork/acala-dapp/issues/277) | 5HdRwpyhpLNMiFRtEFL7JyhvkSLNSJGVDnQ1GcnVgTQr5smP |
+| acala-dapp | bug-c | [\#281](https://github.com/AcalaNetwork/acala-dapp/issues/281) | 5HHECGnb51XLhPzWWUqumWxb9KwTARmcunxMXvkyNCqRqDX3 |
+| acala-dapp | bug-c | [\#282](https://github.com/AcalaNetwork/acala-dapp/issues/282) | 5HnB6WGwGFZU87ViXYhVxxPEKS1K8r2QTQnvSPg9tWqVApxY |
+| acala-dapp | bug-c | [\#284](https://github.com/AcalaNetwork/acala-dapp/issues/284) | 5FUaMCA9TSiJUdUAyAuLgUF5ZMhrvKQsHXZKhFiJMgWpZSyq |
+| acala-dapp | bug-c | [\#294](https://github.com/AcalaNetwork/acala-dapp/issues/294) | 5CUpyz4irvybSgdZpuPJAFi2ApDqzp8QtfUgR7vWtagFcHGn |
+| acala-dapp | bug-c | [\#295](https://github.com/AcalaNetwork/acala-dapp/issues/295) | 5EFDkXjzsyarcuLV1tDCE93wMjqxYxZyZn7qVh9soufPt2Ho |
+| acala-dapp | bug-c | [\#316](https://github.com/AcalaNetwork/acala-dapp/issues/316) | 5CB6bxLb9jDna7tAeJMAMRaFDsSjRhiEvwFJJpRDCLXBE55o |
+| acala-dapp | bug-c | [\#283](https://github.com/AcalaNetwork/acala-dapp/issues/283) | 5FUaMCA9TSiJUdUAyAuLgUF5ZMhrvKQsHXZKhFiJMgWpZSyq |
+| polkawallet-flutter\(Acala part\) | bug-c | [\#191](https://github.com/polkawallet-io/polkawallet-flutter/issues/191) | 5HnB6WGwGFZU87ViXYhVxxPEKS1K8r2QTQnvSPg9tWqVApxY |
+
+#### Season 4 Part 3 Prize Giving: Sticker & Emojis sets\(Throughout the Festival\)
+
+Sticker submission link: [https://discord.gg/WYjDeZDTPN](https://discord.gg/WYjDeZDTPN)
+
+| Address | Reward |
+| :--- | :--- |
+| 5D7qE641LNgeL4fQxkLrwZPoqMavhGXbWN21DhoMf6iWqBAb | 5 ACA + 5 KAR |
+| 14XszikzVEgp1kbL5uRsdn1F3vXkaowLub9KcFMVhqiBBgcy | 5 ACA + 5 KAR |
+| 5DQ1AvYrLy3ZsYrUKeaY4CZZWBFatLKrZ3sjAfdm1oGtSQJX | 5 ACA + 5 KAR |
+| 5DUUgntu8Atyu2xkk1GjhBBxLryC6CRovHzVcWzFALjHsjQF | 5 ACA + 5 KAR |
+| 5EHiBbDEhb71TAJFBpGD7URArSA137CHKh4srJR1zkkRbBLz | 5 ACA + 5 KAR |
+
 ## Mandala Festival Season 3 🎉🍬🔥
 
 ### Season 3 Prize Giving
