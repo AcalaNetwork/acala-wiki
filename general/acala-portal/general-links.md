@@ -13,7 +13,7 @@ description: List of common links.
 * [Telegram](https://t.me/AcalaOfficial)
 * [Discord](https://discord.gg/9YEgHs8)
 * [Riot](https://riot.im/app/#/room/#acala:matrix.org)
-* [Forum](https://acala.discourse.group/)
+* [Discourse Forum](https://acala.discourse.group/)
 * [GitHub](https://github.com/AcalaNetwork)
 * [Wiki](https://wiki.acala.network/)
 * [Newsletter](https://share.hsforms.com/1X9RxkXk-R62I0VNbATaDXw4h8qc)
