@@ -36,6 +36,7 @@ description: List of common links.
 
 ##  Events Recording
 
+* [Polkadot Decoded - Acala’s Cross-Chain DeFi Hub, Stablecoin & Decentralized Sovereign Wealth Fund - Ruitao Su](https://www.crowdcast.io/e/polkadot-decoded/6)
 * [PolkaDeFi Day - The Polkadot Decentralized Finance Community Conference](https://www.crowdcast.io/e/polkadefi-conference?utm_campaign=discover&utm_source=crowdcast&utm_medium=discover_web)
 * [Web3 Builders: Laminar & Acala](https://www.crowdcast.io/e/polkadot-web3-builders-laminar-acala?utm_campaign=discover&utm_source=crowdcast&utm_medium=discover_web)
 * [Web 3.0 Bootcamp Opening Ceremony - Live Stream](https://www.crowdcast.io/e/f2ykih2r?utm_campaign=discover&utm_source=crowdcast&utm_medium=discover_web)
