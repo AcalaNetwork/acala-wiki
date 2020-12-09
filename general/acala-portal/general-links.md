@@ -11,6 +11,7 @@ description: List of common links.
 * [Twitter](https://twitter.com/AcalaNetwork)
 * [Medium](https://medium.com/acalanetwork)
 * [Telegram](https://t.me/AcalaOfficial)
+* [Telegram Announcement](https://t.me/AcalaAnnouncement)
 * [Discord](https://discord.gg/9YEgHs8)
 * [Riot](https://riot.im/app/#/room/#acala:matrix.org)
 * [Discourse Forum](https://acala.discourse.group/)
