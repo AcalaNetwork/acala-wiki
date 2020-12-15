@@ -51,7 +51,7 @@ Mandala Test Network available test tokens
 
 Check important figures for a particular loan:
 
-![Dapp](../../.gitbook/assets/honzon_app.png)
+![](../../.gitbook/assets/overview.png)
 
 * `liquidation price`: if a collateral price drops to or under the `liquidation price`, then the loan is unsafe
 * `liquidation ratio`: if the collateral ratio of a loan is below this ratio, then the loan is unsafe
@@ -62,13 +62,13 @@ Check important figures for a particular loan:
 
 #### Create Loan
 
-![Create Loan](../../.gitbook/assets/honzon_appcreateloan.png)
+![](../../.gitbook/assets/create_loan.png)
 
 Click the `Create Loan` button, follow the prompt to select a collateral type, and the amount of aUSD to generate. [Create Loan Video](http://www.youtube.com/watch?v=CjwJgm_yz-I)
 
 #### Update Loan
 
-![Update Loan](../../.gitbook/assets/honzon_appupdateloan.png)
+![](../../.gitbook/assets/screen-shot-2020-12-16-at-11.35.42-am.png)
 
 For the aUSD borrowed, you can pay back, and generate more if there is enough collateral. For the collateral asset, you can deposit more \(but not immediately generate aUSD\), or withdraw available collateral. [Update Loan Video](http://www.youtube.com/watch?v=iEWlY5Kosp8)
 
@@ -129,7 +129,9 @@ Use `Extrinsics` -&gt; `honzon` -&gt; `updateVault` to withdraw collateral and/o
 
 ### Check Transaction Details
 
-For `Mandala Test Network`, you can use [Polkascan](https://polkascan.io/pre/acala-mandal) to check transaction details, and perform various queries.
+For `Mandala Test Network`, you can use [Polkascan](https://polkascan.io/pre/acala-mandal) and [Subscan](https://acala-testnet.subscan.io/) to check transaction details, and perform various queries.
 
 ![polkascan](../../.gitbook/assets/honzon_polkascan.png)
+
+![Subscan](../../.gitbook/assets/subscan.png)
 

@@ -33,9 +33,9 @@ description: List of common links.
 * [Telemetry](http://telemetry.polkadot.io/)
 * [Polkawallet](https://polkawallet.io/)
 * [Subscan](https://acala-testnet.subscan.io/)
-* [Polkadot{.js} extension ****Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en%20Firefox%20Store%20%EF%BC%9Ahttps://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
+* [Polkadot{.js} extension _\*\*_Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en%20Firefox%20Store%20%EF%BC%9Ahttps://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
 
-##  Events Recording
+## Events Recording
 
 * [Polkadot Decoded - Acala’s Cross-Chain DeFi Hub, Stablecoin & Decentralized Sovereign Wealth Fund - Ruitao Su](https://www.crowdcast.io/e/polkadot-decoded/6)
 * [PolkaDeFi Day - The Polkadot Decentralized Finance Community Conference](https://www.crowdcast.io/e/polkadefi-conference?utm_campaign=discover&utm_source=crowdcast&utm_medium=discover_web)
