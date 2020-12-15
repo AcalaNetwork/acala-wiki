@@ -47,6 +47,12 @@ L-DOT holders have rights to vote for favorite validators using a selection mech
 
 ### Via Web DApp
 
+#### Express Staking
+
+![Express Staking](../../.gitbook/assets/ldot.png)
+
+1-Click express staking for Kusama or Polkadot through the Homa Liquid KSM/DOT protocol. This is a trustless protocol to stake KSM/DOT, and get LKSM/LDOT tokens back as receipts. LKSM and LDOT can be freely transferrable, used as collaterals to borrow aUSD or other DeFi use cases.
+
 #### Deposit DOT
 
 ![Dapp](../../.gitbook/assets/liquiddot_mint.png)
