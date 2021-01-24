@@ -27,7 +27,8 @@
 
 * [Acala Introduction](learn/acala-introduction.md)
 * [Trilogy Networks](learn/trilogy-networks.md)
-* [Get Started](learn/get-started.md)
+* [Get Started](learn/get-started/README.md)
+  * [Public Nodes](learn/get-started/public-nodes.md)
 * [Basics](learn/basics/README.md)
   * [Honzon Stablecoin](learn/basics/honzon-stablecoin.md)
   * [DeX](learn/basics/dex/README.md)
