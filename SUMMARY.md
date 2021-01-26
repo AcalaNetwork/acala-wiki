@@ -81,6 +81,6 @@
 
 ## Misc
 
-* [Contribute](misc/contributing.md)
+* [Contributing](misc/contributing.md)
 * [Glossary](misc/glossary.md)
 
