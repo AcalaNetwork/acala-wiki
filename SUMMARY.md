@@ -37,9 +37,9 @@
   * [Homa Liquid DOT](learn/basics/homa-liquid-dot.md)
   * [Open Oracle Gateway](learn/basics/oracle/README.md)
     * [Oracle on Mandala Testnet](learn/basics/oracle/oracle-guide-for-mandala-test-network.md)
-  * [Governance](https://wiki.acala.network/maintain/governance-guides)
   * [Cross Chain DeFi](learn/basics/cross-chain-defi.md)
   * [FlexiFee](learn/basics/flexifee.md)
+  * [Governance](learn/basics/governance-overview.md)
 * [Economics](learn/economics/README.md)
   * [ACA & KAR](learn/economics/aca-and-kar.md)
   * [Parachain Slots Auction](https://wiki.polkadot.network/docs/en/learn-auction)
@@ -77,8 +77,6 @@
 * [Collator](maintain/collator/README.md)
   * [Collator](maintain/collator/collator.md)
   * [Collator Guides](maintain/collator/collator-guides.md)
-* [Governance](maintain/governance-guides/README.md)
-  * [Governance Overview](maintain/governance-guides/governance-overview.md)
 
 ## Misc
 

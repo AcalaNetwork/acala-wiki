@@ -1,8 +1,6 @@
 # FAQ
 
-## Coming Soon?
-
-Yes.
+## Coming Soon...
 
 ## 
 
