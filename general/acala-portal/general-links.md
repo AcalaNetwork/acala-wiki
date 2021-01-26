@@ -37,7 +37,7 @@ description: List of common links.
 
 ## Events Recording
 
-* [verview of the Karura Parachain Auction Process](https://www.crowdcast.io/e/overview-karura-crowdloan)
+* [Overview of the Karura Parachain Auction Process](https://www.crowdcast.io/e/overview-karura-crowdloan)
 * [Polkadot Decoded - Acala’s Cross-Chain DeFi Hub, Stablecoin & Decentralized Sovereign Wealth Fund - Ruitao Su](https://www.crowdcast.io/e/polkadot-decoded/6)
 * [PolkaDeFi Day - The Polkadot Decentralized Finance Community Conference](https://www.crowdcast.io/e/polkadefi-conference?utm_campaign=discover&utm_source=crowdcast&utm_medium=discover_web)
 * [Testing Acala & Laminar’s Rococo Parachain](https://www.crowdcast.io/e/testing-rococo-parachain)
