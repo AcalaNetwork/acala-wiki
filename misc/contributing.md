@@ -2,7 +2,7 @@
 description: Wiki contribution guide.
 ---
 
-# Contributing
+# Contribute
 
 The wiki was started and is maintained by the Acala Foundation. It is an Open-ish open source project and aims to be the most extensive resource of knowledge on Acala and the Acala ecosystem. A large part of the material currently focuses on Acala directly but it is not opposed to cover informational material for community projects. But please do not try to pull request any marketing material as this will be rejected.
 

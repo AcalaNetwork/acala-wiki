@@ -18,8 +18,6 @@
     * [Build Acala \| Jul 2020](general/acala-portal/progress-update/build-acala-july-2020.md)
     * [Build Acala \| Jun 2020](general/acala-portal/progress-update/build-acala-june-2020.md)
     * [Build Acala \| May 2020](general/acala-portal/progress-update/build-acala-may-2020.md)
-* [Contributing](general/contributing.md)
-* [Glossary](general/glossary.md)
 * [Contribution & Rewards](general/contribution-rewards.md)
 * [Frequently Asked Questions \(FAQs\)](general/faq.md)
 
@@ -80,4 +78,9 @@
   * [Collator Guides](maintain/collator/collator-guides.md)
 * [Governance](maintain/governance-guides/README.md)
   * [Governance Overview](maintain/governance-guides/governance-overview.md)
+
+## Misc
+
+* [Contribute](misc/contributing.md)
+* [Glossary](misc/glossary.md)
 
