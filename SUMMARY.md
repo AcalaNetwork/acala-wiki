@@ -18,7 +18,7 @@
     * [Build Acala \| Jul 2020](general/acala-portal/progress-update/build-acala-july-2020.md)
     * [Build Acala \| Jun 2020](general/acala-portal/progress-update/build-acala-june-2020.md)
     * [Build Acala \| May 2020](general/acala-portal/progress-update/build-acala-may-2020.md)
-* [Community Discord](general/community-discord.md)
+* [Community Discord](general/https-discord.gg-vdbfvch.md)
 * [Contribution & Rewards](general/contribution-rewards.md)
 * [FAQ](general/faq.md)
 
@@ -28,7 +28,7 @@
 * [Trilogy Networks](learn/trilogy-networks.md)
 * [Get Started](learn/get-started/README.md)
   * [Public Nodes](learn/get-started/public-nodes.md)
-* [Basics](learn/basics/README.md)
+* [DeFi Basics](learn/basics/README.md)
   * [Honzon Stablecoin](learn/basics/honzon-stablecoin.md)
   * [DeX](learn/basics/dex/README.md)
     * [Provide Liquidity](learn/basics/dex/provide-liquidity.md)
