@@ -19,7 +19,7 @@
     * [Build Acala \| Jun 2020](general/acala-portal/progress-update/build-acala-june-2020.md)
     * [Build Acala \| May 2020](general/acala-portal/progress-update/build-acala-may-2020.md)
 * [Contribution & Rewards](general/contribution-rewards.md)
-* [Frequently Asked Questions \(FAQs\)](general/faq.md)
+* [FAQ](general/faq.md)
 
 ## Learn
 
