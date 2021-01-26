@@ -1,5 +1,5 @@
 ---
-description: How to Collect Tokens and NFTs on Acala & Karura
+description: How to find tokens and NFTs on Acala & Karura
 ---
 
 # Finding Tokens and NFTs
