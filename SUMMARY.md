@@ -18,7 +18,7 @@
     * [Build Acala \| Jul 2020](general/acala-portal/progress-update/build-acala-july-2020.md)
     * [Build Acala \| Jun 2020](general/acala-portal/progress-update/build-acala-june-2020.md)
     * [Build Acala \| May 2020](general/acala-portal/progress-update/build-acala-may-2020.md)
-* [Community Discord](general/https-discord.gg-vdbfvch.md)
+* [Community Discord](https://discord.gg/vdbFVCH)
 * [Contribution & Rewards](general/contribution-rewards.md)
 * [FAQ](general/faq.md)
 
