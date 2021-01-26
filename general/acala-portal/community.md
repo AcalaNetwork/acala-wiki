@@ -4,7 +4,7 @@ description: Channels to reach the Acala community.
 
 # Community
 
-### General Discussions & Support
+## General Discussions & Support
 
 [Discord](https://discord.gg/vdbFVCH) \| [Telegram](https://t.me/AcalaOfficial) \| [Riot](https://riot.im/app/#/room/#acala:matrix.org)
 
@@ -18,7 +18,7 @@ description: Channels to reach the Acala community.
 
 Issue can be raised directly in respective [Github](https://github.com/AcalaNetwork) repo or via Riot channel
 
-### Join the Acala Ecosystem Program
+## Join the Acala Ecosystem Program
 
 Acala Ecosystem projects may participate in any number of ways including using and integrating Acala's technologies and products such as aUSD stablecoin, staking derivative Liquid DOT, providing liveness \(validation\), oracle or other services to Acala network, and/or other forms of collaboration mutually agreed upon. Ecosystem projects will enjoy first-line support from the Acala team, technical collaboration, have opportunities to partake in product promotion/incentive programs, and co-marketing etc.
 
@@ -26,7 +26,7 @@ There are multiple ways you can build with Acala, by deploying smart contracts o
 
 Join [Acala Ecosystem Program](https://acala.network/ecosystem-program.html).
 
-### Investment Enquiries
+## Investment Enquiries
 
 For venture enquiries, please [contact us](mailto:hello@acala.network) to discuss.
 
