@@ -39,6 +39,11 @@
     * [Oracle on Mandala Testnet](learn/basics/oracle/oracle-guide-for-mandala-test-network.md)
   * [Cross Chain DeFi](learn/basics/cross-chain-defi.md)
   * [FlexiFee](learn/basics/flexifee.md)
+  * [Acala EVM](learn/basics/acala-evm/README.md)
+    * [Why Acala EVM](learn/basics/acala-evm/why-acala-evm.md)
+    * [Existing Solutions](learn/basics/acala-evm/existing-solutions.md)
+    * [Acala EVM - Composable DeFi Stack](learn/basics/acala-evm/acala-evm-composable-defi-stack.md)
+    * [How does it work?](learn/basics/acala-evm/how-does-it-work.md)
   * [Governance](learn/basics/governance-overview.md)
 * [Economics](learn/economics/README.md)
   * [ACA & KAR](learn/economics/aca-and-kar.md)
@@ -52,7 +57,7 @@
 ## Build
 
 * [Builder's Portal](build/builders-portal.md)
-* [Development Guide](build/development-guide/README.md)
+* [Developer Guide](build/development-guide/README.md)
   * [Builders Starter's Guide](build/development-guide/builders-starters-guide.md)
   * [Deploy Ecosystem Modules](build/development-guide/deploy-ecosystem-modules.md)
   * [Deploy Smart Contracts \(TBD\)](build/development-guide/deploy-smart-contracts.md)
