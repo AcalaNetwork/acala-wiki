@@ -24,7 +24,7 @@ Acala Ecosystem projects may participate in any number of ways including using a
 
 There are multiple ways you can build with Acala, by deploying smart contracts on the Acala Network, developing runtime modules on Acala, or integrating as parachain. Find out more on how to get started, visit [Build with Acala](https://wiki.acala.network/build/builders-portal).
 
-Join [Acala Ecosystem Program](https://forms.gle/KahyKRUEJg49ryXj8).
+Join [Acala Ecosystem Program](https://acala.network/ecosystem-program.html).
 
 ### Investment Enquiries
 
