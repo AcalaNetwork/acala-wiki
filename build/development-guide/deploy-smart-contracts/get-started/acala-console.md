@@ -20,17 +20,23 @@ wss://node-6757141250775003136.rz.onfinality.io/ws?apikey=086df60c-6a2d-414e-add
 
 Then click `Switch` on the top, and wait for the page to refresh and connect to the network. If your current endpoint already matches your selection, the `Switch` button will be disabled.
 
-To Verify that the console is properly connected, let’s try to check the balance.
+### Check Balance
 
-In Substrate console pick Developer in top navigation tab, and in opened list select “Chain State”.
+Click the `Developer` tab on the top navigation bar, and select `Chain State` in the dropdown list.
 
 ![](https://i.imgur.com/BvFEcsZ.png)
 
-In the opened window pick selected state query - select “token” from opened dropdown; choose “accounts” method and select AccountId - Alice and Token - DOT. After press “+” button to initiate the call.
+Then click on the `selected state query` , and select `token` . 
+
+Select `Alice` from the `AccountId` dropdown.
+
+Select `Token` from `CurrencyId` and `DOT` as `Token: TokenSymbol`
+
+Press `+` button to initiate the call.
 
 ![](https://i.imgur.com/5hdanQC.png)
 
-If below appeared the box with current state of balance of Alice, everything works well.
+Alice's DOT balance will be shown below.
 
 ![](https://i.imgur.com/nOB7L3k.png)
 
