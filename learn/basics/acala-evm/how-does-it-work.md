@@ -10,7 +10,9 @@ Instead of emulating the full Ethereum RPC node \([Frontier](https://github.com/
 
 This initiative has received an Open Grant from Web3 Foundation and is under development. Read more [here](https://github.com/AcalaNetwork/Open-Grants-Program/blob/master/applications/project_bodhi.md).
 
-## Test Drive
+## Get Started
+
+Try out Acala EVM [here](https://wiki.acala.network/build/development-guide/deploy-smart-contracts/get-started).
 
 
 

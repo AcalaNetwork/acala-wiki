@@ -8,3 +8,5 @@
 
 {% page-ref page="how-does-it-work.md" %}
 
+{% page-ref page="../../get-started/" %}
+
