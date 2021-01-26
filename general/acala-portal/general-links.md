@@ -12,7 +12,7 @@ description: List of common links.
 * [Medium](https://medium.com/acalanetwork)
 * [Telegram](https://t.me/AcalaOfficial)
 * [Telegram Announcement](https://t.me/AcalaAnnouncement)
-* [Discord](https://discord.gg/9YEgHs8)
+* [Discord](https://discord.gg/vdbFVCH)
 * [Riot](https://riot.im/app/#/room/#acala:matrix.org)
 * [Discourse Forum](https://acala.discourse.group/)
 * [GitHub](https://github.com/AcalaNetwork)
