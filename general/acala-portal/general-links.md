@@ -30,15 +30,17 @@ description: List of common links.
 
 * [Dapp](https://apps.acala.network/)
 * [Console Portal](https://console.acala.network/)
-* [Telemetry](http://telemetry.polkadot.io/)
+* [Telemetry](https://telemetry.polkadot.io/)
 * [Polkawallet](https://polkawallet.io/)
 * [Subscan](https://acala-testnet.subscan.io/)
-* [Polkadot{.js} extension \_\*\*\_Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en%20Firefox%20Store%20%EF%BC%9Ahttps://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
+* [Polkadot{.js} extension](https://polkadot.js.org/extension)
 
 ## Events Recording
 
+* [verview of the Karura Parachain Auction Process](https://www.crowdcast.io/e/overview-karura-crowdloan)
 * [Polkadot Decoded - Acala’s Cross-Chain DeFi Hub, Stablecoin & Decentralized Sovereign Wealth Fund - Ruitao Su](https://www.crowdcast.io/e/polkadot-decoded/6)
 * [PolkaDeFi Day - The Polkadot Decentralized Finance Community Conference](https://www.crowdcast.io/e/polkadefi-conference?utm_campaign=discover&utm_source=crowdcast&utm_medium=discover_web)
+* [Testing Acala & Laminar’s Rococo Parachain](https://www.crowdcast.io/e/testing-rococo-parachain)
 * [Web3 Builders: Laminar & Acala](https://www.crowdcast.io/e/polkadot-web3-builders-laminar-acala?utm_campaign=discover&utm_source=crowdcast&utm_medium=discover_web)
 * [Web 3.0 Bootcamp Opening Ceremony - Live Stream](https://www.crowdcast.io/e/f2ykih2r?utm_campaign=discover&utm_source=crowdcast&utm_medium=discover_web)
 * [DeFi discussion](https://www.crowdcast.io/e/defi-discussions/52)
