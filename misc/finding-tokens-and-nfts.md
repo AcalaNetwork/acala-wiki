@@ -25,6 +25,6 @@ When the Karura Crowdloan occurs, users can also recommend others to participate
 
 > KAR is now a certificate on the Mandala testnet and cannot be transferred. It can be claimed after the Karura network is online.
 
-* Desktop: Please use the plugin wallet \([https://polkadot.js.org/extension/](https://polkadot.js.org/extension/)\) to import your Kusama account. And check it through the Dapp \([https://apps.acala.network/\#/wallet](https://apps.acala.network/#/wallet)\), Under `Wallet` -&gt; `AirDrop`. ![](https://i.imgur.com/IQiTcIi.png)
-* Mobile: Import your account into the mobile wallet\([https://polkawallet.io](https://polkawallet.io/)\), Switch network to Acala Mandala. Under `AirDrop`. ![](https://i.imgur.com/EI8mFb5.png)
+* Desktop: Please use the plugin wallet \([https://polkadot.js.org/extension/](https://polkadot.js.org/extension/)\) to import your Kusama account. And check it through the Acala Dapp \([https://apps.acala.network/\#/wallet](https://apps.acala.network/#/wallet)\), Under `Wallet` -&gt; `AirDrop`. ![](https://i.imgur.com/IQiTcIi.png)
+* Mobile: Import your account into the mobile wallet \([https://polkawallet.io](https://polkawallet.io/)\), Switch network to Acala Mandala. Under `AirDrop`. ![](https://i.imgur.com/EI8mFb5.png)
 
