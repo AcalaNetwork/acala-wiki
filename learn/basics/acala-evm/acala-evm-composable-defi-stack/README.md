@@ -1,4 +1,4 @@
-# Acala EVM - Composable DeFi Stack
+# Acala EVM
 
 ## Acala EVM - Code Name: Project Bodhi
 

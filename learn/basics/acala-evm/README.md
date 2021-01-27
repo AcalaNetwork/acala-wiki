@@ -4,7 +4,7 @@
 
 {% page-ref page="existing-solutions.md" %}
 
-{% page-ref page="acala-evm-composable-defi-stack.md" %}
+{% page-ref page="acala-evm-composable-defi-stack/" %}
 
 {% page-ref page="how-does-it-work.md" %}
 
