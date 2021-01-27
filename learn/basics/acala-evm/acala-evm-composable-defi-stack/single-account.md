@@ -15,7 +15,7 @@ To enable Single Account and use Acala EVM, you either
 1. generate an Ethereum address from the Substrate account OR
 2. bind an existing Ethereum address to the Substrate account
 
-### **Generate an EVM Account**
+### **1. Generate an EVM Account**
 
 A user can generate an EVM address for each Substrate account. The user then can bind the EVM address to the Substrate account, so balances of native tokens e.g. DOT, renBTC, aUSD etc. on the Substrate account, are then available on the EVM address to use. 
 
@@ -33,13 +33,19 @@ blake2_256(“evm:” ++ account_id)[0..20]
 
 \[TODO\] step guide to generate and bind an EVM address.
 
-### **Bind an Existing Ethereum Addresses**
+### **2. Bind an Existing Ethereum Account**
 
 In any case, if users want to use an existing Ethereum address in Acala EVM, this address will need to be claimed and bound to their Subatrate account.
 
 One Substrate account can only be associated with one Ethereum address. A Substrate address already linked to a generated EVM address can no longer link to an existing Ethereum address and vice versa.
 
 Binding an existing Ethereum address requires users to prove they own its private key, by signing a `claim` transaction.
+
+#### Import an EVM account to Polkadot{js} Extension
+
+\[TODO\]
+
+#### Use Cases
 
 Below are two potential use cases of binding an existing Ethereum address.
 
