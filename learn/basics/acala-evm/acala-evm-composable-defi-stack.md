@@ -10,7 +10,7 @@ We see EVM as one part of the Acala/Substrate/Polkadot, but EVM in itself does n
 2. Enable protocol composability for EVM and runtime
 3. Enable developers to develop and deploy DApps on Acala with great tooling support.
 
-The Acala EVM delivers the following benefits from the best of both Ethereum and Substrate platforms:
+The Acala EVM delivers the following benefits and features from the best of both Ethereum and Substrate platforms:
 
 ### **1. Fully Composable DeFi Primitives in EVM and Runtime**
 
@@ -26,19 +26,25 @@ On Acala, fees can be paid in any accepted tokens e.g. ACA, aUSD, DOT, BTC etc. 
 
 Behind the scene, Acala DeX is being used as a unified liquidity pool for settling the fees into the network token, but the experience is completely transparent to users and developers.
 
-### **3. Single Wallet, Single Account Experience**
+### **3. On-chain Automatic Scheduler**
+
+On Ethereum and most other EVM platforms, there is no way to automatically schedule a transaction natively, for example, a subscription payment DApp would not be possible. 
+
+On Acala Network and Substrate for that matter, automatic scheduler is a native feature of the blockchain, and it is also a native feature in Acala EVM that any smart contract DApps can call. 
+
+### **4. Single Wallet, Single Account Experience**
 
 Users can use **one extension/wallet**, and **a single Substrate account** to interact with the Substrate runtime, contracts in EVM, and wasm contracts or a hybrid of these. If a user wants to use a particular Ethereum address, then simply link it with his/her Substrate address \(basically proving the user owns both addresses\), thereafter the user can just use the Substrate account to sign any Ehtereum transactions seamlessly.
 
 This allows users to use all functionalities within Acala and cross-chain capabilities without managing multiple accounts or wallets.
 
-### **4. Keep Nodes Lightweight while Query Capability Intact**
+### **5. Keep Nodes Lightweight while Query Capability Intact**
 
 We retain the standard Substrate node which is lightweight and easily maintainable. For querying transactions and event logs, we offer an indexer node that is open-sourced and anyone can run a copy of it like a full-node.
 
 For convenience, we’d offer one docker image to run both nodes, but it is important that there’s a choice for people who want to run one or another for their purposes.
 
-### **5. Upgradeable Smart Contracts.**
+### **6. Upgradeable Smart Contracts.**
 
 In Acala EVM, developers no longer need to write complex migration contracts to fix bugs or make improvements to existing applications. The contract maintainer can simply send a transaction with the new contract byte-code to seamlessly upgrade the contracts, without the need to `migrate` users nor liquidity.
 
@@ -51,13 +57,13 @@ To incentivize users to be mindful of acquiring storage on a public ledger, and 
 
 Some barriers of entry would encourage more responsible behaviors, and we are constantly researching the space for better mechanisms to achieve this.
 
-### **6. Compatible Developer Tooling**
+### **7. Compatible Developer Tooling**
 
 Acala EVM enables developers to develop, test and deploy DApps with existing tooling support, such as [Remix](https://remix.ethereum.org/) and [Waffle](https://getwaffle.io/). More toolchains will be added as we progress.
 
 Existing Solidity DApps and node.js applications can communicate with Acala nodes with minimum changes. Developers can use Acala’s web3 provider [bodhi.js](https://github.com/AcalaNetwork/bodhi.js) to interact with an Acala node seamlessly.
 
-### **7. Avoid Dust Accounts**
+### **8. Avoid Dust Accounts**
 
 Dust accounts are accounts with very little funds, generally less than the amount needed to conduct a transaction. Too many dust accounts add unnecessary data to the blockchain, which would make it difficult for full nodes to sync with the network \(since every full node has a complete copy of the blockchain\).
 
