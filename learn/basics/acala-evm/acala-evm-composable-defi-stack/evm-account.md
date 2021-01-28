@@ -39,11 +39,9 @@ In any case, if users want to use an existing Ethereum account in Acala EVM, thi
 
 _**One Substrate account can only be associated with one Ethereum address.**_ A Substrate address already linked to a generated EVM address can no longer link to an existing Ethereum address and vice versa.
 
-Binding an existing Ethereum account requires users to prove they own its private key, by signing a `claim` transaction.
+Binding an existing Ethereum account requires users to prove they own the Ethereum account private key, by signing a message, include it in a `claim` transaction and send it to the Acala network. 
 
-#### Import an EVM account to Polkadot{js} Extension
-
-\[TODO\]
+This feature is coming soon in our next release. 
 
 #### Use Cases
 
