@@ -48,7 +48,7 @@
       * [Composable DeFi Stack](learn/basics/acala-evm/acala-evm-composable-defi-stack/composable-defi-stack.md)
       * [Flexi Fees](learn/basics/acala-evm/acala-evm-composable-defi-stack/flexi-fees.md)
       * [On-chain Scheduler](learn/basics/acala-evm/acala-evm-composable-defi-stack/on-chain-scheduler.md)
-      * [Single Account](learn/basics/acala-evm/acala-evm-composable-defi-stack/single-account.md)
+      * [EVM Account](learn/basics/acala-evm/acala-evm-composable-defi-stack/evm-account.md)
       * [Queryable & Lightweight](learn/basics/acala-evm/acala-evm-composable-defi-stack/queryable-and-lightweight.md)
       * [Upgradable Contracts](learn/basics/acala-evm/acala-evm-composable-defi-stack/upgradable-contracts.md)
       * [Compatible Toolings](learn/basics/acala-evm/acala-evm-composable-defi-stack/compatible-toolings.md)
