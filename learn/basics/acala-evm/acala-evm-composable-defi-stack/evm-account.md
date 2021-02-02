@@ -37,7 +37,7 @@ Navigate to the [EVM Playground](https://evm.acala.network/#/evmAccount) \(a web
 
 Navigate to the `Setup EVM Account` tab if you are not already on it.
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-02-at-9.34.24-pm.png)
+![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-10.52.25-am.png)
 
 **Step 1: Select a Substrate Account**
 
@@ -47,19 +47,23 @@ If the account is created and the extension is installed correctly, the account 
 
 Click on the `Faucet` Button to fund the account, as it will need to send a transaction to the Acala blockchain later to bind the accounts. 
 
+![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-10.53.47-am.png)
+
 **Step 2: Choose Option 1 to Bind an auto-generated EVM address**
 
 **Step 3: Bind**
 
 You can see the generated EVM address under Step 3, and click the `Bind` button.
 
-Polkadot{js} extension will prompt you to enter a password or use the saved password, and sign the transaction. 
+Polkadot{js} extension will prompt you to enter a password or use the saved password, and click the `Sign the transaction` Button.
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-02-at-9.57.39-pm.png)
+![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-10.54.49-am.png)
 
-If the `Bind` transaction was successful, you will get a message `An evm account already exists to bind this account` basically means the binding was done on-chain. Please excuse the UX as the Playground is mostly used for dev testing.
+If the `Bind` transaction was successful, you will get a message `An evm account already exists to bind this account` basically means the binding was recorded on-chain, and you can use the Polkadot extension for any EVM transactions. 
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-02-at-9.58.27-pm%20%281%29.png)
+_Please excuse the UX as the Playground is mostly used for dev testing._
+
+![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-11.28.49-am.png)
 
 ### **2. Bind an Existing Ethereum Account**
 
