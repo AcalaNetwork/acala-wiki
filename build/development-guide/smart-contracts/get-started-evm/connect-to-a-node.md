@@ -22,7 +22,7 @@ docker version
 If you receive the version number, you can start your local Acala node with the command below:
 
 ```text
-docker run -it -p 9944:9944 -p 9933:9933 acala/aca-node:latest --dev --ws-external --rpc-external
+docker run -it -p 9944:9944 -p 9933:9933 acala/acala-node:latest --dev --ws-external --rpc-external
 ```
 
 The output of your node should look like this:
