@@ -92,8 +92,7 @@
   * [Node Validator](build/integration-guide/node-validator.md)
   * [Type Documentation](build/integration-guide/types-doc.md)
   * [Transaction Construction](build/integration-guide/transaction-construction.md)
-* [Tools](build/tools/README.md)
-  * [Tool Index](build/tools/tool-index.md)
+* [Tools](build/tools.md)
 * [Resources](build/resources/README.md)
   * [Examples](build/resources/examples.md)
 
