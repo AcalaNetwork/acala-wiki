@@ -18,7 +18,7 @@ When the Karura Crowdloan occurs, users can also recommend others to participate
 
 #### 3. Top 11-100 Winners, Special NFTs: <a id="3-Top-11-100-Winners-Special-NFTs"></a>
 
-* Desktop: Please use the plugin wallet \([https://polkadot.js.org/extension/](https://polkadot.js.org/extension/)\) to import your Kusama account. Check it through the Dapp \([https://apps.acala.network/\#/wallet](https://apps.acala.network/#/wallet)\), Under the `Collectibles` column. ![](https://i.imgur.com/fCDF0C6.png)
+* Desktop: Please use the plugin wallet \([https://polkadot.js.org/extension/](https://polkadot.js.org/extension/)\) to import your Kusama account. Check it through the Dapp \([https://apps.acala.network/wallet](https://apps.acala.network/wallet)\), Under the `Collectibles` column. ![](https://i.imgur.com/fCDF0C6.png)
 * Mobile: Import your account into the mobile wallet \([https://polkawallet.io](https://polkawallet.io/)\), Switch network to Acala Mandala. If it does not appear, it may be the cause of network delay. ![](https://i.imgur.com/JFeB0K1.png)
 
 #### 4. Everyone with over 130 Gleam entries wins 3 KAR \(For Ledger, scroll below\) <a id="4-Everyonenbspwith-over-130-Gleam-entries-wins-3-KAR"></a>
