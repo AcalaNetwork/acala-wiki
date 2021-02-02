@@ -24,14 +24,9 @@ Mandala Test Network is a risk-free and value-free playground, purely for testin
 * [Telemetry](https://telemetry.polkadot.io/#list/Acala%20Mandala%20TC3)
 * [Riot Faucet](https://riot.im/app/#/room/#acala-faucet:matrix.org)
 
-Public nodes powered by [OnFinality](https://www.onfinality.io/)
+### Public Nodes 
 
-* RPC node 1:
-  * HTTP: `https://node-6661046769230852096.jm.onfinality.io/rpc`
-  * WebSocket: `wss://node-6661046769230852096.jm.onfinality.io/ws`
-* RPC node 2:
-  * HTTP: `https://node-6661046769218965504.rz.onfinality.io/rpc`
-  * WebSocket: `wss://node-6661046769218965504.rz.onfinality.io/ws`
+{% page-ref page="public-nodes.md" %}
 
 ### Create a Polkadot Account
 
