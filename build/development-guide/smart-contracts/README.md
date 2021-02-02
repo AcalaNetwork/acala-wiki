@@ -4,5 +4,7 @@
 
 {% page-ref page="advanced/" %}
 
+{% page-ref page="../../../learn/basics/acala-evm/" %}
+
 
 
