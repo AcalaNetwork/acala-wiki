@@ -1,12 +1,12 @@
 # Existing Solutions
 
-Current Substrate EVM compatibility solution i.e. [Frontier](https://github.com/paritytech/frontier) emulates the Ethereum node. It aims to implement the full set of Ethereum RPC and to emulate the Ethereum block production process. This allows existing Ethereum tools such as Metamask and Remix to work with a Frontier enabled node seamlessly. Comment
+Current Substrate EVM compatibility solution i.e. [Frontier](https://github.com/paritytech/frontier) emulates the Ethereum node. It aims to implement the full set of Ethereum RPC and to emulate the Ethereum block production process. This allows existing Ethereum tools such as Metamask and Remix to work with a Frontier enabled node seamlessly.
 
-Integrating Frontier has revealed the following challenges by their severity:
+Integrating Frontier has revealed the following challenges in order below by their severity:
 
 ### **1. Confined inside the EVM Sandbox**
 
-Frontier allows users to interact with EVM via Metamask or other existing Ethereum tools, none of which fully support Substrate yet. Any functionalities from native modules of Substrate, such as Acala DeX, token pallets that support multiple currency and cross-chain capability, and any other pallets built by any parachains such as margin trading pallet by Laminar can not be accessed via Metamask or other existing Ethereum tools.
+Frontier allows users to interact with EVM via Metamask or other existing Ethereum tools, none of which fully support Substrate yet. Any functionalities from native modules of Substrate, such as Acala DeX, token pallets that support multiple currencies and cross-chain capability, and any other pallets built by any parachains such as margin trading pallet by Laminar can not be accessed via Metamask or other existing Ethereum tools.
 
 This means users will need to use a Substrate wallet \(e.g. Polkadot-js Extension\) and Metamask at the same time if they ever want to taste the real power of Acala, Substrate or Polkadot for that matter. This is certainly a deal-breaker for us.
 
