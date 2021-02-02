@@ -13,7 +13,7 @@
 
 ### Contract Methods
 
-```text
+```javascript
 // Returns the currencyId of the token.
 function currencyId() public view returns (uint256);
 
