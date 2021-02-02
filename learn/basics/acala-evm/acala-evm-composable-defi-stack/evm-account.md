@@ -31,7 +31,35 @@ The EVM Address is generated using the `blake2_256` hash function with a prefix 
 blake2_256(“evm:” ++ account_id)[0..20]
 ```
 
-\[TODO\] step guide to generate and bind an EVM address.
+#### Generate an EVM Address via EVM Playground
+
+Navigate to the [EVM Playground](https://evm.acala.network/#/evmAccount) \(a web app to test various Acala EVM functionalities\).
+
+Navigate to the `Setup EVM Account` tab if you are not already on it.
+
+![](../../../../.gitbook/assets/screen-shot-2021-02-02-at-9.34.24-pm.png)
+
+**Step 1: Select a Substrate Account**
+
+If you have yet installed the Polkadot{js} extension and created an account, please do so by following the steps [here](https://wiki.polkadot.network/docs/en/learn-account-generation#polkadotjs-browser-plugin).
+
+If the account is created and the extension is installed correctly, the account should be available in the dropdown.
+
+Click on the `Faucet` Button to fund the account, as it will need to send a transaction to the Acala blockchain later to bind the accounts. 
+
+**Step 2: Choose Option 1 to Bind an auto-generated EVM address**
+
+**Step 3: Bind**
+
+You can see the generated EVM address under Step 3, and click the `Bind` button.
+
+Polkadot{js} extension will prompt you to enter a password or use the saved password, and sign the transaction. 
+
+![](../../../../.gitbook/assets/screen-shot-2021-02-02-at-9.57.39-pm.png)
+
+If the `Bind` transaction was successful, you will get a message `An evm account already exists to bind this account` basically means the binding was done on-chain. Please excuse the UX as the Playground is mostly used for dev testing.
+
+![](../../../../.gitbook/assets/screen-shot-2021-02-02-at-9.58.27-pm.png)
 
 ### **2. Bind an Existing Ethereum Account**
 
