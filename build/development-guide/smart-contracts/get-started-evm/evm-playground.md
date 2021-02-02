@@ -22,7 +22,7 @@ Click on the `Node to connect to` dropdown to choose a node you want to connect 
 
 ### Check Balance
 
-Let’s check Alice's DOT balance. On the left sidebar click `Execute`. 
+Let’s check the DOT balance of an account. On the left sidebar click `Execute`. 
 
 A list of native token contracts would appear e.g. DOT, aUSD, ACA, renBTC, etc. These native tokens \(including cross-chain assets like renBTC\) are exposed as pre-compiled contracts that would otherwise not be available in an EVM. Their supply, balances on accounts and functions are all available in EVM.
 
@@ -30,7 +30,7 @@ Select `DOT` and press `Execute` under it.
 
 ![](https://i.imgur.com/gGqwRZM.png)
 
-Pick Alice from the `Call from Account`. 
+Pick your account \(in the example `Alice`\) from the `Call from Account`. 
 
 Pick `balanceOf` from `Message to Send`. 
 
