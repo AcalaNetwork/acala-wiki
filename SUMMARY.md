@@ -82,7 +82,7 @@
       * [Use Flexi Fee](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
       * [Use On-chain Scheduler](build/development-guide/smart-contracts/advanced/use-on-chain-scheduler.md)
       * [Use Pre-compiled Contracts](build/development-guide/smart-contracts/advanced/use-pre-compiled-contracts.md)
-  * [Connect via XCMP \(TBD\)](build/development-guide/connect-via-xcmp.md)
+  * [Connect via Polkadot/Kusama](build/development-guide/connect-via-xcmp.md)
 * [Integration Guide](build/integration-guide/README.md)
   * [Network Configuration](build/integration-guide/network-configuration.md)
   * [Node Management](build/integration-guide/node-management.md)
