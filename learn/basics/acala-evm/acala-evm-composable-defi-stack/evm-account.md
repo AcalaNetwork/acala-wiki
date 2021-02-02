@@ -15,7 +15,7 @@ To enable Single Account and use Acala EVM, you either
 1. Bind an auto-generated Ethereum address OR
 2. Bind an existing Ethereum account to the Substrate account
 
-### **1. Bndind an auto-generate EVM Account**
+### **1. Bind an auto-generate EVM Account**
 
 A user can generate an EVM address for each Substrate account. The user then can bind the EVM address to the Substrate account, so balances of native tokens e.g. DOT, renBTC, aUSD etc. on the Substrate account, are then available on the EVM address to use. 
 
