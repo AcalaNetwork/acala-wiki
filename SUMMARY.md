@@ -111,3 +111,7 @@
 * [Glossary](misc/glossary.md)
 * [Finding Tokens and NFTs](misc/finding-tokens-and-nfts.md)
 
+---
+
+* [Setup EVM Account](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack/evm-account#1-bind-an-auto-generate-evm-account)
+
