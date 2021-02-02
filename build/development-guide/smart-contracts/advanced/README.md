@@ -6,7 +6,7 @@
 
 {% page-ref page="use-on-chain-scheduler.md" %}
 
-{% page-ref page="use-pre-compiled-contracts.md" %}
+{% page-ref page="use-oracle-feeds.md" %}
 
 
 
