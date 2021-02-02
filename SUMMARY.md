@@ -70,6 +70,7 @@
 * [Developer Guide](build/development-guide/README.md)
   * [Deploy Ecosystem Modules](build/development-guide/deploy-ecosystem-modules.md)
   * [Smart Contracts](build/development-guide/smart-contracts/README.md)
+    * [Acala EVM Overview](https://wiki.acala.network/learn/basics/acala-evm)
     * [Get Started](build/development-guide/smart-contracts/get-started-evm/README.md)
       * [Connect to a Node](build/development-guide/smart-contracts/get-started-evm/connect-to-a-node.md)
       * [Acala Console](build/development-guide/smart-contracts/get-started-evm/acala-console.md)
