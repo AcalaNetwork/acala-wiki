@@ -7,7 +7,7 @@ To use Acala EVM, you need to connect to an Acala Node. You can either
 
 ### **1. Connect to a deployed test network**
 
-Find all available testnet nodes [here](https://wiki.acala.network/learn/get-started/public-nodes#mandala-test-network-nodes)
+Find all available testnet nodes [here](https://wiki.acala.network/learn/get-started/public-nodes#mandala-test-network-nodes). You can use [Acala Console](acala-console.md) to communicate with the node, and [EVM Playground](evm-playground.md) to deploy and execute contracts. 
 
 ### **2. Run a local Acala test node**
 
