@@ -81,7 +81,7 @@
       * [Use Native & Cross-chain Tokens](build/development-guide/smart-contracts/advanced/use-native-tokens.md)
       * [Use On-chain Scheduler](build/development-guide/smart-contracts/advanced/use-on-chain-scheduler.md)
       * [Use Oracle Feeds](build/development-guide/smart-contracts/advanced/use-oracle-feeds.md)
-      * [Use Flexi Fee](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
+      * [Upcoming Features](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
   * [Connect via Polkadot/Kusama](build/development-guide/connect-via-xcmp.md)
 * [Integration Guide](build/integration-guide/README.md)
   * [Network Configuration](build/integration-guide/network-configuration.md)
