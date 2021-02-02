@@ -68,7 +68,6 @@
 
 * [Builder's Portal](build/builders-portal.md)
 * [Developer Guide](build/development-guide/README.md)
-  * [Builders Starter's Guide](build/development-guide/builders-starters-guide.md)
   * [Deploy Ecosystem Modules](build/development-guide/deploy-ecosystem-modules.md)
   * [Smart Contracts](build/development-guide/smart-contracts/README.md)
     * [Get Started](build/development-guide/smart-contracts/get-started/README.md)
