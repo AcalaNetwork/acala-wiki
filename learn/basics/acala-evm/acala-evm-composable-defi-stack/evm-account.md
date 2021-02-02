@@ -1,4 +1,4 @@
-# EVM Account
+# Setup EVM Account
 
 ## **Single Wallet, Single Account Experience**
 
