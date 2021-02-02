@@ -73,6 +73,7 @@
     * [Acala EVM Overview](https://wiki.acala.network/learn/basics/acala-evm)
     * [Get Started](build/development-guide/smart-contracts/get-started-evm/README.md)
       * [Connect to a Node](build/development-guide/smart-contracts/get-started-evm/connect-to-a-node.md)
+      * [Setup EVM Account](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack/evm-account#1-bind-an-auto-generate-evm-account)
       * [Acala Console](build/development-guide/smart-contracts/get-started-evm/acala-console.md)
       * [EVM Playground](build/development-guide/smart-contracts/get-started-evm/evm-playground.md)
       * [Use Remix](build/development-guide/smart-contracts/get-started-evm/use-remix.md)
@@ -110,8 +111,4 @@
 * [Contributing](misc/contributing.md)
 * [Glossary](misc/glossary.md)
 * [Finding Tokens and NFTs](misc/finding-tokens-and-nfts.md)
-
----
-
-* [Setup EVM Account](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack/evm-account#1-bind-an-auto-generate-evm-account)
 

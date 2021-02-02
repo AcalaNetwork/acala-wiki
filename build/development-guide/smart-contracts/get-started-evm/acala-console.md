@@ -24,7 +24,7 @@ Click the `Developer` tab on the top navigation bar, and select `Chain State` in
 
 Then click on the `selected state query` , and select `token` . 
 
-Select `Alice` from the `AccountId` dropdown.
+Select your account \(in the example `Alice` \) from the `AccountId` dropdown.
 
 Select `Token` from `CurrencyId` and `DOT` as `Token: TokenSymbol`
 
