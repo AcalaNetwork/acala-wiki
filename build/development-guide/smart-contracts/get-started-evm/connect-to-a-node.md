@@ -15,13 +15,13 @@ Alternatively, you can run a local test node. To run your own node, you need to 
 
 To check whether Docker is successfully installed run the command below:
 
-```text
+```bash
 docker version
 ```
 
 If you receive the version number, you can start your local Acala node with the command below:
 
-```text
+```bash
 docker run -it -p 9944:9944 -p 9933:9933 acala/acala-node:latest --dev --ws-external --rpc-external
 ```
 
