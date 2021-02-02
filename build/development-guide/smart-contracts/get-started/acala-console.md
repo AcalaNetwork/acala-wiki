@@ -12,11 +12,7 @@ Open the `Development` section, select `Local Node` to connect to your local Aca
 
 ![](https://i.imgur.com/TygeyXu.png)
 
-Select `Custom` to connect to a deployed node, and paste the Websocket URL to the `custom endpoint` input box. You can find deployed nodes here \[TODO\]. 
-
-```text
-wss://node-6757141250775003136.rz.onfinality.io/ws?apikey=086df60c-6a2d-414e-add2-cc0b74b6d00b
-```
+Select `Custom` to connect to a deployed node, and paste the Websocket URL to the `custom endpoint` input box. You can find deployed nodes [here](../../../../learn/get-started/public-nodes.md).
 
 Then click `Switch` on the top, and wait for the page to refresh and connect to the network. If your current endpoint already matches your selection, the `Switch` button will be disabled.
 
