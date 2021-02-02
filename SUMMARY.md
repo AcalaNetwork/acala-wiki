@@ -78,7 +78,7 @@
       * [Use Waffle](build/development-guide/smart-contracts/get-started/use-waffle.md)
       * [Deploy Contracts](build/development-guide/smart-contracts/get-started/deploy-contracts.md)
     * [Advanced](build/development-guide/smart-contracts/advanced/README.md)
-      * [Use Native Tokens](build/development-guide/smart-contracts/advanced/use-native-tokens.md)
+      * [Use Native & Cross-chain Tokens](build/development-guide/smart-contracts/advanced/use-native-tokens.md)
       * [Use Flexi Fee](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
       * [Use On-chain Scheduler](build/development-guide/smart-contracts/advanced/use-on-chain-scheduler.md)
       * [Use Pre-compiled Contracts](build/development-guide/smart-contracts/advanced/use-pre-compiled-contracts.md)

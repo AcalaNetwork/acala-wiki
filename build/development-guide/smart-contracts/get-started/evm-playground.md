@@ -2,7 +2,7 @@
 
 We have created a web application - **Acala EVM Playground** to test various functionalities of Acala EVM. The source code is [here](https://github.com/AcalaNetwork/evm-playground) and it’s a fork from parity `canvas-ui`.
 
-To launch the Playground, please navigate to [https://acala-evm.vercel.app/](https://acala-evm.vercel.app/).
+To launch the Playground, please navigate to [https://evm.acala.network](https://evm.acala.network).
 
 By default, the Playground is connected to the Acala test network. It can also be connected it to a local node. If you've used the Playground before, the connection information may be cached.
 

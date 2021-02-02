@@ -1,6 +1,6 @@
 # Use Remix
 
-There are multiple tools you can use to develop and compile Solidity contracts, we'd present two here as options
+There are multiple tools you can use to develop and compile Solidity contracts, we'd present two here as options:
 
 * online web app Remix 
 * Solidity development and testing framework Waffle
