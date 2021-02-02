@@ -59,7 +59,7 @@ Polkadot{js} extension will prompt you to enter a password or use the saved pass
 
 If the `Bind` transaction was successful, you will get a message `An evm account already exists to bind this account` basically means the binding was done on-chain. Please excuse the UX as the Playground is mostly used for dev testing.
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-02-at-9.58.27-pm.png)
+![](../../../../.gitbook/assets/screen-shot-2021-02-02-at-9.58.27-pm%20%281%29.png)
 
 ### **2. Bind an Existing Ethereum Account**
 

@@ -5,11 +5,11 @@ To use Acala EVM, you need to connect to an Acala Node. You can either
 1. connect to a deployed test network \(maintained by Acala\) OR
 2. run a local Acala test node
 
-### **1. Connect to a deployed test network**
+## **1. Connect to a deployed test network**
 
-Find all available testnet nodes [here](https://wiki.acala.network/learn/get-started/public-nodes#mandala-test-network-nodes). You can use [Acala Console](acala-console.md) to communicate with the node, and [EVM Playground](evm-playground.md) to deploy and execute contracts. 
+Find all available testnet nodes [here](https://wiki.acala.network/learn/get-started/public-nodes#mandala-test-network-nodes). You can use [Acala Console](acala-console.md) to communicate with the node, and [EVM Playground](evm-playground.md) to deploy and execute contracts.
 
-### **2. Run a local Acala test node**
+## **2. Run a local Acala test node**
 
 Alternatively, you can run a local test node. To run your own node, you need to have installed [Docker](https://www.docker.com/) on your machine. If you don’t have it installed, please follow the instructions [here](https://docs.docker.com/get-docker/).
 

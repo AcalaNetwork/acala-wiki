@@ -7,7 +7,7 @@ There are multiple tools you can use to develop and compile Solidity contracts, 
 
 ### Compile a Solidity Contract using Remix Comment
 
-This guide walks through the process of creating and deploying a Solidity-based smart contract to the Acala standalone node using the [Remix](http://remix.ethereum.org/). Remix is one of the commonly used development environments for smart contracts on Ethereum.
+This guide walks through the process of creating and deploying a Solidity-based smart contract to the Acala standalone node using the [Remix](https://remix.ethereum.org/). Remix is one of the commonly used development environments for smart contracts on Ethereum.
 
 ### **1. Launch Remix**
 
