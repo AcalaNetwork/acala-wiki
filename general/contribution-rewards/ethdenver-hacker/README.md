@@ -64,15 +64,16 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 ### **Bounty 1: Deploy a DApp on Polkadot using Acala EVM** 
 
-Prize: $1000 \(Champion $600, 2nd place $300, 3rd place $100\)  
+Prize: $1000   
+Pitch and consultative calls to discuss next step for Acala Ecosystem Program and pathway to Polkadot ecosystem  
 Acala swag  
-Feature in Polkadot social media  
+Feature in Acala social media  
   
 ****We‘d happily accept contracts you’ve built for other bounties and prizes.
 
 ### **Bounty 2: Build a DApp using Acala EVM with the On-chain Automatic Scheduler Function**
 
-Prize: $2000 \(Champion $1200, 2nd place $600, 3rd place $200\)  
+Prize: $2000   
 Pitch and consultative calls to discuss next step for Acala Ecosystem Program and pathway to Polkadot ecosystem  
 Acala swag  
 Feature in Acala social media
