@@ -18,7 +18,7 @@ The Acala EVM delivers the following benefits and features from the best of both
 
 {% page-ref page="on-chain-scheduler.md" %}
 
-{% page-ref page="evm-account.md" %}
+{% page-ref page="../../../../build/development-guide/smart-contracts/get-started-evm/evm-account.md" %}
 
 {% page-ref page="queryable-and-lightweight.md" %}
 
