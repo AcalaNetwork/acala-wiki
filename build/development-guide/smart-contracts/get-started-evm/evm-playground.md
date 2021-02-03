@@ -30,17 +30,17 @@ Select `DOT` and press `Execute` under it.
 
 ![](https://i.imgur.com/gGqwRZM.png)
 
-Pick your account \(in the example `Alice`\) from the `Call from Account`. 
+1. Pick your account \(in the example `Alice`\) from the `Call from Account`. 
 
-Pick `balanceOf` from `Message to Send`. 
+2. Pick `balanceOf` from `Message to Send`. 
 
-Notice `EVM Address` under Alice's account, copy and paste it to the `owner: address` argument field. 
+3. Notice `EVM Address` under your account, copy and paste it to the `owner: address` argument field. 
 
-Click the `Call` button to execute.
+4. Click the `Call` button to execute.
 
 ![](https://i.imgur.com/8XQSarA.png)
 
-The `Call results` at the bottom should show Alice’s DOT account balance.
+The `Call results` at the bottom should show your account's DOT balance.
 
 ![](https://i.imgur.com/2TNjbUM.png)
 
