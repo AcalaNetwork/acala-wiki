@@ -87,7 +87,7 @@ We‘d happily accept contracts you’ve built for other bounties and prizes tha
 * Subscription services
 * Level Up DeFi: auto take profit, re-invest, payout, liquidate risky positions etc. without the need of external actors like Keepers
 * ...
-* Recurring payment [example](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler#example)
+* [Recurring payment example](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler#example)
 
 ### Judging Criteria 
 
