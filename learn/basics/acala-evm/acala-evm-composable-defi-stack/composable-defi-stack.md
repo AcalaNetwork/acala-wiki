@@ -12,9 +12,9 @@ The process is seamless for users and developers, but behind the scene native to
 
 These pre-compiled contracts are now made available to Acala EVM
 
-* Native and cross-chain tokens available in ERC20: DOT, ACA, aUSD, XBTC, LDOT, RENBTC
-* Oracle contract to get price feed: this exposes the [Open Oracle Gateway](https://wiki.acala.network/learn/basics/oracle) functionalities such as guaranteed Quality of Service.
-* On-chain auto-scheduler that enables use cases like subscriptions and recurring payments etc. 
+* **Native and cross-chain tokens available in ERC20**: DOT, ACA, aUSD, XBTC, LDOT, RENBTC. Try it [here](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens).
+* Oracle contract to get price feed: this exposes the [Open Oracle Gateway](https://wiki.acala.network/learn/basics/oracle) functionalities such as guaranteed Quality of Service. Try it [here](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds).
+* On-chain auto-scheduler that enables use cases like subscriptions and recurring payments etc. Try it [here](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler).
 * Advanced contract deployment features like state renting to avoid scams and wastage of on-chain resources.
 * More to come: we're gradually exposing more native functionalities to the Acala EVM, next to come is the DeFi primitives \(DeX, stablecoin lending, and liquid staking\).
 
