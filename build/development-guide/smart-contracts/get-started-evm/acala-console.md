@@ -23,6 +23,7 @@ Click the `Developer` tab on the top navigation bar, and select `Chain State` in
 ![](https://i.imgur.com/BvFEcsZ.png)
 
 To perform a state query and get your account's balance, do the following:
+
 1. Click on the `selected state query`, and select `tokens`. 
 
 2. Select the `accounts` storage.
