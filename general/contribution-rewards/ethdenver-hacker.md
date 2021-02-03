@@ -1,6 +1,8 @@
-# ETHDenver Hacker Guide
+# 2021 ETHDenver Hacker Guide
 
 Coming soon. Details will be announced on **3 Feb 2020**, 2 days before the [ETHDenver](https://www.ethdenver.com/) event.
+
+
 
 ## Start Here
 
@@ -8,6 +10,18 @@ Coming soon. Details will be announced on **3 Feb 2020**, 2 days before the [ETH
 * **Join** [**Acala Official Discord**](https://discord.gg/vdbFVCH) ****to explore DeFi on Polkadot, for product and technical questions
 * [Sign up](https://www.crowdcast.io/e/acala-ethdenver-2021) for ETHDenver Kickoff webinar: **Deploying your Ethereum Project on Polkadot & Acala**
 * **Office Hour?**
+
+## Table of Contents
+
+* Resources
+  * Product Resources
+  * Dev Resources
+* Communication Channels
+* Acala Bounties
+  * Bounty 1: Deploy a DApp
+  * Bounty 2: Use the on-chain scheduler function
+  * Bounty Ideas
+  * Judging Criteria
 
 ## Resources
 
@@ -46,7 +60,18 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 ## Communication Channels
 
-* ETHDenver Discord & Acala Channel
+### ETHDenver Channels
+
+* [ETHDenver Discord & Acala Channel](https://discord.gg/2X7WDEYpcX)
+* [Kickoff Webinar](https://www.crowdcast.io/e/acala-ethdenver-2021) - How to Deploy Ethereum DApps on Polkadot using Acala EVM
+
+### Social Channels
+
+* [Acala Homepage](https://acala.network/)
+* [Twitter](https://twitter.com/AcalaNetwork)
+* [Discord](https://discord.gg/vdbFVCH)
+
+[**Acala Newsletter**](https://acala.network/newsletter-sign-up.html)\*\*\*\*
 
 ## Acala Bounties
 
