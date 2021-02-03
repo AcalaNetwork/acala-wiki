@@ -24,7 +24,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 ### Product Resources
 
-* [Acala Overview: Cross-chain DeFi Hub for Polkadot and beyond](https://www.youtube.com/watch?v=avtzY5lkM6s)
+* Acala Overview: Cross-chain DeFi Hub for Polkadot and beyond \([Watch](https://www.youtube.com/watch?v=avtzY5lkM6s)\)
 * [Why Acala EVM](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack) 
 
 ### Dev Resources

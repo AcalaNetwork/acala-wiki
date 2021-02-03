@@ -21,7 +21,8 @@
     * [Build Acala \| May 2020](general/acala-portal/progress-update/build-acala-may-2020.md)
 * [Community Discord](https://discord.gg/vdbFVCH)
 * [Contribution & Rewards](general/contribution-rewards/README.md)
-  * [ETHDenver 2021 Hacker Guide](general/contribution-rewards/ethdenver-hacker.md)
+  * [ETHDenver 2021 Hacker Guide](general/contribution-rewards/ethdenver-hacker/README.md)
+    * [Try Acala DApp](general/contribution-rewards/ethdenver-hacker/try-acala-dapp.md)
 * [FAQ](general/faq.md)
 
 ## Learn
