@@ -46,21 +46,26 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 ## Communication Channels
 
+* ETHDenver Discord & Acala Channel
+
 ## Acala Bounties
 
 ### **Bounty 1: Deploy a DApp on Polkadot using Acala EVM** 
 
-Prize: $1000 \(1st prize $600, 2nd prize $300, 3rd prize $100\)  
+Prize: $1000 \(Champion $600, 2nd place $300, 3rd place $100\)  
+Acala swag  
+Feature in Polkadot social media  
   
 ****We‘d happily accept contracts you’ve built for other bounties and prizes.
 
 ### **Bounty 2: Build a DApp using Acala EVM with the On-chain Automatic Scheduler Function**
 
-Prize: $2000 \(1st prize $1200, 2nd prize $600, 3rd prize $200\)
+Prize: $2000 \(Champion $1200, 2nd place $600, 3rd place $200\)  
+Pitch and consultative calls to discuss next step for Acala Ecosystem Program and pathway to Polkadot ecosystem  
+Acala swag  
+Feature in Acala social media
 
 We‘d happily accept contracts you’ve built for other bounties and prizes that incorporates this on-chain scheduler function. We’re here to help you succeed and build a winning DApp at ETHDenver.
-
-_**\*It’s a plus if you use any other special features and/or tech from other ETHDenver sponsors**_
 
 ### Bounty Ideas
 
@@ -69,6 +74,32 @@ _**\*It’s a plus if you use any other special features and/or tech from other 
 * Subscription services
 * Level Up DeFi: auto take profit, re-invest, payout, liquidate risky positions etc. without the need of external actors like Keepers
 * ...
+* Recurring payment [example](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler#example)
+
+### Judging Criteria 
+
+#### **Requirement**
+
+1. Must be a working DApp on local testnet or on Acala’s public testnet
+2. Must provide a link to Github source code \(if using a modified local node, submit the code also\)
+3. Must provide docs on what the DApp is trying to achieve and how the DApp is supposed to work. The deployed DApp should match expected functions.
+
+#### **Judging Criteria**
+
+1. Completeness of DApp
+2. Technical Difficulty
+3. User Experience
+4. Originality and Creativity
+5. Wow Factor
+
+#### Bonus Points
+
+* It’s a plus if you use any other special features and/or tech from other ETHDenver sponsors
+* Use other Acala special features
+  * [Use Oracle Feeds](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds)
+  * [Use Native & Cross-chain Tokens such as BTC and DOTs](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens)
+
+### 
 
 
 
