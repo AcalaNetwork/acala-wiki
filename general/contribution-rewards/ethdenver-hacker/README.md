@@ -45,6 +45,14 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 * [Use the On-chain Scheduler Contract](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler)
 * [Use Oracle Feeds](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds)
 * [Use Native & Cross-chain Tokens such as BTC and DOTs](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens)
+* **Example code:** [https://github.com/AcalaNetwork/evm-examples](https://github.com/AcalaNetwork/evm-examples)
+
+**Build & Deployment Tools**
+
+* **Waffle:** [https://getwaffle.io](https://getwaffle.io)
+* **Remix:** [http://remix.ethereum.org](http://remix.ethereum.org)
+* **EVM Playground:** [https://evm.acala.network](https://evm.acala.network)
+* **bodhi.js**: [https://github.com/AcalaNetwork/bodhi.js](https://github.com/AcalaNetwork/bodhi.js)
 
 ## Communication Channels
 
