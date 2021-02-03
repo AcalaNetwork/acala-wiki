@@ -1,6 +1,8 @@
 # ETHDenver 2021 Hacker Guide
 
-Welcome to [ETHDenver](https://www.ethdenver.com/) 2021 - Acala Hacker Guide.
+Welcome to [ETHDenver](https://www.ethdenver.com/) 2021 - Acala Hacker Guide. 
+
+Check out the [ETHDenver BUIDL Guide](https://www.ethdenver.com/buidl) regarding registration, forming teams and submissions, if you have yet done so.
 
 ## Start Here
 
@@ -32,7 +34,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 #### Basics
 
 * [Setup Accounts](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack/evm-account)
-* \(Optional\) Try out Acala DApp
+* [\(Optional\) Try out Acala DApp](https://wiki.acala.network/general/contribution-rewards/ethdenver-hacker/try-acala-dapp)
 
 **Develop & Deploy Contracts**
 
