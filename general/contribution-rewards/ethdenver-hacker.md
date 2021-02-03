@@ -2,8 +2,6 @@
 
 Coming soon. Details will be announced on **3 Feb 2020**, 2 days before the [ETHDenver](https://www.ethdenver.com/) event.
 
-## Acala Bounties
-
 ## Start Here
 
 * **All ETHDenver chat & Acala bounty support** takes place in the [Official ETHDenver Discord](https://discord.gg/2X7WDEYpcX)
@@ -47,6 +45,30 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 * [Use Native & Cross-chain Tokens such as BTC and DOTs](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens)
 
 ## Communication Channels
+
+## Acala Bounties
+
+### **Bounty 1: Deploy a DApp on Polkadot using Acala EVM** 
+
+Prize: $1000 \(1st prize $600, 2nd prize $300, 3rd prize $100\)  
+  
+****We‘d happily accept contracts you’ve built for other bounties and prizes.
+
+### **Bounty 2: Build a DApp using Acala EVM with the On-chain Automatic Scheduler Function**
+
+Prize: $2000 \(1st prize $1200, 2nd prize $600, 3rd prize $200\)
+
+We‘d happily accept contracts you’ve built for other bounties and prizes that incorporates this on-chain scheduler function. We’re here to help you succeed and build a winning DApp at ETHDenver.
+
+_**\*It’s a plus if you use any other special features and/or tech from other ETHDenver sponsors**_
+
+### Bounty Ideas
+
+* Charity DAO that accepts automatic recurring donations
+* Build a Web3 version of Stripe 
+* Subscription services
+* Level Up DeFi: auto take profit, re-invest, payout, liquidate risky positions etc. without the need of external actors like Keepers
+* ...
 
 
 
