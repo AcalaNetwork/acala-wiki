@@ -22,17 +22,20 @@ Click the `Developer` tab on the top navigation bar, and select `Chain State` in
 
 ![](https://i.imgur.com/BvFEcsZ.png)
 
-Then click on the `selected state query` , and select `token` . 
+To perform a state query and get your account's balance, do the following:
+1. Click on the `selected state query`, and select `tokens`. 
 
-Select your account \(in the example `Alice` \) from the `AccountId` dropdown.
+2. Select the `accounts` storage.
 
-Select `Token` from `CurrencyId` and `DOT` as `Token: TokenSymbol`
+3. Select your account \(in the example `Alice` \) from the `AccountId` dropdown.
 
-Press `+` button to initiate the call.
+4. Select `Token` from the `CurrencyId` dropdown, and `DOT` as `Token: TokenSymbol`
+
+5. Press `+` button to initiate the call.
 
 ![](https://i.imgur.com/5hdanQC.png)
 
-Alice's DOT balance will be shown below.
+Your account's DOT balance will be shown below.
 
 ![](https://i.imgur.com/nOB7L3k.png)
 
