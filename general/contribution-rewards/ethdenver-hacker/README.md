@@ -33,7 +33,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 #### Basics
 
-* [Setup Accounts](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack/evm-account)
+* [Setup Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
 * [\(Optional\) Try out Acala DApp](https://wiki.acala.network/general/contribution-rewards/ethdenver-hacker/try-acala-dapp)
 
 **Develop & Deploy Contracts**
