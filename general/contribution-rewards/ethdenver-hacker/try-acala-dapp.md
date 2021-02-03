@@ -10,12 +10,6 @@ Try Acala's DeFi Suite on the ETHDenver live testnet
 
 
 
-![](../../../.gitbook/assets/screen-shot-2021-02-03-at-4.39.46-pm.png)
-
-
-
-
-
 
 
 
