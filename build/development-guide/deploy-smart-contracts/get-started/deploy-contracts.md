@@ -4,7 +4,7 @@ The `Acala EVM Playground` is useful to test various functionalities of Acala EV
 
 ### **1. Upload Contract ABI**
 
-Deploy the `BasicToken` ABI file by navigating to [https://acala-evm.vercel.app/](https://acala-evm.vercel.app/). 
+Deploy the `BasicToken` ABI file by navigating to [https://evm.acala.network/](https://evm.acala.network/).
 
 Go to the `Upload` tab.
 
@@ -36,7 +36,7 @@ The deployed `BasicToken` contract should appear in the execute section.
 
 ### **3. Interact with the Contract**
 
-Navigate to the `Execute` tab. Find the deployed `BasicToken` contract. 
+Navigate to the `Execute` tab. Find the deployed `BasicToken` contract.
 
 Click the `Execute` button.
 
@@ -46,7 +46,7 @@ Click the `Execute` button.
 
 Pick `balanceOf` from the `Message to Send` dropdown.
 
-Select `Alice` from the `Call from Account`  dropdown. This is the account used to send the transaction.  
+Select `Alice` from the `Call from Account` dropdown. This is the account used to send the transaction.
 
 Find Alice’s EVM Address under `Call from Account` , copy and paste it in the `account: address` argument box.
 
@@ -54,10 +54,10 @@ Find Alice’s EVM Address under `Call from Account` , copy and paste it in the 
 
 Press `Call` and check out the returned results below.
 
-**Note:** Solidity contracts have two types of methods: `views` and `executable` methods. 
+**Note:** Solidity contracts have two types of methods: `views` and `executable` methods.
 
-* `Views` are used to query information from the blockchain without writing data to it. `Views` transactions are free. The Playground uses the `Call` button to indicate this.
-* `Executable` methods can write data onto the blockchain, and these transactions aren’t free. Click the `Execute` button to execute it.
+- `Views` are used to query information from the blockchain without writing data to it. `Views` transactions are free. The Playground uses the `Call` button to indicate this.
+- `Executable` methods can write data onto the blockchain, and these transactions aren’t free. Click the `Execute` button to execute it.
 
 ![](https://i.imgur.com/URot8MK.png)
 
@@ -73,7 +73,7 @@ Switch account back to Alice, select `transfer` from the `Message to Send` dropd
 
 Paste Bob’s EVM address in the `recipient address` input box.
 
-Then enter transfer amount in the `amount: unit256` argument box, note the token has a standard 18 decimals. 
+Then enter transfer amount in the `amount: unit256` argument box, note the token has a standard 18 decimals.
 
 Click `Execute`.
 
@@ -88,4 +88,3 @@ Now check the balances of Alice and Bob, how have they changed?
 ![](https://i.imgur.com/mTLZGYU.png)
 
 ![](https://i.imgur.com/tTSS4gs.png)
-
