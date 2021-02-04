@@ -1,6 +1,6 @@
 # Use Oracle Feeds
 
-Acala's [Open Oracle Gateway](https://wiki.acala.network/learn/basics/oracle) allows multiple oracles to be deployed on the Acala network, leveraging Acala's DeFi optimized oracle infrastructure, and serving any DApps on Acala, Polkadot, Kusama and beyond.  
+Acala's [Open Oracle Gateway](https://wiki.acala.network/learn/basics/oracle) allows multiple oracles to be deployed on the Acala network, leveraging Acala's DeFi optimized oracle infrastructure, and serving any DApps on Acala, Polkadot, Kusama and beyond. The Open Oracle Gateway ensures Quality of Service, that is oracle transactions are classified as system transactions, and are guaranteed to be included in a block. Read more [here](https://wiki.acala.network/learn/basics/oracle).
 
 This pre-compiled contract make querying various price feeds for various assets available inside Acala EVM. Currently the `getPrice` method returns the aggregated price for a given asset. More price feed options are being made available. 
 
