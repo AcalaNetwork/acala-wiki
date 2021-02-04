@@ -2,10 +2,10 @@
 
 There are multiple tools you can use to develop and compile Solidity contracts, we'd present two here as options:
 
-* online web app Remix 
-* Solidity development and testing framework Waffle
+- online web app Remix
+- Solidity development and testing framework Waffle
 
-### Compile a Solidity Contract using Remix Comment
+### Compile a Solidity Contract using Remix
 
 This guide walks through the process of creating and deploying a Solidity-based smart contract to the Acala standalone node using the [Remix](https://remix.ethereum.org/). Remix is one of the commonly used development environments for smart contracts on Ethereum.
 
@@ -17,7 +17,7 @@ Here’s an example to compile an ERC20 contract using Remix.
 
 ![](https://i.imgur.com/82B9QJA.png)
 
-Hit the `+` button under the `File Explorers` to create a new Solidity file. 
+Hit the `+` button under the `File Explorers` to create a new Solidity file.
 
 Enter the name `BasicToken.sol` into the popup dialogue.
 
@@ -45,7 +45,7 @@ Below is the editor view.
 
 ![](https://i.imgur.com/mdZhs7y.png)
 
-Then select `Solidity compiler` on the sidebar, and press the `Compile BasicToken.sol` button. 
+Then select `Solidity compiler` on the sidebar, and press the `Compile BasicToken.sol` button.
 
 Remix downloads all of the Open Zeppelin dependencies and compiles the contract.
 
@@ -55,5 +55,4 @@ Navigate back to `File explorers` , in the `artifacts` section find the `BasicTo
 
 ![](https://i.imgur.com/qzonFHr.png)
 
-####   <a id="Compile-a-Solidity-Contract-using-Remix"></a>
-
+#### <a id="Compile-a-Solidity-Contract-using-Remix"></a>
