@@ -31,10 +31,6 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 ### Dev Resources
 
-#### Basics
-
-* * [\(Optional\) ](https://wiki.acala.network/general/contribution-rewards/ethdenver-hacker/try-acala-dapp)
-
 #### **Develop & Deploy Contracts**
 
 * Deploy Contracts on Acala EVM
