@@ -1,5 +1,7 @@
 # Use Native & Cross-chain Tokens
 
+Smart Contract Dapps deployed in Acala EVM can directly use native and cross-chain assets such as DOT, ACA, aUSD, renBTC, etc. ERC-20 tokens deployed in EVM can also be made available at runtime level, to be listed in the DeX, or \(by governance approval\) to be used as fee tokens. Read more [here](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack/composable-defi-stack).
+
 ### ERC20 Contract Addresses
 
 | Token Ticker | ER20 Address |
