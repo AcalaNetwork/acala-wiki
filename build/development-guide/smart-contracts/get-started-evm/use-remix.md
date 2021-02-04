@@ -2,14 +2,14 @@
 
 There are multiple tools you can use to develop and compile Solidity contracts, we'd present two here as options:
 
-- online web app Remix
-- Solidity development and testing framework Waffle
+* online web app Remix
+* Solidity development and testing framework Waffle
 
-### Compile a Solidity Contract using Remix
+## Compile a Solidity Contract using Remix
 
 This guide walks through the process of creating and deploying a Solidity-based smart contract to the Acala standalone node using the [Remix](https://remix.ethereum.org/). Remix is one of the commonly used development environments for smart contracts on Ethereum.
 
-### **1. Launch Remix**
+## **1. Launch Remix**
 
 Navigate to [https://remix.ethereum.org/](https://remix.ethereum.org/). Under `Environments`, select `Solidity` to configure Remix for Solidity development, then navigate to the `File Explorers` view.
 
@@ -21,7 +21,7 @@ Hit the `+` button under the `File Explorers` to create a new Solidity file.
 
 Enter the name `BasicToken.sol` into the popup dialogue.
 
-### **2. Compile the Solidity code**
+## **2. Compile the Solidity code**
 
 Paste the following code into the editor tab that comes up.
 
@@ -36,7 +36,6 @@ contract BasicToken is ERC20 {
     _mint(msg.sender, initialSupply);
   }
 }
-
 ```
 
 Note: this is a simple ERC-20 contract based on the Open Zeppelin ERC-20 template. On construction, it creates the BasicToken with the symbol BAT, and mints the total initial supply.
@@ -49,10 +48,9 @@ Then select `Solidity compiler` on the sidebar, and press the `Compile BasicToke
 
 Remix downloads all of the Open Zeppelin dependencies and compiles the contract.
 
-### **3. Get the ABI File**
+## **3. Get the ABI File**
 
 Navigate back to `File explorers` , in the `artifacts` section find the `BasicToken.json` file. Copy and paste the content and save it locally, this is the ABI file that will be deployed to Acala EVM later.
 
 ![](https://i.imgur.com/qzonFHr.png)
 
-#### <a id="Compile-a-Solidity-Contract-using-Remix"></a>
