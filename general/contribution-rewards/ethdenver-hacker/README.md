@@ -33,25 +33,29 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 #### Basics
 
-* [Setup Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
-* [\(Optional\) Try out Acala DApp](https://wiki.acala.network/general/contribution-rewards/ethdenver-hacker/try-acala-dapp)
+* * [\(Optional\) ](https://wiki.acala.network/general/contribution-rewards/ethdenver-hacker/try-acala-dapp)
 
-**Develop & Deploy Contracts**
+#### **Develop & Deploy Contracts**
 
 * Deploy Contracts on Acala EVM
   * [Watch Live Coding](https://www.crowdcast.io/e/acala-ethdenver-2021): Deploy Uniswap Contracts, Recurring Payment Contracts.
   * Get started [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm)
+* [Setup EVM Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
 * [Use the On-chain Scheduler Contract](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler)
 * [Use Oracle Feeds](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds)
 * [Use Native & Cross-chain Tokens such as BTC and DOTs](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens)
 * **Example code:** [https://github.com/AcalaNetwork/evm-examples](https://github.com/AcalaNetwork/evm-examples)
 
-**Build & Deployment Tools**
+#### **Build & Deployment Tools**
 
 * **Waffle:** [https://getwaffle.io](https://getwaffle.io)
 * **Remix:** [http://remix.ethereum.org](http://remix.ethereum.org)
 * **EVM Playground:** [https://evm.acala.network](https://evm.acala.network)
 * **bodhi.js**: [https://github.com/AcalaNetwork/bodhi.js](https://github.com/AcalaNetwork/bodhi.js)
+
+#### Optional
+
+* [Try out Acala DApp](try-acala-dapp.md)
 
 ## Communication Channels
 
