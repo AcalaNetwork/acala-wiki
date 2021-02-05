@@ -93,7 +93,9 @@ Pitch and consultative calls to discuss next step for Acala Ecosystem Program an
 Acala swag  
 Feature in Acala social media
 
-We‘d happily accept contracts you’ve built for other bounties and prizes that incorporates this on-chain scheduler function. We’re here to help you succeed and build a winning DApp at ETHDenver.
+We‘d happily accept contracts you’ve built for other bounties and prizes that incorporates this on-chain scheduler function. We don't require a front-end to be built as part of the submission, but feel free to surprise us and we will give bonus points if you do. 
+
+We’re here to help you succeed and build a winning DApp at ETHDenver.
 
 ### Bounty Ideas
 
