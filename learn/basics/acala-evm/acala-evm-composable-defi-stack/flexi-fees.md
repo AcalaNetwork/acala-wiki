@@ -1,8 +1,8 @@
-# Flexi Fees
+# Bring Your Own Gas
 
-### **Flexi Transaction Fees**
+### **Pay Gas Fees in Virtually Any Token**
 
-On Acala, fees can be paid in any accepted tokens e.g. ACA, aUSD, DOT, BTC etc. More tokens can be supported as native fee tokens with governance approval.
+With the Acala EVM, fees can be paid in any accepted tokens, such as ACA, aUSD, DOT, and wrapped BTC. More tokens can be supported as native fee tokens with a simple governance approval.
 
-Behind the scene, Acala DeX is being used as a unified liquidity pool for settling the fees into the network token, but the experience is completely transparent to users and developers.
+Behind the scenes, Acala DeX is being used as a unified liquidity pool for settling the fees into the network token, but the experience is completely transparent to users and developers.
 
