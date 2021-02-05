@@ -37,6 +37,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
   * [Watch Live Coding](https://www.crowdcast.io/e/acala-ethdenver-2021): Deploy Uniswap Contracts, Recurring Payment Contracts.
     * Also available on Youtube [here](https://www.youtube.com/watch?v=7GdZucQ1SlE)
   * Get started [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm)
+* **Live Coding Session**: Feb 6 2-2:30pm \(MST/GMT-7\). Add to Google Calendar [here](https://calendar.google.com/calendar/u/0/r/eventedit?text=Build+a+DApp+on+Polkadot+using+Acala+EVM+with+On-chain+Automatic+Scheduler+%7C+Bryan+Chen+-+Acala&dates=20210206T210000Z/20210206T213000Z&details=%3Ca+href%3D%22http://twitch.tv/ethereumdenver%22%3EMainnet+Livestream%3C/a%3E%3Cbr%3E%3Cbr%3EBryan+Chen+-+Acala&location&sprop=name) and other options [here](https://www.ethdenver.com/schedule)
 * [Setup EVM Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
 * [Use the On-chain Scheduler Contract](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler)
 * [Use Oracle Feeds](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds)
