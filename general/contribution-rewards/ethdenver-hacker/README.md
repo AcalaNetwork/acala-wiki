@@ -35,6 +35,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 * Deploy Contracts on Acala EVM
   * [Watch Live Coding](https://www.crowdcast.io/e/acala-ethdenver-2021): Deploy Uniswap Contracts, Recurring Payment Contracts.
+    * Also available on Youtube [here](https://www.youtube.com/watch?v=7GdZucQ1SlE)
   * Get started [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm)
 * [Setup EVM Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
 * [Use the On-chain Scheduler Contract](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler)

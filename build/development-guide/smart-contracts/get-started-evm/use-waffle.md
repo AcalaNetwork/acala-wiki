@@ -2,8 +2,8 @@
 
 There are multiple tools you can use to develop and compile Solidity contracts, we'd present two here as options
 
-- online web app Remix
-- Solidity development and testing framework Waffle
+* online web app Remix
+* Solidity development and testing framework Waffle
 
 ## Compile Solidity Contract using Waffle
 
@@ -135,3 +135,4 @@ Waffle will then generate the output file `./build/BasicToken.json` into the `./
 Note: this file should be the same as the one created with Remix.
 
 Waffle also provides a full suite of testing utilities, check out their documentation and code samples [here](https://github.com/EthWorks/Waffle).
+

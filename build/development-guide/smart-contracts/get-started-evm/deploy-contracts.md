@@ -2,7 +2,7 @@
 
 The `Acala EVM Playground` is useful to test various functionalities of Acala EVM. The source code is [here](https://github.com/AcalaNetwork/evm-playground) and it’s a fork from parity `canvas-ui`.
 
-### **1. Upload Contract ABI**
+## **1. Upload Contract ABI**
 
 Deploy the `BasicToken` ABI file by navigating to [https://evm.acala.network/](https://evm.acala.network/).
 
@@ -16,7 +16,7 @@ Fill in the contract name, then upload the contract ABI `BasicToken.json`.
 
 Then it would display a list of available methods in the contract. Then click `Upload`.
 
-### **2. Deploy the Contract**
+## **2. Deploy the Contract**
 
 After uploading the ABI, the Playground would automatically navigate to the `Upload` step. If not, just select `Deploy` in the left sidebar. `BasicToken` shall appear in the `ABI bundles`.
 
@@ -34,7 +34,7 @@ The deployed `BasicToken` contract should appear in the execute section.
 
 ![](https://i.imgur.com/BMp4SR3.png)
 
-### **3. Interact with the Contract**
+## **3. Interact with the Contract**
 
 Navigate to the `Execute` tab. Find the deployed `BasicToken` contract.
 
@@ -42,7 +42,7 @@ Click the `Execute` button.
 
 ![](https://i.imgur.com/eOnKfQi.png)
 
-### **4. Query Balances**
+## **4. Query Balances**
 
 Pick `balanceOf` from the `Message to Send` dropdown.
 
@@ -56,14 +56,14 @@ Press `Call` and check out the returned results below.
 
 **Note:** Solidity contracts have two types of methods: `views` and `executable` methods.
 
-- `Views` are used to query information from the blockchain without writing data to it. `Views` transactions are free. The Playground uses the `Call` button to indicate this.
-- `Executable` methods can write data onto the blockchain, and these transactions aren’t free. Click the `Execute` button to execute it.
+* `Views` are used to query information from the blockchain without writing data to it. `Views` transactions are free. The Playground uses the `Call` button to indicate this.
+* `Executable` methods can write data onto the blockchain, and these transactions aren’t free. Click the `Execute` button to execute it.
 
 ![](https://i.imgur.com/URot8MK.png)
 
 `Call results` should show the BasicToken balance of Alice.
 
-### **5. Transfer**
+## **5. Transfer**
 
 Now try transfer BasicTokens to Bob’s Account.
 
@@ -88,3 +88,4 @@ Now check the balances of Alice and Bob, how have they changed?
 ![](https://i.imgur.com/mTLZGYU.png)
 
 ![](https://i.imgur.com/tTSS4gs.png)
+
