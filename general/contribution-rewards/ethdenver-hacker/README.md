@@ -74,6 +74,8 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 Official Bounty Site [here](https://www.ethdenver.com/post/acala).
 
+{% file src="../../../.gitbook/assets/ethdenver-2021-bounty-presentation.pdf" caption="Acala ETHDenver Bounty Presentation Slide" %}
+
 ### **Bounty 1: Deploy a DApp on Polkadot using Acala EVM** 
 
 Prize: $1000   
