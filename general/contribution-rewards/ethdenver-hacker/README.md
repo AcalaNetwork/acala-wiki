@@ -37,6 +37,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
   * [Watch Live Coding](https://www.crowdcast.io/e/acala-ethdenver-2021): Deploy Uniswap Contracts, Recurring Payment Contracts.
     * Also available on Youtube [here](https://www.youtube.com/watch?v=7GdZucQ1SlE)
   * Get started [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm)
+  * Download presentation slides [here](https://drive.google.com/file/d/1fVzCXC2BJf7k_d25bMy4rqXBqU_ByI_I/view?usp=sharing)
 * **Live Coding Session**: Feb 6 2-2:30pm \(MST/GMT-7\). Add to Google Calendar [here](https://calendar.google.com/calendar/u/0/r/eventedit?text=Build+a+DApp+on+Polkadot+using+Acala+EVM+with+On-chain+Automatic+Scheduler+%7C+Bryan+Chen+-+Acala&dates=20210206T210000Z/20210206T213000Z&details=%3Ca+href%3D%22http://twitch.tv/ethereumdenver%22%3EMainnet+Livestream%3C/a%3E%3Cbr%3E%3Cbr%3EBryan+Chen+-+Acala&location&sprop=name) and other options [here](https://www.ethdenver.com/schedule)
 * [Setup EVM Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
 * [Use the On-chain Scheduler Contract](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler)
@@ -74,7 +75,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 Official Bounty Site [here](https://www.ethdenver.com/post/acala).
 
-{% file src="../../../.gitbook/assets/ethdenver-2021-bounty-presentation.pdf" caption="Acala ETHDenver Bounty Presentation Slide" %}
+Download the Acala Bounty Presentation slide [here](https://drive.google.com/file/d/1kr1I9LoUHEibbbm6XNkegaNcFaUtzUpl/view?usp=sharing).
 
 ### **Bounty 1: Deploy a DApp on Polkadot using Acala EVM** 
 
