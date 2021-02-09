@@ -88,7 +88,7 @@
       * [Upcoming Features](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
       * [Scheduler Tutorial](build/development-guide/smart-contracts/advanced/scheduler-tutorial/README.md)
         * [Setup](build/development-guide/smart-contracts/advanced/scheduler-tutorial/setup.md)
-        * [Smart Contract](build/development-guide/smart-contracts/advanced/scheduler-tutorial/setup.md)
+        * [Smart Contract](build/development-guide/smart-contracts/advanced/scheduler-tutorial/subscription.md)
   * [Connect via Polkadot/Kusama](build/development-guide/connect-via-xcmp.md)
 * [Integration Guide](build/integration-guide/README.md)
   * [Network Configuration](build/integration-guide/network-configuration.md)
