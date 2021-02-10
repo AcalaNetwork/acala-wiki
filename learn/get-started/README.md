@@ -41,6 +41,8 @@ There are a number of ways you can generate an account. For most users, we recom
 5. Click `Export` of the newly created account and keep it in a safe place
 6. To copy the address, just click on the icon of the account
 
+For more details on how to create an account, see [here](https://wiki.polkadot.network/docs/en/learn-account-generation#polkadotjs-browser-plugin).
+
 ![](../../.gitbook/assets/started_extension.png)
 
 #### Using Polkadot UI
