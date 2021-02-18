@@ -5,7 +5,7 @@
 ### Latest ETHDenver Nodes
 
 * RPC node 1:
-  * HTTP: `https://mandala.laminar.codes/rpc`
+  * HTTP: `https://mandala.laminar.codes`
   * WebSocket: `wss://mandala.laminar.codes/ws`
 * RPC node 2:
   * HTTP: `https://node-6767993509852000256.rz.onfinality.io/rpc`
