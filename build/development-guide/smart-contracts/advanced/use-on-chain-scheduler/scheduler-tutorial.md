@@ -87,7 +87,7 @@ pragma solidity ^0.6.0;
 
 import "./Scheduler.sol";
 
-contract SubscriptionToken {
+contract Subscription {
   Scheduler constant scheduler = Scheduler(0x0000000000000000000000000000000000000808);
 }
 ```
@@ -99,9 +99,8 @@ Here you can see we're importing the abstract class that describes the `Schedule
 Next, let's set some state variables and create a constructor. Within the contract add the following:
 
 ```text
-contract SubscriptionToken {
-  contract SubscriptionToken {
-    Scheduler constant scheduler = Scheduler(0x0000000000000000000000000000000000000808);
+contract Subscription {
+  Scheduler constant scheduler = Scheduler(0x0000000000000000000000000000000000000808);
 
   address payable public owner;
   uint public subscriptionPrice;
