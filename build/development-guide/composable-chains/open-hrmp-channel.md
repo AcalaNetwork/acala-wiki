@@ -1,6 +1,12 @@
 # Open HRMP Channel
 
-Steps to open HRMP channels: 1. Sender parachain send a init open channel request. 2. Recipient parachain accept request.
+\(Original hackmd file [here](https://hackmd.io/naPxPYPYSXOlK0L7WohVdQ?view)\)
+
+Steps to open HRMP channels: 
+
+1. Sender parachain send a init open channel request. 
+
+2. Recipient parachain accept request.
 
 The steps above are done via `Xcm::Transact` from the sender's or recipient's part.
 
