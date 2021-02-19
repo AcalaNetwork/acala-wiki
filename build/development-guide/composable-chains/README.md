@@ -16,20 +16,27 @@ To receive tokens issued on Acala chain such as aUSD, ACA, renBTC, LDOT etc, you
 2. Add text symbol for the CurrenyId. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/primitives/src/lib.rs#L101) adding "AUSD".
 3. Integrate `Tokens` module into your runtime. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/33e65efabff0ef1fdd359a8128a740378f884747/runtime/dev/src/lib.rs#L628-L670) to integrate xToken.
 
-#### Step 2 Install xToken & Configure Reserve Chain
+#### Step 2 Implement XCM for Token Transfer 
 
-`orml-xtokens` is an implementation of [Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) for token transfers. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/blob/sw/rococo-v1/xtokens/src/lib.rs)
+ [Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like token transfer. Therefore we need to provide an implementation of required use cases for parachains to be able to interoperate with the same context.   
 
-1. Install xToken to your chain. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L861-L960) of Laminar adding xToken.
-2. Configure Acala as Reserve Chain for specified tokens
+`orml-xtokens` is a reference implementation of XCM for token transfers. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/blob/sw/rococo-v1/xtokens/src/lib.rs)
+
+[Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L861-L960) of Laminar installing xToken to its chain.
+
+#### Step 3 Configure Reserve Chain
+
+1. Configure Acala as Reserve Chain for specified tokens
    1. Add token and its reserve chain. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L916) of adding Acala as reserve chain for aUSD.
    2. Configure reserve assets. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L916).
 
-#### Step 3 Make your tokens available on Acala
+#### Step 4 Make your tokens available on Acala
 
-Add your token symbols and make a PR to Acala. [Example of](https://github.com/AcalaNetwork/Acala/pull/730) Plasm's PR for adding PLM.
+There is an onboarding procedure to introduce new tokens on Acala to avoid spam tokens. Please contact us to discuss.
 
-#### Step 4 Open HRMP Channel
+Once you are onboarded, add your token symbols and make a PR to Acala. [Example of](https://github.com/AcalaNetwork/Acala/pull/730) Plasm's PR for adding PLM.
+
+#### Step 5 Open HRMP Channel
 
 Your chain shall already be connected to Rococo as parachain. While XCMP \(Cross-chain Message Passing\) is sitll being implemented - that is sending cross-chain messages directly to each other without passing through the Relay chain, a stop-gap protocol HRMP \(Horizontal Relay-routed Message Passing\) is in place. 
 
