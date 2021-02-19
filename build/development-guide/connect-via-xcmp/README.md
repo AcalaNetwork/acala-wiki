@@ -2,6 +2,8 @@
 
 Currently, cross-chain message passing and parachains are only available on Polkadot's testnet [Rococo](https://wiki.polkadot.network/docs/en/build-parachains-rococo). Acala's testnet Mandala is now launched on Rococo, and is testing cross-chain token transfers, and other functionalities. 
 
+Please contact us to be \#ComposableWith Acala! 
+
 ## Composable With Acala
 
 * Acala Mandala PC2 is live on Rococ [here](https://polkadot.js.org/apps/?rpc=wss://rococo-rpc.polkadot.io#/parachains)
@@ -31,7 +33,7 @@ Add your token symbols and make a PR to Acala. [Example of](https://github.com/A
 
 Your chain shall already be connected to Rococo as parachain. While XCMP \(Cross-chain Message Passing\) is sitll being implemented - that is sending cross-chain messages directly to each other without passing through the Relay chain, a stop-gap protocol HRMP \(Horizontal Relay-routed Message Passing\) is in place. 
 
-Two parachains that will need to open HRMP channel on either side to send and receive cross-chain messages. Instructions here to open HRMP Channel.
+Two parachains will need to open HRMP channel on either side to send and receive cross-chain messages. Instructions here to open HRMP Channel.
 
 ## \#ComposableWith
 
