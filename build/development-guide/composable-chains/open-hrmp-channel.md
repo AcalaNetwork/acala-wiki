@@ -2,9 +2,9 @@
 
 \(Original hackmd file [here](https://hackmd.io/naPxPYPYSXOlK0L7WohVdQ?view)\)
 
-Steps to open HRMP channels: 
+Steps to open HRMP channels:
 
-1. Sender parachain send a init open channel request. 
+1. Sender parachain send a init open channel request.
 
 2. Recipient parachain accept request.
 
@@ -50,7 +50,7 @@ The result will be like `0x1c0416019a020000`, remove the leading hex `1c04`, and
 
 #### Send request
 
-Go to PolkadotJS app, switch to sender parachain. Go to **Developer -&gt; Sudo** section.
+Go to PolkadotJS app, switch to recipient parachain. Go to **Developer -&gt; Sudo** section.
 
 Use `xcmHandler -> sudoSendXcm` to send the transaction.
 
