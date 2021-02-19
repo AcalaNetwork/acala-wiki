@@ -33,7 +33,7 @@ Add your token symbols and make a PR to Acala. [Example of](https://github.com/A
 
 Your chain shall already be connected to Rococo as parachain. While XCMP \(Cross-chain Message Passing\) is sitll being implemented - that is sending cross-chain messages directly to each other without passing through the Relay chain, a stop-gap protocol HRMP \(Horizontal Relay-routed Message Passing\) is in place. 
 
-Two parachains will need to open HRMP channel on either side to send and receive cross-chain messages. Instructions here to open HRMP Channel.
+Two parachains will need to open HRMP channel on either side to send and receive cross-chain messages. [Instructions here to open HRMP Channel](open-hrmp-channel.md).
 
 ## \#ComposableWith
 
