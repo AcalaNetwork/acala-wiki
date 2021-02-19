@@ -105,9 +105,6 @@
 * [Network Maintainers](maintain/network-maintainers/README.md)
   * [Mandala Test Network Maintainers Guide](maintain/network-maintainers/mandala-maintainers-guide.md)
   * [Proof-of-Liveness \(PoL\) Node \(Coming Soon\)](maintain/network-maintainers/proof-of-liveness.md)
-* [Collator](maintain/collator/README.md)
-  * [Collator](maintain/collator/collator.md)
-  * [Collator Guides](maintain/collator/collator-guides.md)
 
 ## Misc
 
