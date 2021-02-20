@@ -89,13 +89,9 @@
       * [Upcoming Features](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
   * [Composable Chains](build/development-guide/composable-chains/README.md)
     * [Open HRMP Channel](build/development-guide/composable-chains/open-hrmp-channel.md)
-* [Integration Guide](build/integration-guide/README.md)
-  * [Network Configuration](build/integration-guide/network-configuration.md)
-  * [Node Management](build/integration-guide/node-management.md)
-  * [Node Interaction](build/integration-guide/node-interaction.md)
-  * [Node Validator](build/integration-guide/node-validator.md)
-  * [Type Documentation](build/integration-guide/types-doc.md)
-  * [Transaction Construction](build/integration-guide/transaction-construction.md)
+  * [General](build/development-guide/general/README.md)
+    * [Transaction Construction](build/development-guide/general/transaction-construction.md)
+    * [Type Documentation](build/development-guide/general/types-doc.md)
 * [Tools](build/tools.md)
 * [Resources](build/resources/README.md)
   * [Examples](build/resources/examples.md)
@@ -105,6 +101,8 @@
 * [Network Maintainers](maintain/network-maintainers/README.md)
   * [Mandala Test Network Maintainers Guide](maintain/network-maintainers/mandala-maintainers-guide.md)
   * [Proof-of-Liveness \(PoL\) Node \(Coming Soon\)](maintain/network-maintainers/proof-of-liveness.md)
+  * [Node Management](maintain/network-maintainers/node-management.md)
+  * [Node Interaction](maintain/network-maintainers/node-interaction.md)
 
 ## Misc
 
