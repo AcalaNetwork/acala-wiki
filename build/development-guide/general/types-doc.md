@@ -6,5 +6,5 @@ description: Need to be used when integrating applications.
 
 ## Mandala TestNet Types
 
-[https://gist.github.com/xlc/0b2cb94a81738427eb7a45ece288a736](https://gist.github.com/xlc/0b2cb94a81738427eb7a45ece288a736)
+[https://github.com/AcalaNetwork/acala.js/blob/master/packages/type-definitions/src/json/types.json](https://github.com/AcalaNetwork/acala.js/blob/master/packages/type-definitions/src/json/types.json)
 
