@@ -8,6 +8,10 @@ Please contact us to be \#ComposableWith Acala!
 
 * Acala Mandala PC2 is live on Rococo [here](https://polkadot.js.org/apps/?rpc=wss://rococo-rpc.polkadot.io#/parachains)
 
+### Step 0 Local Parachain Testnet
+
+Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios to setup a local parachain testnet environment.
+
 ### Step 1 Support Acala Tokens
 
 To receive tokens issued on Acala's chain such as aUSD, ACA, renBTC, LDOT etc, you need to configure Acala as the reserve chain, and add token symbols. Follow the steps as follows:
