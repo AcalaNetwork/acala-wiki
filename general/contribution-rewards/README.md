@@ -847,7 +847,7 @@ Bugs are judged on significance and severity by the Acala Engineering team, and 
 
 **PRIZE GIVING** 1. Please allow 1 week upon submission for review. 2. Prize tokens will be dropped to the address provided in the issue submitted.
 
-### UI Bug Bounty
+### UI Bug Bounty \(Closed\)
 
 **ELIGIBILITY** Help identify bugs in Acala mainly for this repo [https://github.com/AcalaNetwork/honzon-platform](https://github.com/AcalaNetwork/honzon-platform)
 
