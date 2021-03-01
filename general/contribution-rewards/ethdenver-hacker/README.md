@@ -1,14 +1,9 @@
-# ETHDenver 2021 Hacker Guide
-
-Welcome to [ETHDenver](https://www.ethdenver.com/) 2021 - Acala Hacker Guide. 
-
-Check out the [ETHDenver BUIDL Guide](https://www.ethdenver.com/buidl) regarding registration, forming teams and submissions, if you have yet done so.
+# ETH Hacker Guide
 
 ## Start Here
 
-* **All ETHDenver chat & Acala bounty support** takes place in the [Official ETHDenver Discord](https://discord.gg/2X7WDEYpcX)
 * **Join** [**Acala Official Discord**](https://discord.gg/vdbFVCH) ****to explore DeFi on Polkadot, for product and technical questions
-* [Sign up](https://www.crowdcast.io/e/acala-ethdenver-2021) for ETHDenver Kickoff webinar: **Deploying your Ethereum Project on Polkadot & Acala**
+* [**Watch**](https://www.crowdcast.io/e/acala-ethdenver-2021) the webinar: **Deploying your Ethereum Project on Polkadot & Acala**
 
 ## Resources
 
@@ -61,11 +56,6 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 ## Communication Channels
 
-### ETHDenver Channels
-
-* [ETHDenver Discord & Acala Channel](https://discord.gg/2X7WDEYpcX)
-* [Kickoff Webinar](https://www.crowdcast.io/e/acala-ethdenver-2021) - How to Deploy Ethereum DApps on Polkadot using Acala EVM
-
 ### Social Channels
 
 * [Acala Homepage](https://acala.network/)
@@ -73,64 +63,6 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 * [Discord](https://discord.gg/vdbFVCH)
 
 [**Acala Newsletter**](https://acala.network/newsletter-sign-up.html)\*\*\*\*
-
-## Acala Bounties
-
-Official Bounty Site [here](https://www.ethdenver.com/post/acala).
-
-Download the Acala Bounty Presentation slide [here](https://drive.google.com/file/d/1kr1I9LoUHEibbbm6XNkegaNcFaUtzUpl/view?usp=sharing).
-
-### **Bounty 1: Deploy a DApp on Polkadot using Acala EVM** 
-
-Prize: $1000   
-Pitch and consultative calls to discuss next step for Acala Ecosystem Program and pathway to Polkadot ecosystem  
-Acala swag  
-Feature in Acala social media  
-  
-****We‘d happily accept contracts you’ve built for other bounties and prizes.
-
-### **Bounty 2: Build a DApp using Acala EVM with the On-chain Automatic Scheduler Function**
-
-Prize: $2000   
-Pitch and consultative calls to discuss next step for Acala Ecosystem Program and pathway to Polkadot ecosystem  
-Acala swag  
-Feature in Acala social media
-
-We‘d happily accept contracts you’ve built for other bounties and prizes that incorporates this on-chain scheduler function. We don't require a front-end to be built as part of the submission, but feel free to surprise us and we will give bonus points if you do. 
-
-We’re here to help you succeed and build a winning DApp at ETHDenver.
-
-### Bounty Ideas
-
-* Charity DAO that accepts automatic recurring donations
-* Build a Web3 version of Stripe 
-* Subscription services
-* Level Up DeFi: auto take profit, re-invest, payout, liquidate risky positions etc. without the need of external actors like Keepers
-* ...
-* [Recurring payment example](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler#example)
-
-### Judging Criteria 
-
-#### **Requirement**
-
-1. Must be a working DApp on local testnet or on Acala’s public testnet
-2. Must provide a link to Github source code \(if using a modified local node, submit the code also\)
-3. Must provide docs on what the DApp is trying to achieve and how the DApp is supposed to work. The deployed DApp should match expected functions.
-
-#### **Judging Criteria**
-
-1. Completeness of DApp
-2. Technical Difficulty
-3. User Experience
-4. Originality and Creativity
-5. Wow Factor
-
-#### Bonus Points
-
-* It’s a plus if you use any other special features and/or tech from other ETHDenver sponsors
-* Use other Acala special features
-  * [Use Oracle Feeds](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds)
-  * [Use Native & Cross-chain Tokens such as BTC and DOTs](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens)
 
 ### 
 
