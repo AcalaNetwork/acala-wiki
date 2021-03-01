@@ -8,7 +8,7 @@
   * [General Links](general/acala-portal/general-links.md)
   * [Community](general/acala-portal/community.md)
   * [News](general/acala-portal/news.md)
-  * [Partnerships](general/acala-portal/partnerships.md)
+  * [Alliance](general/acala-portal/partnerships.md)
   * [Audits](general/acala-portal/audits.md)
   * [Progress Update](general/acala-portal/progress-update/README.md)
     * [Build Acala \| Jan 2021](general/acala-portal/progress-update/build-acala-or-jan-2021.md)

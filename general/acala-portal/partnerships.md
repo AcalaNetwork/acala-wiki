@@ -1,4 +1,4 @@
-# Partnerships
+# Alliance
 
 {% hint style="info" %}
 In alphabetical order.
