@@ -6,7 +6,7 @@ Users can use **one extension/wallet**, and **a single Substrate account** to in
 
 This allows users to use all functionalities within Acala and cross-chain capabilities without managing multiple accounts or wallets.
 
-{% page-ref page="../../../../build/development-guide/smart-contracts/get-started-evm/evm-account.md" %}
+{% page-ref page="../../../build/development-guide/smart-contracts/get-started-evm/evm-account.md" %}
 
 
 

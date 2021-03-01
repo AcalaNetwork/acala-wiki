@@ -8,7 +8,7 @@
 
 {% page-ref page="how-does-it-work.md" %}
 
-{% page-ref page="../../../build/development-guide/smart-contracts/get-started-evm/" %}
+{% page-ref page="../../build/development-guide/smart-contracts/get-started-evm/" %}
 
 
 
