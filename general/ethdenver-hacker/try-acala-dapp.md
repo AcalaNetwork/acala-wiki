@@ -1,6 +1,6 @@
 # Try Acala DApp
 
-![](../../../.gitbook/assets/screen-shot-2021-02-03-at-4.41.26-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-02-03-at-4.41.26-pm.png)
 
 Try Acala's DeFi Suite on the ETHDenver live testnet
 
@@ -11,7 +11,7 @@ Try Acala's DeFi Suite on the ETHDenver live testnet
 
 When first landing on the DApp website, you'd be asked to Upload metadata, click `Upload` and sign the transaction in the Polkadot{js} extension prompt. The extension doesn't have the latest changes of EVM deployment yet - you're in this really early! 
 
-![](../../../.gitbook/assets/screen-shot-2021-02-03-at-4.39.46-pm%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../.gitbook/assets/screen-shot-2021-02-03-at-4.39.46-pm%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 
 
