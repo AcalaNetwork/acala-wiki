@@ -20,8 +20,8 @@
     * [Build Acala \| Jun 2020](general/acala-portal/progress-update/build-acala-june-2020.md)
     * [Build Acala \| May 2020](general/acala-portal/progress-update/build-acala-may-2020.md)
 * [Community Discord](https://discord.gg/vdbFVCH)
-* [Acala Hackathon Guide](general/ethdenver-hacker/README.md)
-  * [Try Acala DApp](general/ethdenver-hacker/try-acala-dapp.md)
+* [Acala Hackathon Guide](general/acala-hacker-guide/README.md)
+  * [Try Acala DApp](general/acala-hacker-guide/try-acala-dapp.md)
 * [Contribution & Rewards](general/contribution-rewards.md)
 * [FAQ](general/faq.md)
 
