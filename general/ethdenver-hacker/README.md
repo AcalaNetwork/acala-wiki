@@ -1,4 +1,4 @@
-# ETH Hacker Guide
+# Acala Hackathon Guide
 
 ## Start Here
 
