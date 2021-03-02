@@ -1,4 +1,4 @@
-# ETH Hacker Guide
+# Acala Hackathon Guide
 
 ## Start Here
 
@@ -17,7 +17,7 @@ Acala is a cross-chain DeFi Hub and de facto stablecoin platform for Polkadot. I
 
 ### Acala EVM
 
-Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosystem, making cross-chain liquidity and protocols composable. Acala EVM is one module on the Acala Network. Acala EVM enables Solidity contracts to be deployed on Acala/Polkadot with minimum changes. It also offers many distinct features such as paying fees in any tokens like stablecoin, and there’s an on-chain automatic scheduler that enables use cases like subscription and recurring payments etc.
+Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosystem, making cross-chain liquidity and protocols composable. Acala EVM is one module on the Acala Network. Acala EVM enables Solidity contracts to be deployed on Acala/Polkadot with minimum changes. It also offers many distinct features such "**bring your own gas**" \(paying fees in any tokens like a stablecoin\), and there’s an **on-chain automatic scheduler** that enables use cases like subscription and recurring payments etc.
 
 ### Product Resources
 
@@ -36,10 +36,9 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 * **Build a DApp on Polkadot using Acala EVM with On-chain Automatic Scheduler**
   * Watch Live Coding [here](https://www.youtube.com/watch?v=0ZKK8IQXI3s&list=PLAy4HNUNlzRkiRQFnr-gu6CyddoVTxeTy&index=37)
   * Tutorial [here](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler/scheduler-tutorial)
-* **Live Coding Session**: Feb 6 2-2:30pm \(MST/GMT-7\). Add to Google Calendar [here](https://calendar.google.com/calendar/u/0/r/eventedit?text=Build+a+DApp+on+Polkadot+using+Acala+EVM+with+On-chain+Automatic+Scheduler+%7C+Bryan+Chen+-+Acala&dates=20210206T210000Z/20210206T213000Z&details=%3Ca+href%3D%22http://twitch.tv/ethereumdenver%22%3EMainnet+Livestream%3C/a%3E%3Cbr%3E%3Cbr%3EBryan+Chen+-+Acala&location&sprop=name) and other options [here](https://www.ethdenver.com/schedule)
-* [Setup EVM Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
+* [Set up EVM Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
 * [Use the On-chain Scheduler Contract](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler)
-* [Use Oracle Feeds](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds)
+* [Use Acala Oracle Feeds](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds)
 * [Use Native & Cross-chain Tokens such as BTC and DOTs](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens)
 * **Example code:** [https://github.com/AcalaNetwork/evm-examples](https://github.com/AcalaNetwork/evm-examples)
 
@@ -48,7 +47,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 * **Waffle:** [https://getwaffle.io](https://getwaffle.io)
 * **Remix:** [http://remix.ethereum.org](http://remix.ethereum.org)
 * **EVM Playground:** [https://evm.acala.network](https://evm.acala.network)
-* **bodhi.js**: [https://github.com/AcalaNetwork/bodhi.js](https://github.com/AcalaNetwork/bodhi.js)
+* **Acala EVM \(bodhi.js\)**: [https://github.com/AcalaNetwork/bodhi.js](https://github.com/AcalaNetwork/bodhi.js)
 
 #### Optional
 
@@ -61,8 +60,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 * [Acala Homepage](https://acala.network/)
 * [Twitter](https://twitter.com/AcalaNetwork)
 * [Discord](https://discord.gg/vdbFVCH)
-
-[**Acala Newsletter**](https://acala.network/newsletter-sign-up.html)\*\*\*\*
+* [Acala Newsletter](https://acala.network/newsletter-sign-up.html)
 
 ### 
 
