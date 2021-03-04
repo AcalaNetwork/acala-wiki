@@ -1,12 +1,18 @@
 # Composable Chains
 
-Currently, cross-chain message passing and parachains are only available on Polkadot's testnet [Rococo](https://wiki.polkadot.network/docs/en/build-parachains-rococo). Acala's testnet \(Mandala\) is now launched on Rococo, and is testing cross-chain token transfers, and other functionalities.
+Currently, cross-chain message passing and parachains are only available on Polkadot's testnet [Rococo](https://wiki.polkadot.network/docs/en/build-parachains-rococo). Acala's testnet \(Mandala\) is now launched on Rococo, and is testing cross-chain fungible token transfers, and other functionalities.
 
 Please contact us to be \#ComposableWith Acala!
 
 ## Composable With Acala
 
 * Acala Mandala PC2 is live on Rococo [here](https://polkadot.js.org/apps/?rpc=wss://rococo-rpc.polkadot.io#/parachains)
+
+### Background
+
+[Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like fungible tokens. Therefore, we need to provide an implementation of required use cases for parachains to be able to interoperate with the same context.
+
+The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fugible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are curerntly adopted and tesitng. 
 
 ### Step 0 Local Parachain Testnet
 
@@ -22,9 +28,9 @@ To receive tokens issued on Acala's chain such as aUSD, ACA, renBTC, LDOT etc, y
 
 ### Step 2 Implement XCM for Token Transfer
 
-[Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like token transfer. Therefore, we need to provide an implementation of required use cases for parachains to be able to interoperate with the same context.
+[Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like fungible tokens. Therefore, we need to provide an implementation of required use cases for parachains to be able to interoperate with the same context.
 
-`orml-xtokens` is a reference implementation of XCM for token transfers. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/blob/sw/rococo-v1/xtokens/src/lib.rs)
+`orml-xtokens` is a reference implementation of XCM for token transfers. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xcm-support)
 
 [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L861-L960) of Laminar installing xToken to its chain.
 
@@ -48,13 +54,19 @@ The two parachains will need to open HRMP channel on either side to send and rec
 
 ## \#ComposableWith
 
-All chains on Polkadot/Kusama shall be _**composable with**_ each other, from exchanging value to exchanging and altering states. For example, chains can not only transfer values trustlessly, they can also call pallet/smart contract functions of each other e.g. 1 click minting PolkaBTC on Interlay chain, transferring PolkaBTC to Acala, and collateralizing it for aUSD all in one transaction.
+All chains on Polkadot/Kusama shall be _**composable with**_ each other, from exchanging value to exchanging and altering states. For example, chains can not only transfer values trustlessly, they can also call pallet/smart contract functions of each other e.g. minting PolkaBTC on Interlay chain, transferring PolkaBTC to Acala, and collateralizing it for aUSD all in one transaction.
 
-Acala is currently composable with the following \(potential\) parachains. Please [PR to this Repo](https://github.com/AcalaNetwork/acala-wiki/blob/master/build/development-guide/connect-via-xcmp.md) to add yourself:
+Acala will be composable with the following \(potential\) parachains. Please [PR to this Repo](https://github.com/AcalaNetwork/acala-wiki/blob/master/build/development-guide/connect-via-xcmp.md) to add yourself:
 
 * Plasm
 * Interlay
 * Phala
+* Laminar
+* Moonbeam
+* Centrifuge
+* HydraDX
+* Darwinia
+* ...
 
 Please contact us if you'd like to try it out and run some cross-chain testing together with us!
 
