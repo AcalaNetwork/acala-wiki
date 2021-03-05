@@ -1,8 +1,8 @@
 ---
-description: Staking Liquidity Protocol - Homa
+description: Staking Liquidity Protocol
 ---
 
-# Homa Liquid DOT
+# Liquid DOT
 
 * [Overview](https://wiki.acala.network/learn/basics/homa-liquid-dot#overview)
   * [Liquid DOT](https://wiki.acala.network/learn/basics/homa-liquid-dot#liquid-dot)
@@ -16,11 +16,11 @@ description: Staking Liquidity Protocol - Homa
 
 ## Overview
 
-In a Proof-of-Stake \(PoS\) network, there will be **natural competition** between assets being used in **staking \(for yields\)** and assets being **invested in DeFi \(for returns\)**. This results in a tension between security and liquidity. For example, Polkadot intends to have 50% of the DOTs staked, the rest in circulation would be used for bonding, paying transaction fees and other. **Can we have both security and liquidity at the same time?** The Homa staking liquidity protocol solves this dilemma.
+In a Proof-of-Stake \(PoS\) network, there will be **natural competition** between assets being used in **staking \(for yields\)** and assets being **invested in DeFi \(for returns\)**. This results in a tension between security and liquidity. For example, Polkadot intends to have 50% of the DOTs staked, the rest in circulation would be used for bonding, paying transaction fees and other. **Can we have both security and liquidity at the same time?** The 'Homa' staking liquidity protocol solves this dilemma.
 
 ### Liquid DOT
 
-Users can stake DOTs **trustlessly** with Homa staking pool, and in return you receive Liquid DOT \(L-DOT\) accounting for both the DOT amount and on-going staking reward earned. **L-DOT is fungible, can be traded, used for payment, in DeFi e.g. as collateral to generate aUSD stablecoin.** L-DOT as a derivative of DOT would extract residual value of it without compromising or competing for network security. Meanwhile it releases much liquidity for other use cases of a PoS network token.
+Users can stake DOTs **trustlessly** with the 'Homa' staking pool, and in return you receive Liquid DOT \(L-DOT\) accounting for both the DOT amount and on-going staking reward earned. **L-DOT is fungible, can be traded, used for payment, in DeFi e.g. as collateral to generate aUSD stablecoin.** L-DOT as a derivative of DOT would extract residual value of it without compromising or competing for network security. Meanwhile it releases much liquidity for other use cases of a PoS network token.
 
 Homa is designed as a generic staking liquidity protocol, and firstly implemented for Polkadot and DOT as staking asset.
 

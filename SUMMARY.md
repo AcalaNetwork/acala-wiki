@@ -39,7 +39,7 @@
     * [Provide Liquidity](learn/basics/dex/provide-liquidity.md)
   * [Auctions](learn/basics/auctions/README.md)
     * [Liquidation & Emergency Shutdown](learn/basics/auctions/liquidation-and-emergency-shutdown.md)
-  * [Homa Liquid DOT](learn/basics/homa-liquid-dot.md)
+  * [Liquid DOT](learn/basics/liquid-dot.md)
   * [Open Oracle Gateway](learn/basics/oracle/README.md)
     * [Oracle on Mandala Testnet](learn/basics/oracle/oracle-guide-for-mandala-test-network.md)
   * [Cross Chain DeFi](learn/basics/cross-chain-defi.md)
