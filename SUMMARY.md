@@ -34,7 +34,7 @@
   * [Public Nodes](learn/get-started/public-nodes.md)
 * [DeFi Basics](learn/basics/README.md)
   * [Acala Account](learn/basics/acala-account.md)
-  * [Honzon Stablecoin](learn/basics/honzon-stablecoin.md)
+  * [aUSD Stablecoin](learn/basics/ausd-stablecoin.md)
   * [DeX](learn/basics/dex/README.md)
     * [Provide Liquidity](learn/basics/dex/provide-liquidity.md)
   * [Auctions](learn/basics/auctions/README.md)

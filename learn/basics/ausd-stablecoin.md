@@ -2,7 +2,7 @@
 description: Stablecoin Protocol - Honzon
 ---
 
-# Honzon Stablecoin
+# aUSD Stablecoin
 
 * [Overview](https://wiki.acala.network/learn/basics/honzon-stablecoin#overview)
 * [Honzon on Mandala Test Network](https://wiki.acala.network/learn/basics/honzon-stablecoin#honzon-on-mandala-test-network)
