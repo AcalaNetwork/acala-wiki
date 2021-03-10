@@ -1,4 +1,4 @@
-# Acala Hackathon Guide
+# Acala EVM Hacker Guide
 
 ## Start Here
 
