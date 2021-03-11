@@ -1,6 +1,6 @@
 # Deploy Contracts
 
-The `Acala EVM Playground` is useful to test various functionalities of Acala EVM. The source code is [here](https://github.com/AcalaNetwork/evm-playground) and it’s a fork from parity `canvas-ui`.
+The `Acala EVM Playground` is useful to test various functionalities of Acala EVM. It’s a fork from parity `canvas-ui`.
 
 ### **1. Setup**
 

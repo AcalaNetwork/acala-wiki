@@ -1,6 +1,6 @@
 # EVM Playground
 
-We have created a web application - **Acala EVM Playground** to test various functionalities of Acala EVM. The source code is [here](https://github.com/AcalaNetwork/evm-playground) and it’s a fork from parity `canvas-ui`.
+We have created a web application - **Acala EVM Playground** to test various functionalities of Acala EVM. It’s a fork from parity `canvas-ui`.
 
 To launch the Playground, please navigate to [https://evm.acala.network/](https://evm.acala.network/).
 
@@ -19,6 +19,17 @@ Click on the `Node to connect to` dropdown to choose a node you want to connect 
 - Click `Use custom endpoint` to enter a custom Websocket URL
 
 ![](https://i.imgur.com/eHAdxLb.png)
+
+### Bind EVM address
+
+To use smart contracts, you will need to have an EVM address. By default, we don't attach the address to the user's account, and users need to claim it. Claiming an EVM account is a transaction, and you need to have tokens to pay for it.
+If you're running your Acala node and using standard Development accounts (Alice, Bob), you have enough funds. Though using provided by Acala test network, you need to get funds using a faucet. 
+Navigate to EVM account settings, clicking on "Setup EVM Account" in the top left corner.
+![](https://i.imgur.com/F6UTXtm.png)
+Next, select a substrate account in "Step 1". If you aren't using the local node you will see a "Faucet" button under the selected account. 
+Click it to receive test tokens.
+And finally, click "Bind" button on the bottom to attach generated EVM to the current account. Confirm transaction from your Polkadot.js extension.
+You should receive a confirmation.
 
 ### Check Balance
 

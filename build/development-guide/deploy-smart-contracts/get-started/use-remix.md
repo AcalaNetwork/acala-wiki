@@ -14,12 +14,10 @@ This guide walks through the process of creating and deploying a Solidity-based 
 Navigate to [https://remix.ethereum.org/](https://remix.ethereum.org/). Under `Environments`, select `Solidity` to configure Remix for Solidity development, then navigate to the `File Explorers` view.
 
 Here’s an example to compile an ERC20 contract using Remix.
+Open Remix and under the `File` section click `New File`. 
+![](https://i.imgur.com/J9jtCF4.png)
 
-![](https://i.imgur.com/82B9QJA.png)
-
-Hit the `+` button under the `File Explorers` to create a new Solidity file. 
-
-Enter the name `BasicToken.sol` into the popup dialogue.
+In the file explorer in the left window will appear an input, where you write filename: `BasicToken.sol`.
 
 ### **2. Compile the Solidity code**
 

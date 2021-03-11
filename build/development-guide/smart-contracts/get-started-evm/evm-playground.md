@@ -1,6 +1,6 @@
 # EVM Playground
 
-We have created a web application - **Acala EVM Playground** to test various functionalities of Acala EVM. The source code is [here](https://github.com/AcalaNetwork/evm-playground) and it’s a fork from parity `canvas-ui`.
+We have created a web application - **Acala EVM Playground** to test various functionalities of Acala EVM. It’s a fork from parity `canvas-ui`.
 
 To launch the Playground, please navigate to [https://evm.acala.network](https://evm.acala.network).
 
