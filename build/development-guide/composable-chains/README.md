@@ -2,7 +2,7 @@
 
 Currently, cross-chain message passing and parachains are only available on Polkadot's testnet [Rococo](https://wiki.polkadot.network/docs/en/build-parachains-rococo). Acala's testnet \(Mandala\) is now launched on Rococo, and is testing cross-chain fungible token transfers, and other functionalities.
 
-Please contact us to be \#ComposableWith Acala!
+Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to be \#ComposableWith Acala!
 
 ## Composable With Acala
 
