@@ -2,53 +2,63 @@
 
 The `Acala EVM Playground` is useful to test various functionalities of Acala EVM. It’s a fork from parity `canvas-ui`.
 
-## **1. Setup**
+### **1. Setup**
 
-To deploy your contract on a node you have two options:
+To deploy your smart contract you can use our Test Network or you can run your local dev node.
 
-**Deploy to a local dev node**
+#### Run your own dev node**
 
-To deploy to a local dev node you first need to follow the `Building` instructions here [https://github.com/AcalaNetwork/Acala\#3-building](https://github.com/AcalaNetwork/Acala#3-building).
+To run your dev node, you can:
+1. Build Acala project locally. 
+   You can follow the guide on how to do it here:
+   [https://github.com/AcalaNetwork/Acala#3-building](https://github.com/AcalaNetwork/Acala#3-building). Once you have built Acala you can start an EVM ready local dev node by running the following command:
 
-Once you have built Acala you can start an evm ready local dev node by running the following command:
-
-```text
-make run-eth
+```bash=
+make run-eth;
+```
+2. Use the latest prebuilt Acala Docker image.
+   You need to have Docker installed on your machine. You can follow the installation instructions here: [Install Docker](https://docs.docker.com/get-docker/). Once docker is running you need to pull the last Acala image and to run it:
+```shell=
+docker pull acala/acala-node:latest
+docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_container" --rpc-external --ws-external --rpc-cors=all
 ```
 
-After your dev node is up and running you can set the Acala evm playground to point to your node by clicking dropdown in the bottom left corner and selecting `Local Node`.
 
-![](https://i.imgur.com/4hndMwf.jpg)
+Once your node is running you should see something similar to this in your terminal window:
+![](https://i.imgur.com/MQEURQr.png)
 
-Running the local dev node will preopulate the `Accounts` dropdowns with pre-funded developer accounts.
+After your dev node is up and running you can set the Acala EVM playground to point to your node by clicking the dropdown in the bottom left corner and selecting `Local Node`.
+![](https://i.imgur.com/pOfQb8z.png)
 
-**Deploy to our test network**
+Running the local dev node will prepopulate the `Accounts` dropdowns with pre-funded developer accounts.
 
-To deploy to our test network you need have the [polkadot{.js}](https://polkadot.js.org/extension/) wallet extension installed in your browser.
+**Use our Test Network**
 
-Once you have the extension installed, you can bind your accounts with an evm address and get test network funds on the `Setup EVM Account` page on the Acala evm playground. For more in depth instructions, read the documentation [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account).
+To deploy to our test network you need to have the [polkadot{.js}](https://polkadot.js.org/extension/) wallet extension installed in your browser.
+
+Once you have the extension installed, you can bind your accounts with an EVM address and get test network funds on the `Setup EVM Account` page on the Acala EVM playground. For more in-depth instructions, read the documentation [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account).
 
 **Note:** For the remainder of this page we will assume you are using a local dev node. If you are deploying to the test network using the `polkadot{.js}` extension simply replace the accounts `Alice`, and `Bob` with the accounts you have set up in your extension.
 
-## **2. Upload Contract ABI**
+### **2. Upload Contract ABI & bytecode**
 
-Deploy the `BasicToken` ABI file by navigating to [https://evm.acala.network/](https://evm.acala.network/).
+Upload `BasicToken` ABI & bytecode file by navigating to [https://evm.acala.network/](https://evm.acala.network/).
 
 Go to the `Upload` tab.
+![](https://i.imgur.com/Ge3IwiM.png)
 
-![](https://i.imgur.com/WEqKIwg.png)
 
-Fill in the contract name, then upload the contract ABI `BasicToken.json`.
+Fill in the contract name, then upload the contract file `BasicToken.json`.
 
 ![](https://i.imgur.com/35cPG16.png)
 
 It will then display a list of available methods in the contract. Then click `Upload`.
 
-## **3. Deploy the Contract**
+### **3. Deploy the Contract**
 
 After uploading the ABI, the Playground will automatically navigate to the `Upload` step. If not, just select `Deploy` in the left sidebar. `BasicToken` shall appear in the `ABI bundles`.
 
-Click the `Deploy` button, and choose `Alice` \(or your account if using the browser extension\) as the `deployment account`.
+Click the `Deploy` button, and choose `Alice` (or your account if using the browser extension) as the `deployment account`.
 
 ![](https://i.imgur.com/49maXFG.png)
 
@@ -60,7 +70,7 @@ The deployed `BasicToken` contract should appear in the execute section.
 
 ![](https://i.imgur.com/BMp4SR3.png)
 
-## **4. Interact with the Contract**
+### **4. Interact with the Contract**
 
 Navigate to the `Execute` tab. Find the deployed `BasicToken` contract.
 
@@ -68,33 +78,39 @@ Click the `Execute` button.
 
 ![](https://i.imgur.com/eOnKfQi.png)
 
-## **5. Query Balances**
+### **5. Query Balances**
 
 To perform a query on an account's balance, do the following steps:
 
 1. Select `Alice` from the `Call from Account` dropdown. This is the account used to send the transaction.
+
 2. Pick `balanceOf` from the `Message to Send` dropdown.
+
 3. Find Alice’s EVM Address under `Call from Account` , copy and paste it in the `account: address` argument box.
 
 ![](https://i.imgur.com/ups2Ur6.png)
 
 **Note:** Solidity contracts have two types of methods: `views` and `executable` methods.
 
-* `Views` are used to query information from the blockchain without writing data to it. `Views` transactions are free. The Playground uses the `Call` button to indicate this.
-* `Executable` methods can write data onto the blockchain, and these transactions aren’t free. Click the `Execute` button to execute it.
+- `Views` are used to query information from the blockchain without writing data to it. `Views` transactions are free. The Playground uses the `Call` button to indicate this.
+- `Executable` methods can write data onto the blockchain, and these transactions aren’t free. Click the `Execute` button to execute it.
 
-Finally, click the `Call` button and `Call results` should show the BasicToken balance of Alice.
+Finally, click the `Call` button, and `Call results` should show the BasicToken balance of Alice.
 
 ![](https://i.imgur.com/URot8MK.png)
 
-## **6. Transfer**
+### **6. Transfer**
 
-Now lets try transfering BasicTokens to Bob’s Account.
+Now let's try transferring BasicTokens to Bob’s Account.
 
 1. Select `Alice` from the account dropdown.
+
 2. Select `transfer` from the `Message to Send` dropdown.
-3. Select Bob’s account from the `Call from Account` dropdown, then copy its `EVM address` and paste it in the `recipient address` input box. \(Remember to switch `Call from Account` back to `Alice`\)
+
+3. Select Bob’s account from the `Call from Account` dropdown, then copy its `EVM address` and paste it in the `recipient address` input box. (Remember to switch `Call from Account` back to `Alice`)
+
 4. Enter transfer amount in the `amount: unit256` argument box, note the token has a standard 18 decimals.
+
 5. Click `Execute`.
 
 ![](https://i.imgur.com/hPAGjsT.png)
@@ -108,4 +124,3 @@ Now check the balances of Alice and Bob, how have they changed?
 ![](https://i.imgur.com/mTLZGYU.png)
 
 ![](https://i.imgur.com/tTSS4gs.png)
-

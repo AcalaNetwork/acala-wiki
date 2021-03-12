@@ -2,10 +2,10 @@
 
 There are multiple tools you can use to develop and compile Solidity contracts, we'd present two here as options
 
-* online web app Remix
+* online web app Remix 
 * Solidity development and testing framework Waffle
 
-## Compile Solidity Contract using Waffle
+### Compile Solidity Contract using Waffle Comment
 
 **Note:** you can skip this section if you compiled the smart contract with Remix.
 
@@ -13,17 +13,7 @@ This guide walks through the process of deploying a Solidity-based smart contrac
 
 ### **1. Check Prerequisites**
 
-First, we need to install Node.js \(we use v15.x in this example\) and the yarn package manager. You can do this by running in your terminal:
-
-```text
-curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
-```
-
-```text
-sudo apt install -y nodejs
-
-npm install --global yarn
-```
+First, we need to install Node.js \(we use v15.x in this example\) and the npm package manager. For installation follow guides in the official documentation for your operating system: [install NodeJS](https://nodejs.org/en/download/package-manager/)
 
 We can verify that everything installed correctly by querying the version for each package:
 
@@ -31,6 +21,17 @@ We can verify that everything installed correctly by querying the version for ea
 node -v
 ```
 
+```text
+npm -v
+```
+
+Install yarn package manager:
+
+```text
+npm install --global yarn
+```
+
+Check if it's installed correctly:
 ```text
 yarn -v
 ```
@@ -43,37 +44,30 @@ Simply clone the repository and install the dependencies.
 
 ```text
 git clone https://github.com/AcalaNetwork/evm-examples
-
 cd evm-examples/erc20
 
-yarn install
+yarn install 
 ```
 
-After you've installed the dependencies, you can compile the Solidity smart contract in the `contracts` folder by running the following command:
+### **3. Using Waffle from Scratch (optional)**
 
-```text
-yarn waffle
-```
 
-### **3. Using Waffle from Scratch**
+Alternatively, you can install each library separately as the following: 
 
-Alternatively, you can setup waffle from scratch by doing the following:
-
-Create a folder
+Create a project folder `smart-contract-waffle`
 
 ```text
 mkdir smart-contract-waffle
-
 cd smart-contract-waffle
 ```
 
-Init npm dependencies
+Initiate package manager
 
 ```text
 yarn init -y
 ```
 
-Install all required dependencies
+Install all following dependencies
 
 ```text
 yarn add --dev @openzeppelin/contracts@3.3.0 ethereum-waffle@3.2.1
@@ -100,9 +94,11 @@ Paste the following in the `waffle.json` file
 
 This sets up the solidity compiler with version `0.6.2`, compiles contracts from the `./contracts` folder, and saves the bytecode output and ABI files to `./build` folder.
 
+
 Now create the `./contracts` folder, and add the `BasicToken.sol` contract.
 
 ```text
+
 mkdir contracts
 touch contracts/BasicToken.sol
 ```
@@ -120,17 +116,19 @@ contract BasicToken is ERC20 {
         _mint(msg.sender, initialBalance);
     }
 }
+
 ```
 
-Now compile the contract into ABI and bytecode. Within the folder containing `waffle.json` run the following in the terminal:
+### **4. Compile the Smart Contract**
+Now compile the contract into ABI and bytecode. Run the following in the terminal
 
 ```text
 yarn waffle
 ```
 
-### **3. Get the ABI file**
+### **5. Get the ABI file**
 
-Waffle will then generate the output file `./build/BasicToken.json` into the `./build` folder.
+Waffle will then generate the output file `./build/BasicToken.json` into the `./build` folder. 
 
 Note: this file should be the same as the one created with Remix.
 
