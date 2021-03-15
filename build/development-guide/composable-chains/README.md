@@ -14,6 +14,8 @@ Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to b
 
 The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fugible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are curerntly adopted and tesitng. 
 
+`orml-xtokens` is a reference implementation of XCM for fungible tokens. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xcm-support).
+
 ### Step 0 Local Parachain Testnet
 
 Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios to setup a local parachain testnet environment.
