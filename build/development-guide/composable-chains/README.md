@@ -25,7 +25,7 @@ Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios t
 To receive tokens issued on Acala's chain such as aUSD, ACA, renBTC, LDOT etc, you need to configure Acala as the reserve chain, and add token symbols. Follow the steps as follows:
 
 1. Add token to CurrencyId. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/primitives/src/lib.rs#L83) of Laminar adding aUSD.
-2. Add text symbol for the CurrenyId. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/primitives/src/lib.rs#L101) adding "AUSD".
+2. Add text symbol for the CurrenyId. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/primitives/src/lib.rs#L101) adding "aUSD".
 3. Integrate `Tokens` module into your runtime. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/33e65efabff0ef1fdd359a8128a740378f884747/runtime/dev/src/lib.rs#L628-L670) to integrate xToken.
 
 ### Step 2 Implement XCM for Token Transfer
