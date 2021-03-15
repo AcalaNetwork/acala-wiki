@@ -14,7 +14,7 @@ Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to b
 
 The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fugible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are curerntly adopted and tesitng. 
 
-`orml-xtokens` is a reference implementation of XCM for fungible tokens. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xcm-support).
+`orml-xtokens` is a reference implementation of XCM for fungible tokens. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support).
 
 ### Step 0 Local Parachain Testnet
 
@@ -32,7 +32,7 @@ To receive tokens issued on Acala's chain such as aUSD, ACA, renBTC, LDOT etc, y
 
 [Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like fungible tokens. Therefore, we need to provide an implementation of required use cases for parachains to be able to interoperate with the same context.
 
-`orml-xtokens` is a reference implementation of XCM for token transfers. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/sw/rococo-v1/xcm-support)
+`orml-xtokens` is a reference implementation of XCM for token transfers. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support)
 
 [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L861-L960) of Laminar installing xToken to its chain.
 
