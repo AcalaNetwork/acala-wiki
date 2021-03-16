@@ -13,15 +13,7 @@ This guide walks through the process of deploying a Solidity-based smart contrac
 
 ### **1. Check Prerequisites**
 
-First, we need to install Node.js \(we use v15.x in this example\) and the npm package manager. You can do this by running in your terminal:
-
-```text
-curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
-```
-
-```text
-sudo apt install -y nodejs
-```
+First, we need to install Node.js \(we use v15.x in this example\) and the npm package manager. For installation follow guides in the official documentation for your operating system: [install NodeJS](https://nodejs.org/en/download/package-manager/)
 
 We can verify that everything installed correctly by querying the version for each package:
 
@@ -33,7 +25,18 @@ node -v
 npm -v
 ```
 
-### **2. Install Waffle**
+Install yarn package manager:
+
+```text
+npm install --global yarn
+```
+
+Check if it's installed correctly:
+```text
+yarn -v
+```
+
+### **2. Using Waffle With Our Examples**
 
 We've made it easy by collecting all required dependencies in the [AcalaNetwork/evm-examples](https://github.com/AcalaNetwork/evm-examples) repo.
 
@@ -41,32 +44,33 @@ Simply clone the repository and install the dependencies.
 
 ```text
 git clone https://github.com/AcalaNetwork/evm-examples
-cd evm-examples
+cd evm-examples/erc20
 
-npm install 
-# or
-yarn install
+yarn install 
 ```
+
+### **3. Using Waffle from Scratch (optional)**
+
 
 Alternatively, you can install each library separately as the following: 
 
-Create a folder
+Create a project folder `smart-contract-waffle`
 
 ```text
 mkdir smart-contract-waffle
 cd smart-contract-waffle
 ```
 
-Init npm dependencies
+Initiate package manager
 
 ```text
-npm init -y
+yarn init -y
 ```
 
-Install all required dependencies
+Install all following dependencies
 
 ```text
-npm i -D @openzeppelin/contracts@3.3.0 ethereum-waffle@3.2.1 
+yarn add --dev @openzeppelin/contracts@3.3.0 ethereum-waffle@3.2.1
 ```
 
 Note: it's recommended to install dependencies with exact versions as specified to avoid breaking changes.
@@ -90,7 +94,6 @@ Paste the following in the `waffle.json` file
 
 This sets up the solidity compiler with version `0.6.2`, compiles contracts from the `./contracts` folder, and saves the bytecode output and ABI files to `./build` folder.
 
-### **3. Compile the Solidity Con**t**ract**
 
 Now create the `./contracts` folder, and add the `BasicToken.sol` contract.
 
@@ -116,13 +119,14 @@ contract BasicToken is ERC20 {
 
 ```
 
+### **4. Compile the Smart Contract**
 Now compile the contract into ABI and bytecode. Run the following in the terminal
 
 ```text
-npx waffle
+yarn waffle
 ```
 
-### **4. Get the ABI file**
+### **5. Get the ABI file**
 
 Waffle will then generate the output file `./build/BasicToken.json` into the `./build` folder. 
 
