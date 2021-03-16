@@ -41,7 +41,7 @@ Note: this is a simple ERC-20 contract based on the Open Zeppelin ERC-20 templat
 
 Below is the editor view.
 
-![](https://i.imgur.com/mdZhs7y.png)
+Remix will include all of the Open Zeppelin dependencies and compile the contract.
 
 Then select `Solidity compiler` on the sidebar, and press the `Compile BasicToken.sol` button. 
 

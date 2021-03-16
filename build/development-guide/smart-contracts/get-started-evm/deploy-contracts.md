@@ -31,7 +31,7 @@ After your dev node is up and running you can set the Acala EVM playground to po
 
 Running the local dev node will prepopulate the `Accounts` dropdowns with pre-funded developer accounts.
 
-**Use our Test Network**
+**Deploy to our test network**
 
 To deploy to our test network you need to have the [polkadot{.js}](https://polkadot.js.org/extension/) wallet extension installed in your browser.
 
