@@ -4,7 +4,7 @@ The `Acala EVM Playground` is useful to test various functionalities of Acala EV
 
 ### **1. Setup**
 
-To deploy your smart contract you can use our Test Network or you can run your local dev node.
+To deploy your smart contract you can use our testnet or you can run your local dev node.
 
 #### Run your own dev node**
 
@@ -16,13 +16,12 @@ To run your dev node, you can:
 ```bash=
 make run-eth;
 ```
-2. Use the latest prebuilt Acala Docker image.
-   You need to have Docker installed on your machine. You can follow the installation instructions here: [Install Docker](https://docs.docker.com/get-docker/). Once docker is running you need to pull the last Acala image and to run it:
+2. Use the prebuilt Acala Docker image.
+   You need to have Docker installed in your machine. You can follow the installation instructions here: [Install Docker](https://docs.docker.com/get-docker/). Once docker is running you need pull the last acala image and to run it:
 ```shell=
 docker pull acala/acala-node:latest
-docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_container" --rpc-external --ws-external --rpc-cors=all
+docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_container" --rpc-external --ws-external --rpc-cors=all --dev
 ```
-
 
 Once your node is running you should see something similar to this in your terminal window:
 ![](https://i.imgur.com/MQEURQr.png)
@@ -50,33 +49,30 @@ Go to the `Upload` tab.
 
 Fill in the contract name, then upload the contract file `BasicToken.json`.
 
-![](https://i.imgur.com/35cPG16.png)
+![](https://i.imgur.com/kRM8Mfb.png)
+
 
 It will then display a list of available methods in the contract. Then click `Upload`.
 
 ### **3. Deploy the Contract**
 
-After uploading the ABI, the Playground will automatically navigate to the `Upload` step. If not, just select `Deploy` in the left sidebar. `BasicToken` shall appear in the `ABI bundles`.
+After uploading the ABI & bytecode file, the Playground will automatically navigate to the `Deploy` step. If not, just select `Deploy` in the left sidebar. `BasicToken` shall appear in the `ABI bundles`.
 
 Click the `Deploy` button, and choose `Alice` (or your account if using the browser extension) as the `deployment account`.
 
-![](https://i.imgur.com/49maXFG.png)
+![](https://i.imgur.com/FfoYEFU.png)
 
-Set the initial supply \(e.g. `10000000000000`\) and press `Deploy`.
+Set the initial supply \(e.g. `1000`\) and press `Deploy`.
 
-![](https://i.imgur.com/ZQGxqny.png)
+![](https://i.imgur.com/wY0YG54.png)
 
-The deployed `BasicToken` contract should appear in the execute section.
-
-![](https://i.imgur.com/BMp4SR3.png)
+After confirming the transaction you should be automatically navigated to the `Execute` section. Or you can navigate there manually by clicking "Execute" on the left sidebar.
+![](https://i.imgur.com/wyrpMIv.png)
 
 ### **4. Interact with the Contract**
 
-Navigate to the `Execute` tab. Find the deployed `BasicToken` contract.
+Navigate to the `Execute` tab. Find the deployed `BasicToken` contract and Click the `Execute` button on the bottom of the "BasicToken" box.
 
-Click the `Execute` button.
-
-![](https://i.imgur.com/eOnKfQi.png)
 
 ### **5. Query Balances**
 
@@ -86,18 +82,18 @@ To perform a query on an account's balance, do the following steps:
 
 2. Pick `balanceOf` from the `Message to Send` dropdown.
 
-3. Find Alice’s EVM Address under `Call from Account` , copy and paste it in the `account: address` argument box.
+3. Find Alice’s EVM Address under `Call from Account`, copy and paste it in the `account: address` input.
 
-![](https://i.imgur.com/ups2Ur6.png)
+![](https://i.imgur.com/xH1j0ph.png)
 
 **Note:** Solidity contracts have two types of methods: `views` and `executable` methods.
 
 - `Views` are used to query information from the blockchain without writing data to it. `Views` transactions are free. The Playground uses the `Call` button to indicate this.
 - `Executable` methods can write data onto the blockchain, and these transactions aren’t free. Click the `Execute` button to execute it.
 
-Finally, click the `Call` button, and `Call results` should show the BasicToken balance of Alice.
+Finally, click `Call` at the bottom, and `Call results` should show the BasicToken balance of Alice (1000).
 
-![](https://i.imgur.com/URot8MK.png)
+![](https://i.imgur.com/GS7Znys.png)
 
 ### **6. Transfer**
 
@@ -107,20 +103,18 @@ Now let's try transferring BasicTokens to Bob’s Account.
 
 2. Select `transfer` from the `Message to Send` dropdown.
 
-3. Select Bob’s account from the `Call from Account` dropdown, then copy its `EVM address` and paste it in the `recipient address` input box. (Remember to switch `Call from Account` back to `Alice`)
+3. Select Bob’s account (don't forget to bind EVM address to BOB's account how we did for Alice) from the `Call from Account` dropdown, then copy its `EVM address` and paste it in the `recipient address` input box. (Remember to switch `Call from Account` back to `Alice`)
 
 4. Enter transfer amount in the `amount: unit256` argument box, note the token has a standard 18 decimals.
 
 5. Click `Execute`.
 
-![](https://i.imgur.com/hPAGjsT.png)
+![](https://i.imgur.com/l2utsuN.png)
 
 A notification would pop-up to confirm the transaction is successful.
 
-![](https://i.imgur.com/iXyEdFE.png)
-
-Now check the balances of Alice and Bob, how have they changed?
-
-![](https://i.imgur.com/mTLZGYU.png)
-
-![](https://i.imgur.com/tTSS4gs.png)
+Now check the balances of Alice and Bob, and confirm that they have changed.
+Alice's account:
+![](https://i.imgur.com/SCLwxRk.png)
+Bob's account:
+![](https://i.imgur.com/pi3AKiN.png)
