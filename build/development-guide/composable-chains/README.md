@@ -12,7 +12,7 @@ Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to b
 
 [Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like fungible tokens. Therefore, we need to provide an implementation of required use cases for parachains to be able to interoperate with the same context.
 
-The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fugible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are curerntly adopted and tesitng. 
+The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fugible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are curerntly adopted and tesitng.
 
 `orml-xtokens` is a reference implementation of XCM for fungible tokens. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support).
 
@@ -26,7 +26,7 @@ To receive tokens issued on Acala's chain such as aUSD, ACA, renBTC, LDOT etc, y
 
 1. Add token to CurrencyId. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/primitives/src/lib.rs#L83) of Laminar adding aUSD.
 2. Add text symbol for the CurrenyId. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/primitives/src/lib.rs#L101) adding "aUSD".
-3. Integrate `Tokens` module into your runtime. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/33e65efabff0ef1fdd359a8128a740378f884747/runtime/dev/src/lib.rs#L628-L670) to integrate xToken.
+3. Integrate `Tokens` module into your runtime. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/33e65efabff0ef1fdd359a8128a740378f884747/runtime/dev/src/lib.rs#L628-L670) to integrate tokens.
 
 ### Step 2 Implement XCM for Token Transfer
 
