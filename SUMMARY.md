@@ -87,6 +87,7 @@
       * [Use On-chain Scheduler](build/development-guide/smart-contracts/advanced/use-on-chain-scheduler/README.md)
         * [Tutorial](build/development-guide/smart-contracts/advanced/use-on-chain-scheduler/scheduler-tutorial.md)
       * [Use Oracle Feeds](build/development-guide/smart-contracts/advanced/use-oracle-feeds.md)
+      * [Deploy Uniswap on Acala EVM](build/development-guide/smart-contracts/advanced/uniswap-tutorial.md)
       * [Upcoming Features](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
   * [Composable Chains](build/development-guide/composable-chains/README.md)
     * [Open HRMP Channel](build/development-guide/composable-chains/open-hrmp-channel.md)
