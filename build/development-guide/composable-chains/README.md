@@ -7,6 +7,7 @@ Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to b
 ## Composable With Acala
 
 * Acala Mandala PC2 is live on Rococo [here](https://polkadot.js.org/apps/?rpc=wss://rococo-rpc.polkadot.io#/parachains)
+* Refer to the xtoken documentation [here](https://github.com/open-web3-stack/open-runtime-module-library/wiki/xtokens) 
 
 ### Background
 

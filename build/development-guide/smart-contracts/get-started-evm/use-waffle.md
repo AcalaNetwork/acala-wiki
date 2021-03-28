@@ -5,13 +5,13 @@ There are multiple tools you can use to develop and compile Solidity contracts, 
 * online web app Remix 
 * Solidity development and testing framework Waffle
 
-### Compile Solidity Contract using Waffle Comment
+## Compile Solidity Contract using Waffle Comment
 
 **Note:** you can skip this section if you compiled the smart contract with Remix.
 
 This guide walks through the process of deploying a Solidity-based smart contract to Acala using [Waffle](https://github.com/EthWorks/Waffle). Waffle is one of the most commonly used smart contract development frameworks for Ethereum.
 
-### **1. Check Prerequisites**
+## **1. Check Prerequisites**
 
 First, we need to install Node.js \(we use v15.x in this example\) and the npm package manager. For installation follow guides in the official documentation for your operating system: [install NodeJS](https://nodejs.org/en/download/package-manager/)
 
@@ -32,11 +32,12 @@ npm install --global yarn
 ```
 
 Check if it's installed correctly:
+
 ```text
 yarn -v
 ```
 
-### **2. Using Waffle With Our Examples**
+## **2. Using Waffle With Our Examples**
 
 We've made it easy by collecting all required dependencies in the [AcalaNetwork/evm-examples](https://github.com/AcalaNetwork/evm-examples) repo.
 
@@ -46,13 +47,12 @@ Simply clone the repository and install the dependencies.
 git clone https://github.com/AcalaNetwork/evm-examples
 cd evm-examples/erc20
 
-yarn install 
+yarn install
 ```
 
-### **3. Using Waffle from Scratch (optional)**
+## **3. Using Waffle from Scratch \(optional\)**
 
-
-Alternatively, you can install each library separately as the following: 
+Alternatively, you can install each library separately as the following:
 
 Create a project folder `smart-contract-waffle`
 
@@ -94,11 +94,9 @@ Paste the following in the `waffle.json` file
 
 This sets up the solidity compiler with version `0.6.2`, compiles contracts from the `./contracts` folder, and saves the bytecode output and ABI files to `./build` folder.
 
-
 Now create the `./contracts` folder, and add the `BasicToken.sol` contract.
 
 ```text
-
 mkdir contracts
 touch contracts/BasicToken.sol
 ```
@@ -116,19 +114,19 @@ contract BasicToken is ERC20 {
         _mint(msg.sender, initialBalance);
     }
 }
-
 ```
 
-### **4. Compile the Smart Contract**
+## **4. Compile the Smart Contract**
+
 Now compile the contract into ABI and bytecode. Run the following in the terminal
 
 ```text
 yarn waffle
 ```
 
-### **5. Get the ABI file**
+## **5. Get the ABI file**
 
-Waffle will then generate the output file `./build/BasicToken.json` into the `./build` folder. 
+Waffle will then generate the output file `./build/BasicToken.json` into the `./build` folder.
 
 Note: this file should be the same as the one created with Remix.
 

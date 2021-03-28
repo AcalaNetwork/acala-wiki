@@ -90,6 +90,7 @@
       * [Upcoming Features](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
   * [Composable Chains](build/development-guide/composable-chains/README.md)
     * [Open HRMP Channel](build/development-guide/composable-chains/open-hrmp-channel.md)
+  * [Open-Web3-Stack & ORML](build/development-guide/open-web3-stack-and-orml.md)
   * [General](build/development-guide/general/README.md)
     * [Transaction Construction](build/development-guide/general/transaction-construction.md)
     * [Type Documentation](build/development-guide/general/types-doc.md)

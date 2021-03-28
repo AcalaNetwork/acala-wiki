@@ -8,7 +8,7 @@ This page contains basic information about running a Acala client. There are a l
 
 **Always refer to the client's help `acala --help` for the most up-to-date information.**
 
-#### Set up a Full Node
+## Set up a Full Node
 
 **Install Rust**
 
@@ -123,7 +123,7 @@ docker pull acala/acala-node:latest
 docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_container" --rpc-external --ws-external --rpc-cors=all
 ```
 
-#### Basic Node Operations
+## Basic Node Operations
 
 **Selecting a chain**
 
@@ -153,7 +153,7 @@ Therefore, when syncing the chain, the client will execute blocks from past runt
 
 Acala client has two Wasm execution methods, interpreted \(default\) and compiled. Set the preferred method to use when executing Wasm with `--wasm-execution <Interpreted|Compiled>`. Compiled execution will run much faster, especially when syncing the chain, but is experimental and may use more memory/CPU. A reasonable tradeoff would be to sync the chain with compiled execution and then restart the node with interpreted execution.
 
-#### File Structure
+## File Structure
 
 The node stores a number of files in: `/home/$USER/.local/share/acala/chains/<chain name>/`. You can set a custom path with `--base-path <path>`.
 
@@ -173,14 +173,14 @@ To delete your DB and re-sync from genesis, run:
 acala purge-chain
 ```
 
-#### Monitoring and Telemetry
+## Monitoring and Telemetry
 
 **Node status**
 
 You can check the node's health via RPC with:
 
 ```text
-curl -H "Content-Type: application/json" --data '{ "jsonrpc":"2.0", "method":"system_health", "params":[],"id":1 }' localhost:9933 
+curl -H "Content-Type: application/json" --data '{ "jsonrpc":"2.0", "method":"system_health", "params":[],"id":1 }' localhost:9933
 ```
 
 **Logs**
@@ -207,7 +207,7 @@ All targets are set to `info` logging by default. You can adjust individual log 
 
 The Acala client connects to telemetry by default. You can disable it with `--no-telemetry`, or connect only to specified telemetry servers with the `--telemetry-url` option \(see the help options for instructions\). Connecting to public telemetry may expose information that puts your node at higher risk of attack. You can run your own, private [telemetry server](https://github.com/paritytech/substrate-telemetry) or deploy a `substrate-telemetry` instance to a Kubernetes cluster using [this Helm chart](https://github.com/w3f/substrate-telemetry-chart).
 
-#### Start a Private Network
+## Start a Private Network
 
 **Alice and Bob Start Blockchain**
 
@@ -479,7 +479,7 @@ publicKey: <your raw ed25519 key> (eg.0x1a0e2bf1e0195a1f5396c5fd209a620a48fe90f6
 ```
 
 > If you generated your keys with the Apps UI you will not know your raw public key. In this case you may use your SS58 address \(`5CesK3uTmn4NGfD3oyGBd1jrp4EfRyYdtqL3ERe9SXv8jUHb`\) instead.
-
+>
 > If you are following these steps for the _second_ node in the network, you must connect the UI to the second node before inserting the keys.
 
 **Option 2: Use curl**
@@ -525,11 +525,11 @@ Subsequent validators can now join the network. This can be done by specifying t
 Now you're ready to add keys to its keystore by following the process \(in the previous section\) just like you did for the first node.
 
 > If you're inserting keys with the UI, you must connect the UI to the second node's WebSocket endpoint before inserting the second node's keys.
-
+>
 > A node will not be able to produce blocks if it has not added its babe key.
-
+>
 > Block finalization can only happen if more than two-thirds of the validators have added their grandpa keys to their keystores. Since this network was configured with two validators \(in the chain spec\), block finalization can occur after the second node has added its keys \(i.e. 50% &lt; 66% &lt; 100%\).
-
+>
 > Reminder: All validators must be using identical chain specifications in order to peer. You should see the same genesis block and state root hashes.
 
 You will notice that even after you add the keys for the second node no block finalization has happened \(**`finalized #0 (0x0ded…9b9d)`**\). Substrate nodes require a restart after inserting a grandpa key. Kill your nodes and restart them with the same commands you used previously. Now blocks should be finalized.

@@ -1,6 +1,6 @@
 # Tutorial
 
-In this tutorial, we're going to be utilizing Acala's on-chain scheduler to create an automatic subscription service that awards users for the time they are subscribed. A user can subscribe to this service and every time a certain period passed, the contract will reward them with some tokens. 
+In this tutorial, we're going to be utilizing Acala's on-chain scheduler to create an automatic subscription service that awards users for the time they are subscribed. A user can subscribe to this service and every time a certain period passed, the contract will reward them with some tokens.
 
 ## Setup & Install Dependencies
 
@@ -82,7 +82,7 @@ The Acala EVM provides Solidity, Substrate, and Web3 developers a complete full-
 
 Let's create our smart contract file by creating a `Subscription.sol` file within the `contracts` folder. In it add the following code:
 
-```javascript=
+```text
 pragma solidity ^0.6.0;
 
 import "./Scheduler.sol";
@@ -95,10 +95,7 @@ contract SubscriptionToken {
 }
 ```
 
-Here you can see we're importing the abstract class that describes the `Scheduler` smart contract and pointing our `scheduler` to its address in the constructor. Again, Scheduler is a pre-compiled smart contract with a static address. It will always live on-chain at this address, no need to deploy your own version of it.
-![](https://i.imgur.com/8d8Mxly.png)
-
-
+Here you can see we're importing the abstract class that describes the `Scheduler` smart contract and pointing our `scheduler` to its address in the constructor. Again, Scheduler is a pre-compiled smart contract with a static address. It will always live on-chain at this address, no need to deploy your own version of it. ![](https://i.imgur.com/8d8Mxly.png)
 
 ### Constructor
 
@@ -118,7 +115,6 @@ contract SubscriptionToken {
     }
 }
 ```
-
 
 Here we added 6 state variables. Let's go through them one by one:
 
@@ -146,11 +142,12 @@ contract SubscriptionToken {
 
 }
 ```
+
 Here the `subscribe` function simply adds a user to a list to which tokens will be distributed.
 
 Finally, let's have a look at the arguments of `scheduleCall`:
 
-```javascript=
+```text
 scheduler.scheduleCall(address(this), 0, 50000, 100, period, abi.encodeWithSignature("paySubscribers()"));
 ```
 
@@ -164,7 +161,6 @@ Let's break this line down:
 * `abi.encodeWithSignature("paySubscribers()")` is the function to call within the smart contract \(we'll define it next\).
 
 For more information on the rest of the arguments being passed to the `scheduler` contract scroll up to where we created `Scheduler.sol`.
-
 
 ### Pay subscribers
 
@@ -182,7 +178,7 @@ contract SubscriptionToken {
                 balanceOf[subscriber] += 1;
             }
         }
-        
+
         scheduler.scheduleCall(address(this), 0, 50000, 100, period, abi.encodeWithSignature("paySubscribers()"));
     }
 }
@@ -195,7 +191,6 @@ require(msg.sender == address(this), "No Permission");
 ```
 
 What this is saying is that only the contract itself can call this function. When we schedule a call using the `Scheduler` contract, it is not actually the scheduler calling the function but the function itself. The scheduler is just dispatching the call at a later time.
-
 
 And that's it! We now have a functioning smart contract with automated subscriptions!
 
@@ -211,12 +206,11 @@ yarn build
 
 To deploy the smart contract follow the directions [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/deploy-contracts).
 
-You can set a `period` to 1 (which is ≈6 secs), and find the scheduler address in the list of predeployed contracts.
+You can set a `period` to 1 \(which is ≈6 secs\), and find the scheduler address in the list of predeployed contracts.
 
-![](https://i.imgur.com/NX3iQUW.png)
-When everything is done press deploy.
+![](https://i.imgur.com/NX3iQUW.png) When everything is done press deploy.
 
 ## Executing the contract
 
-the only way is to get this new token is to subscribe to the smart contract. Execute `subscribe` function and check how balance changes over time for the subscriber (`balanceOf` function).
+the only way is to get this new token is to subscribe to the smart contract. Execute `subscribe` function and check how balance changes over time for the subscriber \(`balanceOf` function\).
 
