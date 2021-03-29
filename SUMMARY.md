@@ -4,9 +4,9 @@
 
 ## Karura
 
-* [KSM Address](karura/ksm.md)
-  * [Creating a new wallet](karura/create-new-wallet.md)
-  * [Get KSM address from the existing wallet](karura/from-existing-wallet.md)
+* [KSM Address](karura/ksm/README.md)
+  * [Check KSM Address](karura/ksm/from-existing-wallet.md)
+  * [Creating a new wallet](karura/ksm/create-new-wallet.md)
 
 ## General
 
