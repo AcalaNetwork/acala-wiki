@@ -2,6 +2,10 @@
 
 * [Index](README.md)
 
+## Karura <a id="karura-1"></a>
+
+* [KSM Address](karura-1/ksm.md)
+
 ## General
 
 * [Acala Portal](general/acala-portal/README.md)
