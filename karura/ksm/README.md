@@ -10,6 +10,6 @@ The guide below shows you how to check the corresponding address for KSM and KAR
 
 Once you have created an account \(a public-private-keypair\) in Polkadot{js} extension, that account can then derive a bunch of addresses, one for each Substrate-based chain e.g. the same account can have an address for Polkadot, a different one for Kusama, another different one for Acala. But they all share the same private key and public key. As an analogy, they share the same username and password, but the account display name are different for different blockchains you interact with.
 
-1. If you already have a Substrate address \(Polkadot address, Acala address or other\), we will show you [how to check the corresponding KSM address](https://github.com/AcalaNetwork/acala-wiki/tree/759f138f030f83793a51ba7da51d0991e139d3eb/karura/karura/from-exisitng-wallet.md) and vice-versa.
-2. If you don't have any account set up, we will show you how to [create a KSM account](https://github.com/AcalaNetwork/acala-wiki/tree/759f138f030f83793a51ba7da51d0991e139d3eb/karura/karura/create-new-wallet.md), which can also be used for Polkadot, Acala and else.
+1. If you already have a Substrate address \(Polkadot address, Acala address or other\), we will [show you how to check the corresponding KSM address](check-ksm-addr.md) and vice-versa.
+2. If you don't have any account set up, we will show you how to [create a KSM account](create-new-account.md), which can also be used for Polkadot, Acala and else.
 
