@@ -4,9 +4,9 @@
 
 ## Karura
 
-* [KSM Address](karura/ksm/README.md)
-  * [Check KSM Address](karura/ksm/check-ksm-addr.md)
-  * [Creating a New Account](karura/ksm/create-new-account.md)
+* [Create a KSM Address](karura/create-a-ksm-address/README.md)
+  * [Check KSM Address](karura/create-a-ksm-address/check-ksm-addr.md)
+  * [Creating a New Account](karura/create-a-ksm-address/create-new-account.md)
 
 ## General
 
