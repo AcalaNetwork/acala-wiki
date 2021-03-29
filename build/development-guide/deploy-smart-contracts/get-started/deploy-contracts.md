@@ -24,9 +24,11 @@ docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_dock
 ```
 
 Once your node is running you should see something similar to this in your terminal window:
+
 ![](https://i.imgur.com/MQEURQr.png)
 
 After your dev node is up and running you can set the Acala EVM playground to point to your node by clicking the dropdown in the bottom left corner and selecting `Local Node`.
+
 ![](https://i.imgur.com/pOfQb8z.png)
 
 Running the local dev node will prepopulate the `Accounts` dropdowns with pre-funded developer accounts.
@@ -44,6 +46,7 @@ Once you have the extension installed, you can bind your accounts with an EVM ad
 Upload `BasicToken` ABI & bytecode file by navigating to [https://evm.acala.network/](https://evm.acala.network/).
 
 Go to the `Upload` tab.
+
 ![](https://i.imgur.com/Ge3IwiM.png)
 
 
@@ -67,6 +70,7 @@ Set the initial supply \(e.g. `1000`\) and press `Deploy`.
 ![](https://i.imgur.com/wY0YG54.png)
 
 After confirming the transaction you should be automatically navigated to the `Execute` section. Or you can navigate there manually by clicking "Execute" on the left sidebar.
+
 ![](https://i.imgur.com/wyrpMIv.png)
 
 ### **4. Interact with the Contract**
@@ -115,6 +119,9 @@ A notification would pop-up to confirm the transaction is successful.
 
 Now check the balances of Alice and Bob, and confirm that they have changed.
 Alice's account:
+
 ![](https://i.imgur.com/SCLwxRk.png)
+
 Bob's account:
+
 ![](https://i.imgur.com/pi3AKiN.png)
