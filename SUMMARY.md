@@ -2,9 +2,9 @@
 
 * [Index](README.md)
 
-## Karura <a id="karura-1"></a>
+## Karura
 
-* [KSM Address](karura-1/ksm.md)
+* [KSM Address](karura/ksm.md)
 
 ## General
 
