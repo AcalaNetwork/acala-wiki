@@ -24,7 +24,7 @@ Chrome and Brave users will know if the download was successful when they click 
 
 Click "I have saved my mnemonic seed safely" and proceed to the next step.
 
-![](https://i.imgur.com/q5facgU.png)
+![](../../.gitbook/assets/q5facgu.png)
 
 6\) The next prompt will allow you to select a network, name your account and create a password for the account. Because you are creating a Kusama account, select the "Kusama Relay Chain" from the dropdown box. Also ensure that you use a strong password \(at least 6 characters\).
 
@@ -70,11 +70,11 @@ Click on "Kusama" and select the option "hosted by Parity." Click on the pink "S
 
 4\) Your mnemonic phrase will appear. Write the mnemonic on a piece of paper and store it somewhere safe. Click on the "Next" button.
 
-![](https://i.imgur.com/MkzXnjg.jpg)
+![](../../.gitbook/assets/mkzxnjg.jpeg)
 
 5\) Confirm your mnemonic by entering the words in the correct order. Click on the "Next" button when completed.
 
-![](https://i.imgur.com/EAuT7R7.jpg)
+![](../../.gitbook/assets/eaut7r7.jpeg)
 
 6\) Name your account and create a strong password \(at least 6 characters\). Click on the "Next" button when completed.
 
