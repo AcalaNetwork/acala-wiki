@@ -1,4 +1,4 @@
-# Create a KSM Address
+# KSM Address
 
 To participate in Karura crowdloan, you must have a KSM address used to contribute KSM to the Karura crowdloan. This KSM address also has a corresponding Karura \(KAR\) address, that shares the same public-private-keypair, which will be used to receive your KAR rewards.
 

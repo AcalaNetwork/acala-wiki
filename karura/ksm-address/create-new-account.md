@@ -10,7 +10,7 @@ While there are several wallets that support Kusama, **we've found that the Polk
 
 2\) Select download for your respective browser and follow the download prompts. Brave users should click on the "Download for Chrome" button.
 
-Chrome and Brave users will know if the download was successful when they click on the Extension button (puzzle piece) in the right-hand corner of their browser and the orange circle with a "P" appears. Chrome users can pin the extension into their toolbar by clicking on the pin icon (see screenshot). Firefox users will know if the download was successful because the orange circle with a "P" will appear in the top right-hand corner of their browser.
+Chrome and Brave users will know if the download was successful when they click on the Extension button \(puzzle piece\) in the right-hand corner of their browser and the orange circle with a "P" appears. Chrome users can pin the extension into their toolbar by clicking on the pin icon \(see screenshot\). Firefox users will know if the download was successful because the orange circle with a "P" will appear in the top right-hand corner of their browser.
 
 ![](https://i.imgur.com/pkZuAht.png)
 
@@ -40,7 +40,7 @@ Click on the "Add the account with the generated seed" button to create your acc
 
 1\) Now it's time to connect the browser extension to the Polkadot-JS UI \(user interface\) to manage your account.
 
-Type "polkadot.js.org/apps" in your search bar. 
+Type "polkadot.js.org/apps" in your search bar.
 
 2\) A dialogue box will appear asking you to authorize website access. Click on the button that says "Yes, allow this application access."
 
@@ -66,7 +66,6 @@ Click on "Kusama" and select the option "hosted by Parity." Click on the pink "S
 
 3\) A new screen will appear explaining the importance of recording your mnemonic phrase in a safe place. Click the "Next" button.
 
-
 ![](https://i.imgur.com/hyl3FDb.jpg)
 
 4\) Your mnemonic phrase will appear. Write the mnemonic on a piece of paper and store it somewhere safe. Click on the "Next" button.
@@ -83,7 +82,7 @@ Click on "Kusama" and select the option "hosted by Parity." Click on the pink "S
 
 7\) Your wallet is now set up! The screen will default to the Polkadot network. You can determine which network you're connected to by looking at the grey text under the account name. In the case of this screenshot, it says "Polkadot."
 
-Click on the hamburger (three lines) in the right-hand corner.
+Click on the hamburger \(three lines\) in the right-hand corner.
 
 ![](https://i.imgur.com/YYYj1IN.jpg)
 
