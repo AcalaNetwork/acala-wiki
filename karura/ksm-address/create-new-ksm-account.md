@@ -1,4 +1,4 @@
-# Creating a New Account
+# Creating a New KSM Account
 
 While there are several wallets that support Kusama, **we've found that the Polkadot.{js} browser extension best serves most desktop users and the Polkawallet mobile app best serves most mobile users.** Follow the guides below based on your wallet preference.
 
