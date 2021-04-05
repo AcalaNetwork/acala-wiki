@@ -8,6 +8,10 @@
   * [Check KSM Address](karura/ksm-address/check-ksm-addr.md)
   * [Creating a New KSM Account](karura/ksm-address/create-new-ksm-account.md)
 
+## Acala
+
+* [ACA Redenomination](acala/aca-redenomination.md)
+
 ## General
 
 * [Acala Portal](general/acala-portal/README.md)
