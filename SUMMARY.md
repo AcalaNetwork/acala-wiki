@@ -10,6 +10,8 @@
 
 ## Acala
 
+* [Redenomination of ACA](acala/redenomination-of-aca.md)
+
 ## General
 
 * [Acala Portal](general/acala-portal/README.md)
