@@ -10,6 +10,9 @@
 
 ## Acala
 
+* [DOT Address](acala/dot-address/README.md)
+  * [Check DOT Address](acala/dot-address/check-dot-addr.md)
+  * [Creating a New DOT Account](acala/dot-address/create-new-dot-account.md)
 * [Redenomination of ACA](acala/redenomination-of-aca.md)
 
 ## General
