@@ -24,7 +24,7 @@ Chrome and Brave users will know if the download was successful when they click 
 
 Click "I have saved my mnemonic seed safely" and proceed to the next step.
 
-![](../../.gitbook/assets/q5facgu.png)
+![](https://i.imgur.com/urGPJrt.png)
 
 6\) The next prompt will allow you to select a network, name your account and create a password for the account. Because you are creating a Polkadot account, select the "Polkadot Relay Chain" from the dropdown box. Also ensure that you use a strong password \(at least 6 characters\).
 
