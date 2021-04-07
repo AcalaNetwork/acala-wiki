@@ -4,6 +4,7 @@
 
 ## Acala
 
+* [DOT](acala/dot.md)
 * [DOT Address](acala/dot-address/README.md)
   * [Create](acala/dot-address/create.md)
   * [Check DOT Address](acala/dot-address/check-dot-addr.md)
