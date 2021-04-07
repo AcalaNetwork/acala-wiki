@@ -4,8 +4,6 @@ While there are several wallets that support Polkadot, **we've found that the Po
 
 If you'd like to start with a video tutorial, you can find that here:
 
-Add more stuff here.
-
 {% embed url="https://www.youtube.com/watch?v=mT7rUlQh660" %}
 
 ## Step 1: Creating a wallet through Polkadot{.js} browser extension
