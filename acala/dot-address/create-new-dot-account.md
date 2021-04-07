@@ -2,6 +2,10 @@
 
 While there are several wallets that support Polkadot, **we've found that the Polkadot.{js} browser extension best serves most desktop users and the Polkawallet mobile app best serves most mobile users.** Follow the guides below based on your wallet preference.
 
+If you'd like to start with a video tutorial, you can find that here:
+
+{% embed url="https://www.youtube.com/watch?v=mT7rUlQh660" %}
+
 ## Step 1: Creating a wallet through Polkadot{.js} browser extension
 
 1\) Type polkadot.js.org/extension in the address bar of your web browser.
