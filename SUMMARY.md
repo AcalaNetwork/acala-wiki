@@ -2,12 +2,6 @@
 
 * [Index](README.md)
 
-## Karura
-
-* [KSM Address](karura/ksm-address/README.md)
-  * [Check KSM Address](karura/ksm-address/check-ksm-addr.md)
-  * [Creating a New KSM Account](karura/ksm-address/create-new-ksm-account.md)
-
 ## Acala
 
 * [DOT Address](acala/dot-address/README.md)
@@ -118,6 +112,12 @@
   * [Proof-of-Liveness \(PoL\) Node \(Coming Soon\)](maintain/network-maintainers/proof-of-liveness.md)
   * [Node Management](maintain/network-maintainers/node-management.md)
   * [Node Interaction](maintain/network-maintainers/node-interaction.md)
+
+## Karura
+
+* [KSM Address](karura/ksm-address/README.md)
+  * [Check KSM Address](karura/ksm-address/check-ksm-addr.md)
+  * [Creating a New KSM Account](karura/ksm-address/create-new-ksm-account.md)
 
 ## Misc
 
