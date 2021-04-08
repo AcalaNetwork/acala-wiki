@@ -534,3 +534,190 @@ Now you're ready to add keys to its keystore by following the process \(in the p
 
 You will notice that even after you add the keys for the second node no block finalization has happened \(**`finalized #0 (0x0ded…9b9d)`**\). Substrate nodes require a restart after inserting a grandpa key. Kill your nodes and restart them with the same commands you used previously. Now blocks should be finalized.
 
+## Run as local parachain
+
+### [Building a Relay Chain Node](https://substrate.dev/cumulus-workshop/#/en/1-prep/1-compiling?id=building-a-relay-chain-node) <a id="building-a-relay-chain-node"></a>
+
+First, you need to confirm the commits of polkadot in the [Cargo.lock ](https://github.com/AcalaNetwork/Acala/blob/master/Cargo.lock)file， this commits are used by Acala collator. Other commit may or may not work.
+
+Clone the Polkadot repository, and build the node.
+
+```text
+# Clone the Polkadot Repository
+git clone https://github.com/paritytech/polkadot.git
+
+# Switch into the Polkadot directory
+cd polkadot
+
+# Checkout the proper commit
+git checkout 6b5b4a58a3f6a3fb647fec926609e04b7d5a336a
+
+# Build the Relay Chain Node
+cargo build --release --features=real-overseer
+
+# Print the help page to ensure the node build correctly
+./target/release/polkadot --help
+```
+
+If the help page prints, you have succeeded in building a Polkadot node.
+
+After build, export new chain spec json file
+
+```text
+# Create the starting point that we will modify
+polkadot build-spec --chain rococo-local --disable-default-bootnode > rococo-custom-plain.json
+```
+
+That file contains most of the information we need already. Rococo is a permissioned chain, so we just need to add an authority and its session keys. The snippet below shows the relevant part of the generated spec file. All keys in the generated file belong to the usual well known accounts used in other tutorials.
+
+```text
+"palletSession": {
+  "keys": [
+    [
+      "5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY",
+      "5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY",
+      {
+        "grandpa": "5FA9nQDVg267DEd8m1ZypXLBnvN7SFxYwV7ndqSYGiN9TTpu",
+        "babe": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+        "im_online": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+        "para_validator": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+        "para_assignment": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+        "authority_discovery": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+      }
+    ],
+    [
+      "5HpG9w8EBLe5XCrbczpwq5TSXvedjrBGCwqxK1iQ7qUsSWFc",
+      "5HpG9w8EBLe5XCrbczpwq5TSXvedjrBGCwqxK1iQ7qUsSWFc",
+      {
+        "grandpa": "5GoNkf6WdbxCFnPdAnYYQyCjAKPJgLNxXwPjwTh6DGg6gN3E",
+        "babe": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",
+        "im_online": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",
+        "para_validator": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",
+        "para_assignment": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",
+        "authority_discovery": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty"
+      }
+    ]
+  ]
+},
+```
+
+### Launch Relay Chain
+
+#### Start Alice's Node
+
+```text
+./target/release/polkadot \
+  --chain ./rococo-local-cfde-real-overseer.json \
+  --tmp \
+  --ws-port 9944 \
+  --port 30333 \
+  --rpc-port 9933 \
+  --alice \
+  --rpc-methods=Unsafe \
+  --ws-external \
+  --rpc-external \
+  --rpc-cors=all \
+  --unsafe-ws-external \
+  --unsafe-rpc-external 
+```
+
+#### Connect Apps UI <a id="connect-apps-ui"></a>
+
+ To explore and interact with the network, you can use the Polkadot JS Apps UI. If you've started this node using the command above, you can access the node as [https://polkadot.js.org/apps/\#/?rpc=ws://localhost:9944](https://polkadot.js.org/apps/#/?rpc=ws://localhost:9944)
+
+#### Start Bob's Node
+
+```text
+./target/release/polkadot \
+  --chain ./rococo-local-cfde-real-overseer.json \
+  --tmp \
+  --ws-port 9955 \
+  --port 30334 \
+  --rpc-port 9934 \
+  --bob \
+  --bootnodes /ip4/<Alice IP>/tcp/30333/p2p/<Alice Peer ID>
+```
+
+ Bob's command is perfectly analogous to Alice's. It differs concretely from Alice's in that Bob has specified his own base path, provided his own valiator keys \(`--bob`\), and used his own ports. Finally he has added a `--bootnodes` flag. This bootnodes flag is not strictly necessary if you are running the entire network on a single local system, but it is necessary when operating over the network, so I've chosen to leave it in.
+
+### Launch Parachains
+
+#### Generate Genesis State
+
+To register a parachain, the relay chain needs to know the parachain's genesis state. The collator node can export that state to a file for us. The following command will create a file containing the parachain's entire genesis state, hex-encoded.
+
+```text
+# Export genesis state
+# --parachain-id 666 as an example that can be chosen freely. Make sure to everywhere use the same parachain id
+./target/debug/acala export-genesis-state --parachain-id 666 --chain dev > genesis-state
+```
+
+#### Obtain Wasm Validation Function
+
+The relay chain also needs the parachain-specific validation logic to validate parachain blocks. The collator node also has a command to produce this wasm blob.
+
+```text
+# Export genesis wasm
+./target/debug/acala export-genesis-wasm --chain dev > genesis-wasm
+```
+
+> The Wasm blob does not depend on the parachain id, so we do not provide that flag. If you are launching multiple parachains using the exact same runtime, you do not need to regenerate the Wasm blob each time \(although it is fast and harmless to do so\).
+
+### Start the Collator Node <a id="start-the-collator-node"></a>
+
+We can now start the collator node with the following command. Notice that we need to supply the same relay chain spec we used when launching relay chain nodes.
+
+```text
+# Collator1
+./target/debug/acala \
+	--collator \
+	--tmp \
+	--chain=dev \
+	--parachain-id 666 \
+	-lruntime=trace \
+	--rpc-methods=Unsafe \
+  --ws-external \
+  --rpc-external \
+  --rpc-cors=all \
+  --unsafe-ws-external \
+  --unsafe-rpc-external \
+	--port 30335 \
+	--rpc-port 9935 \
+	--ws-port 9966 \
+	-- \
+	--execution wasm \
+	--chain ../polkadot/rococo-local-cfde-real-overseer.json \
+	--port 20335
+```
+
+ The first thing to notice about this command is that several arguments are passed before the lone `--`, and several more arguments are passed after it. A cumulus collator contains the actual collator node, and also an embedded relay chain node. The arguments before the `--` are for the collator, and the arguments after the `--` are for the embedded relay chain node.
+
+We give the collator a base path and ports as we did for the relay chain node previously. We also specify the parachain id. Remember to change these collator-specific values if you are executing these instructions a second time for a second parachain. Then we give the embedded relay chain node the relay chain spec we are using. Finally, we give the embedded relay chain node some peer addresses.
+
+ At this point you should see your collator node running and peering with the relay-chain nodes. You should not see it authoring parachain blocks yet. Authoring will begin when the collator is actually registered on the relay chain \(the next step\).
+
+### Parachain Registration
+
+#### Registration Transaction
+
+The transaction can be submitted from `Apps > Sudo > parasSudoWrapper > sudoScheduleParaInitialize` with the following parameters:
+
+* id: `666`
+* genesisHead: upload the file `genesis-state` \(from the previous step\)
+* validationCode: upload the file `genesis-wasm` \(from the previous step\)
+* parachain: Yes
+
+![](../../.gitbook/assets/image%20%284%29.png)
+
+The collator should start producing parachain blocks \(aka collating\) once the registration is successful.
+
+### Interact with your Parachain
+
+The entire point of launching and registering parachains is that we can submit transactions to the parachains and interact with them.
+
+#### Connecting the Apps UI
+
+ We've already connected the Apps UI to the relay chain node. Now we can also connect to the parachain collator. Open another instance of Apps in a new browser window, and connect it to the appropriate endpoint. If you have followed these instructions so far, you can connect to the parachain node at [https://console.acala.network/\#/explorer/\#/?rpc=ws://localhost:9966](https://console.acala.network/#/explorer/#/?rpc=ws://localhost:9966)
+
+
+
