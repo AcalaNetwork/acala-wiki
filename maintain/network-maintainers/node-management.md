@@ -565,7 +565,7 @@ After build, export new chain spec json file
 
 ```text
 # Create the starting point that we will modify
-polkadot build-spec --chain rococo-local --disable-default-bootnode > rococo-custom-plain.json
+polkadot build-spec --chain rococo-local --disable-default-bootnode > rococo-local-cfde-real-overseer.json
 ```
 
 That file contains most of the information we need already. Rococo is a permissioned chain, so we just need to add an authority and its session keys. The snippet below shows the relevant part of the generated spec file. All keys in the generated file belong to the usual well known accounts used in other tutorials.
