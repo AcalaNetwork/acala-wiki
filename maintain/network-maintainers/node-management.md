@@ -462,7 +462,7 @@ You will notice that even after you add the keys for the second node no block fi
 
 ## Run as local parachain
 
-### [Building a Relay Chain Node](https://substrate.dev/cumulus-workshop/#/en/1-prep/1-compiling?id=building-a-relay-chain-node) <a id="building-a-relay-chain-node"></a>
+### Building a Relay Chain Node <a id="building-a-relay-chain-node"></a>
 
 First, you need to confirm the commits of polkadot in the [Cargo.lock ](https://github.com/AcalaNetwork/Acala/blob/master/Cargo.lock)file， this commits are used by Acala collator. Other commit may or may not work.
 
