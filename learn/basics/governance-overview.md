@@ -69,7 +69,7 @@ At this stage, decisions of the Acala Foundation regarded the network is made tr
 **L-DOT Chamber**
 
 * **Proposals/Motions**: L-DOT holders can vote to select desired validators every certain period e.g. every era.
-* **Scheme**: L-DOT holders can vote for 16 candidates based on a scheme similar to Phragmen election \[https://wiki.polkadot.network/docs/en/learn-phragmen\].
+* **Scheme**: L-DOT holders can vote for 16 candidates based on a scheme similar to Phragmen election \[[https://wiki.polkadot.network/docs/en/learn-phragmen\](https://wiki.polkadot.network/docs/en/learn-phragmen\)\].
 
 **Technical Council**
 
@@ -83,11 +83,11 @@ At this stage, decisions of the Acala Foundation regarded the network is made tr
 
 Four council chambers have been implemented: General Council, Honzon Council, Homa Council, Technical Council. They currently work alongside with `sudo` for functionality testing purposes only. 'Real' governance will take effect in our canary network **Karura** with real stake.
 
-**Council Chambers** 
+**Council Chambers**
 
 ![Dapp](../../.gitbook/assets/gov_council.png)
 
-**Council Motions** 
+**Council Motions**
 
 ![Dapp](../../.gitbook/assets/gov_motion.png)
 
@@ -109,7 +109,7 @@ Coming soon...
 | LiquidationRatio | Ratio | Liquidation ratio for specific collateral type. | BTC: 150% |
 | LiquidationPenalty | Rate | Liquidation penalty rate for specific collateral type. | BTC: 13% |
 | RequiredCollateralRatio | Ratio | Required collateral ratio for opening an loan for a given collateral type. | BTC: 180% |
-| MaximumTotalDebitValue | Balance | Debt ceiling in stable coin(aUSD) for a given collateral type. | BTC: 100,000,000 |
+| MaximumTotalDebitValue | Balance | Debt ceiling in stable coin\(aUSD\) for a given collateral type. | BTC: 100,000,000 |
 | GlobalInterestRatePerSec | Rate | Base interest rate per second for all collateral types. | 0.0000000005 |
 
 **Liquidation and CDP Treasury related parameters**
@@ -132,8 +132,8 @@ Less frequently changed parameters and other types of changes are executed via r
 
 | Parameter | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
-| GetExchangeFee | (u32, u32) | Exchange fee rate(the first item in tuple is fee numerator, the second is denominator.) | (5, 1000) ,(ie. 5‰) |
-| TradingPathLimit | u32 | The limit for length of trading path. | 3, means the trading path such as [BTC, AUSD], [BTC, AUSD, ACA] is valid, but [BTC, AUSD, ACA, DOT] is invalid |
+| GetExchangeFee | \(u32, u32\) | Exchange fee rate\(the first item in tuple is fee numerator, the second is denominator.\) | \(5, 1000\) ,\(ie. 5‰\) |
+| TradingPathLimit | u32 | The limit for length of trading path. | 3, means the trading path such as \[BTC, AUSD\], \[BTC, AUSD, ACA\] is valid, but \[BTC, AUSD, ACA, DOT\] is invalid |
 
 **Global Stablecoin Parameters**
 
@@ -168,7 +168,7 @@ The Homa is still in draft!!!
 | :--- | :--- | :--- | :--- |
 | TargetMaxFreeUnbondedRatio | Ratio | The acceptable max ratio of communal free unbonded DOT amount to total communal DOT amount. | 10% |
 | TargetMinFreeUnbondedRatio | Ratio | The acceptable min ratio of communal free unbonded DOT amount to total communal DOT amount. | 5% |
-| TargetUnbondingToFreeRatio | Ratio | The target ratio of communal unbonding DOT amount to total communal DOT amount.  | 1‰ |
+| TargetUnbondingToFreeRatio | Ratio | The target ratio of communal unbonding DOT amount to total communal DOT amount. | 1‰ |
 | BaseFeeRate | Rate | The base rate fee for `Immediately` and `Target` redemption. | 5% |
 | DefaultExchangeRate | ExchangeRate | Initial L-DOT to DOT exchange rate | 10:1 |
 

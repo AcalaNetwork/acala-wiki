@@ -8,7 +8,9 @@ This page contains basic information about running a Acala client. There are a l
 
 **Always refer to the client's help `acala --help` for the most up-to-date information.**
 
-## Set up a Full Node
+## **Run as Full Node** 
+
+#### Build
 
 **Install Rust**
 
@@ -90,22 +92,6 @@ Update ORML
 make update
 ```
 
-**Run**
-
-he built binary will be in the `target/release` folder, called `acala`.
-
-```text
-./target/release --chain mandala --name "My node's name"
-```
-
-Use the `--help` flag to find out which flags you can use when running the node. For example, if connecting to your node remotely, you'll probably want to use `--ws-external` and `--rpc-cors all`.
-
-The syncing process will take a while depending on your bandwidth, processing power, disk speed and RAM. On a $10 DigitalOcean droplet, the process can complete in some 36 hours.
-
-Congratulations, you're now syncing with Acala. Keep in mind that the process is identical when using any other Substrate chain.
-
-**Running an Archive Node**
-
 When running as a simple sync node \(above\), only the state of the past 256 blocks will be kept. When validating, it defaults to archive mode. To keep the full state use the `--pruning` flag:
 
 ```text
@@ -114,100 +100,40 @@ When running as a simple sync node \(above\), only the state of the past 256 blo
 
 It is possible to almost quadruple synchronization speed by using an additional flag: `--wasm-execution Compiled`. Note that this uses much more CPU and RAM, so it should be turned off after the node is in sync.
 
-**Using Docker**
+#### **Using Docker**
 
 Finally, you can use Docker to run your node in a container. Doing this is a bit more advanced so it's best left up to those that either already have familiarity with docker, or have completed the other set-up instructions in this guide. If you would like to connect to your node's WebSockets ensure that you run you node with the `--rpc-external` and `--ws-external` commands.
 
 ```text
 docker pull acala/acala-node:latest
-docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_container" --rpc-external --ws-external --rpc-cors=all
+docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_con
 ```
 
-## Basic Node Operations
+### For karura
 
-**Selecting a chain**
-
-Use the `--chain <chainspec>` option to select the chain. Can be `mandala` or a custom chain spec. By default, the client will start Acala.
-
-**Archive node**
-
-An archive node does not prune any block or state data. Use the `--archive` flag. Certain types of nodes, like validators and sentries, must run in archive mode. Likewise, all events are cleared from state in each block, so if you want to store events then you will need an archive node.
-
-**Exporting blocks**
-
-To export blocks to a file, use `export-blocks`. Export in JSON \(default\) or binary \(`--binary true`\).
+#### **Using Docker**
 
 ```text
-acala export-blocks --from 0 <output_file>
+docker run -d --restart=always -p 30334:30333 -p 9934:9933 -p 9945:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain karura
 ```
 
-**RPC ports**
+### For Acala
 
-Use the `--rpc-external` flag to expose RPC ports and `--ws-external` to expose websockets. Not all RPC calls are safe to allow and you should use an RPC proxy to filter unsafe calls. Select ports with the `--rpc-port` and `--ws-port` options. To limit the hosts who can access, use the `--rpc-cors` and `--ws-cors` options.
-
-**Execution**
-
-The runtime must compile to WebAssembly and is stored on-chain. If the client's runtime is the same spec as the runtime that is stored on-chain, then the client will execute blocks using the client binary. Otherwise, the client will execute the Wasm runtime.
-
-Therefore, when syncing the chain, the client will execute blocks from past runtimes using their associated Wasm binary. This feature also allows forkless upgrades: the client can execute a new runtime without updating the client.
-
-Acala client has two Wasm execution methods, interpreted \(default\) and compiled. Set the preferred method to use when executing Wasm with `--wasm-execution <Interpreted|Compiled>`. Compiled execution will run much faster, especially when syncing the chain, but is experimental and may use more memory/CPU. A reasonable tradeoff would be to sync the chain with compiled execution and then restart the node with interpreted execution.
-
-## File Structure
-
-The node stores a number of files in: `/home/$USER/.local/share/acala/chains/<chain name>/`. You can set a custom path with `--base-path <path>`.
-
-**`keystore`**
-
-The keystore stores session keys, which are important for validator operations.
-
-* [Substrate documentation](https://substrate.dev/docs/en/knowledgebase/learn-substrate/session-keys)
-
-**`db`**
-
-The database stores blocks and the state trie. If you want to start a new machine without resyncing, you can stop your node, back up the DB, and move it to a new machine.
-
-To delete your DB and re-sync from genesis, run:
+#### **Using Docker**
 
 ```text
-acala purge-chain
+docker run -d --restart=always -p 30334:30333 -p 9934:9933 -p 9945:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain acala
 ```
 
-## Monitoring and Telemetry
+### For  Mandala
 
-**Node status**
-
-You can check the node's health via RPC with:
+#### **Using Docker**
 
 ```text
-curl -H "Content-Type: application/json" --data '{ "jsonrpc":"2.0", "method":"system_health", "params":[],"id":1 }' localhost:9933
+docker run -d --restart=always -p 30334:30333 -p 9934:9933 -p 9945:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain acala
 ```
 
-**Logs**
-
-The Acala client has a number of log targets. The most interesting to users may be:
-
-* `telemetry`
-* `txpool`
-* `usage`
-
-Other targets include: `db, gossip, peerset, state-db, state-trace, sub-libp2p, trie, wasm-executor, wasm-heap`.
-
-The log levels, from least to most verbose, are:
-
-* `error`
-* `warn`
-* `info`
-* `debug`
-* `trace`
-
-All targets are set to `info` logging by default. You can adjust individual log levels using the `--log (-l short)` option, for example `-l afg=trace,sync=debug` or globally with `-ldebug`.
-
-**Telemetry & Metrics**
-
-The Acala client connects to telemetry by default. You can disable it with `--no-telemetry`, or connect only to specified telemetry servers with the `--telemetry-url` option \(see the help options for instructions\). Connecting to public telemetry may expose information that puts your node at higher risk of attack. You can run your own, private [telemetry server](https://github.com/paritytech/substrate-telemetry) or deploy a `substrate-telemetry` instance to a Kubernetes cluster using [this Helm chart](https://github.com/w3f/substrate-telemetry-chart).
-
-## Start a Private Network
+### Run as local testnet
 
 **Alice and Bob Start Blockchain**
 
