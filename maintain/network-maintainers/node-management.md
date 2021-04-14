@@ -109,7 +109,7 @@ docker pull acala/acala-node:latest
 docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_con
 ```
 
-### For karura
+### For karura \(Coming Soon\)
 
 #### **Using Docker**
 
@@ -117,7 +117,7 @@ docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_dock
 docker run -d --restart=always -p 30334:30333 -p 9934:9933 -p 9945:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain karura
 ```
 
-### For Acala
+### For Acala \(Coming Soon\)
 
 #### **Using Docker**
 
