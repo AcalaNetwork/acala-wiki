@@ -12,7 +12,7 @@ If you already set up a Polkadot account, Acala account, or any Substrate-based 
 
 ![](https://i.imgur.com/v7damrj.png)
 
-1. Press "Transform" and find the corresponding Polkadot address in the appeared list on the right \(in the screenshot, it is third from the top\).
+1. Press "Transform" and find the corresponding Polkadot address in the appeared list on the right \(in the screenshot, it is second from the top\).
 
 ![](https://i.imgur.com/bv0T6dD.png)
 
