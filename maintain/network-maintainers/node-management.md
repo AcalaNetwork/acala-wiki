@@ -8,11 +8,9 @@ This page contains basic information about running a Acala client. There are a l
 
 **Always refer to the client's help `acala --help` for the most up-to-date information.**
 
-## **Run as Full Node** 
+## **Build**
 
-#### Build
-
-**Install Rust**
+### **Install Rust**
 
 Once you choose your cloud service provider and set-up your new server, the first thing you will do is install Rust.
 
@@ -45,7 +43,7 @@ rustup update nightly
 rustup default nightly
 ```
 
-**Clone and Build**
+### **Clone and Build**
 
 The [AcalaNetwork/acala](https://github.com/AcalaNetwork/Acala) repo's master branch contains the latest Acala code.
 
@@ -66,7 +64,7 @@ make init
 make build
 ```
 
-**Development**
+### **Development**
 
 To type check:
 
@@ -100,30 +98,54 @@ When running as a simple sync node \(above\), only the state of the past 256 blo
 
 It is possible to almost quadruple synchronization speed by using an additional flag: `--wasm-execution Compiled`. Note that this uses much more CPU and RAM, so it should be turned off after the node is in sync.
 
-#### **Using Docker**
+### **Using Docker**
 
 Finally, you can use Docker to run your node in a container. Doing this is a bit more advanced so it's best left up to those that either already have familiarity with docker, or have completed the other set-up instructions in this guide. If you would like to connect to your node's WebSockets ensure that you run you node with the `--rpc-external` and `--ws-external` commands.
 
 ```text
 docker pull acala/acala-node:latest
-docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_con
+docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_c
 ```
 
-### For karura \(Coming Soon\)
+## **Parachain**
 
-#### **Using Docker**
+### Run as collator node
+
+#### For Karura \(Coming Soon\)
+
+**Using Docker**
+
+```text
+docker run -d --restart=always -p 30334:30333 -p 9934:9933 -p 9945:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain karura --collator
+```
+
+#### For Acala \(Coming Soon\)
+
+**Using Docker**
+
+```text
+docker run -d --restart=always -p 30334:30333 -p 9934:9933 -p 9945:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain acala --collator
+```
+
+### Run as full node
+
+#### For Karura \(Coming Soon\)
+
+**Using Docker**
 
 ```text
 docker run -d --restart=always -p 30334:30333 -p 9934:9933 -p 9945:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain karura
 ```
 
-### For Acala \(Coming Soon\)
+#### For Acala \(Coming Soon\)
 
-#### **Using Docker**
+**Using Docker**
 
 ```text
 docker run -d --restart=always -p 30334:30333 -p 9934:9933 -p 9945:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain acala
 ```
+
+## TestNet
 
 ### For  Mandala
 
@@ -460,9 +482,11 @@ Now you're ready to add keys to its keystore by following the process \(in the p
 
 You will notice that even after you add the keys for the second node no block finalization has happened \(**`finalized #0 (0x0ded…9b9d)`**\). Substrate nodes require a restart after inserting a grandpa key. Kill your nodes and restart them with the same commands you used previously. Now blocks should be finalized.
 
-## Run as local parachain
 
-### Building a Relay Chain Node <a id="building-a-relay-chain-node"></a>
+
+### Run as local parachain
+
+ **Building a Relay Chain Node** 
 
 First, you need to confirm the commits of polkadot in the [Cargo.lock ](https://github.com/AcalaNetwork/Acala/blob/master/Cargo.lock)file， this commits are used by Acala collator. Other commit may or may not work.
 
@@ -527,9 +551,9 @@ That file contains most of the information we need already. Rococo is a permissi
 },
 ```
 
-### Launch Relay Chain
+#### Launch Relay Chain
 
-#### Start Alice's Node
+ **Start Alice's Node** 
 
 ```text
 ./target/release/polkadot \
@@ -547,14 +571,14 @@ That file contains most of the information we need already. Rococo is a permissi
   --unsafe-rpc-external 
 ```
 
-#### Connect Apps UI <a id="connect-apps-ui"></a>
+ **Connect Apps UI** 
 
  To explore and interact with the network, you can use the Polkadot JS Apps UI. If you've started this node using the command above, you can access the node as [https://polkadot.js.org/apps/\#/?rpc=ws://localhost:9944](https://polkadot.js.org/apps/#/?rpc=ws://localhost:9944)
 
-#### Start Bob's Node
+ **Start Bob's Node** 
 
 ```text
-./target/release/polkadot \
+./ target/release/polkadot \
   --chain ./rococo-local-cfde-real-overseer.json \
   --tmp \
   --ws-port 9955 \
@@ -566,9 +590,9 @@ That file contains most of the information we need already. Rococo is a permissi
 
  Bob's command is perfectly analogous to Alice's. It differs concretely from Alice's in that Bob has specified his own base path, provided his own valiator keys \(`--bob`\), and used his own ports. Finally he has added a `--bootnodes` flag. This bootnodes flag is not strictly necessary if you are running the entire network on a single local system, but it is necessary when operating over the network, so I've chosen to leave it in.
 
-### Launch Parachains
+#### Launch Parachains
 
-#### Generate Genesis State
+**Generate Genesis State**
 
 To register a parachain, the relay chain needs to know the parachain's genesis state. The collator node can export that state to a file for us. The following command will create a file containing the parachain's entire genesis state, hex-encoded.
 
@@ -578,7 +602,7 @@ To register a parachain, the relay chain needs to know the parachain's genesis s
 ./target/debug/acala export-genesis-state --parachain-id 666 --chain dev > genesis-state
 ```
 
-#### Obtain Wasm Validation Function
+**Obtain Wasm Validation Function**
 
 The relay chain also needs the parachain-specific validation logic to validate parachain blocks. The collator node also has a command to produce this wasm blob.
 
@@ -589,7 +613,7 @@ The relay chain also needs the parachain-specific validation logic to validate p
 
 > The Wasm blob does not depend on the parachain id, so we do not provide that flag. If you are launching multiple parachains using the exact same runtime, you do not need to regenerate the Wasm blob each time \(although it is fast and harmless to do so\).
 
-### Start the Collator Node <a id="start-the-collator-node"></a>
+#### Start the Collator Node
 
 We can now start the collator node with the following command. Notice that we need to supply the same relay chain spec we used when launching relay chain nodes.
 
@@ -622,9 +646,9 @@ We give the collator a base path and ports as we did for the relay chain node pr
 
  At this point you should see your collator node running and peering with the relay-chain nodes. You should not see it authoring parachain blocks yet. Authoring will begin when the collator is actually registered on the relay chain \(the next step\).
 
-### Parachain Registration
+#### Parachain Registration
 
-#### Registration Transaction
+**Registration Transaction**
 
 The transaction can be submitted from `Apps > Sudo > parasSudoWrapper > sudoScheduleParaInitialize` with the following parameters:
 
@@ -637,13 +661,17 @@ The transaction can be submitted from `Apps > Sudo > parasSudoWrapper > sudoSche
 
 The collator should start producing parachain blocks \(aka collating\) once the registration is successful.
 
-### Interact with your Parachain
+#### Interact with your Parachain
 
 The entire point of launching and registering parachains is that we can submit transactions to the parachains and interact with them.
 
-#### Connecting the Apps UI
+**Connecting the Apps UI**
 
  We've already connected the Apps UI to the relay chain node. Now we can also connect to the parachain collator. Open another instance of Apps in a new browser window, and connect it to the appropriate endpoint. If you have followed these instructions so far, you can connect to the parachain node at [https://console.acala.network/\#/explorer/\#/?rpc=ws://localhost:9966](https://console.acala.network/#/explorer/#/?rpc=ws://localhost:9966)
+
+\*\*\*\*
+
+\*\*\*\*
 
 
 
