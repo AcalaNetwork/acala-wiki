@@ -11,55 +11,62 @@ Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to b
 
 ### Background
 
-[Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like fungible tokens. Therefore, we need to provide an implementation of required use cases for parachains to be able to interoperate with the same context.
+[Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that is very flexible but loosely defined. Therefore, we need to provide an implementation of the required use case e.g. cross-chain transfer, for parachains to be interoperable with the same context, namely, send/receive fungible assets between parachains, and between relay chain and parachains. We want to keep the same interface for Relay Chain assets (like DOT or KSM), and for native parachains assets (like ACA for Acala), and abstract from implementation details making it easy to integrate.
 
-The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fugible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are curerntly adopted and tesitng.
+The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fungible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are currently adopted and testing.
 
 `orml-xtokens` is a reference implementation of XCM for fungible tokens. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support).
 
+Currently, the `xtoken` codebase is under development by Acala, please reach out to us in [Discord tech chat](https://discord.gg/Xb3CxcjCVc) if you need support.
+
+## Integration Guide
+
+This guide shows how to set up cross-chain transfers between two parachains (**parachain A** and **parachain B**) for sending through their native tokens (**A-Token** and **B-Token** respectively) and **Relay Chain** assets (e.g. DOT in Polkadot).
+
+Transfer messages are wrapped in XCM format and delivered using Horizontal Relay-routed Message Passing (HRMP) channels.
+
+> While [XCMP](https://wiki.polkadot.network/docs/en/learn-crosschain) is still being implemented, a stop-gap protocol (see definition below) known as [HRMP](https://wiki.polkadot.network/docs/en/learn-crosschain#horizontal-relay-routed-message-passing-hrmp) exists in its place. HRMP has the same interface and functionality as XCMP but is much more demanding on resources since it stores all messages in the Relay Chain storage. When XCMP has been implemented, HRMP is planned to be deprecated and phased out in favor of it.
+
 ### Step 0 Local Parachain Testnet
 
-Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios to setup a local parachain testnet environment.
+Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios to set up a local parachain testnet environment.
 
-### Step 1 Support Acala Tokens
+### Step 1 Parachain A should include B-Token (native parachain B token).
 
-To receive tokens issued on Acala's chain such as aUSD, ACA, renBTC, LDOT etc, you need to configure Acala as the reserve chain, and add token symbols. Follow the steps as follows:
+To be able to accept native **B-Token**, **parachain A** needs to include it to the list of accepted currencies; and, also, to implement Currency ID Conversion. 
 
-1. Add token to CurrencyId. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/primitives/src/lib.rs#L83) of Laminar adding aUSD.
-2. Add text symbol for the CurrenyId. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/primitives/src/lib.rs#L101) adding "aUSD".
-3. Integrate `Tokens` module into your runtime. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/33e65efabff0ef1fdd359a8128a740378f884747/runtime/dev/src/lib.rs#L628-L670) to integrate tokens.
+Currency ID Conversion should be implemented in runtime. Check example for Acala [here](https://github.com/AcalaNetwork/Acala/blob/master/runtime/acala/src/lib.rs#L1307).
 
-### Step 2 Implement XCM for Token Transfer
+To avoid spam tokens, parachain might have an onboarding procedure to introduce new tokens. Here is an [example of](https://github.com/AcalaNetwork/Acala/pull/730) Plasm's PR to Acala for adding PLM.
 
-[Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like fungible tokens. Therefore, we need to provide an implementation of required use cases for parachains to be able to interoperate with the same context.
+### Step 2 Parachain B should include A-Token (native parachain A token).
 
-`orml-xtokens` is a reference implementation of XCM for token transfers. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support)
+If we want to be able to send **A-Token** to **parachain B**, **parachain B** needs to repeat instructions from **Step 1**:
+1. Add **A-Token** currency ID.
+2. Implement Currency ID Conversion for **A-Token**.
 
-[Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L861-L960) of Laminar installing xToken to its chain.
+### Step 3 Integrate `xtokens` module
 
-### Step 3 Configure Reserve Chain
+**Xtoken** module provides an interface for transferring native tokens between parachains, using XCM message format.
 
-1. Configure Acala as Reserve Chain for specified tokens
-   1. Add token and its reserve chain. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L916) of adding Acala as reserve chain for aUSD.
-   2. Configure reserve assets. [Example here](https://github.com/laminar-protocol/laminar-chain/blob/a07ea4aa75bce5d30a24ce2e7a506dda5e22013f/runtime/dev/src/lib.rs#L916).
+Check out the implementation of [XCM for token transfers](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and implementation of [XCM-support](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support).
 
-### Step 4 Make your tokens available on Acala
+You can check the [example of **xtokens** module integration](https://github.com/AcalaNetwork/Acala/blob/3c5da19e6031df91184106057fdcf73ba8784a29/runtime/mandala/src/lib.rs#L1517-L1658) for more details.
 
-There is an onboarding procedure to introduce new tokens on Acala to avoid spam tokens. Please contact us at hello@acala.network to discuss.
+> Note: the reference implementation is by no means definitive, rather it is the starting point for the parachain community to experiment and iterate. Please provide feedback to [`xtokens`](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) or the [implementation guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385).
 
-Once you are onboarded, add your token symbols and make a PR to Acala. [Example of](https://github.com/AcalaNetwork/Acala/pull/730) Plasm's PR for adding PLM.
+### Step 4 Open Horizontal Relay-routed Message Passing (HRMP) Channel
 
-### Step 5 Open HRMP Channel
+After setting up **Parachain A** and **B** for recognizing native tokens of each other, to activate cross-chain transfer we need to enable HRMP on both parachains. HRMP consists of unidirectional channels. Thus, for each  Parachain, we need to open two channels: one for sending messages; and another for receiving.
 
-Your chain shall already be connected to Rococo as a parachain. While XCMP \(Cross-chain Message Passing\) is still being implemented - that is sending cross-chain messages directly to each other without passing through the Relay chain, a stop-gap protocol HRMP \(Horizontal Relay-routed Message Passing\) is in place.
+Please, check out [Instructions to open/configure HRMP Channel](https://wiki.acala.network/build/development-guide/composable-chains/open-hrmp-channel)
 
-The two parachains will need to open HRMP channel on either side to send and receive cross-chain messages. [Instructions here to open HRMP Channel](open-hrmp-channel.md).
 
 ## \#ComposableWith
 
-All chains on Polkadot/Kusama shall be _**composable with**_ each other, from exchanging value to exchanging and altering states. For example, chains can not only transfer values trustlessly, they can also call pallet/smart contract functions of each other e.g. minting PolkaBTC on Interlay chain, transferring PolkaBTC to Acala, and collateralizing it for aUSD all in one transaction.
+All chains on Polkadot/Kusama shall be _**composable with**_ each other, from exchanging value to exchanging and altering states. 
 
-Acala will be composable with the following \(potential\) parachains. Please [PR to this Repo](https://github.com/AcalaNetwork/acala-wiki/blob/master/build/development-guide/connect-via-xcmp.md) to add yourself:
+Below are (potential) parachains that have implemented or are implementing **xtokens**. If you have or are implementing **xtokens**, please PR to this Repo to add yourself:
 
 * Plasm
 * Interlay
@@ -75,5 +82,5 @@ Acala will be composable with the following \(potential\) parachains. Please [PR
 * Bit.Country
 * ...
 
-Please contact us if you'd like to try it out and run some cross-chain testing together with us!
+Don't hesitate to contact us if you'd like to try it out, need support, and/or want to run some cross-chain testing together with us!
 
