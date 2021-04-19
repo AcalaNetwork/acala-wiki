@@ -11,7 +11,7 @@ Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to b
 
 ### Background
 
-[Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that is very flexible but loosely defined. Therefore, we need to provide an implementation of the required use case e.g. cross-chain transfer, for parachains to be interoperable with the same context, namely, send/receive fungible assets between parachains, and between relay chain and parachains. We want to keep the same interface for Relay Chain assets (like DOT or KSM), and for native parachains assets (like ACA for Acala), and abstract from implementation details making it easy to integrate.
+[Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like fungible tokens. Therefore, we need to provide an implementation of the required use case e.g. cross-chain transfer, for parachains to be interoperable with the same context, namely, send/receive fungible assets between parachains, and between relay chain and parachains. We want to keep the same interface for Relay Chain assets (like DOT or KSM), and for native parachains assets (like ACA for Acala), and abstract from implementation details making it easy to integrate.
 
 The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fungible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are currently adopted and testing.
 
@@ -83,4 +83,3 @@ Below are (potential) parachains that have implemented or are implementing **xto
 * ...
 
 Don't hesitate to contact us if you'd like to try it out, need support, and/or want to run some cross-chain testing together with us!
-
