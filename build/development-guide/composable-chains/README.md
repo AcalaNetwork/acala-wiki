@@ -7,17 +7,17 @@ Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to b
 ## Composable With Acala
 
 * Acala Mandala PC2 is live on Rococo [here](https://polkadot.js.org/apps/?rpc=wss://rococo-rpc.polkadot.io#/parachains)
-* Refer to the xtoken documentation [here](https://github.com/open-web3-stack/open-runtime-module-library/wiki/xtokens) 
+* Refer to the xtokens documentation [here](https://github.com/open-web3-stack/open-runtime-module-library/wiki/xtokens)
 
 ### Background
 
 [Polkadot Cross-Consensus Message Format \(XCM\)](https://github.com/paritytech/xcm-format) is a generic message format that doesn't specify use cases like fungible tokens. Therefore, we need to provide an implementation of the required use case e.g. cross-chain transfer, for parachains to be interoperable with the same context, namely, send/receive fungible assets between parachains, and between relay chain and parachains. We want to keep the same interface for Relay Chain assets (like DOT or KSM), and for native parachains assets (like ACA for Acala), and abstract from implementation details making it easy to integrate.
 
-The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fungible asset design considerations and discussions, as well as a reference implementation orml-xtoken that Acala and many others are currently adopted and testing.
+The [XCM Fungible Asset Implementation Guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385) has laid out cross-chain fungible asset design considerations and discussions, as well as a reference implementation orml-xtokens that Acala and many others are currently adopted and testing.
 
-`orml-xtokens` is a reference implementation of XCM for fungible tokens. The source code for xtoken is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support).
+`orml-xtokens` is a reference implementation of XCM for fungible tokens. The source code for xtokens is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and xcm-support is [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support).
 
-Currently, the `xtoken` codebase is under development by Acala, please reach out to us in [Discord tech chat](https://discord.gg/Xb3CxcjCVc) if you need support.
+Currently, the `xtokens` codebase is under development by Acala, please reach out to us in [Discord tech chat](https://discord.gg/Xb3CxcjCVc) if you need support.
 
 ## Integration Guide
 
@@ -31,27 +31,23 @@ Transfer messages are wrapped in XCM format and delivered using Horizontal Relay
 
 Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios to set up a local parachain testnet environment.
 
-### Step 1 Parachain B should include ACA (native Acala token).
+### Step 1 Support Acala Tokens.
 
-To be able to accept native **ACA**, **Parachain B** needs to include it to the list of accepted currencies; and, also, to implement Currency ID Conversion. 
+To receive tokens issued on Acala's chain such as aUSD, ACA, renBTC, LDOT etc, you need to include them in your currency type; and also, to implement currency id conversion.
 
-Currency ID Conversion should be implemented in runtime. Check example for Acala [here](https://github.com/AcalaNetwork/Acala/blob/master/runtime/acala/src/lib.rs#L1307).
+Check example [here](https://github.com/AcalaNetwork/Acala/blob/master/runtime/acala/src/lib.rs#L1307) for currency id conversion in Acala runtime.
 
-To avoid spam tokens, parachain might have an onboarding procedure to introduce new tokens. Here is an [example of](https://github.com/AcalaNetwork/Acala/pull/730) Plasm's PR to Acala for adding PLM.
+### Step 2 Make your token available in Acala
 
-### Step 2 Acala should include B-Token (native **Parachain B** token).
-
-If we want to be able to send **ACA** to **Parachain B**, **Parachain B** needs to repeat instructions from **Step 1**:
-1. Add **ACA** currency ID.
-2. Implement Currency ID Conversion for **ACA**.
+There is an onboarding procedure to introduce new tokens on Acala to avoid spam tokens. If it's for testing purpose, you could always skip this step, and `orml-unkown-tokens` will handle all the received foreign tokens.
 
 ### Step 3 Integrate `xtokens` module
 
-**Xtoken** module provides an interface for transferring native tokens between parachains, using XCM message format.
+`xtokens` module provides an interface for cross-chain assets transfer, using XCM messages.
 
 Check out the implementation of [XCM for token transfers](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) and implementation of [XCM-support](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support).
 
-You can check the [example of **xtokens** module integration](https://github.com/AcalaNetwork/Acala/blob/3c5da19e6031df91184106057fdcf73ba8784a29/runtime/mandala/src/lib.rs#L1517-L1658) for more details.
+You can check the [example of `xtokens` module integration](https://github.com/AcalaNetwork/Acala/blob/3c5da19e6031df91184106057fdcf73ba8784a29/runtime/mandala/src/lib.rs#L1517-L1658) for more details.
 
 > Note: the reference implementation is by no means definitive, rather it is the starting point for the parachain community to experiment and iterate. Please provide feedback to [`xtokens`](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) or the [implementation guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385).
 
@@ -66,7 +62,7 @@ Please, check out [Instructions to open/configure HRMP Channel](https://wiki.aca
 
 All chains on Polkadot/Kusama shall be _**composable with**_ each other, from exchanging value to exchanging and altering states. For example, chains can not only transfer values trustlessly, they can also call pallet/smart contract functions of each other e.g. minting PolkaBTC on Interlay chain, transferring PolkaBTC to Acala, and collateralizing it for aUSD all in one transaction.
 
-Acala will be composable with the following \(potential\) parachains. If you have or are implementing **xtokens**, please PR to this Repo to add yourself:
+Acala will be composable with the following \(potential\) parachains. If you have or are implementing `xtokes`, please PR to this Repo to add yourself:
 
 * Plasm
 * Interlay
