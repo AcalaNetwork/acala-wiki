@@ -75,6 +75,8 @@ The Faucet will drip maximum twice a day to a given account.
 
 Use the [Acala Discord bot](https://discord.gg/Huh7F4p).
 
+![](../../.gitbook/assets/jie-ping-20210420-shang-wu-11.03.21.png)
+
 Use the [Acala Riot Faucet Bot](https://riot.im/app/#/room/#acala-faucet:matrix.org). 
 
 ![faucet](../../.gitbook/assets/started_faucet.png)
