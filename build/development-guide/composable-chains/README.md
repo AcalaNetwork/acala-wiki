@@ -47,7 +47,7 @@ You can check the [example of `xtokens` module integration](https://github.com/A
 
 > Note: the reference implementation is by no means definitive, rather it is the starting point for the parachain community to experiment and iterate. Please provide feedback to [`xtokens`](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xtokens) or the [implementation guide](https://github.com/open-web3-stack/open-runtime-module-library/discussions/385).
 
-### Step 4 Open Horizontal Relay-routed Message Passing (HRMP) Channel
+### Step 4 Open HRMP Channel
 
 Your chain shall already be connected to Rococo as a parachain. While XCMP \(Cross-chain Message Passing\) is still being implemented - that is sending cross-chain messages directly to each other without passing through the Relay chain, a stop-gap protocol HRMP \(Horizontal Relay-routed Message Passing\) is in place.
 
