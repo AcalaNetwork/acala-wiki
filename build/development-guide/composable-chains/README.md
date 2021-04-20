@@ -21,7 +21,7 @@ Currently, the `xtoken` codebase is under development by Acala, please reach out
 
 ## Integration Guide
 
-This guide shows how to set up cross-chain transfers between two parachains (**parachain A** and **parachain B**) for sending through their native tokens (**A-Token** and **B-Token** respectively) and **Relay Chain** assets (e.g. DOT in Polkadot).
+This guide shows how to set up cross-chain transfers between **Acala** and **Parachain B** for sending through their native tokens (**ACA** and **B-Token** respectively) and **Relay Chain** assets (e.g. DOT in Polkadot).
 
 Transfer messages are wrapped in XCM format and delivered using Horizontal Relay-routed Message Passing (HRMP) channels.
 
@@ -31,19 +31,19 @@ Transfer messages are wrapped in XCM format and delivered using Horizontal Relay
 
 Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios to set up a local parachain testnet environment.
 
-### Step 1 Parachain A should include B-Token (native parachain B token).
+### Step 1 Parachain B should include ACA (native Acala token).
 
-To be able to accept native **B-Token**, **parachain A** needs to include it to the list of accepted currencies; and, also, to implement Currency ID Conversion. 
+To be able to accept native **ACA**, **Parachain B** needs to include it to the list of accepted currencies; and, also, to implement Currency ID Conversion. 
 
 Currency ID Conversion should be implemented in runtime. Check example for Acala [here](https://github.com/AcalaNetwork/Acala/blob/master/runtime/acala/src/lib.rs#L1307).
 
 To avoid spam tokens, parachain might have an onboarding procedure to introduce new tokens. Here is an [example of](https://github.com/AcalaNetwork/Acala/pull/730) Plasm's PR to Acala for adding PLM.
 
-### Step 2 Parachain B should include A-Token (native parachain A token).
+### Step 2 Acala should include B-Token (native **Parachain B** token).
 
-If we want to be able to send **A-Token** to **parachain B**, **parachain B** needs to repeat instructions from **Step 1**:
-1. Add **A-Token** currency ID.
-2. Implement Currency ID Conversion for **A-Token**.
+If we want to be able to send **ACA** to **Parachain B**, **Parachain B** needs to repeat instructions from **Step 1**:
+1. Add **ACA** currency ID.
+2. Implement Currency ID Conversion for **ACA**.
 
 ### Step 3 Integrate `xtokens` module
 
@@ -57,16 +57,16 @@ You can check the [example of **xtokens** module integration](https://github.com
 
 ### Step 4 Open Horizontal Relay-routed Message Passing (HRMP) Channel
 
-After setting up **Parachain A** and **B** for recognizing native tokens of each other, to activate cross-chain transfer we need to enable HRMP on both parachains. HRMP consists of unidirectional channels. Thus, for each  Parachain, we need to open two channels: one for sending messages; and another for receiving.
+After setting up **Acala** and **Parachain B** for recognizing native tokens of each other, to activate cross-chain transfer we need to enable HRMP on both parachains. HRMP consists of unidirectional channels. Thus, for each  Parachain, we need to open two channels: one for sending messages; and another for receiving.
 
 Please, check out [Instructions to open/configure HRMP Channel](https://wiki.acala.network/build/development-guide/composable-chains/open-hrmp-channel)
 
 
 ## \#ComposableWith
 
-All chains on Polkadot/Kusama shall be _**composable with**_ each other, from exchanging value to exchanging and altering states. 
+All chains on Polkadot/Kusama shall be _**composable with**_ each other, from exchanging value to exchanging and altering states. For example, chains can not only transfer values trustlessly, they can also call pallet/smart contract functions of each other e.g. minting PolkaBTC on Interlay chain, transferring PolkaBTC to Acala, and collateralizing it for aUSD all in one transaction.
 
-Below are (potential) parachains that have implemented or are implementing **xtokens**. If you have or are implementing **xtokens**, please PR to this Repo to add yourself:
+Acala will be composable with the following \(potential\) parachains. If you have or are implementing **xtokens**, please PR to this Repo to add yourself:
 
 * Plasm
 * Interlay
