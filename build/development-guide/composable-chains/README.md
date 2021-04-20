@@ -21,17 +21,13 @@ Currently, the `xtokens` codebase is under development by Acala, please reach ou
 
 ## Integration Guide
 
-This guide shows how to set up cross-chain transfers between **Acala** and **Parachain B** for sending through their native tokens (**ACA** and **B-Token** respectively) and **Relay Chain** assets (e.g. DOT in Polkadot).
-
-Transfer messages are wrapped in XCM format and delivered using Horizontal Relay-routed Message Passing (HRMP) channels.
-
-> While [XCMP](https://wiki.polkadot.network/docs/en/learn-crosschain) is still being implemented, a stop-gap protocol (see definition below) known as [HRMP](https://wiki.polkadot.network/docs/en/learn-crosschain#horizontal-relay-routed-message-passing-hrmp) exists in its place. HRMP has the same interface and functionality as XCMP but is much more demanding on resources since it stores all messages in the Relay Chain storage. When XCMP has been implemented, HRMP is planned to be deprecated and phased out in favor of it.
+Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios to setup a local parachain testnet environment.
 
 ### Step 0 Local Parachain Testnet
 
 Follow [this guide](https://hackmd.io/dhmCATb_QqygCPxkxaDcmA) by @bertstachios to set up a local parachain testnet environment.
 
-### Step 1 Support Acala Tokens.
+### Step 1 Support Acala Tokens
 
 To receive tokens issued on Acala's chain such as aUSD, ACA, renBTC, LDOT etc, you need to include them in your currency type; and also, to implement currency id conversion.
 
@@ -53,10 +49,11 @@ You can check the [example of `xtokens` module integration](https://github.com/A
 
 ### Step 4 Open Horizontal Relay-routed Message Passing (HRMP) Channel
 
-After setting up **Acala** and **Parachain B** for recognizing native tokens of each other, to activate cross-chain transfer we need to enable HRMP on both parachains. HRMP consists of unidirectional channels. Thus, for each  Parachain, we need to open two channels: one for sending messages; and another for receiving.
+Your chain shall already be connected to Rococo as a parachain. While XCMP \(Cross-chain Message Passing\) is still being implemented - that is sending cross-chain messages directly to each other without passing through the Relay chain, a stop-gap protocol HRMP \(Horizontal Relay-routed Message Passing\) is in place.
 
-Please, check out [Instructions to open/configure HRMP Channel](https://wiki.acala.network/build/development-guide/composable-chains/open-hrmp-channel)
+> HRMP has the same interface and functionality as XCMP but is much more demanding on resources since it stores all messages in the Relay Chain storage. When XCMP has been implemented, HRMP is planned to be deprecated and phased out in favor of it.
 
+The two parachains will need to open HRMP channel on either side to send and receive cross-chain messages. [Instructions here to open HRMP Channel](open-hrmp-channel.md).
 
 ## \#ComposableWith
 
