@@ -59,7 +59,7 @@ The two parachains will need to open HRMP channel on either side to send and rec
 
 All chains on Polkadot/Kusama shall be _**composable with**_ each other, from exchanging value to exchanging and altering states. For example, chains can not only transfer values trustlessly, they can also call pallet/smart contract functions of each other e.g. minting PolkaBTC on Interlay chain, transferring PolkaBTC to Acala, and collateralizing it for aUSD all in one transaction.
 
-Acala will be composable with the following \(potential\) parachains. If you have or are implementing `xtokes`, please PR to this Repo to add yourself:
+Acala will be composable with the following \(potential\) parachains. If you have or are implementing `xtokens`, please PR to this Repo to add yourself:
 
 * Plasm
 * Interlay
