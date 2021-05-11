@@ -21,7 +21,7 @@ If you're looking for an introduction to Acala please [see here](https://wiki.ac
 ### Want to maintain the network?
 
 - [Network Maintainers](https://wiki.acala.network/maintain/network-maintainers) - Information covering running a node on the Acala Network.
-- [Oracle Overview](https://wiki.acala.network/maintain/oracle/oracle-overview) - Provide pricing information for assets on the Acala Network.
+- [Oracle Overview](https://wiki.acala.network/maintain/oracle) - Provide pricing information for assets on the Acala Network.
 
 ### Resources
 
