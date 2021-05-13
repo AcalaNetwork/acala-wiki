@@ -7,6 +7,7 @@
 * **For** **every 1 KSM contributed, a minimum of 12 KAR will be rewarded**. The lease period \(KSM locked period\) is 48 weeks. 
 * Contributed KSM will be returned at the end of Karura parachain lease.
 * KAR will be distributed after the mainnet launch of Karura.
+* [Karura Launch Phases](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).
 
 ## **1. About Karura**
 
