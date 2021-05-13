@@ -64,7 +64,7 @@ The KAR distributed to participants will be vested over a period of time, but th
 
 We recommend the following ways to participate:
 
-1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Guides to setting up these wallets can be found [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account).
+1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Guides to setting up these wallets can be found [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account). This website will be updated soon.
 2. Participate via partner exchanges.
 3. Participate via partner mobile wallets.
 
