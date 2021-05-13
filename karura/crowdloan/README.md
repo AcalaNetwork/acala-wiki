@@ -70,8 +70,9 @@ We recommend the following ways to participate:
 
 #### Partner Exchanges & Mobile Wallets
 
-* [Kraken](https://www.kraken.com/learn/parachain-auctions)
+* [Kraken](https://www.kraken.com/learn/parachain-auctions): check with Kraken for bonus amount.
 * [Polkawallet](https://polkawallet.io/): also supports the referral program. 
+* More partners to come...
 
 **Disclaimer:** Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee, and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.
 
