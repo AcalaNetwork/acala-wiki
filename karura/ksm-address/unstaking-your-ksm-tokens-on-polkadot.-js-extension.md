@@ -32,5 +32,5 @@ You will need to unstake your KSM tokens prior to bonding them to the [crowdloan
 
 ![](../../.gitbook/assets/image6.png)
 
-7. Once the 7 days have passed, you’ll have to issue another final transaction, “Withdraw Unbonded.” Once that is done, your tokens are transferrable.
+7. Once the 7 days have passed, you’ll have to issue another final transaction, “Withdraw Unbonded”. Once that is done, your tokens are transferrable.
 
