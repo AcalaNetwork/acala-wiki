@@ -6,7 +6,7 @@ description: Crowdloan is a part of Karura's parachain launch process.
 
 ## Key Points
 
-* Kusama parachain auction & Karura crowdloan event is happening soon at any moment, **get your KSM ready to bond**. Expect chaos & unpredictable announcements 🚀
+* The Kusama parachain auction & Karura crowdloan event is happening soon, **get your KSM ready to bond**. Expect chaos & unpredictable announcements 🚀
 * The Karura Crowdloan Event is an experiment to crowdsource network security and a community-backed launch for individuals looking to contribute to the evolution of Kusama’s network and parachains.
 * **For** **every 1 KSM contributed, a minimum of 12 KAR will be rewarded**. The lease period \(KSM locked period\) is 48 weeks. 
 * Contributed KSM will be returned at the end of Karura parachain lease.
@@ -74,6 +74,13 @@ We recommend the following ways to participate:
 * [Polkawallet](https://polkawallet.io/)
 
 **Disclaimer:** Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee, and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.
+
+### 3.3 Prepare your KSM
+
+In order to participate in the crowdloan, KSM must be unbonded. If you are already staking KSM, please begin the process of unstaking now to ensure that you can observe the 7-day cooldown. The following guides are available:
+
+* [Unstaking Your KSM Tokens on Polkadot.{js} Extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)
+* [Unstaking Your KSM Tokens on Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
 
 ## **4. Post Crowdloan/Auction**
 
