@@ -7,8 +7,9 @@
 * [KSM Address](karura/ksm-address/README.md)
   * [Creating a New KSM Account](karura/ksm-address/create-new-ksm-account.md)
   * [Check KSM Address](karura/ksm-address/check-ksm-addr.md)
-  * [Unstaking Your KSM Tokens on Polkadot.{js} Extension](karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension.md)
-  * [Unstaking Your KSM Tokens on Polkawallet](karura/ksm-address/unstake-polkawallet.md)
+  * [Unstaking Your KSM](karura/ksm-address/unstaking-your-ksm/README.md)
+    * [Unstaking Your KSM Tokens on Polkawallet](karura/ksm-address/unstaking-your-ksm/unstake-polkawallet.md)
+    * [Unstaking Your KSM Tokens on Polkadot.{js} Extension](karura/ksm-address/unstaking-your-ksm/unstaking-your-ksm-tokens-on-polkadot.-js-extension.md)
 * [Crowdloan](karura/crowdloan/README.md)
   * [FAQ](karura/crowdloan/faq.md)
 
