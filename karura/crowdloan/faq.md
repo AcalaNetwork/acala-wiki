@@ -46,6 +46,14 @@ Please contact your exchange to find out.
 
 Yes, you can utilize more than one KSM address to earn 10% bonus rewards in KAR as both the referrer and the referee.
 
+### **How can I check what Kusama address is associated with my referral code?**
+
+Your referral code is the public key of your account, additionally registered in our system.
+You can use [subscan transform](https://acala-testnet.subscan.io/tools/ss58_transform) to find the associated Kusama address. 
+You need to paste your referral code in the input field. Press "Transform" and find the corresponding Kusama address in the appeared list on the right.
+Note, the format of the referral code is `0x0000000000000000000000000000`, it’s the part of the link that we sent you.
+
+
 ### **If I missed the waitlist, can I still participate in the crowdloan?**
 
 You can absolutely still participate in the crowdloan. Not signing up for the waitlist only means that you won't get your own referral link. The referral codes give  both the person referring and the person being referred 5% bonus rewards. So you can still get a 5% bonus if you use someone else's referral code.
