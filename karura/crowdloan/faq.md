@@ -32,7 +32,15 @@ To be eligible for the Karura crowdloan referral program, your KSM address:
 
 ### **How do I participate in the referral program?**
 
-Those who participated in our waitlist promotion will be able to share referral links once they receive them. If you participate in the crowdloan via a referral link, you will earn 5% bonus KAR on your contribution to the Karura crowdloan and the referrer will earn 5%.
+Those who participated in our waitlist promotion will be able to share referral links once they receive them. For each referral you make, you and your referee will both receive a 5% bonus on the amount **they contribute** to the Karura crowdloan**.** For example, if Alice shares her referral link with Bob, and Bob contributes 10 KSM to the crowdloan module, both will receive 6 KAR as a bonus \(10 KSM x 12KAR:1KSM reward ratio x 5%\).
+
+### **Can I make multiple referrals and get a bonus for each one?**
+
+Yes. For each referral you make, you and your referee will both receive a 5% bonus on the amount **they contribute** to the Karura crowdloan**.** For example, if Alice shares her referral link with Bob and Carl, Alice's bonus is equivalent to 5% of Bob's contribution plus 5% of Carl's contribution.
+
+### **Do referrals work if I'm participating through an exchange?**
+
+Please contact your exchange to find out.
 
 ### **Can I refer to my own KSM address and still qualify for bonuses?**
 
@@ -142,6 +150,10 @@ There are 100,000,000 KAR tokens.
 ### **How many KAR tokens will be distributed in the crowdloan?**
 
 11 million KAR tokens, which is equivalent to 11% of the token supply, will be distributed to contributors of the crowdloan module.
+
+### What happens if **there is more KSM bonded than the amount allocated for the crowdloan?**
+
+If there're more KSM bonded than the amount allocated for the crowdloan, we will increase the KAR reward allocation. This will allow us to honor the 12 KAR for every 1 KSM reward.
 
 ### Is there a vesting period on KAR tokens?
 
