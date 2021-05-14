@@ -2,7 +2,7 @@
 
 You will need to unstake your KSM tokens prior to bonding them to the [crowdloan module](https://wiki.acala.network/karura/crowdloan). For recently unstaked KSM tokens, Kusama has a delayed exit period \(7 days\), which serves as cooldown. During this period, you will not be able to transfer your tokens.
 
-{% embed url="https://youtu.be/CwHpfsFh2U4" %}
+{% embed url="https://youtu.be/KzyO0TGTruY" %}
 
 ### Step 1: Stop nominating \(staking\) <a id="Step-1-Stop-nominating-staking"></a>
 
