@@ -3,6 +3,10 @@
 You will need to unstake your KSM tokens prior to bonding them to the crowdloan module. For recently unstaked KSM tokens, Kusama has a delayed exit period \(7 days\), which serves as cooldown. During this period, you will not be able to transfer your tokens.  
 
 
+{% embed url="https://youtu.be/CwHpfsFh2U4" %}
+
+
+
 1\) Open the Polkawallet mobile app and navigate to the "Staking" tab. Select "Adjust Bonded." 
 
 ![](https://i.imgur.com/UA2ZOgW.png)
