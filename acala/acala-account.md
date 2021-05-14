@@ -51,6 +51,8 @@ Click on "Options" at the top of the plugin window, and under "Display address f
 
 **Your address' format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
 
+You can copy your address by clicking on the account's icon.
+
 ![](../.gitbook/assets/screen-shot-2021-05-14-at-4.58.59-pm.png)
 
 ### Set Address for Karura Mainnet
@@ -59,9 +61,9 @@ Click on "Options" at the top of the plugin window, and under "Display address f
 
 **Your address' format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
 
-![](../.gitbook/assets/screen-shot-2021-05-14-at-4.59.11-pm.png)
-
 You can copy your address by clicking on the account's icon.
+
+![](../.gitbook/assets/screen-shot-2021-05-14-at-4.59.11-pm.png)
 
 ### Convert Address for different chain formats
 
