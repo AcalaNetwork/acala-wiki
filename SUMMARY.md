@@ -4,6 +4,7 @@
 
 ## Karura
 
+* [Home](karura/home.md)
 * [KSM Address](karura/ksm-address/README.md)
   * [Creating a New KSM Account](karura/ksm-address/create-new-ksm-account.md)
   * [Check KSM Address](karura/ksm-address/check-ksm-addr.md)
