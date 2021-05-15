@@ -7,7 +7,10 @@ This document covers the basics of Acala, Karura, Polkadot and Kusama account ad
 Acala and Karura use the Substrate-based chain address format SS58. Read more [here](https://wiki.polkadot.network/docs/en/learn-accounts).
 
 * Acala addresses always start with the number 2.
-* Karura addresses could start with any letter.
+* Karura addresses could start with a small letter like l, r, p, q, o...
+* Polkadot addresses always start with the number 1.
+* Kusama addresses always start with a capital letter like C, D, F, G, H, J...
+* Generic Substrate addresses start with 5.
 
 ## Account Generation 
 
