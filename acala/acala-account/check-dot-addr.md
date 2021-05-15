@@ -1,4 +1,4 @@
-# Check DOT Address
+# Check Address for Different Chain
 
 If you already set up a Polkadot account, Acala account, or any Substrate-based chain account, there are two options to check the corresponding DOT address:
 

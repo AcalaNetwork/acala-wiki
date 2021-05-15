@@ -16,10 +16,8 @@
 
 ## Acala
 
-* [Acala Account](acala/acala-account.md)
-* [DOT Address](acala/dot-address/README.md)
-  * [Check DOT Address](acala/dot-address/check-dot-addr.md)
-  * [Creating a New DOT Account](acala/dot-address/create-new-dot-account.md)
+* [Acala Account](acala/acala-account/README.md)
+  * [Check Address for Different Chain](acala/acala-account/check-dot-addr.md)
 * [Redenomination of ACA](acala/redenomination-of-aca.md)
 
 ## General
