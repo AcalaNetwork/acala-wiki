@@ -130,9 +130,18 @@ Your wallet is now set up! The screen will default to the Polkadot network. You 
 
 ### Set Address for Polkadot Mainnet
 
+1. Click the menu button on the top-right corner.
+
+ ![](https://i.imgur.com/JwPrsVe.jpg%20=250x)
+
+2. In the opened menu select the Polkadot logo, then press on the appeared address on the main screen.
+
  ![](https://i.imgur.com/YGx8nne.jpg%20=250x)
 
 ### Set Address for Kusama Mainnet
+
+1. Click the menu button on the top-right corner.
+2. In the opened menu select the Kusama logo, then press on the appeared address on the main screen.
 
 ### Set Address for Acala Mainnet \(Coming Soon\)
 

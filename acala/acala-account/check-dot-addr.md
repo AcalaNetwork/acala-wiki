@@ -28,10 +28,11 @@ If you already set up a Polkadot account, Acala account, or any Substrate-based 
 ## Using Polkawallet
 
 1. Open PolkaWallet on your mobile device and click the menu button on the top-right corner. ![](https://i.imgur.com/JwPrsVe.jpg%20=250x)
-2. In the opened menu select Polkadot logo \(second from the top\) and press on the appeared address on the main screen. ![](https://i.imgur.com/YGx8nne.jpg%20=250x)
-3. Click on the account block under the "Add Account" button, which will navigate you back to the main page.
+2. In the opened menu select Polkadot logo \(second from the top\) and press on the appeared address on the main screen.
+3.  ![](https://i.imgur.com/YGx8nne.jpg%20=250x)
+4. Click on the account block under the "Add Account" button, which will navigate you back to the main page.
 
    ![](https://i.imgur.com/JwPrsVe.jpg%20=250x)
 
-4. Now your wallet is set up and you can copy your Polkadot address. You can see that your wallet changed color to black and among your assets you can see DOT.
+5. Now your wallet is set up and you can copy your Polkadot address. You can see that your wallet changed color to black and among your assets you can see DOT.
 
