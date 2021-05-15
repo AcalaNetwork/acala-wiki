@@ -6,7 +6,7 @@ description: Crowdloan is a part of Karura's parachain launch process.
 
 ## Key Points
 
-* The Kusama parachain auction & Karura crowdloan event is happening soon, **get your KSM ready to bond**. Expect chaos & unpredictable announcements 🚀
+* The Kusama parachain auction & Karura crowdloan event is happening soon, [register now,](https://acala.network/karura/join-karura) **get your KSM ready to bond**. Expect chaos & unpredictable announcements 🚀
 * The Karura Crowdloan Event is an experiment to crowdsource network security and a community-backed launch for individuals looking to contribute to the evolution of Kusama’s network and parachains.
 * **For** **every 1 KSM contributed, a minimum of 12 KAR will be rewarded**. The lease period \(KSM locked period\) is 48 weeks. 
 * Contributed KSM will be returned at the end of Karura parachain lease.
