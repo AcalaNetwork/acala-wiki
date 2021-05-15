@@ -17,7 +17,7 @@
 ## Acala
 
 * [Acala Account](acala/acala-account/README.md)
-  * [Check Address for Different Chains](acala/acala-account/check-dot-addr.md)
+  * [Check Address for Different Chains](acala/acala-account/check-addr.md)
 * [Redenomination of ACA](acala/redenomination-of-aca.md)
 
 ## General
