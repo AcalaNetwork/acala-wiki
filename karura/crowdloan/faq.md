@@ -13,8 +13,8 @@ This specific email was only sent to waitlist registrants. We’ll be sure to se
 ### **Can I update my KSM address on the waitlist?**
 
 Yes, waitlist registrants have until 2:30am UTC Friday to update their KSM addresses.  
-To update your KSM address, visit the waitlist form provided to you in your email.  
-  
+To update your KSM address, visit the waitlist form provided to you in your email.
+
 Note: Only those who already registered will be able to update their KSM address. Any new registrations will not be valid.
 
 ### **Is it possible to still register to the waitlist?**
@@ -48,15 +48,11 @@ Yes, you can utilize more than one KSM address to earn 10% bonus rewards in KAR 
 
 ### **How can I check what Kusama address is associated with my referral code?**
 
-Your referral code is the public key of your account, additionally registered in our system.
-You can use [subscan transform](https://acala-testnet.subscan.io/tools/ss58_transform) to find the associated Kusama address. 
-You need to paste your referral code in the input field. Press "Transform" and find the corresponding Kusama address in the appeared list on the right.
-Note, the format of the referral code is `0x0000000000000000000000000000`, it’s the part of the link that we sent you.
-
+Your referral code is the public key of your account, additionally registered in our system. You can use [subscan transform](https://acala-testnet.subscan.io/tools/ss58_transform) to find the associated Kusama address. You need to paste your referral code in the input field. Press "Transform" and find the corresponding Kusama address in the appeared list on the right. Note, the format of the referral code is `0x0000000000000000000000000000`, it’s the part of the link that we sent you.
 
 ### **If I missed the waitlist, can I still participate in the crowdloan?**
 
-You can absolutely still participate in the crowdloan. Not signing up for the waitlist only means that you won't get your own referral link. The referral codes give  both the person referring and the person being referred 5% bonus rewards. So you can still get a 5% bonus if you use someone else's referral code.
+You can absolutely still participate in the crowdloan. Not signing up for the waitlist only means that you won't get your own referral link. The referral codes give both the person referring and the person being referred 5% bonus rewards. So you can still get a 5% bonus if you use someone else's referral code.
 
 ## **Important Dates / Times**
 
@@ -64,7 +60,7 @@ You can absolutely still participate in the crowdloan. Not signing up for the wa
 
 Exact dates are yet to be announced but we’re preparing for big news in the coming days. Be sure to sign up to the [newsletter](https://share.hsforms.com/1X9RxkXk-R62I0VNbATaDXw4h8qc) and join the [\#karura-crowdloan](https://discord.gg/8uJYY7PNVE) channel on our discord for the latest updates on the crowdloan and parachain auction events.
 
-### **When should I withdraw my KSM from my exchange?** 
+### **When should I withdraw my KSM from my exchange?**
 
 We can assure you that both the Polkawallet mobile app and the Polkadot{.js} browser extension are compatible with the Karura crowdloan module. Your exchange may also support the Karura Crowdloan, but you will need to contact them to learn more. We aren’t responsible for how users participate through exchanges.
 
@@ -76,9 +72,10 @@ Because unbonding requires 7 days, many users are beginning that process to ensu
 
 ### How do I unbond my KSM?
 
-We've created guides for unbonding your KSM in Polkadot{.js} and Polkawallet. Look here for more information:  
-- [Polkadot.{js} extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)  
-- [Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
+We've created guides for unbonding your KSM in Polkadot{.js} and Polkawallet. Look here for more information:
+
+* [Polkadot.{js} extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)  
+* [Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
 
 ### **When is the deadline to participate in the Karura crowdloan and parachain slot auction?**
 
@@ -90,7 +87,7 @@ The date of the Karura crowdloan, as well as the date for the first parachain au
 
 We recommend the following ways to participate:  
 1\) Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. If you are part of the referral program, it’s recommended to use this method. Guides to setting up these wallets can be found [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account).  
-2\) Participate via exchanges: [Kraken](https://www.kraken.com/learn/parachain-auctions)   
+2\) Participate via exchanges: [Kraken](https://www.kraken.com/learn/parachain-auctions)  
 3\) Participate via mobile wallets: [Polkawallet](https://polkawallet.io/)
 
 Disclaimer: Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee, and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.
@@ -115,9 +112,9 @@ You can find your Kusama address by referring to our guide found [here](https://
 
 ### **Is there a step-by-step guide on how to participate in the Karura crowdloan?**
 
-Not yet. Details for the crowdloan are still being finalized. We’ll include guides on how to participate in our knowledge base once all crowdloan and auction details have been finalized.
+A step-by-step guide on how to participate through Polkadot{.js} browser extension and Polkawallet can be found [here](https://wiki.acala.network/karura/crowdloan#3-4-participate).
 
-### **What is the minimum amount I can contribute?** 
+### **What is the minimum amount I can contribute?**
 
 Users must bond at least 0.1 KSM to the crowdloan module.
 
@@ -175,7 +172,7 @@ No exchanges currently list KAR tokens. However, you can receive KAR tokens by c
 
 The price will be decided by the open market after the Karura launch.
 
-### **Will I receive KAR tokens for participating in the testnet?** 
+### **Will I receive KAR tokens for participating in the testnet?**
 
 No. You will only receive KAR tokens if you bond your KSM tokens to the crowdloan module in the Karura Parachain Auction.
 
@@ -204,6 +201,4 @@ Only 30% of your KAR reward tokens will be available immediately after distribut
 ### **If I participated in the Build Acala event, do I first receive the Karura tokens then ACA?**
 
 Yes, you will receive KAR tokens upon network launch of Karura, then ACA tokens will be distributed after the Acala network launch.
-
-
 

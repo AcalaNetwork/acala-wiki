@@ -125,7 +125,7 @@ At the same time, on the "Profile" page, you can also find the entrance
 
 After clicking, you will see the following page
 
-![Accept &amp;&amp; Sign](../../.gitbook/assets/image%20%286%29.png)
+![Accept &amp;&amp; Sign](../../.gitbook/assets/image%20%287%29.png)
 
 If you have confirmed and agreed, you will enter the following page, you can enter the number of KSM you want to participate in, and optional referral code
 
