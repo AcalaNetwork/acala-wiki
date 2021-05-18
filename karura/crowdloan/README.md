@@ -62,11 +62,13 @@ The KAR distributed to participants will be vested over a period of time, but th
 
 ### 3.2 Ways to Participate
 
-We recommend the following ways to participate:
+Crowdloan is a permissionless event, so you can make your own judgement on how you'd like to participate. We recommend the following ways to participate:
 
-1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Guides to setting up these wallets can be found [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account). This website will be updated soon.
+1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Use a referral link to get an extra 5% bonus. Wallet setup guide [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account). 
 2. Participate via partner exchanges.
 3. Participate via partner mobile wallets.
+
+![Join Karura](https://lh3.googleusercontent.com/KQ_ds6czQc2GMuvsHHKUiRJymgThlJPLOeN262kUyo_YY9XQYCJMTSsPZ_6PiEpR1gN7ATEuFKXCkdf70u3UJT0tge8OTl4tzALR_2YjvAk7jrjL-ny5tOzsK2DCNDARL1KZHv4)
 
 #### Partner Exchanges & Mobile Wallets
 
@@ -83,42 +85,6 @@ In order to participate in the crowdloan, KSM must be unbonded. If you are alrea
 
 * [Unstaking Your KSM Tokens on Polkadot.{js} Extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)
 * [Unstaking Your KSM Tokens on Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
-
-### **3.4** Participate
-
-#### Option 1
-
-Go to [https://acala.network/karura/](https://acala.network/karura/)
-
-When Crowdloan starts, you can participate in [Join Karura](https://acala.network/karura/join-karura)
-
-![Join Karura](https://lh3.googleusercontent.com/KQ_ds6czQc2GMuvsHHKUiRJymgThlJPLOeN262kUyo_YY9XQYCJMTSsPZ_6PiEpR1gN7ATEuFKXCkdf70u3UJT0tge8OTl4tzALR_2YjvAk7jrjL-ny5tOzsK2DCNDARL1KZHv4)
-
-Option 2
-
-Use [polkawallet](https://polkawallet.io/)
-
-You can see the entrance on the "Assets" page
-
-![Assets](https://lh6.googleusercontent.com/f3xzhX96Q-ugtaymVHMEbDowMcCFvWe0sGVw2pZKmHFbZ3Nd-YAvrewE0U-vTxGKmcJ0Tvub-5n2VyNI-pmn6EaA6iuUa3FBlCGxRIVjj_snCTiBYToxKLAy6iKVAwMv1hAMue4)
-
-At the same time, on the "Profile" page, you can also find the entrance
-
-![Profile](https://lh5.googleusercontent.com/WtlE_hzCtfbja-lkeo-hLZu3XyML0YoP3Kf8hCLFjphkuM_wCKD6Fo3yB12cdw4yj5iz-F2soxsfLc_qOlwru9Z_H0_zvThef7dje1mxDbHUC_TLyp_dg4Na0AKdM4aAsDa28dU)
-
-After clicking, you will see the following page
-
-![Accept &amp;&amp; Sign](../../.gitbook/assets/image%20%287%29.png)
-
-If you have confirmed and agreed, you will enter the following page, you can enter the number of KSM you want to participate in, and optional referral code
-
-![Submit](../../.gitbook/assets/image%20%289%29.png)
-
-After submitting, you can view your participation record on the page
-
-![Contributions](../../.gitbook/assets/image%20%288%29.png)
-
-\*\*\*\*
 
 ## **4. Post Crowdloan/Auction**
 
