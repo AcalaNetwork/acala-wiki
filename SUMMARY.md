@@ -131,5 +131,5 @@
 * [Contributing](misc/contributing.md)
 * [Glossary](misc/glossary.md)
 * [Finding Tokens and NFTs](misc/finding-tokens-and-nfts.md)
-* [Brand Kits](misc/brand-assets.md)
+* [Media Kits](misc/brand-assets.md)
 

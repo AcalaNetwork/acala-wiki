@@ -1,2 +1,2 @@
-# Brand Kits
+# Media Kits
 
