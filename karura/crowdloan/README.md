@@ -94,25 +94,7 @@ When Crowdloan starts, you can participate in [Join Karura](https://acala.networ
 
 ![Join Karura](https://lh3.googleusercontent.com/KQ_ds6czQc2GMuvsHHKUiRJymgThlJPLOeN262kUyo_YY9XQYCJMTSsPZ_6PiEpR1gN7ATEuFKXCkdf70u3UJT0tge8OTl4tzALR_2YjvAk7jrjL-ny5tOzsK2DCNDARL1KZHv4)
 
-You can enter the number of KSMs you want to participate in in the Karura Reward Calculator to view the KAR rewards you will receive Please confirm that you are ready to participate, after which you can click Connect Polkadot.js Extension to use the polkadot.js plug-in to link your account and participate
-
-If you have not installed the Polkadot.js plug-in, you can click [Get Polkadot.js extension](https://polkadot.js.org/extension/) to download
-
-![Karura Reward Calculator](https://lh4.googleusercontent.com/1bP9mvfUoMstDGaX5FgqqsGC2fK1Uy8_N1ZRH11ocxp-D9OtTRoxaCQACaTBq0ng9fn24FF7EiiDZbXTQuhddWfhX2ZDMQdlArMiTiRcCD1ejIku1napLho2CWibCT9k20x9mXo)
-
-To participate in Crowdloan, you must read and accept our terms and conditions and verify your eligibility before you can participate,  As shown below
-
-![Accept &amp; Sign](https://lh5.googleusercontent.com/HJYuTZ7vJ1Ml6FM84W4eTW6jaRgLC6Gibn8uTAAeHCuK7jOWEzPAkxX8uN_obGCYoKXlKxwojSxHC4m8Z50wlbfi5nXr4YIQg3WptI2IzaDPYL_VQ60R-8qo65cG9__Tr9C8CwU)
-
-After this, you can see your KSM balance. By locking your KSM, you can help Karura win the 48 weeks card slot. At the same time, you will get a 1:12 KAR reward. If you use the referral link, you can get an additional 5% . You can also fill in your email and agree to receive email communications about Karura and Acala, including exclusive launch updates and liquidity provider program.
-
-![Submit Contribution](https://lh4.googleusercontent.com/n_KVgNT8he3B0vyey0Zrd0DXovr8vDFcJRfviEGMOXfSwB19ItX8mJu1YeId_HZfEO21dhMl1uAOxupMETG4VCMKfEjQo-bUbeAkmlvZW0hOO2-ONnZ7bw9_T4ob4BM8oENv2uo)
-
-After confirming the submission, we are only one step away from the a parachain slot , thank you very much. After that, you will see the remaining information, the number of participants and the total amount of KAR rewards received
-
-![](https://lh5.googleusercontent.com/XbMM-jhKHO0CIR1B6I2lMw87ivsJtMJIeX_QbeVVHslBooWDgHKVAPSw9BC26tTVdo8hgvDoYTbkCbgb9qxakCo2M6FUMKC7VMC6PSYNDr-QUVNay2xfmrmMyQk6q-Y5sOAIT8U)
-
-#### Option 2
+Option 2
 
 Use [polkawallet](https://polkawallet.io/)
 
