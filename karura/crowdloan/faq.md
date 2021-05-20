@@ -44,7 +44,7 @@ Please contact your exchange to find out.
 
 ### **Can I refer to my own KSM address and still qualify for bonuses?**
 
-Yes, you can utilize more than one KSM address to earn 10% bonus rewards in KAR as both the referrer and the referee.
+Yes, you can self-refer and earn 10% bonus rewards in KAR as both the referrer and the referee.
 
 ### **How can I check what Kusama address is associated with my referral code?**
 
