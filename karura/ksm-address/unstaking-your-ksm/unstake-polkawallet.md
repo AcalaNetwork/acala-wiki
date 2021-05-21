@@ -9,47 +9,59 @@ You will need to unstake your KSM tokens prior to bonding them to the crowdloan 
 
 1\) Open the Polkawallet mobile app and navigate to the "Staking" tab. Select "Adjust Bonded." 
 
-![](https://i.imgur.com/UA2ZOgW.png)
+![](../../../.gitbook/assets/image%20%2815%29.png)
 
 
 
-2\) A pop-up box will appear. Select "Unbond."
+2\) A pop-up box will appear. Select "Unbond." 
 
- ![](https://i.imgur.com/M8ym8rC.png)
+![](../../../.gitbook/assets/image%20%286%29.png)
 
 
 
 3\) Enter the amount you wish to unbond and "Submit."
 
- ![](https://i.imgur.com/gPZqnkp.png)
+![](../../../.gitbook/assets/image%20%2816%29.png)
 
 
 
 4\) Review the details, enter your password and "Submit."
 
- ![](https://i.imgur.com/pc7p3DV.png)
+![](../../../.gitbook/assets/image%20%2818%29.png)
 
 
 
 5\) A new screen will appear and you will see the amount you have unbonded now appears under "Unlocking." You'll also see that the unbonding transaction shows up in your "Tx History." 
 
-![](https://i.imgur.com/FC1luAc.png)
+![](../../../.gitbook/assets/image%20%2814%29.png)
 
 
 
 6\) Your KSM tokens are now in a 7-day cooldown period. You can check to see how much time remains in the cooldown period by tapping on the clock icon under "Unlocking." 
 
-![](https://i.imgur.com/mkkfSN2.png)
+![](../../../.gitbook/assets/image%20%2813%29.png)
 
 
 
-7\) After 7 days, return to the "Staking" tab and select "Redeemable" \(by the lock icon\) to redeem KSM.
+7\) After 7 days, return to the "Staking" tab and select the plus sign that says "Adjust Bonded" and then select "Redeem Unbonded."
 
- ![](https://i.imgur.com/nB7Nxbm.png)
+![](../../../.gitbook/assets/image%20%2821%29.png)
 
 
 
-8\) Enter the amount you wish to redeem and submit. Your KSM are now unbonded. 
+8\) Enter the amount you wish to redeem. Click "Submit." 
 
-![](https://i.imgur.com/vdUJVCW.png)
+![](../../../.gitbook/assets/image%20%2820%29.png)
+
+
+
+9\) Sign the transaction by clicking "Submit."
+
+![](../../../.gitbook/assets/image%20%2810%29.png)
+
+
+
+10\) You can see that your “Available” balance has increased by the amount you redeemed. Your KSM has been completely unbonded and is now freely transferable.
+
+![](../../../.gitbook/assets/image%20%2819%29.png)
 
