@@ -70,14 +70,21 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 
 ![Join Karura](https://lh3.googleusercontent.com/KQ_ds6czQc2GMuvsHHKUiRJymgThlJPLOeN262kUyo_YY9XQYCJMTSsPZ_6PiEpR1gN7ATEuFKXCkdf70u3UJT0tge8OTl4tzALR_2YjvAk7jrjL-ny5tOzsK2DCNDARL1KZHv4)
 
-#### Partner Exchanges & Mobile Wallets
+#### Partner Exchanges 
 
-* [Kraken](https://www.kraken.com/learn/parachain-auctions): check with Kraken for bonus amount.
+* [Kraken](https://www.kraken.com/learn/parachain-auctions): check with Kraken for the bonus amount
+* [OKEx](https://www.okex.com/): check with OKEx for how to participate and bonus amount
+* [Huobi](https://www.huobi.com/): check with Huobi for how to participate and bonus amount
+
+#### & Mobile Wallets
+
 * [Polkawallet](https://polkawallet.io/): also supports the referral program. 
-* [MathWallet](https://mathwallet.org/en-us/): check with MathWwallet for promotions. 
-* More partners to come...
+* [MathWallet](https://mathwallet.org/en-us/): both cloud and non-custodial wallet. check with MathWallet for promotions. 
+* [Fearless Wallet](https://fearlesswallet.io/)
 
-**Disclaimer:** Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee, and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.
+More partners to come...
+
+**Disclaimer:** Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.
 
 ### 3.3 Prepare your KSM
 
