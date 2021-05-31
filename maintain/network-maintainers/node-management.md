@@ -116,7 +116,7 @@ docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_dock
 **Using Docker**
 
 ```text
-docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain karura --collator
+docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/acala-node:latest --chain karura --collator
 ```
 
 #### For Acala \(Coming Soon\)
@@ -124,7 +124,7 @@ docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root
 **Using Docker**
 
 ```text
-docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain acala --collator
+docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/acala-node:latest --chain acala --collator
 ```
 
 ### Run as full node
@@ -134,7 +134,7 @@ docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root
 **Using Docker**
 
 ```text
-docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain karura
+docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/acala-node:latest --chain karura
 ```
 
 #### For Acala \(Coming Soon\)
@@ -142,7 +142,7 @@ docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root
 **Using Docker**
 
 ```text
-docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain acala
+docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/acala-node:latest --chain acala
 ```
 
 ## TestNet
@@ -152,7 +152,7 @@ docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root
 #### **Using Docker**
 
 ```text
-docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/aca-node:/acala/data acala/acala-node:latest --chain mandala
+docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/acala-node:latest --chain mandala
 ```
 
 ### Run as local testnet
