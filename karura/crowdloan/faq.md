@@ -85,14 +85,8 @@ The date of the Karura crowdloan, as well as the date for the first parachain au
 
 ### **Which wallets can I use for the Karura crowdloan?**
 
-We recommend the following ways to participate:  
-1\) Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. If you are part of the referral program, it’s recommended to use this method. Guides to setting up these wallets can be found [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account).  
-2\) Participate via exchanges: [Kraken](https://www.kraken.com/learn/parachain-auctions)  
-3\) Participate via mobile wallets: [Polkawallet](https://polkawallet.io/)
-
-Disclaimer: Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee, and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.
-
-More partner exchanges and wallets will be released soon.
+Please check this section:
+[Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
 
 ### **Can I participate in the Karura crowdloan from my exchange?**
 
