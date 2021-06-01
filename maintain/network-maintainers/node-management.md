@@ -482,11 +482,9 @@ Now you're ready to add keys to its keystore by following the process \(in the p
 
 You will notice that even after you add the keys for the second node no block finalization has happened \(**`finalized #0 (0x0ded…9b9d)`**\). Substrate nodes require a restart after inserting a grandpa key. Kill your nodes and restart them with the same commands you used previously. Now blocks should be finalized.
 
-
-
 ### Run as local parachain
 
- **Building a Relay Chain Node** 
+**Building a Relay Chain Node**
 
 First, you need to confirm the commits of polkadot in the [Cargo.lock ](https://github.com/AcalaNetwork/Acala/blob/master/Cargo.lock)file， this commits are used by Acala collator. Other commit may or may not work.
 
@@ -553,7 +551,7 @@ That file contains most of the information we need already. Rococo is a permissi
 
 #### Launch Relay Chain
 
- **Start Alice's Node** 
+**Start Alice's Node**
 
 ```text
 ./target/release/polkadot \
@@ -568,14 +566,14 @@ That file contains most of the information we need already. Rococo is a permissi
   --rpc-external \
   --rpc-cors=all \
   --unsafe-ws-external \
-  --unsafe-rpc-external 
+  --unsafe-rpc-external
 ```
 
- **Connect Apps UI** 
+**Connect Apps UI**
 
- To explore and interact with the network, you can use the Polkadot JS Apps UI. If you've started this node using the command above, you can access the node as [https://polkadot.js.org/apps/\#/?rpc=ws://localhost:9944](https://polkadot.js.org/apps/#/?rpc=ws://localhost:9944)
+To explore and interact with the network, you can use the Polkadot JS Apps UI. If you've started this node using the command above, you can access the node as [https://polkadot.js.org/apps/\#/?rpc=ws://localhost:9944](https://polkadot.js.org/apps/#/?rpc=ws://localhost:9944)
 
- **Start Bob's Node** 
+**Start Bob's Node**
 
 ```text
 ./ target/release/polkadot \
@@ -588,7 +586,7 @@ That file contains most of the information we need already. Rococo is a permissi
   --bootnodes /ip4/<Alice IP>/tcp/30333/p2p/<Alice Peer ID>
 ```
 
- Bob's command is perfectly analogous to Alice's. It differs concretely from Alice's in that Bob has specified his own base path, provided his own valiator keys \(`--bob`\), and used his own ports. Finally he has added a `--bootnodes` flag. This bootnodes flag is not strictly necessary if you are running the entire network on a single local system, but it is necessary when operating over the network, so I've chosen to leave it in.
+Bob's command is perfectly analogous to Alice's. It differs concretely from Alice's in that Bob has specified his own base path, provided his own valiator keys \(`--bob`\), and used his own ports. Finally he has added a `--bootnodes` flag. This bootnodes flag is not strictly necessary if you are running the entire network on a single local system, but it is necessary when operating over the network, so I've chosen to leave it in.
 
 #### Launch Parachains
 
@@ -620,31 +618,31 @@ We can now start the collator node with the following command. Notice that we ne
 ```text
 # Collator1
 ./target/debug/acala \
-	--collator \
-	--tmp \
-	--chain=dev \
-	--parachain-id 666 \
-	-lruntime=trace \
-	--rpc-methods=Unsafe \
+    --collator \
+    --tmp \
+    --chain=dev \
+    --parachain-id 666 \
+    -lruntime=trace \
+    --rpc-methods=Unsafe \
   --ws-external \
   --rpc-external \
   --rpc-cors=all \
   --unsafe-ws-external \
   --unsafe-rpc-external \
-	--port 30335 \
-	--rpc-port 9935 \
-	--ws-port 9966 \
-	-- \
-	--execution wasm \
-	--chain ../polkadot/rococo-local-cfde-real-overseer.json \
-	--port 20335
+    --port 30335 \
+    --rpc-port 9935 \
+    --ws-port 9966 \
+    -- \
+    --execution wasm \
+    --chain ../polkadot/rococo-local-cfde-real-overseer.json \
+    --port 20335
 ```
 
- The first thing to notice about this command is that several arguments are passed before the lone `--`, and several more arguments are passed after it. A cumulus collator contains the actual collator node, and also an embedded relay chain node. The arguments before the `--` are for the collator, and the arguments after the `--` are for the embedded relay chain node.
+The first thing to notice about this command is that several arguments are passed before the lone `--`, and several more arguments are passed after it. A cumulus collator contains the actual collator node, and also an embedded relay chain node. The arguments before the `--` are for the collator, and the arguments after the `--` are for the embedded relay chain node.
 
 We give the collator a base path and ports as we did for the relay chain node previously. We also specify the parachain id. Remember to change these collator-specific values if you are executing these instructions a second time for a second parachain. Then we give the embedded relay chain node the relay chain spec we are using. Finally, we give the embedded relay chain node some peer addresses.
 
- At this point you should see your collator node running and peering with the relay-chain nodes. You should not see it authoring parachain blocks yet. Authoring will begin when the collator is actually registered on the relay chain \(the next step\).
+At this point you should see your collator node running and peering with the relay-chain nodes. You should not see it authoring parachain blocks yet. Authoring will begin when the collator is actually registered on the relay chain \(the next step\).
 
 #### Parachain Registration
 
@@ -667,11 +665,9 @@ The entire point of launching and registering parachains is that we can submit t
 
 **Connecting the Apps UI**
 
- We've already connected the Apps UI to the relay chain node. Now we can also connect to the parachain collator. Open another instance of Apps in a new browser window, and connect it to the appropriate endpoint. If you have followed these instructions so far, you can connect to the parachain node at [https://console.acala.network/\#/explorer/\#/?rpc=ws://localhost:9966](https://console.acala.network/#/explorer/#/?rpc=ws://localhost:9966)
+We've already connected the Apps UI to the relay chain node. Now we can also connect to the parachain collator. Open another instance of Apps in a new browser window, and connect it to the appropriate endpoint. If you have followed these instructions so far, you can connect to the parachain node at [https://console.acala.network/\#/explorer/\#/?rpc=ws://localhost:9966](https://console.acala.network/#/explorer/#/?rpc=ws://localhost:9966)
 
 \*\*\*\*
 
 \*\*\*\*
-
-
 

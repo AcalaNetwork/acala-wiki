@@ -93,7 +93,7 @@ In order to participate in the crowdloan, KSM must be unbonded. If you are alrea
 * [Unstaking Your KSM Tokens on Polkadot.{js} Extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)
 * [Unstaking Your KSM Tokens on Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
 
-## **4. Post Crowdloan/Auction**
+## **4. Post-Crowdloan/Auction**
 
 After Karura has won the parachain auction, it will launch network Genesis on Kusama. The KAR rewards will be distributed after the network is launched. For those who did not participate via the Karura website \(without agreeing to the T&C\), there will be a KAR claim process upon launch.
 

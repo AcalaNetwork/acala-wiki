@@ -85,8 +85,7 @@ The date of the Karura crowdloan, as well as the date for the first parachain au
 
 ### **Which wallets can I use for the Karura crowdloan?**
 
-Please check this section:
-[Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
+Please check this section: [Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
 
 ### **Can I participate in the Karura crowdloan from my exchange?**
 
