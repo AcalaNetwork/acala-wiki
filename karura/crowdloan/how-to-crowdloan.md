@@ -62,7 +62,7 @@ To participate in the crowdloan, you must read and accept the terms and conditio
 
 Enter‌ the KSM contribution amount. For every KSM contributed, you will receive at least 12 KAR.
 
-If you have a referral code, enter it to receive an additional 5% bonus . Click `Submit`
+If you have a referral code, enter it to receive an additional 5% bonus. Click `Submit`
 
 There may be other bonus programs depending on the time you join the crowdloan.
 
