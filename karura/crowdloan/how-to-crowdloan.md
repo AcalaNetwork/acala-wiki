@@ -66,7 +66,7 @@ If you have a referral code, enter it to receive an additional 5% bonus . Click 
 
 There may be other bonus programs depending on the time you join the crowdloan.
 
-![](../../.gitbook/assets/merged-2.png)
+![](../../.gitbook/assets/merged-3.png)
 
 ### Submit Contribution
 
