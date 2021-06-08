@@ -68,6 +68,8 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 2. Participate via partner exchanges.
 3. Participate via partner mobile wallets.
 
+Follow the [`How to Crowdloan`](https://wiki.acala.network/karura/crowdloan/how-to-crowdloan) guide to participate via Karura official website and Polkawallet.
+
 ![Join Karura](https://lh3.googleusercontent.com/KQ_ds6czQc2GMuvsHHKUiRJymgThlJPLOeN262kUyo_YY9XQYCJMTSsPZ_6PiEpR1gN7ATEuFKXCkdf70u3UJT0tge8OTl4tzALR_2YjvAk7jrjL-ny5tOzsK2DCNDARL1KZHv4)
 
 #### Partner Exchanges 
