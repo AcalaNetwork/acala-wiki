@@ -29,6 +29,7 @@
   * [Alliance](general/acala-portal/partnerships.md)
   * [Audits](general/acala-portal/audits.md)
   * [Progress Update](general/acala-portal/progress-update/README.md)
+    * [Build Acala \| May 2021](general/acala-portal/progress-update/build-acala-or-may-2021.md)
     * [Build Acala \| Apr 2021](general/acala-portal/progress-update/build-acala-or-apr-2021.md)
     * [Build Acala \| Mar 2021](general/acala-portal/progress-update/build-acala-or-mar-2021.md)
     * [Build Acala \| Feb 2021](general/acala-portal/progress-update/build-acala-or-feb-2021.md)
