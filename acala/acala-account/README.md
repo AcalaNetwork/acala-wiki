@@ -60,17 +60,17 @@ You can copy your address by clicking on the account's icon.
 
 ### Set Address for Karura Mainnet
 
-Click on "Options" at the top-right corner of the plugin window, and under "Display address format for" select "Acala".
+Click on "Options" at the top-right corner of the plugin window, and under "Display address format for" select "Karura".
 
 **Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
 
 You can copy your address by clicking on the account's icon.
 
-![](../../.gitbook/assets/screen-shot-2021-05-14-at-4.59.11-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-06-08-at-2.27.20-pm.png)
 
 ### Set Address for Polkadot Mainnet
 
-Click on "Options" at the top-right corner of the plugin window, and under "Display address format for" select "Acala".
+Click on "Options" at the top-right corner of the plugin window, and under "Display address format for" select "Polkadot".
 
 **Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
 
@@ -80,7 +80,7 @@ You can copy your address by clicking on the account's icon.
 
 ### Set Address for Kusama Mainnet
 
-Click on "Options" at the top of the plugin window, and under "Display address format for" select "Acala".
+Click on "Options" at the top of the plugin window, and under "Display address format for" select "Kusama".
 
 **Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
 
