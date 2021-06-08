@@ -72,15 +72,16 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 
 #### Partner Exchanges 
 
-* [Kraken](https://www.kraken.com/learn/parachain-auctions): check with Kraken for the bonus amount
-* [OKEx](https://www.okex.com/): check with OKEx for how to participate and bonus amount
-* [Huobi](https://www.huobi.com/): check with Huobi for how to participate and bonus amount
+* [Kraken](https://www.kraken.com/learn/parachain-auctions): check with Kraken for the bonus amount.
+* [OKEx](https://www.okex.com/): check with OKEx for how to participate and bonus amount.
+* [Huobi](https://www.huobi.com/): check with Huobi for how to participate and bonus amount.
+* KuCoin: coming soon
 
 #### & Mobile Wallets
 
-* [Polkawallet](https://polkawallet.io/): also supports the referral program. 
-* [MathWallet](https://mathwallet.org/en-us/): both cloud and non-custodial wallet. check with MathWallet for promotions. 
-* [Fearless Wallet](https://fearlesswallet.io/)
+* [Polkawallet](https://polkawallet.io/): non-custodial wallet, supports the Karura referral program. 
+* [MathWallet](https://mathwallet.org/en-us/): both cloud and non-custodial wallet. Check with MathWallet for promotions. 
+* [Fearless Wallet](https://fearlesswallet.io/): non-custodial wallet, supports Karura referral program.
 
 More partners to come...
 
