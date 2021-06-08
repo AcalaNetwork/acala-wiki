@@ -31,9 +31,11 @@ We've created guides for unbonding your KSM in Polkadot{.js} and Polkawallet. Lo
 
 ### **What is the minimum amount I can contribute?**
 
-Users must bond at least 0.1 KSM to the crowdloan module.
+0.1 KSM if participating from Karura website  
+1 KSM if participating from Polkawallet mobile app  
+If you are participating from other apps, check their local policy for minimum contribution.
 
-### **Am I allowed to contribute to the crowdloan multiple times?**
+### Am I allowed to contribute to the crowdloan multiple times?
 
 Yes. As long as the auction has not expired, you are allowed to contribute.
 
