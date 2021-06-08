@@ -30,7 +30,7 @@ Enter‌ the KSM contribution amount. For every KSM contributed, you will receiv
 
 If you use the referral link, you can get an additional 5% . 
 
-There may be other bonus programs depends on the time you join the crowdloan.
+There may be other bonus programs depending on the time you join the crowdloan.
 
 ![](https://lh5.googleusercontent.com/WF3Ad700ghOliKxy9p2ryBfIYWWBD4XJXnZsTJXKJ7RvjrkL_dhogmYaw8OJocGRZQa7lNEjVrvqrwllFb4FpsLQUqqQKPRo_c3j5sbZ1eJvQTitK3NhJSj3DfAKmafxCvtcuHqD)
 
@@ -48,25 +48,33 @@ You can contribute multiple times with the same account. Do share your great con
 
 ### Switch to Kusama Network
 
-You shall see KSM balance once switched. Click the Karura crowdloan banner at the bottom of the screen.
+You shall see KSM balance once switched. Click the Kusama Parachain Auction banner at the bottom of the screen.
 
-![](https://lh6.googleusercontent.com/rmosHEQ8LDX2VgqtabgR-tCgN44AlbRkUTOdoT8qRwKx1pnpRoYloS0-esG7mSG6cYIPPdYQCqMY-AI332slijPzv_bSk8rA3P0npkYp_j17kxu-emJQB2DYkMA_Ml5ZxEP6NZDo)
+![](../../.gitbook/assets/merged.png)
 
 ### Read and Accept Terms & Conditions
 
-![](https://lh3.googleusercontent.com/1fOx5z3np7WghwMhkC95e3lB7SCG5VDp9-GwHE-GALU6FYwLSj9G_u58GIbLKRgQmXBt5aHxq7XkOWtn60VD2cjZueH0YYva9nyDTdtLVkkiNAae7vjPFvI_S8_OWkoGLKyjoK3x)
+To participate in the crowdloan, you must read and accept the terms and conditions. You are required to sign with the account used to participate in the crowdloan, but it will not cost you anything.
+
+![](../../.gitbook/assets/1011623119982_.pic.jpg)
 
 ### Contribute to the crowdloan
 
-Enter the contribution KSM amount. For every KSM contributed, you will receive at least 12 KAR.
+Enter‌ the KSM contribution amount. For every KSM contributed, you will receive at least 12 KAR.
 
-If you use the referral link, you can get an additional 5% . 
+If you have a referral code, enter it to receive an additional 5% bonus . Click `Submit`
 
-![](https://lh6.googleusercontent.com/-jgcFlyIUUN6gQGmDe_n-7__2WEiG7bQADUX-rITr2RRapqAAh_QuL8da0Blb926zGSfNoAh9vOK4abMlpDWh_WNuHjhK5Kf_H95vAro1TdaD4RdB3EK8HwHpwsXto3dP3fpjHxc)
+There may be other bonus programs depending on the time you join the crowdloan.
+
+![](../../.gitbook/assets/merged-2.png)
 
 ### Submit Contribution
 
-Click `Contribute` button, this will submit your contribution to the Kusama Relay Chain.
+Click `Contribute` button, this will submit your contribution to the Kusama Relay Chain. This may take a few seconds while Kusama finalizes your transaction.
 
-![](https://lh6.googleusercontent.com/HPA5b5HIHDs06UUR6QvwU3amPHYw8nOVumnkEBlpzQZhn31D0YkXsSKMTmU6dTaW812W1nbx5_1dMut-MvE0OCgAeDUKKJsJDTw5qA7BPv0ICoQr8Fx6X7GsuDjwpfxKfXnwnOnv)
+![](../../.gitbook/assets/1041623120126_.pic.jpg)
+
+### **Post Submission**
+
+You can contribute multiple times with the same account. Do share your great contribution on social to help us make history together! 
 
