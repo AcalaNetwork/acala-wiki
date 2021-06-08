@@ -6,9 +6,7 @@ April was a month highlighted by a few key events that will help shape the direc
 
 ### **Acala Receives Compound Grant for Starport**
 
-Acala has received one of the first Compound Grants for our proposal to integrate with Compound Chain and implement its cross-chain interface, Starport.
-
-[Tweet link](https://twitter.com/compoundgrants/status/1377653213990682629?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1377653213990682629%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Ftype%3Dtext2Fhtmlkey%3Dd04bfffea46d4aeda930ec88cc64b87cschema%3Dtwitterurl%3Dhttps3A%2F%2Ftwitter.com%2Fcompoundgrants%2Fstatus%2F1377653213990682629image%3Dhttps3A%2F%2Fi.embed.ly%2F1%2Fimage3Furl3Dhttps253A252F252Fabs.twimg.com252Ferrors252Flogo46x38.png26key3D4fce0568f2ce49e8b54624ef71a8a5bd)
+Acala has received one of the first Compound Grants for our proposal to integrate with Compound Chain and implement its cross-chain interface, Starport. \([Tweet link](https://twitter.com/compoundgrants/status/1377653213990682629?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1377653213990682629%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Ftype%3Dtext2Fhtmlkey%3Dd04bfffea46d4aeda930ec88cc64b87cschema%3Dtwitterurl%3Dhttps3A%2F%2Ftwitter.com%2Fcompoundgrants%2Fstatus%2F1377653213990682629image%3Dhttps3A%2F%2Fi.embed.ly%2F1%2Fimage3Furl3Dhttps253A252F252Fabs.twimg.com252Ferrors252Flogo46x38.png26key3D4fce0568f2ce49e8b54624ef71a8a5bd)\)
 
 One of the leading DeFi teams first built on Ethereum, Compound has recently launched the Compound Gateway testnet — an independent cross-chain money market blockchain built with Substrate.
 
@@ -24,11 +22,11 @@ In April, Acala hosted the first Build Acala event to begin bootstrapping the Ac
 
 [ **Dan Reecer** ](https://twitter.com/danreecer_) discussed the crowdloan and parachain auction process for Kusama and Polkadot at the Blockdown conference:
 
-[https://youtu.be/XADv3xSDglU](https://youtu.be/XADv3xSDglU) [ ](https://twitter.com/bettechentt)
+Video: [https://youtu.be/XADv3xSDglU](https://youtu.be/XADv3xSDglU)
 
 [**Bette Chen** ](https://twitter.com/bettechentt) on a Web 3.0 panel at theBlockdown conference:
 
-[https://youtu.be/-qBQiI1LcdY](https://youtu.be/-qBQiI1LcdY)
+Video: [https://youtu.be/-qBQiI1LcdY](https://youtu.be/-qBQiI1LcdY)
 
 ### **Karura + Chainlink Integration**
 
