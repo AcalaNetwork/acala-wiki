@@ -1,6 +1,10 @@
 # FAQ
 
-## How to Participate
+### **How can I create my own referral code?**
+
+You can't. The referral codes were given to those who registered on the Karura waiting list. The registration for Karura Waiting List was finished on 31 March 2021. 
+
+However, you can still use another person’s referral code to receive a 5% bonus, you just won’t be able to use that code to refer other people.
 
 ### **Which wallets can I use for the Karura crowdloan?**
 
@@ -56,12 +60,6 @@ You can track your referral bonus on the Karura crowdloan.
 ### **Can I make multiple referrals and get a bonus for each one?**
 
 Yes. For each referral you make, you and your referee will both receive a 5% bonus on the amount they contribute to the Karura crowdloan. For example, if Alice shares her referral link with Bob and Carl, Alice's bonus is equivalent to 5% of Bob's contribution plus 5% of Carl's contribution.
-
-### **Can I still generate my own referral code?**
-
-No. The referral codes were given to those who registered on the Karura waiting list. The registration for Karura Waiting List was finished on 31 March 2021. 
-
-However, you can still use another person’s referral code to receive a 5% bonus, you just won’t be able to use that code to refer other people.
 
 ### Do referrals work if I'm participating through an exchange?
 
