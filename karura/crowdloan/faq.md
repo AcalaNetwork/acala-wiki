@@ -8,6 +8,12 @@ You can't. The referral codes were given to those who registered on the Karura w
 
 However, you can still use another person’s referral code to receive a 5% bonus, you just won’t be able to use that code to refer other people.
 
+### How can I track my rewards?
+
+You can track your rewards by entering your Kusama address on the [Karura site](https://acala.network/karura/join-karura) under the "Check rewards & bonus here" link \(screenshot below\).
+
+![](../../.gitbook/assets/image-2-.png)
+
 ### **Which wallets can I use for the Karura crowdloan?**
 
 Please check this section: [Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
@@ -27,12 +33,6 @@ You can find your Kusama address by referring to our guide found [here](https://
 ### **Is there a step-by-step guide on how to participate in the Karura crowdloan?**
 
 A step-by-step guide on how to participate through Polkadot{.js} browser extension and Polkawallet can be found [here](https://wiki.acala.network/karura/crowdloan/how-to-crowdloan).
-
-### How can I track my rewards?
-
-You can track your rewards by entering your Kusama address on the [Karura site](https://acala.network/karura/join-karura) under the "Check rewards & bonus here" link \(screenshot below\).
-
-![](../../.gitbook/assets/image-2-.png)
 
 ### How do I unbond my KSM?
 
