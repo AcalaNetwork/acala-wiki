@@ -2,7 +2,7 @@
 
 ### **How can I create my own referral code?**
 
-You can't. The referral codes were given to those who registered on the Karura waiting list. The registration for Karura Waiting List was finished on 31 March 2021. 
+You can't. The referral codes were given to those who registered on the Karura waiting list. The registration for Karura Waiting List was finished on 31 March 2021.
 
 However, you can still use another person’s referral code to receive a 5% bonus, you just won’t be able to use that code to refer other people.
 
@@ -30,7 +30,7 @@ A step-by-step guide on how to participate through Polkadot{.js} browser extensi
 
 We've created guides for unbonding your KSM in Polkadot{.js} and Polkawallet. Look here for more information:
 
-* Unstaking Guide ****[Polkadot.{js} extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)  
+* Unstaking Guide _\*\*_[Polkadot.{js} extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)  
 * Unstaking Guide [Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
 
 ### **What is the minimum amount I can contribute?**
@@ -148,6 +148,5 @@ Tokens will be distributed after the Karura network goes live.
 
 After Karura has won the parachain auction, it will launch network Genesis on Kusama. The KAR rewards will be distributed after the network is launched. For those who did not participate via the Karura website \(without agreeing to the T&C\), there will be a KAR claim process upon launch. Learn more on Karura launch process [here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).
 
-**Didn't find the answer? Ask our support team: support@acala.network**  
-
+**Didn't find the answer? Ask our support team: support@acala.network**
 
