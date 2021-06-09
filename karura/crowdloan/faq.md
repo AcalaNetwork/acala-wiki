@@ -1,5 +1,7 @@
 # FAQ
 
+## **Ways to Participate**
+
 ### **How can I create my own referral code?**
 
 You can't. The referral codes were given to those who registered on the Karura waiting list. The registration for Karura Waiting List was finished on 31 March 2021.
@@ -26,11 +28,17 @@ You can find your Kusama address by referring to our guide found [here](https://
 
 A step-by-step guide on how to participate through Polkadot{.js} browser extension and Polkawallet can be found [here](https://wiki.acala.network/karura/crowdloan/how-to-crowdloan).
 
+### How can I track my rewards?
+
+You can track your rewards by entering your Kusama address on the [Karura site](https://acala.network/karura/join-karura) under the "Check rewards & bonus here" link \(screenshot below\).
+
+![](../../.gitbook/assets/image-2-.png)
+
 ### How do I unbond my KSM?
 
 We've created guides for unbonding your KSM in Polkadot{.js} and Polkawallet. Look here for more information:
 
-* Unstaking Guide _\*\*_[Polkadot.{js} extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)  
+* Unstaking Guide [Polkadot.{js} extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)  
 * Unstaking Guide [Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
 
 ### **What is the minimum amount I can contribute?**
