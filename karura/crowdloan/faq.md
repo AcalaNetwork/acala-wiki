@@ -154,7 +154,7 @@ Tokens will be distributed after the Karura network goes live.
 
 ### **Where will I receive my KAR tokens from the crowdloan?**
 
-After Karura has won the parachain auction, it will launch network Genesis on Kusama. The KAR rewards will be distributed after the network is launched. For those who did not participate via the Karura website \(without agreeing to the T&C\), there will be a KAR claim process upon launch. Learn more on Karura launch process [here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).
+After Karura has won the parachain auction, it will launch network Genesis on Kusama. The KAR rewards will be distributed after the network is launched to the Karura address associated with the Kusama address you used to contribute. For those who did not participate via the Karura website \(without agreeing to the T&C\), there will be a KAR claim process upon launch where you will need to agree to the T&C. Learn more on Karura launch process[ here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).
 
 **Didn't find the answer? Ask our support team: support@acala.network**
 
