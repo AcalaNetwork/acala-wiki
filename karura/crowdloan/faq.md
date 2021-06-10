@@ -1,6 +1,6 @@
 # FAQ
 
-## **Ways to Participate**
+## Top Questions
 
 ### **I'm having problems contributing and can't submit my transaction on the Karura website?**
 
@@ -33,18 +33,24 @@ Yes, as long as the early bird period has not expired.
 
 Please check this section: [Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
 
-### **How do I create a Kusama wallet?**
-
-By creating a wallet through the Polkawallet mobile app or the Polkadot{.js} browser extension. Guides to setting up these wallets can be found [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account).
-
 ### **Is Ledger compatible with the crowdloan?**
 
 No. Check the ways to participate here: [Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
+
+### **Where will I receive my KAR tokens from the crowdloan?**
+
+After Karura has won the parachain auction, it will launch network Genesis on Kusama. The KAR rewards will be distributed after the network is launched to the Karura address associated with the Kusama address you used to contribute. For those who did not participate via the Karura website \(without agreeing to the T&C\), there will be a KAR claim process upon launch where you will need to agree to the T&C. Learn more on Karura launch process[ here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).
 
 ### **What is the minimum amount I can contribute?**
 
 0.1 KSM if participating from Karura website or Polkawallet  
 If you are participating from other apps, check their local policy for minimum contribution.
+
+## **How to Participate**
+
+### **How do I create a Kusama wallet?**
+
+By creating a wallet through the Polkawallet mobile app or the Polkadot{.js} browser extension. Guides to setting up these wallets can be found [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account).
 
 ### **How do I find my Kusama address if I already have a wallet?**
 
@@ -163,9 +169,7 @@ No. The Karura Dollar \(kUSD\) is a stablecoin. KAR is the native token of the K
 
 Tokens will be distributed after the Karura network goes live.
 
-### **Where will I receive my KAR tokens from the crowdloan?**
-
-After Karura has won the parachain auction, it will launch network Genesis on Kusama. The KAR rewards will be distributed after the network is launched to the Karura address associated with the Kusama address you used to contribute. For those who did not participate via the Karura website \(without agreeing to the T&C\), there will be a KAR claim process upon launch where you will need to agree to the T&C. Learn more on Karura launch process[ here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).
+### \*\*\*\*
 
 **Didn't find the answer? Ask our support team: support@acala.network**
 
