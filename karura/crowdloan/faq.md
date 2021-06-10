@@ -23,7 +23,7 @@ However, you can still use another person’s referral code to receive a 5% bonu
 
 You can track your rewards by entering your Kusama address on the [Karura site](https://acala.network/karura/join-karura) under the "Check rewards & bonus here" link \(screenshot below\).
 
-![](../../.gitbook/assets/image-2-.png)
+![](../../.gitbook/assets/rewards-link.png)
 
 ### **Am I eligible for the early bird bonus if I participate directly through polkadot.js.org/apps?**
 
