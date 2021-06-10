@@ -26,6 +26,11 @@ By creating a wallet through the Polkawallet mobile app or the Polkadot{.js} bro
 
 No. Check the ways to participate here: [Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
 
+### **What is the minimum amount I can contribute?**
+
+0.1 KSM if participating from Karura website or Polkawallet  
+If you are participating from other apps, check their local policy for minimum contribution.
+
 ### **How do I find my Kusama address if I already have a wallet?**
 
 You can find your Kusama address by referring to our guide found [here](https://wiki.acala.network/karura/ksm-address/check-ksm-addr).
@@ -40,12 +45,6 @@ We've created guides for unbonding your KSM in Polkadot{.js} and Polkawallet. Lo
 
 * Unstaking Guide [Polkadot.{js} extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)  
 * Unstaking Guide [Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
-
-### **What is the minimum amount I can contribute?**
-
-0.1 KSM if participating from Karura website  
-1 KSM if participating from Polkawallet mobile app  
-If you are participating from other apps, check their local policy for minimum contribution.
 
 ### Am I allowed to contribute to the crowdloan multiple times?
 
