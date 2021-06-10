@@ -61,7 +61,7 @@ Yes. As long as the auction has not expired, you are allowed to contribute.
 ### **How does the referral bonus work?**
 
 * If you're using someone else's link, you get a 5% KAR bonus on the amount **you** contributed
-* If someone is using your link, you will receive a 5% KAR bonus from the amount **they** contributed
+* If someone is using your link, you will receive a 5% KAR bonus on the amount **they** contributed
 
 For example, if Alice shares her referral link with Bob, and Bob contributes 10 KSM to the crowdloan module, both will receive 6 KAR as a bonus \(10 KSM x 12KAR:1KSM reward ratio x 5%\).
 
@@ -71,10 +71,6 @@ For example, if Alice shares her referral link with Bob, and Bob contributes 10 
 * Polkawallet
 * Fearless Wallet
 * Other platforms may also support them in a variety of ways. You can ask those platforms for details
-
-### **Where can I track my referral bonus?**
-
-You can track your referral bonus on the Karura crowdloan.
 
 ### **Can I make multiple referrals and get a bonus for each one?**
 
