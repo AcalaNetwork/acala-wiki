@@ -2,9 +2,20 @@
 
 ## **Ways to Participate**
 
-### **How can I create my own referral code?**
+### **I'm having problems contributing and can't submit my transaction on the Karura website?**
 
-You can't. The referral codes were given to those who registered on the Karura waiting list. The registration for Karura Waiting List was finished on 31 March 2021.
+Check the following:
+
+* Ledger is not supported at all, you can participate **only** with the polkadot.js extension
+* Ensure that you selected "Allow use on any chain" in your polkadot.js extension
+
+  ![](https://lh5.googleusercontent.com/5PwNfrcbxBhKFR6Ahlg_jan700Xvi3PBl51ulamlKAPuSWs-sqSv4g3_zKza9hdg3qFJMxoeRr18a7Jwjia8ocfmoJyp2HDJlAMBeODVmd130EPL8oeKuvzw_VIUayknq5PiMwXv)
+
+* Try changing the browser you are using to contribute. Firefox and Chrome are working well, but can occasionally have difficulty
+
+### **Can I generate my own referral code?**
+
+No. The referral codes were given to those who registered on the Karura waiting list. The registration for Karura Waiting List was finished on 31 March 2021. 
 
 However, you can still use another person’s referral code to receive a 5% bonus, you just won’t be able to use that code to refer other people.
 
@@ -13,6 +24,10 @@ However, you can still use another person’s referral code to receive a 5% bonu
 You can track your rewards by entering your Kusama address on the [Karura site](https://acala.network/karura/join-karura) under the "Check rewards & bonus here" link \(screenshot below\).
 
 ![](../../.gitbook/assets/image-2-.png)
+
+### **Am I eligible for the early bird bonus if I participate directly through polkadot.js.org/apps?**
+
+Yes, as long as the early bird period has not expired.
 
 ### **Which wallets can I use for the Karura crowdloan?**
 
@@ -39,26 +54,23 @@ You can find your Kusama address by referring to our guide found [here](https://
 
 A step-by-step guide on how to participate through Polkadot{.js} browser extension and Polkawallet can be found [here](https://wiki.acala.network/karura/crowdloan/how-to-crowdloan).
 
-### How do I unbond my KSM?
-
-We've created guides for unbonding your KSM in Polkadot{.js} and Polkawallet. Look here for more information:
-
-* Unstaking Guide [Polkadot.{js} extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)  
-* Unstaking Guide [Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
-
 ### Am I allowed to contribute to the crowdloan multiple times?
 
 Yes. As long as the auction has not expired, you are allowed to contribute.
 
-### **How do I participate in the referral program?**
+### **How does the referral bonus work?**
 
-Those who participated in our waitlist promotion will be able to share referral links once they receive them. For each referral you make, you and your referee will both receive a 5% bonus on the amount they contribute to the Karura crowdloan. For example, if Alice shares her referral link with Bob, and Bob contributes 10 KSM to the crowdloan module, both will receive 6 KAR as a bonus \(10 KSM x 12KAR:1KSM reward ratio x 5%\).
+* If you're using someone else's link, you get a 5% KAR bonus on the amount **you** contributed
+* If someone is using your link, you will receive a 5% KAR bonus from the amount **they** contributed
 
-Referral program is supported on:
+For example, if Alice shares her referral link with Bob, and Bob contributes 10 KSM to the crowdloan module, both will receive 6 KAR as a bonus \(10 KSM x 12KAR:1KSM reward ratio x 5%\).
 
-* On Karura official website
+### Which platforms support the Referral program?
+
+* Karura official website
 * Polkawallet
-* Fearlesswallet
+* Fearless Wallet
+* Other platforms may also support them in a variety of ways. You can ask those platforms for details
 
 ### **Where can I track my referral bonus?**
 
@@ -81,10 +93,6 @@ Exchanges may have different promotion schemes. The following exchanges will be 
 
 Yes, you can self-refer and earn 5% bonus rewards in KAR as both the referrer and the referee.
 
-### **How can I check what Kusama address is associated with my referral code?**
-
-Your referral code is the public key of your account, additionally registered in our system. You can use[ subscan transform](https://acala-testnet.subscan.io/tools/ss58_transform) to find the associated Kusama address. You need to paste your referral code in the input field. Press "Transform" and find the corresponding Kusama address in the appeared list on the right. Note, the format of the referral code is 0x0000000000000000000000000000, it’s the part of the link that we sent you.
-
 ### **How long will my tokens be locked if I participate in the crowdloan?**
 
 Your KSM tokens will be locked for the full duration of Karura’s parachain lease, which is 48 weeks since the launch of the Karura network.
@@ -95,7 +103,7 @@ Yes, your KSM tokens will be automatically returned to you when the parachain le
 
 Karura never has custody of your KSM tokens. Your KSM tokens are bonded to the crowdloan module, which lives on the Kusama Relay Chain, and remain visible within your wallet.
 
-### **How can I withdraw my KSM from the crowdloan?**
+### **Can I withdraw my KSM from the crowdloan?**
 
 All submissions to the crowdloan module are final and cannot be withdrawn. You will automatically receive your funds at the end of the parachain lease.
 
@@ -112,6 +120,14 @@ No. KSM contributed to the crowdloan are locked on the Kusama Relay Chain. You w
 ### **How many KAR tokens will I receive for participating in the crowdloan?**
 
 Karura will distribute KAR tokens to crowdloan supporters at a ratio of at least 12 KAR for every 1 KSM.
+
+### **What is the purpose of the KAR token?**
+
+The KAR token serves three key functions:
+
+* The foundation of governance of Karura
+* Proof-of-liveness of the network \(rewards for collators\)
+* KAR as utility token to pay fees for various network activities
 
 ### **What is the KAR token supply?**
 
