@@ -35,7 +35,7 @@ No. Check the ways to participate here: [Crowdloan Ways to Participate](https://
 
 ### **When will the auction end?**
 
-The auction is set to end on June 22nd at 9:00 GMT.
+The auction is set to end on June 22nd 2021 at 9:00 GMT.
 
 ### **Where will I receive my KAR tokens from the crowdloan?**
 
