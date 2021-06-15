@@ -33,6 +33,10 @@ Please check this section: [Crowdloan Ways to Participate](https://wiki.acala.ne
 
 No. Check the ways to participate here: [Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
 
+### **When will the auction end?**
+
+The auction is set to end on June 22nd at 9:00 GMT.
+
 ### **Where will I receive my KAR tokens from the crowdloan?**
 
 After Karura has won the parachain auction, it will launch network Genesis on Kusama. The KAR rewards will be distributed after the network is launched to the Karura address associated with the Kusama address you used to contribute. For those who did not participate via the Karura website \(without agreeing to the T&C\), there will be a KAR claim process upon launch where you will need to agree to the T&C. Learn more on Karura launch process[ here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).
