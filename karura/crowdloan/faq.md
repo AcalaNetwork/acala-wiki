@@ -25,10 +25,6 @@ You can track your rewards by entering your Kusama address on the [Karura site](
 
 ![](../../.gitbook/assets/rewards-link.png)
 
-### **Am I eligible for the early bird bonus if I participate directly through polkadot.js.org/apps?**
-
-Yes, as long as the early bird period has not expired.
-
 ### **Which wallets can I use for the Karura crowdloan?**
 
 Please check this section: [Crowdloan Ways to Participate](https://wiki.acala.network/karura/crowdloan#3-2-ways-to-participate)
