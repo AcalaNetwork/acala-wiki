@@ -5,6 +5,7 @@
 ## Karura
 
 * [Home](karura/home.md)
+* [Karura Assets](karura/karura-assets.md)
 * [Karura Account](karura/karura-account/README.md)
   * [Check Address for Different Chains](karura/karura-account/check-address-for-different-chains.md)
 * [Crowdloan](karura/crowdloan/README.md)
