@@ -28,7 +28,18 @@ Kaura's ED is 0.1 KAR.
 
 ## Transaction Fees
 
+Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. 
 
+These are rough estimates of typical relevant transactions:
+
+* **Inter Kusama and Karura transfer,** there are two components to the cross-chain transfer fees:
+  * Kusama fees, determined by Kusama
+  * Karura fee: 8m KAR
+* **Karura** 
+  * **Transfer:** 4 mKAR
+  * **DeX swap:** 11.7 mKAR
+  * **Add liquidity:** 17.5 mKAR
+  * **Adjust kUSD loan:** 17.58 mKAR
 
 ## Karura PRC Endpoints
 
