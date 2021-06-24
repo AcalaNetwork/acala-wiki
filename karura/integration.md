@@ -22,9 +22,9 @@ Karura uses the [SS58 \(Substrate\) address format](https://github.com/paritytec
 
 ### Existential Deposit
 
-Karura uses an _existential deposit_ \(ED\) to prevent dust accounts from bloating state. If an account drops below the ED, it will be removed from storage and the nonce reset. 
+Karura uses an _existential deposit_ \(ED\) to prevent dust accounts from bloating state. If an account drops below the ED, it will be removed from this account and be donated to the Treasury. 
 
-Kaura's ED is TBD.
+Kaura's ED is 0.1 KAR.
 
 ## Transaction Fees
 
