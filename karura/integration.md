@@ -26,6 +26,8 @@ Karura uses an _existential deposit_ \(ED\) to prevent dust accounts from bloati
 
 Kaura's ED is TBD.
 
+## Transaction Fees
+
 ## Karura PRC Endpoints
 
 * `wss://karura.api.onfinality.io/public-ws`
