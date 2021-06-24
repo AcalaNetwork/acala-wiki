@@ -41,6 +41,8 @@ These are rough estimates of typical relevant transactions:
   * **Add liquidity:** 18 mKAR
   * **Adjust kUSD loan:** 18 mKAR
 
+Note: these are estimates and will be changed based on actual transaction size, network conditions and other factors.
+
 ## Karura PRC Endpoints
 
 * `wss://karura.api.onfinality.io/public-ws`
