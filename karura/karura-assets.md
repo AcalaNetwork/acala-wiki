@@ -31,3 +31,7 @@ KAR is the native token of Karura network in a similar way that BTC is the nativ
 | MilliKAR \(mLSKM\) | 9 | 0.001000000000 |
 | LKSM | 12 | 1.000000000000 |
 
+## KAR Utility
+
+KAR is the utility token that powers the Karura network. Find more details on the [KAR token website.](https://acala.network/karura/token)
+
