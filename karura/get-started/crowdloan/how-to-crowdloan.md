@@ -50,13 +50,13 @@ You can contribute multiple times with the same account. Do share your great con
 
 You shall see KSM balance once switched. Click the Kusama Parachain Auction banner at the bottom of the screen.
 
-![](../../.gitbook/assets/merged.png)
+![](../../../.gitbook/assets/merged.png)
 
 ### Read and Accept Terms & Conditions
 
 To participate in the crowdloan, you must read and accept the terms and conditions. You are required to sign with the account used to participate in the crowdloan, but it will not cost you anything.
 
-![](../../.gitbook/assets/1011623119982_.pic.jpg)
+![](../../../.gitbook/assets/1011623119982_.pic.jpg)
 
 ### Contribute to the crowdloan
 
@@ -66,13 +66,13 @@ If you have a referral code, enter it to receive an additional 5% bonus. Click `
 
 There may be other bonus programs depending on the time you join the crowdloan.
 
-![](../../.gitbook/assets/merged-3.png)
+![](../../../.gitbook/assets/merged-3.png)
 
 ### Submit Contribution
 
 Click `Contribute` button, this will submit your contribution to the Kusama Relay Chain. This may take a few seconds while Kusama finalizes your transaction.
 
-![](../../.gitbook/assets/1041623120126_.pic.jpg)
+![](../../../.gitbook/assets/1041623120126_.pic.jpg)
 
 ### **Post Submission**
 

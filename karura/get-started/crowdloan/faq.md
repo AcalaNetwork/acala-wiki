@@ -23,7 +23,7 @@ However, you can still use another person’s referral code to receive a 5% bonu
 
 You can track your rewards by entering your Kusama address on the [Karura site](https://acala.network/karura/join-karura) under the "Check rewards & bonus here" link \(screenshot below\).
 
-![](../../.gitbook/assets/rewards-link.png)
+![](../../../.gitbook/assets/rewards-link.png)
 
 ### **Which wallets can I use for the Karura crowdloan?**
 
