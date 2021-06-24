@@ -37,9 +37,9 @@ These are rough estimates of typical relevant transactions:
   * Karura fee: 8m KAR
 * **Karura** 
   * **Transfer:** 4 mKAR
-  * **DeX swap:** 11.7 mKAR
-  * **Add liquidity:** 17.5 mKAR
-  * **Adjust kUSD loan:** 17.58 mKAR
+  * **DeX swap:** 12 mKAR
+  * **Add liquidity:** 18 mKAR
+  * **Adjust kUSD loan:** 18 mKAR
 
 ## Karura PRC Endpoints
 
