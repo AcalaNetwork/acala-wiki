@@ -18,7 +18,7 @@ Karura uses the [SS58 \(Substrate\) address format](https://github.com/paritytec
 
 * **Acala**: 10 \([ss58 registry details](https://github.com/paritytech/substrate/blob/df4a58833a650cf37fc97764bf6c9314435e3cb2/ss58-registry.json#L103-L111)\)
 * **Karura**: 8 \([ss58 registry details](https://github.com/paritytech/substrate/blob/df4a58833a650cf37fc97764bf6c9314435e3cb2/ss58-registry.json#L85-L92)\)
-* **Mandala**: 
+* **Mandala**: 42
 
 ### Existential Deposit
 
