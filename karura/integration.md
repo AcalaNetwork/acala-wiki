@@ -32,12 +32,12 @@ Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispa
 
 * **Inter Kusama and Karura transfer,** there are two components to the cross-chain transfer fees:
   * Kusama fee, determined by Kusama
-  * Karura fee: 8m KAR
+  * Karura fee: 8 milliKAR
 * **Karura** 
-  * **Transfer:** 4 mKAR
-  * **DeX swap:** 12 mKAR
-  * **Add liquidity:** 18 mKAR
-  * **Adjust kUSD loan:** 18 mKAR
+  * **Transfer:** 4 milliKAR
+  * **DeX swap:** 12 milliKAR
+  * **Add liquidity:** 18 milliKAR
+  * **Adjust kUSD loan:** 18 milliKAR
 
 Note: these are estimates and will be changed based on actual transaction size, network conditions and other factors.
 
