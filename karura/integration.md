@@ -33,7 +33,7 @@ Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispa
 These are rough estimates of typical relevant transactions:
 
 * **Inter Kusama and Karura transfer,** there are two components to the cross-chain transfer fees:
-  * Kusama fees, determined by Kusama
+  * Kusama fee, determined by Kusama
   * Karura fee: 8m KAR
 * **Karura** 
   * **Transfer:** 4 mKAR
