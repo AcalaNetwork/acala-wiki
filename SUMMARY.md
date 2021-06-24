@@ -14,6 +14,7 @@
 * [Crowdloan](karura/crowdloan/README.md)
   * [How to Crowdloan](karura/crowdloan/how-to-crowdloan.md)
   * [FAQ](karura/crowdloan/faq.md)
+* [Integration](karura/integration.md)
 
 ## Acala
 

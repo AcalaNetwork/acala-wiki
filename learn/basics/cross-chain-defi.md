@@ -33,8 +33,8 @@ On Mandala testnet the cross-chain functionality is provided by a trusted servic
 
 #### Transfer aUSD to Laminar Chain
 
- Go to `Wallet` --&gt; tab `Cross-chain` --&gt; select `Inter Polkadot Transfer`. Next, select `To Chain` "Laminar", set currency as "aUSD" and put the account you want to transfer to and put the amount of aUSD you would like to send across to Laminar Chain, and click `Transfer`. The aUSD will be send to the same account on Laminar Chain.
- 
+Go to `Wallet` --&gt; tab `Cross-chain` --&gt; select `Inter Polkadot Transfer`. Next, select `To Chain` "Laminar", set currency as "aUSD" and put the account you want to transfer to and put the amount of aUSD you would like to send across to Laminar Chain, and click `Transfer`. The aUSD will be send to the same account on Laminar Chain.
+
 ![transfer](https://i.imgur.com/0hcakPv.png)
 
 #### Transfer aUSD back from Laminar Chain
