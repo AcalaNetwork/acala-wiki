@@ -34,5 +34,7 @@ Kaura's ED is TBD.
 * `wss://karura-rpc-2.aca-api.network/ws`
 * `wss://karura-rpc-3.aca-api.network/ws`
 
+## Types
 
+Type buddle [here](https://unpkg.com/browse/@acala-network/type-definitions@0.7.4-19/json/typesBundle.json).
 
