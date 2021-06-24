@@ -5,8 +5,8 @@
 ## Karura
 
 * [Home](karura/home.md)
-* [Karura Account](karura/karura-account.md)
-* [Check Address for Different Chains](karura/check-address-for-different-chains.md)
+* [Karura Account](karura/karura-account/README.md)
+  * [Check Address for Different Chains](karura/karura-account/check-address-for-different-chains.md)
 * [Crowdloan](karura/crowdloan/README.md)
   * [How to Crowdloan](karura/crowdloan/how-to-crowdloan.md)
   * [FAQ](karura/crowdloan/faq.md)
