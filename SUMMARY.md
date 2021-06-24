@@ -17,6 +17,7 @@
     * [Unstaking Your KSM](karura/crowdloan/ksm-address/unstaking-your-ksm/README.md)
       * [Unstaking Your KSM Tokens on Polkawallet](karura/crowdloan/ksm-address/unstaking-your-ksm/unstake-polkawallet.md)
       * [Unstaking Your KSM Tokens on Polkadot.{js} Extension](karura/crowdloan/ksm-address/unstaking-your-ksm/unstaking-your-ksm-tokens-on-polkadot.-js-extension.md)
+* [Transaction Fees](karura/transaction-fees.md)
 * [Integration](karura/integration.md)
 
 ## Acala
