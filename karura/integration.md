@@ -28,6 +28,8 @@ Kaura's ED is 0.1 KAR.
 
 ## Transaction Fees
 
+
+
 ## Karura PRC Endpoints
 
 * `wss://karura.api.onfinality.io/public-ws`
