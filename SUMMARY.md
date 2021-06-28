@@ -5,6 +5,7 @@
 ## Karura
 
 * [Home](karura/home.md)
+* [Karura Launch Phases](karura/karura-launch-phases.md)
 * [Crowdloan](karura/crowdloan/README.md)
   * [Crowdloan Rewards](karura/crowdloan/crowdloan-rewards.md)
   * [How to Crowdloan](karura/crowdloan/how-to-crowdloan.md)
