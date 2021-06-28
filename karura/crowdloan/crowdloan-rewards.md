@@ -4,7 +4,7 @@ description: "Thank you for contributing to the Karura crowdloan!! \U0001F680"
 
 # Crowdloan Rewards
 
-Check your rewards [here](https://distribution.acala.network/).
+**🔥Base reward**: **19.95 KAR for every 1 KSM contributed 🔥**Check your rewards [here](https://distribution.acala.network/).
 
 ## 1. Crowdloan Stats
 
@@ -28,6 +28,7 @@ Check your rewards [here](https://distribution.acala.network/).
 * **Total base KAR reward**: 10,000,000 \(10% of total fixed supply\)
 * **Total bonuses:** 1,548,000~ \(1.5% of total fixed supply\)
 * **Total KAR reward to be distributed:** 11.5%
+* **🔥Base reward**: **19.95 KAR for every 1 KSM contributed 🔥**
 
 ## 3. Individual Reward Details
 
