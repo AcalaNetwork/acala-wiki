@@ -14,7 +14,7 @@ description: "Thank you for contributing to the Karura crowdloan!! \U0001F680"
   * **13.2% via exchange**
   * **86.8% via non-custodial wallets** e.g. Polkadot{js} extension, Polkawallet, Fearless Wallet, MathWallet etc.
 * **Contribution distribution**
-  * **&lt;1 KSM:**   3,391 \(20.43%\)
+  * **&lt;1 KSM:**   2,893 \(20.43%\)
   * **&lt;10 KSM**: 7,843 \(55.4%\)
   * **&lt;50 KSM**: 2,383 \(16.83%\)
   * **&lt;1k KSM**: 983 \(6.94%\)
