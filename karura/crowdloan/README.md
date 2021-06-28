@@ -6,6 +6,7 @@ description: Crowdloan is a part of Karura's parachain launch process.
 
 ## Key Points
 
+* \*\*\*\*[**Check rewards**](crowdloan-rewards.md) 🔥
 * The Kusama parachain auction & Karura crowdloan event is happening soon, [register now,](https://acala.network/karura/join-karura) **get your KSM ready to bond**. Expect chaos & unpredictable announcements 🚀
 * The Karura Crowdloan Event is an experiment to crowdsource network security and a community-backed launch for individuals looking to contribute to the evolution of Kusama’s network and parachains.
 * **For** **every 1 KSM contributed, a minimum of 12 KAR will be rewarded**. The lease period \(KSM locked period\) is 48 weeks. 
@@ -107,4 +108,8 @@ You can enter your KSM address in [Subscan explorer](https://kusama.subscan.io/)
 After Karura has won the parachain auction, it will launch network Genesis on Kusama. The KAR rewards will be distributed after the network is launched. For those who did not participate via the Karura website \(without agreeing to the T&C\), there will be a KAR claim process upon launch.
 
 If Karura does not win the initial auction, it will continue to bid in the subsequent auctions. If Karura fails to win any auction for six weeks after the beginning of the crowdloan, then it will end the crowdloan and return all funds to holders.
+
+### 4.1 Check Rewards
+
+[Check crowdloan rewards](crowdloan-rewards.md).
 
