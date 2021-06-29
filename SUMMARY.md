@@ -21,7 +21,9 @@
   * [Karura Account](karura/get-started/karura-account/README.md)
     * [Check Address for Different Chains](karura/get-started/karura-account/check-address-for-different-chains.md)
   * [Transaction Fees](karura/get-started/transaction-fees.md)
-* [Integration](karura/integration.md)
+* [Integration Guide](karura/integration/README.md)
+  * [Full Node](karura/integration/full-node.md)
+  * [Collator](karura/integration/collator.md)
 
 ## Acala
 
