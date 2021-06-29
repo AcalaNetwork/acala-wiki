@@ -2,14 +2,6 @@
 
 ## Karura Network
 
-### Chain spec
-
-[https://github.com/AcalaNetwork/Acala/blob/westend/resources/karura-dist.json](https://github.com/AcalaNetwork/Acala/blob/westend/resources/karura-dist.json)
-
-### Docker
-
-[https://hub.docker.com/r/acala/karura-node](https://hub.docker.com/r/acala/karura-node)
-
 ### Telemetry
 
 [https://telemetry.polkadot.io/\#list/Karura](https://telemetry.polkadot.io/#list/Karura)
