@@ -32,14 +32,6 @@ Kaura's ED is 0.1 KAR.
 
 Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](https://wiki.acala.network/karura/transaction-fees) page for more info.
 
-## Karura PRC Endpoints
-
-* `wss://karura.api.onfinality.io/public-ws`
-* `wss://karura-rpc-0.aca-api.network`
-* `wss://karura-rpc-1.aca-api.network`
-* `wss://karura-rpc-2.aca-api.network/ws`
-* `wss://karura-rpc-3.aca-api.network/ws`
-
 ## Types
 
 Type buddle [here](https://unpkg.com/browse/@acala-network/type-definitions@0.7.4-19/json/typesBundle.json).
