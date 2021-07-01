@@ -6,7 +6,7 @@ Karura however has sub councils that manage specialized aspects of the network i
 
 ## Referenda
 
-Referenda is a simple, inclusive, stake-based voting scheme. Referenda can be started by public proposals or council proposals. There is a 7-day enactment delay associated with it. Emergency proposals \(e.g. fix urgent network issues\) can be "fast-tracked" to have a shorter enactment period. 
+Referenda is a simple, inclusive, stake-based voting scheme. Referenda can be started by public proposals or council proposals. There is a 8-day enactment delay associated with it. Emergency proposals \(e.g. fix urgent network issues\) can be "fast-tracked" to have a shorter enactment period. 
 
 Karura experiments with Polkadot's voting mechanisms including Tallying, Voluntary Locking, Adaptive Quorum Biasing. Read more [here](https://wiki.polkadot.network/docs/learn-governance/#referenda). 
 
