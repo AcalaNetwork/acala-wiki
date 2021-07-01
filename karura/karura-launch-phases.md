@@ -21,18 +21,18 @@ Since genesis, Karura's network security is provided by Kusama's Nominated Proof
 * [x] Karura crowdloan
 * [ ] Other events
 
-## 🕵️ \(WIP\) Tech Verification & Runtime Upgrade 
+## 🕵️ \(Done\) Tech Verification & Runtime Upgrade 
 
 Karura will perform a set of tests and verifications to ensure the network is operational
 
 * [x] Collators are producing blocks as expected
 * [x] Kusama is verifying blocks from Karura as expected
-* [ ] Runtime upgrade to fix any issues
-* [ ] Block time is stable
-* [ ] p2p connectivity is good
-* [ ] RPC node availability is good
+* [x] Runtime upgrade to fix any issues
+* [x] Block time is stable
+* [x] p2p connectivity is good
+* [x] RPC node availability is good
 
-## 🤹 Enable KSM Transfer from Kusama to Karura
+## 🤹 \(WIP\) Enable KSM Transfer from Kusama to Karura
 
 Transfer KSM from Kusama Relaychain to Karura parachain and back via **xtoken** will be enabled. However transfer within the Karura parachain will still be disabled at this stage.
 

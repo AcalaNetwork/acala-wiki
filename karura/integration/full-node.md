@@ -25,7 +25,7 @@ Same as the Kusama full node requirements.
     * The parachain service is using `parachian.json` as the chain spec and the web socket RPC port is 9944
     * The Relay Chain service is using `relaychain.json` as the chain spec and the web socket
 
-       RPC port is 9945
+      RPC port is 9945
 * It is recommended to explicitly specify the ports for both services to avoid confusion
   * For example `--listen-addr=/ip4/0.0.0.0/tcp/30333 --listen-addr=/ip4/0.0.0.0/tcp/30334/ws -- --listen-addr=/ip4/0.0.0.0/tcp/30335 --listen-addr=/ip4/0.0.0.0/tcp/30336/ws`
 
