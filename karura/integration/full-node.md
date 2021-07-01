@@ -7,14 +7,14 @@ Same as the Kusama full node requirements.
 ## Run from Source Code
 
 * Clone the repo: [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)
-* Checkout tag `1.0.2`
+* Checkout tag `1.1.0`
 * Install dependencies
 * Build Karura: `cargo build --release --features with-karura-runtime`
 * Run `./target/release acala --chain=karura`
 
 ## Using Docker
 
-* Image: `acala/karura-node:latest` or `acala/karura-node:1.0.1`
+* Image: `acala/karura-node:latest` or `acala/karura-node:1.1.0`
 * `docker run acala/karura-node:latest --chain=karura`
 
 ## Common CLI
@@ -28,7 +28,6 @@ Same as the Kusama full node requirements.
        RPC port is 9945
 * It is recommended to explicitly specify the ports for both services to avoid confusion
   * For example `--listen-addr=/ip4/0.0.0.0/tcp/30333 --listen-addr=/ip4/0.0.0.0/tcp/30334/ws -- --listen-addr=/ip4/0.0.0.0/tcp/30335 --listen-addr=/ip4/0.0.0.0/tcp/30336/ws`
-* It is recommended to add `--wasm-execution=compiled` to both the Relay Chain and the parachain arguments to ensure optimal performance
 
 ## Example CLI
 
@@ -45,9 +44,7 @@ Same as the Kusama full node requirements.
 --ws-port=9944
 --rpc-port=9933
 --ws-max-connections=2000
---wasm-execution=compiled
 --
 --chain=kusama
---wasm-execution=compiled
 ```
 
