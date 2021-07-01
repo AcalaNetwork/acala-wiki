@@ -59,9 +59,8 @@ Karura Collator needs Aura session key. RPC `author_rotateKeys` or `author_inser
 --chain=karura
 --name=collator-1
 --collator
---wasm-execution=compiled
+--execution=wasm
 --
 --chain=kusama
---wasm-execution=compiled
 ```
 
