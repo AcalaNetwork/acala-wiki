@@ -4,6 +4,8 @@ Karura takes a phased approach to employ various governance mechanisms that will
 
 Karura however has sub councils that manage specialized aspects of the network including the Financial Council, the Liquid Staking Council and the Technical Council. 
 
+Find out more on Karura Launch Phases and progressive decentralization roadmap [here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d). 
+
 ## Referenda
 
 Referenda is a simple, inclusive, stake-based voting scheme. Referenda can be started by public proposals or council proposals. There is a 8-day enactment delay associated with it. Emergency proposals \(e.g. fix urgent network issues\) can be "fast-tracked" to have a shorter enactment period. 
