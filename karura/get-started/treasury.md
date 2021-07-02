@@ -16,3 +16,9 @@ Deployment of the Treasury is initiated via Karura Treasury Proposals \(KTP\) th
 * Community, marketing, and event funding
 * Any other future community Karura Treasury Proposals \(KTPs\)
 
+## Existential Goal
+
+The primary objective of the Karura Treasury is to build up its KSM reserve to ensure Karura has a sustainable reservoir of KSM to lease a parachain slot from Kusama for the foreseeable future. The Treasury can trustlessly deploy the tokens to bond a parachain for itself to sustain its operation, bootstrap liquidity of the DeFi protocols on Karura to solve the chick-and-egg problem of market makers and takers hence benefiting the entire network, and support continuous platform and ecosystem development. This experiment may demonstrate positive reinforcement that will trickle up Karura’s network security, sustainability and network utility.
+
+## Creating a Treasury Proposal
+
