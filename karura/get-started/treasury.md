@@ -22,3 +22,5 @@ The primary objective of the Karura Treasury is to build up its KSM reserve to e
 
 ## Creating a Treasury Proposal
 
+Coming soon...
+
