@@ -22,6 +22,7 @@
     * [Check Address for Different Chains](karura/get-started/karura-account/check-address-for-different-chains.md)
   * [Transaction Fees](karura/get-started/transaction-fees.md)
   * [Governance](karura/get-started/governance.md)
+  * [Treasury](karura/get-started/treasury.md)
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
   * [Networks](karura/integration/networks.md)
