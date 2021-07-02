@@ -2,7 +2,7 @@
 
 ## What is Karura Treasury
 
-Karura Treasury experiments with similar concepts and mechanisms of the Acala Treasury. What [the Acala Treasury intro video](https://www.youtube.com/watch?v=Wh8g89OPFH8) to learn more.
+Karura Treasury experiments with similar concepts and mechanisms of the Acala Treasury. Watch [the Acala Treasury intro video](https://www.youtube.com/watch?v=Wh8g89OPFH8) to learn more.
 
 The Karura Treasury is a reserve of digital tokens, native and foreign to the Acala ecosystem, governed by KAR holders and funded from Karura’s protocol fees and community contribution events with the purpose of enabling long-term network self-sustainability and growth.
 
