@@ -36,7 +36,7 @@ Karura will perform a set of tests and verifications to ensure the network is op
 
 Transfer KSM from Kusama Relaychain to Karura parachain and back via **xtoken** will be enabled. However transfer within the Karura parachain will still be disabled at this stage.
 
-## 🎯 Distribute KAR
+## 🎯 \(WIP\) Distribute KAR
 
 Batch distribution of KAR to 
 
@@ -51,11 +51,11 @@ If you have participated via exchanges or custodial agencies, the rewards will b
 
 **You can check whether your KAR rewards need to be claimed** [**here**](https://distribution.acala.network/)**.**
 
-If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies, please contact them directly for distribution schedule. 
+If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies, please contact them directly for the distribution schedule. 
 
 If you participated in Karura ****crowdloan via the ****Polkadot web app directly, or via non-custodial wallets other than Polkawallet and Fearless wallet, you will need to agree to our T&C by completing a claim process for KAR. The Claim KAR website will be released once it's ready.
 
-## ✋ Council Governance + Democracy
+## ✋ \(WIP\) Council Governance + Democracy
 
 After the chain had been running stably with the collator set, the sudo key will perform a runtime upgrade and enable appointed Councilors and democracy. Other councils including Financial Council, Technical Council, and Liquid Staking Council, as well as public referenda will also be enabled.  
 
