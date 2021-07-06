@@ -20,6 +20,12 @@ On Karura there are the following steps balance types
 * **Locked Balance:** this balance is frozen, depending on the scheme, it could be locked for a certain period of time before being transferrable, or it could be vested where a portion of the balance gradually become transferrable, or a combination of these. 
 * **Total Balance:** is the sum of transferrable balance plus the locked balance. The entire balance can be used for governance operations such as voting. 
 
+## Existential Deposit
+
+Karura uses an _existential deposit_ \(ED\) to prevent dust accounts from bloating state. If an account drops below the ED, it will be removed from this account and be donated to the Treasury. 
+
+Kaura's ED is 0.1 KAR.
+
 ## Account Generation 
 
 Before the network is live, and during the initial launch period, below is the only recommended method for generating an Acala and Karura account:
