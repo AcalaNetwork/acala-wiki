@@ -12,6 +12,14 @@ Acala and Karura use the Substrate-based chain address format SS58. Read more [h
 * Kusama addresses always start with a capital letter like C, D, F, G, H, J...
 * Generic Substrate addresses start with 5.
 
+## Balance Types
+
+On Karura there are the following steps balance types
+
+* **Transferrable Balance**: as the name suggests, this balance can be used for transfers, paying fees and performing any actions on-chain.
+* **Locked Balance:** this balance is frozen, depending on the scheme, it could be locked for a certain period of time before being transferrable, or it could be vested where a portion of the balance gradually become transferrable, or a combination of these. 
+* **Total Balance:** is the sum of transferrable balance plus the locked balance. The entire balance can be used for governance operations such as voting. 
+
 ## Account Generation 
 
 Before the network is live, and during the initial launch period, below is the only recommended method for generating an Acala and Karura account:
