@@ -73,6 +73,7 @@ Acala will be composable with the following \(potential\) parachains. If you hav
 * Crust
 * Snowfork
 * Bit.Country
+* Kabocha
 * ...
 
 Don't hesitate to contact us if you'd like to try it out, need support, and/or want to run some cross-chain testing together with us!
