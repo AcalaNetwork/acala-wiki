@@ -40,7 +40,7 @@ Transfer KSM from Kusama Relaychain to Karura parachain and back via **xtoken** 
 
 Batch distribution of KAR to 
 
-* [ ] Testnet campaign rewards & airdrops
+* [x] Testnet campaign rewards & airdrops
 * [ ] "Build Acala \#1" rewards
 * [ ] Karura crowdloan participants
 * [ ] Other events 
