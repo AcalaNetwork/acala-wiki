@@ -62,7 +62,6 @@
   * [Try Acala DApp](general/acala-hacker-guide/try-acala-dapp.md)
 * [Contribution & Rewards](general/contribution-rewards/README.md)
   * [Acala Old Friend NFT](general/contribution-rewards/acala-old-friend-nft.md)
-* [FAQ](general/faq.md)
 
 ## Learn
 

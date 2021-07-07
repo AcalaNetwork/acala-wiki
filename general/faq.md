@@ -1,8 +1,0 @@
-# FAQ
-
-## Coming Soon...
-
-## 
-
-
-
