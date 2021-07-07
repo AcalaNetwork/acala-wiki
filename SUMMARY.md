@@ -42,7 +42,6 @@
 * [Acala Portal](general/acala-portal/README.md)
   * [General Links](general/acala-portal/general-links.md)
   * [Community](general/acala-portal/community.md)
-  * [News](general/acala-portal/news.md)
   * [Alliance](general/acala-portal/partnerships.md)
   * [Audits](general/acala-portal/audits.md)
   * [Progress Update](general/acala-portal/progress-update/README.md)
