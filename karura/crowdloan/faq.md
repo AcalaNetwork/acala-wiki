@@ -14,7 +14,7 @@ We have created a website that walks users through the claims process. The link 
 
 ### **Where will I receive my KAR tokens from the crowdloan?**
 
-The KAR rewards will be distributed to the Karura address associated with the Kusama address you used to contribute. Polkawallet users can see their KAR tokens by connecting to the Karura network in teh Polkawallet app. Polkadot.js browser extension users should go to [https://polkadot.js.org/apps](https://polkadot.js.org/apps) and connect to the Karura network to see their tokens. When doing this, make sure that your Polkadot.js browser extension is set to "allow use on any chain" \(screenshot below\).
+The KAR rewards will be distributed to the Karura address associated with the Kusama address you used to contribute. Polkawallet users can see their KAR tokens by connecting to the Karura network in the Polkawallet app. Polkadot.js browser extension users should go to [https://polkadot.js.org/apps](https://polkadot.js.org/apps) and connect to the Karura network to see their tokens. When doing this, make sure that your Polkadot.js browser extension is set to "allow use on any chain" \(screenshot below\).
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
 
