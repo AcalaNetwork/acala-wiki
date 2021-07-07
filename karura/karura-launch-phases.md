@@ -41,13 +41,13 @@ Transfer KSM from Kusama Relaychain to Karura parachain and back via **xtoken** 
 Batch distribution of KAR to 
 
 * [x] Testnet campaign rewards & airdrops
-* [ ] "Build Acala \#1" rewards
-* [ ] Karura crowdloan participants
+* [x] "Build Acala \#1" rewards
+* [x] Karura crowdloan participants
 * [ ] Other events 
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies, please contact them directly for distribution schedule. 
 
-## 🎁 Claim KAR
+## 🎁 \(WIP\) Claim KAR
 
 **You can check whether your KAR rewards need to be claimed** [**here**](https://distribution.acala.network/)**.**
 
