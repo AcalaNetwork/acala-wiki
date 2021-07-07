@@ -26,11 +26,3 @@ There are multiple ways you can build with Acala, by deploying smart contracts o
 
 Join [Acala Ecosystem Program](https://acala.network/ecosystem-program.html).
 
-## Investment Enquiries
-
-For venture enquiries, please [contact us](mailto:hello@acala.network) to discuss.
-
-We are yet to release any public sale plans. Please subscribe to [the Acala newsletter](https://share.hsforms.com/1X9RxkXk-R62I0VNbATaDXw4h8qc) for updates on the project, mainnet and tokens.
-
-In addition, you can fill out [this form](https://forms.gle/DLXmWPQGZfqQjJvB6) to help us gauge community interest in the project.
-
