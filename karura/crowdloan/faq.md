@@ -26,7 +26,7 @@ No. The KAR rewards will be distributed to the Karura address associated with th
 
 30% of your KAR tokens will be immediately unlocked and the remaining 70% will unlock of the duration of the parachain lease. A small portion of your locked tokens will be unlocked with every block \(block times are targeted for every 12 seconds\).
 
-### Can I send my KAR To another address?
+### Can I send my KAR to another address?
 
 No. Transfers have not yet been enabled but are part of our launch process. You can track the launch progress at [https://aca.la/karura-roadmap](https://aca.la/karura-roadmap).
 
