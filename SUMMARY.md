@@ -5,6 +5,7 @@
 ## Karura
 
 * [Home](karura/home.md)
+* [Community & Social Media](https://linktr.ee/karuranetwork)
 * [Karura Launch Phases](karura/karura-launch-phases.md)
 * [Crowdloan](karura/crowdloan/README.md)
   * [Crowdloan Event](karura/crowdloan/crowdloan-event.md)
