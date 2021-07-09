@@ -4,15 +4,14 @@ The public Referenda Chamber is one of the three bodies alongside the General Co
 
 ## Governance Parameters
 
-These are important governance parameters, which may change over time as we progress through the governance phases.  
+These are important governance parameters, which may change over time as we progress through the governance phases.
 
-
-* Launch Period: Public referenda is every 2 days
-* Voting Period: Votes are tallied every 2 days
-* Emergency Voting Period: Voting period for fast-tracked emergency referendum is 3 Hours
-* Minimum Deposit: Propose a referendum requires minimum deposit of 1000 KAR
-* Enactment Period: Minimum period for locking funds and the period between a proposal being approved and enacted is 1 day
-* Colloff Period: Vetoed proposal may not be re-submitted within 7 days
+* Launch Period: Public referenda is every **2 days**
+* Voting Period: Votes are tallied every **2 days**
+* Emergency Voting Period: Voting period for fast-tracked emergency referendum is **3 Hours**
+* Minimum Deposit: Propose a referendum requires a minimum deposit of **1000 KAR**
+* Enactment Period: Minimum period for locking funds and the period between a proposal being approved and enacted is **1 day**
+* Colloff Period: Vetoed proposal may not be re-submitted within **7 days**
 
 ## Propose a Referendum
 
