@@ -46,7 +46,7 @@ Once a proposal is stabled in as a referendum, it will show up in the referenda 
 
 ## Delegate Vote
 
-You can delegate your vote to others to vote on your behalf. On the Polkadot Apps - Karura parachain, go to the `Developer` tab -- `Extrinsics` , then select `democracy.delegate` .
+You can delegate your vote to others to vote on your behalf. On [the Polkadot Apps - Karura parachain,](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-1.aca-api.network#/extrinsics) go to the `Developer` tab -- `Extrinsics` , then select `democracy.delegate` .
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-09-at-7.05.20-pm.png)
 
