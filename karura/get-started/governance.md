@@ -1,8 +1,8 @@
 # Governance
 
-Karura takes a phased approach to employ various governance mechanisms that will allow it to progressively decentralize and ultimately be commanded by the majority network stakeholders. Karura's governance framework is based on Polkadot's technology that employs a Referenda chamber and a General Council to govern the network.
+Karura takes a phased approach to employ various governance mechanisms that will allow it to progressively decentralize and ultimately be commanded by the majority network stakeholders. Karura's governance framework is based on Polkadot's technology that employs a Referenda chamber, a General Council, and a Technical Committee to govern the network.
 
-Karura however has sub councils that manage specialized aspects of the network including the Financial Council, the Liquid Staking Council and the Technical Council. 
+Karura however has sub councils that manage specialized aspects of the network including the Financial Council and the Liquid Staking Council. 
 
 Find out more on Karura Launch Phases and progressive decentralization roadmap [here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d). 
 
@@ -32,17 +32,19 @@ Overseeing updates of Liquid Staking parameters e.g. validator selection
 
 * Elected by LKSM holders.
 
-### Technical Council
-
-Fastracking emergency proposals that are critical to the network operation, delaying an enactment, and canceling uncontroversially dangerous proposals. 
-
-* Elected by the General Council via 2/3 approval rating. 
-
 ### Oracle Collective
 
 Electing Oracle operators. Membership of the [Oracle Gateway](../../learn/basics/oracle/) requires approval from the General Council, which is essentially a Proof-of-Authority model that only authorized trusted operators can provide price feeds into the network. This model will evolve with the contemporary R&D on the Oracle problem.
 
 * Elected by the General Council via 2/3 approval rating. 
+
+## Technical Committee
+
+Fastracking emergency proposals that are critical to the network operation, delaying an enactment, and canceling uncontroversially dangerous proposals. 
+
+* Elected by the General Council via 2/3 approval rating. 
+
+### 
 
 
 
