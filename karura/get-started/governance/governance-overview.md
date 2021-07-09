@@ -1,4 +1,4 @@
-# Governance
+# Overview
 
 Karura takes a phased approach to employ various governance mechanisms that will allow it to progressively decentralize and ultimately be commanded by the majority network stakeholders. Karura's governance framework is based on Polkadot's technology that employs a Referenda chamber, a General Council, and a Technical Committee to govern the network.
 
@@ -34,7 +34,7 @@ Overseeing updates of Liquid Staking parameters e.g. validator selection
 
 ### Oracle Collective
 
-Electing Oracle operators. Membership of the [Oracle Gateway](../../learn/basics/oracle/) requires approval from the General Council, which is essentially a Proof-of-Authority model that only authorized trusted operators can provide price feeds into the network. This model will evolve with the contemporary R&D on the Oracle problem.
+Electing Oracle operators. Membership of the [Oracle Gateway](../../../learn/basics/oracle/) requires approval from the General Council, which is essentially a Proof-of-Authority model that only authorized trusted operators can provide price feeds into the network. This model will evolve with the contemporary R&D on the Oracle problem.
 
 * Elected by the General Council via 2/3 approval rating. 
 
@@ -43,8 +43,4 @@ Electing Oracle operators. Membership of the [Oracle Gateway](../../learn/basics
 Fastracking emergency proposals that are critical to the network operation, delaying an enactment, and canceling uncontroversially dangerous proposals. 
 
 * Elected by the General Council via 2/3 approval rating. 
-
-### 
-
-
 
