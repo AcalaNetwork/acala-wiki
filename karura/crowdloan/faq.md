@@ -10,7 +10,7 @@ Only users that participated through the website [https://polkadot.js.org/apps](
 
 ### How do I claim my tokens?
 
-We have created a website that walks users through the claims process. The link to that site will be published shortly.
+We have created the website [https://distribution.acala.network/claim](https://distribution.acala.network/claim) for users to claim their tokens.
 
 ### **Where will I receive my KAR tokens from the crowdloan?**
 
