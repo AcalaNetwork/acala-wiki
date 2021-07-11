@@ -23,7 +23,7 @@ Below are the guides for how to use either to claim.
 
 ### Using System Remark
 
-### Use Sign and Verify
+### Using Sign and Verify
 
 You can go to the [Polkadot App - Developer - Sign and Verify](https://polkadot.js.org/apps/#/signing) \(using either Polkadot, Kusama, or Karura are all fine\).
 
