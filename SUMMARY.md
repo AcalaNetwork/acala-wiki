@@ -10,6 +10,7 @@
 * [Crowdloan](karura/crowdloan/README.md)
   * [Crowdloan Event](karura/crowdloan/crowdloan-event.md)
   * [Crowdloan Rewards](karura/crowdloan/crowdloan-rewards.md)
+  * [Claim KAR](karura/crowdloan/claim-kar.md)
   * [How to Crowdloan](karura/crowdloan/how-to-crowdloan.md)
   * [FAQ](karura/crowdloan/faq.md)
   * [KSM Address](karura/crowdloan/ksm-address/README.md)
