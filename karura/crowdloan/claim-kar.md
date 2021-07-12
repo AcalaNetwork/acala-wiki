@@ -12,7 +12,7 @@ It requires you to use the extension to sign a message, but it does not cost any
 
 You can navigate to the Claim Website from the Distribution site or directly [here](https://distribution.acala.network/claim). If you did not participate in the crowdloan event with the Polkadot{js} extension, then select `Claim Manually` and **enter the address you used to participate in the Karura crowdloan**.
 
-![](../../.gitbook/assets/screen-shot-2021-07-12-at-11.24.39-am.png)
+![](../../.gitbook/assets/screen-shot-2021-07-12-at-12.38.19-pm.png)
 
 There are two ways to claim
 
