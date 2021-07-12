@@ -1,5 +1,9 @@
 # Protocol Overview
 
+🚨Karura is a "canary network" for Acala an early unaudited release of the code that is available first and holds real economic value. It is highly experimental and unstable.
+
+No promise, and expect chaos. 
+
 ## Protocol Overview <a id="docs-internal-guid-5d169e2a-7fff-ada4-2faf-de1f173819b1"></a>
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-12-at-4.37.23-pm.png)
