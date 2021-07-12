@@ -12,19 +12,23 @@ Karura Swap is an automated market maker \(AMM\) styled decentralized exchange p
 
 The Swap contains multiple liquidity pools each of which is made up of two different tokens e.g. Token A-Token B pool and Token B-Token C pool. Users can swap any token to any other token in a single transaction provided there is a path between them e.g. even if there's no Token A-Token C pool, users can still swap Token A for Token C, given they have a common path via Token B. 
 
-### Bootstrap a Pool
+## Bootstrap a Pool
 
 Anyone can submit an on-chain proposal to list a new token pair \(aka start a new pool\). The **“Something at Stake” approach** of listing retains the ethos of decentralization, while to a large extent minimizing scam listings.  
 
 A listing can be started with or without a Bootstrap period. In most cases, the Bootstrap period would be beneficial, as trading is frozed for a period of time and until certain liquidity requirements are met to allow a reasonable exchange ratio to be consolidated and avoid adversarial operations such as front-running.
 
-During the Bootstrap period, anyone who wants to become a liquidity provider \(LP\) can provide liquidity for one side e.g. Token A or both sides \(Token A and B\) of the trading pair. The Bootstrap period ends once the time and liquidity requirements are met, and an opening exchange ratio will then be settled. Each LP will then be allocated pro-rata LP shares of the total pool, which can be redeemed for underlying assets at any time.
+During the Bootstrap period, anyone who wants to become a liquidity provider \(LP\) can provide liquidity for one side e.g. Token A or both sides \(Token A and B\) of the trading pair. The Bootstrap period ends once the time and liquidity requirements are met, and an opening exchange ratio will then be settled. 
+
+Then the LP Shares allocated to each liquidity provider is finalized. LP Shares is a pro-rata representation of LP's contribution to the overall liquidity of a given pool. LP shares can then be redeemed for underlying assets \(Token A and B\) at any time.
 
 Here is an example to illustrate this:
 
-![](https://lh4.googleusercontent.com/z_iATKWWlEndrjeX_98j1RKDwcpc0PrHIG50crwO77X06AEotSM8ZSlA6ejJG30FKxSCLL_pIEUE-yFHTXJDP_aU9VD0sIPXt47uYJYWPpaW0WeR21udiyjeiot0o-TjvEWG9Mqc)
+![](../../../.gitbook/assets/screen-shot-2021-07-13-at-9.59.36-am.png)
 
-### Trading & LPs
+[Read more on Bootstrap a Pool.](bootstrap-a-pool.md)
+
+## Trading & LPs
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-12-at-4.37.31-pm.png)
 
