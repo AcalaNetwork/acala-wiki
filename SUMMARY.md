@@ -34,6 +34,7 @@
     * [LP Returns & Risks](karura/defi-hub/swap/lp-returns-and-risks.md)
     * [Price Risks](karura/defi-hub/swap/price-risks.md)
     * [Fees](karura/defi-hub/swap/fees.md)
+    * [Usage & Participants](karura/defi-hub/swap/usage-and-participants.md)
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
   * [Networks](karura/integration/networks.md)
