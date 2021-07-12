@@ -1,5 +1,7 @@
 # LP Returns & Risks
 
+## Returns
+
 Liquidity Providers are incentivized to provide liquidity to various trading pools from the following avenues:
 
 * \([Source](https://github.com/AcalaNetwork/Acala/blob/master/runtime/karura/src/lib.rs#L1067)\) obtaining fees generated from trades
@@ -7,6 +9,8 @@ Liquidity Providers are incentivized to provide liquidity to various trading poo
   * the reward rate `DexSavingRewardRate` is yet to be determined
   * APY: 1/2 \* \(1+DexSavingRewardRate\)^\(60 min \* 24 \* 365\)
 * receiving liquidity mining rewards \(in KAR\) from occasional Liquidity Programs for certain pools
+
+## Impermanent Loss
 
 However, there are various risks of being a liquidity provider especially when there are significant fluctuations in the underlying asset exchange rates, which may result in **LP’s worse off than simply holding the tokens**. 
 
