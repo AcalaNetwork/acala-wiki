@@ -41,7 +41,14 @@ description: "Thank you for contributing to the Karura crowdloan!! \U0001F680"
 
 ## 4. Check Rewards
 
-Check your rewards [here](https://distribution.acala.network/).
+Rewards to be distributed are all recorded on the [`Distribution Website`](https://distribution.acala.network)
+
+Most of the KAR rewards have been distributed \(except for the ones that need to be claimed\). You can check your balances 
+
+* on the [Polkadot Apps - Karura parachain - Accounts](https://polkadot.js.org/apps/#/accounts) \(you need to switch to the Karura parachain under Kusama\) OR
+* on [Karura Subscan explore](https://karura.subscan.io/)
+
+If your rewards are marked as `To be Claimed`, please [follow the guide here](claim-kar.md) to claim.
 
 ![](../../.gitbook/assets/screen-shot-2021-06-28-at-3.45.11-pm.png)
 
