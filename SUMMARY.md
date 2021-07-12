@@ -35,6 +35,7 @@
     * [LP Returns & Risks](karura/defi-hub/swap/lp-returns-and-risks.md)
     * [Price Risks](karura/defi-hub/swap/price-risks.md)
     * [Fees](karura/defi-hub/swap/fees.md)
+    * [Swap SDK](https://github.com/AcalaNetwork/acala.js/tree/8b9c7a79bb4678eccfcb9e2ff4989596dbf43331/packages/sdk-swap)
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
   * [Networks](karura/integration/networks.md)
