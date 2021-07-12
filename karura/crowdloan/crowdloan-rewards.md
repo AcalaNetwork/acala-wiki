@@ -33,11 +33,11 @@ description: "Thank you for contributing to the Karura crowdloan!! \U0001F680"
 ## 3. Individual Reward Details
 
 * **Base reward**: **19.95 KAR for every 1 KSM contributed**
-* **Referral bonus**: 5% additional KAR for referee, 5% for referrer when a referral link used
+* **Referral bonus**: 5% additional KAR for the referee, 5% for the referrer when a referral link used
 * **Early Bird bonus \(**Block ****7830327-7873712**\):** 10% additional KAR for contribution during the first 3 days of the Karura crowdloan
 * **Auction Kickoff bonus \(**Block ****7923125-7920725**\):** 5% additional KAR for contributing between 4 hours before the auction and the end of auction phase one
 * **Other:** 
-  * 5% referral bonus are given to the keen ones who contributed in the first 2 hours of Karura crowdloan without a referral
+  * 5% referral bonuses is given to the keen ones who contributed in the first 2 hours of Karura crowdloan without a referral
 
 ## 4. Check Rewards
 
