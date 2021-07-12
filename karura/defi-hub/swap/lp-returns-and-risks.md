@@ -2,8 +2,10 @@
 
 Liquidity Providers are incentivized to provide liquidity to various trading pools from the following avenues:
 
-* obtaining fees generated from trades
-* receiving a portion of the stability fees \(in kUSD\) from the stablecoin protocol as the Swap is utilized as a complimentary liquidation mechanism
+* \([Source](https://github.com/AcalaNetwork/Acala/blob/master/runtime/karura/src/lib.rs#L1067)\) obtaining fees generated from trades
+* \([Source](https://github.com/AcalaNetwork/Acala/blob/4e6a2b94f5153cd7a09279914366927f357767d5/modules/incentives/src/lib.rs#L201)\) receiving a portion of the stability fees \(in kUSD\) from the stablecoin protocol as the Swap is utilized as a complimentary liquidation mechanism
+  * the reward rate `DexSavingRewardRate` is yet to be determined
+  * APY: 1/2 \* \(1+DexSavingRewardRate\)^\(60 min \* 24 \* 365\)
 * receiving liquidity mining rewards \(in KAR\) from occasional Liquidity Programs for certain pools
 
 However, there are various risks of being a liquidity provider especially when there are significant fluctuations in the underlying asset exchange rates, which may result in **LP’s worse off than simply holding the tokens**. 
