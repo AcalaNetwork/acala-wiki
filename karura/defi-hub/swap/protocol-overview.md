@@ -2,7 +2,7 @@
 
 ## Protocol Overview <a id="docs-internal-guid-5d169e2a-7fff-ada4-2faf-de1f173819b1"></a>
 
-![](https://lh6.googleusercontent.com/RX1hZgUwBz_QBOy0fiV4IwDuxDTV2WCbirghLBKgNmfdQeVNRvVuKeQUODSYBzhM0cm8X3rFM7kzWr3xIM7J0EdwMUDOYgacDHwpl-sMJNsFlax5FolbSbaM8pWvEBg-ap5mXp-W)
+![](../../../.gitbook/assets/screen-shot-2021-07-12-at-4.37.23-pm.png)
 
 Karura Swap is an automated market maker \(AMM\) styled decentralized exchange protocol implemented and deployed as upgradable runtime modules on the Karura network. Karura Swap will be available as pre-compiled Smart Contracts on Acala EVM once enabled on the Karura network. The Swap supports both native Substrate tokens and ERC-20 tokens.
 
@@ -22,7 +22,7 @@ Here is an example to illustrate this:
 
 ### Trading & LPs
 
-![](https://lh6.googleusercontent.com/FnuyB4WJF5DO6vVBpO2YTaGRy6VPS857SP2p5ffCvOQclTFrHLV8-gwBaJfRStNNl3MLwlxfiSZgPgpj0f2pQdAkCY3EaafAnkvAAwgdLDF5qr7xDbafmm1TjXp46xbieiPnXNMa)
+![](../../../.gitbook/assets/screen-shot-2021-07-12-at-4.37.31-pm.png)
 
 The Swap design was inspired by the “constant product formula” first introduced by Uniswap. The exchange rate curve is defined by x \* y = k. At any given time, the exchange rate would be x/y. There is a 0.3% fee applicable to every trade, which does increase the constant k, and is shared amongst all LPs based on their shares of the pool. LPs can realize the gain when redeeming the underlying tokens \(and essentially burning their LP shares\).
 
