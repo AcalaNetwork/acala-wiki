@@ -8,9 +8,9 @@ These are rough estimates of typical relevant transactions:
 
 * **Inter Kusama and Karura transfer,** there are two components to the cross-chain transfer fees:
   * Kusama fee, determined by Kusama
-  * Karura fee: 8 milliKAR
+  * Karura fee: 0.08 milliKSM
 * **Karura** 
-  * **Transfer:** 4 milliKAR
+  * **Transfer:** 4 milliKAR \(0.004 KAR\)
   * **DeX swap:** 12 milliKAR
   * **Add liquidity:** 18 milliKAR
   * **Adjust kUSD loan:** 18 milliKAR
