@@ -6,11 +6,14 @@ description: The home of Acala wiki.
 
 Welcome to the Acala wiki, the hub for those interested in learning, building, or using the Acala protocol. The wiki is sectioned into three major sections to cater to each of these different actors in the Acala ecosystem. If you're eager to start building your project to connect to Acala Network, see the [build](https://wiki.acala.network/build/) section. If you're interested in operating a node, head on over to the [maintain](https://wiki.acala.network/maintain/) section. And, if you want to learn more then peruse the [learn](https://wiki.acala.network/learn/) section below. If you want to quickly find some general information, such as communities and white papers, please find [general](https://wiki.acala.network/general/).
 
+There are additional two sections one for Karura and one for Acala to outline the specificities of each network.
+
 If you're looking for an introduction to Acala please [see here](https://wiki.acala.network/learn/acala-introduction).
 
 ### Want to get started?
 
-* [Get Started](https://wiki.acala.network/learn/get-started) - Directly participate in the network to play.
+* [Get Started with the live Karura network](karura/get-started/)
+* [Get Started](https://wiki.acala.network/learn/get-started) with the testnet - Try the test network.
 * [Acala Portal](https://wiki.acala.network/general/acala-portal) - **Quick navigation in order to learn Acala Network.**
 
 ### Want to build on Acala?
