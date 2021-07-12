@@ -12,14 +12,14 @@ Since genesis, Karura's network security is provided by Kusama's Nominated Proof
 
 **Karura parachain is available on** [**Subscan**](https://karura.subscan.io/) **&** [**Polkadot App**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws#/explorer)\*\*\*\*
 
-## 🏒 \(WIP\) **Finalize KAR Distribution**
+## 🏒 \(Done\) **Finalize KAR Distribution**
 
 **You can view KAR distributions are available** [**here**](https://distribution.acala.network/)**.**
 
 * [x] Testnet campaign rewards & airdrops
 * [x] "Build Acala \#1" rewards
 * [x] Karura crowdloan
-* [ ] Other events
+* [x] Other events
 
 ## 🕵️ \(Done\) Tech Verification & Runtime Upgrade 
 
