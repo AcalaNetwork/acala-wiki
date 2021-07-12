@@ -7,14 +7,14 @@ Same as the Kusama full node requirements.
 ## Run from Source Code
 
 * Clone the repo: [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)
-* Checkout tag `1.1.0`
+* Checkout tag here: [https://github.com/AcalaNetwork/Acala/tags](https://github.com/AcalaNetwork/Acala/tags)
 * Install dependencies
 * Build Karura: `cargo build --release --features with-karura-runtime`
 * Run `./target/release acala --chain=karura`
 
 ## Using Docker
 
-* Image: `acala/karura-node:latest` or `acala/karura-node:1.1.0`
+* Image: `acala/karura-node:latest` or `acala/karura-node:[version number]`
 * `docker run acala/karura-node:latest --chain=karura`
 
 ## Common CLI
