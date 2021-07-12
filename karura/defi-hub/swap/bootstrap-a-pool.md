@@ -48,6 +48,7 @@ Here is an example to illustrate this:
 
 ## **Submit a Proposal to Bootstrap a Pool**
 
-**TBD**  
+This is the preimage of proposing to bootstrap a pool. Read more on how to submit a proposal [here](../../get-started/governance/participate-in-democracy.md).
 
+![](../../../.gitbook/assets/screen-shot-2021-07-13-at-10.10.36-am.png)
 
