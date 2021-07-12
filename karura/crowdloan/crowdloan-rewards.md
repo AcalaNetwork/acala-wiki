@@ -47,6 +47,7 @@ Most of the KAR rewards have been distributed \(except for the ones that need to
 
 * on the [Polkadot Apps - Karura parachain - Accounts](https://polkadot.js.org/apps/#/accounts) \(you need to switch to the Karura parachain under Kusama\) OR
 * on [Karura Subscan explore](https://karura.subscan.io/)
+* If you participated via exchanges, all participated exchange rewards have been distributed to them, so please contact them directly
 
 If your rewards are marked as `To be Claimed`, please [follow the guide here](claim-kar.md) to claim.
 
