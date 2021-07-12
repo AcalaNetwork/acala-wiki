@@ -10,6 +10,10 @@
 
 [https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-westend-rpc.aca-staging.network\#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-2.aca-api.network%2Fws#/explorer)
 
+### Explorer
+
+[https://karura.subscan.io/](https://karura.subscan.io/)
+
 ### PRC Endpoints
 
 * `wss://karura.api.onfinality.io/public-ws`
