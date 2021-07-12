@@ -30,3 +30,5 @@ When a trader wants to swap Token A for Token B, he/she can either aim to swap a
 
 When LPs add liquidity, they can aim to get a minimum of LP shares; when LPs withdraw liquidity, they can aim to redeem a certain minimum number of token A and Token B. This again to some degree provides a protective ceiling for potential exploits e.g. from
 
+Please be aware of various risks of being a liquidity provider and trading with the Karura Swap, read more on [LP Risks here](lp-returns-and-risks.md) and [Price Risks here](price-risks.md).
+
