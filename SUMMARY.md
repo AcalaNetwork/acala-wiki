@@ -32,6 +32,7 @@
 * [DeFi Hub](karura/defi-hub/README.md)
   * [Swap](karura/defi-hub/swap/README.md)
     * [Protocol Overview](karura/defi-hub/swap/protocol-overview.md)
+    * [Bootstrap a Pool](karura/defi-hub/swap/bootstrap-a-pool.md)
     * [Usage & Participants](karura/defi-hub/swap/usage-and-participants.md)
     * [LP Returns & Risks](karura/defi-hub/swap/lp-returns-and-risks.md)
     * [Price Risks](karura/defi-hub/swap/price-risks.md)
