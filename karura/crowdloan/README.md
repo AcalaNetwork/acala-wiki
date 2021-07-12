@@ -10,6 +10,7 @@ description: Crowdloan is a part of Karura's parachain launch process.
 
 * [Crowdloan Event Details](crowdloan-event.md)
 * [Crowdloan Stats & Rewards](crowdloan-rewards.md)
+* [Claim KAR](claim-kar.md)
 * [How to Crowdloan Guide](how-to-crowdloan.md)
 * [FAQ](faq.md)
 * [KSM Address](ksm-address/)
