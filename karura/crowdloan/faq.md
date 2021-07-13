@@ -26,6 +26,10 @@ No. The KAR rewards will be distributed to the Karura address associated with th
 
 30% of your KAR tokens will be immediately unlocked and the remaining 70% will unlock of the duration of the parachain lease. A small portion of your locked tokens will be unlocked with every block \(block times are targeted for every 12 seconds\).
 
+### I participated through Fearless Wallet but don't see my tokens? What happened?
+
+Your KAR tokens are in your account, but the Fearless UI needs to be updated in order for you to see them. You can check with the Fearless team on the timing of that update. In the meantime, you can also export your mnemonic seed from Fearless to Polkawallet or the Polkadot.js browser extension. If you can't remember your mnemonic seed from Fearless, open the app and go to Settings &gt; Account &gt; \(i\) &gt; Export Account &gt; Mnemonic Passphrase. 
+
 ### Can I send my KAR to another address?
 
 No. Transfers have not yet been enabled but are part of our launch process. You can track the launch progress at [https://aca.la/karura-roadmap](https://aca.la/karura-roadmap).
