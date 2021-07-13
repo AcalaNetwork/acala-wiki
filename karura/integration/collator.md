@@ -15,17 +15,19 @@ Karura takes a phased approach to roll out the Collator operation. Since Collato
 **Current Phase: Private Collator Set**
 
 **Phase 0: Private Collator Set**  
-The Genesis of the Karura network was launched on 23rd June, 2021. Upon genesis, Karura's network security and consensus is provided by Kusama Relay Chain's norminated Proof-of-Stake \(nPoS\) validators. Just like Statemine \(the common-good asset parachain on Kusama\), Karura's Collators initially will be run by the Acala Foundation, until the Collator software is stable and can be released to the wider community.
+The Genesis of the Karura network was launched on 23rd June, 2021. Upon genesis, Karura's network security and the consensus is provided by Kusama Relay Chain's nominated Proof-of-Stake \(nPoS\) validators. Just like Statemine \(the common-good asset parachain on Kusama\), Karura's Collators initially will be run by the Acala Foundation, until the Collator software is stable and can be released to the wider community.
 
 **Phase 1: Authorized Collator Set**  
 Through governance approval, Karura will then open the Collator set to an authorized set of collators. While there are no block rewards nor additional incentives for these authorized collators, they are paid a reasonable rate for their node service provisioning by the Acala Foundation.
 
-These collators are known reputable node service providers who have proven track-record of service levels and demonstrated deep commitment to the network. It is expected that there will be much chaos and software upgrades during this phase still, and these collators are required to work closely with the core dev team to ensure network stability.
+These collators are known reputable node service providers who have a proven track-record of service levels and demonstrated a deep commitment to the network. It is expected that there will be much chaos and software upgrades during this phase still, and these collators are required to work closely with the core dev team to ensure network stability.
 
-It is expected that the Karura network will maintain such authorized Collator Set until the network is fully stablized, the collator staking module and the reward scheme is fully implemented and audited.
+It is expected that the Karura network will maintain such an authorized Collator Set until the network is fully stabilized, the collator staking module and the reward scheme are fully implemented and audited.
 
 **Phase 2: Public Collator Set**  
-Through governance approval, Karura will then enable permissionless election of Collators and enable collator rewards. Due to the fact that Collators are non-security critical, a parachain only needs a small set of Collators to ensure liveness and censorship-resistance, the reward scheme will reflect this accordingly.
+Through governance approval, Karura will then enable the permissionless election of Collators and enable collator rewards. Due to the fact that Collators are non-security critical, a parachain only needs a small set of Collators to ensure liveness and censorship-resistance, the reward scheme will reflect this accordingly.
+
+You can subscribe to the [`Node Operator - Announcement`](https://discord.gg/uWSZWsUcEn) channel on our Discord for updates and breaking changes.
 
 ## Collator Node
 
