@@ -16,11 +16,11 @@ The Swap contains multiple liquidity pools each of which is made up of two diffe
 
 Anyone can submit an on-chain proposal to list a new token pair \(aka start a new pool\). The **“Something at Stake” approach** of listing retains the ethos of decentralization, while to a large extent minimizing scam listings.  
 
-A listing can be started with or without a Bootstrap period. In most cases, the Bootstrap period would be beneficial, as trading is frozed for a period of time and until certain liquidity requirements are met to allow a reasonable exchange ratio to be consolidated and avoid adversarial operations such as front-running.
+A listing can be started with or without a Bootstrap period. In most cases, the Bootstrap period would be beneficial, as trading is frozen for a period of time and until certain liquidity requirements are met to allow a reasonable exchange ratio to be consolidated and avoid adversarial operations such as front-running.
 
 During the Bootstrap period, anyone who wants to become a liquidity provider \(LP\) can provide liquidity for one side e.g. Token A or both sides \(Token A and B\) of the trading pair. The Bootstrap period ends once the time and liquidity requirements are met, and an opening exchange ratio will then be settled. 
 
-Then the LP Shares allocated to each liquidity provider is finalized. LP Shares is a pro-rata representation of LP's contribution to the overall liquidity of a given pool. LP shares can then be redeemed for underlying assets \(Token A and B\) at any time.
+Then the LP tokens are allocated to each liquidity provider. LP Shares \(= LP Tokens / Total LP Tokens\) is a pro-rata representation of LP's contribution to the overall liquidity of a given pool. LP shares can then be redeemed for underlying assets \(Token A and B\) at any time.
 
 Here is an example to illustrate this:
 
