@@ -23,6 +23,7 @@
   * [Check Distribution](karura/get-started/check-distribution.md)
   * [Karura Assets](karura/get-started/karura-assets.md)
   * [Karura Account](karura/get-started/karura-account/README.md)
+    * [Balance Type & Vesting](karura/get-started/karura-account/balance-type-and-vesting.md)
     * [Check Address for Different Chains](karura/get-started/karura-account/check-address-for-different-chains.md)
   * [Transaction Fees](karura/get-started/transaction-fees.md)
   * [Governance](karura/get-started/governance/README.md)
