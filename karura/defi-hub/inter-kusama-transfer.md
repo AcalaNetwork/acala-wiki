@@ -41,7 +41,9 @@ There are two parts to the transaction fees \(read more on fees [here](../get-st
 
 Then click \`Transfer\`, please be patient and it might take a few moments for the Kusama Relay chain to send and confirm your KSM to Karura 🚀
 
-### Check Transaction
+### Check Transactions
+
+There are two transactions involved, one was on Kusama sending the KSM to parachain, the second is on Karura sending the KSM to the designated account.
 
 **On Kusama Side**
 
@@ -67,4 +69,18 @@ There are two parts to the transaction fee \(read more on fees [here](../get-sta
 * The \`Destination Chain Transfer Fee\` is charged by Kusama
 
 Then click \`Transfer\`, please be patient and it might take a few moments for your KSM arrive back to Kusama 🚀
+
+### Check Transactions
+
+There are two transactions involved, one was on Karura sending the KSM to Kusama Relay chain, the second is on Kusama sending the KSM to the designated account.
+
+**On Karura Side**
+
+A Subquery will be implemented to make it easier to search and find your cross-chain transactions. Right now you can go to [Karura Subscan Explorer](https://karura.subscan.io) to search Events where `module = xtoken` and `account = sender account`. OR [use this link](https://karura.subscan.io/event?address=&module=xtokens&event=all) to navigate there.
+
+**On Kusama Side**
+
+Go to the [Kusama Subscan Explorer](https://kusama.subscan.io/), search with your Kusama account, and you shall see the relevant `xcmpallet` transaction in the Extrinsics table.
+
+\*\*\*\*
 
