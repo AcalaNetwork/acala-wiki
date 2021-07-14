@@ -27,6 +27,8 @@ It is expected that the Karura network will maintain such an authorized Collator
 **Phase 2: Public Collator Set**  
 Through governance approval, Karura will then enable the permissionless election of Collators and enable collator rewards. Due to the fact that Collators are non-security critical, a parachain only needs a small set of Collators to ensure liveness and censorship-resistance, the reward scheme will reflect this accordingly.
 
+You can express interest in becoming a collator/liveness provider for the Karura Network \(and later Acala Network\) by [filling in this form](https://forms.gle/WQesfKVZmJeXov1e9). 
+
 You can subscribe to the [`Node Operator - Announcement`](https://discord.gg/uWSZWsUcEn) channel on our Discord for updates and breaking changes.
 
 ## Collator Node
