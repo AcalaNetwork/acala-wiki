@@ -10,10 +10,12 @@ Because it’s cool - it might be the first-ever truly trustless cross-chain fun
 
 Besides, KSM is the native token of Kusama. It is used as the fee token, staking token to provide network security and governance token on the Kusama Relay chain. The launch of Karura parachain unlocks new use cases for KSM, where KSM can be used \(once these protocols are enabled\)
 
+* To trade with other tokens trustlessly via the [Karura Swap](swap/)
 * As liquidity for KSM based trading pairs in the Karura Swap \(learn about becoming a liquidity provider & risks involved [here](swap/)\)
 * As a collateral asset to borrow kUSD stablecoin, which can then be used for leveraged trades and other use cases
 * To stake in the Karura Liquid Staking Pool, mint tokenized staked KSM as LKSM, which can then be used as collaterals or transferred, traded or else
   * LKSM is the programmable staking asset as the building block for many other protocols and applications
+* Liquidity mining program coming soon...
 * ...
 
 ## Cross-chain Fungible Token Transfer 
