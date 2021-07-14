@@ -2,9 +2,13 @@
 
 ## Top Questions
 
+### Have all the tokens been distributed?
+
+If you participated through our Karura website or through one of our mobile wallet partners, your tokens have been distributed. Users that participated through other means will need to go through the claims process.
+
 ### Do I need to claim my tokens?
 
-Only users that participated through the website [https://polkadot.js.org/apps](https://polkadot.js.org/apps) \(screenshot below\) need to go through the claims process. All other users will have their tokens automatically distributed to them.
+Only users that participated through the website [https://polkadot.js.org/apps](https://polkadot.js.org/apps) \(screenshot below\) need to go through the claims process. All other users will have their tokens automatically distributed to them. If enter your Kusama address on [https://karura.subscan.io/](https://karura.subscan.io/), you probably need to go through the claims process.
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
@@ -12,7 +16,7 @@ Only users that participated through the website [https://polkadot.js.org/apps](
 
 We have created the website [https://distribution.acala.network/claim](https://distribution.acala.network/claim) for users to claim their tokens.
 
-### **Where will I receive my KAR tokens from the crowdloan?**
+### **How do I access my tokens?**
 
 The KAR rewards will be distributed to the Karura address associated with the Kusama address you used to contribute. Polkawallet users can see their KAR tokens by connecting to the Karura network in the Polkawallet app. Polkadot.js browser extension users should go to [https://polkadot.js.org/apps](https://polkadot.js.org/apps) and connect to the Karura network to see their tokens. When doing this, make sure that your Polkadot.js browser extension is set to "allow use on any chain" \(screenshot below\).
 
