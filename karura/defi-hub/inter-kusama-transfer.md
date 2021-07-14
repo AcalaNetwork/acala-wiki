@@ -34,7 +34,7 @@ Select `Kusama` as the `From Chain`, and `Karura` as the `To Chain`. Your KSM ba
 
 ![](../../.gitbook/assets/screen-shot-2021-07-14-at-9.58.12-pm%20%282%29.png)
 
-There are two parts to the transaction fee
+There are two parts to the transaction fees \(read more on fees [here](../get-started/transaction-fees.md)\)
 
 * The `Origin Chain Transfer Fee` is charged by Kusama
 * The `Destination Chain Transfer Fee` is charged by Karura, modeled closely with the Statemine chain
@@ -61,7 +61,7 @@ Select `Karura` as the `From Chain`, and `Kusama` as the `To Chain`. Your KSM ba
 
 ![](../../.gitbook/assets/screen-shot-2021-07-14-at-9.58.12-pm%20%281%29.png)
 
-There are two parts to the transaction fee
+There are two parts to the transaction fee \(read more on fees [here](../get-started/transaction-fees.md)\)
 
 * The ‘Origin Chain Transfer Fee\` is charged by Karura
 * The \`Destination Chain Transfer Fee\` is charged by Kusama
