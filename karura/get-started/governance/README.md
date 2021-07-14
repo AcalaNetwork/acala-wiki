@@ -4,6 +4,7 @@ This section provides an overview of the governance process, how to participate 
 
 * [Governance Overview](governance-overview.md)
 * [Participate in a Democracy](participate-in-democracy.md)
+* [How to verify a runtime upgrade](how-to-verify-a-runtime-upgrade.md)
 
 ### 
 
