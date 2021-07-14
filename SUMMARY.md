@@ -31,6 +31,7 @@
     * [Participate in Democracy](karura/get-started/governance/participate-in-democracy.md)
   * [Treasury](karura/get-started/treasury.md)
 * [DeFi Hub](karura/defi-hub/README.md)
+  * [Inter Kusama Transfer](karura/defi-hub/inter-kusama-transfer.md)
   * [Swap](karura/defi-hub/swap/README.md)
     * [Protocol Overview](karura/defi-hub/swap/protocol-overview.md)
     * [Bootstrap a Pool](karura/defi-hub/swap/bootstrap-a-pool.md)
