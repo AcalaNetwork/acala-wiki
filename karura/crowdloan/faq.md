@@ -8,7 +8,7 @@ If you participated through our Karura website or through one of our mobile wall
 
 ### Do I need to claim my tokens?
 
-Only users that participated through the website [https://polkadot.js.org/apps](https://polkadot.js.org/apps) \(screenshot below\) need to go through the claims process. All other users will have their tokens automatically distributed to them. If enter your Kusama address on [https://karura.subscan.io/](https://karura.subscan.io/), you probably need to go through the claims process.
+Only users that participated through the website [https://polkadot.js.org/apps](https://polkadot.js.org/apps) \(screenshot below\) need to go through the claims process. All other users will have their tokens automatically distributed to them. If enter your Kusama address on [https://karura.subscan.io/](https://karura.subscan.io/) and don't see your tokens, you probably need to go through the claims process.
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
