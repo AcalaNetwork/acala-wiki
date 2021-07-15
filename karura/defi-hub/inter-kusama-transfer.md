@@ -22,7 +22,7 @@ Besides, KSM is the native token of Kusama. It is used as the fee token, staking
 
 Cross-chain transfer uses the Polkadot’s [Cross-chain Message Passing \(XCMP\)](https://wiki.polkadot.network/docs/learn-crosschain) technology, specifically the [Horizontal Relay-routed Message Passing \(HRMP\)](https://wiki.polkadot.network/docs/learn-crosschain#horizontal-relay-routed-message-passing-hrmp) as the basis for sending and receiving generic cross-chain messages. For sending and receiving fungible tokens, Karura has used the xtokens fungible token transfer implementation developed by Acala. 
 
-You can find the source code: [xtokens](https://github.com/open-web3-stack/open-runtime-module-library/tree/3bf16d6efc8c35039a062748ff20fa6db6e8faa0/xtokens) and [xcm-support](https://github.com/open-web3-stack/open-runtime-module-library/tree/3bf16d6efc8c35039a062748ff20fa6db6e8faa0/xcm-support). 
+You can find the source code: [xtokens](https://github.com/open-web3-stack/open-runtime-module-library/tree/3bf16d6efc8c35039a062748ff20fa6db6e8faa0/xtokens) and [xcm-support](https://github.com/open-web3-stack/open-runtime-module-library/tree/3bf16d6efc8c35039a062748ff20fa6db6e8faa0/xcm-support). You can find xtoken documentation [here](https://github.com/open-web3-stack/open-runtime-module-library/wiki/xtokens).
 
 You can also find the Cross-chain Message \(XCM\) Format developed by Parity [here](https://github.com/paritytech/xcm-format).
 
@@ -57,6 +57,8 @@ Go to the [Kusama Subscan Explorer](https://kusama.subscan.io/), search with you
 
 A Subquery will be implemented to make it easier to search and find your cross-chain transactions. Right now you can go to Karura Subscan to search Events where `module = parachainsystem` and `event = downwardmessagesprocessed`. OR [use this link](https://karura.subscan.io/event?address=&module=parachainsystem&event=downwardmessagesprocessed&startDate=&endDate=) to navigate there.
 
+[Example Transaction on Subscan](https://karura.subscan.io/extrinsic/135672-1?event=135672-1)
+
 ## Transfer KSM from Karura to Kusama
 
 Use the [Karura App](https://apps.karura.network/portfolio), goto `Cross Chain` tab then select `Inter Kusama Transfer`. 
@@ -80,9 +82,13 @@ There are two transactions involved, one was on Karura sending the KSM to Kusama
 
 A Subquery will be implemented to make it easier to search and find your cross-chain transactions. Right now you can go to [Karura Subscan Explorer](https://karura.subscan.io) to search Events where `module = xtoken` and `account = sender account`. OR [use this link](https://karura.subscan.io/event?address=&module=xtokens&event=all) to navigate there.
 
+[Example Transaction on Subscan](https://karura.subscan.io/extrinsic/0x259558bf1a18f19c88915324d69fb5b7d7399ca4d382d651979d18d8cd0e5334?event=135681-3)
+
 **On Kusama Side**
 
 Go to the [Kusama Subscan Explorer](https://kusama.subscan.io/), search with your Kusama account, and you shall see the relevant `xcmpallet` transaction in the Extrinsics table.
+
+[Example Transaction on Subscan](https://kusama.subscan.io/extrinsic/8338413-2)
 
 \*\*\*\*
 
