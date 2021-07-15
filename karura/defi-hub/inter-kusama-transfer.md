@@ -22,7 +22,7 @@ Besides, KSM is the native token of Kusama. It is used as the fee token, staking
 
 Cross-chain transfer uses the Polkadot’s [Cross-chain Message Passing \(XCMP\)](https://wiki.polkadot.network/docs/learn-crosschain) technology, specifically the [Horizontal Relay-routed Message Passing \(HRMP\)](https://wiki.polkadot.network/docs/learn-crosschain#horizontal-relay-routed-message-passing-hrmp) as the basis for sending and receiving generic cross-chain messages. For sending and receiving fungible tokens, Karura has used the xtokens fungible token transfer implementation developed by Acala. 
 
-You can find the source code: [xtokens](https://github.com/open-web3-stack/open-runtime-module-library/tree/3bf16d6efc8c35039a062748ff20fa6db6e8faa0/xtokens) and [xcm-support](https://github.com/open-web3-stack/open-runtime-module-library/tree/3bf16d6efc8c35039a062748ff20fa6db6e8faa0/xcm-support). You can find xtoken documentation [here](https://github.com/open-web3-stack/open-runtime-module-library/wiki/xtokens).
+You can find the source code: [xtokens](https://github.com/open-web3-stack/open-runtime-module-library/tree/3bf16d6efc8c35039a062748ff20fa6db6e8faa0/xtokens) and [xcm-support](https://github.com/open-web3-stack/open-runtime-module-library/tree/3bf16d6efc8c35039a062748ff20fa6db6e8faa0/xcm-support). 
 
 You can also find the Cross-chain Message \(XCM\) Format developed by Parity [here](https://github.com/paritytech/xcm-format).
 
