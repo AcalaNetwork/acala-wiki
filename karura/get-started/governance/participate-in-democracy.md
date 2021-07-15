@@ -13,6 +13,10 @@ These are important governance parameters, which may change over time as we prog
 * Enactment Period: Minimum period for locking funds and the period between a proposal being approved and enacted is **1 day**
 * Colloff Period: Vetoed proposal may not be re-submitted within **7 days**
 
+Most of these parameters are visible on the Polkadot App. You can also view upcoming governance events on `the Event Calendar`
+
+![](../../../.gitbook/assets/screen-shot-2021-07-15-at-2.20.23-pm.png)
+
 ## Propose a Referendum
 
 A referendum consists of some action that you want to propose, if voted in by token holders then the action will be enacted on-chain automatically. You are required to bond some tokens to propose action. Once a proposal is submitted, it can not be canceled. 
