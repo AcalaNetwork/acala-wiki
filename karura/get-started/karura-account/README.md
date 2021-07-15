@@ -21,7 +21,7 @@ Karura uses an [_existential deposit_ \(ED\)](https://wiki.polkadot.network/docs
 * if after the transfer, account A's balance is below ED, it will be removed. So make sure to leave enough balance on account A to keep it alive.
 * if account B has no balance, and the transfer amount is below ED, account B would be as if never receive any amount, because its state would be removed from chain. So make sure to send enough amount to keep a fresh account alive.
 
-ED applies to all supported token accounts, and each type of token account e.g. KSM account has its own ED requirement. Any transactions that changes the balance of a particular token e.g. swap, then you shall be aware of its ED requirement. Here's the list of ED requirements for currently avaialble tokens on Karura:
+ED applies to all supported token accounts, and each type of token account e.g. KSM account has its own ED requirement. Any transactions that changes the balance of a particular token e.g. swap, then you shall be aware of its ED requirement. Here's the list of ED requirements for currently available tokens on Karura:
 
 * KAR ED: 0.1 KAR
 * kUSD ED: 0.01 kUSD
