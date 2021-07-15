@@ -28,6 +28,8 @@ ED applies to all supported token accounts, and each type of token account e.g. 
 * KSM ED: 0.0001 KSM
 * LKSM ED: 0.0001 LKSM
 
+\([Source code](https://meet.google.com/pye-erkv-duy)\)
+
 ## Account Generation 
 
 Before the network is live, and during the initial launch period, below is the only recommended method for generating an Acala and Karura account:
