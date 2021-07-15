@@ -44,3 +44,15 @@ Fastracking emergency proposals that are critical to the network operation, dela
 
 * Elected by the General Council via 2/3 approval rating. 
 
+## Emergency Actions
+
+* Fasttrack a scheduled task to 12 hours+
+  * Requires: 1/3+ Technical Committee consensus
+* Fasttrack a scheduled task to &lt;12 hours
+  * Requires: 2/3+ Technical Committee consensus
+* Delay a scheduled task for up to 48 hours
+  * Requires: 1/3 Technical Committee consensus
+* Cancel a scheduled task
+  * Requires: from schedule Origin OR
+  * 3/4+ General Council consensus
+
