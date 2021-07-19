@@ -14,14 +14,18 @@ Acala and Karura use the Substrate-based chain address format SS58. Read more [h
 
 ## Existential Deposit
 
-Karura uses an [_existential deposit_ \(ED\)](https://wiki.polkadot.network/docs/learn-accounts#existential-deposit-and-reaping) to prevent dust accounts from bloating state. If an account drops below the ED, the state of this account will be removed from the blockchain to preserve scarce on-chain stroage resources. The balance on this account will be removed and donated to the Treasury. You still retain access to the account, but it no longer has an on-chains state.
+Karura uses an [_existential deposit_ \(ED\)](https://wiki.polkadot.network/docs/learn-accounts#existential-deposit-and-reaping) to prevent dust accounts from bloating state. If an account drops below the ED, the state of this account will be removed from the blockchain to preserve scarce on-chain storage resources. The balance on this account will be removed and donated to the Treasury. You still retain access to the account, but it no longer has an on-chains state.
 
 **Transfers:** when you transfer an amount from account A to account B
 
 * if after the transfer, account A's balance is below ED, it will be removed. So make sure to leave enough balance on account A to keep it alive.
-* if account B has no balance, and the transfer amount is below ED, account B would be as if never receive any amount, because its state would be removed from chain. So make sure to send enough amount to keep a fresh account alive.
+* if account B has no balance, and the transfer amount is below ED, account B would be as if never receive any amount, because its state would be removed from the chain. So make sure to send enough amount to keep a fresh account alive.
 
-ED applies to all supported token accounts, and each type of token account e.g. KSM account has its own ED requirement. Any transactions that changes the balance of a particular token e.g. swap, then you shall be aware of its ED requirement. Here's the list of ED requirements for currently available tokens on Karura:
+**Swap**: when you swap token A for token B, if token A balance then falls below ED requirement, then the transaction might fail. Anyone can build a front-end using acala.js SDK to facilitate this transaction and check ED for you, but you shall always be aware of it.
+
+**Claim rewards**: when claiming LP tokens or other rewards, if the balance is below ED requirement after the claim, then the balance might be wiped.
+
+ED applies to all supported token accounts, and each type of token account e.g. KSM account has its own ED requirement. Any transactions that change the balance of a particular token e.g. swap, then you shall be aware of its ED requirement. Here's the list of ED requirements for currently available tokens on Karura:
 
 * KAR ED: 0.1 KAR
 * kUSD ED: 0.01 kUSD
