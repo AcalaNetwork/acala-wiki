@@ -24,7 +24,11 @@ Karura uses the [SS58 \(Substrate\) address format](https://github.com/paritytec
 
 Karura uses an _existential deposit_ \(ED\) to prevent dust accounts from bloating state. If an account drops below the ED, it will be removed from this account and be donated to the Treasury. 
 
-Kaura's ED is 0.1 KAR.
+ED of native token KAR is configured in the runtime. Non-native tokens \(KSM, kUSD, BTC etc\) can be queried via SDK. The amount of ED can only be decreased, not increased, therefore it often starts with a higher number.
+
+`transfer` and `deposit` in `pallet_balances` and `orml_tokens` will check the ED of the receiver account. A transaction may fail due to not meeting ED requirements, a typical one would be a user is swapping token A for token B, where token A balance no longer meets ED requirements. A front-end DApp shall perform checks and prompt user for such incidents. 
+
+Read more on ED [here](https://github.com/AcalaNetwork/Acala/wiki/A.-Existential-Deposit).
 
 ## Transaction Fees
 
