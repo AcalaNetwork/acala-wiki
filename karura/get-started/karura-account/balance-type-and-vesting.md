@@ -22,7 +22,7 @@ Go to the `Developer - Extrinsics` section, use the account that you want to cla
 
 ### On Karura App
 
-Coming soon...
+You can claim the released portion of vested KAR on the [Karura App](https://apps.karura.network/).
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-14-at-2.01.13-pm.png)
 
