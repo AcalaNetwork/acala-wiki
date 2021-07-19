@@ -20,6 +20,8 @@ These are rough estimates of typical relevant transactions:
 
 Note: these are estimates and will be changed based on actual transaction size, network conditions and other factors.
 
+For now, all transaction fees go to the Karura Treasury - a tiny contribution to a sustainable future. Read more [here](treasury.md).
+
 ### Fee Adjustment <a id="fee-adjustment"></a>
 
 Fees on Karura are adjusted based on transaction volume, while still predictable. Karura has a block fullness target, fees increase or decrease for the next block based on the fullness of the current block relative to the target. 
