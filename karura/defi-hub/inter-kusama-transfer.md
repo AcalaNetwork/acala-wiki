@@ -12,7 +12,7 @@ Besides, KSM is the native token of Kusama. It is used as the fee token, staking
 
 * To trade with other tokens trustlessly via the [Karura Swap](swap/)
 * As liquidity for KSM based trading pairs in the Karura Swap \(learn about becoming a liquidity provider & risks involved [here](swap/)\). Use KSM to power the KAR/KSM pair will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
-* As a collateral asset to borrow kUSD stablecoin, which can then be used for leveraged trades and other use cases
+* As a collateral asset to mint kUSD stablecoin, which can then be used for leveraged trades and other use cases
 * To stake in the Karura Liquid Staking Pool, mint tokenized staked KSM as LKSM, which can then be used as collaterals or transferred, traded or else
   * LKSM is the programmable staking asset as the building block for many other protocols and applications
 * Liquidity mining program coming soon...
