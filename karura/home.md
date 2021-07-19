@@ -6,7 +6,7 @@ No promise, and expect chaos.
 
 ## What does Karura offer?
 
-Karura’s all-in-one DeFi hub of Kusama to give you a taste on the decentralized swap, borrow, lend, earn, and more – all with micro gas fees.
+Karura’s all-in-one DeFi hub of Kusama to give you a taste on the decentralized swap, minting stablecoin, liquid staking, earn rewards, and more – all with micro gas fees.
 
 Founded by the Acala Foundation, Karura is a scalable, EVM-compatible network optimized for DeFi. The platform offers a suite of financial applications including: a trustless staking derivative \(liquid KSM\), a multi-collateralized stablecoin backed by cross-chain assets \(kUSD\), and an AMM DEX – all with micro gas fees that can be paid in any token.
 
