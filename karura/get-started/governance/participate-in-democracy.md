@@ -59,6 +59,8 @@ You can also increase your conviction with the same number of tokens by locking 
 
 You will need to explicitly unlock these tokens once the locking period ends. You can go to the `Accounts` page, click the menu button for the voted account, and select the menu item`Clear expired democracy locks` to claim it back. Read more [here](https://wiki.polkadot.network/docs/maintain-guides-democracy/#unlocking-locked-tokens). 
 
+![](../../../.gitbook/assets/screen-shot-2021-07-20-at-10.11.09-am.png)
+
 ## Delegate Vote
 
 You can delegate your vote to others to vote on your behalf. On [the Polkadot Apps - Karura parachain,](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-1.aca-api.network#/extrinsics) go to the `Developer` tab -- `Extrinsics` , then select `democracy.delegate` .
