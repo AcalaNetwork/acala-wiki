@@ -15,7 +15,8 @@ One can bootstrap a liquidity pool with the following parameters
 A liquidity pool can only be started once the following criteria are met:
 
 * The **`Not Before`** block has passed AND
-* Either **`Target Provision for Token A`** OR **`Target Provision for Token B`** has been met
+* Either **`Target Provision for Token A`** OR **`Target Provision for Token B`** has been met AND
+* Both Token A and Token has &gt;0 liquidity
 
 ## **During Bootstrap**
 
