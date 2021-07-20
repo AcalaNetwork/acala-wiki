@@ -45,6 +45,7 @@
       * [Swap SDK](https://github.com/AcalaNetwork/acala.js/tree/8b9c7a79bb4678eccfcb9e2ff4989596dbf43331/packages/sdk-swap)
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
+  * [Token Transfer](karura/integration/token-transfer.md)
   * [Networks](karura/integration/networks.md)
   * [Full Node](karura/integration/full-node.md)
   * [Collator](karura/integration/collator.md)
