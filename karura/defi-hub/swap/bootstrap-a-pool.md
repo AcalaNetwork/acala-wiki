@@ -38,6 +38,8 @@ Below is a simulation of how a user’s LP Shares of the pool might change as mo
   * User 1's LP Shares drop to 45.45%.
 * If Bootstrap completes at this point, User 1 can redeem  45.45% of Token A \(1000 Token A = 2200\*45.45%\) and 45.45% of Token B \(500 Token B = 1100\*45.45%\).
 
+**So if you are contributing only one side of the pool \(say Token A\), you are effectively converting 50% Token A into Token B based on the exchange rate when Bootstrap ends \(and the pool opens for trading\).**
+
 ![](../../../.gitbook/assets/screen-shot-2021-07-13-at-10.00.43-am.png)
 
 \[TODO\] Add a table to illustrate LP Token change.
