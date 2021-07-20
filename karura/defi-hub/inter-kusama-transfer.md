@@ -1,22 +1,17 @@
 # Inter Kusama Transfer
 
-🚨Karura is a "canary network" for Acala an early unaudited release of the code that is available first and holds real economic value. It is highly experimental and unstable.
-
-No promise, and expect chaos.
+🚨Karura is a "canary network" for Acala, an early unaudited release of the code that is available first and holds real economic value. It is highly experimental.
 
 ## Why Transfer KSM to Karura
 
-Because it’s cool - it might be the first-ever truly trustless cross-chain fungible token transfer in the world. So you are welcome to try it out and embrace the coolness and chaos of Kusama and Karura.
+KSM is the native token of Kusama. It is used as the fee token, staking token to provide network security and governance token on the Kusama Relay chain. The launch of Karura's parachain unlocks new use cases for KSM:
 
-Besides, KSM is the native token of Kusama. It is used as the fee token, staking token to provide network security and governance token on the Kusama Relay chain. The launch of Karura parachain unlocks new use cases for KSM, where KSM can be used \(once these protocols are enabled\)
-
-* To trade with other tokens trustlessly via the [Karura Swap](swap/)
-* As liquidity for KSM based trading pairs in the Karura Swap \(learn about becoming a liquidity provider & risks involved [here](swap/)\). Use KSM to power the KAR/KSM pair will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
-* As a collateral asset to mint kUSD stablecoin, which can then be used for leveraged trades and other use cases
-* To stake in the Karura Liquid Staking Pool, mint tokenized staked KSM as LKSM, which can then be used as collaterals or transferred, traded or else
-  * LKSM is the programmable staking asset as the building block for many other protocols and applications
-* Liquidity mining program coming soon...
-* ...
+* Participate in trustless trading with other tokens via [Karura Swap](swap/)
+* Use as liquidity for KSM-based trading pairs in Karura Swap, use KSM to power the KAR/KSM pair \(learn about becoming a liquidity provider & risks involved [here](swap/)\). This will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
+* Use as a collateral asset to mint the kUSD stablecoin, which can then be used for leveraged trades and other use cases.
+* Stake in Karura's Liquid KSM staking pool to mint LKSM, which can then be used as collaterals, transferred, or traded.
+  * LKSM is a programmable staking asset as the building block for many other protocols and applications
+* Liquidity mining program coming soon.
 
 ## Cross-chain Fungible Token Transfer 
 
@@ -28,7 +23,7 @@ You can also find the Cross-chain Message \(XCM\) Format developed by Parity [he
 
 ## Transfer KSM from Kusama to Karura
 
-Use the [Karura App](https://apps.karura.network/portfolio), goto `Cross Chain` tab then select `Inter Kusama Transfer`. 
+Use the [Karura App](https://apps.karura.network/portfolio), go to `Cross Chain` tab then select `Inter Kusama Transfer`. 
 
 **Note:** The account you logged into the Karura App must have some KSM \(also be mindful of Existential Deposits\).
 
