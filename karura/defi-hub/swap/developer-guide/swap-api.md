@@ -10,7 +10,7 @@ Here we will list types and their representation in Typescript.
 
 ### **CurrencyId**
 
-```text
+```javascript
 type CurrencyId {
     TOKEN: string
 }
@@ -22,7 +22,7 @@ _Example_:
 
 ### **TradingPair**
 
-```text
+```javascript
 type TradingPair = [CurrencyId, CurrencyId]
 ```
 
@@ -32,7 +32,7 @@ _Example_:
 
 ### **TradingPairStatus**
 
-```text
+```javascript
 type TradingPairStatus = {
     Enabled?: null,
     NotEnabled?: null,
@@ -49,7 +49,7 @@ Indicates whether trading pair is enabled:
 You can use `@acala-network/api` to get metadata description of available methods.  
  Setting up polkadot/api provider example:
 
-```text
+```javascript
     const provider = new WsProvider('<NODE_WS_ADDRESS>');
     const api = new ApiPromise( options({ provider }) );
     await api.isReady;
@@ -70,7 +70,7 @@ These functions just read information from the chain, and thus don’t require s
 
 Such parameters as tokens decimals, symbols, risk parameters and many more can be received from on-chain.
 
-```text
+```javascript
 const properties = await api.rpc.system.properties();
 const decimals = !result.tokenDecimals.isNone && 
     result.tokenDecimals.value.toHuman();
@@ -87,7 +87,7 @@ const symbols = !result.tokenSymbol.isNone &&
 
 Returns liquidity of the pool of currencies in Trading Pair `tokenA` and `tokenB`.
 
-```text
+```javascript
 liquidityPool(tradingPair: TradingPair): 
     [Balance, Balance] 
 ```
@@ -104,7 +104,7 @@ liquidityPool(tradingPair: TradingPair):
 
 Example:
 
-```text
+```javascript
     const liquidity = await api.query.dex.liquidityPool([
         { TOKEN: 'KUSD' },
         { TOKEN: 'KAR' },
@@ -122,7 +122,7 @@ Provisioning Pool is the Pool in the stage of bootstrapping liquidity, when trad
 
 getProvisioningPoolBalance returns a tuple of balances for each of the tokens in the trading pair, depends on the amount of LP tokens that the account is holding
 
-```text
+```javascript
 provisioningPool(tradingPair: TradingPair, accountId: string):
 [Balance, Balance];
 ```
@@ -134,7 +134,7 @@ provisioningPool(tradingPair: TradingPair, accountId: string):
 
 Example:
 
-```text
+```javascript
     const liquidity = await api.query.dex.provisioningPool([
             { TOKEN: 'KAR' },
             { TOKEN: 'KUSD' }
@@ -151,7 +151,7 @@ Example:
 
 returns if a trading pair is enabled or not. Note that the order of tokens in trading pair is important
 
-```text
+```javascript
 tradingPairStatuses(TradingPair): TradingPairStatus
 ```
 
@@ -163,7 +163,7 @@ tradingPairStatuses(TradingPair): TradingPairStatus
 
 Example:
 
-```text
+```javascript
 const status = await api.query.dex.tradingPairStatuses([
         { TOKEN: 'KAR' },
         { TOKEN: 'KUSD' }
@@ -181,7 +181,7 @@ These transactions write data on-chain and require the private key to sign trans
 
 Here is an example deriving a `signer` from a seed phrase using Polkadot keyring:
 
-```text
+```javascript
 const keyring = new Keyring({
         type: 'sr25519'
     });
@@ -194,7 +194,7 @@ const signer = keyring.addFromMnemonic('<YOUR_SEED_PHRASE>');
 
 ### swapWithExactSupply
 
-```text
+```javascript
 swapWithExactSupply(path: CurrencyId[], supply_amount: number, min_target_amount: number): Extrinsic
 ```
 
@@ -217,7 +217,7 @@ Returns `Extrinsic` type that should be signed with the private key.
 
 Example
 
-```text
+```javascript
     const path = [
         { TOKEN: "KAR", },
         { TOKEN: "KUSD", },
@@ -265,7 +265,7 @@ Returns `Extrinsic` type that should be signed with the private key.
 
 **Example**:
 
-```text
+```javascript
     const targetAmount = <DENORMALISED_EXACT_AMOUNT>;
 
     const path = [
@@ -288,7 +288,7 @@ Returns `Extrinsic` type that should be signed with the private key.
 
 ### addLiquidity
 
-```text
+```javascript
 addLiquidity(
     currency_id_a: CurrencyId, 
     currency_id_b: CurrencyId, 
@@ -322,7 +322,7 @@ Returns `Extrinsic` type that should be signed with the private key.
 
 **Example**
 
-```text
+```javascript
     const currency_id_a = { TOKEN: 'KAR' };
     const currency_id_b = { TOKEN: 'KUSD' };
     const max_amount_a = 2 * 10 ** symbolsDecimals["KAR"];
@@ -349,7 +349,7 @@ Returns `Extrinsic` type that should be signed with the private key.
 
 ### removeLiquidity
 
-```text
+```javascript
 removeLiquidity(
     currency_id_a: CurrencyId, 
     currency_id_b: CurrencyId, 
@@ -377,7 +377,7 @@ Removes liquidity from selected trading pair. It can, also, automatically unstak
 
 **Example**
 
-```text
+```javascript
     const currency_id_a = { TOKEN: 'KAR' };
     const currency_id_b = { TOKEN: 'KSM' };
     // amount of shares to remove
