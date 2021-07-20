@@ -28,12 +28,19 @@ During the Bootstrap period:
 
 Below is a simulation of how a user’s LP Shares of the pool might change as more liquidity is added to the pool during the Bootstrap period:
 
-* When User 1 is the only liquidity provider, it has 100% of the LP Shares
-* After User 2 added his/her liquidity, User 1's LP Shares drops to 50%, while User 1 still holds the same amount of LP tokens.
-* After User 4 added his/her liquidity, User 1's LP Shares drops to 45.45%.
+* User 1 only contributes 1000 Token B. When User 1 is the only liquidity provider, it has 100% of the LP Shares.
+* After User 2 added his/her liquidity \(User 2 only contributes 50 Token A\), 
+  * The exchange rate of Token A-Token B is 1:200 \(50/1000 based on [constant product](https://wiki.acala.network/karura/defi-hub/swap/protocol-overview#trading-and-lps)\)
+  * User 2's LP Share is now 50%
+  * User 1's LP Shares drop to 50%, while User 1 still holds the same amount of LP tokens.
+* After User 4 added his/her liquidity \(User 4 contributes both Token A & B\)
+  * User 4's LP Share is 52.27%
+  * User 1's LP Shares drop to 45.45%.
 * If Bootstrap completes at this point, User 1 can redeem  45.45% of Token A \(1000 Token A = 2200\*45.45%\) and 45.45% of Token B \(500 Token B = 1100\*45.45%\).
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-13-at-10.00.43-am.png)
+
+\[TODO\] Add a table to illustrate LP Token change.
 
 ## **After Bootstrap**
 
