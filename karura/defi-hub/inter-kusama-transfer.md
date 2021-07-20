@@ -1,6 +1,6 @@
 # Inter Kusama Transfer
 
-🚨Karura is a "canary network" for Acala, an early unaudited release of the code that is available first and holds real economic value. It is highly experimental.
+Karura is an experimental network, or a 'canary network', for Acala. It's an early unaudited release of the Acala code that holds real economic value. It is highly experimental.
 
 ## Why Transfer KSM to Karura
 
