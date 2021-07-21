@@ -25,14 +25,18 @@ Karura uses an [_existential deposit_ \(ED\)](https://wiki.polkadot.network/docs
 
 **Claim rewards**: when claiming LP tokens or other rewards, if the balance is below ED requirement after the claim, then the balance might be wiped.
 
-ED applies to all supported token accounts, and each type of token account e.g. KSM account has its own ED requirement. Any transactions that change the balance of a particular token e.g. swap, then you shall be aware of its ED requirement. Here's the list of ED requirements for currently available tokens on Karura:
+ED applies to all supported token accounts, and each type of token account e.g. KSM account has its own ED requirement, meaning if KSM account balance is lower than ED, then your KSM balance may get wiped, while all other balances won't be affected.
+
+Any transactions that change the balance of a particular token e.g. swap, then you shall be aware of its ED requirement. Here's the list of ED requirements for currently available tokens on Karura:
 
 * KAR ED: 0.1 KAR
 * kUSD ED: 0.01 kUSD
 * KSM ED: 0.0001 KSM
 * LKSM ED: 0.0001 LKSM
 
-\([Source code](https://meet.google.com/pye-erkv-duy)\)
+\([Source code](https://github.com/AcalaNetwork/Acala/blob/37e6036536d9be46ee1576568df7c8cbf1db1d11/primitives/src/currency.rs#L175-L191)\)  
+**\(**[Dev Doc](https://github.com/AcalaNetwork/Acala/wiki/A.-Existential-Deposit)\)  
+
 
 ## Account Generation 
 
