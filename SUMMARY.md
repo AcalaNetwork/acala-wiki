@@ -32,6 +32,7 @@
     * [How to Verify a Runtime Upgrade](karura/get-started/governance/how-to-verify-a-runtime-upgrade.md)
   * [Treasury](karura/get-started/treasury.md)
 * [DeFi Hub](karura/defi-hub/README.md)
+  * [Karura App](https://apps.karura.network/)
   * [Inter Kusama Transfer](karura/defi-hub/inter-kusama-transfer.md)
   * [Swap](karura/defi-hub/swap/README.md)
     * [Protocol Overview](karura/defi-hub/swap/protocol-overview.md)
