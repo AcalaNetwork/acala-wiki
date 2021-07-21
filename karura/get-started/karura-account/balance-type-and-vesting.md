@@ -20,6 +20,30 @@ Go to the `Developer - Extrinsics` section, use the account that you want to cla
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-14-at-4.17.00-pm.png)
 
+### Check Vesting
+
+Go to the `Developer - Chain state` section, select `vesting` then `vestingSchedules()` , then select your account, then click the `+` button to see what vesting schedule it has.
+
+![](../../../.gitbook/assets/screen-shot-2021-07-22-at-9.15.56-am.png)
+
+Below is an example result
+
+* `start`: the tokens are locked until **Kusama block \#**
+* `period`: release period e.g. release every block or every 432,000 block as in the example
+* `periodCount`: how many vesting periods
+* `perPeriod`: how much to release each period
+
+```text
+[
+  {
+    start: 8,886,950,
+    period: 432,000,
+    periodCount: 5,
+    perPeriod: 100 KAR
+  }
+]
+```
+
 ### On Karura App
 
 You can claim the released portion of vested KAR on the [Karura App](https://apps.karura.network/).
