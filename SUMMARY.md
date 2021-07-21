@@ -40,6 +40,7 @@
     * [LP Returns & Risks](karura/defi-hub/swap/lp-returns-and-risks.md)
     * [Price Risks](karura/defi-hub/swap/price-risks.md)
     * [Fees](karura/defi-hub/swap/fees.md)
+    * [Developer Guide](https://wiki.acala.network/karura/developer-guide/swap)
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
   * [Token Transfer](karura/integration/token-transfer.md)
