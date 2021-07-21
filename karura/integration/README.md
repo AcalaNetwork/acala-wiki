@@ -5,7 +5,8 @@ Karura is a parachain of the Kusama Relay chain, with all of its network securit
 This guide contains the following sections:
 
 1. [Protocol Info](protocol-info.md)
-2. [Networks](networks.md)
-3. [Run a Full Node](full-node.md)
-4. [Run a Collator Node](collator.md)
+2. [Token Transfer](token-transfer.md)
+3. [Networks](networks.md)
+4. [Run a Full Node](full-node.md)
+5. [Run a Collator Node](collator.md)
 
