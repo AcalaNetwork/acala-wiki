@@ -53,13 +53,19 @@ You can click on the ‘Vote’ button to vote. Select "Vote Aye" to support the
 
 You can also increase your conviction with the same number of tokens by locking them. The longer you are willing to lock your tokens, the stronger your vote will be weighted. Read more on [voting](https://wiki.polkadot.network/docs/maintain-guides-democracy/#voting-on-a-proposal) and [tallying](https://wiki.polkadot.network/docs/learn-governance#tallying).
 
-![](../../../.gitbook/assets/screen-shot-2021-07-12-at-10.38.55-am%20%281%29.png)
+![](../../../.gitbook/assets/screen-shot-2021-07-21-at-5.02.21-pm.png)
 
 ## Unlock locked tokens
 
 You will need to explicitly unlock these tokens once the locking period ends. You can go to the `Accounts` page, click the menu button for the voted account, and select the menu item`Clear expired democracy locks` to claim it back. Read more [here](https://wiki.polkadot.network/docs/maintain-guides-democracy/#unlocking-locked-tokens). 
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-20-at-10.11.09-am.png)
+
+### Check Locked Democracy Votes
+
+Go to `Developer` - `Chain state`, then select `democracy` and `locks`. Select the account used for voting in the dropdown, and click the `+` button to see whether there's locked votes, and if any how long they are locked for.
+
+![](../../../.gitbook/assets/screen-shot-2021-07-21-at-5.04.35-pm.png)
 
 ## Delegate Vote
 
