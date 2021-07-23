@@ -74,6 +74,13 @@ Here is an example to illustrate this:
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-13-at-9.59.36-am%20%281%29%20%281%29.png)
 
+### Claim LP Tokens
+
+LP tokens are allocated once Bootstrap ends, and are claimable via 
+
+* the [Karura App here](https://apps.karura.network/swap/bootstrap) OR
+* `dex.claimDexShare` directly on Polkadot Web App - Karura parachain 
+
 ## **Submit a Proposal to Bootstrap a Pool**
 
 This is the preimage of proposing to bootstrap a pool. Read more on how to submit a proposal [here](../../get-started/governance/participate-in-democracy.md).
