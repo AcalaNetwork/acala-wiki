@@ -1,6 +1,6 @@
 # Claim KAR
 
-**🔔 UTC 3:00 am 19th July 2021: since** [**the Karura runtime upgrade**](https://acala.discourse.group/t/1-karura-runtime-upgrade-disable-sudo-enable-token-transfers/163) **- disable Sudo & enable transfer will be enacted in the next 24-48 hours, the Claim KAR service will be temporarily offline from now till the end of the week. Thanks for your understanding.**
+**🔔 Claim Service is back online now. Please claim your KAR ASAP.**
 
 If you participated in Karura crowdloan from channels other than the officially supported ones, you will need to read and agree to our Terms and Conditions to claim your tokens. You can check if you need to claim KAR [here](https://distribution.acala.network/).
 
