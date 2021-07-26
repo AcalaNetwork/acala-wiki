@@ -118,7 +118,7 @@ Monitoring events is a recommended way to track incoming balance transfers. It c
 * [state\_subscribeStorage](https://polkadot.js.org/docs/substrate/rpc#subscribestoragekeys-vecstoragekey-storagechangeset)
   * Subscribe to a list of account balances. However, it does not guarantee subscription delivery due to connection errors or blockchain reorg.
 
-### Monitor Tranactions
+### Monitor Transactions
 
 It is possible to fetch transactions in every block, check for transfer transactions, and check if the transfer transaction is successful. However, this may likely yield false-negative results i.e. deposit received but failed to recognize, due to the various ways for transfer.
 
