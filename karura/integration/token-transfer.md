@@ -1,6 +1,6 @@
 # Token Transfer
 
-Karura supports different types of tokens than Kusama, and allows various ways to transfer tokens. This guide will walk through tokens available on Karura, tools can be used for transfers, how to send transfer transactions, monitor and track these transactions. 
+Karura supports different types of tokens than Kusama, and allows various ways to transfer tokens. This guide will walk through tokens available on Karura, tools can be used for transfers, how to send transfer transactions, monitor and track these transactions.
 
 ## Token Types
 
@@ -24,6 +24,34 @@ Karura supports different types of tokens than Kusama, and allows various ways t
 * txwrapper: [https://github.com/AcalaNetwork/txwrapper](https://github.com/AcalaNetwork/txwrapper)
 * SubQuery: [https://github.com/AcalaNetwork/acala-subql](https://github.com/AcalaNetwork/acala-subql)
 
+## Token balances
+
+Query chain state to get token balances.
+
+### Native token \(KAR\) balances
+
+Query `system` module to get native token \(KAR\) balances data.
+
+#### system.account
+* Returns the `AccountInfo` of given account. For different types of balances, check the fields in `AccountInfo.data`
+  * `free`: the free balance.
+  * `reserve`: the reserved balance.
+
+### Other tokens
+
+For non-native tokens, like KSM, LKSM, kUSD, query `tokens` module to get balances info.
+
+#### tokens.accounts
+* Returns the `OrmlAccountData` of given account and currency ID. For different types of balances, check the fields:
+  * `free`: the free balance.
+  * `reserved`: the reserved balance.
+
+#### tokens.lock
+* Returns the `BalanceLock` of given account and currency ID. `BalanceLock` has two fields:
+  * `id`: the lock identifier.
+  * `amount.` the locked amount.
+* Note locks could be overlapped, and the same amount of tokens could be under locked by multiple locks.
+
 ## Send Tokens
 
 ### Transactions
@@ -31,7 +59,7 @@ Karura supports different types of tokens than Kusama, and allows various ways t
 #### currencies.transfer
 
 * [https://karura.subscan.io/extrinsic?module=Currencies&call=transfer](https://karura.subscan.io/extrinsic?module=Currencies&call=transfer)
-* This can be used to send any supported tokens in the network
+* This can be used to send any supported tokens in the network, including KAR, KSM, LKSM, kUSD etc.
 
 #### currencies.transferNativeCurrency
 
@@ -41,7 +69,7 @@ Karura supports different types of tokens than Kusama, and allows various ways t
 #### balances.transfer
 
 * [https://karura.subscan.io/extrinsic?module=Balances&call=transfer](https://karura.subscan.io/extrinsic?module=Balances&call=transfer)
-* Same as `currencies.transferNativeCurrency`
+* Same as `currencies.transferNativeCurrency`, only for native token \(KAR\).
 * Compatible with Polkadot / Kusama and most other Substrate-based chains.
 
 ## Receive Tokens
@@ -59,7 +87,7 @@ Monitoring events is a recommended way to track incoming balance transfers. It c
 #### balances.transfer
 
 * [https://karura.subscan.io/event?module=Balances&event=Transfer](https://karura.subscan.io/event?module=Balances&event=Transfer)
-* Emitted when a native token transfer happened.
+* Emitted when a native token \(KAR\) transfer happened.
 
 #### currencies.transfer
 
@@ -71,6 +99,19 @@ Monitoring events is a recommended way to track incoming balance transfers. It c
 
 * [https://karura.subscan.io/event?module=Currencies&event=Deposited](https://karura.subscan.io/event?module=Currencies&event=Deposited)
 * Emitted when a token is minted to an account. This could happen when it is a cross-chain transfer or it is a transaction minting stablecoins.
+  * For cross-chain transfer, there would be `ExecutedDownward` event along with the deposit. https://karura.subscan.io/event?address=&module=dmpqueue&event=executeddownward
+
+#### xtokens.transferred
+
+* https://karura.subscan.io/event?address=&module=xtokens&event=transferred
+* Emitted when a cross-chain transfer happened from Karura to other chains.
+* Triggered by `xtokens.transfer` extrinsic.
+
+#### xtokens.transferredmultiasset
+
+* https://karura.subscan.io/event?address=&module=xtokens&event=transferredmultiasset
+* Emitted when a cross-chain transfer happened from Karura to other chains.
+* Triggered by `xtokens.transfer_multiasset` extrinsic.
 
 ### Storage changes RPC
 
@@ -87,7 +128,7 @@ Refer to Send Tokens section for direct transfer transactions. In additional, to
 
 * [https://karura.subscan.io/extrinsic?module=Utility&call=batch](https://karura.subscan.io/extrinsic?module=Utility&call=batch)
 * This can be used to send batch transaction
-* NOTE: batched transactions will always emit success events. 
+* NOTE: batched transactions will always emit success events.
   * `utility.BatchCompleted` event indicates that all transactions are successful
   * `utility.BatchInterrupted` event indicates which transaction failed. Transactions before the failed transaction are executed successfully and will not be reverted.
 
