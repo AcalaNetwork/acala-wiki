@@ -140,3 +140,4 @@ Refer to Send Tokens section for direct transfer transactions. In additional, to
 * [https://karura.subscan.io/extrinsic?module=Utility&call=batch\_all](https://karura.subscan.io/extrinsic?module=Utility&call=batch_all)
 * This is similar to utility.batch but will revert all transactions upon failed transaction.
 
+## [Transfer Code Samples](https://github.com/AcalaNetwork/acala-js-example/blob/21a3be3538260cc8a047856bf163dad75de1db3a/src/transfer-examples/readme.md)
