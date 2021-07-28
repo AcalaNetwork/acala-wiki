@@ -24,7 +24,7 @@ Then the LP tokens are allocated to each liquidity provider. LP Shares \(= LP To
 
 Here is an example to illustrate this:
 
-![](../../../.gitbook/assets/screen-shot-2021-07-13-at-9.59.36-am%20%281%29.png)
+![](../../../.gitbook/assets/screen-shot-2021-07-13-at-9.59.36-am%20%281%29%20%281%29.png)
 
 [Read more on Bootstrap a Pool.](bootstrap-a-pool.md)
 

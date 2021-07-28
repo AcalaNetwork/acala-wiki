@@ -33,6 +33,7 @@ Query chain state to get token balances.
 Query `system` module to get native token \(KAR\) balances data.
 
 #### system.account
+
 * Returns the `AccountInfo` of given account. For different types of balances, check the fields in `AccountInfo.data`
   * `free`: the free balance.
   * `reserve`: the reserved balance.
@@ -42,11 +43,13 @@ Query `system` module to get native token \(KAR\) balances data.
 For non-native tokens, like KSM, LKSM, kUSD, query `tokens` module to get balances info.
 
 #### tokens.accounts
+
 * Returns the `OrmlAccountData` of given account and currency ID. For different types of balances, check the fields:
   * `free`: the free balance.
   * `reserved`: the reserved balance.
 
 #### tokens.lock
+
 * Returns the `BalanceLock` of given account and currency ID. `BalanceLock` has two fields:
   * `id`: the lock identifier.
   * `amount.` the locked amount.
@@ -99,17 +102,17 @@ Monitoring events is a recommended way to track incoming balance transfers. It c
 
 * [https://karura.subscan.io/event?module=Currencies&event=Deposited](https://karura.subscan.io/event?module=Currencies&event=Deposited)
 * Emitted when a token is minted to an account. This could happen when it is a cross-chain transfer or it is a transaction minting stablecoins.
-  * For cross-chain transfer, there would be `ExecutedDownward` event along with the deposit. https://karura.subscan.io/event?address=&module=dmpqueue&event=executeddownward
+  * For cross-chain transfer, there would be `ExecutedDownward` event along with the deposit. [https://karura.subscan.io/event?address=&module=dmpqueue&event=executeddownward](https://karura.subscan.io/event?address=&module=dmpqueue&event=executeddownward)
 
 #### xtokens.transferred
 
-* https://karura.subscan.io/event?address=&module=xtokens&event=transferred
+* [https://karura.subscan.io/event?address=&module=xtokens&event=transferred](https://karura.subscan.io/event?address=&module=xtokens&event=transferred)
 * Emitted when a cross-chain transfer happened from Karura to other chains.
 * Triggered by `xtokens.transfer` extrinsic.
 
 #### xtokens.transferredmultiasset
 
-* https://karura.subscan.io/event?address=&module=xtokens&event=transferredmultiasset
+* [https://karura.subscan.io/event?address=&module=xtokens&event=transferredmultiasset](https://karura.subscan.io/event?address=&module=xtokens&event=transferredmultiasset)
 * Emitted when a cross-chain transfer happened from Karura to other chains.
 * Triggered by `xtokens.transfer_multiasset` extrinsic.
 
