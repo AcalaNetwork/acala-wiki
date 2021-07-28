@@ -5,18 +5,19 @@
 Liquidity Providers are incentivized to provide liquidity to various trading pools from the following avenues:
 
 1. \([Source](https://github.com/AcalaNetwork/Acala/blob/master/runtime/karura/src/lib.rs#L1067)\) obtaining fees generated from trades
-2. \([Source](https://github.com/AcalaNetwork/Acala/blob/4e6a2b94f5153cd7a09279914366927f357767d5/modules/incentives/src/lib.rs#L201)\) receiving a portion of the stability fees \(in kUSD\) from the stablecoin protocol as the Swap is utilized as a complimentary liquidation mechanism
+2. \([Source](https://github.com/AcalaNetwork/Acala/blob/4e6a2b94f5153cd7a09279914366927f357767d5/modules/incentives/src/lib.rs#L201)\) receiving a portion of the stablecoin surplus in kUSD as the Karura Swap is utilized as a complimentary liquidation mechanism to keep stablecoin stable
    * the reward rate `DexSavingRewardRate` is yet to be determined
    * APY: 1/2 \* \(1+DexSavingRewardRate\)^\(60 min \* 24 \* 365\)
+   * only applicable to kUSD pools
 3. receiving liquidity mining rewards \(in KAR\) from occasional Liquidity Programs for certain pools
 
 ### 1. Trading Fees
 
 Liquidity providers share the trading fees based on their LP shares. Therefore trading volume of a particular pool is a good indicator of trading fees generated. Read more on fees [here](fees.md).
 
-### 2. Stability Fee/Stablecoin Interest Rate
+### 2. **Stablecoin Surplus**
 
-Karura Swap is an integral part of the Stablecoin liquidation mechanism, where a hybrid of auction and decentralized exchange \(DeX\) approach is used to ensure efficiency and effectiveness of liquidating collaterals. Therefore a certain portion of the stability fee is configured to shared with the LPs of kUSD pools e.g. KSM/kUSD pair.
+Karura Swap is an integral part of the Stablecoin liquidation mechanism, where a hybrid of auction and DeX approach is used to ensure efficiency and effectiveness of liquidating collaterals. A certain portion of the stablecoin surplus stability fee in kUSD \(e.g. from stability fees and liquidation fees\)  is configured to be shared with the LPs of kUSD pools e.g. KSM/kUSD pair.
 
 ### 3. Liquidity Mining Rewards
 
