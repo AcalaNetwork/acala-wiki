@@ -32,59 +32,66 @@ Karura will perform a set of tests and verifications to ensure the network is op
 * [x] p2p connectivity is good
 * [x] RPC node availability is good
 
-## 🤹 \(WIP\) Enable KSM Transfer from Kusama to Karura
+## 🤹 \(Done\) Enable KSM Transfer from Kusama to Karura
 
 Transfer KSM from Kusama Relaychain to Karura parachain and back via **xtoken** will be enabled. However transfer within the Karura parachain will still be disabled at this stage.
 
-## 🎯 \(WIP\) Distribute KAR
+Read how-to [here](defi-hub/inter-kusama-transfer.md).
+
+## 🎯 \(Done\) Distribute KAR
 
 Batch distribution of KAR to 
 
 * [x] Testnet campaign rewards & airdrops
 * [x] "Build Acala \#1" rewards
 * [x] Karura crowdloan participants
-* [ ] Other events 
+* [x] Other events 
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies, please contact them directly for distribution schedule. 
 
 ## 🎁 \(WIP\) Claim KAR
 
-**You can check whether your KAR rewards need to be claimed** [**here**](https://distribution.acala.network/)**.**
+**You can check whether your KAR rewards need to be claimed** [**here**](crowdloan/claim-kar.md)**.**
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies, please contact them directly for the distribution schedule. 
 
 If you participated in Karura ****crowdloan via the ****Polkadot web app directly, or via non-custodial wallets other than Polkawallet and Fearless wallet, you will need to agree to our T&C by completing a claim process for KAR. The Claim KAR website will be released once it's ready.
 
-## ✋ \(WIP\) Council Governance + Democracy
+## ✋ \(Done\) Council Governance + Democracy
 
 After the chain had been running stably with the collator set, the sudo key will perform a runtime upgrade and enable appointed Councilors and democracy. Other councils including Financial Council, Technical Council, and Liquid Staking Council, as well as public referenda will also be enabled.  
 
-## 💥 Remove Sudo
+Read more [here](get-started/governance/participate-in-democracy.md).
+
+## 💥 \(Done\) Remove Sudo
 
 Sudo module will be removed via a runtime upgrade, and the Karura network will be governed by on-chain governance and token holders hereafter. 
 
-## 🚃 Enable Balance Transfers
+Read more [here](https://acala.discourse.group/t/1-karura-runtime-upgrade-disable-sudo-enable-token-transfers/163).
+
+## 🚃 \(Done\) Enable Balance Transfers
 
 Balance transfers within the Karura network are restricted until this point. 
 
-## 👩‍🌾 Core DeFi Functionalities
+## 👩‍🌾 \(WIP\) Core DeFi Functionalities
 
 More details will be provided as we launch each DeFi protocol. 
 
-* [ ] Karura DeX
-  * [ ] Enable DeX
-  * [ ] Enable KSM/KAR pair
-    * [ ] Start liquidity provisioning
-    * [ ] Start liquidity program
-    * [ ] Trading begins
+* [x] Karura DeX
+  * [x] Enable DeX
+  * [x] Enable KSM/KAR pair
+    * [x] Start Bootstrap
+    * [x] Trading begins
   * [ ] KSM/kUSD pair
+    * [ ] Start Bootstrap
+    * [ ] Trading begins
+    * [ ] Start Liquidity Program
   * [ ] KAR/kUSD pair
   * [ ] LKSM/kUSD pair
   * [ ] ...
 * [ ] kUSD Borrowing
   * [ ] Enable kUSD stablecoin protocol
   * [ ] Enable KSM collateral \(capped\)
-    * [ ] Start liquidity program
   * [ ] Enable LSKM collateral
   * [ ] ...
 * [ ] Liquid KSM
