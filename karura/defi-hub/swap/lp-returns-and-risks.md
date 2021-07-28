@@ -32,9 +32,9 @@ We implement a Loyalty Bonus mechanism to achieve the following
 * To avoid hot bags mining and dumping, hence encouraging more sustainable, longer term farming for the benefit of the protocol and the entire network
 * To share more rewards for longer term LPs compared to just vesting
 
-Rewards are accumulated over time, LPs can claim rewards at any time. However, if LPs keep the rewards in the pool until the end of the program, a minimum of X% of Royalty Bonus will be awarded to LPs. 
+Rewards are accumulated over time, LPs can claim rewards at any time. However, if LPs keep the rewards in the pool until the end of the program, a minimum of X% of Loyalty Bonus will be awarded to LPs. 
 
-* If some LPs claim rewards earlier than the mining program ends, then their Royalty Bonus will be added back to the reward pool and shared amongst all other LPs
+* If some LPs claim rewards earlier than the mining program ends, then their Loyalty Bonus will be added back to the reward pool and shared amongst all other LPs
 * Overtime, longer term LPs may enjoy higher rewards than their standard rewards
 
 #### Reward Simulation
