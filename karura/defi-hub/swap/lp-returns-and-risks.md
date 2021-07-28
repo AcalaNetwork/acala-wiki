@@ -56,8 +56,6 @@ Rewards are accumulated over time, LPs can claim rewards at any time. However, i
 
 This is an overly simplified example, in reality, an LP's LP shares are likely to be fluctuating due to increase or decrease of overall liquidity, hence resulting in higher or lower mining rewards for certain periods.
 
-In ThisThis
-
 ## Impermanent Loss
 
 However, there are various risks of being a liquidity provider especially when there are significant fluctuations in the underlying asset exchange rates, which may result in **LP’s worse off than simply holding the tokens**. 
