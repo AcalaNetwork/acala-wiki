@@ -14,7 +14,7 @@
 
 [https://karura.subscan.io/](https://karura.subscan.io/)
 
-### PRC Endpoints
+### RPC Endpoints
 
 * `wss://karura.api.onfinality.io/public-ws`
 * `wss://karura-rpc-0.aca-api.network`
