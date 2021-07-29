@@ -18,3 +18,5 @@ $$
 
 Once the autonomous Liquidator identifies an unsafe vault, it will trigger the liquidation process to sell off the collateral for kUSD to repay the vault. The liquidation process uses a hybrid mechanism of liquidating on decentralized exchange and collateral auctions.
 
+\[[Source](https://github.com/AcalaNetwork/Acala/blob/master/modules/cdp-engine/src/lib.rs#L488)\]
+
