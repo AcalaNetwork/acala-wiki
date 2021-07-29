@@ -51,6 +51,7 @@
     * [Stability & Liquidation](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/README.md)
       * [Autonomous Liquidator](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/autonomous-liquidator.md)
       * [Liquidation](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/liquidation.md)
+      * [Adjust Risk Parameters](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/adjust-risk-parameters.md)
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
   * [Token Transfer](karura/integration/token-transfer.md)
