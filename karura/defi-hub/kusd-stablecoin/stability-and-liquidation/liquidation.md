@@ -25,5 +25,15 @@ Liquidation auction is used to sell off collaterals to recover kUSD and pay back
 2. Then, once such a bid has been reached, the auction switches to **a descending reserve auction** that allows any potential buyers to bid the minimum amount of the collateralized asset they are willing to accept by paying the amount of the preset kUSD target. Auction ends when no lower bid is placed within the auto extension period.
 3. Lastly, the part of collateral sold in the auction mechanism is transferred to the auction winner, and any remaining collateral is returned to the original vault owner. The kUSD debt is now repaid, and the liquidation penalty in kUSD is collected by the `cdp-treasury` as surplus.
 
+### Auction Parameters
+
+These are the important parameters for the collateral auction mechanism, which can also be set and updated via governance.
+
+| Parameters | **Type** | **Description** |
+| :--- | :--- | :--- |
+| **MinimumIncrementSize** | Rate | Minimum price increment |
+| **AuctionTimeToClose** | Block Number | Duration of the auction. To discourage sniping, auctions are automatically extended for a short period if a last-minute bid is placed, shortly before the preset auction close time.  |
+| **AuctionDurationSoftCap** | Block Number | To increase the auction efficiency, once this value is passed, the system will double price increment, and halve auction time.  |
+
 \[[Source](https://github.com/AcalaNetwork/Acala/blob/master/modules/cdp-engine/src/lib.rs#L372)\]
 
