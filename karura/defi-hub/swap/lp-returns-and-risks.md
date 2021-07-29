@@ -22,6 +22,8 @@ Liquidity providers share the trading fees based on their LP shares. Therefore t
 
 Karura Swap is an integral part of the Stablecoin liquidation mechanism, where a hybrid of auction and DeX approach is used to ensure efficiency and effectiveness of liquidating collaterals. A certain portion of the stablecoin surplus stability fee in kUSD \(e.g. from stability fees and liquidation fees\)  is configured to be shared with the LPs of kUSD pools e.g. KSM/kUSD pair.
 
+This is only applicable to certain kUSD pools, and only available to those who staked their LP tokens.
+
 ### 3. Liquidity Mining Rewards
 
 Liquidity \(aka Total Value Lock - TVL of Kaura Swap\) is highly essential for usability of a given pool, the better the liquidity, the less slippage, potentially attracting more trading, then generating more trading fees for LPs to form a virtuous circle. LP tokens, as receipts of liquidity contribution, is rather liquid, as LP token holders can easily trade them, transfer them, burn them to withdraw liquidity etc. Therefore to encourage locking more liquidity in a pool, Liquidity Mining incentives are set up for certain pairs \(especially but not exclusively stablecoin pairs\).
