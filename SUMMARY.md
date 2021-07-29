@@ -51,6 +51,7 @@
     * [Stability & Liquidation](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/README.md)
       * [Autonomous Liquidator](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/autonomous-liquidator.md)
       * [Liquidation](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/liquidation.md)
+      * [Participate in Collateral Auctions](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/participate-in-collateral-auctions.md)
       * [Adjust Risk Parameters](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/adjust-risk-parameters.md)
       * [Oracles](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/oracles.md)
       * [Emergency Shutdown](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/emergency-shutdown.md)
