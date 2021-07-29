@@ -4,11 +4,10 @@ The kUSD is designed to peg to US Dollar at 1:1 ratio through automatic risk man
 
 We will outline below the key aspects of risk management and stbailiy mechanisms:
 
-* Autonomous Liquidator
-* Liquidation
-* Adjusting Risk Parameters
-* Auctions & Auction Parameters
-* Participate in Auctions
-* Oracles
-* Emergency Shutdown
+* [Autonomous Liquidator](autonomous-liquidator.md)
+* [Liquidation](liquidation.md)
+* [Adjusting Risk Parameters](adjust-risk-parameters.md)
+* Participate in Auctions \(coming soon\)
+* [Oracles](oracles.md)
+* [Emergency Shutdown](emergency-shutdown.md)
 
