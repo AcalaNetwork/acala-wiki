@@ -5,11 +5,14 @@
 Liquidity Providers are incentivized to provide liquidity to various trading pools from the following avenues:
 
 1. \([Source](https://github.com/AcalaNetwork/Acala/blob/master/runtime/karura/src/lib.rs#L1067)\) obtaining fees generated from trades
+   * available to LP token holders
 2. \([Source](https://github.com/AcalaNetwork/Acala/blob/4e6a2b94f5153cd7a09279914366927f357767d5/modules/incentives/src/lib.rs#L201)\) receiving a portion of the stablecoin surplus in kUSD as the Karura Swap is utilized as a complimentary liquidation mechanism to keep stablecoin stable
-   * the reward rate `DexSavingRewardRate` is yet to be determined
-   * APY: 1/2 \* \(1+DexSavingRewardRate\)^\(60 min \* 24 \* 365\)
+   * the reward rate `DexSavingRewardRate` is determined per pool
    * only applicable to kUSD pools
+   * available to those who staked their LP tokens
 3. receiving liquidity mining rewards \(in KAR\) from occasional Liquidity Programs for certain pools
+   * mining rewards are allocated on per pool basis
+   * available to those who staked their LP tokens
 
 ### 1. Trading Fees
 
