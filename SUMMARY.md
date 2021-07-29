@@ -53,6 +53,7 @@
       * [Liquidation](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/liquidation.md)
       * [Adjust Risk Parameters](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/adjust-risk-parameters.md)
       * [Oracles](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/oracles.md)
+      * [Emergency Shutdown](karura/defi-hub/kusd-stablecoin/stability-and-liquidation/emergency-shutdown.md)
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
   * [Token Transfer](karura/integration/token-transfer.md)
