@@ -7,7 +7,7 @@ We will outline below the key aspects of risk management and stbailiy mechanisms
 * [Autonomous Liquidator](autonomous-liquidator.md)
 * [Liquidation](liquidation.md)
 * [Adjusting Risk Parameters](adjust-risk-parameters.md)
-* Participate in Auctions \(coming soon\)
+* [Participate in Auctions](participate-in-collateral-auctions.md) 
 * [Oracles](oracles.md)
 * [Emergency Shutdown](emergency-shutdown.md)
 
