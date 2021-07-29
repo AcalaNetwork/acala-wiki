@@ -47,6 +47,7 @@
   * [kUSD Stablecoin](karura/defi-hub/kusd-stablecoin/README.md)
     * [Protocol Overview](karura/defi-hub/kusd-stablecoin/protocol-overview.md)
     * [Key Actors](karura/defi-hub/kusd-stablecoin/key-actors.md)
+    * [Mint kUSD](karura/defi-hub/kusd-stablecoin/mint-kusd.md)
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
   * [Token Transfer](karura/integration/token-transfer.md)
