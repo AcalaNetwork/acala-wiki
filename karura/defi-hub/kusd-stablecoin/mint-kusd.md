@@ -27,6 +27,8 @@ The following are essential risks parameters and requirements of minting kUSD, n
 * **Minimum kUSD in Vault:** e.g. 100 kUSD means you need to have at least 100 kUSD minted to maintain the vault, otherwise you will have to pay back the full outstanding minted kUSD amount.
 * **Oracle prices**: the protocol relies on real-time market price for the collaterals to assess risks and trigger liquidations if thresholds are met. These market prices come from Acala Oracle via the Open Oracle Gateway
 
+Read more on how these risk parameters are set [here](stability-and-liquidation/adjust-risk-parameters.md).
+
 ### Extrinsics
 
 This is the Extrinsics \(transaction\) used to mint kUSD.
