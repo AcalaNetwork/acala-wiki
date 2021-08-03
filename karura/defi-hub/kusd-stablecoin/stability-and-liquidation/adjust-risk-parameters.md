@@ -11,6 +11,10 @@ These are the most important risk parameters used to maintain the stability and 
 | **MaximumTotalDebitValue** | Balance | Debt Ceiling for a particular collateral, used to control portfolio diversification, risks willing to take on |
 | **MaxSlippageSwapWithDEX** | Ratio | Acceptable slippage when liquidating on Karura Swap, to ensure price efficiency |
 
+{% hint style="info" %}
+Rate field is 18 decimal
+{% endhint %}
+
 Read more on what these parameters mean for kUSD [here](../mint-kusd.md#key-parameters).
 
 **Gaunlet Risk Assessment & Parameter Recommendation for KSM** [**here**](https://medium.com/gauntlet-networks/karura-parameter-recommendation-methodology-6ce7fe06cb77)**.**
