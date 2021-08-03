@@ -1,6 +1,6 @@
 # Adjust Risk Parameters
 
-These are the most important risk parameters used to maintain stability and security of the protocol. These parameters are set and updated for each available collateral asset via Karura on-chain Governance.
+These are the most important risk parameters used to maintain the stability and security of the protocol. These parameters are set and updated for each available collateral asset via Karura on-chain Governance.
 
 | Parameters | **Type** | **Description** |
 | :--- | :--- | :--- |
@@ -9,7 +9,9 @@ These are the most important risk parameters used to maintain stability and secu
 | **LiquidationPenalty** | Rate | Cost for allowing your vault to be liquidated,  a disincentive for leaving a vault unsafe |
 | **RequiredCollateralRatio** | Ratio | Required when minting kUSD, usually higher than LiquidationRatio as a safety cushion  |
 | **MaximumTotalDebitValue** | Balance | Debt Ceiling for a particular collateral, used to control portfolio diversification, risks willing to take on |
-| **MaxSlippageSwapWithDEX** | Ratio | Acceptable slippage when liquidate on Karura Swap, to ensure price efficiency |
+| **MaxSlippageSwapWithDEX** | Ratio | Acceptable slippage when liquidating on Karura Swap, to ensure price efficiency |
+
+Read more on what these parameters mean for kUSD [here](../mint-kusd.md#key-parameters).
 
 **Gaunlet Risk Assessment & Parameter Recommendation for KSM** [**here**](https://medium.com/gauntlet-networks/karura-parameter-recommendation-methodology-6ce7fe06cb77)**.**
 
