@@ -9,7 +9,7 @@
 
 The default fee token on Karura is KAR. The system will automatically find the next available and supported fee token if the default token has zero balance. 
 
-Use can however set their default fee token to supported tokens other than KAR e.g. KSM by executing the following transaction:
+Users can however set their default fee token to tokens other than KAR e.g. KSM by executing the following transaction:
 
 ```text
 transactionPayment.setAlternativeFeeSwapPath(fee_swap_path)
