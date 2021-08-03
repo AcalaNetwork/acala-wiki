@@ -5,6 +5,16 @@
 * **KAR** is the default fee token on Karura. 
 * **KSM** is now enabled also as a fee token on Karura.
 
+## Default Fee Token
+
+The default fee token on Karura is KAR. The system will automatically find the next available and supported fee token if the default token has zero balance. 
+
+Use can however set their default fee token to supported tokens other than KAR e.g. KSM by executing the following transaction:
+
+```text
+transactionPayment.setAlternativeFeeSwapPath(fee_swap_path)
+```
+
 ## How it works
 
 You do NOT need KAR in the balance to perform any transactions on Karura. If you hold only KSM \(or other supported fee tokens\) on the Karura network, you can still trade KSM on [Karura Swap](swap/) and [mint kUSD](kusd-stablecoin/mint-kusd.md) without holding KAR.
@@ -31,4 +41,6 @@ It traded `0.003739782821 KSM`  for `0.103651490206 KAR` , where `0.1 KAR` was t
 This is the actual Swap event.
 
 ![](../../.gitbook/assets/screen-shot-2021-08-03-at-12.33.33-pm.png)
+
+
 
