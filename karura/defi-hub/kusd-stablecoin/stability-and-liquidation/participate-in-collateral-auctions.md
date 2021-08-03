@@ -1,6 +1,6 @@
 # Participate in Collateral Auctions
 
-Anyone can participate in collateral auctions and bid for the collaterals in kUSD.
+Anyone can participate in collateral auctions and bid for the collaterals in kUSD. If you are not familar with the auction process and various parameters, please [read this first](https://wiki.acala.network/karura/defi-hub/kusd-stablecoin/stability-and-liquidation/liquidation#liquidate-on-collateral-auction).
 
 ## The Process for Bidders
 
