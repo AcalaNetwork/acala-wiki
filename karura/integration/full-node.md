@@ -28,6 +28,7 @@ Same as the Kusama full node requirements.
       RPC port is 9945
 * It is recommended to explicitly specify the ports for both services to avoid confusion
   * For example `--listen-addr=/ip4/0.0.0.0/tcp/30333 --listen-addr=/ip4/0.0.0.0/tcp/30334/ws -- --listen-addr=/ip4/0.0.0.0/tcp/30335 --listen-addr=/ip4/0.0.0.0/tcp/30336/ws`
+* It is recommended to add `--execution=wasm` for parachain service to avoid syncing issues.
 
 ## Example CLI
 
@@ -44,6 +45,7 @@ Same as the Kusama full node requirements.
 --ws-port=9944
 --rpc-port=9933
 --ws-max-connections=2000
+--execution=wasm
 --
 --chain=kusama
 ```
