@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Index](README.md)
+* [Acala & Karura Wiki](README.md)
 
 ## Karura
 
