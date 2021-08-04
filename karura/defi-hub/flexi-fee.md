@@ -7,9 +7,19 @@
 
 ## Default Fee Token
 
-The default fee token on Karura is KAR. The system will automatically find the next available and supported fee token if the default token has zero balance. 
+The default fee token on Karura is KAR. The system will automatically find the next available and supported fee token if the default token has zero balance. The default order is as follows
 
-Currently, the next available token is KSM. Users can set their next default fee token to tokens other than KSM e.g. kUSD by executing the following transaction:
+{% hint style="info" %}
+KAR &gt; kUSD &gt; KSM &gt; LKSM
+{% endhint %}
+
+You can check this on-chain `Chain state` &gt; `Constants` &gt;`transactionPayment defaultFeeSwapPathList`
+
+![](../../.gitbook/assets/screen-shot-2021-08-04-at-9.06.14-pm.png)
+
+For example, if a user has no KAR balance and no kUSD balance, but some KSM balance, then the system will automatically use KSM as fee token.
+
+Users can set their next default fee token to tokens other than kUSD e.g. KSM by executing the following transaction:
 
 ```text
 transactionPayment.setAlternativeFeeSwapPath(fee_swap_path)
