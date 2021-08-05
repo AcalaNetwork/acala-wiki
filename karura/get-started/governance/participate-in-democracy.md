@@ -45,6 +45,8 @@ Before voting of your proposal completes, you will need to submit the actual pre
 
 ## Vote on a Referenda
 
+To Vote on Referenda, you must hold KAR tokens and these tokens must be held in a wallet that has the functionality to participate in Democracy like Polkadot.js. If you don't have your tokens in Polkadot.js wallet, you can read more about [account generation](https://wiki.acala.network/karura/get-started/karura-account).
+
 Once a proposal is in as a referendum, it will show up in the referenda table. You can navigate to the [Polkadot Apps - Karura Parachain Democracy](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-1.aca-api.network#/democracy) to cast your vote.
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-12-at-10.39.29-am.png)
