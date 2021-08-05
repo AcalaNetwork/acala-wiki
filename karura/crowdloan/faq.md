@@ -4,7 +4,7 @@
 
 ### Have all the tokens been distributed?
 
-If you participated through our Karura website or through one of our mobile wallet partners, your tokens have been distributed. Users that participated through other means will need to go through the claims process.
+If you participated through our Karura website or through one of our mobile wallet partners, your tokens have been distributed. Users that participated through other means will need to go through the claims process. Learn how to [check your distribution](https://wiki.acala.network/karura/get-started/check-distribution).
 
 ### Do I need to claim my tokens?
 
@@ -18,9 +18,7 @@ We have created the website [https://distribution.acala.network/claim](https://d
 
 ### **How do I access my tokens?**
 
-The KAR rewards will be distributed to the Karura address associated with the Kusama address you used to contribute. Polkawallet users can see their KAR tokens by connecting to the Karura network in the Polkawallet app. Polkadot.js browser extension users should go to [https://polkadot.js.org/apps](https://polkadot.js.org/apps) and connect to the Karura network to see their tokens. When doing this, make sure that your Polkadot.js browser extension is set to "allow use on any chain" \(screenshot below\).
-
-![](../../.gitbook/assets/image%20%2824%29.png)
+The KAR rewards will be distributed to the Karura address associated with the Kusama address you used to contribute. Polkawallet users can see their KAR tokens by connecting to the Karura network in the Polkawallet app. Polkadot.js browser extension users can learn how to [check their distribution.](https://wiki.acala.network/karura/get-started/check-distribution)
 
 ### Do I need to create a Karura account to claim/receive my tokens?
 
