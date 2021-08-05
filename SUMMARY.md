@@ -65,7 +65,7 @@
 * [Developer Guide](karura/developer-guide/README.md)
   * [Swap](karura/developer-guide/swap/README.md)
     * [Polkadot/Acala API](karura/developer-guide/swap/swap-api.md)
-    * [Swap SDK](https://github.com/AcalaNetwork/acala.js/tree/8b9c7a79bb4678eccfcb9e2ff4989596dbf43331/packages/sdk-swap)
+    * [Swap SDK](karura/developer-guide/swap/swap-sdk.md)
 
 ## Acala
 
