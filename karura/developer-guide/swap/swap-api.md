@@ -56,7 +56,7 @@ You can use `@acala-network/api` to get metadata description of available method
     ...
 ```
 
-You can check out a list of available public endpoints [here](https://hackmd.io/PUA_ova-T9upS9kwnmrP8Q)
+You can check out a list of available public endpoints [here](https://wiki.acala.network/karura/integration/networks)
 
 **Full code snippet:**
 
