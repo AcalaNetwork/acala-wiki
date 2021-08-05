@@ -42,6 +42,16 @@ A kUSD pool LP would enjoy rewards from three different sources:
 2. earn on-going trading fees \(in respective pairs\) \(long term sustainable\)
 3. earn kUSD surplus share \(in kUSD\) as it supports stability of kUSD \(long term variable\)
 
+### KSM
+
+Learn how to cross KSM from Kusama to Karura [here](inter-kusama-transfer.md).
+
+### kUSD
+
+* Why mint kUSD, read more [here](https://wiki.acala.network/karura/defi-hub/kusd-stablecoin/protocol-overview)
+* How to mint kUSD [here](https://wiki.acala.network/karura/defi-hub/kusd-stablecoin/mint-kusd)
+* Understand risks and stability mechanisms [here ](https://wiki.acala.network/karura/defi-hub/kusd-stablecoin/stability-and-liquidation)
+
 {% hint style="info" %}
 Please be fully aware of [the risks of becoming a liquidity](swap/lp-returns-and-risks.md#impermanent-loss) provider before participating.
 
@@ -56,8 +66,8 @@ The APY's are entirely indicative, based upon assumptions of the exchange rate a
 
 ![](../../.gitbook/assets/screen-shot-2021-08-05-at-8.39.03-pm.png)
 
-* Total ~65,000 KAR rewards per month \(inclusive of Royalty Bonus provision\)
-* 32,500 KAR \(50%\) is the base reward pool, and 32,500 KAR \(50%\) is Royalty Bonus provision
+* Total ~65,000 KAR rewards per month \(inclusive of Loyalty Bonus provision\)
+* 32,500 KAR \(50%\) is the base reward pool, and 32,500 KAR \(50%\) is Loyalty Bonus provision
 * Base reward is calculated and earned per period \(every 5 blocks\)
 * Staked LP tokens at any time during the program, and start earning incentive rewards
 
