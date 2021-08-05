@@ -28,7 +28,7 @@ We implement a Loyalty Bonus mechanism to achieve the following
 * Base reward is calculated and earned per period \(every 5 blocks\)
 * Staked LP tokens at any time during the program, and start earning incentive rewards
 
-### Royalty Bonus
+### Loyalty Bonus
 
 * If some LPs claim rewards earlier than the mining program ends, then their Loyalty Bonus will be added back to the reward pool and shared amongst all other LPs
 * Overtime, longer-term LPs may enjoy higher rewards than their standard rewards
@@ -99,6 +99,10 @@ This retro airdrop is a way to say thank you to the early adopters and chaos emb
 ## How to Liquidity Mine on Karura Swap
 
 ![](../../.gitbook/assets/screen-shot-2021-08-05-at-9.11.47-pm.png)
+
+#### 0. Need KSM on Karura
+
+Learn how to cross KSM from Kusama to Karura [here](https://wiki.acala.network/karura/defi-hub/inter-kusama-transfer).
 
 #### 1. Become a liquidity provider
 
