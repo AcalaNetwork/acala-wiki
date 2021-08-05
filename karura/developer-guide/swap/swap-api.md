@@ -47,7 +47,7 @@ Indicates whether trading pair is enabled:
 ## Initialising Polkadot.js API Provider with Acala wrapper
 
 You can use `@acala-network/api` to get metadata description of available methods.  
- Setting up polkadot/api provider example:
+Setting up polkadot/api provider example:
 
 ```javascript
     const provider = new WsProvider('<NODE_WS_ADDRESS>');
@@ -89,7 +89,7 @@ Returns liquidity of the pool of currencies in Trading Pair `tokenA` and `tokenB
 
 ```javascript
 liquidityPool(tradingPair: TradingPair): 
-    [Balance, Balance] 
+    [Balance, Balance]
 ```
 
 > Read about `Balance` type [here](https://polkadot.js.org/docs/api/start/typescript/#storage-generics)
@@ -177,7 +177,7 @@ const status = await api.query.dex.tradingPairStatuses([
 ## State-Changing Functions
 
 These transactions write data on-chain and require the private key to sign transactions.  
- There are different ways to create the signer to sign transactions, you can check them in [polkadot api docs](https://polkadot.js.org/docs/api).
+There are different ways to create the signer to sign transactions, you can check them in [polkadot api docs](https://polkadot.js.org/docs/api).
 
 Here is an example deriving a `signer` from a seed phrase using Polkadot keyring:
 
@@ -199,9 +199,9 @@ swapWithExactSupply(path: CurrencyId[], supply_amount: number, min_target_amount
 ```
 
 Swaps an exact amount of token A `supply_amount` to a minimum amount of token B  
- `min_target_amount`. 
+`min_target_amount`.
 
-The slippage of the deal = `supply_amount / min_target_amount` 
+The slippage of the deal = `supply_amount / min_target_amount`
 
 The current exchange ratio of the Liquidity Pool = `token_A_liquidity / token_B_liquidity`.
 
@@ -247,9 +247,9 @@ Example
 swapWithExactTarget(path: CurrencyId[], target_amount: number, max_supply_amount: number): Extrinsic
 ```
 
-Swaps a certain amount of supply tokens A to get an exact amount of tokens B. If the current ratio of tokens in the pool doesn’t need more supply tokens than mentioned, the transaction will fail. 
+Swaps a certain amount of supply tokens A to get an exact amount of tokens B. If the current ratio of tokens in the pool doesn’t need more supply tokens than mentioned, the transaction will fail.
 
-The slippage of the deal is defined as such:`max_supply_amount / target_amount` 
+The slippage of the deal is defined as such:`max_supply_amount / target_amount`
 
 The current exchange ratio of the Liquidity Pool = `token_A_liquidity / token_B_liquidity`
 
@@ -343,7 +343,7 @@ Returns `Extrinsic` type that should be signed with the private key.
 ```
 
 **Full code snippet**  
- [dex-examples/addLiquidity.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/addLiquidity.js)
+[dex-examples/addLiquidity.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/addLiquidity.js)
 
 > ![:warning:](https://assets.hackmd.io/build/emojify.js/dist/images/basic/warning.png) Ensure you have positive balance of each of the tokens in the pair and that the pair is available
 
@@ -360,7 +360,7 @@ removeLiquidity(
 ): Extrinsic
 ```
 
-Removes liquidity from selected trading pair. It can, also, automatically unstake all LP tokens and withdraw them. This call merges/batches the two transactions into one and requires only one fee. 
+Removes liquidity from selected trading pair. It can, also, automatically unstake all LP tokens and withdraw them. This call merges/batches the two transactions into one and requires only one fee.
 
 `min_withdrawn_` specifies the minimum amount of token A you want to receive.
 
@@ -399,5 +399,5 @@ Removes liquidity from selected trading pair. It can, also, automatically unstak
 ```
 
 **Full code snippet**  
- [dex-examples/removeLiquidity.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/removeLiquidity.js)
+[dex-examples/removeLiquidity.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/removeLiquidity.js)
 

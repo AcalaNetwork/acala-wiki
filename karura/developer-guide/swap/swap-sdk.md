@@ -4,14 +4,15 @@ Swap SDK is meant to provide simple interfaces for calculating all parameters ne
 
 Before making any swap there needed to few calls to check liquidity and to calculate some basic parameters to make swaps safer and to avoid malicious operations as front-running or sandwich-attacks.
 
-
 First, you need to create an instance of either SwapPromise or SwapRx:
-```typescript=
+
+```text
   const swapPromise = new SwapPromise(api);
 ```
 
 After setup arguments of swap:
-```typescript=
+
+```text
   const karToken = walletPromise.getToken("KAR");
   const kusdToken = walletPromise.getToken("KUSD");
 
@@ -22,7 +23,8 @@ After setup arguments of swap:
 ```
 
 And make calculate parameters with next interface:
-```typescript=
+
+```text
 const parameters = swapPromise.swap(path: Token[], amount: FixedPointNumber, type: "EXACT_INPUT" | "EXACT_OUTPUT");
 ```
 
