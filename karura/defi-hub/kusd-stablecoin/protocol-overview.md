@@ -2,7 +2,7 @@
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-03-at-9.44.54-pm.png)
 
-Karura Dollar \(kUSD\) stablecon protocol is a dynamic decentralized system that allows users to autonomously generate kUSD stablecoin \(stabilized against the US Dollar\) using crypto assets in excess of value as collateral. Karura Dollar \(kUSD\) will be available as an ERC20 token, and the stablecoin protocol will be available as pre-compiled contracts on Acala EVM once enabled on the Karura Network. 
+Karura Dollar \(kUSD\) stablecoin protocol is a dynamic decentralized system that allows users to autonomously generate kUSD stablecoin \(stabilized against the US Dollar\) using crypto assets in excess of value as collateral. Karura Dollar \(kUSD\) will be available as an ERC20 token, and the stablecoin protocol will be available as pre-compiled contracts on Acala EVM once enabled on the Karura Network. 
 
 The stablecoin protocol supports \(technically\) native Substrate tokens such as KSM and LKSM, and cross-chain tokens such as BTC as collateral. The decisions of adding new collateral assets and updating relevant risk parameters are in the realm of Karura Governance. 
 
