@@ -108,6 +108,8 @@ Learn how to cross KSM from Kusama to Karura [here](https://wiki.acala.network/k
 
 By supplying liquidity to a trading pair, you own LP tokens and earn trading fees. Learn about liquidity providers [here](../../learn/basics/dex/provide-liquidity.md).
 
+Add liquidity [here](https://apps.karura.network/swap/liquidity).
+
 #### 2. Stake LP Tokens
 
 LP tokens are liquid, transferrable, and withdrawable. The incentive program requires you to stake/lock LP tokens so that the liquidity stays in the relative pool.
@@ -115,7 +117,12 @@ LP tokens are liquid, transferrable, and withdrawable. The incentive program req
 * I**f you participated in the Karura Swap Bootstrap**, you will need to claim LP tokens and stake them \(read about Bootstrap [here](swap/bootstrap-a-pool.md) & claim LP tokens [here](swap/bootstrap-a-pool.md#claim-lp-tokens)\)
 * Otherwise, you can stake the LP tokens as you add liquidity.
 
+Stake LP tokens [here](https://apps.karura.network/earn).
+
 #### 3. Unstake and Withdraw Liquidity
 
-You can unstake LP tokens at any time. Then LP tokens are unlocked, and become transferrable. You can then withdraw liquidity \(withdraw respective token pairs\) out of the pool. Trading fees are calculated and withdrawn at the same time as liquidity is withdrawn. 
+You can unstake LP tokens at any time. Then LP tokens are unlocked, and become transferrable. You can then withdraw liquidity \(withdraw respective token pairs\) out of the pool. 
+
+* Trading fees are calculated and withdrawn at the same time as liquidity is withdrawn. 
+* Your rewards are withdrawn when unstake, Loyalty Bonus if any will be forgone 
 
