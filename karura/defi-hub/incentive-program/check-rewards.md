@@ -20,7 +20,7 @@ note: it's in 18 decimal
 
 ## Individual Mining Rewards
 
-You can check individual rewards for a particular pool via `Chain state` &gt;&gt; `shareAndWithdrawnReward(PoolId, AccountId)` 
+You can check individual rewards for a particular pool via `Chain state` &gt;&gt; `rewards.shareAndWithdrawnReward`
 
 $$
 Individual~LP~Share = Share / totalShares
