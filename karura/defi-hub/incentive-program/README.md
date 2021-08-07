@@ -55,7 +55,7 @@ Learn how to cross KSM from Kusama to Karura [here](../inter-kusama-transfer.md)
 {% hint style="info" %}
 Please be fully aware of [the risks of becoming a liquidity](../swap/lp-returns-and-risks.md#impermanent-loss) provider before participating.
 
-The APY's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APY would also change accordingly. 
+The APR's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APR would also change accordingly. 
 {% endhint %}
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-05-at-8.38.49-pm.png)
@@ -76,7 +76,7 @@ The APY's are entirely indicative, based upon assumptions of the exchange rate a
 {% hint style="info" %}
 Please be fully aware of [the risks of becoming a liquidity](../swap/lp-returns-and-risks.md#impermanent-loss) provider before participating.
 
-The APY's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APY would also change accordingly. 
+The APR's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APR would also change accordingly. 
 {% endhint %}
 
 ### Retro Airdrop
@@ -90,7 +90,7 @@ The KAR/KSM pool is opened without additional incentive on purpose, that is to v
 * 7d Trading Volume: $11.28 M
 * 7d fee earned: $33,840
 * TVL: $6 M
-* Extrapolated APY: 29%
+* Extrapolated APR: 29%
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-12.03.54-pm.png)
 
