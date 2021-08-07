@@ -104,6 +104,11 @@ This retro airdrop is a way to say thank you to the early adopters and chaos emb
 
 Learn how to cross KSM from Kusama to Karura [here](https://wiki.acala.network/karura/defi-hub/inter-kusama-transfer).
 
+#### 0.1 Need kUSD
+
+* How to mint kUSD [here](https://wiki.acala.network/karura/defi-hub/kusd-stablecoin/mint-kusd)
+* mint [here](https://apps.karura.network/vault)
+
 #### 1. Become a liquidity provider
 
 By supplying liquidity to a trading pair, you own LP tokens and earn trading fees. Learn about liquidity providers [here](../../../learn/basics/dex/provide-liquidity.md).
