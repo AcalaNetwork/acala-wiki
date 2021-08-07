@@ -58,7 +58,7 @@ Please be fully aware of [the risks of becoming a liquidity](../swap/lp-returns-
 The APR's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APR would also change accordingly. 
 {% endhint %}
 
-![](../../../.gitbook/assets/screen-shot-2021-08-05-at-8.38.49-pm.png)
+![](../../../.gitbook/assets/kusd-ksm-apr.png)
 
 ## KSM-KAR Pool Rewards
 
@@ -71,7 +71,7 @@ The APR's are entirely indicative, based upon assumptions of the exchange rate a
 * Base reward is calculated and earned per period \(every 5 blocks\)
 * Staked LP tokens at any time during the program, and start earning incentive rewards
 
-![](../../../.gitbook/assets/screen-shot-2021-08-05-at-8.39.23-pm.png)
+![](../../../.gitbook/assets/kar-ksm-apr.png)
 
 {% hint style="info" %}
 Please be fully aware of [the risks of becoming a liquidity](../swap/lp-returns-and-risks.md#impermanent-loss) provider before participating.
