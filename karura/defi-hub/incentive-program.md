@@ -23,8 +23,8 @@ We implement a Loyalty Bonus mechanism to achieve the following
 
 ![](../../.gitbook/assets/screen-shot-2021-08-05-at-7.29.40-pm.png)
 
-* Total ~125,000 KAR rewards per month \(inclusive of Royalty Bonus provision\)
-* 87,500 KAR \(70%\) is the base reward pool, and 37,500 \(30%\) is Royalty Bonus provision
+* Total ~125,000 KAR rewards per month \(inclusive of Loyalty Bonus provision\)
+* 87,500 KAR \(70%\) is the base reward pool, and 37,500 \(30%\) is Loyalty Bonus provision
 * Base reward is calculated and earned per period \(every 5 blocks\)
 * Staked LP tokens at any time during the program, and start earning incentive rewards
 
