@@ -9,6 +9,9 @@ The end result of a liquidation is
 * remaining collaterals are returned to the vault owner
 * in an unfortunate liquidation event where not all kUSD can be recopped, `cdp_treasury` will record the bad debt 
 
+![](https://i.imgur.com/i6k6OTz.png)
+
+
 ## Liquidate on Karura Swap
 
 It will calculate the target kUSD amount, which is the sum of the kUSD amount owed and the liquidation penalty needs to be paid. It will then attempt to swap collaterals of the vault for the target kUSD amount on Karura Swap if the slippage is within the accepted level. 
