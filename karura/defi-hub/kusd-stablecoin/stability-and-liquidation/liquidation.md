@@ -1,8 +1,8 @@
 # Liquidation
 
-Liquidating unsafe positions requires selling off some collateral assets to repay kUSD in the vault. The liquidation mechanism uses Karura Swap in combination of collateral auction to ensure efficiency and effectiveness. 
+Liquidating unsafe positions requires selling off some collateral assets to repay kUSD in the vault. The liquidation mechanism uses Karura Swap in combination of collateral auction to ensure efficiency and effectiveness.
 
-The end result of a liquidation is 
+The end result of a liquidation is
 
 * the kUSD debt is repaid
 * liquidation fee is collected from the vault owner and added to the `cdp_treasury` as surplus
@@ -11,14 +11,13 @@ The end result of a liquidation is
 
 ![](https://i.imgur.com/i6k6OTz.png)
 
-
 ## Liquidate on Karura Swap
 
-It will calculate the target kUSD amount, which is the sum of the kUSD amount owed and the liquidation penalty needs to be paid. It will then attempt to swap collaterals of the vault for the target kUSD amount on Karura Swap if the slippage is within the accepted level. 
+It will calculate the target kUSD amount, which is the sum of the kUSD amount owed and the liquidation penalty needs to be paid. It will then attempt to swap collaterals of the vault for the target kUSD amount on Karura Swap if the slippage is within the accepted level.
 
-If the corresponding kUSD pool on Karura Swap has great liquidity, and the size of the trade is reasonable with regards to the liquidity available, then this will be the most efficient way for liquidaiton. 
+If the corresponding kUSD pool on Karura Swap has great liquidity, and the size of the trade is reasonable with regards to the liquidity available, then this will be the most efficient way for liquidaiton.
 
-Otherwise it will create an auction to auction off the collateral for kUSD. 
+Otherwise it will create an auction to auction off the collateral for kUSD.
 
 ## Liquidate on Collateral Auction
 
@@ -32,24 +31,23 @@ Liquidation auction is used to sell off collaterals to recover kUSD and pay back
 
 These are the important parameters for the collateral auction mechanism, which can also be set and updated via governance.
 
-| Parameters | **Type** | **Description** | **Extrinsic** | 
-| - | :--- | ---------------------- | :- |
+| Parameters | **Type** | **Description** | **Extrinsic** |
+| :--- | :--- | :--- | :--- |
 | **Minimum Increment Size** | Rate | Minimum price increment | `cdpEngine -> MaxSlippageSwapWithDex` |
-| **Auction Time To Close** | Block Number | Duration of the auction. To discourage sniping, auctions are automatically extended for a short period if a last-minute bid is placed, shortly before the preset auction close time.  | `auctionManager -> auctionTimeToClose` |
-| **Auction Duration Soft Cap** | Block Number | To increase the auction efficiency, once this value is passed, the system will double price increment, and halve auction time.  | `auctionManager-> auctionDurationSoftCap` |
-|**Expected Collateral Auction Size**|Block Number|The auction is splitted to separate equal parts if the auction kUSD value exceeds this parameter|`cdpTreasury -> expectedCollateralAuctionSize`|
-|**MaxAuctionsCount**|Number|Maximum amount of parts one auction can be splitted|`cdpTreasury -> maxAuctionsCount`|
+| **Auction Time To Close** | Block Number | Duration of the auction. To discourage sniping, auctions are automatically extended for a short period if a last-minute bid is placed, shortly before the preset auction close time. | `auctionManager -> auctionTimeToClose` |
+| **Auction Duration Soft Cap** | Block Number | To increase the auction efficiency, once this value is passed, the system will double price increment, and halve auction time. | `auctionManager-> auctionDurationSoftCap` |
+| **Expected Collateral Auction Size** | Block Number | The auction is splitted to separate equal parts if the auction kUSD value exceeds this parameter | `cdpTreasury -> expectedCollateralAuctionSize` |
+| **MaxAuctionsCount** | Number | Maximum amount of parts one auction can be splitted | `cdpTreasury -> maxAuctionsCount` |
 
 ### Current Values
 
-| **Parameter** | **Value** | **Asset (if applicable)** |
-| --- | ---- | --- |
-| Minimum Increment Size | 2 % from auction value | |
-| Auction Time To Close | 75 blocks (~15 min) | |
-| Auction Duration Soft Cap | 600 blocks (~2h) | |
+| **Parameter** | **Value** | **Asset \(if applicable\)** |
+| :--- | :--- | :--- |
+| Minimum Increment Size | 2 % from auction value |  |
+| Auction Time To Close | 75 blocks \(~15 min\) |  |
+| Auction Duration Soft Cap | 600 blocks \(~2h\) |  |
 | Expected Collateral Auction Size | 40,000 kUSD | for KSM as collateral |
-| MaxAuctionsCount | 100 | |
-
+| MaxAuctionsCount | 100 |  |
 
 \[[Source](https://github.com/AcalaNetwork/Acala/blob/master/modules/cdp-engine/src/lib.rs#L372)\]
 

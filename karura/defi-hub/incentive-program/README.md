@@ -55,7 +55,7 @@ Learn how to cross KSM from Kusama to Karura [here](../inter-kusama-transfer.md)
 {% hint style="info" %}
 Please be fully aware of [the risks of becoming a liquidity](../swap/lp-returns-and-risks.md#impermanent-loss) provider before participating.
 
-The APR's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APR would also change accordingly. 
+The APR's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APR would also change accordingly.
 {% endhint %}
 
 ![](../../../.gitbook/assets/kusd-ksm-apr.png)
@@ -76,7 +76,7 @@ The APR's are entirely indicative, based upon assumptions of the exchange rate a
 {% hint style="info" %}
 Please be fully aware of [the risks of becoming a liquidity](../swap/lp-returns-and-risks.md#impermanent-loss) provider before participating.
 
-The APR's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APR would also change accordingly. 
+The APR's are entirely indicative, based upon assumptions of the exchange rate at the time. Depends on the pool size when you staked LP tokens, the APR would also change accordingly.
 {% endhint %}
 
 ### Retro Airdrop
@@ -126,7 +126,7 @@ Stake LP tokens [here](https://apps.karura.network/earn).
 
 #### 3. Unstake and Withdraw Liquidity
 
-You can unstake LP tokens at any time. Then LP tokens are unlocked, and become transferrable. You can then withdraw liquidity \(withdraw respective token pairs\) out of the pool. 
+You can unstake LP tokens at any time. Then LP tokens are unlocked, and become transferrable. You can then withdraw liquidity \(withdraw respective token pairs\) out of the pool.
 
 * Trading fees are calculated and withdrawn at the same time as liquidity is withdrawn. 
 * Your rewards are withdrawn when unstake, Loyalty Bonus if any will be forgone 

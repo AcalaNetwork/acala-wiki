@@ -92,7 +92,7 @@ More details will be provided as we launch each DeFi protocol.
 * [ ] kUSD Borrowing
   * [ ] Enable kUSD stablecoin protocol
   * [ ] Enable KSM collateral \(capped\)
-  * [ ] Enable LSKM collateral
+  * [ ] Enable LKSM collateral
   * [ ] ...
 * [ ] Liquid KSM
   * [ ] Enable "Canary" Liquid KSM

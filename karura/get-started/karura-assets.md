@@ -28,7 +28,7 @@ KAR is the native token of Karura network in a similar way that BTC is the nativ
 | :--- | :--- | :--- |
 | Plank | 0 | 0.000000000001 |
 | MicroKAR \(uLKSM\) | 6 | 0.000001000000 |
-| MilliKAR \(mLSKM\) | 9 | 0.001000000000 |
+| MilliKAR \(mLKSM\) | 9 | 0.001000000000 |
 | LKSM | 12 | 1.000000000000 |
 
 ## KAR Utility
