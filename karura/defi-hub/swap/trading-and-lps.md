@@ -17,11 +17,11 @@ When adding liquidity to the pool
 * LPs can realize the gain/loss when redeeming the underlying tokens \(and essentially burning their LP shares\). 
 
 $$
-LP Tokens = Token A Contribution + Token B Contribution * Exchange Rate
+LP~Tokens = Token~A~Contribution + Token~B~Contribution * Exchange~Rate
 $$
 
 $$
-LP Shares = LP Tokens / Total LP Tokens
+LP~Shares = LP~Tokens / Total~LP~Tokens
 $$
 
 Below is a simulation of this:
