@@ -1,6 +1,12 @@
 # Trading & LPs
 
-The exchange rate curve is defined by x \* y = k. At any given time, the exchange rate would be x/y. There is a trading fee applicable to every trade, which does increase the constant k, and is shared amongst all LPs based on their shares of the pool. 
+The exchange rate curve is defined by  
+
+$$
+x*y = k
+$$
+
+At any given time, the exchange rate would be x/y. There is a trading fee applicable to every trade, which does increase the constant k, and is shared amongst all LPs based on their shares of the pool. 
 
 ## **LP Simulations**
 
@@ -8,7 +14,7 @@ When adding liquidity to the pool
 
 * LPs are required to add both Token A and Token B in a ratio equal to the current rate, meaning adding liquidity would have no impact on the exchange rate. 
 * LP tokens are minted to the Liquidity Provider’s balance after adding liquidity. LP shares, as the pro-rata contribution, may change as the total liquidity in the pool changes. 
-* LPs can realise the gain/loss when redeeming the underlying tokens \(and essentially burning their LP shares\). 
+* LPs can realize the gain/loss when redeeming the underlying tokens \(and essentially burning their LP shares\). 
 
 $$
 LP Tokens = Token A Contribution + Token B Contribution * Exchange Rate
