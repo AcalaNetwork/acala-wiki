@@ -22,7 +22,7 @@ The event showed the world there is plenty to get very excited about in DeFi: Ac
 
 **Acala Test Network Mandala TC4** will be launched with the following improvements:
 
-* **FlexiFee: transaction fees are payable in any supported tokens,** for example when transacting aUSD fees are payable in aUSD. This will be a subtle yet huge enhancement for UX.
+* **Flexible fees: transaction fees are payable in any supported tokens,** for example when transacting aUSD fees are payable in aUSD. This will be a subtle yet huge enhancement for UX.
 * We have upgraded to use [the weight system for transaction fee](https://wiki.polkadot.network/docs/en/learn-transaction-fees) estimation, although it’s still work-in-progress to benchmark all modules, **our oracle infrastructure can support free \(or low fee but safe\) price feed transactions** with **prioritized processing** similar to Quality of Service. This is a significant enhancement that will effectively avoid oracle being stuck due to network congestion that happened on [Black Thursday](https://defipulse.com/blog/defi-status-report-black-thursday/). Find out more on our oracle implementation, see details [here](https://github.com/open-web3-stack/open-runtime-module-library/tree/d804a14101909adcc7d1a563bcf30807cb0f4650/oracle).
 * Coming out of the [IDEO CoLab Product Validation Day](https://medium.com/acalanetwork/acala-joining-product-validation-day-with-ideo-colab-ventures-3735f9592cf6), we have further **enhanced the UX of our web application** — a smoother flow for the stablecoin product, and a drastically simplified instant and liquid staking process i.e. swap DOT to LDOT \(the fungible staking derivative\) for staking.
 

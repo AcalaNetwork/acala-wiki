@@ -1,4 +1,4 @@
-# Flexi Fee
+# Flexible Fee
 
 ## Available Fee Tokens
 

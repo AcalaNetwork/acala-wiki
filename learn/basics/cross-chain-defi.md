@@ -14,7 +14,7 @@ Laminar Chain is a specialist high performance synthetic asset and margin tradin
 
 Ren is a reputable inter-blockchain asset bridge, currently bringing BTC, BCH and ZEC to fuel Ethereum DeFi use cases. Ren [builds with Acala](https://github.com/AcalaNetwork/Acala/wiki/U.-Build-with-Acala) by deploying its [RenVM bridge module](https://github.com/AcalaNetwork/Acala/tree/master/ecosystem-modules/ren/renvm-bridge) on the Acala network. The BTC gateway is provided by RenVM, while minting and burning of renBTC on Acala is provided by this gateway module. A couple of upfront benefits that Ren users would enjoy are as follows:
 
-1. a brand new account with only freshly minted renBTC, can perform any transactions on Acala without needing a fee token. Thanks to Acala's FlexiFee feature, tokens like renBTC is integrated natively as one of the default fee tokens alongside with ACA, aUSD and DOT.
+1. a brand new account with only freshly minted renBTC, can perform any transactions on Acala without needing a fee token. Thanks to Acala's flexible fee feature, tokens like renBTC is integrated natively as one of the default fee tokens alongside with ACA, aUSD and DOT.
 2. to promote the usage of renBTC on Acala and wider Polkadot ecosystem, fees of minting renBTC can be waived without compromising security
 
 Ren is a good example for DeFi projects considering gaining access to Polkadot's multi-chain ecosystem, and leveraging Acala's customized/optimized finance platform, without upfront economic and technical burdens for building a separate blockchain \(or so called parachain\).

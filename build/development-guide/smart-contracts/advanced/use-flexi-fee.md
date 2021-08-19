@@ -1,14 +1,12 @@
 # Upcoming Features
 
-### Use Flexi Fee
+### Use Flexible Fees
 
 DOT, aUSD, ACA, RenBTC, AMPL are all first-class fee tokens in Acala EVM, meaning that users can pay transaction fees in any of these tokens. 
 
-Details coming soon. 
-
 ### Acala DeFi Contracts
 
-Acala's DeFi primitives \(stablecoin, staking derivative, and DeX\) are being made available as pre-compiled contracts, and will be composable inside Acala EVM.
+Acala's DeFi primitives \(stablecoin, staking derivative, and DEX\) are being made available as pre-compiled contracts, and will be composable inside Acala EVM.
 
 Details coming soon.
 
