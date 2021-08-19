@@ -1,7 +1,6 @@
 # Developer Guide
 
-There are two ways to interact with Karura programmatically:
-
-1. [Use `@polkadot/api` along with `@acala-network/api`](swap/swap-api.md)\`\`
-2. [Use Swap SDK](https://github.com/AcalaNetwork/acala.js/tree/master/packages/sdk-swap)
+* Acala.js: [https://github.com/AcalaNetwork/acala.js](https://github.com/AcalaNetwork/acala.js)
+* Documentation: [https://github.com/AcalaNetwork/acala.js/wiki](https://github.com/AcalaNetwork/acala.js/wiki)
+* Please also refer to the [documentation of polkadot.js](https://polkadot.js.org/docs/api/).
 
