@@ -111,7 +111,7 @@ docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_dock
 
 ### Run as collator node
 
-#### For Karura \(Coming Soon\)
+#### For Karura
 
 **Using Docker**
 
@@ -129,7 +129,7 @@ docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root
 
 ### Run as full node
 
-#### For Karura \(Coming Soon\)
+#### For Karura 
 
 **Using Docker**
 
