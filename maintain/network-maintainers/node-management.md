@@ -134,7 +134,7 @@ docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root
 **Using Docker**
 
 ```text
-docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/karura-node:latest --chain karura
+docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/karura-node:latest --chain karura --execution=wasm  --pruning=archive
 ```
 
 #### For Acala \(Coming Soon\)
@@ -142,7 +142,7 @@ docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root
 **Using Docker**
 
 ```text
-docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/acala-node:latest --chain acala
+docker run -d --restart=always -p 30333:30333 -p 9933:9933 -p 9944:9944 -v /root/acala-node:/acala/data acala/acala-node:latest --chain acala --execution=wasm  --pruning=archive
 ```
 
 ## TestNet
