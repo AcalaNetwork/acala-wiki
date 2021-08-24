@@ -39,6 +39,7 @@
   * [Inter Kusama Transfer](karura/defi-hub/inter-kusama-transfer.md)
   * [Liquid Staking](karura/defi-hub/liquid-staking/README.md)
     * [Protocol Overview](karura/defi-hub/liquid-staking/protocol-overview.md)
+    * [LKSM](karura/defi-hub/liquid-staking/lksm.md)
   * [kUSD Stablecoin](karura/defi-hub/kusd-stablecoin/README.md)
     * [Protocol Overview](karura/defi-hub/kusd-stablecoin/protocol-overview.md)
     * [Key Actors](karura/defi-hub/kusd-stablecoin/key-actors.md)
