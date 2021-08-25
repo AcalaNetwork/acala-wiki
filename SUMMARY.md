@@ -32,6 +32,7 @@
     * [Participate in Democracy](karura/get-started/governance/participate-in-democracy.md)
     * [How to Verify a Runtime Upgrade](karura/get-started/governance/how-to-verify-a-runtime-upgrade.md)
     * [New Liquidity Pool](karura/get-started/governance/new-liquidity-pool.md)
+    * [Proposal Template](karura/get-started/governance/proposal-template.md)
   * [Treasury](karura/get-started/treasury.md)
 * [DeFi Hub](karura/defi-hub/README.md)
   * [Incentive Program](karura/defi-hub/incentive-program/README.md)
