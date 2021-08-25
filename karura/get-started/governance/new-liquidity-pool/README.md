@@ -4,7 +4,7 @@ The Karura Swap protocol can support multiple liquidity pools each of which is m
 
 ## **1. Proposing a new Liquidity Pool**
 
-As for any governance upgrades, a referendum proposal process is recommended to add a new pair and open a new liquidity pool. The proposal and subsequent discussion should cover the following \(you can use the [proposal template](https://docs.google.com/document/d/1Q1KTW3t5-ldjsTOnli22QmE7mHnguwPy9QyueNfnUAA/edit#heading=h.6usht62z8wr4) here\). Use the [Karura Community Forum](https://acala.discourse.group/c/karura/new-liquidity-pool/23) to gather sentiment and feedback
+As for any governance upgrades, a referendum proposal process is recommended to add a new pair and open a new liquidity pool. The proposal and subsequent discussion should cover the following \(you can use the [proposal template](proposal-template.md) here\). Use the [Karura Community Forum](https://acala.discourse.group/c/karura/new-liquidity-pool/23) to gather sentiment and feedback
 
 * Motivation
 * Evaluation of Liquidity Pool

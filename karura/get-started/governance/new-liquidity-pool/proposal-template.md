@@ -1,12 +1,14 @@
 # Proposal Template
 
+\(Use the [Karura Community Forum](https://acala.discourse.group/c/karura/new-liquidity-pool/23) to gather sentiment and feedback\)
+
 ### TL:DR
 
 Description of the proposal in &lt; 100 words.
 
 ### References
 
-Links to
+**Links to**
 
 * Project
 * Whitepaper
