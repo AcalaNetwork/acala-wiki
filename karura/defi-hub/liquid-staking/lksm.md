@@ -12,6 +12,8 @@ The balance of the two would increase or decrease the amount of the underlying a
 
 Proxy staking is used before XCM-enabled fully autonomous staking is ready. LKSM Proxy account operated by the Karura Council can perform a limited number of actions: stake, unstake and rotate validators on behalf of the trustless Parachain Reserve account \(and subaccounts\). However it cannot perform transfer or other operations which help safeguard the LKSM protocol. Read more on Proxy Accounts [here](https://wiki.polkadot.network/docs/learn-proxies).
 
+Currently reward and exchange rate update is once a day.
+
 ## Redeeming
 
 Coming soon.
