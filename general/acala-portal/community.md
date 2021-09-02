@@ -41,7 +41,11 @@ Please use best practices when engaging with community-managed channels. Keep in
 
 #### **Telegram**
 
-[Acala & Karura Unofficial](https://t.me/acala_karura_unofficial) 
+[Acala & Karura Unofficial](https://t.me/acala_karura_unofficial)   
+  
+**Discord**
+
+[Acala+  \(Unofficial\)](https://discord.gg/MGPNchpkV2)
 
 ## Acala Ecosystem 
 
