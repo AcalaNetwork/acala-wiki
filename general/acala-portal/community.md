@@ -31,7 +31,7 @@ Please use best practices when engaging with community-managed channels. Keep in
 
 #### **Telegram**
 
-\*\*\*\*[French](https://t.me/AcalaFR) **\|** [Italian](https://t.me/acalaitalia) **\|** [Japanese](https://t.me/AcalaJapan) **\|** [Portuguese](https://t.me/acalaportugues) **\|** [Russian](https://t.me/acalarussia) **\|** [Spanish](https://t.me/acalaespanol) **\|** [Thai](https://t.me/acalathai) **\|** [Turkish](https://t.me/Acala_Turkiye) **\|** [Ukrainian](https://t.me/acalaukraine) \| [Vietnamese](https://t.me/AcalaVietnamese)
+\*\*\*\*[French](https://t.me/AcalaFR) **\|** [Italian](https://t.me/acalaitalia) **\|** [Japanese](https://t.me/AcalaJapan) **\|** [Korean](https://t.me/acalakorea) **\|** [Portuguese](https://t.me/acalaportugues) **\|** [Russian](https://t.me/acalarussia) **\|** [Spanish](https://t.me/acalaespanol) **\|** [Thai](https://t.me/acalathai) **\|** [Turkish](https://t.me/Acala_Turkiye) **\|** [Ukrainian](https://t.me/acalaukraine) \| [Vietnamese](https://t.me/AcalaVietnamese)
 
 #### **WeChat**
 
