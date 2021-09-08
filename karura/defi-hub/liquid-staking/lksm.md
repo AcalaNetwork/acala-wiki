@@ -42,3 +42,9 @@ The initial nomination strategies are as follows:
 
 You can read more on considerations when nominating [here](https://wiki.polkadot.network/docs/learn-nominator#what-to-take-into-consideration-when-nominating). At this stage, the strategy is executed by Karura Council via the LKSM Proxy account on Kusama.
 
+## Slashing Risks
+
+The Liquid Staking protocol essentially runs a pool of KSM and nominates them to validators on behalf of LKSM holders. LKSM holders are exposed to the same level of risks as being a nominator, and if the validators do not behave properly, they will get slashed and DOTs will be lost.
+
+Read more on Slashing [here](https://wiki.polkadot.network/docs/learn-staking#slashing). 
+
