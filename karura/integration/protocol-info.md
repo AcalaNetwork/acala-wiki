@@ -36,7 +36,9 @@ Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispa
 
 ## Types
 
-Type bundle [here](https://unpkg.com/browse/@acala-network/type-definitions@0.7.4-19/json/typesBundle.json).
+Type definitions allow the SDK to know how to serialize / deserialize blocks, transactions and events.
+
+Acala's type definition bundle can be found [here](https://unpkg.com/browse/@acala-network/type-definitions@0.7.4-19/json/typesBundle.json).
 
 ## JS SDK
 
