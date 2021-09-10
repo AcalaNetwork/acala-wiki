@@ -71,6 +71,7 @@
   * [Full Node](karura/integration/full-node.md)
   * [Collator](karura/integration/collator.md)
 * [Developer Guide](karura/developer-guide/README.md)
+  * [Stablecoin](karura/developer-guide/swap/swap-api.md)
   * [Swap](karura/developer-guide/swap/README.md)
     * [Polkadot/Acala API](karura/developer-guide/swap/swap-api.md)
     * [Swap SDK](karura/developer-guide/swap/swap-sdk.md)
