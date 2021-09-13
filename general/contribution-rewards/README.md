@@ -4,7 +4,7 @@ description: Records of some activity rules and rewards.
 
 # Contribution & Rewards
 
-## AirDrops
+## AirDrops 
 
 You can now check your airdrop KAR & ACA balances on [https://apps.acala.network/wallet](https://apps.acala.network/wallet). The balances are recorded on-chain in the `airdrop` module, which will be used to allocate real tokens upon Karura Canary network and Acala mainnet genesis.
 
@@ -14,7 +14,9 @@ Learn more about ACA & KAR tokens [here](https://wiki.acala.network/learn/econom
 
 Festival-goers and contributors, have fun, learn & break things, behold & catch the candies 🎁
 
-## Mandala Festival Season 4 🎉🍬🔥
+## Mandala Festival Season 4 \(Finished\)
+
+**This event has concluded, thank you for your participation.** 
 
 Building Acala is a community effort, and Mandala Fest then becomes a celebration of this growing community and the wealth of possibility that awaits us all in building web3. All past festival-goers would have a chance to claim Acala & Karura Halloween themed badges.  
 These collectibles don’t have a monetary value nor a market, they are our mere way of honoring our shared experience and saying thank you. Newcomers to the community who complete required tasks would also have a chance to claim these collectibles.  
@@ -26,6 +28,8 @@ Here’s what the festival looks like and the rewards:
 
 ### Season 4 Halloween Give-Back Get Started
 
+**This event has concluded, thank you for your participation.** 
+
 * Get started with Acala including creating a wallet and obtain test tokens [here](https://github.com/AcalaNetwork/Acala/wiki/1.-Get-Started)
 * Check out these guides to use [Honzon stablecoin](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin), [Acala Dex](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX), and [Homa staking derivative](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT).
 * Check out guides on cross-chain trading with Laminar and Ren [here](https://github.com/AcalaNetwork/Acala/wiki/T.-Cross-chain-DeFi)
@@ -33,6 +37,8 @@ Here’s what the festival looks like and the rewards:
 * Results are published [here](https://github.com/AcalaNetwork/Acala/wiki/W.-Contribution-&-Rewards)
 
 ### Season 4 Full Schedule and Rules
+
+**This event has concluded, thank you for your participation.** 
 
 #### Season 4 Part 1: Welcome Newcomers
 
@@ -140,7 +146,9 @@ Sticker submission link: [https://discord.gg/WYjDeZDTPN](https://discord.gg/WYjD
 | 5DUUgntu8Atyu2xkk1GjhBBxLryC6CRovHzVcWzFALjHsjQF | 5 ACA + 5 KAR |
 | 5EHiBbDEhb71TAJFBpGD7URArSA137CHKh4srJR1zkkRbBLz | 5 ACA + 5 KAR |
 
-## Mandala Festival Season 3 🎉🍬🔥
+## Mandala Festival Season 3  \(Finished\)
+
+**This event has concluded, thank you for your participation.** 
 
 ### Season 3 Prize Giving
 
@@ -553,7 +561,9 @@ The reward for each lucky account: 20 ACA + 20 KAR
 * Bugs are judged on significance and severity by the Acala Engineering team, and are awarded roughly based on the levels [here](https://github.com/AcalaNetwork/Acala/wiki/W.-Contribution-&-Rewards#runtime-bug-bounty)
 * Please **include your Acala Mandala Address in the Github issue** for easy prize disbursal
 
-## Mandala Festival Season 2 🎉🍬🔥
+## Mandala Festival Season 2  \(Finished\)
+
+**This event has concluded, thank you for your participation.** 
 
 ### Season 2 Prize Giving
 
@@ -684,6 +694,8 @@ The reward for each lucky account: 20 ACA + 20 KAR
 [See UI Bug Bounty](https://wiki.acala.network/general/contribution-rewards#ui-bug-bounty)
 
 ## Mandala Festival Season 1 \(Finished\)
+
+**This event has concluded, thank you for your participation.** 
 
 ### Prize Giving
 
