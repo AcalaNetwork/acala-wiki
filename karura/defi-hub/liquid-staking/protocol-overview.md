@@ -15,7 +15,7 @@ Karura’s Liquid Staking protocol is to solve the **illiquidity challenge of st
 * \(✅\) Minting LKSM
 * \(✅\) Proxy staking is used before XCM-enabled fully autonomous staking is ready
 * \(✅\) Low Staking Cap: 3000 KSM and increase gradually daily, staking reward accrued, public access. Access app [here](https://apps.karura.network/homa).
-* \(🗓️Planned \) LKSM as collateral for kUSD
+* \(✅\) LKSM as collateral for kUSD
 * \(🗓️Planned \) LKSM pools
 * Redemption is not available until next phase
 
