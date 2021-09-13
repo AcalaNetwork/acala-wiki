@@ -861,8 +861,6 @@ Bugs are judged on significance and severity by the Acala Engineering team, and 
 
 ### UI Bug Bounty \(Closed\)
 
-**ELIGIBILITY** Help identify bugs in Acala mainly for this repo [https://github.com/AcalaNetwork/honzon-platform](https://github.com/AcalaNetwork/honzon-platform)
-
 Generally, a bug that poses significant vulnerability or causing systemic defects would be eligible. 1. Open an issue in Github, provide as much information as you can, including a description of the bug, its potential impact, steps for reproducing it 2. Include your Acala Mandala Address for prize giving in the Github issue 3. Submit to the [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY\_UI\_BUG
 
 **PRIZE** **Total Prize Pool**: 2,000 ACA and 100,000 KAR, and Acala reserves the right to extend it further.
