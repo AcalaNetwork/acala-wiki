@@ -71,10 +71,11 @@
   * [Full Node](karura/integration/full-node.md)
   * [Collator](karura/integration/collator.md)
 * [Developer Guide](karura/developer-guide/README.md)
-  * [Stablecoin](karura/developer-guide/swap-api.md)
+  * [Stablecoin](karura/developer-guide/stablecoin-api.md)
   * [Swap](karura/developer-guide/swap/README.md)
     * [Polkadot/Acala API](karura/developer-guide/swap/swap-api.md)
     * [Swap SDK](karura/developer-guide/swap/swap-sdk.md)
+  * [Liquid Staking Light](karura/developer-guide/homa-light-api.md)
 
 ## Acala
 
