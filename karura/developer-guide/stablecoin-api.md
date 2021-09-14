@@ -105,7 +105,7 @@ collateralParams(currencyId: CurrencyId):
 | Name | Type |  |
 | -------- | -------- | -------- |
 | maximumTotalDebitValue     | Number     | maximum amount of KUSD that can be borrowed for one vault |
-| interestRatePerSec     | Percent     | the percentage of borrowed kUSD to be paid each next block |
+| interestRatePerSec     | Percent     | the percentage of borrowed kUSD to be paid each next block. This amount should be added to `globalInterestRatePerSec` to calculate the debt |
 | liquidationRatio     | Percent  | collateral ratio (collateral value / debt value) reaching which the vault gets liquidated |
 | liquidationPenalty     | Percent     | penalty that is charged from the vault if the vault gets liquidated |
 | requiredCollateralRatio     | Percent     | Minimum collateral ratio till which user can borrow kUSD |
@@ -179,12 +179,12 @@ adjustLoan(currency_id: CurrencyId, collateral_adjustment: Number, debit_adjustm
 
 Example
 ```typescript=
-  const accountId = "<ACCOUNT_ID>";
+  const currencyId = { TOKEN: "KSM" };
   const collateralAdjustment = <DESIRED_ADJUSTMENT>;
   const debitAdjustment = <DESIRED_ADJUSTMENT>;
 
   const extrinsic = api.tx.honzon.adjustLoan(
-    accountId,
+    currencyId,
     collateralAdjustment,
     debitAdjustment
   );
@@ -307,7 +307,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 ### Closing caller's Vault by swapping collateral in DeX
 
-This action can be done with `adjustLoan`, but there is a shortcut created for this purpose which is applied only to safe vaults (where the collateral ratio is above liquidation level).
+This action can be done with `adjustLoan`, but there is a shortcut created for this purpose which is applied only to safe vaults (where the collateral ratio is above liquidation level) and where the debt amount is positive.
 
 This method closes the caller's Vault by selling a sufficient amount of collateral on Karura Dex.
 
