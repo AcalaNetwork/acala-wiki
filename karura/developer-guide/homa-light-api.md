@@ -1,11 +1,13 @@
-# Liquid staking developer guide (Light)
+# Liquid Staking developer Guide
 
-Karura’s Liquid Staking protocol is simplified staking for KSM and DOT. The protocol establishes a staking pool, where users can stake KSM and mint LKSM, which is Kusama staking yield-bearing, while fungible, tradable and usable in other protocols and parachains.
-The light version of Liquid staking which is described here is a simplified version of full liquid staking protocol, e.g. selecting validators is done by Acala Foundation when in the full Liquid Staking protocol this ability is managed by all network token holders.
+Karura’s Liquid Staking protocol is to solve the illiquidity challenge of staked assets.The protocol establishes a staking pool, where users can stake KSM and mint LKSM, which is Kusama staking yield-bearing, while fungible, tradable and usable in other protocols and parachains. Read more [here](https://wiki.acala.network/karura/defi-hub/liquid-staking/lksm)
+
+
+Follow the roll-out plan of the Liquid Staking protocol [here](https://wiki.acala.network/karura/defi-hub/liquid-staking/protocol-overview#rollout-roadmap)
 
 To interact with Karura from Javascript you can use `@polkadot/api` along with `@acala-network/api`. You can learn more about `@polkadot/api` [here]. (https://polkadot.js.org/docs/api).
 
-We do also provide a [Light Liquid Staking SDK](https://github.com/AcalaNetwork/acala.js/tree/master/packages/sdk-homa) which provides more some automation around Liquid staking protocol.
+The [Liquid Staking SDK](https://github.com/AcalaNetwork/acala.js/tree/master/packages/sdk-homa) provides more convenient methods around Liquid staking protocol.
 
 ## Source Code
 https://github.com/AcalaNetwork/Acala/tree/master/modules/homa-lite
@@ -17,7 +19,8 @@ These functions only read information from the chain, and thus don't require sig
 
 ### Get the maximum amount of tokens that can be staked
 
-There is a maximum amount of each token (KSM or DOT) that can be accepted in total. 
+The protocol has an arbitrary staking cap to control how much KSM is accepted into the staking pool.
+
 You can check it with method:
 
 ```typescript=
@@ -46,7 +49,7 @@ Example:
 
 ### Get Minimum Mint Threshold
 
-returns the minimum amount of staking currency that can be staked per one account, has type `Balance` which has 12 decimals.
+Minimum amount of staking asset that is required, has type `Balance` which has 12 decimals.
 
 ```typescript=
     minimumMintThreshold(): Promise<Balance>
@@ -60,7 +63,7 @@ Example:
 
 ### Get Minting fee per one operation
 
-returns the amount of fee that users pay per one staking operation, no matter how big is the stake.
+Returns the amount of fee that users pay per one staking operation, no matter how big is the stake.
 
 
 ```typescript=
@@ -73,10 +76,9 @@ Example:
     console.log(result.toHuman());
 ```
 
-### Get Staking Pool account in Kusama
+### Get Staking Pool Account in Kusama
 
-All funds is collected into one account that stakes everything in Kusama network. The address of the account can be retrieved using this method.
-
+Karura's parachain account on Kusama that is used for managing staking assets. This account has no private key and is trustlessly controlled by the parachain.
 
 ```typescript=
     sovereignSubAccountLocation(): Promise<Balance>
@@ -92,15 +94,18 @@ Example:
 ---
 ## State-Changing Functions 
 
-These transactions write data on-chain and require a private key to sign the transaction.
+These transactions updates on-chain data and require sending transactions to the blockchain.
+
 To perform run test code snippets ensure that you have `SEED_PHRASE` environment variable defined in your `.env` file.
 
 
 ### Mint LKSM
 
-To mint Liquid currency you need to provide the amount of staking currency that you want to pay. Const of this operation accumulates Minting Fee and Interchain Transaction Fee.
-Liquid currency is a redemption token that can be used to withdraw underlying assets, and besides it can be used in a variety of network activities, as collateral for minting KUSD, paying fees, etc.
+To mint LKSM you need to provide the amount of KSM.
 
+Fees include minting fee and inter-chain transaction fee.
+
+LKSM is a share representation of the staking pool which entitles the owner to a likely increasing quantity of underlying assets. 
 
 ```typescript=
 mint(amount: balance): Extrinsic
