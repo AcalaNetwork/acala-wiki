@@ -1,5 +1,12 @@
 # Incentive Program
 
+## Current Programs
+
+* [KSM-kUSD LP Staking Rewards](ksm-kusd-and-kar-ksm-pool-rewards.md#ksm-kusd-pool-rewards)
+* [KAR-KSM LP Staking Rewards](ksm-kusd-and-kar-ksm-pool-rewards.md#ksm-kar-pool-rewards)
+* [LKSM Staking Rewards](lksm-splash-rewards.md)
+* LKSM-KSM LP Staking Rewards
+
 ## Why Liquidity Incentive Program?
 
 Our protocols shall provide real utility and built-in incentive mechanisms to run autonomously even without additional incentives. For example, great liquidity and trading volume shall generate reasonable trading fees to keep both liquidity providers and traders happy. Liquidity Incentive programs shall act as short-term catalysts to accelerate this adoption and achieve this goal faster.
@@ -16,8 +23,6 @@ We implement a Loyalty Bonus mechanism to achieve the following
 
 * To avoid hot bags mining and dumping, hence encouraging more sustainable, longer-term farming for the benefit of the protocol and the entire network
 * To share more rewards for longer-term LPs compared to just vesting
-
-## 
 
 ## How to Liquidity Mine on Karura Swap
 
