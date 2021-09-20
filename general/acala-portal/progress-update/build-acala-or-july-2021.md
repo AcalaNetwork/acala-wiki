@@ -38,9 +38,9 @@ Aside from speaking, Dan was able to meet with a lot of teams from around the Po
 
 ![](https://miro.medium.com/max/1400/0*9MYbJ4pNNrtHYssF)
 
-![](../../../.gitbook/assets/image%20%2828%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%2828%29%20%281%29%20%281%29.png)
 
-![](../../../.gitbook/assets/image%20%2829%29.png)
+![](../../../.gitbook/assets/image%20%2829%29%20%281%29.png)
 
 ## **Karura Community Calls** <a id="ae68"></a>
 
