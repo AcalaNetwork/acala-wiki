@@ -34,6 +34,7 @@
   * [Treasury](karura/get-started/treasury.md)
 * [DeFi Hub](karura/defi-hub/README.md)
   * [Incentive Program](karura/defi-hub/incentive-program/README.md)
+    * [KSM-kUSD & KAR-KSM Pool Rewards](karura/defi-hub/incentive-program/ksm-kusd-and-kar-ksm-pool-rewards.md)
     * [LKSM Splash Rewards](karura/defi-hub/incentive-program/lksm-splash-rewards.md)
     * [Check Rewards](karura/defi-hub/incentive-program/check-rewards.md)
   * [Karura App](https://apps.karura.network/)
