@@ -5,7 +5,7 @@
 * [KSM-kUSD LP Staking Rewards](ksm-kusd-and-kar-ksm-pool-rewards.md#ksm-kusd-pool-rewards)
 * [KAR-KSM LP Staking Rewards](ksm-kusd-and-kar-ksm-pool-rewards.md#ksm-kar-pool-rewards)
 * [LKSM Staking Rewards](lksm-splash-rewards.md)
-* LKSM-KSM LP Staking Rewards
+* [LKSM-KSM LP Staking Rewards](lksm-splash-rewards.md#lksm-ksm-pool-lp-staking-rewards)
 
 ## Why Liquidity Incentive Program?
 
