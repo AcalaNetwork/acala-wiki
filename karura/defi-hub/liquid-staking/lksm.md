@@ -38,11 +38,11 @@ Currently the Annual Percentage Rate is an indicative rate based on the [average
 The initial nomination strategies are as follows:
 
 * Only with an identity 
-* Commission &lt; x%
 * No slash history
-* Single from operator
 * As validator &gt; y months
+* Commission &lt; x%
 * Top z return
+* Slash Cover \(off-chain\)
 
 You can read more on considerations when nominating [here](https://wiki.polkadot.network/docs/learn-nominator#what-to-take-into-consideration-when-nominating). At this stage, the strategy is executed by Karura Council via the LKSM Proxy account on Kusama.
 
