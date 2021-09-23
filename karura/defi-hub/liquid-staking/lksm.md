@@ -48,7 +48,7 @@ You can read more on considerations when nominating [here](https://wiki.polkadot
 
 ## Slashing Risks
 
-The Liquid Staking protocol essentially runs a pool of KSM and nominates them to validators on behalf of LKSM holders. LKSM holders are exposed to the same level of risks as being a nominator, and if the validators do not behave properly, they will get slashed and DOTs will be lost.
+The Liquid Staking protocol essentially runs a pool of KSM and nominates them to validators on behalf of LKSM holders. LKSM holders are exposed to the same level of risks as being a nominator, and if the validators do not behave properly, they will get slashed and KSMs will be lost.
 
 Read more on Slashing [here](https://wiki.polkadot.network/docs/learn-staking#slashing). 
 
