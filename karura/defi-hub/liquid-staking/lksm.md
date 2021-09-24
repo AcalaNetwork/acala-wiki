@@ -6,7 +6,7 @@
 
 When you stake your KSM through Karura Liquid Staking, you will receive a share representation in LKSM account balance, which entitles the owner to a likely increasing quantity of underlying assets. These staked KSMs are used to stake would earn Kusama nominator rewards, and incur punishment \(e.g. KSM being slashed\) in case of validator found to be misbehaving \(e.g. not maintaining required uptime\).
 
-The balance of the two would increase or decrease the amount of the underlying asset of LKSM. This means **earning staking reward is as simple as holding an LKSM token**, while LKSM  is cross-chain capable and can be used to participate in other network activities such as lending or as collaterals to mint kUSD.
+The balance of the two would increase or decrease the amount of the underlying asset of LKSM. This means **earning staking reward is as simple as holding an LKSM token**, while LKSM is cross-chain capable and can be used to participate in other network activities such as lending or as collaterals to mint kUSD.
 
 ### Proxy Account
 
@@ -22,12 +22,11 @@ Coming soon.
 
 LKSM is essentially tokenized staked KSM that is fungible and liquid. LKSM exploits the derivative value of the KSMs fueling and powering more applications without sacrificing the security of the whole network.
 
-The exchange rate between LKSM and the underlying KSM are likely to increase over time, as staking rewards are accrued by validating and nominating, and is equal to  
-
+The exchange rate between LKSM and the underlying KSM are likely to increase over time, as staking rewards are accrued by validating and nominating, and is equal to
 
 ![](https://lh4.googleusercontent.com/nm1NHTyDB_yQVatC61lwNcfSsUIJpYQh56lBVqf9QDM1cJ4HCxoeXuePxifsLHYiQ_Bkp3-wgdkd6a9zUEvdrG2Xr1ZdPzv4Q46naUGlPZ6ZSfnMbCOyoUipGccHuMXbGyiGqW3L=s0)
 
-Note: users do need to pay for the cross-chain transaction fees incurred. When a user mints LKSM, Kusama staking rewards from the last era are deducted as the user starts to earn rewards from the next era after they stake. 
+Note: users do need to pay for the cross-chain transaction fees incurred. When a user mints LKSM, Kusama staking rewards from the last era are deducted as the user starts to earn rewards from the next era after they stake.
 
 ## APR
 
@@ -50,5 +49,5 @@ You can read more on considerations when nominating [here](https://wiki.polkadot
 
 The Liquid Staking protocol essentially runs a pool of KSM and nominates them to validators on behalf of LKSM holders. LKSM holders are exposed to the same level of risks as being a nominator, and if the validators do not behave properly, they will get slashed and KSMs will be lost.
 
-Read more on Slashing [here](https://wiki.polkadot.network/docs/learn-staking#slashing). 
+Read more on Slashing [here](https://wiki.polkadot.network/docs/learn-staking#slashing).
 
