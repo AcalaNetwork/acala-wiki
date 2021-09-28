@@ -32,18 +32,20 @@ Note: users do need to pay for the cross-chain transaction fees incurred. When a
 
 Currently the Annual Percentage Rate is an indicative rate based on the [average return](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/staking/targets) for Kusama validators that meet our staking strategy. Generally the Liquid Staking pool aims to balance \(slashing risks\) and staking reward, while able to provide early withdraw liquidity.
 
-## Staking Strategy
+## Staking Nomination Strategy
 
 The initial nomination strategies are as follows:
 
-* Only with an identity 
+* With an on-chain identity 
 * No slash history
-* As validator &gt; y months
-* Commission &lt; x%
-* Top z return
+* Validator history on Kusama / Polkadot
+* Commission Rate
 * Slash Cover \(off-chain\)
+* Prefer dedicated validators for LKSM/LDOT
 
 You can read more on considerations when nominating [here](https://wiki.polkadot.network/docs/learn-nominator#what-to-take-into-consideration-when-nominating). At this stage, the strategy is executed by Karura Council via the LKSM Proxy account on Kusama.
+
+[Here's a list](https://kusama.subscan.io/account/HTAeD1dokCVs9MwnC1q9s2a7d2kQ52TAjrxE1y5mj5MFLLA?tab=vote) of validators to which the liquid staking protocol nominates.
 
 ## Slashing Risks
 
