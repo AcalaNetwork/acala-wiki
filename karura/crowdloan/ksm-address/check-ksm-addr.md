@@ -1,10 +1,10 @@
 # Check KSM Address
 
-If you already set up a Polkadot account, Acala account, or any Substrate-based chain account, there are two options to check the corresponding KSM address:
+If you already set up a Polkadot account, Acala account, or any Substrate-based chain account, there are three options to check the corresponding KSM address:
 
-* you can use [Subscan Address Transform](https://acala-testnet.subscan.io/tools/ss58_transform);
-* setting your wallets in polkadot.js extension 
-* use PolkaWallet mobile app
+* [Subscan Address Transform](https://acala-testnet.subscan.io/tools/ss58_transform)
+* toggle your wallets in polkadot.js extension 
+* toggle your wallet in Polkawallet mobile app
 
 ## Using Subscan transform
 
@@ -27,9 +27,15 @@ If you already set up a Polkadot account, Acala account, or any Substrate-based 
 
 ## Using Polkawallet
 
-1. Open PolkaWallet on your mobile device and click the menu button on the top-right corner. ![](https://i.imgur.com/z7uFoCj.jpg%20=250x)
-2. In the opened menu select Kusama logo \(second from the top\) and press on the appeared address on the main screen. ![](https://i.imgur.com/chGwQDP.jpg%20=250x)
-3. Click on the account block under the "Add Account" button, which will navigate you back to the main page.
+1. Open PolkaWallet on your mobile device and click the menu button on the top-right corner. 
+
+   ![](https://i.imgur.com/z7uFoCj.jpg%20=250x)
+
+2. In the opened menu select Kusama logo \(second from the top\) and press on the appeared address on the main screen.
+
+   ![](../../../.gitbook/assets/image%20%2828%29.png)
+
+3. Click on the account block under the `Add Account` button, which will navigate you back to the main page.
 
    ![](https://i.imgur.com/Btjlla4.jpg%20=250x)
 

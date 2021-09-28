@@ -10,7 +10,7 @@ The Genesis block of the Karura network was launched on 23rd June, 2021, as a Pr
 
 Since genesis, Karura's network security is provided by Kusama's Nominated Proof of Stake \(NPoS\) Validators upon launch. Karura's Collators will be provided by node service partners at this stage.
 
-**Karura parachain is available on** [**Subscan**](https://karura.subscan.io/) **&** [**Polkadot App**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws#/explorer)\*\*\*\*
+**Karura parachain is available on** [**Subscan**](https://karura.subscan.io/) **&** [**Polkadot App**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws#/explorer)**.**
 
 ## 🏒 \(Done\) **Finalize KAR Distribution**
 
@@ -23,7 +23,7 @@ Since genesis, Karura's network security is provided by Kusama's Nominated Proof
 
 ## 🕵️ \(Done\) Tech Verification & Runtime Upgrade 
 
-Karura will perform a set of tests and verifications to ensure the network is operational
+Karura will perform a set of tests and verifications to ensure the network is operational.
 
 * [x] Collators are producing blocks as expected
 * [x] Kusama is verifying blocks from Karura as expected
@@ -34,9 +34,9 @@ Karura will perform a set of tests and verifications to ensure the network is op
 
 ## 🤹 \(Done\) Enable KSM Transfer from Kusama to Karura
 
-Transfer KSM from Kusama Relaychain to Karura parachain and back via **xtoken** will be enabled. However transfer within the Karura parachain will still be disabled at this stage.
+Transfer KSM from Kusama Relay Chain to Karura parachain and back via **xtoken** will be enabled. However, transfer within the Karura parachain will still be disabled at this stage.
 
-Read how-to [here](defi-hub/inter-kusama-transfer.md).
+Read the how-to [here](defi-hub/inter-kusama-transfer.md).
 
 ## 🎯 \(Done\) Distribute KAR
 
@@ -47,19 +47,19 @@ Batch distribution of KAR to
 * [x] Karura crowdloan participants
 * [x] Other events 
 
-If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies, please contact them directly for distribution schedule. 
+If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule. 
 
 ## 🎁 \(WIP\) Claim KAR
 
 **You can check whether your KAR rewards need to be claimed** [**here**](crowdloan/claim-kar.md)**.**
 
-If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies, please contact them directly for the distribution schedule. 
+If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule. 
 
-If you participated in Karura ****crowdloan via the ****Polkadot web app directly, or via non-custodial wallets other than Polkawallet and Fearless wallet, you will need to agree to our T&C by completing a claim process for KAR. The Claim KAR website will be released once it's ready.
+If you participated in Karura ****crowdloan via the ****Polkadot web app directly, or via non-custodial wallets other than Polkawallet and Fearless wallet, you will need to agree to our T&C by completing a claim process for KAR. The Claim KAR website can be found [here](https://distribution.acala.network/claim).
 
 ## ✋ \(Done\) Council Governance + Democracy
 
-After the chain had been running stably with the collator set, the sudo key will perform a runtime upgrade and enable appointed Councilors and democracy. Other councils including Financial Council, Technical Council, and Liquid Staking Council, as well as public referenda will also be enabled.  
+After the chain has been running stably with the collator set, the sudo key will perform a runtime upgrade and enable appointed Councilors and democracy. Other councils including Financial Council, Technical Council, and Liquid Staking Council, as well as public referenda will also be enabled.  
 
 Read more [here](get-started/governance/participate-in-democracy.md).
 
@@ -82,20 +82,20 @@ More details will be provided as we launch each DeFi protocol.
   * [x] Enable KSM/KAR pair
     * [x] Start Bootstrap
     * [x] Trading begins
-  * [ ] KSM/kUSD pair
-    * [ ] Start Bootstrap
-    * [ ] Trading begins
-    * [ ] Start Liquidity Program
+  * [x] KSM/kUSD pair
+    * [x] Start Bootstrap
+    * [x] Trading begins
+    * [x] Start Liquidity Program
   * [ ] KAR/kUSD pair
   * [ ] LKSM/kUSD pair
   * [ ] ...
 * [ ] kUSD Borrowing
-  * [ ] Enable kUSD stablecoin protocol
-  * [ ] Enable KSM collateral \(capped\)
-  * [ ] Enable LKSM collateral
+  * [x] Enable kUSD stablecoin protocol
+  * [x] Enable KSM collateral \(capped\)
+  * [x] Enable LKSM collateral
   * [ ] ...
 * [ ] Liquid KSM
-  * [ ] Enable "Canary" Liquid KSM
+  * [x] Enable "Canary" Liquid KSM
     * [ ] mint LKSM - withdraw is only available upon the network upgrading to trustless Liquid Staking
     * [ ] KSM staking reward accrues 
     * [ ] LKSM as collateral
