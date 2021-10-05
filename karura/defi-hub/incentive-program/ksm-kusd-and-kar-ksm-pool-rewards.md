@@ -64,11 +64,11 @@ The APR's are entirely indicative, based upon assumptions of the exchange rate a
 
 ### Retro Airdrop
 
-While this is not mandated on-chain, but for completeness of the incentive program, there is also a provision to retrospectively airdrop KAR rewards for those who have provided liquidity prior to a certain block number.
+While this is not mandated on-chain, but for completeness of the incentive program, there was also a provision to retrospectively airdrop KAR rewards for those who have provided liquidity prior to a certain block number.
 
-* 65,000 KAR per month is provisioned for retro airdrop, LPs will be rewarded pro-rata for their contribution amount and period
+* Eligible users **were retro airdropped a one-time reward \(the airdrop is not ongoing or monthly\).** The total reward amount for all users was equivalent to a prorated portion of one month's 65,000 KAR rewards. Eligible LPs were rewarded pro-rata for their contribution amount and period.
 
-The KAR/KSM pool is opened without additional incentive on purpose, that is to verify the protocol’s built-in ongoing incentive scheme - relying on trading volume and trading fees. The result has been promising:
+The KAR/KSM pool was opened without additional incentive on purpose, that was to verify the protocol’s built-in ongoing incentive scheme - relying on trading volume and trading fees. The result was promising:
 
 * 7d Trading Volume: $11.28 M
 * 7d fee earned: $33,840
@@ -77,5 +77,5 @@ The KAR/KSM pool is opened without additional incentive on purpose, that is to v
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-12.03.54-pm.png)
 
-This retro airdrop is a way to say thank you to the early adopters and chaos embraces. More details will be disclosed.
+This retro airdrop was a way to say thank you to the early adopters and chaos embraces. More details will be disclosed.
 
