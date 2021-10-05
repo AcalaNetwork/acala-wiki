@@ -64,7 +64,7 @@ The APR's are entirely indicative, based upon assumptions of the exchange rate a
 
 ### Retro Airdrop
 
-While this is not mandated on-chain, but for completeness of the incentive program, there was also a provision to retrospectively airdrop KAR rewards for those who have provided liquidity prior to a certain block number.
+While this was not mandated on-chain, but for completeness of the incentive program, there was also a provision to retrospectively airdrop KAR rewards for those who have provided liquidity prior to a certain block number.
 
 * Eligible users **were retro airdropped a one-time reward \(the airdrop is not ongoing or monthly\).** The total reward amount for all users was equivalent to a prorated portion of one month's 65,000 KAR rewards. Eligible LPs were rewarded pro-rata for their contribution amount and period.
 
