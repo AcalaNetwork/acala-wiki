@@ -8,7 +8,7 @@
 
 ### Polkadot apps
 
-[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws#/explorer)
+[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws\#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws#/explorer)
 
 ### Explorer
 
