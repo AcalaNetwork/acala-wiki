@@ -48,7 +48,7 @@ You can subscribe to the [`Node Operator - Announcement`](https://discord.gg/uWS
 
 ### Spec Requirement
 
-Same as [the Kusama validator node requirement](https://guide.kusama.network/docs/mirror-maintain-guides-how-to-validate-kusama/#requirements).
+Same as [the Kusama validator node requirement](https://guide.kusama.network/docs/maintain-guides-how-to-validate-kusama/#requirements).
 
 ### Run Node
 
