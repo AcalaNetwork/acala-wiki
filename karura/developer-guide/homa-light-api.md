@@ -1,4 +1,4 @@
-# Liquid Staking Light
+# Liquid Staking
 
 Karura’s Liquid Staking protocol is to solve the illiquidity challenge of staked assets.The protocol establishes a staking pool, where users can stake KSM and mint LKSM, which is Kusama staking yield-bearing, while fungible, tradable and usable in other protocols and parachains. Read more [here](https://wiki.acala.network/karura/defi-hub/liquid-staking/lksm)
 

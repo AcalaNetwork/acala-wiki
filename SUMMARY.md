@@ -85,7 +85,7 @@
   * [Swap](karura/developer-guide/swap/README.md)
     * [Polkadot/Acala API](karura/developer-guide/swap/swap-api.md)
     * [Swap SDK](karura/developer-guide/swap/swap-sdk.md)
-  * [Liquid Staking Light](karura/developer-guide/homa-light-api.md)
+  * [Liquid Staking](karura/developer-guide/homa-light-api.md)
 
 ## Acala
 
