@@ -6,7 +6,7 @@
 
 ### How to Send KSM from an Exchange to Karura?
 
-1. Withdraw KSM from Exchange to your **Kusama account on the Kusama network.** You should be able to check balance on the [Polkadot App - Kusama Accounts](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/accounts) once the withdraw is successfull. Please consult your exchange regarding details of withdrawing KSM to Kusama network. 
+1. Withdraw KSM from Exchange to your **Kusama account on the Kusama network. **You should be able to check balance on the [Polkadot App - Kusama Accounts](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/accounts) once the withdraw is successfull. Please consult your exchange regarding details of withdrawing KSM to Kusama network. 
 2. [Use Inter-Kusama Transfer](../../defi-hub/inter-kusama-transfer.md) on the Karura App to send KSM from Kusama network to Karura network. You should be able to check KSM balance on the [Karura App wallet.](https://apps.karura.network/portfolio) 
 
 ### How to Send KSM from Karura to an Exchange?
@@ -23,4 +23,3 @@ Always send a small amount to verify before sending the full amount.
 ## Other Tokens on Karura
 
 By default Exchanges do NOT automatically support direct withdraw/deposit new tokens on Karura network. We will update the status of support as we progress. 
-

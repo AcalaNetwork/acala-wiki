@@ -7,9 +7,9 @@ description: Directly participate in the network to play.
 {% hint style="info" %}
 The evolution of the Acala Network will be marked by trilogy networks:
 
-* **\#1 Mandala Test Network**: is a risk-free and value-free playground for us, users and developers to test drive functionalities of Acala. Expect bugs, chaos, and unannounced reboots.
-* **\#2 Karura Network**: is an unaudited and experimental release of Acala that will join the Kusama network as parachain. It will have economic value represented as its native tokens, and KSM can be used as collateral for kaUSD.
-* **\#3 Acala Mainnet**: will be connected to the Polkadot network upon its launch
+* **#1 Mandala Test Network**: is a risk-free and value-free playground for us, users and developers to test drive functionalities of Acala. Expect bugs, chaos, and unannounced reboots.
+* **#2 Karura Network**: is an unaudited and experimental release of Acala that will join the Kusama network as parachain. It will have economic value represented as its native tokens, and KSM can be used as collateral for kaUSD.
+* **#3 Acala Mainnet**: will be connected to the Polkadot network upon its launch
 {% endhint %}
 
 ## Mandala Test Network
@@ -18,19 +18,21 @@ The evolution of the Acala Network will be marked by trilogy networks:
 
 Mandala Test Network is a risk-free and value-free playground, purely for testing out functionalities and "explosive" experiments. There is no network value nor rewards. You can obtain test tokens to test drive various functionalities.
 
-* [Web DApp](https://apps.acala.network/)
+* [Web DApp](https://apps.acala.network)
 * [Mobile App](https://polkawallet.io/#download)
-* [Console UI](https://console.acala.network/)
+* [Console UI](https://console.acala.network)
 * [Telemetry](https://telemetry.polkadot.io/#list/Acala%20Mandala%20TC3)
 * [Riot Faucet](https://riot.im/app/#/room/#acala-faucet:matrix.org)
 
 ### Public Nodes 
 
-{% page-ref page="public-nodes.md" %}
+{% content-ref url="public-nodes.md" %}
+[public-nodes.md](public-nodes.md)
+{% endcontent-ref %}
 
 ### Create a Polkadot Account
 
-There are a number of ways you can generate an account. For most users, we recommend using the Polkadot{JS} Extension \(Chrome/Brave/Firefox\), as the Mandala Web App integrates with this extension.
+There are a number of ways you can generate an account. For most users, we recommend using the Polkadot{JS} Extension (Chrome/Brave/Firefox), as the Mandala Web App integrates with this extension.
 
 #### Using Polkadot{JS} Extension
 
@@ -49,7 +51,7 @@ For more details on how to create an account, see [here](https://wiki.polkadot.n
 
 1. Open [the Console UI](https://console.acala.network/#/accounts) and navigate to accounts, ensure it is Mandala Test Network
 
- 2. Click on `Add Account`, put in a `name`, a `password`, and keep the default cryptography option `Schnorrkel (sr25519)`
+ 2\. Click on `Add Account`, put in a `name`, a `password`, and keep the default cryptography option `Schnorrkel (sr25519)`
 
 ![Polkadot UI](../../.gitbook/assets/started_ui.png)
 
@@ -62,12 +64,12 @@ For more details on how to create an account, see [here](https://wiki.polkadot.n
 
 Mandala Test Network have these test tokens available
 
-| Currency ID | Symbol | Description |
-| :--- | :--- | :--- |
-| 0 | ACA | Acala network token for fees, rewards etc. |
-| 1 | aUSD | Acala USD stablecoin |
-| 2 | DOT | Polkadot network token DOT |
-| 3 | BTC | Bitcoin |
+| Currency ID | Symbol | Description                                |
+| ----------- | ------ | ------------------------------------------ |
+| 0           | ACA    | Acala network token for fees, rewards etc. |
+| 1           | aUSD   | Acala USD stablecoin                       |
+| 2           | DOT    | Polkadot network token DOT                 |
+| 3           | BTC    | Bitcoin                                    |
 
 #### Use Faucet via Discord or Riot Bot
 
@@ -111,5 +113,4 @@ Check out [our progressive decentralization governance guide](https://wiki.acala
 
 ### Explorer
 
-Use [Polkascan](https://polkascan.io/pre/acala-mandal) & [Subscan](https://acala-testnet.subscan.io/) to browse activities and transactions on the Acala Mandala Test Network.
-
+Use [Polkascan](https://polkascan.io/pre/acala-mandal) & [Subscan](https://acala-testnet.subscan.io) to browse activities and transactions on the Acala Mandala Test Network.

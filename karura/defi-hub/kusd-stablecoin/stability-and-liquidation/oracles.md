@@ -9,7 +9,5 @@ The Acala Oracle powered by the [Open Oracle Gateway](../../../../learn/basics/o
 
 Check price feeds [here](https://apps.karura.network/loan/oracle).
 
-\[price [Source](https://github.com/AcalaNetwork/Acala/tree/master/modules/prices)\]  
-\[oracle [Source](https://github.com/open-web3-stack/open-runtime-module-library/tree/8895f4b4c6ce9b9f03652bfe9602f102c7caa937/oracle)\]  
-
-
+\[price [Source](https://github.com/AcalaNetwork/Acala/tree/master/modules/prices)]\
+\[oracle [Source](https://github.com/open-web3-stack/open-runtime-module-library/tree/8895f4b4c6ce9b9f03652bfe9602f102c7caa937/oracle)]\
