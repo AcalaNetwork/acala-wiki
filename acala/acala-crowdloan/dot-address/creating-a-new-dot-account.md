@@ -62,4 +62,10 @@ Keep "Network" as "Allow use on any chain." Click the `account with the generate
 
 ![](https://lh4.googleusercontent.com/-8kC3yXmHPcI8wWowf4o4FvqM3D10yOudIoDUb6LdPbBB-vD3J0mWlzneLo5kyd9cGmdwe2wm-mZjR\_9Ur-CniGGkLTF4gTQGvP1NSUH889gC63fa2ctOteZM3pW0pTL2\_rmcx3z=s0)
 
-Your wallet is now set up. You can see your Polkadot address which begins with the number 1. To see your full DOT address or to copy the address, click on the three lines in the upper right corner.
+7\) Your wallet is now set up. You can see your Polkadot address which begins with the number 1. To see your full DOT address or to copy the address, click on the three lines in the upper right corner.
+
+![](https://lh4.googleusercontent.com/nUc-yrkFQSPX2S8CgpWjhRNV-p-cvKVPOAG_j-I2AOmBhHg8-sHIT4XgPJ9bf8KwGQ6Kg4L0mzMdgISBsfFFlaUxa-x5RknubwCa4ygoT4\_POQU2Q8YwUAqePABAjHS80pfZA7t\_=s0)
+
+8\) You can now see your full DOT address and send your DOT tokens to this address.
+
+![](https://lh3.googleusercontent.com/9jdqSrtSojsbIXfpAHvkWZQanVI2c2xqqM-TIVri-JSf0oosJ2D63vIbd5ruhUjt8ArdCjKaht7tB-1L-omowBwef3GxynlGtMkrxWmYfWr68t41Oclu-GqRK9HftwIOEAuaPr3K=s0)
