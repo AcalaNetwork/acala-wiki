@@ -86,6 +86,7 @@
   * [Crowdloan Rewards](acala/acala-crowdloan/crowdloan-rewards.md)
   * [How to Crowdloan](acala/acala-crowdloan/how-to-crowdloan.md)
   * [FAQ](acala/acala-crowdloan/faq.md)
+  * [Acala Quests](acala/acala-crowdloan/acala-quests.md)
   * [DOT Address](acala/acala-crowdloan/dot-address/README.md)
     * [Creating a New DOT Account](acala/acala-crowdloan/dot-address/creating-a-new-dot-account.md)
     * [Becoming a DOT Holder](acala/acala-crowdloan/dot-address/becoming-a-dot-holder.md)
