@@ -88,6 +88,7 @@
   * [FAQ](acala/acala-crowdloan/faq.md)
   * [DOT Address](acala/acala-crowdloan/dot-address/README.md)
     * [Creating a New DOT Account](acala/acala-crowdloan/dot-address/creating-a-new-dot-account.md)
+    * [Becoming a DOT Holder](acala/acala-crowdloan/dot-address/becoming-a-dot-holder.md)
     * [Unstaking Your DOT](acala/acala-crowdloan/dot-address/unstaking-your-dot/README.md)
       * [Unstaking Your DOT Tokens on Polkadot.{js} Extension](acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension.md)
       * [Unstaking Your DOT Tokens on Polkawallet](acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkawallet.md)
