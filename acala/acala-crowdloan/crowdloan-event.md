@@ -59,7 +59,7 @@ The ACA distributed to participants will be vested over a period of time, but th
 
 Crowdloan is a permissionless event, so you can make your own judgement on how you'd like to participate. We recommend the following ways to participate:
 
-* Participate via Acala Official website using Polkadot{.js} browser extension. 
+* Participate via Acala Official website using [Polkadot{.js} browser extension](https://wiki.acala.network/acala/acala-crowdloan/dot-address/creating-a-new-dot-account#option-1-creating-a-wallet-through-polkadot-.js-browser-extension). 
 * Participate via exchanges. 
 * Participate via partner mobile wallets.
 

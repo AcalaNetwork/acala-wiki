@@ -28,7 +28,7 @@ You will receive your ACA after Acala wins a parachain slot, launches the networ
 
 ### What wallets can I use to participate? Can I use Ledger? 
 
-A list of supported wallets can be found here \[Link]. Ledger does not support Crowdloans in Polkadot.
+A list of supported wallets can be found [here](https://wiki.acala.network/acala/acala-crowdloan/crowdloan-event#3.2-ways-to-participate). Ledger does not support Crowdloans in Polkadot.
 
 ### What if Acala doesn’t win the first parachain auction, what happens to my DOT? 
 
@@ -74,7 +74,13 @@ No. Ledger does not support Polkadot crowdloans.
 
 Select the Liquid Crowdloan option when making your contribution on the Acala website or Polkawallet. After the Acala network launches, you will receive your ACA rewards plus lcDOT. lcDOT will be issued on a 1:1 basis against your DOT contribution and can be redeemed for DOT on a 1:1 basis at Acala's parachain lease expiration. lcDOT allows you to access the liquidity in your crowdloan contribution because lcDOT can be used in Acala’s DeFi primitives (e.g., trade, transfer, collateralize).
 
-**It's important to note that the Liquid Crowdloan option is not completely trustless like a Direct Polkadot Contribution.** Instead, the Liquid Crowdloan option requires the contributor to trust Acala before becoming trustless.
+**It's important to note that the Liquid Crowdloan option is not completely trustless. It requires you to contribute your DOT to the Liquid Crowdoan Vault managed by the Acala Foundation. This vault will be managed by the Acala Foundation until ownership of the vault is transferred to the Acala parachain. If you are looking for a way to trustlessly contribute, make a Direct Polkadot Contribution.**
+
+### What are the risks of the Liquid Crowdloan Contribution method?
+
+Contributors using this method need to trust the Acala Foundation to manage the Liquid Crowdloan Vault until Vault ownership is transferred to the Acala parachain. 
+
+We do not foresee any technical risk with this approach.
 
 ### What is lcDOT? 
 
