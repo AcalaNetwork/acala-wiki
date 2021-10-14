@@ -20,7 +20,7 @@ Mandala Test Network is a risk-free and value-free playground, purely for testin
 
 * [Web DApp](https://apps.acala.network)
 * [Mobile App](https://polkawallet.io/#download)
-* [Console UI](https://console.acala.network)
+* [Console UI](https://polkadot.js.org/apps)
 * [Telemetry](https://telemetry.polkadot.io/#list/Acala%20Mandala%20TC3)
 * [Riot Faucet](https://riot.im/app/#/room/#acala-faucet:matrix.org)
 
@@ -49,7 +49,7 @@ For more details on how to create an account, see [here](https://wiki.polkadot.n
 
 #### Using Polkadot UI
 
-1. Open [the Console UI](https://console.acala.network/#/accounts) and navigate to accounts, ensure it is Mandala Test Network
+1. Open [the Console UI](https://polkadot.js.org/apps/#/accounts) and navigate to accounts, ensure it is Mandala Test Network
 
  2\. Click on `Add Account`, put in a `name`, a `password`, and keep the default cryptography option `Schnorrkel (sr25519)`
 

@@ -1,8 +1,8 @@
-# Acala Console
+# Polkadot Explorer
 
-Acala Console is used to communicate with an Acala Node, where you can query the state of the blockchain e.g. balances of accounts, block information etc., and execute transactions to interact with various runtime modules of the chain e.g. transfer a token, do a token swap on the DeX etc.
+Polkadot Explorer is used to communicate with an Acala Node, where you can query the state of the blockchain e.g. balances of accounts, block information etc., and execute transactions to interact with various runtime modules of the chain e.g. transfer a token, do a token swap on the DeX etc.
 
-Open the Acala Console here: [https://console.acala.network/](https://console.acala.network/).
+Open the [Polkadot Explorer](https://polkadot.js.org/apps/).
 
 The Console is a generated front-end provided by Polkadot that can connect to various Substrate nodes. To connect the Console to your particular node, open the dropdown menu on the top left corner
 

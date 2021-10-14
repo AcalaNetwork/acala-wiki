@@ -175,7 +175,7 @@
     * [Get Started](build/development-guide/smart-contracts/get-started-evm/README.md)
       * [Connect to a Node](build/development-guide/smart-contracts/get-started-evm/connect-to-a-node.md)
       * [Setup EVM Account](build/development-guide/smart-contracts/get-started-evm/evm-account.md)
-      * [Acala Console](build/development-guide/smart-contracts/get-started-evm/acala-console.md)
+      * [Polkadot Explorer](build/development-guide/smart-contracts/get-started-evm/acala-console.md)
       * [EVM Playground](build/development-guide/smart-contracts/get-started-evm/evm-playground.md)
       * [Use Remix](build/development-guide/smart-contracts/get-started-evm/use-remix.md)
       * [Use Waffle](build/development-guide/smart-contracts/get-started-evm/use-waffle.md)

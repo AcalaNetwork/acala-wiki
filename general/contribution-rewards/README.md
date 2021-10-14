@@ -820,7 +820,7 @@ To celebrate & reward supporters, we're hosting the Mandala Festival Prize Drops
 * 10 top accounts with maximum gain or loss will be awarded
 *   106 lucky accounts will be drawn from all qualified
 
-    Use [https://apps.acala.network](https://apps.acala.network) or [https://console.acala.network](https://console.acala.network)
+    Use [https://apps.acala.network](https://apps.acala.network) or [https://polkadot.js.org/apps](https://polkadot.js.org/apps)
 
 **Blog Acala**
 

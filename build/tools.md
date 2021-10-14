@@ -2,7 +2,7 @@
 
 ## Block Explorers
 
-* [Acala Console Explorer](https://console.acala.network/#/explorer) - Acala console dashboard block explorer. Currently connects to Acala by default, but can be configured to connect to other remote or local endpoints.
+* [Polkadot Explorer Explorer](https://polkadot.js.org/apps/#/explorer) - Acala console dashboard block explorer. Currently connects to Acala by default, but can be configured to connect to other remote or local endpoints.
 * [Polkascan](https://polkascan.io/) - Blockchain explorer for Polkadot, Kusama, and other related chains.
 * [Subscan](https://subscan.io/) - Blockchain explorer for Substrate chains, include Acala.
 
@@ -15,7 +15,7 @@
 | Wallet Name | Development State | Team Name | Description |
 | :--- | :--- | :--- | :--- |
 | [Acala DApp](https://apps.acala.network/) | Live | Acala | Browser |
-| [Acala Console](https://console.acala.network/) | Live | Acala | Browser |
+| [Polkadot Explorer](https://polkadot.js.org/apps/) | Live | Acala | Browser |
 | [Polkawallet](https://polkawallet.io/) | Live | Polkawallet | IOS and Android |
 | [Signer](https://www.parity.io/signer/) | Building | Parity | IOS and Android |
 | [Polkadot-JS](https://polkadot.js.org/apps/#/accounts) | Building | Parity | Browser |

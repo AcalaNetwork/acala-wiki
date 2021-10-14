@@ -29,7 +29,7 @@ description: List of common links.
 ## UI and explorers
 
 * [Dapp](https://apps.acala.network/)
-* [Console Portal](https://console.acala.network/)
+* [Console Portal](https://polkadot.js.org/apps/)
 * [Telemetry](https://telemetry.polkadot.io/)
 * [Polkawallet](https://polkawallet.io/)
 * [Subscan](https://acala-testnet.subscan.io/)
