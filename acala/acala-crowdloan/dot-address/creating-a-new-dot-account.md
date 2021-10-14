@@ -1,6 +1,6 @@
 # Creating a New DOT Account
 
-While there are several wallets that support Kusama, **we've found that the Polkadot.{js} browser extension best serves most desktop users and the Polkawallet mobile app best serves most mobile users. Follow the guides below based on your wallet preference.**
+While there are several wallets that support Polkadot, **we've found that the Polkadot.{js} browser extension best serves most desktop users and the Polkawallet mobile app best serves most mobile users. Follow the guides below based on your wallet preference.**
 
 ## Option 1: Creating a wallet through Polkadot{.js} browser extension
 
