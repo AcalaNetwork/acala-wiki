@@ -66,6 +66,12 @@ Liquid Crowdloan Contributors can redeem any lcDOT they hold at Acala's parachai
 
 **If you don’t have your own referral code:** Enter SOMEONE ELSE’S referral code when you make YOUR crowdloan contribution to receive a 5% bonus in ACA on YOUR DOT contribution. Use the referral code ACALA GAVE YOU after you made your DOT contribution. Share it with others to receive 5% bonus in ACA on THEIR DOT contributions.
 
+### If I contributed to the Karura Crowdloan and I also contribute to the Acala Crowdloan, do I get an additional bonus?
+
+Yes. You must make your Acala Crowdloan contribution with the same account that you used to make your Karura contribution. If you do this, you will receive a 2% bonus in ACA on your Acala Crowdloan contribution.
+
+Although your Karura Crowdloan contribution was made from your Kusama address, each account created in the Polkadot/Kusama ecosystems comes with a set of addresses for Polkadot, Kusama and their parachains. All of these addresses are controlled by the same account. You can check to see a complete set of each account's addresses by going [here](https://polkadot.subscan.io/tools/ss58\_transform) and pasting any of your addresses into `Input SS58 Account or Public Key` and clicking `Transform`.
+
 ### Can I participate using Ledger? 
 
 No. Ledger does not support Polkadot crowdloans. 
