@@ -58,11 +58,7 @@ If you are staking on an exchange, contact your exchange to learn if they are su
 
 ### Will my DOT be returned after the parachain lease ends? 
 
-Liquid Crowdloan Contributors can redeem any lcDOT they hold at lease expiration for the equivalent amount of DOT (the ratio of lcDOT to DOT is 1:1). All other contributors will have their full DOT contribution returned to them at lease expiration.
-
-### What is the total ACA token supply? 
-
-The total ACA supply is 1 billion ACA.
+Liquid Crowdloan Contributors can redeem any lcDOT they hold at Acala's parachain lease expiration for the equivalent amount of DOT (the ratio of lcDOT to DOT is 1:1). All other contributors will have their full DOT contribution returned to them at lease expiration.
 
 ### How does the referral bonus work? 
 
@@ -76,9 +72,9 @@ No. Ledger does not support Polkadot crowdloans.
 
 ### How does Liquid Crowdloan Contribution work? 
 
-Select the Liquid Crowdloan option when making your contribution on the Acala website or Polkawallet. After the Acala network launches, you will receive your ACA rewards plus lcDOT. lcDOT will be issued on a 1:1 basis against your DOT contribution and can be redeemed for DOT on a 1:1 basis at parachain lease expiration. lcDOT allows you to access the liquidity in your crowdloan contribution because lcDOT can be used in Acala’s DeFi primitives (e.g., trade, transfer, collateralize). lcDOT is also redeemable for DOT on a 1:1 basis at the end of Acala's parachain lease.
+Select the Liquid Crowdloan option when making your contribution on the Acala website or Polkawallet. After the Acala network launches, you will receive your ACA rewards plus lcDOT. lcDOT will be issued on a 1:1 basis against your DOT contribution and can be redeemed for DOT on a 1:1 basis at Acala's parachain lease expiration. lcDOT allows you to access the liquidity in your crowdloan contribution because lcDOT can be used in Acala’s DeFi primitives (e.g., trade, transfer, collateralize).
 
-It's important to note that the Liquid Crowdloan option is not completely trustless like a Direct Polkadot Contribution. Instead, the Liquid Crowdloan option requires the contributor to trust Acala before becoming trustless.
+**It's important to note that the Liquid Crowdloan option is not completely trustless like a Direct Polkadot Contribution.** Instead, the Liquid Crowdloan option requires the contributor to trust Acala before becoming trustless.
 
 ### What is lcDOT? 
 
@@ -108,7 +104,11 @@ No. All submissions to the crowdloan module are final and cannot be withdrawn.
 
 ### Who receives ACA tokens? 
 
-Anyone that makes a DOT contribution to the Acala crowdloan will receive ACA tokens. 
+Anyone that makes a DOT contribution to the Acala crowdloan and agrees to the T\&Cs will receive ACA tokens. 
+
+### What is the total ACA token supply? 
+
+The total ACA supply is 1 billion ACA.
 
 ### What is the purpose of the ACA token? 
 
