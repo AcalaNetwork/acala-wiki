@@ -44,7 +44,7 @@ No. Signup for the waitlist has ended. However, you don't need to sign up for th
 
 ### How do I get a referral code? 
 
-There are two ways to get a referral code. The first is by signing up for the Acala waitlist. If the deadline to sign up for the waitlist has passed or you are not on the waitlist, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
+There are two ways to get a referral code. The first is by signing up for the Acala waitlist. If you are not on the waitlist, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
 
 ## How to Participate
 
