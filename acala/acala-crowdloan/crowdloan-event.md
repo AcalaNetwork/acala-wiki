@@ -63,5 +63,29 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 * Participate via exchanges. 
 * Participate via partner mobile wallets.
 
+#### Exchanges 
+
+* OKEX
+* KuCoin
+* Huobi via Newland
+* Additional exchanges to be announced.
+
+#### Mobile Wallets
+
+* [Polkawallet](https://polkawallet.io): non-custodial wallet 
+* [Fearless Wallet:](https://fearlesswallet.io) non-custodial wallet 
+* Math Wallet: non-custodial wallet 
+* Nova Wallet: non-custodial wallet
+* Additional wallets to be announced. 
+
+**Disclaimer: Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services. **
+
+### 3.3 Prepare your DOT In order to participate in the crowdloan, DOT must be unbonded. 
+
+If you are already staking DOT, please begin the process of unstaking now to ensure that you can observe the 28-day cooldown. The following guides are available: ​
+
+* [Unstaking Your DOT Tokens on Polkadot.{js} Extension​](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension) 
+* [Unstaking Your DOT Tokens on Polkawallet](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkawallet)
+
 
 
