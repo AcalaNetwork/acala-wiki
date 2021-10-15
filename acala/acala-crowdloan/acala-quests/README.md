@@ -2,13 +2,13 @@
 
 ## About Acala Quests 
 
-The purpose of Acala Quests is to educate users about Acala and prepare them for the Acala Crowdloan. As an incentive, users that complete ALL of the Quests will receive an extra 2% ACA bonus on their Acala contribution, an Acala NFT and their own referral code which entitles them to an additional 5% ACA bonus on referee contributions.
+The purpose of [Acala Quests](https://acala.network/acala/quests) is to educate users about Acala and prepare them for the Acala Crowdloan. As an incentive, users that complete ALL of the Quests will receive an extra 2% ACA bonus on their Acala contribution, an Acala NFT and their own referral code which entitles them to an additional 5% ACA bonus on referee contributions.
 
 ## Frequently Asked Questions
 
 ### Do I need to complete the Acala Quests in order to participate in the crowdloan? 
 
-No. However, there are several reasons why we encourage users to complete the Acala Quests: 
+No. However, there are several reasons why we encourage users to complete the [Acala Quests](https://acala.network/acala/quests): 
 
 **For users on the Acala Crowdloan Waitlist:** Completing Quests 1 and 2 is the ONLY way to get your referral code. If you complete Quests 1 and 2 before the Acala Crowdloan launches, your referral code will be emailed to you once the Acala Crowdloan launches. If you complete Quests 1 and 2 after the Acala Crowdloan launches, your referral code will be emailed to you. Having your own referral code prior to when you contribute is the only way you can self-refer and receive a 10% bonus. 
 
