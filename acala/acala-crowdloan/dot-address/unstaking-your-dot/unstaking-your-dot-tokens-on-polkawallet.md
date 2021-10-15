@@ -48,7 +48,7 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 1\) After the "cool down" period ends (7 days for Kusama, 28 days for Polkadot), open the Polkawallet mobile app and click `Staking`. You should see your unbonded tokens as "Redeemable."
 
-![](<../../../../.gitbook/assets/image (37).png>)
+![](<../../../../.gitbook/assets/image (37) (1).png>)
 
 2\) Select `Adjust Bonded` and then click `Redeem Unbonded`.
 
@@ -56,7 +56,7 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 3\) Enter the amount you wish to redeem. Click `Submit`.
 
-![](<../../../../.gitbook/assets/image (32).png>)
+![](<../../../../.gitbook/assets/image (32) (1).png>)
 
 4\) Click `Submit`.
 
