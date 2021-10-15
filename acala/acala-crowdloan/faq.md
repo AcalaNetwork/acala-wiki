@@ -20,7 +20,7 @@ The minimum contribution depends on how you participate:
 
 ### How long will my DOT be locked? 
 
-Your DOT will be locked for the full duration of Acala's parachain lease, which is two years. However, contributors have the option to participate through Liquid Crowdloan which gives them access the liquidity in their DOT contribution shortly after Acala’s launch. 
+Your DOT will be locked for the full duration of Acala's parachain lease, which is two years. However, contributors have the option to participate through Liquid Crowdloan which gives them access to the liquidity in their DOT contribution shortly after Acala’s launch. 
 
 ### When will I receive my ACA tokens? 
 
@@ -44,7 +44,7 @@ No. Signup for the waitlist has ended. However, you don't need to sign up for th
 
 ### How do I get a referral code? 
 
-There are two ways to get a referral code. The first is by signing up for the Acala waitlist. If you are not on the waitlist, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
+Complete the Acala Quests. Learn more [here.](https://wiki.acala.network/acala/acala-crowdloan/acala-quests#do-i-need-to-complete-the-acala-quests-in-order-to-participate-in-the-crowdloan)
 
 ## How to Participate
 
