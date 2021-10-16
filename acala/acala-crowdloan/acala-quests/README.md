@@ -16,6 +16,16 @@ No. However, there are several reasons why we encourage users to complete the [A
 
 **For ALL users:** Completing ALL of the Quests entitles you to an extra 2% ACA bonus on your contribution and an Acala NFT. Quests are also a way to educate yourself about Acala and prepare yourself for the Acala Crowdloan.
 
+### Why am I having trouble connecting my Polkadot.js wallet?
+
+#### The Acala Quests page may have trouble connecting to your Polkadot.js extension for a few reasons. Please try the following:
+
+Make sure that your extension is set to “Allow use on any chain.” Refresh the web page.
+
+Make sure that you are allowing the website access to your extension. Open “Manage Website Access” and make sure that acala.network is allowed. Refresh the web page.
+
+If those attempts fail, try turning off ad blockers in your browser settings. Refresh the web page.
+
 ### How long will Acala Quests run for?
 
 Quests will run for the duration of the Acala Crowdloan.
@@ -27,3 +37,8 @@ Yes.
 ### Can I use a Ledger wallet to complete the Acala Quests? 
 
 No. Ledger does not support Acala at all, even if you connect your Ledger to the polkadot.js extension.
+
+### How do I connect my Polkawallet to Acala Quests?
+
+Follow the guide we've created [here](https://wiki.acala.network/acala/acala-crowdloan/acala-quests/attaching-polkawallet-to-polkadot.js-extension).
+

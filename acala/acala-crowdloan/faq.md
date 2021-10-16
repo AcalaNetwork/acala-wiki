@@ -76,6 +76,12 @@ Although your Karura Crowdloan contribution was made from your Kusama address, e
 
 No. Ledger does not support Polkadot crowdloans. 
 
+### Can I withdraw my DOT from the crowdloan? 
+
+No. All submissions to the crowdloan module are final and cannot be withdrawn. 
+
+## Liquid Crowdloan and lcDOT
+
 ### How does Liquid Crowdloan Contribution work? 
 
 Select the Liquid Crowdloan option when making your contribution on the Acala website or Polkawallet. After the Acala network launches, you will receive your ACA rewards plus lcDOT. lcDOT will be issued on a 1:1 basis against your DOT contribution and can be redeemed for DOT on a 1:1 basis at Acala's parachain lease expiration. lcDOT allows you to access the liquidity in your crowdloan contribution because lcDOT can be used in Acala’s DeFi primitives (e.g., trade, transfer, collateralize).
@@ -107,10 +113,6 @@ No. Your lcDOT will be distributed with your ACA rewards after the Acala network
 ### Can I make a Liquid Crowdloan Contribution and a Direct Crowdloan Contribution from the same address? 
 
 Yes. 
-
-### Can I withdraw my DOT from the crowdloan? 
-
-No. All submissions to the crowdloan module are final and cannot be withdrawn. 
 
 ## ACA Tokens 
 
