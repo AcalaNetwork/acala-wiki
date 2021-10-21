@@ -6,35 +6,35 @@
 
 Yes. The base ACA reward is the same regardless of how you participate.
 
-### What is the minimum amount I can contribute? 
+### What is the minimum amount to participate?&#x20;
 
-The minimum contribution depends on how you participate: 
+The minimum contribution depends on how you participate:&#x20;
 
-**Liquid Crowdloan Contribution: **1 DOT 
+**Liquid Crowdloan Contribution: **2.1 DOT (1 DOT minimum contribution)
 
-**Direct Polkadot Contribution: **5 DOT 
+**Direct Polkadot Contribution: **6.1 DOT (5 DOT minimum contribution)
 
-**Partner Wallets: **5 DOT 
+**Partner Wallets: **6.1 DOT (5 DOT minimum contribution)
 
 **Exchange:** Check with your exchange’s requirements
 
-### How long will my DOT be locked? 
+### How long will my DOT be locked?&#x20;
 
-Your DOT will be locked for the full duration of Acala's parachain lease, which is two years. However, contributors have the option to participate through Liquid Crowdloan which gives them access to the liquidity in their DOT contribution shortly after Acala’s launch. 
+Your DOT will be locked for the full duration of Acala's parachain lease, which is two years. However, contributors have the option to participate through Liquid Crowdloan which gives them access to the liquidity in their DOT contribution shortly after Acala’s launch.&#x20;
 
-### When will I receive my ACA tokens? 
+### When will I receive my ACA tokens?&#x20;
 
 You will receive your ACA after Acala wins a parachain slot, launches the network, and enables token transfers.
 
-### What wallets can I use to participate? Can I use Ledger? 
+### What wallets can I use to participate? Can I use Ledger?&#x20;
 
 A list of supported wallets can be found [here](https://wiki.acala.network/acala/acala-crowdloan/crowdloan-event#3.2-ways-to-participate). Ledger does not support Crowdloans in Polkadot.
 
-### What if Acala doesn’t win the first parachain auction, what happens to my DOT? 
+### What if Acala doesn’t win the first parachain auction, what happens to my DOT?&#x20;
 
-If Acala does not win the initial auction, it will continue to bid in the subsequent auctions. There are 5 auctions total in the first batch of parachain slots. 
+If Acala does not win the initial auction, it will continue to bid in the subsequent auctions. There are 5 auctions total in the first batch of parachain slots.&#x20;
 
-### Do I need to sign up for the waitlist in order to participate? 
+### Do I need to sign up for the waitlist in order to participate?&#x20;
 
 No. Signing up for the waitlist has no impact on your ability to participate. However, participating in the waitlist can entitle you for additional bonuses.
 
@@ -42,27 +42,31 @@ No. Signing up for the waitlist has no impact on your ability to participate. Ho
 
 No. Signup for the waitlist has ended. However, you don't need to sign up for the waitlist to contribute to the crowdloan. Additionally, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
 
-### How do I get a referral code? 
+### How do I get a referral code?&#x20;
 
 Complete the Acala Quests. Learn more [here.](https://wiki.acala.network/acala/acala-crowdloan/acala-quests#do-i-need-to-complete-the-acala-quests-in-order-to-participate-in-the-crowdloan)
 
+### Have referral codes been distributed?
+
+No. referral codes have not been distributed to users. Users on the waitlist that have completed Quests 1 and 2 will receive their referral code shortly after the Acala Crowdloan launches. Users that are not on the waitlist will receive their referral code after they complete Quest 4.
+
 ## How to Participate
 
-### Can I participate in the Crowdloan through an exchange? 
+### Can I participate in the Crowdloan through an exchange?&#x20;
 
-Perhaps. Contact your exchange to learn if they are supporting the Polkadot parachain auctions. 
+Perhaps. Contact your exchange to learn if they are supporting the Polkadot parachain auctions.&#x20;
 
-### I'm currently staking my DOT - what do I need to do? 
+### I'm currently staking my DOT - what do I need to do?&#x20;
 
 If you are staking on an exchange, contact your exchange to learn if they are supporting the Polkadot parachain auctions and for instructions on how to participate. If you stake directly in Polkadot, you must go through the 28 day unbonding period before you can make your Crowdloan contribution. Learn how to unstake your DOT [here](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot).
 
-### Will my DOT be returned after the parachain lease ends? 
+### Will my DOT be returned after the parachain lease ends?&#x20;
 
 Liquid Crowdloan Contributors can redeem any lcDOT they hold at Acala's parachain lease expiration for the equivalent amount of DOT (the ratio of lcDOT to DOT is 1:1). All other contributors will have their full DOT contribution returned to them at lease expiration.
 
-### How does the referral bonus work? 
+### How does the referral bonus work?&#x20;
 
-**If you have your own referral code:** Enter YOUR referral code to self-refer when you make YOUR crowdloan contribution to receive a 10% bonus in ACA (5% as referrer and 5% as referee) on YOUR DOT contribution. Share YOUR referral code with others and receive a 5% bonus in ACA on THEIR DOT contributions. 
+**If you have your own referral code:** Enter YOUR referral code to self-refer when you make YOUR crowdloan contribution to receive a 10% bonus in ACA (5% as referrer and 5% as referee) on YOUR DOT contribution. Share YOUR referral code with others and receive a 5% bonus in ACA on THEIR DOT contributions.&#x20;
 
 **If you don’t have your own referral code:** Enter SOMEONE ELSE’S referral code when you make YOUR crowdloan contribution to receive a 5% bonus in ACA on YOUR DOT contribution. Use the referral code ACALA GAVE YOU after you made your DOT contribution. Share it with others to receive 5% bonus in ACA on THEIR DOT contributions.
 
@@ -72,17 +76,17 @@ Yes. You must make your Acala Crowdloan contribution with the same account that 
 
 Although your Karura Crowdloan contribution was made from your Kusama address, each account created in the Polkadot/Kusama ecosystems comes with a set of addresses for Polkadot, Kusama and their parachains. All of these addresses are controlled by the same account. You can check to see a complete set of each account's addresses by going [here](https://polkadot.subscan.io/tools/ss58\_transform) and pasting any of your addresses into `Input SS58 Account or Public Key` and clicking `Transform`.
 
-### Can I participate using Ledger? 
+### Can I participate using Ledger?&#x20;
 
-No. Ledger does not support Polkadot crowdloans. 
+No. Ledger does not support Polkadot crowdloans.&#x20;
 
-### Can I withdraw my DOT from the crowdloan? 
+### Can I withdraw my DOT from the crowdloan?&#x20;
 
-No. All submissions to the crowdloan module are final and cannot be withdrawn. 
+No. All submissions to the crowdloan module are final and cannot be withdrawn.&#x20;
 
 ## Liquid Crowdloan and lcDOT
 
-### How does Liquid Crowdloan Contribution work? 
+### How does Liquid Crowdloan Contribution work?&#x20;
 
 Select the Liquid Crowdloan option when making your contribution on the Acala website or Polkawallet. After the Acala network launches, you will receive your ACA rewards plus lcDOT. lcDOT will be issued on a 1:1 basis against your DOT contribution and can be redeemed for DOT on a 1:1 basis at Acala's parachain lease expiration. lcDOT allows you to access the liquidity in your crowdloan contribution because lcDOT can be used in Acala’s DeFi primitives (e.g., trade, transfer, collateralize).
 
@@ -90,15 +94,15 @@ Select the Liquid Crowdloan option when making your contribution on the Acala we
 
 ### What are the risks of the Liquid Crowdloan Contribution method?
 
-Contributors using this method need to trust the Acala Foundation to manage the Liquid Crowdloan Vault until Vault ownership is transferred to the Acala parachain. 
+Contributors using this method need to trust the Acala Foundation to manage the Liquid Crowdloan Vault until Vault ownership is transferred to the Acala parachain.&#x20;
 
 We do not foresee any technical risk with this approach.
 
-### What is lcDOT? 
+### What is lcDOT?&#x20;
 
 Liquid Crowdloan DOT (lcDOT) represents the underlying DOT liquidity of an Acala Crowdloan DOT contribution. When a participant contributes DOT via the Liquid Crowdloan option, they will receive lcDOT, a liquid (unlocked) token available for use on Acala’s DeFi hub in addition to ACA rewards. lcDOT can be used to swap, collateralize for a self-serviced loan in aUSD stablecoin, and more. lcDOT is redeemable for DOT on a 1:1 basis at the end of Acala’s parachain lease.
 
-### If I sell my lcDOT, will I still be able to receive my DOT contribution at the end of the parachain lease? 
+### If I sell my lcDOT, will I still be able to receive my DOT contribution at the end of the parachain lease?&#x20;
 
 Contributors that made a Liquid Crowdloan Contribution must hold lcDOT at the end of the parachain lease in order to redeem their lcDOT for DOT. If these contributors no longer hold lcDOT, they won’t be able to redeem for DOT.
 
@@ -110,26 +114,26 @@ Yes. If you make a DOT contribution to the Acala Crowdloan, you will receive ACA
 
 No. Your lcDOT will be distributed with your ACA rewards after the Acala network launches and transfers are enabled. However, a portion of your ACA rewards will vest over the duration of the Acala parachain lease.
 
-### Can I make a Liquid Crowdloan Contribution and a Direct Crowdloan Contribution from the same address? 
+### Can I make a Liquid Crowdloan Contribution and a Direct Crowdloan Contribution from the same address?&#x20;
 
-Yes. 
+Yes.&#x20;
 
-## ACA Tokens 
+## ACA Tokens&#x20;
 
-### Who receives ACA tokens? 
+### Who receives ACA tokens?&#x20;
 
-Anyone that makes a DOT contribution to the Acala crowdloan and agrees to the T\&Cs will receive ACA tokens. 
+Anyone that makes a DOT contribution to the Acala crowdloan and agrees to the T\&Cs will receive ACA tokens.&#x20;
 
-### What is the total ACA token supply? 
+### What is the total ACA token supply?&#x20;
 
 The total ACA supply is 1 billion ACA.
 
-### What is the purpose of the ACA token? 
+### What is the purpose of the ACA token?&#x20;
 
-ACA is the utility token that powers the DeFi hub of Polkadot. ACA is used for: 
+ACA is the utility token that powers the DeFi hub of Polkadot. ACA is used for:&#x20;
 
-**Transaction Fees** 
+**Transaction Fees**&#x20;
 
-**Proof-of-liveness** (incentives for running Acala nodes) 
+**Proof-of-liveness** (incentives for running Acala nodes)&#x20;
 
 **Foundation of governance** (upgrading the network, adjusting Risk Parameters, etc)
