@@ -2,6 +2,25 @@
 
 * [Acala & Karura Wiki](README.md)
 
+## Acala
+
+* [Acala Crowdloan](acala/acala-crowdloan/README.md)
+  * [Crowdloan Event](acala/acala-crowdloan/crowdloan-event.md)
+  * [Crowdloan Rewards](acala/acala-crowdloan/crowdloan-rewards.md)
+  * [How to Crowdloan](acala/acala-crowdloan/how-to-crowdloan.md)
+  * [FAQ](acala/acala-crowdloan/faq.md)
+  * [Acala Quests](acala/acala-crowdloan/acala-quests/README.md)
+    * [Attaching Polkawallet to Polkadot.js Extension](acala/acala-crowdloan/acala-quests/attaching-polkawallet-to-polkadot.js-extension.md)
+  * [DOT Address](acala/acala-crowdloan/dot-address/README.md)
+    * [Creating a New DOT Account](acala/acala-crowdloan/dot-address/creating-a-new-dot-account.md)
+    * [Becoming a DOT Holder](acala/acala-crowdloan/dot-address/becoming-a-dot-holder.md)
+    * [Unstaking Your DOT](acala/acala-crowdloan/dot-address/unstaking-your-dot/README.md)
+      * [Unstaking Your DOT Tokens on Polkadot.{js} Extension](acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension.md)
+      * [Unstaking Your DOT Tokens on Polkawallet](acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkawallet.md)
+* [Acala Account](acala/acala-account/README.md)
+  * [Check Address for Different Chains](acala/acala-account/check-addr.md)
+* [Redenomination of ACA](acala/redenomination-of-aca.md)
+
 ## Karura
 
 * [Home](karura/home.md)
@@ -79,25 +98,6 @@
     * [Swap SDK](karura/developer-guide/swap/swap-sdk.md)
   * [Liquid Staking](karura/developer-guide/homa-light-api.md)
 
-## Acala
-
-* [Acala Crowdloan](acala/acala-crowdloan/README.md)
-  * [Crowdloan Event](acala/acala-crowdloan/crowdloan-event.md)
-  * [Crowdloan Rewards](acala/acala-crowdloan/crowdloan-rewards.md)
-  * [How to Crowdloan](acala/acala-crowdloan/how-to-crowdloan.md)
-  * [FAQ](acala/acala-crowdloan/faq.md)
-  * [Acala Quests](acala/acala-crowdloan/acala-quests/README.md)
-    * [Attaching Polkawallet to Polkadot.js Extension](acala/acala-crowdloan/acala-quests/attaching-polkawallet-to-polkadot.js-extension.md)
-  * [DOT Address](acala/acala-crowdloan/dot-address/README.md)
-    * [Creating a New DOT Account](acala/acala-crowdloan/dot-address/creating-a-new-dot-account.md)
-    * [Becoming a DOT Holder](acala/acala-crowdloan/dot-address/becoming-a-dot-holder.md)
-    * [Unstaking Your DOT](acala/acala-crowdloan/dot-address/unstaking-your-dot/README.md)
-      * [Unstaking Your DOT Tokens on Polkadot.{js} Extension](acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension.md)
-      * [Unstaking Your DOT Tokens on Polkawallet](acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkawallet.md)
-* [Acala Account](acala/acala-account/README.md)
-  * [Check Address for Different Chains](acala/acala-account/check-addr.md)
-* [Redenomination of ACA](acala/redenomination-of-aca.md)
-
 ## General
 
 * [Acala Portal](general/acala-portal/README.md)
@@ -160,7 +160,7 @@
 * [Economics](learn/economics/README.md)
   * [ACA & KAR](learn/economics/aca-and-kar.md)
   * [Parachain Slots Auction](https://wiki.polkadot.network/docs/en/learn-auction)
-  * [Acala Token Economy Paper](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Acala_Token_Economy_Paper.pdf)
+  * [Acala Token Economy Paper](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Acala\_Token\_Economy\_Paper.pdf)
   * [Acala Parachain](learn/economics/acala-parachain.md)
 * [Miscellaneous](learn/miscellaneous/README.md)
   * [Runtime Events](learn/miscellaneous/runtime-events.md)
