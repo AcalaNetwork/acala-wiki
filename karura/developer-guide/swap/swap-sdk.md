@@ -30,5 +30,5 @@ const parameters = swapPromise.swap(path: Token[], amount: FixedPointNumber, typ
 
 `type` defines whether the swap should be with exact supply or exact target.
 
-You can find the full code sample here: [swapWithSDK.ts](https://github.com/AcalaNetwork/acala-js-example/blob/c85aff894ec3aa083aea11ec80e0a985adb5fa04/src/dex-examples/swapWithSDK.ts)
+You can find the full code sample here: [swapWithSDK.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/swapWithSDK.ts)
 
