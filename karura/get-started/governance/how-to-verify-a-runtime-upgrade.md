@@ -11,7 +11,7 @@ Once the upgrade is proposed, you shall see it on the [Polkadot App - Karura par
 Expand the proposal, and find the Preimage info.
 
 * Preimage: `parachainSystem.authorizeUpgrade(0xd9660e7d73163f7b2e1591c08c60e68f4b47cb85dcba54d55c53b9573876f55e)`\
-   
+  &#x20;
 * Hash: `0x4f8bf2c02c5a1e8cdcf7a94dabf2805c563c46a87876c684c5d79ffb745db115`
 
 ## Verify against code
@@ -42,6 +42,6 @@ In the discussion post of the proposal, it shall provide the release tag, runtim
 
 #### 2. Generate hash & compare
 
-In the `Developer - Extrinsics` tab, use the following and upload the wasm to generate the call hash. Compare this with the preimage hash proposed. 
+In the `Developer - Extrinsics` tab, use the following and upload the wasm to generate the call hash. Compare this with the preimage hash proposed.&#x20;
 
 ![](<../../../.gitbook/assets/image (26).png>)
