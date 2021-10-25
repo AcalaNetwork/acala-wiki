@@ -22,7 +22,7 @@ Same as the Kusama full node requirements.
 * CLI is mostly the same as any Substrate-based chain such as Polkadot and Kusama
 * Because there are two node services are running, `--` is used to split the CLI. Arguments before `--` are passed to the parachain full-node service and arguments after `--` is passed to the Relay Chain full-node service.
   * For example `--chain=parachain.json --ws-port=9944 -- --chain=relaychain.json --ws-port=9945` means
-    * The parachain service is using `parachian.json` as the chain spec and the web socket RPC port is 9944
+    * The parachain service is using `parachain.json` as the chain spec and the web socket RPC port is 9944
     * The Relay Chain service is using `relaychain.json` as the chain spec and the web socket
 
       RPC port is 9945
