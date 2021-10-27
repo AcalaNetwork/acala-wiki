@@ -10,11 +10,11 @@ Yes. The base ACA reward is the same regardless of how you participate.
 
 The minimum contribution depends on how you participate:&#x20;
 
-**Liquid Crowdloan Contribution: **2.1 DOT (1 DOT minimum contribution)
+**Liquid Crowdloan Contribution: **2.1 DOT balance (1 DOT minimum contribution)
 
-**Direct Polkadot Contribution: **6.1 DOT (5 DOT minimum contribution)
+**Direct Polkadot Contribution: **6.1 DOT balance (5 DOT minimum contribution)
 
-**Partner Wallets: **6.1 DOT (5 DOT minimum contribution)
+**Partner Wallets: **6.1 DOT balance (5 DOT minimum contribution)
 
 **Exchange:** Check with your exchange’s requirements
 
