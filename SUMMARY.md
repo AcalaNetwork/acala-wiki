@@ -19,6 +19,7 @@
       * [Unstaking Your DOT Tokens on Polkawallet](acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkawallet.md)
 * [Acala Account](acala/acala-account/README.md)
   * [Check Address for Different Chains](acala/acala-account/check-addr.md)
+* [Acala Assets](acala/acala-assets.md)
 * [Redenomination of ACA](acala/redenomination-of-aca.md)
 
 ## Karura
