@@ -88,7 +88,7 @@ No.
 
 ### How do I get my 2% Quest bonus?
 
-Complete all [5 Acala Quests](https://acala.network/acala/quests) to receive a 2% ACA bonus on YOUR DOT contribution.
+Complete all [5 Acala Quests](https://acala.network/acala/quests) to receive a 2% ACA bonus on YOUR DOT contribution. The Quest bonus will be redeemable after the Acala network launches.
 
 ### How do I get my 2% Karura Crowdloan bonus?
 
