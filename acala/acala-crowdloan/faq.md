@@ -42,14 +42,6 @@ No. Signing up for the waitlist has no impact on your ability to participate. Ho
 
 No. Signup for the waitlist has ended. However, you don't need to sign up for the waitlist to contribute to the crowdloan. Additionally, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
 
-### How do I get a referral code?&#x20;
-
-Complete the Acala Quests. Learn more [here.](https://wiki.acala.network/acala/acala-crowdloan/acala-quests#do-i-need-to-complete-the-acala-quests-in-order-to-participate-in-the-crowdloan)
-
-### Have referral codes been distributed?
-
-No. referral codes have not been distributed to users. Users on the waitlist that have completed Quests 1 and 2 will receive their referral code shortly after the Acala Crowdloan launches. Users that are not on the waitlist will receive their referral code after they complete Quest 4.
-
 ## How to Participate
 
 ### Can I participate in the Crowdloan through an exchange?&#x20;
@@ -64,18 +56,6 @@ If you are staking on an exchange, contact your exchange to learn if they are su
 
 Liquid Crowdloan Contributors can redeem any lcDOT they hold at Acala's parachain lease expiration for the equivalent amount of DOT (the ratio of lcDOT to DOT is 1:1). All other contributors will have their full DOT contribution returned to them at lease expiration.
 
-### How does the referral bonus work?&#x20;
-
-**If you have your own referral code:** Enter YOUR referral code to self-refer when you make YOUR crowdloan contribution to receive a 10% bonus in ACA (5% as referrer and 5% as referee) on YOUR DOT contribution. Share YOUR referral code with others and receive a 5% bonus in ACA on THEIR DOT contributions.&#x20;
-
-**If you don’t have your own referral code:** Enter SOMEONE ELSE’S referral code when you make YOUR crowdloan contribution to receive a 5% bonus in ACA on YOUR DOT contribution. Use the referral code ACALA GAVE YOU after you made your DOT contribution. Share it with others to receive 5% bonus in ACA on THEIR DOT contributions.
-
-### If I contributed to the Karura Crowdloan and I also contribute to the Acala Crowdloan, do I get an additional bonus?
-
-Yes. You must make your Acala Crowdloan contribution with the same account that you used to make your Karura contribution. If you do this, you will receive a 2% bonus in ACA on your Acala Crowdloan contribution.
-
-Although your Karura Crowdloan contribution was made from your Kusama address, each account created in the Polkadot/Kusama ecosystems comes with a set of addresses for Polkadot, Kusama and their parachains. All of these addresses are controlled by the same account. You can check to see a complete set of each account's addresses by going [here](https://polkadot.subscan.io/tools/ss58\_transform) and pasting any of your addresses into `Input SS58 Account or Public Key` and clicking `Transform`.
-
 ### Can I participate using Ledger?&#x20;
 
 No. Ledger does not support Polkadot crowdloans.&#x20;
@@ -83,6 +63,44 @@ No. Ledger does not support Polkadot crowdloans.&#x20;
 ### Can I withdraw my DOT from the crowdloan?&#x20;
 
 No. All submissions to the crowdloan module are final and cannot be withdrawn.&#x20;
+
+## Referral Codes and Bonuses
+
+### How do I get a referral code?&#x20;
+
+There are two ways to get a referral code. Users on the waitlist can complete [the first two Acala Quests](https://acala.network/acala/quests) to receive their referral code via email. Users not on the waitlist can receive a referral code after they make their crowdloan contribution.
+
+### Have referral codes been distributed?
+
+No. referral codes have not been distributed to users. Users on the waitlist that have completed Quests 1 and 2 will receive their referral code shortly after the Acala Crowdloan launches. Users that are not on the waitlist will their referral code after they contribute to the Acala crowdloan.
+
+### Can the referral codes be used for other crowdloans?
+
+No.
+
+### How do I get my 10% referral bonus?
+
+**Users that were on the waitlist and have their own referral code can earn a 10% ACA bonus. **To get your 10% ACA bonus, enter YOUR referral code to self-refer when you make YOUR crowdloan contribution. You'll receive a 5% ACA bonus as the referrer and 5% ACA bonus as referee for a total of 10% bonus on YOUR DOT contribution. Share YOUR referral code with others and receive a 5% bonus in ACA on THEIR DOT contributions.
+
+### **How do I get my 5% referral bonus?**
+
+**If you weren't on the waitlist and don't have a referral code, you can earn a 5% ACA bonus.** Enter SOMEONE ELSE’S referral code when you make YOUR crowdloan contribution to receive a 5% bonus in ACA on YOUR DOT contribution. After you make YOUR crowdloan contribution, Acala will give you YOUR OWN referral code that you can share with others to receive 5% bonus in ACA on THEIR DOT contributions.
+
+### How do I get my 2% Quest bonus?
+
+Complete all [5 Acala Quests](https://acala.network/acala/quests) to receive a 2% ACA bonus on YOUR DOT contribution.
+
+### How do I get my 2% Karura Crowdloan bonus?
+
+If you contributed to the Karura Crowdloan, you must make your Acala Crowdloan contribution with the same account that you used to make your Karura contribution. If you do this, you will receive a 2% bonus in ACA on YOUR DOT contribution.
+
+Although your Karura Crowdloan contribution was made from your Kusama address, each account created in the Polkadot/Kusama ecosystems comes with a set of addresses for Polkadot, Kusama and their parachains. All of these addresses are controlled by the same account. You can check to see a complete set of each account's addresses by going [here](https://polkadot.subscan.io/tools/ss58\_transform) and pasting any of your addresses into `Input SS58 Account or Public Key` and clicking `Transform`.
+
+### Can you show how the bonuses can be used together?
+
+![](<../../.gitbook/assets/Screenshot (205).png>)
+
+###
 
 ## Liquid Crowdloan and lcDOT
 
