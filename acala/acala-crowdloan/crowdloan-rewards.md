@@ -3,8 +3,8 @@
 ## 1. Reward Stats
 
 * **Total Base ACA Reward: **150,000,000 (15% of total fixed supply)
-* **Total Bonuses: **20,000,000 (2% of total  fixed supply)
-* **Total ACA Reward to Be Distributed: **17%
+* **Total Bonuses: **20,000,000 (2% of total fixed supply)
+* **Total ACA Reward to Be Distributed: **170,000,000 (17% of total fixed supply)
 
 ## 2. Individual Reward Details
 
