@@ -72,7 +72,7 @@ There are two ways to get a referral code. Users on the waitlist can complete [t
 
 ### Have referral codes been distributed?
 
-No. referral codes have not been distributed to users. Users on the waitlist that have completed Quests 1 and 2 will receive their referral code shortly after the Acala Crowdloan launches. Users that are not on the waitlist will their referral code after they contribute to the Acala crowdloan.
+Yes. Users on the waitlist that have completed Quests 1 and 2 will receive their referral code via email. Users that are not on the waitlist will get their referral code after they contribute to the Acala crowdloan.
 
 ### Can the referral codes be used for other crowdloans?
 
