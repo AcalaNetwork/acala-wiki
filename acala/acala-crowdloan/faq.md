@@ -20,7 +20,7 @@ The minimum contribution depends on how you participate:&#x20;
 
 ### How long will my DOT be locked?&#x20;
 
-Your DOT will be locked for the full duration of Acala's parachain lease, which is two years. However, contributors have the option to participate through Liquid Crowdloan which gives them access to the liquidity in their DOT contribution shortly after Acala’s launch.&#x20;
+Your DOT will be locked for the full duration of Acala's parachain lease, which is 96 weeks. However, contributors have the option to participate through Liquid Crowdloan which gives them access to the liquidity in their DOT contribution shortly after Acala’s launch.&#x20;
 
 ### When will I receive my ACA tokens?&#x20;
 
@@ -96,6 +96,10 @@ If you contributed to the Karura Crowdloan, you must make your Acala Crowdloan c
 
 Although your Karura Crowdloan contribution was made from your Kusama address, each account created in the Polkadot/Kusama ecosystems comes with a set of addresses for Polkadot, Kusama and their parachains. All of these addresses are controlled by the same account. You can check to see a complete set of each account's addresses by going [here](https://polkadot.subscan.io/tools/ss58\_transform) and pasting any of your addresses into `Input SS58 Account or Public Key` and clicking `Transform`.
 
+### What is the VIP referral bonus?
+
+Users that refer 500 accounts or more and get those accounts to contribute over 3,000 DOT will receive a 10% ACA bonus on all DOT contributed using their referral code. Importantly, a maximum of only 100 u
+
 ### Can you show how the bonuses can be used together?
 
 ![](<../../.gitbook/assets/Screenshot (205).png>)
@@ -141,6 +145,14 @@ Yes.&#x20;
 ### Who receives ACA tokens?&#x20;
 
 Anyone that makes a DOT contribution to the Acala crowdloan and agrees to the T\&Cs will receive ACA tokens.&#x20;
+
+### How many ACA will be distributed in the crowdloan?
+
+17% of the ACA supply (equivalent to 170,000,000 ACA) will be distributed.
+
+### What is the vesting schedule?
+
+20% of your ACA rewards will be delivered to you as liquid and transferrable. The remaining 80% will vest/unlock linearly (every block) over the 96 week parachain lease.
 
 ### What is the total ACA token supply?&#x20;
 
