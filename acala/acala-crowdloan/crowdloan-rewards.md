@@ -14,4 +14,3 @@
 * **Quest Bonus: **2% ACA bonus and exclusive NFT for users that complete [all 5 Acala Quests](https://acala.network/acala/quests).
 * **Karura Crowdloan Contributor Bonus: **2% additional ACA bonus when using the same account that you used for the Karura crowdloan.
 * **NFT Reward: **Awarded to all Acala Crowdloan contributors except users that participate through exchanges.
-* **Eligibility: **No KYC is required, but participants must agree to Terms & Conditions.
