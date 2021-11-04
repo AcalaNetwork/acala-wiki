@@ -76,7 +76,7 @@ Yes. Users on the waitlist that have completed Quests 1 and 2 will receive their
 
 ### How do I change the DOT address linked to my referral code?
 
-**Users on the waitlist are the only users that can change the DOT address linked to their referral code. **To change their DOT address, redo Quests 1 and 2 using your waitlist email address and the new DOT address you'd like to use for your referral link. Your new referral link will be emailed to you.
+**Users on the waitlist are the only users that can change the DOT address linked to their referral code. **To change the DOT address, redo Quests 1 and 2 using your waitlist email address and the new DOT address you'd like to use for your referral link. Your new referral link will be emailed to you.
 
 ### Can the referral codes be used for other crowdloans?
 
