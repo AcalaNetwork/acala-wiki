@@ -24,7 +24,7 @@ Your DOT will be locked for the full duration of Acala's parachain lease, which 
 
 ### When will I receive my ACA tokens?&#x20;
 
-You will receive your ACA after Acala wins a parachain slot, launches the network, and enables token transfers.
+You will receive your ACA after Acala wins a parachain slot, launches the network (expected December 15th, 2021), and enables token transfers.
 
 ### What wallets can I use to participate? Can I use Ledger?&#x20;
 
@@ -73,6 +73,10 @@ There are two ways to get a referral code. Users on the waitlist can complete [t
 ### Have referral codes been distributed?
 
 Yes. Users on the waitlist that have completed Quests 1 and 2 will receive their referral code via email. Users that are not on the waitlist will get their referral code after they contribute to the Acala crowdloan.
+
+### How do I change the DOT address linked to my referral code?
+
+**Users on the waitlist are the only users that can change the DOT address linked to their referral code. **To change their DOT address, redo Quests 1 and 2 using your waitlist email address and the new DOT address you'd like to use for your referral link. Your new referral link will be emailed to you.
 
 ### Can the referral codes be used for other crowdloans?
 
