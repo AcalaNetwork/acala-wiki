@@ -82,13 +82,13 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 
 #### Option 3: Exchanges
 
-* **Supporting Exchanges: **Kraken, Binance, OKEx, Kucoin, Newland
+* **Supporting Exchanges: **[Kraken](https://www.kraken.com/learn/parachain-auctions), [Binance](https://www.binance.com/en/dotslot), [OKEx](https://www.okex.com/earn/slotauction), [Kucoin](https://www.kucoin.com/news/en-kucoin-will-support-the-kusama-parachain-slot-auction), [Newland](https://newland.finance)
 * **Bonus Eligibility: **Not eligible for any bonuses
 
 #### Option 4: Mobile Wallets
 
-* **Supporting Mobile Wallets: **Polkawallet, Math Wallet, Nova, Fearless
-  * **Also Supports LCDOT: **Polkawallet, Nova, Talisman
+* **Supporting Mobile Wallets: **[Polkawallet](https://polkawallet.io), [Math Wallet](https://mathwallet.org/en-us/), [Nova](https://novawallet.io), [Fearless](https://fearlesswallet.io)
+  * **Supports LCDOT: **[Polkawallet](https://polkawallet.io), [Nova](https://novawallet.io), [Talisman](https://app.talisman.xyz)
 * **Bonus Eligibility: **Eligible for all bonuses
 
 **Disclaimer: **Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.&#x20;
