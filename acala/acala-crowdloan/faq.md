@@ -96,7 +96,7 @@ Complete all [5 Acala Quests](https://acala.network/acala/quests) to receive a 2
 
 ### How do I get my 2% Karura Crowdloan bonus?
 
-If you contributed to the Karura Crowdloan, you must make your Acala Crowdloan contribution with the same account that you used to make your Karura contribution. If you do this, you will receive a 2% bonus in ACA on YOUR DOT contribution.
+If you contributed to the Karura Crowdloan, you must make your Acala Crowdloan contribution with the same account that you used to make your Karura contribution. If you do this, you will receive a 2% bonus in ACA on YOUR **FIRST** DOT contribution.
 
 Although your Karura Crowdloan contribution was made from your Kusama address, each account created in the Polkadot/Kusama ecosystems comes with a set of addresses for Polkadot, Kusama and their parachains. All of these addresses are controlled by the same account. You can check to see a complete set of each account's addresses by going [here](https://polkadot.subscan.io/tools/ss58\_transform) and pasting any of your addresses into `Input SS58 Account or Public Key` and clicking `Transform`.
 
