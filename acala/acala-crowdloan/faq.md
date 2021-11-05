@@ -40,7 +40,7 @@ No. Signing up for the waitlist has no impact on your ability to participate. Ho
 
 ### Can I still sign up for the waitlist?
 
-No. Signup for the waitlist has ended. However, you don't need to sign up for the waitlist to contribute to the crowdloan. Additionally, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
+No. Signup for the waitlist has ended (Oct 12). However, you don't need to sign up for the waitlist to contribute to the crowdloan. Additionally, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
 
 ## How to Participate
 
@@ -68,7 +68,7 @@ No. All submissions to the crowdloan module are final and cannot be withdrawn.&#
 
 ### How do I get a referral code?&#x20;
 
-There are two ways to get a referral code. Users on the waitlist can complete [the first two Acala Quests](https://acala.network/acala/quests) to receive their referral code via email. Users not on the waitlist can receive a referral code after they make their crowdloan contribution.
+There are two ways to get a referral code. Users on the waitlist (signed up by Oct 12) can complete [the first two Acala Quests](https://acala.network/acala/quests) to receive their referral code via email. Users not on the waitlist can receive a referral code after they make their crowdloan contribution.
 
 ### Have referral codes been distributed?
 
