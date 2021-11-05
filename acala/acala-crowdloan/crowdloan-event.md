@@ -87,8 +87,8 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 
 #### Option 4: Mobile Wallets
 
-* **Supporting Exchanges: **Polkawallet, Math Wallet, Nova, Fearless
-  * **Also Supports LCDOT: **Polkawallet, Nova
+* **Supporting Mobile Wallets: **Polkawallet, Math Wallet, Nova, Fearless
+  * **Also Supports LCDOT: **Polkawallet, Nova, Talisman
 * **Bonus Eligibility: **Eligible for all bonuses
 
 **Disclaimer: **Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.&#x20;
