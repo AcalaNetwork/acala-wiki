@@ -10,7 +10,7 @@ The purpose of [Acala Quests](https://acala.network/acala/quests) is to educate 
 
 No. However, there are several reasons why we encourage users to complete the [Acala Quests](https://acala.network/acala/quests):&#x20;
 
-**For users on the Acala Crowdloan Waitlist:** Completing Quests 1 and 2 is the ONLY way to get your referral code. If you complete Quests 1 and 2 before the Acala Crowdloan launches, your referral code will be emailed to you once the Acala Crowdloan launches. If you complete Quests 1 and 2 after the Acala Crowdloan launches, your referral code will be emailed to you. Having your own referral code prior to when you contribute is the only way you can self-refer and receive a 10% bonus.&#x20;
+**For users on the Acala Crowdloan Waitlist (needed to sign up by Oct 12):** Completing Quests 1 and 2 is the ONLY way to get your referral code. If you complete Quests 1 and 2 before the Acala Crowdloan launches, your referral code will be emailed to you once the Acala Crowdloan launches. If you complete Quests 1 and 2 after the Acala Crowdloan launches, your referral code will be emailed to you. Having your own referral code prior to when you contribute is the only way you can self-refer and receive a 10% bonus.&#x20;
 
 **For users not on the Acala Crowdloan Waitlist:** Completing Quest 4 allows you to receive your own referral code which can get you an extra 5% ACA bonus on contributions made by contributors that use your code.&#x20;
 
@@ -28,7 +28,7 @@ If those attempts fail, try turning off ad blockers in your browser settings. Re
 
 ### Have referral codes been distributed?
 
-No. referral codes have not been distributed to users. Users on the waitlist that have completed Quests 1 and 2 will receive their referral code shortly after the Acala Crowdloan launches. Users that are not on the waitlist will receive their referral code after they complete Quest 4.
+Yes. Users on the waitlist that have completed Quests 1 and 2 will receive their referral code via email. Users that are not on the waitlist will get their referral code after they contribute to the Acala crowdloan.
 
 ### How long will Acala Quests run for?
 
