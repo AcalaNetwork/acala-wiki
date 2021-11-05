@@ -10,7 +10,7 @@
 
 ### **Select Your Desired Participation Method**
 
-Select whether you’d like to `Contribute Directly` to the Acala crowdloan hosted by Polkadot on this website or whether you’d like to `Contribute & Stay Liquid` to the Acala crowdloan hosted by the Liquid Crowdloan Vault also on this website and receive lcDOT. The ACA rewards are the same for both options. To learn more about these two options, please consult our [FAQ](https://wiki.acala.network/acala/acala-crowdloan/faq).
+Connect to the Acala [website](https://acala.network/acala/join-acala). Select whether you’d like to `Contribute Directly` to Acala crowdloan hosted by Polkadot on this website or whether you’d like to `Contribute & Stay Liquid` to Acala crowdloan hosted by the Liquid Crowdloan Vault also on this website and receive lcDOT. The ACA rewards are the same for both options. To learn more about these two options, please consult our [FAQ](https://wiki.acala.network/acala/acala-crowdloan/faq).
 
 ![](https://lh3.googleusercontent.com/n7hpj19AJiwsFlHBUmJuFpd9vwPS3hvC8n4VfKMoMLmwUh0ZTN9n22PVp\_Ltux\_67x5JDdBVhrfL-FSStWi280T2aRxQ4w7KucNGtohGvWfSngXIDNtxTEG3MXnHaGd3LDrgM1TE)
 
