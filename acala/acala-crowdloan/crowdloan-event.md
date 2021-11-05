@@ -51,7 +51,6 @@ The ACA distributed to participants will be vested over a period of time, but th
 ### 3.1 Key Details
 
 * **Lease Period: **96 Weeks.
-* **Reward Ratio: **To Be Announced.
 * **Vesting: **20% liquid upfront, 80% vest over lease period.
 * **Referral Bonus: **5% ACA bonus for the referrer and 5% for the referee.
 * **VIP Referral Bonus: **10% additional bonus on all DOT contributed using your referral code when you refer 500 accounts that contribute over 3,000 DOT. This is limited to up to 100 winners. If there are more than 100 qualifying winners, the top 100 in DOT contributed using their referral code will earn this bonus.
