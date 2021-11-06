@@ -30,17 +30,19 @@ You will receive your ACA after Acala wins a parachain slot, launches the networ
 
 A list of supported wallets can be found [here](https://wiki.acala.network/acala/acala-crowdloan/crowdloan-event#3.2-ways-to-participate). Ledger does not support Crowdloans in Polkadot.
 
-### What if Acala doesn’t win the first parachain auction, what happens to my DOT?&#x20;
+### How do I check my crowdloan contribution?
 
-If Acala does not win the initial auction, it will continue to bid in the subsequent auctions. There are 5 auctions total in the first batch of parachain slots.&#x20;
+The easiest way to track your rewards is by logging onto the [Acala website](https://acala.network/acala/join-acala) and clicking on the `Check rewards & bonuses here` link (screenshot below for reference).
 
-### Do I need to sign up for the waitlist in order to participate?&#x20;
+![](<../../.gitbook/assets/check rewards.png>)
 
-No. Signing up for the waitlist has no impact on your ability to participate. However, participating in the waitlist can entitle you for additional bonuses.
+Contributors that used the polkadot.js browser extension wallet to participate and selected the `Direct` contribution method, they can connect their wallet to [polkadot.js.org](https://polkadot.js.org/apps/#/explorer) and go to Network->Parachains->Crowdloan and see `My contributions` in the `raised` column. Note that participants that elected the&#x20;
 
-### Can I still sign up for the waitlist?
+If a contributor elected the the `Contribute & Stay Liquid` method, those contributions will not show up in [polkadot.js.org](https://polkadot.js.org/apps/#/explorer). It's best to check those contributions on the [Acala website](https://acala.network/acala/join-acala) and referring to the screenshot above.
 
-No. Signup for the waitlist has ended (Oct 12). However, you don't need to sign up for the waitlist to contribute to the crowdloan. Additionally, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
+### I made a contribution but it seems like I lost an extra \~1 DOT - what happened?
+
+Polkadot requires that all non-zero balances be 1 DOT or greater. If the account balance falls below this amount, the 0.X DOT are automatically taken from the user by the Polkadot platform and cannot be returned. Because of this, it's important that users leave at least a 1.1 DOT balance after they make their crowdloan contribution.
 
 ## How to Participate
 
@@ -63,6 +65,18 @@ No. Ledger does not support Polkadot crowdloans.&#x20;
 ### Can I withdraw my DOT from the crowdloan?&#x20;
 
 No. All submissions to the crowdloan module are final and cannot be withdrawn.&#x20;
+
+### What if Acala doesn’t win the first parachain auction, what happens to my DOT?&#x20;
+
+If Acala does not win the initial auction, it will continue to bid in the subsequent auctions. There are 5 auctions total in the first batch of parachain slots.&#x20;
+
+### Do I need to sign up for the waitlist in order to participate?&#x20;
+
+No. Signing up for the waitlist has no impact on your ability to participate. However, participating in the waitlist can entitle you for additional bonuses.
+
+### Can I still sign up for the waitlist?
+
+No. Signup for the waitlist has ended (Oct 12). However, you don't need to sign up for the waitlist to contribute to the crowdloan. Additionally, you can make a contribution to the crowdloan and receive a referral code from Acala. You can use this referral code to refer other users and receive ACA bonuses.
 
 ## Referral Codes and Bonuses
 
@@ -96,7 +110,7 @@ Complete all [5 Acala Quests](https://acala.network/acala/quests) to receive a 2
 
 ### How do I get my 2% Karura Crowdloan bonus?
 
-If you contributed to the Karura Crowdloan, you must make your Acala Crowdloan contribution with the same account that you used to make your Karura contribution. If you do this, you will receive a 2% bonus in ACA on YOUR DOT contribution.
+If you contributed to the Karura Crowdloan, you must make your Acala Crowdloan contribution with the same account that you used to make your Karura contribution. If you do this, you will receive a 2% bonus in ACA on YOUR **FIRST** DOT contribution.
 
 Although your Karura Crowdloan contribution was made from your Kusama address, each account created in the Polkadot/Kusama ecosystems comes with a set of addresses for Polkadot, Kusama and their parachains. All of these addresses are controlled by the same account. You can check to see a complete set of each account's addresses by going [here](https://polkadot.subscan.io/tools/ss58\_transform) and pasting any of your addresses into `Input SS58 Account or Public Key` and clicking `Transform`.
 
