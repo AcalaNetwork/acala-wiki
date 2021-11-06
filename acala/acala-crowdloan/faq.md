@@ -44,6 +44,10 @@ If a contributor elected the the `Contribute & Stay Liquid` method, those contri
 
 Polkadot requires that all non-zero balances be 1 DOT or greater. If the account balance falls below this amount, the 0.X DOT are automatically taken from the user by the Polkadot platform and cannot be returned. Because of this, it's important that users leave at least a 1.1 DOT balance after they make their crowdloan contribution.
 
+### I meant to make a Liquid contribution but made a Direct contribution by mistake - can I change it?
+
+No.
+
 ## How to Participate
 
 ### Can I participate in the Crowdloan through an exchange?&#x20;
