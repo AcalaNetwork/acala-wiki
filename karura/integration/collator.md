@@ -24,19 +24,6 @@ These collators are known reputable node service providers who have a proven tra
 
 It is expected that the Karura network will maintain such an authorized Collator Set until the network is fully stabilized, the collator staking module and the reward scheme are fully implemented and audited.
 
-These are the current collators for Karura added via Council Governance on-chain.
-
-```
-Figment tbjKCiq9k2p6L4xLJ9H7mAHs8FBE76aG4KcDapUbUnifjnr
-OnFinality sZDwoS5wHNrdXVe2BZLvgjw62Xri9Qo6bRa5che8EX5Yjx4
-P2P - qCuATNWXzWaja6FpDkSpJnVa7MxSiHGaGa4qiFVsbx7cAQ3
-staker.space op7G2ofug2Q2n1Bq3uUGzkNdSp68S93beMQkjjyDxnPREnk
-Hypersphere sH4ZfKdzj58B3Bn22eFpgKXJBaGqcpCtd6qvXQRPVZWaPWD
-BisonTrails sBwVWToF55CbuyBz3WEqDggniu8Gx18DkTQg4cagsCJsgVf
-BlockDaemon qyf2KVDbBmF3MjRgmyFpQrNUnoxhp9AWCJrywysQcwXaiyb
-Huobi Pool tN23BTgmWj7Z1buNSPyCLP9hDorWGxHAmh4ZYopjsRBdXLv
-```
-
 **Phase 2: Public Collator Set**\
 Through governance approval, Karura will then enable the permissionless election of Collators and enable collator rewards. Due to the fact that Collators are non-security critical, a parachain only needs a small set of Collators to ensure liveness and censorship-resistance, the reward scheme will reflect this accordingly.
 
