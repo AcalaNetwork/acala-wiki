@@ -205,6 +205,8 @@
   * [Proof-of-Liveness (PoL) Node (Coming Soon)](maintain/network-maintainers/proof-of-liveness.md)
   * [Node Management](maintain/network-maintainers/node-management.md)
   * [Node Interaction](maintain/network-maintainers/node-interaction.md)
+  * [Run a RPC Archive Node](maintain/network-maintainers/node-archive.md)
+  * [Node Command Line Arguments](maintain/network-maintainers/node-cli.md)
 
 ## Misc
 
