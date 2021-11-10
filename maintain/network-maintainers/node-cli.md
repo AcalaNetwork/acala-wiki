@@ -23,13 +23,8 @@
 
 | Flags | Descriptions |
 | :--- | :--- |
-| `--pruning=archive` | Specify the state pruning mode, a number of blocks to keep or 'archive'.          
-  Default is to keep all block states if the node is running as a validator (i.e. 'archive'), otherwise state
-  is only kept for the last 256 blocks. |
-| `--rpc-cors=all` | Specify browser Origins allowed to access the HTTP & WS RPC servers. 
-  A comma-separated list of origins (protocol://domain or special `null` value). Value of `all` will disable
-  origin validation. Default is to allow localhost and <https://polkadot.js.org> origins. When running in
-  --dev mode the default is to allow all origins. |
+| `--pruning=archive` | Specify the state pruning mode, a number of blocks to keep or 'archive'.  Default is to keep all block states if the node is running as a validator (i.e. 'archive'), otherwise is only kept for the last 256 blocks. |
+| `--rpc-cors=all` | Specify browser Origins allowed to access the HTTP & WS RPC servers. A comma-separated list of origins (protocol://domain or special `null` value). Value of `all` will disable origin validation. Default is to allow localhost and <https://polkadot.js.org> origins. When running in --dev mode the default is to allow all origins. |
 | `--ws-max-connections=1000` | Maximum number of WS RPC server connections |
 
 ### Collator node
@@ -37,15 +32,9 @@
 | Flags | Descriptions |
 | :--- | :--- |
 | `--collator` | Run node as collator. |
-| `--unsafe-ws-external` | Listen to all Websocket interfaces.   
-    Same as `--ws-external` but doesn't warn you about it. |
-| `--unsafe-rpc-external` | Listen to all RPC interfaces.
-    Same as `--rpc-external`. |
-| `--rpc-methods=unsafe` | RPC methods to expose.            
-    - `Unsafe`: Exposes every RPC method.
-    - `Safe`: Exposes only a safe subset of RPC methods, denying unsafe RPC methods.
-    - `Auto`: Acts as `Safe` if RPC is served externally, e.g. when `--{rpc,ws}-external` is
-      passed, otherwise acts as `Unsafe`. [default: Auto]  [possible values: Auto, Safe, Unsafe |
+| `--unsafe-ws-external` | Listen to all Websocket interfaces.  Same as `--ws-external` but doesn't warn you about it. |
+| `--unsafe-rpc-external` | Listen to all RPC interfaces.  Same as `--rpc-external`. |
+| `--rpc-methods=unsafe` | RPC methods to expose. - `Unsafe`: Exposes every RPC method. - `Safe`: Exposes only a safe subset of RPC methods, denying unsafe RPC methods.  - `Auto`: Acts as `Safe` if RPC is served externally, e.g. when `--{rpc,ws}-external` is passed, otherwise acts as `Unsafe`. [default: Auto]  [possible values: Auto, Safe, Unsafe |
 
 ### Bootnode
 
