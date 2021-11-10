@@ -40,6 +40,6 @@
 
 | Flags | Descriptions |
 | :--- | :--- |
-| `--node-key-file=/path/to/file` ||
-| `--in-peers=100` ||
-| `--listen-addr=/ip4/0.0.0.0/tcp/30333` ||
+| `--node-key-file=/path/to/file` | The file from which to read the node's secret key to use for libp2p networking.  The contents of the file are parsed according to the choice of `--node-key-type` as follows: `ed25519`: The file must contain an unencoded 32 byte or hex encoded Ed25519 secret key.  If the file does not exist, it is created with a newly generated secret key of the chosen type. |
+| `--in-peers=100` | Specify the maximum number of incoming connections we're accepting [default: 25] |
+| `--listen-addr=/ip4/0.0.0.0/tcp/30333` | Listen on this multiaddress.  By default: If `--validator` is passed: `/ip4/0.0.0.0/tcp/<port>` and `/ip6/[::]/tcp/<port>`. Otherwise: `/ip4/0.0.0.0/tcp/<port>/ws` and `/ip6/[::]/tcp/<port>/ws`. |
