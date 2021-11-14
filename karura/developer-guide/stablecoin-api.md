@@ -20,7 +20,7 @@ Returns amount of `collateral` and amount of minted stablecoin as `debit` for sp
 
 > Note :warning: `debit` reflects the only amount of minted kUSD. The amount of debt is higher as it includes accumulated interest. To calculate the total amount to payback you need to use `debitExchangeRate` parameter \(the example for fetching `debitExchangeRate` is shown below\).
 
-```text
+```typescript
 positions(currencyId: CurrencyId, accountId: AccountId):
     Promise<{collateral: number, debit: number}>
 ```
@@ -34,7 +34,7 @@ positions(currencyId: CurrencyId, accountId: AccountId):
 
 Example:
 
-```text
+```typescript
     const result = await api.query.loans.positions(
         { TOKEN: "KSM" },
         "<ACCOUNT>"
@@ -50,7 +50,7 @@ Example:
 
 Returns total amount of `collateral` and amount of borrowed stablecoin as `debit` for specific collateral type.
 
-```text
+```typescript
 totalPositions(currencyId: CurrencyId):
     Promise<{collateral: number, debit: number}>
 ```
@@ -63,10 +63,9 @@ totalPositions(currencyId: CurrencyId):
 
 Example:
 
-```text
-    const result = await api.query.loans.positions(
-        { TOKEN: "KSM" },
-        "<ACCOUNT>"
+```typescript
+    const result = await api.query.loans.totalPositions(
+        { TOKEN: "KSM" }
     );
   console.log(result.toHuman());
 ```
@@ -79,7 +78,7 @@ Example:
 
 Each accepted by Karura Collateral Type can have different risk parameters. These values are controlled by Karura Governance.
 
-```text
+```typescript
 collateralParams(currencyId: CurrencyId):
     Promise<{
     maximumTotalDebitValue: number,
@@ -109,10 +108,10 @@ collateralParams(currencyId: CurrencyId):
 
 Example:
 
-```text
-    const result = await api.query.loans.totalPositions(
-        { TOKEN: "KSM" }
-    );
+```typestript
+    const result = await api.query.cdpEngine.collateralParams({ 
+      TOKEN: "KSM" 
+    });
     console.log(result.toHuman());
 ```
 
@@ -122,9 +121,9 @@ Example:
 
 ### Get Debt Exchange Rate for given collateral type
 
-This parameter is used to calculate the actual debt. The amount of minted kUSD should be multiplied by this parameter. As the Interest rate is accumulated depends on block number, it makes sense to fetch this parameter for a certain block.
+This parameter is used to calculate the debt. The amount of minted kUSD should be multiplied by this parameter. As the Interest rate is accumulated depends on block number, it makes sense to fetch this parameter for a certain block.
 
-```text
+```typescript
 debitExchangeRate(currencyId: CurrencyId):
     Promise<number}>
 ```
@@ -157,7 +156,7 @@ These transactions write data on-chain and require a private key to sign the tra
 
 All operations: creating a vault, adding/removing collateral, borrowing, paying back kUSD can be done using a single method: `honzon.adjustLoan`
 
-```text
+```typescript
 adjustLoan(currency_id: CurrencyId, collateral_adjustment: Number, debit_adjustment: Number): Extrinsic
 ```
 
@@ -171,7 +170,7 @@ adjustLoan(currency_id: CurrencyId, collateral_adjustment: Number, debit_adjustm
 
 Example
 
-```text
+```typescript
   const currencyId = { TOKEN: "KSM" };
   const collateralAdjustment = <DESIRED_ADJUSTMENT>;
   const debitAdjustment = <DESIRED_ADJUSTMENT>;
@@ -195,7 +194,7 @@ Example
 
 Sets permission to transfer caller's loan to another Account \(`to`\).
 
-```text
+```typescript
 authorize(curencyId: CurrencyId, to: AccountId): Extrinsic
 ```
 
@@ -210,7 +209,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Example**:
 
-```text
+```typescript
   const accountId = "<ACCOUNT_ID>";
   const extrinsic = api.tx.honzon.authorize(
     { TOKEN: "KSM" }, 
@@ -228,7 +227,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 Removes permission to transfer caller's loan to another Account \(`to`\). This method can be used to decline previously given permission.
 
-```text
+```typescript
 unauthorize(curencyId: CurrencyId, to: AccountId): Extrinsic
 ```
 
@@ -243,7 +242,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Example**:
 
-```text
+```typescript
   const accountId = "<ACCOUNT_ID>";
   const extrinsic = api.tx.honzon.unauthorize(
     { TOKEN: "KSM" }, 
@@ -265,7 +264,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Example**:
 
-```text
+```typescript
   const extrinsic = api.tx.honzon.unauthorizeAll();
   const hash = await extrinsic.signAndSend(signer);
   console.log("hash", hash.toHuman());
@@ -290,7 +289,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Example**:
 
-```text
+```typescript
     const fromAccountId = "<ACCOUNT_ID>";
     const extrinsic = api.tx.honzon.transferLoanFrom(
       { TOKEN: "KSM" },
@@ -306,7 +305,7 @@ This action can be done with `adjustLoan`, but there is a shortcut created for t
 
 This method closes the caller's Vault by selling a sufficient amount of collateral on Karura Dex.
 
-```text
+```typescript
 closeLoanHasDebitByDex(
     currency_id: CurrencyId, 
     max_collateral_amount: number, 
@@ -326,7 +325,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Example**:
 
-```text
+```typescript
     const extrinsic = api.tx.honzon.closeLoanHasDebitByDex(
       { TOKEN: "KSM" },
       // large number, allows swapping almost any amount
