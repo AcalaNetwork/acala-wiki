@@ -30,6 +30,12 @@ ED of native token KAR is configured in the runtime. Non-native tokens \(KSM, kU
 
 Read more on ED [here](https://github.com/AcalaNetwork/Acala/wiki/A.-Existential-Deposit).
 
+## Protocol Fees
+
+- **Mint kUSD with KSM & lKSM:**
+  - **Liquidation penalty:** 12%
+  - **Stability Fee:** 3%
+
 ## Transaction Fees
 
 Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](https://wiki.acala.network/karura/transaction-fees) page for more info.
