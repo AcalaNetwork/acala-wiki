@@ -42,7 +42,7 @@ These are the important parameters for the collateral auction mechanism, which c
 ### Current Values
 
 | **Parameter** | **Value** |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | Minimum Increment Size | 2 % from auction value |
 | Auction Time To Close | 75 blocks \(~15 min\) |
 | Auction Duration Soft Cap | 600 blocks \(~2h\) |
