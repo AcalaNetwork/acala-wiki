@@ -46,8 +46,6 @@ These are the important parameters for the collateral auction mechanism, which c
 | Minimum Increment Size | 2 % from auction value |  |
 | Auction Time To Close | 75 blocks \(~15 min\) |  |
 | Auction Duration Soft Cap | 600 blocks \(~2h\) |  |
-| Expected Collateral Auction Size | 40,000 kUSD | for KSM as collateral |
+| Expected Collateral Auction Size | 150 KSM / 1500 LKSM |  |
 | MaxAuctionsCount | 100 |  |
-
-\[[Source](https://github.com/AcalaNetwork/Acala/blob/master/modules/cdp-engine/src/lib.rs#L372)\]
 
