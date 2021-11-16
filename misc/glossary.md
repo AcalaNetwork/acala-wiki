@@ -1,7 +1,7 @@
 # Glossary
 
 {% hint style="info" %}
-\[TODO\] Need to add Acala network mechanism related vocabulary.
+\[TODO] Need to add Acala network mechanism related vocabulary.
 {% endhint %}
 
 ### Acala
@@ -34,7 +34,7 @@ An application that allows a user to explore the different blocks on a blockchai
 
 ### BLS
 
-Boneh-Lynn-Shacham \(BLS\) signatures have slow signing, very slow verification, require slow and much less secure pairing friendly curves, and tend towards dangerous malleability. Yet, BLS permits a diverse array of signature aggregation options far beyond any other known signature scheme, which makes BLS a preferred scheme for voting in consensus algorithms and for threshold signatures.
+Boneh-Lynn-Shacham (BLS) signatures have slow signing, very slow verification, require slow and much less secure pairing friendly curves, and tend towards dangerous malleability. Yet, BLS permits a diverse array of signature aggregation options far beyond any other known signature scheme, which makes BLS a preferred scheme for voting in consensus algorithms and for threshold signatures.
 
 ### Bonding
 
@@ -42,7 +42,7 @@ A process by which tokens can be "frozen" in exchange for some other benefit. Fo
 
 ### Bridge
 
-A parachain that acts as an intermediary between the Polkadot Relay Chain and an external chain, in such a way that it appears to the Relay Chain that the external chain is a parachain \(i.e., meets the Polkadot Host's requirements of parachains\). Bridges allow for interaction between other blockchains, such as Ethereum and Bitcoin, that are not natively compatible with Polkadot.
+A parachain that acts as an intermediary between the Polkadot Relay Chain and an external chain, in such a way that it appears to the Relay Chain that the external chain is a parachain (i.e., meets the Polkadot Host's requirements of parachains). Bridges allow for interaction between other blockchains, such as Ethereum and Bitcoin, that are not natively compatible with Polkadot.
 
 ### Byzantine Fault Tolerance
 
@@ -54,7 +54,7 @@ A node that maintains a parachain by collecting parachain transactions and produ
 
 ### Consensus
 
-The process of a group of entities to agree on a particular data value \(such as the ordering and makeup of blocks on a blockchain\). There are a variety of algorithms used for determining consensus. The consensus algorithm used by Polkadot is GRANDPA.
+The process of a group of entities to agree on a particular data value (such as the ordering and makeup of blocks on a blockchain). There are a variety of algorithms used for determining consensus. The consensus algorithm used by Polkadot is GRANDPA.
 
 ### Dapps
 
@@ -62,11 +62,11 @@ A generic term for a decentralized application, that is, one that runs as part o
 
 ### DOTs
 
-The native token for Polkadot. DOTs serve three purposes: network governance \(allowing them to vote on network upgrades and other exceptional events\), general operation \(rewarding good actors and punishing bad actors\), and bonding \(adding new parachains by "freezing" DOTs while they are connected the Relay Chain\).
+The native token for Polkadot. DOTs serve three purposes: network governance (allowing them to vote on network upgrades and other exceptional events), general operation (rewarding good actors and punishing bad actors), and bonding (adding new parachains by "freezing" DOTs while they are connected the Relay Chain).
 
 ### Duty Roster
 
-A lookup table that specifies the job that a particular validator is required to do \(i.e. attest to the validity of a specific paracahain\). The duty roster routinely shuffles the validator set into different subsets per parachain.
+A lookup table that specifies the job that a particular validator is required to do (i.e. attest to the validity of a specific paracahain). The duty roster routinely shuffles the validator set into different subsets per parachain.
 
 ### Epoch
 
@@ -74,7 +74,7 @@ An epoch is a time duration in the BABE protocol that is broken into smaller tim
 
 ### Era
 
-A \(whole\) number of sessions, which is the period that the validator set \(and each validator's active nominator set\) is recalculated and where rewards are paid out.
+A (whole) number of sessions, which is the period that the validator set (and each validator's active nominator set) is recalculated and where rewards are paid out.
 
 ### Equivocation
 
@@ -98,7 +98,7 @@ Nodes that monitor the network for validators or collators who are behaving badl
 
 ### Frame
 
-The collection of Substrate-provided pallets \(Substrate Runtime Modules\).
+The collection of Substrate-provided pallets (Substrate Runtime Modules).
 
 ### Genesis
 
@@ -112,7 +112,7 @@ The process of determining what changes to the network are permissible, such as 
 
 ### Governance Council
 
-An on-chain entity that consists of several on-chain accounts \(starting at 6, eventually moving to the final value of 24\). The Council can act as a representative for "passive" \(non-voting\) stakeholders. Council members have two main tasks: proposing referenda for the overall stakeholder group to vote on and cancelling malicious referenda.
+An on-chain entity that consists of several on-chain accounts (starting at 6, eventually moving to the final value of 24). The Council can act as a representative for "passive" (non-voting) stakeholders. Council members have two main tasks: proposing referenda for the overall stakeholder group to vote on and cancelling malicious referenda.
 
 ### GRANDPA Finality Gadget
 
@@ -132,7 +132,7 @@ Extrinsics that are "inherently true." Inherents are not gossiped on the network
 
 ### **Karura Network**
 
-An unaudited and experimental release of Acala that will join the Kusama network as parachain. It will have economic value represented as its native tokens, and KSM can be used as collateral for kaUSD.
+Karura is a parachain on the Kusama network and serves as the canary network for Acala. As a canary network with real economic value, Karura is a proving ground for protocol upgrades and a place to experiment with new DeFi protocols and on-chain governance.
 
 ### KAR
 
@@ -144,11 +144,11 @@ The abbreviation for Kusama network tokens.
 
 ### Kusama
 
-The "canary network" for Polkadot. It consists of an early-release, unaudited version of the Polkadot software. It is not a testnet - after the transition to NPoS, the network is entirely in the hands of the community \(i.e., Kusama token holders\).
+The canary network for Polkadot. It consists of an early-release of the Polkadot software. It is not a testnet - after the transition to NPoS, the network is entirely in the hands of the community (i.e., Kusama token holders).
 
 ### LIBP2P
 
-An open-source library for encrypted peer-to-peer communications and other networking functionality. More information at: [https://libp2p.io/](https://libp2p.io/)
+An open-source library for encrypted peer-to-peer communications and other networking functionality. More information at: [https://libp2p.io/](https://libp2p.io)
 
 ### Liveness
 
@@ -156,11 +156,11 @@ The property of a distributed system that it will eventually come to some sort o
 
 ### **Mandala Test Network**
 
-A risk-free and value-free playground for us, users and developers to test drive functionalities of Acala. Expect bugs, chaos, and unannounced reboots.
+A risk-free and value-free playground for us, users and developers to test drive functionalities of Acala.&#x20;
 
 ### Message
 
-In Polkadot's XCMP protocol, a _message_ is arbitrary data that is sent from one parachain \(the egress chain\) to another \(the ingress chain\) through a channel and ensured delivery by the vaidator set.
+In Polkadot's XCMP protocol, a _message_ is arbitrary data that is sent from one parachain (the egress chain) to another (the ingress chain) through a channel and ensured delivery by the vaidator set.
 
 ### Message Queue
 
@@ -170,7 +170,7 @@ In Polkadot's XCMP protocol, a _message queue_ is the list of messages waiting t
 
 A tool that gives you information about a node, such as the latest blocks sealed, finalized, and the current chain state as known by that node.
 
-### Nominated Proof of Stake \(NPoS\)
+### Nominated Proof of Stake (NPoS)
 
 A Proof-of-Stake system where nominators back validators with their own stake as a show of faith in the good behavior of the validator. Nominated Proof-of-Stake differs from the more generic concept Delegated Proof-of-Stake in that nominators are subject to loss of stake if they nominate a bad validator; delegators are not subject to loss of stake based on the behavior of the validator. Note that some other blockchain technologies may use the term Delegated Proof-of-Stake, even if delegators can be slashed. Polkadot uses the Phragmen method to allocate stake to nominees.
 
@@ -184,7 +184,7 @@ A governance system of a blockchain that is controlled by mechanisms on the bloc
 
 ### Oracle
 
-Oracles provide pricing information for assets on the Acala Network. 
+Oracles provide pricing information for assets on the Acala Network.&#x20;
 
 ### Pallet
 
@@ -206,15 +206,15 @@ A company, founded by Dr. Gavin Wood, that is developing Substrate and Polkadot.
 
 A heterogeneous, multi-chain network allowing various blockchains of different characteristics to perform arbitrary, cross-chain communication under shared security.
 
-### Proof of Stake \(PoS\)
+### Proof of Stake (PoS)
 
-A method of selecting participation in a consensus system, in which participants are chosen based on how many tokens they have at stake \(at risk of loss due to misbehavior\). Normally, Proof-of-Stake systems limit the number of participants.
+A method of selecting participation in a consensus system, in which participants are chosen based on how many tokens they have at stake (at risk of loss due to misbehavior). Normally, Proof-of-Stake systems limit the number of participants.
 
 ### Proof of Validity
 
 A proof produced by parachain collators. Based on this proof and the parachain registry, a validator can verify that a parachain has properly executed its state transition function. Proofs of Validity go into the Relay Chain blocks.
 
-### Proof of Work \(PoW\)
+### Proof of Work (PoW)
 
 A method of selecting participants in a consensus system, typically the longest chain rule, in which participants try to solve a puzzle like finding a partial pre-image of a hash. Normally, a Proof-of-Work system can have any number of participants.
 
@@ -232,11 +232,11 @@ A random seed is pseudo-random number available on-chain. It is used in various 
 
 ### Referendum
 
-A vote on whether or not a proposal should be accepted by the network. Referenda may be initiated by the Governance Council, by a member of the public, or as the result of a previous proposal. Stakeholders vote on referenda, weighted by both the size of their stake \(i.e. number of DOTs held\) and the amount of time they are willing to lock their tokens.
+A vote on whether or not a proposal should be accepted by the network. Referenda may be initiated by the Governance Council, by a member of the public, or as the result of a previous proposal. Stakeholders vote on referenda, weighted by both the size of their stake (i.e. number of DOTs held) and the amount of time they are willing to lock their tokens.
 
 ### Relay chain
 
-The chain that coordinates consensus and communication between parachains \(and external chains, via bridges\).
+The chain that coordinates consensus and communication between parachains (and external chains, via bridges).
 
 ### Runtime
 
@@ -272,7 +272,7 @@ The security model that Polkadot uses whereby all chains are equally secured. Th
 
 ### Slashing
 
-The removal of a percentage of an account's DOTs as a punishment for a validator acting maliciously or incompetently \(e.g., equivocating or remaining offline for an extended period of time\).
+The removal of a percentage of an account's DOTs as a punishment for a validator acting maliciously or incompetently (e.g., equivocating or remaining offline for an extended period of time).
 
 ### Soft Fork
 
@@ -280,7 +280,7 @@ A backwards compatible change to client code that causes upgraded clients to sta
 
 ### Staking
 
-The act of bonding tokens \(for Polkadot, DOTs\) by putting them up as "collateral" for a chance to produce a valid block \(and thus obtain a block reward\). Validators and nominators stake their DOTs in order to secure the network.
+The act of bonding tokens (for Polkadot, DOTs) by putting them up as "collateral" for a chance to produce a valid block (and thus obtain a block reward). Validators and nominators stake their DOTs in order to secure the network.
 
 ### State transition function
 
@@ -329,4 +329,3 @@ An instruction format for a virtual, stack-based machine. Polkadot Runtime Modul
 ### Witness
 
 Cryptographic proof statements of data validity.
-

@@ -3,9 +3,9 @@
 ## Key Points
 
 * ****[**Check rewards**](crowdloan-rewards.md) 🔥
-* The Kusama parachain auction & Karura crowdloan event is happening soon, [register now,](https://acala.network/karura/join-karura) **get your KSM ready to bond**. Expect chaos & unpredictable announcements 🚀
+* The Kusama parachain auction & Karura crowdloan event is happening soon, [register now,](https://acala.network/karura/join-karura) **get your KSM ready to bond**.
 * The Karura Crowdloan Event is an experiment to crowdsource network security and a community-backed launch for individuals looking to contribute to the evolution of Kusama’s network and parachains.
-* **For** **every 1 KSM contributed, a minimum of 12 KAR will be rewarded**. The lease period (KSM locked period) is 48 weeks. 
+* **For** **every 1 KSM contributed, a minimum of 12 KAR will be rewarded**. The lease period (KSM locked period) is 48 weeks.&#x20;
 * Contributed KSM will be returned at the end of Karura parachain lease.
 * KAR will be distributed after the mainnet launch of Karura.
 * [Karura Launch Phases](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).
@@ -14,7 +14,7 @@
 
 ### 1.1 Overview
 
-[Karura](https://acala.network/karura) is the decentralized financial hub of Kusama, a scalable multi-chain network for radical innovation and early stage Polkadot deployments. Karura serves as the sister network to Acala, and offers a suite of financial primitives, including: a trustless staking derivative (liquid KSM - LKSM), a multi-collateralized stablecoin backed by cross-chain assets (kUSD), and an AMM DEX –  all with micro gas fees that can be paid in any token. Karura is a blockchain platform custom-built for DeFi and powered by KAR. 
+[Karura](https://acala.network/karura) is the decentralized financial hub of Kusama, a scalable multi-chain network for radical innovation and early stage Polkadot deployments. Karura serves as the sister network to Acala, and offers a suite of financial primitives, including: a trustless staking derivative (liquid KSM - LKSM), a multi-collateralized stablecoin backed by cross-chain assets (kUSD), and an AMM DEX –  all with micro gas fees that can be paid in any token. Karura is a blockchain platform custom-built for DeFi and powered by KAR.&#x20;
 
 ### 1.2 KAR Token
 
@@ -61,15 +61,15 @@ The KAR distributed to participants will be vested over a period of time, but th
 
 Crowdloan is a permissionless event, so you can make your own judgement on how you'd like to participate. We recommend the following ways to participate:
 
-1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Use a referral link to get an extra 5% bonus. Wallet setup guide [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account). 
+1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Use a referral link to get an extra 5% bonus. Wallet setup guide [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account).&#x20;
 2. Participate via partner exchanges.
 3. Participate via partner mobile wallets.
 
 Follow the [`How to Crowdloan`](https://wiki.acala.network/karura/crowdloan/how-to-crowdloan) guide to participate via Karura official website and Polkawallet.
 
-![Join Karura](https://lh3.googleusercontent.com/KQ_ds6czQc2GMuvsHHKUiRJymgThlJPLOeN262kUyo_YY9XQYCJMTSsPZ\_6PiEpR1gN7ATEuFKXCkdf70u3UJT0tge8OTl4tzALR\_2YjvAk7jrjL-ny5tOzsK2DCNDARL1KZHv4)
+![Join Karura](https://lh3.googleusercontent.com/KQ\_ds6czQc2GMuvsHHKUiRJymgThlJPLOeN262kUyo\_YY9XQYCJMTSsPZ\_6PiEpR1gN7ATEuFKXCkdf70u3UJT0tge8OTl4tzALR\_2YjvAk7jrjL-ny5tOzsK2DCNDARL1KZHv4)
 
-#### Partner Exchanges 
+#### Partner Exchanges&#x20;
 
 * [Kraken](https://www.kraken.com/learn/parachain-auctions): check with Kraken for the bonus amount.
 * [OKEx](https://www.okex.com): check with OKEx for how to participate and bonus amount.
@@ -78,8 +78,8 @@ Follow the [`How to Crowdloan`](https://wiki.acala.network/karura/crowdloan/how-
 
 #### & Mobile Wallets
 
-* [Polkawallet](https://polkawallet.io): non-custodial wallet, supports the Karura referral program. 
-* [MathWallet](https://mathwallet.org/en-us/): both cloud and non-custodial wallet. Check with MathWallet for promotions. 
+* [Polkawallet](https://polkawallet.io): non-custodial wallet, supports the Karura referral program.&#x20;
+* [MathWallet](https://mathwallet.org/en-us/): both cloud and non-custodial wallet. Check with MathWallet for promotions.&#x20;
 * [Fearless Wallet](https://fearlesswallet.io): non-custodial wallet, supports Karura referral program.
 
 More partners to come...
@@ -95,7 +95,7 @@ In order to participate in the crowdloan, KSM must be unbonded. If you are alrea
 
 ### 3.4 Check Contribution
 
-You can enter your KSM address in [Subscan explorer](https://kusama.subscan.io), the `Extrinsics` table at the bottom should show all your transactions including crowdloan contribution transactions. 
+You can enter your KSM address in [Subscan explorer](https://kusama.subscan.io), the `Extrinsics` table at the bottom should show all your transactions including crowdloan contribution transactions.&#x20;
 
 ![](../../.gitbook/assets/screen-shot-2021-06-09-at-10.28.34-am.png)
 
