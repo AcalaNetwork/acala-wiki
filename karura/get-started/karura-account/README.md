@@ -34,17 +34,17 @@ Any transactions that change the balance of a particular token e.g. swap, then y
 * KSM ED: 0.0001 KSM
 * LKSM ED: 0.0001 LKSM
 
-([Source code](https://github.com/AcalaNetwork/Acala/blob/37e6036536d9be46ee1576568df7c8cbf1db1d11/primitives/src/currency.rs#L175-L191))\
-**(**[Dev Doc](https://github.com/AcalaNetwork/Acala/wiki/A.-Existential-Deposit))\
+([Source code](https://github.com/AcalaNetwork/Acala/blob/0411433ee03c8a9efdc16c2b6014bd0c120f12d4/runtime/karura/src/lib.rs#L747-L751))\
+\
 
 
-## Account Generation 
+## Account Generation&#x20;
 
 Before the network is live, and during the initial launch period, below is the only recommended method for generating an Acala and Karura account:
 
-* Polkadot{.js} Browser Plugin 
+* Polkadot{.js} Browser Plugin&#x20;
 
-## Polkadot{.js} Browser Plugin 
+## Polkadot{.js} Browser Plugin&#x20;
 
 ### Install the Browser Plugin
 
@@ -78,7 +78,7 @@ Now we will ensure that the addresses are displayed as Acala mainnet addresses.
 
 Click on "Options" at the top-right corner of the plugin window, and under "Display address format for" select "Acala".
 
-**Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
+**Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**.&#x20;
 
 You can copy your address by clicking on the account's icon.
 
@@ -88,7 +88,7 @@ You can copy your address by clicking on the account's icon.
 
 Click on "Options" at the top-right corner of the plugin window, and under "Display address format for" select "Karura".
 
-**Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
+**Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**.&#x20;
 
 You can copy your address by clicking on the account's icon.
 
@@ -98,7 +98,7 @@ You can copy your address by clicking on the account's icon.
 
 Click on "Options" at the top-right corner of the plugin window, and under "Display address format for" select "Polkadot".
 
-**Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
+**Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**.&#x20;
 
 You can copy your address by clicking on the account's icon.
 
@@ -108,7 +108,7 @@ You can copy your address by clicking on the account's icon.
 
 Click on "Options" at the top of the plugin window, and under "Display address format for" select "Kusama".
 
-**Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**. 
+**Your address's format is only visual** - the data used to derive this representation of your address are the same, so **you can use the same address on multiple chains**.&#x20;
 
 You can copy your address by clicking on the account's icon.
 
@@ -130,25 +130,25 @@ Download the Polkawallet app via [its official website](https://polkawallet.io).
 
 1. Click on the "Create Account" button.
 
-![](https://lh5.googleusercontent.com/VaB4EcpFPO9Qmvl2K_MVKk8rVevhEzDsD45WZzkWKe3B6DXyoSU8-IenMk3slTe4uGLVl4IzAEmOz-A0SyJ508VUy49UfiGpsBT5R7q2QRmeybP1cE-2fU52iOdoudgcdmsLv_Kl)
+![](https://lh5.googleusercontent.com/VaB4EcpFPO9Qmvl2K\_MVKk8rVevhEzDsD45WZzkWKe3B6DXyoSU8-IenMk3slTe4uGLVl4IzAEmOz-A0SyJ508VUy49UfiGpsBT5R7q2QRmeybP1cE-2fU52iOdoudgcdmsLv\_Kl)
 
 2\. A new screen will appear explaining the importance of recording your mnemonic phrase in a safe place. Click the "Next" button.
 
-![](https://lh6.googleusercontent.com/509\_xAUccOu0djt4YJZsvrLW4H_fdBxmOmMMwpRrseGSt9xcyZdx4Tgge7ZofXk6um7rSR6LcPL7c23rJHF2ZHv7FlLl2SbYciqd3-ck_v_hlco0RRP7oPpin90nv2YETvvN_cEb)
+![](https://lh6.googleusercontent.com/509\_xAUccOu0djt4YJZsvrLW4H\_fdBxmOmMMwpRrseGSt9xcyZdx4Tgge7ZofXk6um7rSR6LcPL7c23rJHF2ZHv7FlLl2SbYciqd3-ck\_v\_hlco0RRP7oPpin90nv2YETvvN\_cEb)
 
 ‌3. Your mnemonic phrase will appear. Write the mnemonic on a piece of paper and store it somewhere safe. Click on the "Next" button.
 
-![](https://lh5.googleusercontent.com/XD1NG32OkmzZYToN8Fb-noLzUJmacWIACYhi-gSyV3-s58n4Ovu6sS0qQMRe1NkMMyLA4LBz_wEHRnEDwVnQgEaXQwCrgvUr0fNvA8SDilS7mrrnP--9bx3-SnHaioy_prFD4KoE)
+![](https://lh5.googleusercontent.com/XD1NG32OkmzZYToN8Fb-noLzUJmacWIACYhi-gSyV3-s58n4Ovu6sS0qQMRe1NkMMyLA4LBz\_wEHRnEDwVnQgEaXQwCrgvUr0fNvA8SDilS7mrrnP--9bx3-SnHaioy\_prFD4KoE)
 
 4\. Confirm your mnemonic by entering the words in the correct order. Click on the "Next" button when completed.
 
-![](https://lh4.googleusercontent.com/ROVs8A4woJy9RYKmsGd6Jm1W8GMzG_cpB6ba3XLViS18GMTmRK0giSV7qkDh2XZrKxxLv4LFLEFuiRT6Lw3wri8yu6cT9tBMyw00vMhxq5Vmwb2qBOUg9-Eey7RHMbh4araqvk7P)
+![](https://lh4.googleusercontent.com/ROVs8A4woJy9RYKmsGd6Jm1W8GMzG\_cpB6ba3XLViS18GMTmRK0giSV7qkDh2XZrKxxLv4LFLEFuiRT6Lw3wri8yu6cT9tBMyw00vMhxq5Vmwb2qBOUg9-Eey7RHMbh4araqvk7P)
 
 ### **Name Account & Password**
 
 Name your account and create a strong password (at least 6 characters). Click on the "Next" button when completed.
 
-![](https://lh4.googleusercontent.com/PWXIJxAuCBlb-QGBrpce0gvFgG_C_jWUL125eOU_ke_thRY4WDhUq1AvDa6bAWHWy_sD5BXp40gM5zzJRdkDGF5XrtLEuLD5TwJ1sV8FDdjr1QRjDm9I-hzfXGsqBLsq0QVFgb02)
+![](https://lh4.googleusercontent.com/PWXIJxAuCBlb-QGBrpce0gvFgG\_C\_jWUL125eOU\_ke\_thRY4WDhUq1AvDa6bAWHWy\_sD5BXp40gM5zzJRdkDGF5XrtLEuLD5TwJ1sV8FDdjr1QRjDm9I-hzfXGsqBLsq0QVFgb02)
 
 Your wallet is now set up! The screen will default to the Polkadot network. You can determine which network you're connected to by looking at the grey text under the account name. In the case of this screenshot, it says "Polkadot."
 
@@ -158,11 +158,11 @@ Your wallet is now set up! The screen will default to the Polkadot network. You 
 
 1. Click the menu button on the top-right corner.
 
- ![](https://i.imgur.com/JwPrsVe.jpg%20=250x)
+&#x20;![](https://i.imgur.com/JwPrsVe.jpg%20=250x)
 
 2\. In the opened menu select the Polkadot logo, then press on the appeared address on the main screen.
 
- ![](https://i.imgur.com/YGx8nne.jpg%20=250x)
+&#x20;![](https://i.imgur.com/YGx8nne.jpg%20=250x)
 
 ### Set Address for Kusama Mainnet
 
@@ -171,10 +171,10 @@ Your wallet is now set up! The screen will default to the Polkadot network. You 
 
 ### Set Address for Acala Mainnet (Coming Soon)
 
-### Set Address for Karura Mainnet (Coming Soon) 
+### Set Address for Karura Mainnet (Coming Soon)&#x20;
 
- 
+&#x20;
 
 
 
-###  
+### &#x20;
