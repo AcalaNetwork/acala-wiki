@@ -1,6 +1,6 @@
 # Home
 
-Karura is the canary network for Acala. As a canary network with real economic value, Karura is a proving ground for protocol upgrades and a place to experiment with new DeFi protocols and on-chain governance.
+Karura is the experimental network for Acala. As an experimental network with real economic value, Karura is a proving ground for protocol upgrades and a place to experiment with new DeFi protocols and on-chain governance.
 
 ## What does Karura offer?
 
@@ -14,7 +14,7 @@ For developers, Karura is a proving ground for protocol upgrades and a place to 
 
 ## Why build on Kusama?
 
-Kusama is Polkadot’s canary network – a multi-chain network for innovation. By launching on Kusama, Karura can push the limits of what’s possible, giving the Acala Foundation team a place to launch bold new financial innovations. Karura will access Kusama’s plug-and-play security while enjoying high-capacity processing speeds, micro-gas fees, and interoperability between multiple networks, all ultimately bridged to Polkadot.
+Kusama is Polkadot’s experimental network – a multi-chain network for innovation. By launching on Kusama, Karura can push the limits of what’s possible, giving the Acala Foundation team a place to launch bold new financial innovations. Karura will access Kusama’s plug-and-play security while enjoying high-capacity processing speeds, micro-gas fees, and interoperability between multiple networks, all ultimately bridged to Polkadot.
 
 [Website](https://kusama.network) | [Wiki](https://guide.kusama.network/docs/kusama-index)
 

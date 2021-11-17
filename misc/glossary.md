@@ -132,7 +132,7 @@ Extrinsics that are "inherently true." Inherents are not gossiped on the network
 
 ### **Karura Network**
 
-Karura is a parachain on the Kusama network and serves as the canary network for Acala. As a canary network with real economic value, Karura is a proving ground for protocol upgrades and a place to experiment with new DeFi protocols and on-chain governance.
+Karura is a parachain on the Kusama network and serves as the experimental network for Acala. As an experimental network with real economic value, Karura is a proving ground for protocol upgrades and a place to experiment with new DeFi protocols and on-chain governance.
 
 ### KAR
 
@@ -144,7 +144,7 @@ The abbreviation for Kusama network tokens.
 
 ### Kusama
 
-The canary network for Polkadot. It consists of an early-release of the Polkadot software. It is not a testnet - after the transition to NPoS, the network is entirely in the hands of the community (i.e., Kusama token holders).
+The experimental network for Polkadot. It consists of an early-release of the Polkadot software. It is not a testnet - after the transition to NPoS, the network is entirely in the hands of the community (i.e., Kusama token holders).
 
 ### LIBP2P
 
