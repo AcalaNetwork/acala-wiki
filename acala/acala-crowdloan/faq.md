@@ -24,7 +24,7 @@ Your DOT will be locked for the full duration of Acala's parachain lease, which 
 
 ### When will I receive my ACA tokens?&#x20;
 
-You will receive your ACA after Acala wins a parachain slot, launches the network (expected December 15th, 2021), and enables token transfers.
+You will receive your ACA after Acala wins a parachain slot, launches the network (expected December 17th, 2021), and enables token transfers.
 
 ### What wallets can I use to participate? Can I use Ledger?&#x20;
 
