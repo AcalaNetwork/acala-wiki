@@ -5,15 +5,13 @@ This example is inpired by the [Getting Started](https://hardhat.org/getting-sta
 ## Prerequisites
 - node
 - yarn
-- npx
-
 
 ## Let's create a basic sample project
 
 ```bash=
 mkdir hardhat && cd hardhat
 yarn add hardhat
-npx hardhat
+node ./node_modules/hardhat/internal/cli/cli.js
 ```
 
 ```bash=
@@ -45,6 +43,7 @@ module.exports = {
     development: {
       url: 'http://localhost:8545',
       chainId: 595,
+      gasPrice: 429496729610000,
       // Development built-in default deployment account
       accounts: ["0xa872f6cbd25a0e04a08b1e21098017a9e6194d101d75e13111f71410c59cd57f"]
     }
@@ -55,7 +54,7 @@ module.exports = {
 
 ## To compile it, simply run:
 
-`npx hardhat compile`
+`node ./node_modules/hardhat/internal/cli/cli.js compile`
 ```
 Compiling 2 files with 0.8.4
 Compilation finished successfully
@@ -63,7 +62,7 @@ Compilation finished successfully
 
 ## You can run your tests with:
 
-`npx hardhat test --network development`
+`node ./node_modules/hardhat/internal/cli/cli.js test --network development`
 ```
   Greeter
     ✓ Should return the new greeting once it's changed (554ms)
@@ -74,22 +73,22 @@ Compilation finished successfully
 
 ## Next, to deploy the contract we will use a Hardhat script:
 
-`npx hardhat run scripts/sample-script.js --network development`
+`node ./node_modules/hardhat/internal/cli/cli.js run scripts/sample-script.js --network development`
 ```
-Greeter deployed to: 0x851dEf71f0e6A903375C1e536Bd9ff1684BAD802
+Greeter deployed to: 0x3d3593927228553b349767ABa68d4fb1514678CB
 ```
 
 ## Going beyond and reading the on-chain data
 
 Using the hardhat console, you can interact with your deployed contracts.  
 
-`npx hardhat console --network development`
+`node ./node_modules/hardhat/internal/cli/cli.js console --network development`
 ```
 Welcome to Node.js v14.18.1.
 Type ".help" for more information.
 > const Greeter = await ethers.getContractFactory("Greeter");
 undefined
-> const greeter = await Greeter.attach('0x851def71f0e6a903375c1e536bd9ff1684bad802')
+> const greeter = await Greeter.attach('0x3d3593927228553b349767ABa68d4fb1514678CB')
 undefined
 > await greeter.greet()
 'Hello, Hardhat!'
