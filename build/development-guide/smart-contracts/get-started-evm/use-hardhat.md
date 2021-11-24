@@ -11,7 +11,7 @@ This example is inpired by the [Getting Started](https://hardhat.org/getting-sta
 ```bash=
 mkdir hardhat && cd hardhat
 yarn add hardhat
-node ./node_modules/hardhat/internal/cli/cli.js
+yarn hardhat
 ```
 
 ```bash=
@@ -54,7 +54,7 @@ module.exports = {
 
 ## To compile it, simply run:
 
-`node ./node_modules/hardhat/internal/cli/cli.js compile`
+`yarn hardhat compile`
 ```
 Compiling 2 files with 0.8.4
 Compilation finished successfully
@@ -62,7 +62,7 @@ Compilation finished successfully
 
 ## You can run your tests with:
 
-`node ./node_modules/hardhat/internal/cli/cli.js test --network development`
+`yarn hardhat test --network development`
 ```
   Greeter
     ✓ Should return the new greeting once it's changed (554ms)
@@ -73,7 +73,7 @@ Compilation finished successfully
 
 ## Next, to deploy the contract we will use a Hardhat script:
 
-`node ./node_modules/hardhat/internal/cli/cli.js run scripts/sample-script.js --network development`
+`yarn hardhat run scripts/sample-script.js --network development`
 ```
 Greeter deployed to: 0x3d3593927228553b349767ABa68d4fb1514678CB
 ```
@@ -82,7 +82,7 @@ Greeter deployed to: 0x3d3593927228553b349767ABa68d4fb1514678CB
 
 Using the hardhat console, you can interact with your deployed contracts.  
 
-`node ./node_modules/hardhat/internal/cli/cli.js console --network development`
+`yarn hardhat console --network development`
 ```
 Welcome to Node.js v14.18.1.
 Type ".help" for more information.
