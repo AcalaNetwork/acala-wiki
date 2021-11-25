@@ -181,6 +181,7 @@
       * [EVM Playground](build/development-guide/smart-contracts/get-started-evm/evm-playground.md)
       * [Use Remix](build/development-guide/smart-contracts/get-started-evm/use-remix.md)
       * [Use Waffle](build/development-guide/smart-contracts/get-started-evm/use-waffle.md)
+      * [Use Hardhat](build/development-guide/smart-contracts/get-started-evm/use-hardhat.md)
       * [Deploy Contracts](build/development-guide/smart-contracts/get-started-evm/deploy-contracts.md)
     * [Advanced](build/development-guide/smart-contracts/advanced/README.md)
       * [Use Native & Cross-chain Tokens](build/development-guide/smart-contracts/advanced/use-native-tokens.md)
