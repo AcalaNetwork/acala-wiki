@@ -10,7 +10,7 @@
 
 {% page-ref page="use-waffle.md" %}
 
-{% page-ref page="use-hardhat.md" %}
+
 
 {% page-ref page="deploy-contracts.md" %}
 
