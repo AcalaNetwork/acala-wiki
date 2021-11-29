@@ -1,20 +1,29 @@
 # Get Started
 
-{% page-ref page="connect-to-a-node.md" %}
+{% content-ref url="connect-to-a-node.md" %}
+[connect-to-a-node.md](connect-to-a-node.md)
+{% endcontent-ref %}
 
-{% page-ref page="acala-console.md" %}
+{% content-ref url="acala-console.md" %}
+[acala-console.md](acala-console.md)
+{% endcontent-ref %}
 
-{% page-ref page="evm-playground.md" %}
+{% content-ref url="evm-playground.md" %}
+[evm-playground.md](evm-playground.md)
+{% endcontent-ref %}
 
-{% page-ref page="use-remix.md" %}
+{% content-ref url="use-remix.md" %}
+[use-remix.md](use-remix.md)
+{% endcontent-ref %}
 
-{% page-ref page="use-waffle.md" %}
+{% content-ref url="use-waffle.md" %}
+[use-waffle.md](use-waffle.md)
+{% endcontent-ref %}
 
+{% content-ref url="use-hardhat.md" %}
+[use-hardhat.md](use-hardhat.md)
+{% endcontent-ref %}
 
-
-{% page-ref page="deploy-contracts.md" %}
-
-
-
-
-
+{% content-ref url="deploy-contracts.md" %}
+[deploy-contracts.md](deploy-contracts.md)
+{% endcontent-ref %}

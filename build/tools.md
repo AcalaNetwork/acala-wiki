@@ -3,8 +3,8 @@
 ## Block Explorers
 
 * [Polkadot Explorer Explorer](https://polkadot.js.org/apps/#/explorer) - Acala console dashboard block explorer. Currently connects to Acala by default, but can be configured to connect to other remote or local endpoints.
-* [Polkascan](https://polkascan.io/) - Blockchain explorer for Polkadot, Kusama, and other related chains.
-* [Subscan](https://subscan.io/) - Blockchain explorer for Substrate chains, include Acala.
+* [Polkascan](https://polkascan.io) - Blockchain explorer for Polkadot, Kusama, and other related chains.
+* [Subscan](https://subscan.io) - Blockchain explorer for Substrate chains, include Acala.
 
 ## Wallets
 
@@ -12,18 +12,18 @@
 
 ### Supported Wallets
 
-| Wallet Name | Development State | Team Name | Description |
-| :--- | :--- | :--- | :--- |
-| [Acala DApp](https://apps.acala.network/) | Live | Acala | Browser |
-| [Polkadot Explorer](https://polkadot.js.org/apps/) | Live | Acala | Browser |
-| [Polkawallet](https://polkawallet.io/) | Live | Polkawallet | IOS and Android |
-| [Signer](https://www.parity.io/signer/) | Building | Parity | IOS and Android |
-| [Polkadot-JS](https://polkadot.js.org/apps/#/accounts) | Building | Parity | Browser |
-| [Polkadot.JS Plugin](https://github.com/polkadot-js/extension) | Building | Parity | Browser extension |
+| Wallet Name                                                    | Development State | Team Name   | Description       |
+| -------------------------------------------------------------- | ----------------- | ----------- | ----------------- |
+| [Acala DApp](https://apps.acala.network)                       | Live              | Acala       | Browser           |
+| [Polkadot Explorer](https://polkadot.js.org/apps/)             | Live              | Acala       | Browser           |
+| [Polkawallet](https://polkawallet.io)                          | Live              | Polkawallet | IOS and Android   |
+| [Signer](https://www.parity.io/signer/)                        | Building          | Parity      | IOS and Android   |
+| [Polkadot-JS](https://polkadot.js.org/apps/#/accounts)         | Building          | Parity      | Browser           |
+| [Polkadot.JS Plugin](https://github.com/polkadot-js/extension) | Building          | Parity      | Browser extension |
 
 ## Network Monitoring & Reporting
 
-* [Polkadot Telemetry Service](https://telemetry.polkadot.io/) - Network information including what nodes are running the chain, what software versions they are running, sync status, and location.
+* [Polkadot Telemetry Service](https://telemetry.polkadot.io) - Network information including what nodes are running the chain, what software versions they are running, sync status, and location.
 
 ## Libraries
 
@@ -41,7 +41,13 @@
 * [Discord Faucet Channel ](https://discord.gg/V8XgJ5)- Discord faucet channel.
 * [Riot Faucet Channel](https://riot.im/app/#/room/#acala-faucet:matrix.org) - Riot faucet channel.
 
+## Collateral Auction & Liquidation Bot
+
+We have currently 2 bots for monitoring of the liquidation auctions.
+
+* [Collateral Auction Bot for Acala/Karura](https://github.com/open-web3-stack/guardian/tree/master/packages/example-guardian#collateral-auction-bot-for-acalakarura) - This example uses the collateral auction. It will watch collateral auctions and DEX pools, and bid from the specified account if the price of collateral is lower than the price from Price oracle for MARGIN coefficient.
+* [Collateral Auction Bot Example](https://github.com/AcalaNetwork/collateral-auction-bot-example) - This is an example Auction bot that places bids for ongoing liquidation of unsafe vaults for vaults with LKSM as collateral.
+
 ## EVM Tools
 
 * [EVM Playground](https://evm.acala.network) - a web application to test, deploy and execute smart contracts on Acala EVM
-
