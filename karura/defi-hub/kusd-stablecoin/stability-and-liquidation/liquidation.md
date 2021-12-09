@@ -31,21 +31,21 @@ Liquidation auction is used to sell off collaterals to recover kUSD and pay back
 
 These are the important parameters for the collateral auction mechanism, which can also be set and updated via governance.
 
-| Parameters | **Type** | **Description** | **Extrinsic** |
-| :--- | :--- | :--- | :--- |
-| **Minimum Increment Size** | Rate | Minimum price increment | `cdpEngine -> MaxSlippageSwapWithDex` |
-| **Auction Time To Close** | Block Number | Duration of the auction. To discourage sniping, auctions are automatically extended for a short period if a last-minute bid is placed, shortly before the preset auction close time. | `auctionManager -> auctionTimeToClose` |
-| **Auction Duration Soft Cap** | Block Number | To increase the auction efficiency, once this value is passed, the system will double price increment, and halve auction time. | `auctionManager-> auctionDurationSoftCap` |
-| **Expected Collateral Auction Size** | Block Number | The auction is splitted to separate equal parts if the auction kUSD value exceeds this parameter | `cdpTreasury -> expectedCollateralAuctionSize` |
-| **MaxAuctionsCount** | Number | Maximum amount of parts one auction can be splitted | `cdpTreasury -> maxAuctionsCount` |
+| Parameters | Type | Description | Definition | Update Method |
+| :--- | :--- | :--- | :--- | :--- |
+| MinimumIncrementSize | Rate | The minimum increment size of each bid compared to the previous one. | `cdpEngine` constant | config on runtime |
+| AuctionTimeToClose | BlockNumber | The extended time for the auction to end after each successful bid. | `auctionManager` constant | config on runtime |
+| AuctionDurationSoftCap | BlockNumber | When the total duration of the auction exceeds this soft cap, push the auction to end more faster. | `auctionManager` constant | config on runtime |
+| ExpectedCollateralAuctionSize | Balance | The expected amount size for per lot collateral auction of specific collateral type. | `cdpTreasury` storage | update call by `UpdateOrigin` of `cdpTreasury` |
+| MaxAuctionsCount | u32 | The cap of lots number when create collateral auction on a liquidation or to create debit/surplus auction on block end. | `cdpTreasury` constant | config on runtime |
 
 ### Current Values
 
-| **Parameter** | **Value** |
+| Parameter | Value |
 | :--- | :--- |
-| Minimum Increment Size | 2 % from auction value |
-| Auction Time To Close | 75 blocks \(~15 min\) |
-| Auction Duration Soft Cap | 600 blocks \(~2h\) |
-| Expected Collateral Auction Size | 150 KSM / 1500 LKSM |
+| MinimumIncrementSize | 2 % from auction value |
+| AuctionTimeToClose | 75 blocks \(~15 min\) |
+| AuctionDurationSoftCap | 600 blocks \(~2h\) |
+| ExpectedCollateralAuctionSize | 150 KSM / 1500 LKSM |
 | MaxAuctionsCount | 100 |
 
