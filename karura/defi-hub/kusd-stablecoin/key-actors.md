@@ -22,5 +22,5 @@ The stablecoin protocol currently uses the Acala Oracle for real-time price feed
 
 ## No Liquidators/Keepers
 
-There is no external party for triggering liquidation on-chain like Keepers. Read why here.
+There is no external party for triggering liquidation on-chain like Keepers. Liquidations are managed by scheduler, which makes the process more secured.
 
