@@ -60,9 +60,9 @@ If you have participated via exchanges or custodial agencies, the rewards will b
 
 If you participated in Acala** **crowdloan via the** **Polkadot web app directly, or via non-custodial wallets other than Polkawallet and Fearless wallet, you will need to agree to our T\&C by completing a claim process for ACA. The Claim ACA website can be found [here](https://distribution.acala.network/claim).
 
-## (WIP) Collator Onboarding
+## 🎒 (WIP) Collator Onboarding
 
-## (WIP) DOT Treasury Donation Ceremony
+## 🎁 (WIP) DOT Treasury Donation Ceremony
 
 ## ✋ (WIP) Council Governance + Democracy
 
@@ -70,7 +70,7 @@ After the chain has been running stably with the collator set, the sudo key will
 
 Read more [here](get-started/governance/participate-in-democracy.md).
 
-## (WIP) Enable Democracy
+## 🗳️ (WIP) Enable Democracy
 
 Once the chain has been running well under Elected Council, it will propose to enable democracy - public referenda.
 
@@ -88,12 +88,12 @@ Balance transfers within the Acala network are restricted until this point.&#x20
 
 ## 👩‍🌾 (WIP) Enable Primitive Protocols
 
-- [ ]  Enable Stablecoin
-- [ ]  Enable Swap
-- [ ]  Enable Liquid Staking
+* [ ]  Enable Stablecoin
+* [ ]  Enable Swap
+* [ ]  Enable Liquid Staking
 
-## (WIP) Bootstrap Plan & Sequence
+## 🚜 (WIP) Bootstrap Plan & Sequence
 
 Details of launching specific collaterals and liquidity pools, as well as associated bootstrap programs will be announced separately.&#x20;
 
-## (WIP) Enable EVM+
+## 🤖 (WIP) Enable EVM+
