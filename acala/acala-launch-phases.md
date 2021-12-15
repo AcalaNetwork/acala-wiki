@@ -2,7 +2,7 @@
 
 Acala network has a phased launch plan. Keep up-to-date with the roll-out plan by viewing this [live roadmap](https://aca.la/acala-roadmap).
 
-**Current Phase: Technical Verification & Runtime Upgrade**
+**Current Phase: Win Acala Parachain Slot Auction - Acala Genesis Launch**
 
 ## 🚀 (WIP) Acala Genesis - Launch
 
@@ -16,10 +16,11 @@ Since genesis, Acala's network security is provided by Polkadot's Nominated Proo
 
 **You can view ACA distributions are available **[**here**](https://distribution.acala.network)**.**
 
-* [ ] Testnet campaign rewards & airdrops
-* [ ] "Build Acala #1" rewards
+* [ ] Airdrops
+* [ ] Build Acala #1
+* [ ] Build Acala #2
 * [ ] Acala crowdloan
-* [ ] Other events
+* [ ] Others
 
 ## 🕵️ (WIP) Tech Verification & Runtime Upgrade&#x20;
 
@@ -38,16 +39,20 @@ Transfer DOT from Polkadot Relay Chain to Acala parachain and back via **xtoken*
 
 Read the how-to [here](defi-hub/inter-polkadot-transfer.md).
 
-## 🎯 (WIP) Distribute ACA & lcDOT
+## 🏵 (WIP) Upgrade to Support LCDOT
 
-Batch distribution of ACA & lcDOT to&#x20;
+## 🎯 (WIP) Distribute ACA & LCDOT
 
-* [ ] Acala crowdloan participants
-* [ ] Other events&#x20;
+Batch distribution of ACA & LCDOT to&#x20;
+
+* [ ] Airdrops to pre-ACA holders
+* [ ] Build Acala Participants
+* [ ] Crowdloan Participants via Acala Website, Polkawallet and partner exchanges.
+* [ ] Other round participants&#x20;
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.&#x20;
 
-## 🎁 (WIP) Claim ACA
+## 🎁 (WIP) Claim ACA & LCDOT
 
 **You can check whether your ACA rewards need to be claimed **[**here**](crowdloan/claim-aca.md)**.**
 
@@ -55,11 +60,21 @@ If you have participated via exchanges or custodial agencies, the rewards will b
 
 If you participated in Acala** **crowdloan via the** **Polkadot web app directly, or via non-custodial wallets other than Polkawallet and Fearless wallet, you will need to agree to our T\&C by completing a claim process for ACA. The Claim ACA website can be found [here](https://distribution.acala.network/claim).
 
+## (WIP) Collator Onboarding
+
+## (WIP) DOT Treasury Donation Ceremony
+
 ## ✋ (WIP) Council Governance + Democracy
 
 After the chain has been running stably with the collator set, the sudo key will perform a runtime upgrade and enable appointed Councilors and democracy. Other councils including Financial Council, Technical Council, and Liquid Staking Council, as well as public referenda will also be enabled. &#x20;
 
 Read more [here](get-started/governance/participate-in-democracy.md).
+
+## (WIP) Enable Democracy
+
+Once the chain has been running well under Elected Council, it will propose to enable democracy - public referenda.
+
+Enable public referenda so that anyone can propose a referendum by depositing the minimum amount of tokens for a certain period.&#x20;
 
 ## 💥 (WIP) Remove Sudo
 
@@ -71,37 +86,14 @@ Read more [here](https://acala.discourse.group/t/1-acala-runtime-upgrade-disable
 
 Balance transfers within the Acala network are restricted until this point.&#x20;
 
-## 👩‍🌾 (WIP) Core DeFi Functionalities
+## 👩‍🌾 (WIP) Enable Primitive Protocols
 
-More details will be provided as we launch each DeFi protocol.&#x20;
+- [ ]  Enable Stablecoin
+- [ ]  Enable Swap
+- [ ]  Enable Liquid Staking
 
-* [ ] Acala DeX
-  * [ ] Enable DeX
-  * [ ] Enable DOT/ACA pair
-    * [ ] Start Bootstrap
-    * [ ] Trading begins
-  * [ ] DOT/kUSD pair
-    * [ ] Start Bootstrap
-    * [ ] Trading begins
-    * [ ] Start Liquidity Program
-  * [ ] ACA/kUSD pair
-  * [ ] LDOT/kUSD pair
-  * [ ] DOT/lcDOT pair
-* [ ] kUSD Borrowing
-  * [ ] Enable kUSD stablecoin protocol
-  * [ ] Enable DOT collateral (capped)
-  * [ ] Enable LDOT collateral
-  * [ ] Enable lcDOT collateral
-* [ ] Liquid DOT
-  * [ ] Enable Liquid DOT
-    * [ ] mint LDOT - withdraw is only available upon the network upgrading to trustless Liquid Staking
-    * [ ] DOT staking reward accrues&#x20;
-    * [ ] LDOT as collateral
-  * [ ] Liquid Staking upgrade
-* [ ] USDT
-  * [ ] as collateral
-  * [ ] as trading pair
-* [ ] Enable Acala EVM
+## (WIP) Bootstrap Plan & Sequence
 
+Details of launching specific collaterals and liquidity pools, as well as associated bootstrap programs will be announced separately.&#x20;
 
-
+## (WIP) Enable EVM+
