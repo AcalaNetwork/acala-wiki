@@ -108,6 +108,7 @@
 
 ## Mandala
 
+* [Home](mandala/home.md)
 * [Networks](mandala/networks.md)
 
 ## General
