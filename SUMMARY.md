@@ -100,6 +100,10 @@
     * [Swap SDK](karura/developer-guide/swap/swap-sdk.md)
   * [Liquid Staking](karura/developer-guide/homa-light-api.md)
 
+## Mandala
+
+* [Networks](mandala/networks.md)
+
 ## General
 
 * [Acala Portal](general/acala-portal/README.md)
