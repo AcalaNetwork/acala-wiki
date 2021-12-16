@@ -45,7 +45,7 @@ KAR tokens also have a fixed amount of supply, and a certain amount of ACA token
 
 ## Token Economics Overview
 
-Acala via the path of progressive decentralization will eventually become a self-sustaining decentralized autonomous organization \(DAO\). Its self-sustainable nature reflects in both [on-chain governance](https://wiki.acala.network/maintain/governance-guides/governance-overview) and economic design especially with its [decentralized Sovereign Wealth Fund](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Building_a_Decentralized_Sovereign_Wealth_Fund.pdf).
+Acala via the path of progressive decentralization will eventually become a self-sustaining decentralized autonomous organization \(DAO\). Its self-sustainable nature reflects in both [on-chain governance](https://wiki.acala.network/learn/basics/governance-overview) and economic design especially with its [decentralized Sovereign Wealth Fund](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Building_a_Decentralized_Sovereign_Wealth_Fund.pdf).
 
 ### Treasuries and Funds
 

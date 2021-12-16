@@ -15,15 +15,15 @@ This section of the wiki is divided into the following parts:
 
 This section is for service providers like wallets or data analysis who want to learn how to integrate Acala into their systems.
 
-- [Network Configuration](https://wiki.acala.network/build/integration-guide/network-configuration) - General information and F.A.Q.s about the Acala Network, e.g. address formats.
+- [Network Configuration](https://wiki.acala.network/karura/integration/networks) - General information and F.A.Q.s about the Acala Network, e.g. address formats.
 - [Node Management](https://wiki.acala.network/maintain/network-maintainers/node-management) - A short overview of the Acala client and the most relevant options/flags for infrastructure providers.
-- [Node Interaction](https://wiki.acala.network/build/integration-guide/node-interaction) - Learn how to interact with your node via RPC.
-- [Type Documentation](https://wiki.acala.network/build/integration-guide/types-doc) - Type doc needs to be used when integrating applications.
-- [Transaction Construction and Signing](https://wiki.acala.network/build/integration-guide/transaction-construction) - Learn the transaction format for Acala and how to construct and sign transactions offline.
+- [Node Interaction](https://wiki.acala.network/maintain/network-maintainers/node-interaction) - Learn how to interact with your node via RPC.
+- [Type Documentation](https://wiki.acala.network/build/development-guide/general/types-doc) - Type doc needs to be used when integrating applications.
+- [Transaction Construction and Signing](https://wiki.acala.network/build/development-guide/general/transaction-construction) - Learn the transaction format for Acala and how to construct and sign transactions offline.
 
 ### Tools
 
-- [Tools](https://wiki.acala.network/build/tools/tool-index) - Maintained list of tools.
+- [Tools](https://wiki.acala.network/build/tools) - Maintained list of tools.
 
 ### Resources
 
