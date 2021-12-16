@@ -4,6 +4,7 @@
 
 ## Acala
 
+* [Acala Launch Phases](acala/acala-launch-phases.md)
 * [Acala Crowdloan](acala/acala-crowdloan/README.md)
   * [Crowdloan Event](acala/acala-crowdloan/crowdloan-event.md)
   * [Crowdloan Rewards](acala/acala-crowdloan/crowdloan-rewards.md)
