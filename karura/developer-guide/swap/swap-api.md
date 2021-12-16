@@ -60,7 +60,7 @@ You can check out a list of available public endpoints [here](https://wiki.acala
 
 **Full code snippet:**
 
-[dex-examples/getPolkadotApi.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getPolkadotApi.js)
+[dex-examples/getPolkadotApi.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getPolkadotApi.ts)
 
 ## Read Only Functions \(State Queries\)
 
@@ -81,7 +81,7 @@ const symbols = !result.tokenSymbol.isNone &&
 
 **Full code snippet:**
 
-[dex-examples/getSystemParameters.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getSystemParameters.js)
+[dex-examples/getSystemParameters.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getSystemParameters.ts)
 
 ### getLiquidity
 
@@ -114,7 +114,7 @@ Example:
 
 **Full code snippet:**
 
-[dex-examples/getLiquidity.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getLiquidity.js)
+[dex-examples/getLiquidity.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getLiquidity.ts)
 
 ### getProvisioningPoolBalance
 
@@ -145,7 +145,7 @@ Example:
 
 **Full code snippet:**
 
-[dex-examples/getProvisioningLiquidity.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getProvisioningLiquidity.js)
+[dex-examples/getProvisioningLiquidity.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getProvisioningLiquidity.ts)
 
 ### tradingPairStatuses
 
@@ -172,7 +172,7 @@ const status = await api.query.dex.tradingPairStatuses([
 
 **Full code snippet:**
 
-[dex-examples/getTradingPairStatuses.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getTradingPairStatuses.js)
+[dex-examples/getTradingPairStatuses.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getTradingPairStatuses.ts)
 
 ## State-Changing Functions
 
@@ -190,7 +190,7 @@ const signer = keyring.addFromMnemonic('<YOUR_SEED_PHRASE>');
 
 **Full code snippet:**
 
-[dex-examples/getSigner.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getSigner.js)
+[dex-examples/getSigner.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getSigner.ts)
 
 ### swapWithExactSupply
 
@@ -239,7 +239,7 @@ Example
 
 **Full code snippet:**
 
-[dex-examples/swapWithExactSupply.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/swapWithExactSupply.js)
+[dex-examples/swapWithExactSupply.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/swapWithExactSupply.ts)
 
 ### swapWithExactTarget
 
@@ -284,7 +284,7 @@ Returns `Extrinsic` type that should be signed with the private key.
 
 **Full code snippet:**
 
-[dex-examples/swapWithExactTarget.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/swapWithExactTarget.js)
+[dex-examples/swapWithExactTarget.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/swapWithExactTarget.ts)
 
 ### addLiquidity
 
@@ -343,7 +343,7 @@ Returns `Extrinsic` type that should be signed with the private key.
 ```
 
 **Full code snippet**  
-[dex-examples/addLiquidity.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/addLiquidity.js)
+[dex-examples/addLiquidity.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/addLiquidity.ts)
 
 > ![:warning:](https://assets.hackmd.io/build/emojify.js/dist/images/basic/warning.png) Ensure you have positive balance of each of the tokens in the pair and that the pair is available
 
@@ -399,5 +399,5 @@ Removes liquidity from selected trading pair. It can, also, automatically unstak
 ```
 
 **Full code snippet**  
-[dex-examples/removeLiquidity.js](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/removeLiquidity.js)
+[dex-examples/removeLiquidity.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/removeLiquidity.ts)
 
