@@ -21,6 +21,12 @@
   * [Check Address for Different Chains](acala/acala-account/check-addr.md)
 * [Acala Assets](acala/acala-assets.md)
 * [Redenomination of ACA](acala/redenomination-of-aca.md)
+* [Integration Guide](acala/integration/README.md)
+  * [Protocol Info](acala/integration/protocol-info.md)
+  * [Token Transfer](acala/integration/token-transfer.md)
+  * [Networks](acala/integration/networks.md)
+  * [Full Node](acala/integration/full-node.md)
+  * [Collator](acala/integration/collator.md)
 
 ## Karura
 
