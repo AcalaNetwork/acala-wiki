@@ -27,7 +27,7 @@ transactionPayment.setAlternativeFeeSwapPath(fee_swap_path)
 
 ## How it works
 
-You do NOT need KAR in the balance to perform any transactions on Karura. If you hold only KSM (or other supported fee tokens) on the Karura network, you can still trade KSM on [Karura Swap](../developer-guide/swap/) and [mint kUSD](kusd-stablecoin/mint-kusd.md) without holding KAR.
+You do NOT need KAR in the balance to perform any transactions on Karura. If you hold only KSM (or other supported fee tokens) on the Karura network, you can still trade KSM on [Karura Swap](swap/) and [mint kUSD](kusd-stablecoin/mint-kusd.md) without holding KAR.
 
 This is what happens behind the scene if you trade KSM on Karura Swap without KAR in balance
 

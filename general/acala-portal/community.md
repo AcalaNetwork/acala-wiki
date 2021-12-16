@@ -9,29 +9,29 @@ description: >-
 
 ## General Discussion & Support
 
-[Discord](https://discord.gg/vdbFVCH) **|** [Discourse Forum](https://acala.discourse.group) **|** [Riot](https://riot.im/app/#/room/#acala:matrix.org) **| **[General Enquiry Email](mailto:hello@acala.network)
+[Discord](https://discord.gg/vdbFVCH) **|** [Discourse Forum](https://acala.discourse.group) **|** [Riot](https://riot.im/app/#/room/#acala:matrix.org) **|** [General Enquiry Email](mailto:hello@acala.network)
 
 Issues can be raised directly in the respective [Github](https://github.com/AcalaNetwork) repo or via Riot channel
 
 ## **Social & Announcements**
 
-#### Acala 
+#### Acala&#x20;
 
-[Discord](https://discord.gg/vdbFVCH) | [Twitter](https://twitter.com/AcalaNetwork) | [Telegram](https://t.me/AcalaAnnouncement)** |** [Medium](https://medium.com/acalanetwork) | [Facebook](https://www.facebook.com/acalanetwork/) | [LinkedIn](https://www.linkedin.com/company/acalanetwork) | [Reddit](https://www.reddit.com/r/acalanetwork) | [YouTube](http://youtube.com/c/acalanetwork)
+[Discord](https://discord.gg/vdbFVCH) | [Twitter](https://twitter.com/AcalaNetwork) | [Telegram](https://t.me/AcalaAnnouncement) **|** [Medium](https://medium.com/acalanetwork) | [Facebook](https://www.facebook.com/acalanetwork/) | [LinkedIn](https://www.linkedin.com/company/acalanetwork) | [Reddit](https://www.reddit.com/r/acalanetwork) | [YouTube](http://youtube.com/c/acalanetwork)
 
 #### **Karura**
 
-[Discord](https://discord.gg/vdbFVCH) | [Twitter](https://twitter.com/KaruraNetwork) | [Telegram](https://t.me/karuraannouncements) **|** [LinkedIn](https://www.linkedin.com/showcase/karuranetwork/) | [Reddit](https://www.reddit.com/r/karuranetwork) 
+[Discord](https://discord.gg/vdbFVCH) | [Twitter](https://twitter.com/KaruraNetwork) | [Telegram](https://t.me/karuraannouncements) **|** [LinkedIn](https://www.linkedin.com/showcase/karuranetwork/) | [Reddit](https://www.reddit.com/r/karuranetwork)&#x20;
 
 For more updates on the Acala and Karura ecosystems, subscribe to the [newsletter](https://share.hsforms.com/1X9RxkXk-R62I0VNbATaDXw4h8qc).
 
 ## **Regional and Language-Specific Communities**
 
-Please use best practices when engaging with community-managed channels. Keep in mind that no admin or representative from Acala will ever message you or add you to a channel. Beware of imitation Acala representatives and always confirm information with our official channels. 
+Please use best practices when engaging with community-managed channels. Keep in mind that no admin or representative from Acala will ever message you or add you to a channel. Beware of imitation Acala representatives and always confirm information with our official channels.&#x20;
 
 #### **Telegram**
 
-****[French](https://t.me/AcalaFR)** |** [Italian](https://t.me/acalaitalia) **|** [Japanese](https://t.me/AcalaJapan) **|** [Korean](https://t.me/acalakorea) **|** [Portuguese](https://t.me/acalaportugues) **|** [Russian](https://t.me/acalarussia) **|** [Spanish](https://t.me/acalaespanol)** | **[Thai](https://t.me/acalathai) **|** [Turkish](https://t.me/Acala_Turkiye) **| **[Ukrainian](https://t.me/acalaukraine) | [Vietnamese](https://t.me/AcalaVietnamese)
+****[French](https://t.me/AcalaFR) **|** [Italian](https://t.me/acalaitalia) **|** [Japanese](https://t.me/AcalaJapan) **|** [Korean](https://t.me/acalakorea) **|** [Portuguese](https://t.me/acalaportugues) **|** [Russian](https://t.me/acalarussia) **|** [Spanish](https://t.me/acalaespanol) **|** [Thai](https://t.me/acalathai) **|** [Turkish](https://t.me/Acala\_Turkiye) **|** [Ukrainian](https://t.me/acalaukraine) | [Vietnamese](https://t.me/AcalaVietnamese)
 
 #### **WeChat**
 
@@ -41,15 +41,15 @@ Please use best practices when engaging with community-managed channels. Keep in
 
 #### **Telegram**
 
-[Acala & Karura Unofficial](https://t.me/acala_karura_unofficial) \
+[Acala & Karura Unofficial](https://t.me/acala\_karura\_unofficial) \
 \
 **Discord**
 
 [Acala+  (Unofficial)](https://discord.gg/MGPNchpkV2)
 
-## Acala Ecosystem 
+## Acala Ecosystem&#x20;
 
-Looking to build on our networks, discuss integrations, or get in contact with the team? 
+Looking to build on our networks, discuss integrations, or get in contact with the team?&#x20;
 
 Acala Ecosystem projects may participate in any number of ways including using and integrating Acala's technologies and products such as aUSD stablecoin, staking derivative Liquid DOT, providing liveness (validation), oracle or other services to Acala network, and/or other forms of collaboration mutually agreed upon. Ecosystem projects will enjoy first-line support from the Acala team, technical collaboration, have opportunities to partake in product promotion/incentive programs, and co-marketing etc.
 

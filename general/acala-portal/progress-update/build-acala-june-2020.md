@@ -6,13 +6,13 @@ description: >-
 
 # Build Acala | Jun 2020
 
-By [Acala Network](https://medium.com/u/43f74518f3f4?source=post_page-----6de2a967e588----------------------)
+By [Acala Network](https://medium.com/u/43f74518f3f4?source=post\_page-----6de2a967e588----------------------)
 
 Our New Zealand team has returned to the office as the country easing lockdown restrictions. May has been a fruitful month, with highly anticipated Polkadot launch, Acala completing stablecoin development milestone, and a rather successful testnet campaign with overwhelming community participation and support.
 
 ![](../../../.gitbook/assets/1\_rzibl9lr7tvbtapxx1pjrg.jpeg)
 
-## Ecosystem Update <a href="983b" id="983b"></a>
+## Ecosystem Update <a href="#983b" id="983b"></a>
 
 **Polkadot launch**, 26 May: A sharded blockchain protocol, Polkadot was initiated by the Web3 Foundation. Acala, an ecosystem project highlighted [in the Polkadot’s launch article](https://medium.com/polkadot-network/w3f-initiates-launch-polkadot-is-live-8f2310d113a7), is preparing to launch on both the canary Kusama network and Polkadot in the next few months as the Cross-Chain Message Passing (XCMP) communication facility is ready.
 
@@ -22,7 +22,7 @@ Our New Zealand team has returned to the office as the country easing lockdown r
 
 ![](../../../.gitbook/assets/0\_ascspce8yamihesr.gif)
 
-## Development Update <a href="ca97" id="ca97"></a>
+## Development Update <a href="#ca97" id="ca97"></a>
 
 **Acala has completed all milestones for the Web3 Foundation grant, which include:**
 
@@ -32,17 +32,17 @@ Our New Zealand team has returned to the office as the country easing lockdown r
 
 Read more [here](https://medium.com/acalanetwork/acala-completes-web3-foundation-stablecoin-grant-milestone-c519b3c43533).
 
-**An emergency shutdown drill **is planned to relive the Black Thursday price collapse, and our community will be rewarded to participate in the liquidation process and test Acala’s advanced liquidation mechanisms.
+**An emergency shutdown drill** is planned to relive the Black Thursday price collapse, and our community will be rewarded to participate in the liquidation process and test Acala’s advanced liquidation mechanisms.
 
-## Elected Kusama Councilor <a href="e432" id="e432"></a>
+## Elected Kusama Councilor <a href="#e432" id="e432"></a>
 
 Acala Foundation is now a council member of Kusama, holding a first-of-its-kind multi-sig collective councilor membership. We are actively participating in governance and helping to grow the decentralized finance (DeFi) ecosystem. **The membership does get renewed every day.**
 
-Please continue to support us and **Vote Acala — DeFi for All **[via Kusama Council](https://polkadot.js.org/apps/#/council) **👇**
+Please continue to support us and **Vote Acala — DeFi for All** [via Kusama Council](https://polkadot.js.org/apps/#/council) **👇**
 
 ![Verified Account: HSNBs8VHxcZiqz9NfSQq2YaznTa8BzSvuEWVe4uTihcGiQN](../../../.gitbook/assets/0\_8wb2zr5m1vz22g7i.png)
 
-## Events <a href="f3bd" id="f3bd"></a>
+## Events <a href="#f3bd" id="f3bd"></a>
 
 [**We are co-hosting the PolkaDeFi Day on 18 June**](https://medium.com/acalanetwork/polkadot-defi-day-54bb75779f75)**,** a DeFi community conference with Polkadot featuring a variety of topics and projects.
 
@@ -54,10 +54,10 @@ We look forward to seeing you at the first PolkaDeFi Day!
 
 ![](../../../.gitbook/assets/0\_qobef4zybemuif8s.jpeg)
 
-## About Acala <a href="75ca" id="75ca"></a>
+## About Acala <a href="#75ca" id="75ca"></a>
 
 [Acala is a first-of-its-kind decentralized finance consortium](https://medium.com/acalanetwork/acala-powering-cross-blockchain-open-finance-applications-on-polkadot-abb6075a6edf) with a vision to create cross-chain open finance infrastructure for the[ Polkadot](https://polkadot.network) ecosystem. The Acala Network is a dual-protocol network: a decentralized cross-chain capable multi-collateralized stablecoin protocol, Honzon, and a trustless tokenized staking liquidity protocol, Homa. Acala aims to bring stability, liquidity and accessibility to the mainstream retail financial services market.
 
 Learn more about Acala on[ acala.network](https://acala.network),[ Medium](https://medium.com/acalanetwork),[ Twitter](https://twitter.com/AcalaNetwork),[ GitHub](https://github.com/AcalaNetwork/Acala) and[ Acala Wiki](https://wiki.acala.network). Join the discussion on[ Discord](https://discord.gg/vdbFVCH),[ Telegram](https://t.me/acalaofficial) and[ Riot Chat](https://riot.im/app/#/room/#acala:matrix.org). Any inquiries please[ Email](http://hello@acala.network) or DM us.
 
-Stay informed about the Acala launch and **subscribe to **the[ **Acala Newsletter**](https://share.hsforms.com/1X9RxkXk-R62I0VNbATaDXw4h8qc).
+Stay informed about the Acala launch and **subscribe to** the[ **Acala Newsletter**](https://share.hsforms.com/1X9RxkXk-R62I0VNbATaDXw4h8qc).

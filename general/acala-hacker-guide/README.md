@@ -2,7 +2,7 @@
 
 ## Start Here
 
-* **Join **[**Acala Official Discord**](https://discord.gg/vdbFVCH)** **to explore DeFi on Polkadot, for product and technical questions
+* **Join** [**Acala Official Discord**](https://discord.gg/vdbFVCH) **** to explore DeFi on Polkadot, for product and technical questions
 * [**Watch**](https://www.crowdcast.io/e/acala-ethdenver-2021) the webinar: **Deploying your Ethereum Project on Polkadot & Acala**
 
 ## Resources
@@ -22,7 +22,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 ### Product Resources
 
 * Acala Overview: Cross-chain DeFi Hub for Polkadot and beyond ([Watch](https://www.youtube.com/watch?v=avtzY5lkM6s))
-* [Why Acala EVM](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack) 
+* [Why Acala EVM](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack)&#x20;
 
 ### Dev Resources
 
@@ -32,7 +32,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
   * [Watch Live Coding](https://www.crowdcast.io/e/acala-ethdenver-2021): Deploy Uniswap Contracts, Recurring Payment Contracts.
     * Also available on Youtube [here](https://www.youtube.com/watch?v=7GdZucQ1SlE)
   * Get started [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm)
-  * Download presentation slides [here](https://drive.google.com/file/d/1fVzCXC2BJf7k_d25bMy4rqXBqU_ByI_I/view?usp=sharing)
+  * Download presentation slides [here](https://drive.google.com/file/d/1fVzCXC2BJf7k\_d25bMy4rqXBqU\_ByI\_I/view?usp=sharing)
 * **Build a DApp on Polkadot using Acala EVM with On-chain Automatic Scheduler**
   * Watch Live Coding [here](https://www.youtube.com/watch?v=0ZKK8IQXI3s\&list=PLAy4HNUNlzRkiRQFnr-gu6CyddoVTxeTy\&index=37)
   * Tutorial [here](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler/scheduler-tutorial)
@@ -44,9 +44,9 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 #### **Build & Deployment Tools**
 
-* **Waffle: **[https://getwaffle.io](https://getwaffle.io)
-* **Remix: **[http://remix.ethereum.org](http://remix.ethereum.org)
-* **EVM Playground: **[https://evm.acala.network](https://evm.acala.network)
+* **Waffle:** [https://getwaffle.io](https://getwaffle.io)
+* **Remix:** [http://remix.ethereum.org](http://remix.ethereum.org)
+* **EVM Playground:** [https://evm.acala.network](https://evm.acala.network)
 * **Acala EVM (bodhi.js)**: [https://github.com/AcalaNetwork/bodhi.js](https://github.com/AcalaNetwork/bodhi.js)
 
 #### Optional

@@ -4,7 +4,7 @@ description: Crowdloan is a part of Karura's parachain launch process.
 
 # Karura Crowdloan
 
-🔥Base reward: 19.95 KAR for every 1 KSM contributed 🔥**Check your rewards **[**here**](crowdloan-rewards.md).
+🔥Base reward: 19.95 KAR for every 1 KSM contributed 🔥**Check your rewards** [**here**](crowdloan-rewards.md).
 
 ## Contents
 
