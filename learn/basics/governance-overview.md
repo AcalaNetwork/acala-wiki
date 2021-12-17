@@ -4,18 +4,18 @@ description: The development direction.
 
 # Governance
 
-* [Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#governance)
-  * [Chambers of Acala Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#chambers-of-acala-governance)
-  * [Progressive Decentralization](https://wiki.acala.network/maintain/governance-guides/governance-overview#progressive-decentralization)
-    * [Phase I: Council Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#phase-i-council-governance)
-      * [Implementation](https://wiki.acala.network/maintain/governance-guides/governance-overview#implementation)
-        * [Mandala TC3](https://wiki.acala.network/maintain/governance-guides/governance-overview#mandala-tc3)
-    * [Phase II: Elected Council + Referendum Governance](https://wiki.acala.network/maintain/governance-guides/governance-overview#phase-ii-elected-council-referendum-governance)
-  * [Jurisdictions](https://wiki.acala.network/maintain/governance-guides/governance-overview#jurisdictions)
-    * [Honzon Council Jurisdictions](https://wiki.acala.network/maintain/governance-guides/governance-overview#honzon-council-jurisdictions)
-    * [Homa Council Jurisdictions](https://wiki.acala.network/maintain/governance-guides/governance-overview#homa-council-jurisdictions)
-    * [General Council Jurisdiction](https://wiki.acala.network/maintain/governance-guides/governance-overview#general-council-jurisdiction)
-  * [Under Discussion & Development](https://wiki.acala.network/maintain/governance-guides/governance-overview#under-discussion-and-development)
+* [Governance](https://wiki.acala.network/learn/basics/governance-overview#governance)
+  * [Chambers of Acala Governance](https://wiki.acala.network/learn/basics/governance-overview#chambers-of-acala-governance)
+  * [Progressive Decentralization](https://wiki.acala.network/learn/basics/governance-overview#progressive-decentralization)
+    * [Phase I: Council Governance](https://wiki.acala.network/learn/basics/governance-overview#phase-i-council-governance)
+      * [Implementation](https://wiki.acala.network/learn/basics/governance-overview#implementation)
+        * [Mandala TC3](https://wiki.acala.network/learn/basics/governance-overview#mandala-tc3)
+    * [Phase II: Elected Council + Referendum Governance](https://wiki.acala.network/learn/basics/governance-overview#phase-ii-elected-council-referendum-governance)
+  * [Jurisdictions](https://wiki.acala.network/learn/basics/governance-overview#jurisdictions)
+    * [Honzon Council Jurisdictions](https://wiki.acala.network/learn/basics/governance-overview#honzon-council-jurisdictions)
+    * [Homa Council Jurisdictions](https://wiki.acala.network/learn/basics/governance-overview#homa-council-jurisdictions)
+    * [General Council Jurisdiction](https://wiki.acala.network/learn/basics/governance-overview#general-council-jurisdiction)
+  * [Under Discussion & Development](https://wiki.acala.network/learn/basics/governance-overview#under-discussion-and-development)
 
 ## Governance
 
