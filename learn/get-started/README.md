@@ -26,8 +26,16 @@ Mandala Test Network is a risk-free and value-free playground, purely for testin
 
 ### Public Nodes 
 
-{% content-ref url="public-nodes.md" %}
-[public-nodes.md](public-nodes.md)
+{% content-ref url="https://wiki.acala.network/mandala/networks.md" %}
+[Mandala Network](https://wiki.acala.network/mandala/networks.md)
+{% endcontent-ref %}
+
+{% content-ref url="https://wiki.acala.network/karura/networks.md" %}
+[Karura Network](https://wiki.acala.network/karura/networks.md)
+{% endcontent-ref %}
+
+{% content-ref url="https://wiki.acala.network/acala/networks.md" %}
+[Acala Network](https://wiki.acala.network/acala/networks.md)
 {% endcontent-ref %}
 
 ### Create a Polkadot Account

@@ -12,7 +12,7 @@ Open the `Development` section, select `Local Node` to connect to your local Aca
 
 ![](https://i.imgur.com/TygeyXu.png)
 
-Select `Custom` to connect to a deployed node, and paste the Websocket URL to the `custom endpoint` input box. You can find deployed nodes [here](../../../../learn/get-started/public-nodes.md).
+Select `Custom` to connect to a deployed node, and paste the Websocket URL to the `custom endpoint` input box. You can find deployed nodes [here](https://wiki.acala.network/mandala/networks.md).
 
 Then click `Switch` on the top, and wait for the page to refresh and connect to the network. If your current endpoint already matches your selection, the `Switch` button will be disabled.
 

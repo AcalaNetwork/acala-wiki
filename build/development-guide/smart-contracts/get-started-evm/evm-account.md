@@ -71,8 +71,6 @@ _**One Substrate account can only be associated with one Ethereum address.**_ A 
 
 Binding an existing Ethereum account requires users to prove they own the Ethereum account private key, by signing a message, include it in a `claim` transaction and send it to the Acala network.
 
-This feature is coming soon in our next release.
-
 #### Use Cases
 
 Below are two potential use cases of binding an existing Ethereum address.

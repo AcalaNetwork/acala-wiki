@@ -107,6 +107,11 @@
     * [Swap SDK](karura/developer-guide/swap/swap-sdk.md)
   * [Liquid Staking](karura/developer-guide/homa-light-api.md)
 
+## Mandala
+
+* [Home](mandala/home.md)
+* [Networks](mandala/networks.md)
+
 ## General
 
 * [Acala Portal](general/acala-portal/README.md)
@@ -140,7 +145,6 @@
 * [Acala Introduction](learn/acala-introduction.md)
 * [Trilogy Networks](learn/trilogy-networks.md)
 * [Get Started](learn/get-started/README.md)
-  * [Public Nodes](learn/get-started/public-nodes.md)
 * [DeFi Basics](learn/basics/README.md)
   * [Acala Account](learn/basics/acala-account.md)
   * [aUSD Stablecoin](learn/basics/ausd-stablecoin.md)
