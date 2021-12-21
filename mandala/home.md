@@ -22,6 +22,6 @@ Find all social channels [here](https://linktr.ee/Acalanetwork).
 
 ## Usefull Links
 
-- [Create Account](https://wiki.acala.network/acala/acala-account)
-- [Learn](https://wiki.acala.network/learn/)
-- [Build](https://wiki.acala.network/build/)
+- [Create Account](../acala/acala-account)
+- [Learn](../learn/)
+- [Build](../build/)

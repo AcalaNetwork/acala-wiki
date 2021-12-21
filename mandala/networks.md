@@ -1,6 +1,4 @@
-# Networks
-
-## Mandala Test Network
+# Mandala Test Network
 
 ### Telemetry
 

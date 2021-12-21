@@ -1,6 +1,4 @@
-# Networks
-
-## Acala Network
+# Acala Network
 
 ### Telemetry
 
