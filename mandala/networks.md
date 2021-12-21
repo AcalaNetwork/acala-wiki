@@ -21,3 +21,7 @@
 ### EVM RPC 
 
 * `https://tc7-eth.aca-dev.network`
+
+### Faucet
+
+* [On Discord in the #acala-testnet-faucet Channel](https://discord.gg/eEhnhw8uav)
