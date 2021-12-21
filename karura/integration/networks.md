@@ -1,6 +1,4 @@
-# Networks
-
-## Karura Network
+# Karura Network
 
 ### Telemetry
 
