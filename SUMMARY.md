@@ -25,7 +25,7 @@
 * [Integration Guide](acala/integration/README.md)
   * [Protocol Info](acala/integration/protocol-info.md)
   * [Token Transfer](acala/integration/token-transfer.md)
-  * [Networks](acala/integration/networks.md)
+  * [Acala Network](acala/integration/networks.md)
   * [Full Node](acala/integration/full-node.md)
   * [Collator](acala/integration/collator.md)
 
@@ -97,7 +97,7 @@
 * [Integration Guide](karura/integration/README.md)
   * [Protocol Info](karura/integration/protocol-info.md)
   * [Token Transfer](karura/integration/token-transfer.md)
-  * [Networks](karura/integration/networks.md)
+  * [Karura Network](karura/integration/networks.md)
   * [Full Node](karura/integration/full-node.md)
   * [Collator](karura/integration/collator.md)
 * [Developer Guide](karura/developer-guide/README.md)
@@ -110,7 +110,7 @@
 ## Mandala
 
 * [Home](mandala/home.md)
-* [Networks](mandala/networks.md)
+* [Manada Test Network](mandala/networks.md)
 
 ## General
 
