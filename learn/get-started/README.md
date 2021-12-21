@@ -117,7 +117,7 @@ To use aUSD on Laminar Chain, and mint renBTC to use on Acala, please see [this 
 
 ### Governance
 
-Check out [our progressive decentralization governance guide](https://wiki.acala.network/maintain/governance-guides)
+Check out [our progressive decentralization governance guide](https://wiki.acala.network/karura/get-started/governance)
 
 ### Explorer
 

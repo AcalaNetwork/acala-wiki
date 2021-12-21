@@ -8,8 +8,8 @@ Karura is an experimental network, or a 'canary network', for Acala. It's an ear
 
 KSM is the native token of Kusama. It is used as the fee token, staking token to provide network security and governance token on the Kusama Relay chain. The launch of Karura's parachain unlocks new use cases for KSM:
 
-* Participate in trustless trading with other tokens via [Karura Swap](../developer-guide/swap/)
-* Use as liquidity for KSM-based trading pairs in Karura Swap, use KSM to power the KAR/KSM pair (learn about becoming a liquidity provider & risks involved [here](../developer-guide/swap/)). This will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
+* Participate in trustless trading with other tokens via [Karura Swap](swap/)
+* Use as liquidity for KSM-based trading pairs in Karura Swap, use KSM to power the KAR/KSM pair (learn about becoming a liquidity provider & risks involved [here](swap/)). This will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
 * Use as a collateral asset to mint the kUSD stablecoin, which can then be used for leveraged trades and other use cases.
 * Stake in Karura's Liquid KSM staking pool to mint LKSM, which can then be used as collaterals, transferred, or traded.
   * LKSM is a programmable staking asset as the building block for many other protocols and applications
@@ -27,7 +27,7 @@ You can also find the Cross-chain Message (XCM) Format developed by Parity [here
 
 Use the [Karura App](https://apps.karura.network/portfolio), go to `Cross Chain` tab then select `Inter Kusama Transfer`.&#x20;
 
-**Note: **The account you logged into the Karura App must have some KSM (also be mindful of Existential Deposits).
+**Note:** The account you logged into the Karura App must have some KSM (also be mindful of Existential Deposits).
 
 Select `Kusama` as the `From Chain`, and `Karura` as the `To Chain`. Your KSM balance (on Kusama) shall be displayed then. Then select the `To Account`, which can be the current account that you logged in to the Karura App.&#x20;
 

@@ -6,7 +6,7 @@ description: Introduction of the Acala modules.
 
 ## Honzon Stablecoin Modules
 
-### [auction\_manager](https://github.com/AcalaNetwork/Acala/tree/master/modules/auction_manager)
+### [auction\_manager](https://github.com/AcalaNetwork/Acala/tree/master/modules/auction-manager)
 
 `auction_manager` module starts and manages various types of auctions - `surplus auction` when accrued interests exceeds certain limit, `debt auction` when unpaid debt from liquidated positions exceeds certain limit, and `collateral auction` when a position is being liquidated.
 
@@ -23,18 +23,18 @@ Generally all three types of auctions follow similar formats except `debt auctio
 * if no more new bids, the auction will last till `the last bid time` + `AuctionTimeToClose` \(in block number\)
 * if the auction goes on, and exceeds the `AuctionDurationSoftCap` \(also in block number\), then every new bid's `AuctionTimeToClose` will be halved, `minimum increment` doubled to speed up the auction
 
-### [cdp\_engine](https://github.com/AcalaNetwork/Acala/tree/master/modules/cdp_engine)
+### [cdp\_engine](https://github.com/AcalaNetwork/Acala/tree/master/modules/cdp-engine)
 
 `cdp_engine` manages automated liquidation and collateral settlement via off-chain worker, and a set of risk parameters - `stability fee`, `liquidation ratio`, `liquidation penalty`, `required collateral ratio` and `maximum total debit value`.
 
-**`stability fee`** or interest rate charged for aUSD loans are collected every block. aUSD owned plus accumulated stability fee / interest is recorded as `debit units`, the debit exchange rate is updated every block. The [`DebitExchangeRateConvertor`](https://github.com/AcalaNetwork/Acala/blob/master/modules/cdp_engine/src/debit_exchange_rate_convertor.rs) to calculate how much aUSD is owed. Fees collected are added to the `cdp_treasury` surplus pool.
+**`stability fee`** or interest rate charged for aUSD loans are collected every block. aUSD owned plus accumulated stability fee / interest is recorded as `debit units`, the debit exchange rate is updated every block. The [`DebitExchangeRateConvertor`](https://github.com/AcalaNetwork/Acala/blob/master/modules/cdp-engine/src/debit_exchange_rate_convertor.rs) to calculate how much aUSD is owed. Fees collected are added to the `cdp_treasury` surplus pool.
 
 **`Offchain Worker`** is run at the end of every block. Only one `Offchain Worker` is run at a time by acquiring a lock before the job and releasing it after the job.
 
 * Automated liquidation: the `Offchain Worker` would iterate through all loans and liquidate those that are `unsafe`, that is current collateral ratio is below the `liquidation ratio`. It will firstly obtain aUSD directly from the DeX given acceptable slippage, otherwise it will create collateral auction to pay back outstanding debt remain. 
 * Collateral settlement: during emergency shutdown, settle all loans by collecting collaterals into `cdp_treasury` and clear debt balance.
 
-### [cdp\_treasury](https://github.com/AcalaNetwork/Acala/tree/master/modules/cdp_treasury)
+### [cdp\_treasury](https://github.com/AcalaNetwork/Acala/tree/master/modules/cdp-treasury)
 
 `cdp_treasury` manages system global `DebitPool` and `SurplusPool`, and surplus, debit and collateral auction parameters.
 
@@ -56,7 +56,7 @@ During auctions, once there's an accepted bid, the amount of surplus, debit or c
 
 `transfer_loan` - transfer the entire balance of a given aUSD loan from one account to another account.
 
-## [emergency\_shutdown](https://github.com/AcalaNetwork/Acala/tree/master/modules/emergency_shutdown)
+## [emergency\_shutdown](https://github.com/AcalaNetwork/Acala/tree/master/modules/emergency-shutdown)
 
 `emergency_shutdown` is one of the risk management instruments in particular as a last resort to stop and settle the Honzon protocol to protect the assets of both aUSD and loan holders. The shutdown can apply to one or more collateral asset and associated loans.
 
@@ -70,7 +70,7 @@ Note: a collateral asset can be `shut down` individually, not via the `emergency
 
 ## General
 
-### [accounts](https://github.com/AcalaNetwork/Acala/blob/master/modules/accounts)
+### [currencies](https://github.com/AcalaNetwork/Acala/tree/master/modules/currencies)
 
 Acala Network is a multi-token network. The native network token aka ACA is managed by the `balances` pallet. All other tokens are managed by [`tokens` module](https://github.com/laminar-protocol/open-runtime-module-library/tree/master/tokens). The [`currency` module](https://github.com/laminar-protocol/open-runtime-module-library/tree/master/currencies) realizes the multi-token support by combining the two.
 

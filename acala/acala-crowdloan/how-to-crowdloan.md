@@ -1,6 +1,6 @@
 # How to Crowdloan
 
-## **Via Acala Website **
+## **Via Acala Website**&#x20;
 
 ### **Check the Pre-Requisites**
 

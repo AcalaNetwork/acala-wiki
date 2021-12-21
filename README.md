@@ -25,11 +25,10 @@ If you're looking for an introduction to Acala please [go here](https://wiki.aca
 ### Want to maintain the network?
 
 - [Network Maintainers](https://wiki.acala.network/maintain/network-maintainers) - Information covering running a node on the Acala Network.
-- [Oracle Overview](https://wiki.acala.network/maintain/oracle/oracle-overview) - Provide pricing information for assets on the Acala Network.
+- [Oracle Overview](https://wiki.acala.network/learn/basics/oracle) - Provide pricing information for assets on the Acala Network.
 
 ### Resources
 
 - [Community / Ecosystem](https://wiki.acala.network/general/acala-portal/community) - List of community rooms and channels to talk to others about Acala.
-- [News](https://wiki.acala.network/general/acala-portal/news) - Links to the hottest news about Acala, aggregated with the latest updates.
 - [Contributing Guide](https://wiki.acala.network/general/contributing) - Rules for contributing to the wiki.
 

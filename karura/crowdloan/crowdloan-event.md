@@ -51,11 +51,11 @@ The KAR distributed to participants will be vested over a period of time, but th
 
 ### **3.1 Key Details**
 
-* **Lease Period: **48 Weeks.
-* **Reward: **12 KAR for every 1 KSM contributed.
-* **Vesting: **30% liquid upfront, 70% vest over lease period.
-* **Referral Bonus: **Referral code recipients will receive 10% additional KAR to split between referrer and referee.
-* **Eligibility: **no KYC is required, but participants must agree to Terms & Conditions where participants from certain jurisdictions are excluded
+* **Lease Period:** 48 Weeks.
+* **Reward:** 12 KAR for every 1 KSM contributed.
+* **Vesting:** 30% liquid upfront, 70% vest over lease period.
+* **Referral Bonus:** Referral code recipients will receive 10% additional KAR to split between referrer and referee.
+* **Eligibility:** no KYC is required, but participants must agree to Terms & Conditions where participants from certain jurisdictions are excluded
 
 ### 3.2 Ways to Participate
 
@@ -84,7 +84,7 @@ Follow the [`How to Crowdloan`](https://wiki.acala.network/karura/crowdloan/how-
 
 More partners to come...
 
-**Disclaimer: **Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.
+**Disclaimer:** Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.
 
 ### 3.3 Prepare your KSM
 

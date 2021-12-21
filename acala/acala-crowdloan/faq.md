@@ -10,11 +10,11 @@ Yes. The base ACA reward is the same regardless of how you participate.
 
 The minimum contribution depends on how you participate:&#x20;
 
-**Liquid Crowdloan Contribution: **2.1 DOT balance (1 DOT minimum contribution)
+**Liquid Crowdloan Contribution:** 2.1 DOT balance (1 DOT minimum contribution)
 
-**Direct Polkadot Contribution: **6.1 DOT balance (5 DOT minimum contribution)
+**Direct Polkadot Contribution:** 6.1 DOT balance (5 DOT minimum contribution)
 
-**Partner Wallets: **6.1 DOT balance (5 DOT minimum contribution)
+**Partner Wallets:** 6.1 DOT balance (5 DOT minimum contribution)
 
 **Exchange:** Check with your exchange’s requirements
 
@@ -92,7 +92,7 @@ Yes. Users on the waitlist that have completed Quests 1 and 2 will receive their
 
 ### How do I change the DOT address linked to my referral code?
 
-**Users on the waitlist are the only users that can change the DOT address linked to their referral code. **To change the DOT address, redo Quests 1 and 2 using your waitlist email address and the new DOT address you'd like to use for your referral link. Your new referral link will be emailed to you.
+**Users on the waitlist are the only users that can change the DOT address linked to their referral code.** To change the DOT address, redo Quests 1 and 2 using your waitlist email address and the new DOT address you'd like to use for your referral link. Your new referral link will be emailed to you.
 
 ### Can the referral codes be used for other crowdloans?
 
@@ -100,7 +100,7 @@ No.
 
 ### How do I get my 10% referral bonus?
 
-**Users that were on the waitlist and have their own referral code can earn a 10% ACA bonus. **To get your 10% ACA bonus, enter YOUR referral code to self-refer when you make YOUR crowdloan contribution. You'll receive a 5% ACA bonus as the referrer and 5% ACA bonus as referee for a total of 10% bonus on YOUR DOT contribution. Share YOUR referral code with others and receive a 5% bonus in ACA on THEIR DOT contributions.
+**Users that were on the waitlist and have their own referral code can earn a 10% ACA bonus.** To get your 10% ACA bonus, enter YOUR referral code to self-refer when you make YOUR crowdloan contribution. You'll receive a 5% ACA bonus as the referrer and 5% ACA bonus as referee for a total of 10% bonus on YOUR DOT contribution. Share YOUR referral code with others and receive a 5% bonus in ACA on THEIR DOT contributions.
 
 ### **How do I get my 5% referral bonus?**
 
