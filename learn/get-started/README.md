@@ -22,7 +22,7 @@ Mandala Test Network is a risk-free and value-free playground, purely for testin
 * [Mobile App](https://polkawallet.io/#download)
 * [Console UI](https://polkadot.js.org/apps)
 * [Telemetry](https://telemetry.polkadot.io/#list/Acala%20Mandala%20TC3)
-* [Riot Faucet](https://riot.im/app/#/room/#acala-faucet:matrix.org)
+* [Discord Faucet](https://discord.gg/eEhnhw8uav)
 
 ### Public Nodes 
 
@@ -70,15 +70,6 @@ For more details on how to create an account, see [here](https://wiki.polkadot.n
 
 ### Get Test Tokens
 
-Mandala Test Network have these test tokens available
-
-| Currency ID | Symbol | Description                                |
-| ----------- | ------ | ------------------------------------------ |
-| 0           | ACA    | Acala network token for fees, rewards etc. |
-| 1           | aUSD   | Acala USD stablecoin                       |
-| 2           | DOT    | Polkadot network token DOT                 |
-| 3           | BTC    | Bitcoin                                    |
-
 #### Use Faucet via Discord or Riot Bot
 
 The Faucet will drip maximum twice a day to a given account.
@@ -86,10 +77,6 @@ The Faucet will drip maximum twice a day to a given account.
 Use the [Acala Discord bot](https://discord.gg/Huh7F4p).
 
 ![](../../.gitbook/assets/jie-ping-20210420-shang-wu-11.03.21.png)
-
-Use the [Acala Riot Faucet Bot](https://riot.im/app/#/room/#acala-faucet:matrix.org). 
-
-![faucet](../../.gitbook/assets/started_faucet.png)
 
 ### Borrow aUSD Stablecoin
 
