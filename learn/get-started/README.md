@@ -70,7 +70,7 @@ For more details on how to create an account, see [here](https://wiki.polkadot.n
 
 ### Get Test Tokens
 
-#### Use Faucet via Discord or Riot Bot
+#### Use Faucet via Discord Bot
 
 The Faucet will drip maximum twice a day to a given account.
 
