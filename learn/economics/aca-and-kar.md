@@ -31,7 +31,7 @@ KAR is the native token of the Acala's canary network Karura. Both ACA and KAR t
 
 ### Mainnet ACAs
 
-Fixed amount of ACA \(100,000,000\) will be minted on genesis and distributed according to our [token economic plan](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Acala_Token_Economy_Paper.pdf).
+Fixed amount of ACA \(1,000,000,000\) will be minted on genesis and distributed according to our [token economic plan](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Acala_Token_Economy_Paper.pdf).
 
 Subscribe to the [Acala newsletter](https://share.hsforms.com/1X9RxkXk-R62I0VNbATaDXw4h8qc) for further updates.
 
@@ -41,7 +41,7 @@ Test ACAs are required to make transactions on the Acala Mandala Test Network. T
 
 ### Karura Tokens \(KAR\)
 
-KAR tokens also have a fixed amount of supply, and a certain amount of ACA tokens are reserved to back the value of KAR. As a canary network of Acala, Karura serves as a proving ground, for network participants and developers to build on and try out Acala's governance, stablecoin monetary policies, staking derivatives etc. with real economic incentives.
+KAR tokens also have a fixed amount of supply \(100,000,000\), and a certain amount of ACA tokens are reserved to back the value of KAR. As a canary network of Acala, Karura serves as a proving ground, for network participants and developers to build on and try out Acala's governance, stablecoin monetary policies, staking derivatives etc. with real economic incentives.
 
 ## Token Economics Overview
 

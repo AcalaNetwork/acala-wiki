@@ -125,7 +125,11 @@ Use `Extrinsics` -&gt; `honzon` -&gt; `updateVault` to withdraw collateral and/o
 * `collateral`: a negative amount means a withdraw
 * `debit`: a negative amount means paying back aUSD, again this is not aUSD amount, but a debit unit to account for aUSD owed plus accumulated interest etc. See above section for obtaining debit to aUSD exchange rate.
 
-### SDK \(Coming soon\)
+### SDK
+
+{% content-ref url="../../acala/integration/protocol-info#js-sdk" %}
+[Mandala Network](../../acala/integration/protocol-info#js-sdk)
+{% endcontent-ref %}
 
 ### Check Transaction Details
 
