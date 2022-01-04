@@ -19,7 +19,7 @@ Since genesis, Acala's network security is provided by Polkadot's Nominated Proo
 * [ ] Airdrops
 * [x] Build Acala #1
 * [x] Build Acala #2
-* [ ] Acala crowdloan
+* [x] Acala crowdloan
 * [ ] Others
 
 ## 🕵️ (WIP) Tech Verification & Runtime Upgrade&#x20;
@@ -39,15 +39,17 @@ Transfer DOT from Polkadot Relay Chain to Acala parachain and back via **xtoken*
 
 Read the how-to [here](defi-hub/inter-polkadot-transfer.md).
 
-## 🏵 Upgrade to Support LCDOT
+## 🏵 (DONE) Upgrade to Support LCDOT
 
-## 🎯 Distribute ACA & LCDOT
+* [Acala/Karura/Mandala 2.1.1](https://github.com/AcalaNetwork/Acala/releases/tag/2.1.1)
+
+## 🎯 (WIP) Distribute ACA & LCDOT
 
 Batch distribution of ACA & LCDOT to&#x20;
 
 * [ ] Airdrops to pre-ACA holders
-* [ ] Build Acala Participants
-* [ ] Crowdloan Participants via Acala Website, Polkawallet and partner exchanges.
+* [x] Build Acala Participants
+* [x] Crowdloan Participants via Acala Website, Polkawallet and partner exchanges.
 * [ ] Other round participants&#x20;
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.&#x20;
