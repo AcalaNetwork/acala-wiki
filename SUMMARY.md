@@ -201,8 +201,6 @@
         * [Tutorial](build/development-guide/smart-contracts/advanced/use-on-chain-scheduler/scheduler-tutorial.md)
       * [Use Oracle Feeds](build/development-guide/smart-contracts/advanced/use-oracle-feeds.md)
       * [Upcoming Features](build/development-guide/smart-contracts/advanced/use-flexi-fee.md)
-  * [Composable Chains](build/development-guide/composable-chains/README.md)
-    * [Open HRMP Channel](build/development-guide/composable-chains/open-hrmp-channel.md)
   * [Open-Web3-Stack & ORML](build/development-guide/open-web3-stack-and-orml.md)
   * [General](build/development-guide/general/README.md)
     * [Transaction Construction](build/development-guide/general/transaction-construction.md)
@@ -210,6 +208,11 @@
 * [Tools](build/tools.md)
 * [Resources](build/resources/README.md)
   * [Examples](build/resources/examples.md)
+
+## Integrate
+
+  * [Composable Chains](integrate/composable-chains/README.md)
+    * [Open HRMP Channel](integrate/composable-chains/open-hrmp-channel.md)
 
 ## Maintain
 
