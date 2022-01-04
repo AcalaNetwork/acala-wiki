@@ -39,7 +39,7 @@ Transfer DOT from Polkadot Relay Chain to Acala parachain and back via **xtoken*
 
 Read the how-to [here](defi-hub/inter-polkadot-transfer.md).
 
-## 🏵 (DONE) Upgrade to Support LCDOT
+## 🏵 (Done) Upgrade to Support LCDOT
 
 * [Acala/Karura/Mandala 2.1.1](https://github.com/AcalaNetwork/Acala/releases/tag/2.1.1)
 
