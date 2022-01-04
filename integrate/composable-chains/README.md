@@ -1,12 +1,12 @@
 # Composable Chains
 
-Currently, cross-chain message passing and parachains are only available on Polkadot's testnet [Rococo](https://wiki.polkadot.network/docs/en/build-parachains-rococo). Acala's testnet \(Mandala\) is now launched on Rococo, and is testing cross-chain fungible token transfers, and other functionalities.
+Currently, cross-chain message passing and parachains are only available on Polkadot's testnet [Rococo](https://wiki.polkadot.network/docs/build-pdk#rococo-testnet). Acala's testnet \(Mandala\) is now launched on Rococo, and is testing cross-chain fungible token transfers, and other functionalities.
 
-Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to be \#ComposableWith Acala!
+Please contact us in our [Discord tech chat](https://discord.gg/Xb3CxcjCVc) to be \#tech-chat
 
 ## Composable With Acala
 
-* Acala Mandala PC2 is live on Rococo [here](https://polkadot.js.org/apps/?rpc=wss://rococo-rpc.polkadot.io#/parachains)
+* Acala Mandala TC7 is live on Rococo [here](https://polkadot.js.org/apps/?rpc=wss://rococo-rpc.polkadot.io#/parachains)
 * Refer to the xtokens documentation [here](https://github.com/open-web3-stack/open-runtime-module-library/wiki/xtokens)
 
 ### Background

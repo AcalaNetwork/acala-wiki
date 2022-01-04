@@ -6,7 +6,8 @@ This guide contains the following sections:
 
 1. [Protocol Info](protocol-info.md)
 2. [Token Transfer](token-transfer.md)
-3. [Networks](networks.md)
+3. [Karura Network](networks.md)
 4. [Run a Full Node](full-node.md)
 5. [Run a Collator Node](collator.md)
+6. [Parachain Integration](../../integrate/composable-chains/README.md)
 
