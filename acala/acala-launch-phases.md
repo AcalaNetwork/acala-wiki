@@ -12,28 +12,28 @@ Since genesis, Acala's network security is provided by Polkadot's Nominated Proo
 
 **Acala parachain is available on **[**Subscan**](https://acala.subscan.io)** & **[**Polkadot App**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc-0.aca-api.network#/explorer)**.**
 
-## 🏒 (WIP) **Finalize ACA Distribution**
+## 🏒 (Done) Finalize ACA Distribution
 
 **You can view ACA distributions are available **[**here**](https://distribution.acala.network)**.**
 
-* [ ] Airdrops
+* [x] Airdrops
 * [x] Build Acala #1
 * [x] Build Acala #2
 * [x] Acala crowdloan
-* [ ] Others
+* [x] Others
 
 ## 🕵️ (WIP) Tech Verification & Runtime Upgrade&#x20;
 
 Acala will perform a set of tests and verifications to ensure the network is operational.
 
 * [ ] Collators are producing blocks as expected
-* [ ] Polkadot is verifying blocks from Acala as expected
-* [ ] Runtime upgrade to fix any issues
-* [ ] Block time is stable
-* [ ] p2p connectivity is good
-* [ ] RPC node availability is good
+* [x] Polkadot is verifying blocks from Acala as expected
+* [x] Runtime upgrade to fix any issues
+* [x] Block time is stable
+* [x] p2p connectivity is good
+* [x] RPC node availability is good
 
-## 🤹 Enable DOT Transfer from Polkadot to Acala
+## 🤹 (WIP) Enable DOT Transfer from Polkadot to Acala
 
 Transfer DOT from Polkadot Relay Chain to Acala parachain and back via **xtoken** will be enabled. However, transfer within the Acala parachain will still be disabled at this stage.
 
@@ -43,18 +43,18 @@ Read the how-to [here](defi-hub/inter-polkadot-transfer.md).
 
 * [Acala/Karura/Mandala 2.1.1](https://github.com/AcalaNetwork/Acala/releases/tag/2.1.1)
 
-## 🎯 (WIP) Distribute ACA & LCDOT
+## 🎯 (Done) Distribute ACA & LCDOT
 
 Batch distribution of ACA & LCDOT to&#x20;
 
-* [ ] Airdrops to pre-ACA holders
+* [x] Airdrops to pre-ACA holders
 * [x] Build Acala Participants
 * [x] Crowdloan Participants via Acala Website, Polkawallet and partner exchanges.
-* [ ] Other round participants&#x20;
+* [x] Other round participants&#x20;
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.&#x20;
 
-## 🎁 Claim ACA & LCDOT
+## 🎁 (WIP) Claim ACA & LCDOT
 
 **You can check whether your ACA rewards need to be claimed **[**here**](crowdloan/claim-aca.md)**.**
 
