@@ -4,7 +4,7 @@ Acala network has a phased launch plan. Keep up-to-date with the roll-out plan b
 
 **Current Phase: Win Acala Parachain Slot Auction - Acala Genesis Launch**
 
-## 🚀 (WIP) Acala Genesis - Launch
+## 🚀 (Done) Acala Genesis - Launch
 
 The Genesis block of the Acala network will be launched on 18th December, 2021, as a Proof of Authority network. Governance was restricted to a single super-user (sudo) key, which is held by the Acala Foundation to issue transactions and upgrades to resolve issues and completes the launch process.&#x20;
 
