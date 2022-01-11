@@ -12,11 +12,14 @@
 
 [https://acala.subscan.io/](https://acala.subscan.io/)
 
-### RPC Endpoints
+### WebSocket RPC Endpoints
 
-* `wss://acala.api.onfinality.io/public-ws`
-* `wss://pub.elara.patract.io/acala`
+* `wss://acala-polkadot.api.onfinality.io/public-ws`
 * `wss://acala-rpc-0.aca-api.network`
 * `wss://acala-rpc-1.aca-api.network`
 * `wss://acala-rpc-2.aca-api.network/ws`
 * `wss://acala-rpc-3.aca-api.network/ws`
+
+### HTTPS RPC Endpoints
+
+* `https://acala-polkadot.api.onfinality.io/public-rpc`
