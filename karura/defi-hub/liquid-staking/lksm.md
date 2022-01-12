@@ -28,9 +28,9 @@ The exchange rate between LKSM and the underlying KSM are likely to increase ove
 
 Note: users do need to pay for the cross-chain transaction fees incurred. When a user mints LKSM, Kusama staking rewards from the last era are deducted as the user starts to earn rewards from the next era after they stake.
 
-## APR
+## APY
 
-Currently the Annual Percentage Rate is an indicative rate based on the [average return](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/staking/targets) for Kusama validators that meet our staking strategy. Generally the Liquid Staking pool aims to balance (slashing risks) and staking reward, while able to provide early withdraw liquidity.
+The Annual Percentage Yield is an indicative rate based on the [average return](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/staking/targets) for Kusama validators that meet our staking strategy. Generally the Liquid Staking pool aims to balance (slashing risks) and staking reward, while able to provide early withdraw liquidity.
 
 ## Staking Nomination Strategy
 
