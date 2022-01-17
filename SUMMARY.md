@@ -8,6 +8,7 @@
 * [Acala Crowdloan](acala/acala-crowdloan/README.md)
   * [Crowdloan Event](acala/acala-crowdloan/crowdloan-event.md)
   * [Crowdloan Rewards](acala/acala-crowdloan/crowdloan-rewards.md)
+  * [Claim ACA](acala/acala-crowdloan/claim-aca.md)
   * [How to Crowdloan](acala/acala-crowdloan/how-to-crowdloan.md)
   * [FAQ](acala/acala-crowdloan/faq.md)
   * [Acala Quests](acala/acala-crowdloan/acala-quests/README.md)
