@@ -12,7 +12,35 @@ Navigate to the [claims website](https://distribution.acala.network/claim/acala)
 
 You’ll be required to use the extension to sign a message, but it does not cost any transaction fees. Once the process is completed, it may take up to 48 hours for distribution to be scheduled.
 
-## Option 2: Using System Remark
+## Option 2: Manual Claim
+
+Navigate to the claims website. If you did not participate in the crowdloan event with the Polkadot{js} extension, then select `Claim Manually` and enter the address you used to participate in the Acala crowdloan.
+
+There are two ways to claim:&#x20;
+
+A) Send a System Remark on Polkadot with a specific message OR&#x20;
+
+B) Use Sign and Verify to sign the specific message Below are the guides for how to use either to claim.
+
+### A) Using Sign and Verify
+
+You can go to the [Polkadot App - Developer - Sign and Verify](https://polkadot.js.org/apps/#/signing) (using either Polkadot, Kusama, or Acala are all fine). Sign and Verify merely signs the message and requires no transaction cost.&#x20;
+
+1\) You must select the same account that was used in the Acala crowdloan.&#x20;
+
+2\) In the sign the following data field, copy and paste in the required message to sign (shown on the Claim website).
+
+`I hereby agree to the terms of the statement whose SHA-256 multihash is QmeUtSuuMBAKzcfLJB2SnMfQoeifYagyWrrNhucRX1vjA8. (This may be found at the URL:` [`https://acala.network/acala/terms`](https://acala.network/acala/terms)`)`
+
+![](https://lh6.googleusercontent.com/aMJa1Yk5txJJGvhUbsjJ9i87t8WYnAo2m79Te6N4-JYFKpzGAFc8HmQMUZUd1GwxfB0dTw2e7s0195ImUK2Fian40Jkm6ZEaMWaQJvyscOwbtkNrSipTw7nPps39A8n5cbg4WxnU)
+
+3\) Sign, copy the hash and paste it back to the Claim website to complete the process.
+
+![](https://lh3.googleusercontent.com/ocKhFgo3ZHNnzI0o31FE41g7EPqWyuDvCyp5RtEckeTRcypMhhVQ6wG\_rDNHFo4OIE2QWv2F8BIzux\_XaprEi5DI4t0MtJioC\_Oly9eYKeemQLr1edyd86YxE6uFxOpk8B8p7Pux)
+
+Once the process is completed, it may take up to 48 hours for distribution to be scheduled.
+
+### B) Using System Remark
 
 If you are unable to use Sign and verify to sign the message e.g. you used a proxy account to participate or the agency (e.g. wallet) you used to participate in the crowdloan does not have a sign and verify facility, then you can send a System Remark on the Polkadot chain to claim ACA.
 
