@@ -4,7 +4,7 @@
 
 If you are unsure, you can also check to see if you need to go through the claims process by going to our [distribution website](https://distribution.acala.network). Once you enter your address, if your status is `To Be Claimed`, then you need to go through the claims process.
 
-You can access the Claim Website directly [here](https://distribution.acala.network/claim).&#x20;
+You can access the Claim Website directly [here](https://distribution.acala.network/claim/acala).&#x20;
 
 ## Option 1: Using Polkadot{js} Browser Extension
 
@@ -44,6 +44,6 @@ Click `Submit Transaction`. Note that you’ll be required to pay a small fee to
 
 ![](https://lh3.googleusercontent.com/w5pF0sy83ZpZ2-CQ\_zO742RD0pqmmSmOI\_1ab1u5ppaCQ05MQSzXVbiHTjsGy3rO1S5TjJE-L7im6dI\_t9qYPy2al9YOh68MZB5cFTSh5xFj3lJR92wA5n0L0LalPXl0Oxca2nH0)
 
-8\) Paste the Extrinsic hash back to the Claim website to complete the process.
+8\) Paste the Extrinsic hash back to the [Claim website](https://distribution.acala.network/claim/acala) to complete the process.
 
 Once the process is completed, it may take up to 48 hours for distribution to be scheduled.
