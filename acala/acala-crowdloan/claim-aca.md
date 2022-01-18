@@ -4,6 +4,8 @@
 
 If you are unsure, you can also check to see if you need to go through the claims process by going to our [distribution website](https://distribution.acala.network). Once you enter your address, if your status is `To Be Claimed`, then you need to go through the claims process.
 
+You can access the Claim Website directly [here](https://distribution.acala.network/claim).&#x20;
+
 ## Option 1: Using Polkadot{js} Browser Extension
 
 Navigate to the [claims website](https://distribution.acala.network/claim/acala). Connect your Polkadot{js} Extension, **using the same account that participated in the crowdloan event**, and follow the prompts to complete the process.
