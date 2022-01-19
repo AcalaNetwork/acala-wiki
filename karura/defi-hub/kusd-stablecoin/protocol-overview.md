@@ -10,7 +10,7 @@ The stablecoin protocol supports (technically) native Substrate tokens such as K
 
 Stablecoin since its inception to widespread popularity has proven its utility beyond speculation: they have been used in alleviating economic and political hardship, as a hedging mechanism for traders, and to release liquidity of underlying crypto assets without foregoing ownership of those assets.
 
-Users can get kUSD via [Karura Swap](../../developer-guide/swap/) or generate kUSD by depositing collaterals to a kUSD vault. kUSD supports multiple cross-chain assets as collaterals.
+Users can get kUSD via [Karura Swap](../swap/) or generate kUSD by depositing collaterals to a kUSD vault. kUSD supports multiple cross-chain assets as collaterals.
 
 These are some of the use cases for kUSD:
 
