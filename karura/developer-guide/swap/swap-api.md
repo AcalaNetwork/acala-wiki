@@ -60,7 +60,7 @@ You can check out a list of available public endpoints [here](https://wiki.acala
 
 **Full code snippet:**
 
-[dex-examples/getPolkadotApi.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getPolkadotApi.ts)
+[dex-examples/getPolkadotApi.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/utils/getPolkadotApi.ts)
 
 ## Read Only Functions \(State Queries\)
 
@@ -81,7 +81,7 @@ const symbols = !result.tokenSymbol.isNone &&
 
 **Full code snippet:**
 
-[dex-examples/getSystemParameters.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getSystemParameters.ts)
+[dex-examples/getSystemParameters.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/utils/getSystemParameters.ts)
 
 ### getLiquidity
 
@@ -190,7 +190,7 @@ const signer = keyring.addFromMnemonic('<YOUR_SEED_PHRASE>');
 
 **Full code snippet:**
 
-[dex-examples/getSigner.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/dex-examples/getSigner.ts)
+[dex-examples/getSigner.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/utils/getSigner.ts)
 
 ### swapWithExactSupply
 
