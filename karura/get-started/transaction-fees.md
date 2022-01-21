@@ -1,6 +1,6 @@
 # Transaction Fees
 
-**🔔 Karura allows fees to be paid in any supported token.** However once transfer is enabled, there will be a period of time transaction fees are required to be paid in the native token $KAR, until KSM/KAR, kUSD/KAR and other [Karura Swap](../defi-hub/swap/) pools are bootstrapped, then KSM, kUSD and other tokens can be used to pay transaction fees.
+**🔔 Karura allows fees to be paid in any supported token.** However once transfer is enabled, there will be a period of time transaction fees are required to be paid in the native token $KAR, until KSM/KAR, kUSD/KAR and other [Karura Swap](../developer-guide/swap/) pools are bootstrapped, then KSM, kUSD and other tokens can be used to pay transaction fees.
 
 Transaction fees are used to prevent users from consuming too much limited resources of the blockchain, such as storage and computation power. Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispatch.&#x20;
 

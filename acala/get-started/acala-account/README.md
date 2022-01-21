@@ -51,17 +51,17 @@ Before the network is live, and during the initial launch period, below is the o
 
 The browser plugin is available for both [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) (and Chromium based browsers like Brave) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension). Download the plugins [here](https://polkadot.js.org/extension/).
 
-![](../../.gitbook/assets/screen-shot-2021-05-14-at-4.49.27-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-14-at-4.49.27-pm.png)
 
 ### Create Account
 
 Open the Polkadot{.js} browser extension by clicking the logo on the top bar of your browser. You will see a browser popup not unlike the one below
 
-![](../../.gitbook/assets/screen-shot-2021-05-14-at-4.52.43-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-14-at-4.52.43-pm.png)
 
 Click the big plus button or select "Create new account" from the small plus icon in the top right. The Polkadot{.js} plugin will then use system randomness to make a new seed for you and display it to you in the form of twelve words.
 
-![](../../.gitbook/assets/screen-shot-2021-05-14-at-4.53.46-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-14-at-4.53.46-pm.png)
 
 You should back up these words as [explained here](https://wiki.polkadot.network/docs/en/learn-account-generation#storing-your-key-safely). It is imperative to store the seed somewhere safe, secret, and secure. If you cannot access your account via Polkadot{.js} for some reason, you can re-enter your seed through the "Add account menu" by selecting "Import account from pre-existing seed".
 
@@ -71,7 +71,7 @@ The account name is arbitrary and for your use only. The password will be used t
 
 Note that this password does NOT protect your seed phrase. If someone knows the twelve words in your mnemonic seed, they still have control over your account even if they do not know the password.
 
-![](../../.gitbook/assets/screen-shot-2021-05-14-at-4.54.44-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-14-at-4.54.44-pm.png)
 
 ### Set Address for Acala Mainnet
 
@@ -83,7 +83,7 @@ Click on "Options" at the top-right corner of the plugin window, and under "Disp
 
 You can copy your address by clicking on the account's icon.
 
-![](../../.gitbook/assets/screen-shot-2021-05-14-at-4.58.59-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-14-at-4.58.59-pm.png)
 
 ### Set Address for Karura Mainnet
 
@@ -93,7 +93,7 @@ Click on "Options" at the top-right corner of the plugin window, and under "Disp
 
 You can copy your address by clicking on the account's icon.
 
-![](../../.gitbook/assets/screen-shot-2021-06-08-at-2.27.20-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-06-08-at-2.27.20-pm.png)
 
 ### Set Address for Polkadot Mainnet
 
@@ -103,7 +103,7 @@ Click on "Options" at the top-right corner of the plugin window, and under "Disp
 
 You can copy your address by clicking on the account's icon.
 
-![](../../.gitbook/assets/screen-shot-2021-05-16-at-9.45.59-am.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-16-at-9.45.59-am.png)
 
 ### Set Address for Kusama Mainnet
 
@@ -113,7 +113,7 @@ Click on "Options" at the top of the plugin window, and under "Display address f
 
 You can copy your address by clicking on the account's icon.
 
-![](../../.gitbook/assets/screen-shot-2021-05-16-at-9.46.09-am.png)
+![](../../../.gitbook/assets/screen-shot-2021-05-16-at-9.46.09-am.png)
 
 ### Convert Address for different chain formats
 

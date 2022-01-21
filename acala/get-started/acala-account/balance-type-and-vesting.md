@@ -14,17 +14,17 @@ On Acala there are the following steps balance types
 
 Go to the, [Polkadot App - Acala Parachain - Accounts section](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc-2.aca-api.network%2Fws#/accounts) and expand the balance of your account. If there's a vested (locked) balance, it will be displayed.
 
-![](<../../.gitbook/assets/locked tokens wiki.png>)
+![](<../../../.gitbook/assets/locked tokens wiki.png>)
 
 Go to the `Developer - Extrinsics` section, use the account that you want to claim the vested balance. Select `vesting` then `claim()` in the `submit the following extrinsics` filed, then click the `Submit Transaction` button to complete the process.
 
-![](../../.gitbook/assets/claim.png)
+![](../../../.gitbook/assets/claim.png)
 
 ### Check Vesting
 
 Go to the `Developer - Chain state` section, select `vesting` then `vestingSchedules()` , then select your account, then click the `+` button to see what vesting schedule it has.
 
-![](<../../.gitbook/assets/vesting schedule.png>)
+![](<../../../.gitbook/assets/vesting schedule.png>)
 
 Below is an example result
 
