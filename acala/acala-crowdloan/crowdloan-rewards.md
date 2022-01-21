@@ -42,19 +42,19 @@ Rewards to be distributed are all recorded on the [Distribution Website](https:/
 
 ### Checking on Polkadot.js.org
 
-Go to your Polkadot.js **extension** and make sure it is set to `allow use on any chain`.
+1\) Go to your Polkadot.js **extension** and make sure it is set to `allow use on any chain`.
 
 ![](<../../.gitbook/assets/Allow use on any chain.png>)
 
-Go to [Polkadot JS Apps](https://polkadot.js.org/apps/#/explorer) and connect to the Acala network. You can do this by clicking on the dropdown box in the upper left hand corner (shown below).
+2\) Go to [Polkadot JS Apps](https://polkadot.js.org/apps/#/explorer) and connect to the Acala network. You can do this by clicking on the dropdown box in the upper left hand corner (shown below).
 
 ![](<../../.gitbook/assets/Toggle for Acala.png>)
 
-Select an Acala node (any is fine) and click `Switch`.
+3\) Select an Acala node (any is fine) and click `Switch`.
 
 ![](<../../.gitbook/assets/Select Acala.png>)
 
-Select `Accounts`. You should see your ACA amount. Note that some of your balance will be locked. This amount will unlock over the 96 week parachain lease.
+4\) Select `Accounts`. You should see your ACA amount. Note that some of your balance will be locked. This amount will unlock over the 96 week parachain lease.
 
 ![](<../../.gitbook/assets/ACA in polkadot.js.png>)
 
