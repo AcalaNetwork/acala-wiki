@@ -6,7 +6,7 @@ This document covers the basics of Acala, Karura, Polkadot and Kusama account ad
 
 Acala and Karura use the Substrate-based chain address format SS58. Read more [here](https://wiki.polkadot.network/docs/en/learn-accounts).
 
-* Acala addresses always start with the number 2.
+* Acala addresses usually but not always start with the number 2.
 * Karura addresses could start with a small letter like l, r, p, q, o...
 * Polkadot addresses always start with the number 1.
 * Kusama addresses always start with a capital letter like C, D, F, G, H, J...
@@ -30,14 +30,15 @@ ED applies to all supported token accounts, and each type of token account e.g. 
 Any transactions that change the balance of a particular token e.g. swap, then you shall be aware of its ED requirement. Here's the list of ED requirements for currently available tokens on Karura:
 
 * ACA ED: 0.1 ACA
-* aUSD ED: 0.01 kUSD
-* DOT ED: 1 DOT
-* LDOT ED: 1 LDOT
+* aUSD ED: 0.1 aUSD
+* DOT ED: 0.01 DOT
+* LDOT ED: 0.05 LDOT
 
 You can verify the existential deposit of ACA by checking the chain state for the constant `balances.existentialDeposit`
 
-([Source code](https://github.com/AcalaNetwork/Acala/blob/37e6036536d9be46ee1576568df7c8cbf1db1d11/primitives/src/currency.rs#L175-L191))\
-**(**[Dev Doc](https://github.com/AcalaNetwork/Acala/wiki/A.-Existential-Deposit))
+([ED Runtime Code](https://github.com/AcalaNetwork/Acala/blob/35078ea2b2d0e3a3937a075c54d94c77faea2f36/runtime/acala/src/lib.rs#L752-L754))
+
+([ED SDK](https://github.com/AcalaNetwork/acala.js/blob/master/packages/sdk-wallet/src/utils/get-existential-deposit-config.ts))
 
 ## Account Generation&#x20;
 
