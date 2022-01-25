@@ -22,4 +22,4 @@
 
 ![](<../../../.gitbook/assets/Claim Vested js.png>)
 
-6\) You can return to the accounts page. Your vested tokens are now transferrable.
+6\) You can return to the accounts page. Your transferrable balance should have increased. If you still have tokens that need to vest, you will continue to see them as `locked.`
