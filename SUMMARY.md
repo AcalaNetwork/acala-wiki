@@ -23,7 +23,6 @@
   * [Acala Assets](acala/get-started/acala-assets.md)
   * [Acala Account](acala/get-started/acala-account/README.md)
     * [Balance Type and Vesting](acala/get-started/acala-account/balance-type-and-vesting.md)
-    * [Claiming Vested ACA](acala/get-started/acala-account/claiming-vested-aca.md)
     * [Check Address for Different Chains](acala/get-started/acala-account/check-addr.md)
   * [Governance](acala/get-started/governance/README.md)
     * [Overview](acala/get-started/governance/overview.md)
