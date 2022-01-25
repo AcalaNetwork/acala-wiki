@@ -34,6 +34,14 @@ Go to the `Developer - Extrinsics` section, use the account that you want to cla
 
 ![](../../../.gitbook/assets/claim.png)
 
+### Claiming Vested ACA for Other Accounts
+
+Users can also claim vested ACA for other accounts by going to the `Developer - Extrinsics` section. Select the account you'd like to use to initiate the claim for `using the selected account`. Submit the `vesting` then `claimFor(dest)` extrinsic and the account you'd like to claim for (shown at bottom of screenshot).
+
+Note that submitting this transaction only makes the vested tokens transferrable. It does not transfer them to the account that initiates the claim.
+
+![](<../../../.gitbook/assets/Screen Shot 2022-01-25 at 6.53.34 PM.png>)
+
 ### Check Vesting
 
 Go to the `Developer - Chain state` section, select `vesting` then `vestingSchedules()` , then select your account, then click the `+` button to see what vesting schedule it has.
@@ -57,3 +65,4 @@ Below is an example result
   }
 ]
 ```
+
