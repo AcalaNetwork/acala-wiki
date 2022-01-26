@@ -18,24 +18,24 @@ The evolution of the Acala Network will be marked by trilogy networks:
 
 Mandala Test Network is a risk-free and value-free playground, purely for testing out functionalities and "explosive" experiments. There is no network value nor rewards. You can obtain test tokens to test drive various functionalities.
 
-* [Web DApp](https://apps.acala.network)
-* [Mobile App](https://polkawallet.io/#download)
+* [Web DApp](https://apps.mandala.acala.network)
+* [Mobile App](https://polkawallet.io)
 * [Console UI](https://polkadot.js.org/apps)
 * [Telemetry](https://telemetry.polkadot.io/#list/Acala%20Mandala%20TC3)
 * [Discord Faucet](https://discord.gg/eEhnhw8uav)
 
-### Public Nodes 
+### Public Nodes
 
 {% content-ref url="../../mandala/networks.md" %}
-[Mandala Network](../../mandala/networks.md)
+[networks.md](../../mandala/networks.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../karura/integration/networks.md" %}
-[Karura Network](../../karura/integration/networks.md)
+[networks.md](../../karura/integration/networks.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../acala/integration/networks.md" %}
-[Acala Network](../../acala/integration/networks.md)
+[networks.md](../../acala/integration/networks.md)
 {% endcontent-ref %}
 
 ### Create a Polkadot Account
@@ -53,17 +53,17 @@ There are a number of ways you can generate an account. For most users, we recom
 
 For more details on how to create an account, see [here](https://wiki.polkadot.network/docs/en/learn-account-generation#polkadotjs-browser-plugin).
 
-![](../../.gitbook/assets/started_extension.png)
+![](../../.gitbook/assets/started\_extension.png)
 
 #### Using Polkadot UI
 
 1. Open [the Console UI](https://polkadot.js.org/apps/#/accounts) and navigate to accounts, ensure it is Mandala Test Network
 
- 2\. Click on `Add Account`, put in a `name`, a `password`, and keep the default cryptography option `Schnorrkel (sr25519)`
+2\. Click on `Add Account`, put in a `name`, a `password`, and keep the default cryptography option `Schnorrkel (sr25519)`
 
-![Polkadot UI](../../.gitbook/assets/started_ui.png)
+![Polkadot UI](../../.gitbook/assets/started\_ui.png)
 
-![create](../../.gitbook/assets/started_createacc.png)
+![create](../../.gitbook/assets/started\_createacc.png)
 
 1. Click `Save`, and backup the account in a safe place
 2. Click on the icon of the account to copy the address
