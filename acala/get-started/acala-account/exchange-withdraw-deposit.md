@@ -2,7 +2,7 @@
 
 #### DOT **withdraw/deposit to/from Acala network** <a href="#dot-withdrawdeposit" id="dot-withdrawdeposit"></a>
 
-⚠️ **Exchanges do NOT currently support direct withdraw/deposit DOT to/from Acala network.** Please do NOT transfer DOT to an exchange address on Acala App. We will list the Exchanges support them as they become available.
+⚠️ **Exchanges do NOT currently support direct withdraw/deposit DOT to/from Acala network.** Please do NOT transfer DOT to an exchange address on Acala App. We will list the exchanges support them as they become available.
 
 #### ACA Withdraw/Deposit <a href="#aca-withdrawdeposit" id="aca-withdrawdeposit"></a>
 
