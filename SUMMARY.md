@@ -22,6 +22,7 @@
 * [Get Started](acala/get-started/README.md)
   * [Acala Assets](acala/get-started/acala-assets.md)
   * [Acala Account](acala/get-started/acala-account/README.md)
+    * [Exchange Withdraw/Deposit](acala/get-started/acala-account/exchange-withdraw-deposit.md)
     * [Balance Type and Vesting](acala/get-started/acala-account/balance-type-and-vesting.md)
     * [Check Address for Different Chains](acala/get-started/acala-account/check-addr.md)
   * [Governance](acala/get-started/governance/README.md)
