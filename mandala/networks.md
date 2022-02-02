@@ -23,3 +23,34 @@
 ### Faucet
 
 * [On Discord in the #acala-testnet-faucet Channel](https://discord.gg/eEhnhw8uav)
+
+### Metamask
+
+  * Network Name: `Mandala Test Network`
+  * New RPC URL: `https://tc7-eth.aca-dev.network`
+  * Chain ID: `595`
+  * Symbol: `ACA`
+
+### Truffle
+
+```
+  mandala: {
+    provider: () => new HDWalletProvider(process.env.MNEMONIC, 'https://tc7-eth.aca-dev.network'),
+    network_id: 595,
+    gasPrice: 200786445289,
+    gas: 42032000,
+  },
+```
+
+### Hardhat
+
+```
+  mandala: {
+    url: 'https://tc7-eth.aca-dev.network',
+    chainId: 595,
+    accounts: {
+      mnemonic: process.env.MNEMONIC,
+      path: "m/44'/60'/0'/0",
+    },
+  }
+```

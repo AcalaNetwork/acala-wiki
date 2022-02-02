@@ -2,7 +2,7 @@
 
 Welcome to the builders section of the Acala wiki.
 
-Here you will be able to find the most up-to-date information on the status of the development tools in the Acala ecosystem. We are always adding new tools and frameworks as we learn about them so if you are working on something that should be included please reach out to us on [Riot](https://riot.im/app/#/room/#acala:matrix.org).
+Here you will be able to find the most up-to-date information on the status of the development tools in the Acala ecosystem. We are always adding new tools and frameworks as we learn about them so if you are working on something that should be included please reach out to us on [Discord](https://discord.gg/vdbFVCH).
 
 This section of the wiki is divided into the following parts:
 
