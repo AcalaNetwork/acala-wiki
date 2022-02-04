@@ -4,7 +4,8 @@
 
 ## Acala
 
-* [Acala Launch Phases](acala/acala-launch-phases.md)
+* [Acala Launch Phases](acala/acala-launch-phases/README.md)
+  * [Early Adopter Program](acala/acala-launch-phases/early-adopter-program.md)
 * [Acala Crowdloan](acala/acala-crowdloan/README.md)
   * [Crowdloan Event](acala/acala-crowdloan/crowdloan-event.md)
   * [Crowdloan Rewards](acala/acala-crowdloan/crowdloan-rewards.md)
