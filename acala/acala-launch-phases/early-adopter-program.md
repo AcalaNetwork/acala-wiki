@@ -1,6 +1,6 @@
 # Early Adopter Program
 
-## About Early Adopter Program&#x20;
+## About the Early Adopter Program&#x20;
 
 As laid out in our [launch roadmap](https://acala.notion.site/d1ce5e03f5354bc0be8fcf3c18b6e5b6?v=af1ff9fa66aa4dce851da0e429ed51ca), Acala is enabling each component of its new financial infrastructure in a phased approach. A blockchain platform can’t launch in a single-day event, so the Early Adopter program is meant to give the most advanced Acala users the opportunity to gain experience with Acala while the platform gets enabled. Since the platform is not completely enabled in the Early Adopter phase, users should anticipate some user experience difficulties (see disclaimers below). However, these difficulties will be resolved once all components are enabled and Acala fully launches.
 
