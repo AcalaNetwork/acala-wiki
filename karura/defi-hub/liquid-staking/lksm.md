@@ -16,7 +16,10 @@ Currently reward and exchange rate update is once a day.
 
 ## Redeeming
 
-Due to limitation of XCM implementation, currently redemption request is queued, matched with minting request and then batched sent across to Kusama for unbounding. This may result in varied unbounding period. LKSM v2 that is currently under development, will streamline the XCM cross-chain operation, result in more efficient unbounding.
+Stakers have two options when redeeming the underlying asset
+
+1. **Unstake normally:** staker waits for a pre-defined unbounding period (29 days for Polkadot, 7 days and 6 hours for Kusama) before receiving the underlying asset and staking yield earned
+2. **Unstake instantly:** Homa protocol allows you to unstake instantly and receive early liquidity without waiting for the unbounding period. This is powered by a staking request queue and Acalaswap pool. A fee will be incurred when staker choose this option.
 
 ## Tokenized Staked KSM: LKSM
 
@@ -36,7 +39,7 @@ The Annual Percentage Yield is an indicative rate based on the [average return](
 
 The initial nomination strategies are as follows:
 
-* With an on-chain identity&#x20;
+* With an on-chain identity
 * No slash history
 * Validator history on Kusama / Polkadot
 * Commission Rate
