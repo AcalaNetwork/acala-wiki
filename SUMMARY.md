@@ -4,7 +4,7 @@
 
 ## Acala
 
-* [Acala Launch Phases](acala/acala-launch-phases/README.md)
+* [Acala Launch Phases](acala/acala-launch-phases.md)
   * [Early Adopter Program](acala/acala-launch-phases/early-adopter-program.md)
 * [Acala Crowdloan](acala/acala-crowdloan/README.md)
   * [Crowdloan Event](acala/acala-crowdloan/crowdloan-event.md)
@@ -26,7 +26,7 @@
     * [Exchange Withdraw/Deposit](acala/get-started/acala-account/exchange-withdraw-deposit.md)
     * [Balance Type and Vesting](acala/get-started/acala-account/balance-type-and-vesting.md)
     * [Check Address for Different Chains](acala/get-started/acala-account/check-addr.md)
-  * [Acala Bridge](acala/get-started/acala-bridge.md)
+  * [Acala's DOT Bridge](acala/get-started/acalas-dot-bridge.md)
   * [Governance](acala/get-started/governance/README.md)
     * [Overview](acala/get-started/governance/overview.md)
     * [Participate in Democracy](acala/get-started/governance/participate-in-democracy.md)

@@ -37,7 +37,7 @@ Acala will perform a set of tests and verifications to ensure the network is ope
 
 Transfer DOT from Polkadot Relay Chain to Acala parachain and back via **xtoken** will be enabled. However, transfer within the Acala parachain will still be disabled at this stage.
 
-Read the how-to [here](../defi-hub/inter-polkadot-transfer.md).
+Read the how-to [here](defi-hub/inter-polkadot-transfer.md).
 
 ## 🏵 (WIP) Upgrade to Support LCDOT
 
@@ -54,7 +54,7 @@ If you have participated via exchanges or custodial agencies, the rewards will b
 
 ## 🎁 (WIP) Claim ACA & LCDOT
 
-**You can check whether your ACA rewards need to be claimed** [**here**](../crowdloan/claim-aca.md)**.**
+**You can check whether your ACA rewards need to be claimed** [**here**](crowdloan/claim-aca.md)**.**
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.
 
@@ -68,7 +68,7 @@ If you participated in Acala\*\* **crowdloan via the** \*\*Polkadot web app dire
 
 After the chain has been running stably with the collator set, the sudo key will perform a runtime upgrade and enable appointed Councilors and democracy. Other councils including Financial Council, Technical Council, and Liquid Staking Council, as well as public referenda will also be enabled.
 
-Read more [here](../get-started/governance/participate-in-democracy.md).
+Read more [here](get-started/governance/participate-in-democracy.md).
 
 ## 🗳️ (WIP) Enable Democracy
 
