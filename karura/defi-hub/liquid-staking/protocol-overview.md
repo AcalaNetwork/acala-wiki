@@ -10,7 +10,7 @@ Karura’s Liquid Staking protocol is to solve the **illiquidity challenge of st
 
 ## Rollout roadmap
 
-### Phase #1 (We are here)
+### Phase #1&#x20;
 
 * (✅) Minting LKSM
 * (✅) Proxy staking is used before XCM-enabled fully autonomous staking is ready
@@ -18,14 +18,13 @@ Karura’s Liquid Staking protocol is to solve the **illiquidity challenge of st
 * (✅) LKSM as collateral for kUSD
 * (✅) LKSM pools
 
-### Phase #2
+### Phase #2 (We are here)
 
 * (✅)Redemption is available
-* LKSM v2 is under development - XCM-enabled autonomous staking/unstaking
-* Indicative voting on Validator selection
+* (✅)LKSM v2 is under development - XCM-enabled autonomous staking/unstaking
+* (✅)Lift staking cap
 
 ### Phase #3
 
 * Enable XCM-powered autonomous cross-chain staking
 * On-chain voting on Validator selection
-* Validator slash insurance
