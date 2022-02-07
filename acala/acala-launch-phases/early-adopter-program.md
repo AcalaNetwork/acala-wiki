@@ -67,4 +67,4 @@ Yes. All users will need ACA on Acala to pay for gas fees.
 
 ### When will I get my NFT?
 
-The NFT will be distributed at the end of the program. You can sign up for updates on the claims process here.
+The NFT will be distributed at the end of the program. You can sign up for updates on your NFT qualification status [here](https://acala.network/early-adopters).
