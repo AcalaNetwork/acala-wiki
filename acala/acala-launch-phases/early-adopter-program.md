@@ -4,7 +4,7 @@
 
 As laid out in our [launch roadmap](https://acala.notion.site/d1ce5e03f5354bc0be8fcf3c18b6e5b6?v=af1ff9fa66aa4dce851da0e429ed51ca), Acala is enabling each component of its new financial infrastructure in a phased approach. A blockchain platform can’t launch in a single-day event, so the Early Adopter program is meant to give the most advanced Acala users the opportunity to gain experience with Acala while the platform gets enabled. Since the platform is not completely enabled in the Early Adopter phase, users should anticipate some user experience difficulties (see disclaimers below). However, these difficulties will be resolved once all components are enabled and Acala fully launches.
 
-Users who try Acala as part of the Early Adopter program will be rewarded with an exclusive NFT if they meet certain criteria. For updates on the Early Adopter program click [here](https://acala.network/early-adopters). See the details below for how to qualify to receive the NFT.
+Users who try Acala as part of the Early Adopter program will be rewarded with an exclusive NFT if they meet certain criteria. For updates on the Early Adopter program go to [https://acala.network/early-adopters](https://acala.network/early-adopters). See the details below for how to qualify to receive the NFT.
 
 It is important to note, **individuals who decide to participate in the Early Adopter program should be aware there are some disclaimers involved.** Please read below for additional information.
 
