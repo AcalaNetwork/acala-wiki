@@ -16,12 +16,14 @@ description: Stablecoin Protocol - Honzon
     * [Create a Self Serviced Loan for aUSD](https://wiki.acala.network/learn/basics/honzon-stablecoin#create-a-self-serviced-loan-for-ausd)
     * [Check Loan Status](https://wiki.acala.network/learn/basics/honzon-stablecoin#check-loan-status)
     * [Withdraw Residual Collateral & Payback Loan](https://wiki.acala.network/learn/basics/honzon-stablecoin#withdraw-residual-collateral-and-payback-loan)
-  * [SDK \(Coming soon\)](https://wiki.acala.network/learn/basics/honzon-stablecoin#sdk-coming-soon)
+  * [SDK (Coming soon)](https://wiki.acala.network/learn/basics/honzon-stablecoin#sdk-coming-soon)
   * [Check Transaction Details](https://wiki.acala.network/learn/basics/honzon-stablecoin#check-transaction-details)
 
 ## Overview
 
 The Honzon Protocol is a set of mechanisms to manage aUSD loans with multiple collaterals, monitor and adjust stability of aUSD based on various risk parameters such as collateral ratio, interest rates, debt level etc. We outline a user guide per below to use the Honzon protocol.
+
+**⭐️ Integrating aUSD**: If you are a developer, team, or organization looking to integrate the aUSD stablecoin into your technology, you can [contact](https://aca.la/build-with-Acala) the Acala core team to schedule time to discuss the integration.
 
 ## Honzon on Mandala Test Network
 
@@ -37,13 +39,13 @@ The guide below will illustrate the following functionalities
 
 Mandala Test Network available test tokens
 
-| Currency ID | Symbol | Description |
-| :--- | :--- | :--- |
-| 0 | ACA | Acala network token for fees, rewards etc. |
-| 1 | aUSD | Acala USD stablecoin |
-| 2 | DOT | Polkadot network token DOT |
-| 3 | XBTC | ChainX bridged Bitcoin |
-| 4 | LDOT | Liquid DOT accounts for DOT and staking reward |
+| Currency ID | Symbol | Description                                    |
+| ----------- | ------ | ---------------------------------------------- |
+| 0           | ACA    | Acala network token for fees, rewards etc.     |
+| 1           | aUSD   | Acala USD stablecoin                           |
+| 2           | DOT    | Polkadot network token DOT                     |
+| 3           | XBTC   | ChainX bridged Bitcoin                         |
+| 4           | LDOT   | Liquid DOT accounts for DOT and staking reward |
 
 ### Via Acala DApp
 
@@ -57,50 +59,50 @@ Check important figures for a particular loan:
 * `liquidation ratio`: if the collateral ratio of a loan is below this ratio, then the loan is unsafe
 * `liquidation penalty`: it is applied on top of the debit amount and paid to the liquidator.
 * `current ratio`: current collateral ratio
-* `required ratio`: required collateral ratio for borrowing \(additional\) aUSD, this is usually higher than `liquidation ratio` to maintain a safety vault
+* `required ratio`: required collateral ratio for borrowing (additional) aUSD, this is usually higher than `liquidation ratio` to maintain a safety vault
 * `interest rate`: annualized interest rate for the loan, this is indicative of course, as rates are calculated each block
 
 #### Create Loan
 
-![](../../.gitbook/assets/create_loan.png)
+![](../../.gitbook/assets/create\_loan.png)
 
-Click the `Create Loan` button, follow the prompt to select a collateral type, and the amount of aUSD to generate. [Create Loan Video](http://www.youtube.com/watch?v=CjwJgm_yz-I)
+Click the `Create Loan` button, follow the prompt to select a collateral type, and the amount of aUSD to generate. [Create Loan Video](http://www.youtube.com/watch?v=CjwJgm\_yz-I)
 
 #### Update Loan
 
 ![](../../.gitbook/assets/screen-shot-2020-12-16-at-11.35.42-am.png)
 
-For the aUSD borrowed, you can pay back, and generate more if there is enough collateral. For the collateral asset, you can deposit more \(but not immediately generate aUSD\), or withdraw available collateral. [Update Loan Video](http://www.youtube.com/watch?v=iEWlY5Kosp8)
+For the aUSD borrowed, you can pay back, and generate more if there is enough collateral. For the collateral asset, you can deposit more (but not immediately generate aUSD), or withdraw available collateral. [Update Loan Video](http://www.youtube.com/watch?v=iEWlY5Kosp8)
 
 ### Via Polkadot UI
 
 #### Check Required Collateral Ratio
 
-Use `Chain state` -&gt; `cdpEngine` -&gt; `requiredCollateralRatio` to check required collateral ratio for a given token.
+Use `Chain state` -> `cdpEngine` -> `requiredCollateralRatio` to check required collateral ratio for a given token.
 
-![collateral ratio](../../.gitbook/assets/honzon_checkratio.png)
+![collateral ratio](../../.gitbook/assets/honzon\_checkratio.png)
 
 On `Mandala Test Network`, DOT at 160%, and BTC at 150%.
 
 #### Check Token Prices
 
-Use `Chain state` -&gt; `oracle` -&gt; `values` to check price for a given token. Convert the hex value to number.
+Use `Chain state` -> `oracle` -> `values` to check price for a given token. Convert the hex value to number.
 
-![check price](../../.gitbook/assets/honzon_checkprice.png)
+![check price](../../.gitbook/assets/honzon\_checkprice.png)
 
 #### Create a Self Serviced Loan for aUSD
 
-Use `Extrinsics` -&gt; `honzon` -&gt; `updateVault` to loan out aUSD.
+Use `Extrinsics` -> `honzon` -> `updateVault` to loan out aUSD.
 
-![create loan](../../.gitbook/assets/honzon_createloan.png)
+![create loan](../../.gitbook/assets/honzon\_createloan.png)
 
 * `currency_id`: asset used as collateral
 * `collateral`: amount to deposit as collateral for this loan
 * `debit`: the amount to loan out, note this is not aUSD amount, but a debit unit to account for aUSD owed plus accumulated interest etc.
 
-To get debit to aUSD exchange rate, use `Chain state` -&gt; `cdpEngine` -&gt; `debitExchangeRate`. On `Mandala Test Network`, the debit to aUSD exchange rate starts at `0.1`.
+To get debit to aUSD exchange rate, use `Chain state` -> `cdpEngine` -> `debitExchangeRate`. On `Mandala Test Network`, the debit to aUSD exchange rate starts at `0.1`.
 
-![debit rate](../../.gitbook/assets/honzon_checkdebitrate.png)
+![debit rate](../../.gitbook/assets/honzon\_checkdebitrate.png)
 
 As for the above aUSD example
 
@@ -110,28 +112,31 @@ As for the above aUSD example
 
 #### Check Loan Status
 
-Use `Chain state` -&gt; `loan` -&gt; `collaterals` to check collaterals locked in the loan.
+Use `Chain state` -> `loan` -> `collaterals` to check collaterals locked in the loan.
 
-![Check Loan](../../.gitbook/assets/honzon_checkloan.png)
+![Check Loan](../../.gitbook/assets/honzon\_checkloan.png)
 
-Use `Chain state` -&gt; `loan` -&gt; `debits` to check amount owing, again this is not aUSD amount, but a debit unit to account for aUSD owed plus accumulated interest etc. See above section for obtaining debit to aUSD exchange rate.
+Use `Chain state` -> `loan` -> `debits` to check amount owing, again this is not aUSD amount, but a debit unit to account for aUSD owed plus accumulated interest etc. See above section for obtaining debit to aUSD exchange rate.
 
 #### Withdraw Residual Collateral & Payback Loan
 
-Use `Extrinsics` -&gt; `honzon` -&gt; `updateVault` to withdraw collateral and/or payback aUSD loan.
+Use `Extrinsics` -> `honzon` -> `updateVault` to withdraw collateral and/or payback aUSD loan.
 
-![Withdraw Payback](../../.gitbook/assets/honzon_withdrawpayback.png)
+![Withdraw Payback](../../.gitbook/assets/honzon\_withdrawpayback.png)
 
 * `collateral`: a negative amount means a withdraw
 * `debit`: a negative amount means paying back aUSD, again this is not aUSD amount, but a debit unit to account for aUSD owed plus accumulated interest etc. See above section for obtaining debit to aUSD exchange rate.
 
-### SDK \(Coming soon\)
+### SDK (Coming soon)
 
 ### Check Transaction Details
 
-For `Mandala Test Network`, you can use [Polkascan](https://polkascan.io/pre/acala-mandal) and [Subscan](https://acala-testnet.subscan.io/) to check transaction details, and perform various queries.
+For `Mandala Test Network`, you can use [Polkascan](https://polkascan.io/pre/acala-mandal) and [Subscan](https://acala-testnet.subscan.io) to check transaction details, and perform various queries.
 
-![polkascan](../../.gitbook/assets/honzon_polkascan.png)
+![polkascan](../../.gitbook/assets/honzon\_polkascan.png)
 
 ![Subscan](../../.gitbook/assets/subscan.png)
 
+### **Integrate your parachain or DApp with aUSD** <a href="#f2a5" id="f2a5"></a>
+
+If you are a developer, team, or organization looking to integrate the aUSD stablecoin into your technology, you can [**contact the Acala core team**](https://aca.la/build-with-Acala) to schedule time to discuss the integration.
