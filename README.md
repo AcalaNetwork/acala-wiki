@@ -13,7 +13,7 @@ If you're looking for an introduction to Acala please [go here](https://wiki.aca
 
 ### Want to get started?
 
-* [Get Started with the live Karura network](networks/home/get-started/).
+* [Get Started with the live Karura network](get-started/get-started/).
 * [Get Started](https://wiki.acala.network/learn/get-started) with the testnet - Try the test network.
 * [Acala Portal](https://wiki.acala.network/general/acala-portal) - **Quick navigation in order to learn Acala.**
 

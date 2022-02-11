@@ -28,9 +28,9 @@ Karura supports different types of tokens than Kusama, and allows various ways t
 
 Query chain state to get token balances.
 
-### Native token \(KAR\) balances
+### Native token (KAR) balances
 
-Query `system` module to get native token \(KAR\) balances data.
+Query `system` module to get native token (KAR) balances data.
 
 #### system.account
 
@@ -61,18 +61,18 @@ For non-native tokens, like KSM, LKSM, kUSD, query `tokens` module to get balanc
 
 #### currencies.transfer
 
-* [https://karura.subscan.io/extrinsic?module=Currencies&call=transfer](https://karura.subscan.io/extrinsic?module=Currencies&call=transfer)
+* [https://karura.subscan.io/extrinsic?module=Currencies\&call=transfer](https://karura.subscan.io/extrinsic?module=Currencies\&call=transfer)
 * This can be used to send any supported tokens in the network, including KAR, KSM, LKSM, kUSD etc.
 
 #### currencies.transferNativeCurrency
 
-* [https://karura.subscan.io/extrinsic?module=Currencies&call=transfer\_native\_currency](https://karura.subscan.io/extrinsic?module=Currencies&call=transfer_native_currency)
-* This can be used to send native token \(KAR\). It has slightly cheaper transaction fees compare to currencies.transfer
+* [https://karura.subscan.io/extrinsic?module=Currencies\&call=transfer\_native\_currency](https://karura.subscan.io/extrinsic?module=Currencies\&call=transfer\_native\_currency)
+* This can be used to send native token (KAR). It has slightly cheaper transaction fees compare to currencies.transfer
 
 #### balances.transfer
 
-* [https://karura.subscan.io/extrinsic?module=Balances&call=transfer](https://karura.subscan.io/extrinsic?module=Balances&call=transfer)
-* Same as `currencies.transferNativeCurrency`, only for native token \(KAR\).
+* [https://karura.subscan.io/extrinsic?module=Balances\&call=transfer](https://karura.subscan.io/extrinsic?module=Balances\&call=transfer)
+* Same as `currencies.transferNativeCurrency`, only for native token (KAR).
 * Compatible with Polkadot / Kusama and most other Substrate-based chains.
 
 ## Receive Tokens
@@ -85,34 +85,34 @@ There are multiple ways to detect incoming balance transfers:
 
 ### Monitor Events
 
-Monitoring events is a recommended way to track incoming balance transfers. It can handle **ALL** types of transfer transactions including the one that is not initiated by a transaction directly \(e.g. delayed proxy\).
+Monitoring events is a recommended way to track incoming balance transfers. It can handle **ALL** types of transfer transactions including the one that is not initiated by a transaction directly (e.g. delayed proxy).
 
 #### balances.transfer
 
-* [https://karura.subscan.io/event?module=Balances&event=Transfer](https://karura.subscan.io/event?module=Balances&event=Transfer)
-* Emitted when a native token \(KAR\) transfer happened.
+* [https://karura.subscan.io/event?module=Balances\&event=Transfer](https://karura.subscan.io/event?module=Balances\&event=Transfer)
+* Emitted when a native token (KAR) transfer happened.
 
 #### currencies.transfer
 
-* [https://karura.subscan.io/event?module=Currencies&event=Transferred](https://karura.subscan.io/event?module=Currencies&event=Transferred)
+* [https://karura.subscan.io/event?module=Currencies\&event=Transferred](https://karura.subscan.io/event?module=Currencies\&event=Transferred)
 * Emitted when a token transfer happened.
 * NOTE: This is not emitted when balances.transfer is used to make a transfer.
 
 #### currencies.deposit
 
-* [https://karura.subscan.io/event?module=Currencies&event=Deposited](https://karura.subscan.io/event?module=Currencies&event=Deposited)
+* [https://karura.subscan.io/event?module=Currencies\&event=Deposited](https://karura.subscan.io/event?module=Currencies\&event=Deposited)
 * Emitted when a token is minted to an account. This could happen when it is a cross-chain transfer or it is a transaction minting stablecoins.
-  * For cross-chain transfer, there would be `ExecutedDownward` event along with the deposit. [https://karura.subscan.io/event?address=&module=dmpqueue&event=executeddownward](https://karura.subscan.io/event?address=&module=dmpqueue&event=executeddownward)
+  * For cross-chain transfer, there would be `ExecutedDownward` event along with the deposit. [https://karura.subscan.io/event?address=\&module=dmpqueue\&event=executeddownward](https://karura.subscan.io/event?address=\&module=dmpqueue\&event=executeddownward)
 
 #### xtokens.transferred
 
-* [https://karura.subscan.io/event?address=&module=xtokens&event=transferred](https://karura.subscan.io/event?address=&module=xtokens&event=transferred)
+* [https://karura.subscan.io/event?address=\&module=xtokens\&event=transferred](https://karura.subscan.io/event?address=\&module=xtokens\&event=transferred)
 * Emitted when a cross-chain transfer happened from Karura to other chains.
 * Triggered by `xtokens.transfer` extrinsic.
 
 #### xtokens.transferredmultiasset
 
-* [https://karura.subscan.io/event?address=&module=xtokens&event=transferredmultiasset](https://karura.subscan.io/event?address=&module=xtokens&event=transferredmultiasset)
+* [https://karura.subscan.io/event?address=\&module=xtokens\&event=transferredmultiasset](https://karura.subscan.io/event?address=\&module=xtokens\&event=transferredmultiasset)
 * Emitted when a cross-chain transfer happened from Karura to other chains.
 * Triggered by `xtokens.transfer_multiasset` extrinsic.
 
@@ -129,7 +129,7 @@ Refer to Send Tokens section for direct transfer transactions. In additional, to
 
 #### utility.batch
 
-* [https://karura.subscan.io/extrinsic?module=Utility&call=batch](https://karura.subscan.io/extrinsic?module=Utility&call=batch)
+* [https://karura.subscan.io/extrinsic?module=Utility\&call=batch](https://karura.subscan.io/extrinsic?module=Utility\&call=batch)
 * This can be used to send batch transaction
 * NOTE: batched transactions will always emit success events.
   * `utility.BatchCompleted` event indicates that all transactions are successful
@@ -137,8 +137,7 @@ Refer to Send Tokens section for direct transfer transactions. In additional, to
 
 #### utility.batchAll
 
-* [https://karura.subscan.io/extrinsic?module=Utility&call=batch\_all](https://karura.subscan.io/extrinsic?module=Utility&call=batch_all)
+* [https://karura.subscan.io/extrinsic?module=Utility\&call=batch\_all](https://karura.subscan.io/extrinsic?module=Utility\&call=batch\_all)
 * This is similar to utility.batch but will revert all transactions upon failed transaction.
 
 ## [Transfer Code Samples](https://github.com/AcalaNetwork/acala-js-example/blob/21a3be3538260cc8a047856bf163dad75de1db3a/src/transfer-examples/readme.md)
-

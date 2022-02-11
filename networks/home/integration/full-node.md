@@ -23,9 +23,9 @@ Same as the Kusama full node requirements.
 * Because there are two node services are running, `--` is used to split the CLI. Arguments before `--` are passed to the parachain full-node service and arguments after `--` is passed to the Relay Chain full-node service.
   * For example `--chain=parachain.json --ws-port=9944 -- --chain=relaychain.json --ws-port=9945` means
     * The parachain service is using `parachain.json` as the chain spec and the web socket RPC port is 9944
-    * The Relay Chain service is using `relaychain.json` as the chain spec and the web socket
+    *   The Relay Chain service is using `relaychain.json` as the chain spec and the web socket
 
-      RPC port is 9945
+        RPC port is 9945
 * It is recommended to explicitly specify the ports for both services to avoid confusion
   * For example `--listen-addr=/ip4/0.0.0.0/tcp/30333 --listen-addr=/ip4/0.0.0.0/tcp/30334/ws -- --listen-addr=/ip4/0.0.0.0/tcp/30335 --listen-addr=/ip4/0.0.0.0/tcp/30336/ws`
 * It is recommended to add `--execution=wasm` for parachain service to avoid syncing issues.
@@ -34,7 +34,7 @@ Same as the Kusama full node requirements.
 
 ### Archive PRC Node
 
-```text
+```
 --base-path=/acala/data
 --chain=karura
 --name=rpc-1
@@ -49,4 +49,3 @@ Same as the Kusama full node requirements.
 --
 --chain=kusama
 ```
-

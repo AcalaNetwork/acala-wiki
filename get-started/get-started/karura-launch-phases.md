@@ -36,7 +36,7 @@ Karura will perform a set of tests and verifications to ensure the network is op
 
 Transfer KSM from Kusama Relay Chain to Karura parachain and back via **xtoken** will be enabled. However, transfer within the Karura parachain will still be disabled at this stage.
 
-Read the how-to [here](get-started/inter-kusama-transfer.md).
+Read the how-to [here](inter-kusama-transfer.md).
 
 ## 🎯 (Done) Distribute KAR
 
@@ -51,7 +51,7 @@ If you have participated via exchanges or custodial agencies, the rewards will b
 
 ## 🎁 (WIP) Claim KAR
 
-**You can check whether your KAR rewards need to be claimed** [**here**](crowdloan/claim-kar.md)**.**
+**You can check whether your KAR rewards need to be claimed** [**here**](../../networks/home/crowdloan/claim-kar.md)**.**
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.&#x20;
 

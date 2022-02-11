@@ -28,7 +28,7 @@ ED of native token KAR is configured in the runtime. Non-native tokens (KSM, kUS
 
 `transfer` and `deposit` in `pallet_balances` and `orml_tokens` will check the ED of the receiver account. A transaction may fail due to not meeting ED requirements, a typical one would be a user is swapping token A for token B, where token A balance no longer meets ED requirements. A front-end DApp shall perform checks and prompt user for such incidents.
 
-Read more on ED [here](../../networks/home/get-started/karura-account/#existential-deposit).
+Read more on ED [here](../../../get-started/get-started/karura-account/#existential-deposit).
 
 ## Protocol Fees
 

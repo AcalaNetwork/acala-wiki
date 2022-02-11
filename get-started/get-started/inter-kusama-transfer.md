@@ -8,8 +8,8 @@ Karura is an experimental network, or a 'canary network', for Acala. It's an ear
 
 KSM is the native token of Kusama. It is used as the fee token, staking token to provide network security and governance token on the Kusama Relay chain. The launch of Karura's parachain unlocks new use cases for KSM:
 
-* Participate in trustless trading with other tokens via [Karura Swap](../developer-guide/swap/)
-* Use as liquidity for KSM-based trading pairs in Karura Swap, use KSM to power the KAR/KSM pair (learn about becoming a liquidity provider & risks involved [here](../developer-guide/swap/)). This will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
+* Participate in trustless trading with other tokens via [Karura Swap](broken-reference)
+* Use as liquidity for KSM-based trading pairs in Karura Swap, use KSM to power the KAR/KSM pair (learn about becoming a liquidity provider & risks involved [here](broken-reference)). This will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
 * Use as a collateral asset to mint the kUSD stablecoin, which can then be used for leveraged trades and other use cases.
 * Stake in Karura's Liquid KSM staking pool to mint LKSM, which can then be used as collaterals, transferred, or traded.
   * LKSM is a programmable staking asset as the building block for many other protocols and applications
@@ -31,7 +31,7 @@ Use the [Karura App](https://apps.karura.network/portfolio), go to `Cross Chain`
 
 Select `Kusama` as the `From Chain`, and `Karura` as the `To Chain`. Your KSM balance (on Kusama) shall be displayed then. Then select the `To Account`, which can be the current account that you logged in to the Karura App.&#x20;
 
-![](<../../../.gitbook/assets/screen-shot-2021-07-14-at-9.58.12-pm (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (1) (3).png>)
+![](<../../.gitbook/assets/screen-shot-2021-07-14-at-9.58.12-pm (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (1) (3).png>)
 
 There are two parts to the transaction fees (read more on fees [here](transaction-fees.md))
 
@@ -48,7 +48,7 @@ There are two transactions involved, one was on Kusama sending the KSM to parach
 
 Go to the [Kusama Subscan Explorer](https://kusama.subscan.io), search with your Kusama account, and you shall see the relevant `xcmpallet` transaction in the Extrinsics table.
 
-![](../../../.gitbook/assets/screen-shot-2021-07-14-at-10.08.45-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-07-14-at-10.08.45-pm.png)
 
 **On Karura Side**
 
@@ -62,7 +62,7 @@ Use the [Karura App](https://apps.karura.network/portfolio), goto `Cross Chain` 
 
 Select `Karura` as the `From Chain`, and `Kusama` as the `To Chain`. Your KSM balance (on Karura) shall be displayed then. Then select the `To Account`, which can be the current account that you logged in to the Karura App. Make sure your account is set as `Allow use on any chain` on the Polkadot{js} extension.
 
-![](<../../../.gitbook/assets/karura-to-kusama (1) (1) (1).png>)
+![](<../../.gitbook/assets/karura-to-kusama (1) (1) (1).png>)
 
 There are two parts to the transaction fee (read more on fees [here](transaction-fees.md))
 
