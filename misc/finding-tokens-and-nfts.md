@@ -40,7 +40,7 @@ When the Karura Crowdloan occurs, users can also recommend others to participate
   * Click `Developer` -> `Chain state`  -> `Airdrop` -> `airdrop`
   * It will show you the airDrop Balance like the image below:
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 
 
