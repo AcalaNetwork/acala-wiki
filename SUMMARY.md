@@ -4,6 +4,7 @@
 
 ## Acala
 
+* [Acala Network](acala/acala-network.md)
 * [Acala Launch Phases](acala/acala-launch-phases.md)
   * [Early Adopter Program](acala/acala-launch-phases/early-adopter-program.md)
 * [Acala Crowdloan](acala/acala-crowdloan/README.md)
@@ -40,7 +41,7 @@
 
 ## Karura
 
-* [Home](karura/home.md)
+* [Karura Network](karura/home.md)
 * [Community & Social Media](https://linktr.ee/karuranetwork)
 * [Karura Launch Phases](karura/karura-launch-phases.md)
 * [Karura Crowdloan](karura/crowdloan/README.md)
@@ -118,7 +119,7 @@
 
 ## Mandala
 
-* [Home](mandala/home.md)
+* [Mandala Testnet](mandala/home.md)
 * [Manada Test Network](mandala/networks.md)
 
 ## General
@@ -148,24 +149,25 @@
   * [Try Acala DApp](general/acala-hacker-guide/try-acala-dapp.md)
 * [Contribution & Rewards](general/contribution-rewards/README.md)
   * [Acala Old Friend NFT](general/contribution-rewards/acala-old-friend-nft.md)
+* [DeFi Basics](general/basics/README.md)
+  * [Acala Account](general/basics/acala-account.md)
+  * [aUSD Stablecoin](general/basics/ausd-stablecoin.md)
+  * [DeX](general/basics/dex/README.md)
+    * [Provide Liquidity](general/basics/dex/provide-liquidity.md)
+  * [Auctions](general/basics/auctions/README.md)
+    * [Liquidation & Emergency Shutdown](general/basics/auctions/liquidation-and-emergency-shutdown.md)
+  * [Liquid DOT](general/basics/liquid-dot.md)
+  * [Open Oracle Gateway](general/basics/oracle/README.md)
+    * [Oracle on Mandala Testnet](general/basics/oracle/oracle-guide-for-mandala-test-network.md)
+  * [Cross Chain DeFi](general/basics/cross-chain-defi.md)
 
 ## Learn
 
-* [Acala Introduction](learn/acala-introduction.md)
-* [Trilogy Networks](learn/trilogy-networks.md)
+* [LEARN](learn/learn/README.md)
+  * [Acala Introduction](learn/learn/acala-introduction.md)
+  * [Trilogy Networks](learn/learn/trilogy-networks.md)
+  * [Governance](learn/learn/governance-overview.md)
 * [Get Started](learn/get-started/README.md)
-* [DeFi Basics](learn/basics/README.md)
-  * [Acala Account](learn/basics/acala-account.md)
-  * [aUSD Stablecoin](learn/basics/ausd-stablecoin.md)
-  * [DeX](learn/basics/dex/README.md)
-    * [Provide Liquidity](learn/basics/dex/provide-liquidity.md)
-  * [Auctions](learn/basics/auctions/README.md)
-    * [Liquidation & Emergency Shutdown](learn/basics/auctions/liquidation-and-emergency-shutdown.md)
-  * [Liquid DOT](learn/basics/liquid-dot.md)
-  * [Open Oracle Gateway](learn/basics/oracle/README.md)
-    * [Oracle on Mandala Testnet](learn/basics/oracle/oracle-guide-for-mandala-test-network.md)
-  * [Cross Chain DeFi](learn/basics/cross-chain-defi.md)
-  * [Governance](learn/basics/governance-overview.md)
 * [Acala EVM](learn/acala-evm/README.md)
   * [Why Acala EVM](learn/acala-evm/why-acala-evm.md)
   * [Existing Solutions](learn/acala-evm/existing-solutions.md)
