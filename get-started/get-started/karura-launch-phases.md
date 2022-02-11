@@ -51,7 +51,7 @@ If you have participated via exchanges or custodial agencies, the rewards will b
 
 ## 🎁 (WIP) Claim KAR
 
-**You can check whether your KAR rewards need to be claimed** [**here**](../../crowdloans/crowdloan/claim-kar.md)**.**
+**You can check whether your KAR rewards need to be claimed** [**here**](../../networks/home/crowdloan/claim-kar.md)**.**
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.&#x20;
 
