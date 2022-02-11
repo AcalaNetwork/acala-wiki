@@ -46,13 +46,3 @@ Please use best practices when engaging with community-managed channels. Keep in
 **Discord**
 
 [Acala+  (Unofficial)](https://discord.gg/MGPNchpkV2)
-
-## Acala Ecosystem&#x20;
-
-Looking to build on our networks, discuss integrations, or get in contact with the team?&#x20;
-
-Acala Ecosystem projects may participate in any number of ways including using and integrating Acala's technologies and products such as aUSD stablecoin, staking derivative Liquid DOT, providing liveness (validation), oracle or other services to Acala network, and/or other forms of collaboration mutually agreed upon. Ecosystem projects will enjoy first-line support from the Acala team, technical collaboration, have opportunities to partake in product promotion/incentive programs, and co-marketing etc.
-
-There are multiple ways you can build with Acala: deploying smart contracts on the Acala Network, developing runtime modules on Acala, or integrating as a parachain. Find out more on how to get started, visit [Build with Acala](https://wiki.acala.network/build/builders-portal).
-
-Join the [Acala Ecosystem Program](https://share.hsforms.com/1fgY6nspDShuyea2-WYyZxg4h8qc).
