@@ -8,7 +8,7 @@ Most of the KAR rewards for Karura crowdloan event and Build Acala #1  have been
 * on [Karura Subscan explorer](https://karura.subscan.io)
 * If you participated via exchanges, all participated exchange rewards have been distributed to them, so please contact them directly
 
-If your rewards are marked as `To be Claimed`, please [follow the guide here](../../networks/home/crowdloan/claim-kar.md) to claim.
+If your rewards are marked as `To be Claimed`, please [follow the guide here](../../crowdloans/crowdloan/claim-kar.md) to claim.
 
 ## Check on Polkadot Apps
 
