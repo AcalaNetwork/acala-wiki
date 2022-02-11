@@ -106,6 +106,7 @@
   * [Set up an Oracle](general/guides/set-up-an-oracle/README.md)
     * [Oracle on Mandala Testnet](learn/basics/oracle/oracle-guide-for-mandala-test-network.md)
   * [Node Interaction](maintain/network-maintainers/node-interaction.md)
+  * [Run a Liquidation Bot](general/guides/run-a-liquidation-bot.md)
 * [Acala Portal](general/acala-portal/README.md)
   * [General Links](general/acala-portal/general-links.md)
   * [Community](general/acala-portal/community.md)
