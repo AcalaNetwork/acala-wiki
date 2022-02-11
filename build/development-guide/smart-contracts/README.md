@@ -1,10 +1,14 @@
 # Smart Contracts
 
-{% page-ref page="get-started-evm/" %}
+{% content-ref url="get-started-evm/" %}
+[get-started-evm](get-started-evm/)
+{% endcontent-ref %}
 
-{% page-ref page="advanced/" %}
+{% content-ref url="advanced/" %}
+[advanced](advanced/)
+{% endcontent-ref %}
 
-{% page-ref page="../../../learn/acala-evm/" %}
-
-
+{% content-ref url="../../../learn/learn/acala-evm/" %}
+[acala-evm](../../../learn/learn/acala-evm/)
+{% endcontent-ref %}
 

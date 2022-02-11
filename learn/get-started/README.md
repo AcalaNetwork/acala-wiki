@@ -34,8 +34,8 @@ Mandala Test Network is a risk-free and value-free playground, purely for testin
 [networks.md](../../karura/integration/networks.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../acala/integration/networks.md" %}
-[networks.md](../../acala/integration/networks.md)
+{% content-ref url="../../acala/acala-network/integration/networks.md" %}
+[networks.md](../../acala/acala-network/integration/networks.md)
 {% endcontent-ref %}
 
 ### Create a Polkadot Account

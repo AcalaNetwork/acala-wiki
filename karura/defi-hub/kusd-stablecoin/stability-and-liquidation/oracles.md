@@ -1,6 +1,6 @@
 # Oracles
 
-The Acala Oracle powered by the [Open Oracle Gateway](../../../../general/basics/oracle/) is used to feed real-time market price information to the stablecoin protocol.&#x20;
+The Acala Oracle powered by the [Open Oracle Gateway](../../../../learn/basics/oracle/) is used to feed real-time market price information to the stablecoin protocol.&#x20;
 
 * The Acala Oracle operates a network of oracle node operators, it aggregates a number of external price feeds and provides a medianized reference price
 * The adding and removal of whitelisted operators is managed via governance

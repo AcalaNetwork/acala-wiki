@@ -1,4 +1,4 @@
-# Home
+# Mandala Testnet
 
 Mandala is the test network for Acala. As an test network with no economic value, Mandala is a proving ground for protocol upgrades and a place to experiment with new DeFi protocols and on-chain governance.
 
@@ -22,6 +22,6 @@ Find all social channels [here](https://linktr.ee/Acalanetwork).
 
 ## Usefull Links
 
-* [Create Account](../acala/get-started/acala-account/)
+* [Create Account](../acala/acala-network/get-started/acala-account/)
 * [Acala Introduction](../learn/acala-introduction/)
 * [Builder's Portal](../build/builders-portal/)

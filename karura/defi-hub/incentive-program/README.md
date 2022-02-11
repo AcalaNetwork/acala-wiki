@@ -39,7 +39,7 @@ Learn how to cross KSM from Kusama to Karura [here](https://wiki.acala.network/k
 
 #### 1. Become a liquidity provider
 
-By supplying liquidity to a trading pair, you own LP tokens and earn trading fees. Learn about liquidity providers [here](../../../general/basics/dex/provide-liquidity.md).
+By supplying liquidity to a trading pair, you own LP tokens and earn trading fees. Learn about liquidity providers [here](../../../learn/basics/dex/provide-liquidity.md).
 
 Add liquidity [here](https://apps.karura.network/swap/liquidity).
 
