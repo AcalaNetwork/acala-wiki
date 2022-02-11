@@ -61,7 +61,7 @@ If you participated in Karura **** crowdloan via the **** Polkadot web app direc
 
 After the chain has been running stably with the collator set, the sudo key will perform a runtime upgrade and enable appointed Councilors and democracy. Other councils including Financial Council, Technical Council, and Liquid Staking Council, as well as public referenda will also be enabled. &#x20;
 
-Read more [here](get-started/governance/participate-in-democracy.md).
+Read more [here](../../learn/governance-overview/participate-in-democracy.md).
 
 ## 💥 (Done) Remove Sudo
 

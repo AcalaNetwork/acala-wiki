@@ -22,7 +22,7 @@ These are rough estimates of typical relevant transactions:
 
 Note: these are estimates and will be changed based on actual transaction size, network conditions and other factors.
 
-For now, all transaction fees go to the Karura Treasury - a tiny contribution to a sustainable future. Read more [here](treasury.md).
+For now, all transaction fees go to the Karura Treasury - a tiny contribution to a sustainable future. Read more [here](broken-reference).
 
 ### Fee Adjustment <a href="#fee-adjustment" id="fee-adjustment"></a>
 

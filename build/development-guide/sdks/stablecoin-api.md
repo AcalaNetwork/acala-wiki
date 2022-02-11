@@ -1,8 +1,6 @@
-# Stablecoin
+# Acala Stablecoin
 
-Karura Dollar \(kUSD\) stablecoin protocol is a dynamic decentralized system that allows users to autonomously generate kUSD stablecoin \(stabilized against the US Dollar\) using crypto assets in excess of value as collateral.
-
-To interact with Karura from Javascript you can use `@polkadot/api` along with `@acala-network/api`. You can learn more about `@polkadot/api` \[here\]. \([https://polkadot.js.org/docs/api](https://polkadot.js.org/docs/api)\).
+To interact with Acala or Karura from Javascript you can use `@polkadot/api` along with `@acala-network/api`. You can learn more about `@polkadot/api` \[here]. ([https://polkadot.js.org/docs/api](https://polkadot.js.org/docs/api)).
 
 We do also provide a [Stablecoin SDK](https://github.com/AcalaNetwork/acala.js/tree/master/packages/sdk-loan) which provides more some automation around stablecoins.
 
@@ -10,7 +8,7 @@ We do also provide a [Stablecoin SDK](https://github.com/AcalaNetwork/acala.js/t
 
 [https://github.com/AcalaNetwork/Acala/tree/master/modules/honzon](https://github.com/AcalaNetwork/Acala/tree/master/modules/honzon)
 
-## Read-Only Functions \(State queries\)
+## Read-Only Functions (State queries)
 
 These functions only read information from the chain, and thus don't require signing transactions with a private key. Read more about state queries here: [State queries docs](https://polkadot.js.org/docs/api/start/api.query)
 
@@ -18,7 +16,7 @@ These functions only read information from the chain, and thus don't require sig
 
 Returns amount of `collateral` and amount of minted stablecoin as `debit` for specific collateral type and account.
 
-> Note :warning: `debit` reflects the only amount of minted kUSD. The amount of debt is higher as it includes accumulated interest. To calculate the total amount to payback you need to use `debitExchangeRate` parameter \(the example for fetching `debitExchangeRate` is shown below\).
+> Note :warning: `debit` reflects the only amount of minted kUSD. The amount of debt is higher as it includes accumulated interest. To calculate the total amount to payback you need to use `debitExchangeRate` parameter (the example for fetching `debitExchangeRate` is shown below).
 
 ```typescript
 positions(currencyId: CurrencyId, accountId: AccountId):
@@ -27,10 +25,10 @@ positions(currencyId: CurrencyId, accountId: AccountId):
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
-| currencyId | CurrencyId | collateral currency Id |
-| accountId | AccountId | account to fetch vaults for, can be passed as string |
+| Name       | Type       |                                                      |
+| ---------- | ---------- | ---------------------------------------------------- |
+| currencyId | CurrencyId | collateral currency Id                               |
+| accountId  | AccountId  | account to fetch vaults for, can be passed as string |
 
 Example:
 
@@ -57,8 +55,8 @@ totalPositions(currencyId: CurrencyId):
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
+| Name       | Type       |                                               |
+| ---------- | ---------- | --------------------------------------------- |
 | currencyId | CurrencyId | identificator for currency used as collateral |
 
 Example:
@@ -92,23 +90,23 @@ collateralParams(currencyId: CurrencyId):
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
+| Name       | Type       |                                               |
+| ---------- | ---------- | --------------------------------------------- |
 | currencyId | CurrencyId | identificator for currency used as collateral |
 
 **Return values**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
-| maximumTotalDebitValue | Number | maximum amount of KUSD that can be borrowed for one vault |
-| interestRatePerSec | Percent | the percentage of borrowed kUSD to be paid each next block. This amount should be added to `globalInterestRatePerSec` to calculate the debt |
-| liquidationRatio | Percent | collateral ratio \(collateral value / debt value\) reaching which the vault gets liquidated |
-| liquidationPenalty | Percent | penalty that is charged from the vault if the vault gets liquidated |
-| requiredCollateralRatio | Percent | Minimum collateral ratio till which user can borrow kUSD |
+| Name                    | Type    |                                                                                                                                             |
+| ----------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| maximumTotalDebitValue  | Number  | maximum amount of KUSD that can be borrowed for one vault                                                                                   |
+| interestRatePerSec      | Percent | the percentage of borrowed kUSD to be paid each next block. This amount should be added to `globalInterestRatePerSec` to calculate the debt |
+| liquidationRatio        | Percent | collateral ratio (collateral value / debt value) reaching which the vault gets liquidated                                                   |
+| liquidationPenalty      | Percent | penalty that is charged from the vault if the vault gets liquidated                                                                         |
+| requiredCollateralRatio | Percent | Minimum collateral ratio till which user can borrow kUSD                                                                                    |
 
 Example:
 
-```typestript
+```
     const result = await api.query.cdpEngine.collateralParams({ 
       TOKEN: "KSM" 
     });
@@ -130,13 +128,13 @@ debitExchangeRate(currencyId: CurrencyId):
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
+| Name       | Type       |                                               |
+| ---------- | ---------- | --------------------------------------------- |
 | currencyId | CurrencyId | identificator for currency used as collateral |
 
 Example:
 
-```text
+```
   const result = await api.query.cdpEngine.debitExchangeRate.at(
       '<BLOCK_HASH'
       { TOKEN: "KSM" }
@@ -162,11 +160,11 @@ adjustLoan(currency_id: CurrencyId, collateral_adjustment: Number, debit_adjustm
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
-| currencyId | CurrencyId | collateral CurrencyId |
-| collateral\_adjustment | Signed Amount | positive means to deposit collateral currency into Vault, negative means withdraw collateral currency from the Vault |
-| debit\_adjustment | Signed Amount | positive means to mint some amount of stablecoin to the caller; negative means that caller will pay back stablecoin to the Vault |
+| Name                   | Type          |                                                                                                                                  |
+| ---------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| currencyId             | CurrencyId    | collateral CurrencyId                                                                                                            |
+| collateral\_adjustment | Signed Amount | positive means to deposit collateral currency into Vault, negative means withdraw collateral currency from the Vault             |
+| debit\_adjustment      | Signed Amount | positive means to mint some amount of stablecoin to the caller; negative means that caller will pay back stablecoin to the Vault |
 
 Example
 
@@ -192,7 +190,7 @@ Example
 
 ### Grants permission for transferring loan
 
-Sets permission to transfer caller's loan to another Account \(`to`\).
+Sets permission to transfer caller's loan to another Account (`to`).
 
 ```typescript
 authorize(curencyId: CurrencyId, to: AccountId): Extrinsic
@@ -202,10 +200,10 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
-| currencyId | CurrencyId | collateral CurrencyId |
-| to | AccountId | sets permission to transfer loan for this accountId |
+| Name       | Type       |                                                     |
+| ---------- | ---------- | --------------------------------------------------- |
+| currencyId | CurrencyId | collateral CurrencyId                               |
+| to         | AccountId  | sets permission to transfer loan for this accountId |
 
 **Example**:
 
@@ -225,7 +223,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 ### Removes permission for transferring loan
 
-Removes permission to transfer caller's loan to another Account \(`to`\). This method can be used to decline previously given permission.
+Removes permission to transfer caller's loan to another Account (`to`). This method can be used to decline previously given permission.
 
 ```typescript
 unauthorize(curencyId: CurrencyId, to: AccountId): Extrinsic
@@ -235,10 +233,10 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
-| currencyId | CurrencyId | collateral CurrencyId |
-| to | AccountId | removes permission to transfer loan for this accountId |
+| Name       | Type       |                                                        |
+| ---------- | ---------- | ------------------------------------------------------ |
+| currencyId | CurrencyId | collateral CurrencyId                                  |
+| to         | AccountId  | removes permission to transfer loan for this accountId |
 
 **Example**:
 
@@ -256,7 +254,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 Removes permission to transfer caller's vault to ALL accounts for all Collateral types. This method can be used to decline previously given permission.
 
-```text
+```
 unauthorizeAll(): Extrinsic
 ```
 
@@ -272,9 +270,9 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 ### Transfering Vault to another account
 
-Transfers Vault to the caller's account if it has permissions \(if `authorize` was called previously by `from` account\).
+Transfers Vault to the caller's account if it has permissions (if `authorize` was called previously by `from` account).
 
-```text
+```
 transferLoanFrom(currency_id, from): Extrinsic
 ```
 
@@ -282,10 +280,10 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
-| currencyId | CurrencyId | collateral CurrencyId |
-| from | AccountId | transfers collateral from this account to the caller |
+| Name       | Type       |                                                      |
+| ---------- | ---------- | ---------------------------------------------------- |
+| currencyId | CurrencyId | collateral CurrencyId                                |
+| from       | AccountId  | transfers collateral from this account to the caller |
 
 **Example**:
 
@@ -301,7 +299,7 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 ### Closing caller's Vault by swapping collateral in DeX
 
-This action can be done with `adjustLoan`, but there is a shortcut created for this purpose which is applied only to safe vaults \(where the collateral ratio is above liquidation level\) and where the debt amount is positive.
+This action can be done with `adjustLoan`, but there is a shortcut created for this purpose which is applied only to safe vaults (where the collateral ratio is above liquidation level) and where the debt amount is positive.
 
 This method closes the caller's Vault by selling a sufficient amount of collateral on Karura Dex.
 
@@ -317,11 +315,11 @@ Returns `Extrinsic` type that should be signed with a private key.
 
 **Arguments**
 
-| Name | Type |  |
-| :--- | :--- | :--- |
-| currencyId | CurrencyId | collateral CurrencyId |
-| max\_collateral\_amount | number | the maximum collateral that's allowed to be swapped in DeX to pay back the Vault |
-| maybe\_path | CurrencyId\[\] | swap path that can be used for swapping collateral for kUSD in DeX |
+| Name                    | Type          |                                                                                  |
+| ----------------------- | ------------- | -------------------------------------------------------------------------------- |
+| currencyId              | CurrencyId    | collateral CurrencyId                                                            |
+| max\_collateral\_amount | number        | the maximum collateral that's allowed to be swapped in DeX to pay back the Vault |
+| maybe\_path             | CurrencyId\[] | swap path that can be used for swapping collateral for kUSD in DeX               |
 
 **Example**:
 
@@ -339,4 +337,3 @@ Returns `Extrinsic` type that should be signed with a private key.
 #### Full code snippet:
 
 [loan-examples/close-vault-with-dex.ts](https://github.com/AcalaNetwork/acala-js-example/blob/master/src/loan-examples/close-vault-with-dex.ts)
-

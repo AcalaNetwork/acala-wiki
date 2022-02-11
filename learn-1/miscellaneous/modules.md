@@ -18,20 +18,20 @@ description: Introduction of the Acala modules.
 
 Generally all three types of auctions follow similar formats except `debt auction` has a preset auction end time while the other two are open ended:
 
-* new bid price needs to be &gt;= `old bid` + `target price` \* `minimum increment` \(`minimum increment` as percentage\) e.g. old bid = $5, target price = $100, min. increment = 5%, then new bid price needs to be &gt;= $10
+* new bid price needs to be >= `old bid` + `target price` \* `minimum increment` (`minimum increment` as percentage) e.g. old bid = $5, target price = $100, min. increment = 5%, then new bid price needs to be >= $10
 * if bid price exceeds `target price`, a reverse auction starts
-* if no more new bids, the auction will last till `the last bid time` + `AuctionTimeToClose` \(in block number\)
-* if the auction goes on, and exceeds the `AuctionDurationSoftCap` \(also in block number\), then every new bid's `AuctionTimeToClose` will be halved, `minimum increment` doubled to speed up the auction
+* if no more new bids, the auction will last till `the last bid time` + `AuctionTimeToClose` (in block number)
+* if the auction goes on, and exceeds the `AuctionDurationSoftCap` (also in block number), then every new bid's `AuctionTimeToClose` will be halved, `minimum increment` doubled to speed up the auction
 
 ### [cdp\_engine](https://github.com/AcalaNetwork/Acala/tree/master/modules/cdp-engine)
 
 `cdp_engine` manages automated liquidation and collateral settlement via off-chain worker, and a set of risk parameters - `stability fee`, `liquidation ratio`, `liquidation penalty`, `required collateral ratio` and `maximum total debit value`.
 
-**`stability fee`** or interest rate charged for aUSD loans are collected every block. aUSD owned plus accumulated stability fee / interest is recorded as `debit units`, the debit exchange rate is updated every block. The [`DebitExchangeRateConvertor`](https://github.com/AcalaNetwork/Acala/blob/master/modules/cdp-engine/src/debit_exchange_rate_convertor.rs) to calculate how much aUSD is owed. Fees collected are added to the `cdp_treasury` surplus pool.
+**`stability fee`** or interest rate charged for aUSD loans are collected every block. aUSD owned plus accumulated stability fee / interest is recorded as `debit units`, the debit exchange rate is updated every block. The [`DebitExchangeRateConvertor`](https://github.com/AcalaNetwork/Acala/blob/master/modules/cdp-engine/src/debit\_exchange\_rate\_convertor.rs) to calculate how much aUSD is owed. Fees collected are added to the `cdp_treasury` surplus pool.
 
 **`Offchain Worker`** is run at the end of every block. Only one `Offchain Worker` is run at a time by acquiring a lock before the job and releasing it after the job.
 
-* Automated liquidation: the `Offchain Worker` would iterate through all loans and liquidate those that are `unsafe`, that is current collateral ratio is below the `liquidation ratio`. It will firstly obtain aUSD directly from the DeX given acceptable slippage, otherwise it will create collateral auction to pay back outstanding debt remain. 
+* Automated liquidation: the `Offchain Worker` would iterate through all loans and liquidate those that are `unsafe`, that is current collateral ratio is below the `liquidation ratio`. It will firstly obtain aUSD directly from the DeX given acceptable slippage, otherwise it will create collateral auction to pay back outstanding debt remain.
 * Collateral settlement: during emergency shutdown, settle all loans by collecting collaterals into `cdp_treasury` and clear debt balance.
 
 ### [cdp\_treasury](https://github.com/AcalaNetwork/Acala/tree/master/modules/cdp-treasury)
@@ -62,11 +62,11 @@ During auctions, once there's an accepted bid, the amount of surplus, debit or c
 
 `emergency_shutdown` - locks price for collaterals, stops opening new loans, stops all auctions, settles outstanding loans, return remaining collaterals to owners.
 
-Note: a collateral asset can be `shut down` individually, not via the `emergency_shutdown` module, but via setting `set_global_params` in the `cdp_engine` module, to cap the `maximum_total_debit_value` \(debt ceiling\) to stop new loans being opened, and raise `liquidation_ratio` gradually to settle outstanding loans.
+Note: a collateral asset can be `shut down` individually, not via the `emergency_shutdown` module, but via setting `set_global_params` in the `cdp_engine` module, to cap the `maximum_total_debit_value` (debt ceiling) to stop new loans being opened, and raise `liquidation_ratio` gradually to settle outstanding loans.
 
 ## Decentralized Exchange
 
-\[TODO\]
+\[TODO]
 
 ## General
 
@@ -78,9 +78,8 @@ Acala Network is a multi-token network. The native network token aka ACA is mana
 
 ### airdrop
 
-\[TODO\]
+\[TODO]
 
 ### [primitives](https://github.com/AcalaNetwork/Acala/tree/master/modules/primitives)
 
 `CurrencyId` lists all supported tokens on the network. `AirDropCurrencyId` lists airdrop tokens, this is available on `Mandala Network` to record canary network and mainnet token airdrop balances. It will be used for token claim once those two later networks are launched.
-

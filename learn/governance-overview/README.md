@@ -1,14 +1,16 @@
-# Overview
+---
+description: The development direction.
+---
 
-Acala takes a phased approach to employ various governance mechanisms that will allow it to progressively decentralize and ultimately be commanded by the majority network stakeholders. Acala's governance framework is based on Polkadot's technology that employs a Referenda chamber, a General Council, and a Technical Committee to govern the network.
+# Governance
 
-Acala however has sub councils that manage specialized aspects of the network including the Financial Council and the Liquid Staking Council.&#x20;
+Acala takes a phased approach to employ various governance mechanisms that will allow it to progressively decentralize and ultimately be commanded by the majority network stakeholders. Acala's governance framework is based on Polkadot's technology that employs a **Referenda chamber**, **a General Council**, and **a Technical Committee** to govern the network.
 
-Find out more on Acala Launch Phases and progressive decentralization roadmap [here](https://www.notion.so/acala/dcabf9ba7c6246c69b913d5972503227?v=4121894373fd43d98ffcac260803928d).&#x20;
+Acala however has sub councils that manage specialized aspects of the network including the **Financial Council** and the **Homa Staking Council**.&#x20;
 
 ## Referenda
 
-Referenda is a simple, inclusive, stake-based voting scheme. Referenda can be started by public proposals or council proposals. There is a 8-day enactment delay associated with it. Emergency proposals (e.g. fix urgent network issues) can be "fast-tracked" to have a shorter enactment period.&#x20;
+Referenda is a simple, inclusive, stake-based voting scheme. Referenda can be started by public proposals or council proposals. There is an enactment delay period associated with it. Emergency proposals (e.g. fix urgent network issues) can be "fast-tracked" to have a shorter enactment period.&#x20;
 
 Acala experiments with Polkadot's voting mechanisms including Tallying, Voluntary Locking, Adaptive Quorum Biasing. Read more [here](https://wiki.polkadot.network/docs/learn-governance/#referenda).&#x20;
 
@@ -22,15 +24,15 @@ Once the network is sufficiently bootstrapped, stabilized, and security measures
 
 ### Financial Council
 
-Overseeing updates of stablecoin parameters, DeX parameters, Liquid Staking fees, and protocol tasks.
+Overseeing updates of stablecoin protocol parameters, and other protocol fee parameters
 
 * Elected by the General Council via 2/3 approval rating.&#x20;
 
-### Liquid Staking Council
+### Homa Staking Council
 
 Overseeing updates of Liquid Staking parameters e.g. validator selection
 
-* Elected by LDOT holders.
+* Elected by ACA holders.
 
 ### Oracle Collective
 
