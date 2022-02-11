@@ -4,7 +4,7 @@ description: Records of some activity rules and rewards.
 
 # Contribution & Rewards
 
-## AirDrops 
+## AirDrops
 
 You can now check your airdrop KAR & ACA balances on [https://apps.acala.network/wallet](https://apps.acala.network/wallet). The balances are recorded on-chain in the `airdrop` module, which will be used to allocate real tokens upon Karura Canary network and Acala mainnet genesis.
 
@@ -16,7 +16,7 @@ Festival-goers and contributors, have fun, learn & break things, behold & catch 
 
 ## Mandala Festival Season 4 (Finished)
 
-**This event has concluded, thank you for your participation. **
+\*\*This event has concluded, thank you for your participation. \*\*
 
 Building Acala is a community effort, and Mandala Fest then becomes a celebration of this growing community and the wealth of possibility that awaits us all in building web3. All past festival-goers would have a chance to claim Acala & Karura Halloween themed badges.\
 These collectibles don’t have a monetary value nor a market, they are our mere way of honoring our shared experience and saying thank you. Newcomers to the community who complete required tasks would also have a chance to claim these collectibles.\
@@ -28,7 +28,7 @@ Here’s what the festival looks like and the rewards:
 
 ### Season 4 Halloween Give-Back Get Started
 
-**This event has concluded, thank you for your participation. **
+\*\*This event has concluded, thank you for your participation. \*\*
 
 * Get started with Acala including creating a wallet and obtain test tokens [here](https://github.com/AcalaNetwork/Acala/wiki/1.-Get-Started)
 * Check out these guides to use [Honzon stablecoin](https://github.com/AcalaNetwork/Acala/wiki/2.-Honzon-Stablecoin), [Acala Dex](https://github.com/AcalaNetwork/Acala/wiki/3.-DeX), and [Homa staking derivative](https://github.com/AcalaNetwork/Acala/wiki/7.-Homa-Liquid-DOT).
@@ -38,7 +38,7 @@ Here’s what the festival looks like and the rewards:
 
 ### Season 4 Full Schedule and Rules
 
-**This event has concluded, thank you for your participation. **
+\*\*This event has concluded, thank you for your participation. \*\*
 
 #### Season 4 Part 1: Welcome Newcomers
 
@@ -146,9 +146,9 @@ Sticker submission link: [https://discord.gg/WYjDeZDTPN](https://discord.gg/WYjD
 | 5DUUgntu8Atyu2xkk1GjhBBxLryC6CRovHzVcWzFALjHsjQF | 5 ACA + 5 KAR |
 | 5EHiBbDEhb71TAJFBpGD7URArSA137CHKh4srJR1zkkRbBLz | 5 ACA + 5 KAR |
 
-## Mandala Festival Season 3  (Finished)
+## Mandala Festival Season 3 (Finished)
 
-**This event has concluded, thank you for your participation. **
+\*\*This event has concluded, thank you for your participation. \*\*
 
 ### Season 3 Prize Giving
 
@@ -463,44 +463,44 @@ The reward for each lucky account: 20 ACA + 20 KAR
 **Duration:** 27-July-2020 to 03-August-2020 (one week)\
 **Award Pool:** 20,000 ACA + 20,000 KAR
 
-* All qualified users will share the reward pool  
+* All qualified users will share the reward pool
 * All rewards will be recorded and published
 
 ![](https://miro.medium.com/max/700/1\*yVdIVTMQIPWp8FgCtrT9MQ.png)
 
 **Participation Rules:**
 
-* Get test aUSD from the faucet, fees are payable in aUSD  
-* Users completing three meaningful transactions will be rewarded  
+* Get test aUSD from the faucet, fees are payable in aUSD
+* Users completing three meaningful transactions will be rewarded
 
 **Meaningful transactions include:**
 
-* Use DeX to swap tokens  
-* Use DeX to provide liquidity  
-* Use Honzon stablecoin to collateralize for aUSD  
-* Use Homa protocol to get staking derivative LDOT  
-* Transfer aUSD to Laminar Chain, and use it either for synthetic asset, or margin trading  
-* Mint renBTC and use it in above activities  
-* Participate in auctions of system   
+* Use DeX to swap tokens
+* Use DeX to provide liquidity
+* Use Honzon stablecoin to collateralize for aUSD
+* Use Homa protocol to get staking derivative LDOT
+* Transfer aUSD to Laminar Chain, and use it either for synthetic asset, or margin trading
+* Mint renBTC and use it in above activities
+* Participate in auctions of system
 
 #### Week 2: Trading Competition
 
 **Duration:** 03-August-2020 to 10-August-2020 (one week)\
 **Award Pool:** 5,000 ACA + 5,000 KAR
 
-* Top 10 qualified traders will share the reward pool  
-* All rewards will be recorded and published  
+* Top 10 qualified traders will share the reward pool
+* All rewards will be recorded and published
 
 **Participation Rules:**
 
-* Use the balance of USD as the unit of account  
-* Profit calculated as ending balance — beginning balance  
+* Use the balance of USD as the unit of account
+* Profit calculated as ending balance — beginning balance
 
 **The rules for ranking of trading competition:**
 
-* Snapshots will be taken for both Acala and Laminar networks at the beginning of the trading competition; the total net value of various assets (including debts) will be calculated based on the price feed at the time as the initial balance.  
-* Another snapshot will be taken at the end of the competition, using the feed price at that time as the final balance. Cross-chain transfers (e.g. transfers between Acala and Laminar) are not counted, while transfers between addresses are counted as capital.  
-* Profit margin = total value of final balance / (total value of initial balance + capital sum correction) — 100%, all accounts are ranked according to this function.  
+* Snapshots will be taken for both Acala and Laminar networks at the beginning of the trading competition; the total net value of various assets (including debts) will be calculated based on the price feed at the time as the initial balance.
+* Another snapshot will be taken at the end of the competition, using the feed price at that time as the final balance. Cross-chain transfers (e.g. transfers between Acala and Laminar) are not counted, while transfers between addresses are counted as capital.
+* Profit margin = total value of final balance / (total value of initial balance + capital sum correction) — 100%, all accounts are ranked according to this function.
 
 **The following are included in the balance calculation:**\
 **Balances of all assets:**\
@@ -516,22 +516,22 @@ The reward for each lucky account: 20 ACA + 20 KAR
 **Duration:** 10-August-2020 to 17-August-2020 (one week)\
 **Award Pool:** 4,000 ACA + 4,000 KAR
 
-* A draw of 200 qualified users will share the reward pool  
-* All rewards will be recorded and published  
+* A draw of 200 qualified users will share the reward pool
+* All rewards will be recorded and published
 
 **Participation Rules:**
 
-* Day 1 — Day 3 liquidation events: users participate by closing CDP or increasing collateral  
-* Day 4: emergency shutdown will be triggered, participants will use aUSD to buy back collaterals  
-* Users who took part in the above activity will benefit from rewards  
+* Day 1 — Day 3 liquidation events: users participate by closing CDP or increasing collateral
+* Day 4: emergency shutdown will be triggered, participants will use aUSD to buy back collaterals
+* Users who took part in the above activity will benefit from rewards
 
 #### Blog Bounty (Throughout Festival)
 
 **Duration:** 27-July-2020 to 17-August-2020 (three weeks)\
 **Award Pool:** 2,000 ACA + 2,000 KAR
 
-* 10 awards will be awarded in total  
-* Awards will be published one week after the event ends  
+* 10 awards will be awarded in total
+* Awards will be published one week after the event ends
 
 **Participation Rules:**
 
@@ -550,19 +550,19 @@ The reward for each lucky account: 20 ACA + 20 KAR
 
 **Participation Rules:**
 
-*   Find bugs for the following two repos:  
+*   Find bugs for the following two repos:
 
-    [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)  
+    [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)
 
-    [https://github.com/AcalaNetwork/acala-dapp](https://github.com/AcalaNetwork/acala-dapp)  
+    [https://github.com/AcalaNetwork/acala-dapp](https://github.com/AcalaNetwork/acala-dapp)
 
-    [https://github.com/polkawallet-io/polkawallet-flutter](https://github.com/polkawallet-io/polkawallet-flutter) (Acala part)  
+    [https://github.com/polkawallet-io/polkawallet-flutter](https://github.com/polkawallet-io/polkawallet-flutter) (Acala part)
 * Bugs are judged on significance and severity by the Acala Engineering team, and are awarded roughly based on the levels [here](https://github.com/AcalaNetwork/Acala/wiki/W.-Contribution-&-Rewards#runtime-bug-bounty)
 * Please **include your Acala Mandala Address in the Github issue** for easy prize disbursal
 
-## Mandala Festival Season 2  (Finished)
+## Mandala Festival Season 2 (Finished)
 
-**This event has concluded, thank you for your participation. **
+\*\*This event has concluded, thank you for your participation. \*\*
 
 ### Season 2 Prize Giving
 
@@ -680,8 +680,8 @@ The reward for each lucky account: 20 ACA + 20 KAR
 
 * Original blog post submitted to [Medium](https://medium.com) or [Bihu](https://bihu.com)
 * Remember to **include your Acala Mandala Address in the article to receive prizes**
-* Submit the article link to [https://riot.im/app/#/room/#acala:matrix.org](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY_BLOG
-* The blog must be original. 
+* Submit the article link to [https://riot.im/app/#/room/#acala:matrix.org](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY\_BLOG
+* The blog must be original.
 * We will judge both the quality (how appealing is the story, idea, perspective, insights, analysis etc) as well as social reactions (number of comments, likes, twitter or other social sharing etc).
 
 #### Runtime Bug Hunters
@@ -694,45 +694,45 @@ The reward for each lucky account: 20 ACA + 20 KAR
 
 ## Mandala Festival Season 1 (Finished)
 
-**This event has concluded, thank you for your participation. **
+\*\*This event has concluded, thank you for your participation. \*\*
 
 ### Prize Giving
 
 #### -Running a Node
 
-| Date  | Lottery block height | Lottery block hash                                                 | Prize winner                                                                                                                                          |
-| ----- | -------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 03.07 | #79,513              | 0x17bcbe0cc97ffd7e019cbf034f3886d4b9bbdda408e33cc060ceeba239263b5b | 5GHjYXd7nzTsGSkMDxf4EqjhCwnpq6SguJ59WraeYVtf8ddi, 5HYmh2R1iFuzmTFChezjTqGvioQKzCPWpqM85HYc3ZcCTTes, 5Fpv2bqceAVA4GyX5BVfeJDwLdvjQEkaBbowJ9zAEGUQSsQJ  |
-| 03.08 | #101,539             | 0x369876238225193d50a980dabe92be53428ed64a7fd772836ebffa096b927f31 | 5Gec99F4Q86UBF1BekB6gVL9SHofLNMPkF2h1fxyTEtVKGf7, 5FRcBR5j4LDToJsYUqWBK4TBtMbrMZZ922M3NEFw3zMH1LeJ, 5CtTGP7D9Re7AdGbViCrDGb8NFXJo9r74AnJsCmsfUBFTyx3  |
-| 03.09 | #123,764             | 0xc820c84884cfb6c6034906548ad2910b9f2b8feb27ffdaf1e2f3cf6ca547f1d6 | 5CAyvM4JtZQqjs1eFUG3LcDzs8fZiPtNHRtBc7kPYfxfVB6s, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5GNa8pNBVWtgxHdXWovcMe3W9VQJJsNi2WPwZED6q5CnsghH  |
-| 03.10 | #145,739             | 0x07982c6c551e57476d01a1894c92a816abe2c2b562ad3213262ca5217330b104 | 5GNa8pNBVWtgxHdXWovcMe3W9VQJJsNi2WPwZED6q5CnsghH, 5GHjYXd7nzTsGSkMDxf4EqjhCwnpq6SguJ59WraeYVtf8ddi, 5HKeXVnMsaBbXRti3HA9LgC9bYHmBxAZFTc3YDDBH8o3q9KJ  |
-| 03.11 | #166,282             | 0x6c317b90d4a3c6f68752294c73ca153c832a4d11b88227b1395d35dc4e407800 | 5CFfibmK6AhCLXfGtL5qCfvkJohb8nCqPiwAw68GMbmdUKVJ, 5HmbZEZ6QFTBB5hXaYDi2Qx9Yq4vscLGqa1B2AD3McCNNQ98, 5Dh8vK5Q6JK8YBYfbVEmgrUw49iGHXnVgx1jX48kQ9meKkKn  |
-| 03.12 | #185,549             | 0x518dbc7fb52fa435614455f246adefaf4f07f1bea4d3cec3bff5b435667f7737 | 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X, 5GLKuwUPAUkMft7NT194LWpmTBcKBEXwSxZyGsMbf5LDNNTp  |
-| 03.13 | #207,608             | 0x3aff20027835c25506fb434687ba333756741d9f8d612a3aa603e0fbe52663e0 | 5FbfExGfDFk3uVWsaidShjAMeY2r4P68PMbTz781mjFsvDRy, 5GNa8pNBVWtgxHdXWovcMe3W9VQJJsNi2WPwZED6q5CnsghH, 5DUuWf643Fcoqk88wSyY1iBkWnQBKmxtVcDmC9K1MsskRULp  |
-| 03.14 | #230,779             | 0x40bcfea935aacaae97150e03520bdaf3d454a3bd758f9cc8d23b59ec95c6c7e2 | 5EKsgSQKi6TGhmHVfVpC3n75G7LSXbAFp68xVmrcKx6V9WQK,  5CZzpzpKgXVnJUuKZ3S4EASzYV77sb7rAp7UU5Jgp1QgaSBu, 5CDA3teXpfFAqQDTebUXiZn47udHReALJapzcteBPPSHPFJf |
-| 03.15 | #250,280             | 0xe877919042c5e8cb6731d13eeaeb734e3624e462f9d92030b2f7ca7d356496a9 | 5EKsgSQKi6TGhmHVfVpC3n75G7LSXbAFp68xVmrcKx6V9WQK, 5GCc7JDdXQ8QKnm8itDBd7hbKCKziS8eDrTTFeXmj6HhKTHk, 5HT4E3o4U8wrHs6m3DrzKvZvMtxy2ncDsq7zCSizPy8Lif8H  |
-| 03.16 | #267,800             | 0x85fdeb78e4b7e2e072fe7a2c9d4f42a87fc095cadeacd6e730fa656ebb5502a6 | 5ENZGGyRryWv2siiDtCJjoVfQ1kWyTAAdeJqdpd8UBwoQqwE, 5G3zwZ72e6rbJgx6cfmpKac3yBPsLM1hC173U6XNeMexqMhS, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8  |
-| 03.17 | #289,398             | 0xb71ad6d29da5ebb99778e5cd98cc1581509b1fbea4eff8a46f25dffe8e79b6b1 | 5CFfibmK6AhCLXfGtL5qCfvkJohb8nCqPiwAw68GMbmdUKVJ, 5CZzpzpKgXVnJUuKZ3S4EASzYV77sb7rAp7UU5Jgp1QgaSBu, 5FjXFxPrEyLwXBVYC12CXufXgWQzddnpsArg8P8fJi7KwsFq  |
-| 03.18 | #311,497             | 0x2b9766ee142f754f046af4d6393d1c8131410d438d801e60cb81c53153a9ec8d | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X，5HYmh2R1iFuzmTFChezjTqGvioQKzCPWpqM85HYc3ZcCTTes, 5G94Wzuc5EBemwKGnBf18JwxUw8QtenRkrEiSbLCaMc8WFpR   |
-| 03.19 | #332,494             | 0x08d346c0720e449b5fc48136c74071cb3e372ce9550845b6a54bda04638a4653 | 5DskzyXfQsxD2vJZDzCfXFnRhicHfAtrZ8qcM7BHsQFg7Wrg, 5G94Wzuc5EBemwKGnBf18JwxUw8QtenRkrEiSbLCaMc8WFpR, 5CFfibmK6AhCLXfGtL5qCfvkJohb8nCqPiwAw68GMbmdUKVJ  |
-| 03.20 | #353,185             | 0x7140ad6d2c5697f069f7f27dc3a2971f92c50e605237991c00f70d9e0a7af909 | 5GMvp5okVesv3JHxNA21SeFbXtMMtwy6EmPvtN5HpHLUuRCy, 5HT4E3o4U8wrHs6m3DrzKvZvMtxy2ncDsq7zCSizPy8Lif8H, 5DJAQKqgstka75mBA18QZwCQkMXCkqSUaNzhYu78Eygi8VA4  |
-| 03.21 | #371,672             | 0x0a1d18b475ae527324ec6cfbe079694d4f2f2973be9207a9d57839d31d9931e8 | 5GBQRFTq5aei48Greedwys58bDYrHg54yh48m2scxemZvAeX, 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X, 5HT4E3o4U8wrHs6m3DrzKvZvMtxy2ncDsq7zCSizPy8Lif8H  |
-| 03.22 | #393,575             | 0x736b354f2a2daac3495c834ff5ec6fe550c32b9d1b86903b6d5bd352b27f28f7 | 5GHjYXd7nzTsGSkMDxf4EqjhCwnpq6SguJ59WraeYVtf8ddi, 5FQsJbDnzxqyxp85nzWy4HbTFRSKa1CarVN9Xm7QBsw3vVrx, 5HEU4JEfGS3mW2PSq4TmuJKWyKwyber4cFVEZrgPhxNs8Db3  |
-| 03.23 | #414,350             | 0x3772a59486df65006e7e2f7fd0279ac22ec4f6e525d9875ff855802e5fd8762f | 5Dh8vK5Q6JK8YBYfbVEmgrUw49iGHXnVgx1jX48kQ9meKkKn, 5FRcBR5j4LDToJsYUqWBK4TBtMbrMZZ922M3NEFw3zMH1LeJ, 5CHrvcSjs21YwECGVoi8pEGn6v72CRBWP6PpUqUsJ366MqA3  |
-| 03.24 | #435,268             | 0xc331867062eca546bd62229aff67bfd35b831fb6825e1616fe37f8a2d805a480 | 5DyEcs3fV2pmcTQVshC3Gr5WyA9f5xSMxirvzrgr7muoVG7M, 5CHrvcSjs21YwECGVoi8pEGn6v72CRBWP6PpUqUsJ366MqA3, 5GMvp5okVesv3JHxNA21SeFbXtMMtwy6EmPvtN5HpHLUuRCy  |
-| 03.25 | #456,668             | 0xad3257157d142fe1aa67aa3922ce06876fc095e1f47942c1f5fb92243080c392 | 5FbfExGfDFk3uVWsaidShjAMeY2r4P68PMbTz781mjFsvDRy, 5ESBGD6qa8xDE9z318wTg6vSCbTht1PAvzy29zB2eHyNH6Zu, 5G6pKktDYWMqEkGJhspUGeKLp8JugubEv9Jfbs6CMkJ5Ev47  |
-| 03.26 | #478,671             | 0x6b514841e8bd765f38d751c88b61148bec684a49c56a54daa64a79379c861172 | 5DyEcs3fV2pmcTQVshC3Gr5WyA9f5xSMxirvzrgr7muoVG7M, 5HQFXgz67bre8PdfcNVJywWX3rNo7R1do9HfB3g6edDffR46, 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X  |
-| 03.27 | #500,346             | 0xe9119a9f5c3606823b409802607c402996f4638b964cf49b48c7c30ffc56a43b | 5HmbZEZ6QFTBB5hXaYDi2Qx9Yq4vscLGqa1B2AD3McCNNQ98, 5DskzyXfQsxD2vJZDzCfXFnRhicHfAtrZ8qcM7BHsQFg7Wrg, 5ENZGGyRryWv2siiDtCJjoVfQ1kWyTAAdeJqdpd8UBwoQqwE  |
+| Date  | Lottery block height | Lottery block hash                                                 | Prize winner                                                                                                                                         |
+| ----- | -------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 03.07 | #79,513              | 0x17bcbe0cc97ffd7e019cbf034f3886d4b9bbdda408e33cc060ceeba239263b5b | 5GHjYXd7nzTsGSkMDxf4EqjhCwnpq6SguJ59WraeYVtf8ddi, 5HYmh2R1iFuzmTFChezjTqGvioQKzCPWpqM85HYc3ZcCTTes, 5Fpv2bqceAVA4GyX5BVfeJDwLdvjQEkaBbowJ9zAEGUQSsQJ |
+| 03.08 | #101,539             | 0x369876238225193d50a980dabe92be53428ed64a7fd772836ebffa096b927f31 | 5Gec99F4Q86UBF1BekB6gVL9SHofLNMPkF2h1fxyTEtVKGf7, 5FRcBR5j4LDToJsYUqWBK4TBtMbrMZZ922M3NEFw3zMH1LeJ, 5CtTGP7D9Re7AdGbViCrDGb8NFXJo9r74AnJsCmsfUBFTyx3 |
+| 03.09 | #123,764             | 0xc820c84884cfb6c6034906548ad2910b9f2b8feb27ffdaf1e2f3cf6ca547f1d6 | 5CAyvM4JtZQqjs1eFUG3LcDzs8fZiPtNHRtBc7kPYfxfVB6s, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5GNa8pNBVWtgxHdXWovcMe3W9VQJJsNi2WPwZED6q5CnsghH |
+| 03.10 | #145,739             | 0x07982c6c551e57476d01a1894c92a816abe2c2b562ad3213262ca5217330b104 | 5GNa8pNBVWtgxHdXWovcMe3W9VQJJsNi2WPwZED6q5CnsghH, 5GHjYXd7nzTsGSkMDxf4EqjhCwnpq6SguJ59WraeYVtf8ddi, 5HKeXVnMsaBbXRti3HA9LgC9bYHmBxAZFTc3YDDBH8o3q9KJ |
+| 03.11 | #166,282             | 0x6c317b90d4a3c6f68752294c73ca153c832a4d11b88227b1395d35dc4e407800 | 5CFfibmK6AhCLXfGtL5qCfvkJohb8nCqPiwAw68GMbmdUKVJ, 5HmbZEZ6QFTBB5hXaYDi2Qx9Yq4vscLGqa1B2AD3McCNNQ98, 5Dh8vK5Q6JK8YBYfbVEmgrUw49iGHXnVgx1jX48kQ9meKkKn |
+| 03.12 | #185,549             | 0x518dbc7fb52fa435614455f246adefaf4f07f1bea4d3cec3bff5b435667f7737 | 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X, 5GLKuwUPAUkMft7NT194LWpmTBcKBEXwSxZyGsMbf5LDNNTp |
+| 03.13 | #207,608             | 0x3aff20027835c25506fb434687ba333756741d9f8d612a3aa603e0fbe52663e0 | 5FbfExGfDFk3uVWsaidShjAMeY2r4P68PMbTz781mjFsvDRy, 5GNa8pNBVWtgxHdXWovcMe3W9VQJJsNi2WPwZED6q5CnsghH, 5DUuWf643Fcoqk88wSyY1iBkWnQBKmxtVcDmC9K1MsskRULp |
+| 03.14 | #230,779             | 0x40bcfea935aacaae97150e03520bdaf3d454a3bd758f9cc8d23b59ec95c6c7e2 | 5EKsgSQKi6TGhmHVfVpC3n75G7LSXbAFp68xVmrcKx6V9WQK, 5CZzpzpKgXVnJUuKZ3S4EASzYV77sb7rAp7UU5Jgp1QgaSBu, 5CDA3teXpfFAqQDTebUXiZn47udHReALJapzcteBPPSHPFJf |
+| 03.15 | #250,280             | 0xe877919042c5e8cb6731d13eeaeb734e3624e462f9d92030b2f7ca7d356496a9 | 5EKsgSQKi6TGhmHVfVpC3n75G7LSXbAFp68xVmrcKx6V9WQK, 5GCc7JDdXQ8QKnm8itDBd7hbKCKziS8eDrTTFeXmj6HhKTHk, 5HT4E3o4U8wrHs6m3DrzKvZvMtxy2ncDsq7zCSizPy8Lif8H |
+| 03.16 | #267,800             | 0x85fdeb78e4b7e2e072fe7a2c9d4f42a87fc095cadeacd6e730fa656ebb5502a6 | 5ENZGGyRryWv2siiDtCJjoVfQ1kWyTAAdeJqdpd8UBwoQqwE, 5G3zwZ72e6rbJgx6cfmpKac3yBPsLM1hC173U6XNeMexqMhS, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8 |
+| 03.17 | #289,398             | 0xb71ad6d29da5ebb99778e5cd98cc1581509b1fbea4eff8a46f25dffe8e79b6b1 | 5CFfibmK6AhCLXfGtL5qCfvkJohb8nCqPiwAw68GMbmdUKVJ, 5CZzpzpKgXVnJUuKZ3S4EASzYV77sb7rAp7UU5Jgp1QgaSBu, 5FjXFxPrEyLwXBVYC12CXufXgWQzddnpsArg8P8fJi7KwsFq |
+| 03.18 | #311,497             | 0x2b9766ee142f754f046af4d6393d1c8131410d438d801e60cb81c53153a9ec8d | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X，5HYmh2R1iFuzmTFChezjTqGvioQKzCPWpqM85HYc3ZcCTTes, 5G94Wzuc5EBemwKGnBf18JwxUw8QtenRkrEiSbLCaMc8WFpR  |
+| 03.19 | #332,494             | 0x08d346c0720e449b5fc48136c74071cb3e372ce9550845b6a54bda04638a4653 | 5DskzyXfQsxD2vJZDzCfXFnRhicHfAtrZ8qcM7BHsQFg7Wrg, 5G94Wzuc5EBemwKGnBf18JwxUw8QtenRkrEiSbLCaMc8WFpR, 5CFfibmK6AhCLXfGtL5qCfvkJohb8nCqPiwAw68GMbmdUKVJ |
+| 03.20 | #353,185             | 0x7140ad6d2c5697f069f7f27dc3a2971f92c50e605237991c00f70d9e0a7af909 | 5GMvp5okVesv3JHxNA21SeFbXtMMtwy6EmPvtN5HpHLUuRCy, 5HT4E3o4U8wrHs6m3DrzKvZvMtxy2ncDsq7zCSizPy8Lif8H, 5DJAQKqgstka75mBA18QZwCQkMXCkqSUaNzhYu78Eygi8VA4 |
+| 03.21 | #371,672             | 0x0a1d18b475ae527324ec6cfbe079694d4f2f2973be9207a9d57839d31d9931e8 | 5GBQRFTq5aei48Greedwys58bDYrHg54yh48m2scxemZvAeX, 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X, 5HT4E3o4U8wrHs6m3DrzKvZvMtxy2ncDsq7zCSizPy8Lif8H |
+| 03.22 | #393,575             | 0x736b354f2a2daac3495c834ff5ec6fe550c32b9d1b86903b6d5bd352b27f28f7 | 5GHjYXd7nzTsGSkMDxf4EqjhCwnpq6SguJ59WraeYVtf8ddi, 5FQsJbDnzxqyxp85nzWy4HbTFRSKa1CarVN9Xm7QBsw3vVrx, 5HEU4JEfGS3mW2PSq4TmuJKWyKwyber4cFVEZrgPhxNs8Db3 |
+| 03.23 | #414,350             | 0x3772a59486df65006e7e2f7fd0279ac22ec4f6e525d9875ff855802e5fd8762f | 5Dh8vK5Q6JK8YBYfbVEmgrUw49iGHXnVgx1jX48kQ9meKkKn, 5FRcBR5j4LDToJsYUqWBK4TBtMbrMZZ922M3NEFw3zMH1LeJ, 5CHrvcSjs21YwECGVoi8pEGn6v72CRBWP6PpUqUsJ366MqA3 |
+| 03.24 | #435,268             | 0xc331867062eca546bd62229aff67bfd35b831fb6825e1616fe37f8a2d805a480 | 5DyEcs3fV2pmcTQVshC3Gr5WyA9f5xSMxirvzrgr7muoVG7M, 5CHrvcSjs21YwECGVoi8pEGn6v72CRBWP6PpUqUsJ366MqA3, 5GMvp5okVesv3JHxNA21SeFbXtMMtwy6EmPvtN5HpHLUuRCy |
+| 03.25 | #456,668             | 0xad3257157d142fe1aa67aa3922ce06876fc095e1f47942c1f5fb92243080c392 | 5FbfExGfDFk3uVWsaidShjAMeY2r4P68PMbTz781mjFsvDRy, 5ESBGD6qa8xDE9z318wTg6vSCbTht1PAvzy29zB2eHyNH6Zu, 5G6pKktDYWMqEkGJhspUGeKLp8JugubEv9Jfbs6CMkJ5Ev47 |
+| 03.26 | #478,671             | 0x6b514841e8bd765f38d751c88b61148bec684a49c56a54daa64a79379c861172 | 5DyEcs3fV2pmcTQVshC3Gr5WyA9f5xSMxirvzrgr7muoVG7M, 5HQFXgz67bre8PdfcNVJywWX3rNo7R1do9HfB3g6edDffR46, 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X |
+| 03.27 | #500,346             | 0xe9119a9f5c3606823b409802607c402996f4638b964cf49b48c7c30ffc56a43b | 5HmbZEZ6QFTBB5hXaYDi2Qx9Yq4vscLGqa1B2AD3McCNNQ98, 5DskzyXfQsxD2vJZDzCfXFnRhicHfAtrZ8qcM7BHsQFg7Wrg, 5ENZGGyRryWv2siiDtCJjoVfQ1kWyTAAdeJqdpd8UBwoQqwE |
 
 #### -Using Acala
 
 > **10 top accounts**
 
-| Date                    | Winners                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| First week (2020.3.12)  | 5HKxAQ4z51No5R5r4UYVsbWRfnc6YVo568tVtfnNCNonB8vo, 5CAyvM4JtZQqjs1eFUG3LcDzs8fZiPtNHRtBc7kPYfxfVB6s, 5CoMtmPFgJRdf7mShziKeRq1gJoRyJVex9b83GHq3yH3C8Tk, 5ChezpQKCGTtuwtDheos7jYibyGba7dWY6T8o4CZQEtmyp8Z, 5HEVq9jDSp6Y9N4rs2YFchNs8SDtvAtpDEBTuybiJF96kpXb,  5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5GZSvT7Fda3wfZ5qx2kdSP526h3ddfn6BnL4jVyqD8NPN1zL, 5HmbZEZ6QFTBB5hXaYDi2Qx9Yq4vscLGqa1B2AD3McCNNQ98, 5GNa8pNBVWtgxHdXWovcMe3W9VQJJsNi2WPwZED6q5CnsghH, 5H4Em4gYZe5g6Gzdsf38PWSuDSyU69neG2DhR45YQivTWZ3e |
-| Second week (2020.3.19) | 5FNmkE5pVgNYD8bhQQHYdTsDTcjQfLcjvJDwpKtLu3VXzfdA, 5CAyvM4JtZQqjs1eFUG3LcDzs8fZiPtNHRtBc7kPYfxfVB6s, 5CoMtmPFgJRdf7mShziKeRq1gJoRyJVex9b83GHq3yH3C8Tk, 5FsEUyCnLhdv8jdT6X4rYB6WKi8VKazXahnSeh1ezhkTWUgz, 5CqduWFn7pKiGTvrYPe4BQCp3G5Egv6cqo7RtoVshZLFFdMy, 5H4Em4gYZe5g6Gzdsf38PWSuDSyU69neG2DhR45YQivTWZ3e, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5DCdUUZSEsdB3JBwdyQsKjEwdjWLyVajJaeki66M5YhGYWyK, 5GZSvT7Fda3wfZ5qx2kdSP526h3ddfn6BnL4jVyqD8NPN1zL, 5CtTGP7D9Re7AdGbViCrDGb8NFXJo9r74AnJsCmsfUBFTyx3  |
-| Third week(2020.3.26)   | 5FNmkE5pVgNYD8bhQQHYdTsDTcjQfLcjvJDwpKtLu3VXzfdA, 5CwSTvtMUvt6eFnrqKjpiZs8nzXvS5AmrSttpNyihfVAvuQC, 5GgivqrWGmUjkJSrZs5x3ifNgENsq2eM4ASta7LDtRnAkUqT, 5H6AEtxBvRgWPLqJKjy8MLnMdpXBHnuJLGFN1X1CZLTwidEL, 5Ckonmbx6tK1WGNPUqn1nke8JJKpFgKpQBUquRojM7gW51Me, 5GZSvT7Fda3wfZ5qx2kdSP526h3ddfn6BnL4jVyqD8NPN1zL, 5H4Em4gYZe5g6Gzdsf38PWSuDSyU69neG2DhR45YQivTWZ3e, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5GWj7uVdbEhTad1SwTyqaD2W7h1jX3fMSaWweHR3M3KHj9Qs, 5CtTGP7D9Re7AdGbViCrDGb8NFXJo9r74AnJsCmsfUBFTyx3  |
+| Date                    | Winners                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| First week (2020.3.12)  | 5HKxAQ4z51No5R5r4UYVsbWRfnc6YVo568tVtfnNCNonB8vo, 5CAyvM4JtZQqjs1eFUG3LcDzs8fZiPtNHRtBc7kPYfxfVB6s, 5CoMtmPFgJRdf7mShziKeRq1gJoRyJVex9b83GHq3yH3C8Tk, 5ChezpQKCGTtuwtDheos7jYibyGba7dWY6T8o4CZQEtmyp8Z, 5HEVq9jDSp6Y9N4rs2YFchNs8SDtvAtpDEBTuybiJF96kpXb, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5GZSvT7Fda3wfZ5qx2kdSP526h3ddfn6BnL4jVyqD8NPN1zL, 5HmbZEZ6QFTBB5hXaYDi2Qx9Yq4vscLGqa1B2AD3McCNNQ98, 5GNa8pNBVWtgxHdXWovcMe3W9VQJJsNi2WPwZED6q5CnsghH, 5H4Em4gYZe5g6Gzdsf38PWSuDSyU69neG2DhR45YQivTWZ3e |
+| Second week (2020.3.19) | 5FNmkE5pVgNYD8bhQQHYdTsDTcjQfLcjvJDwpKtLu3VXzfdA, 5CAyvM4JtZQqjs1eFUG3LcDzs8fZiPtNHRtBc7kPYfxfVB6s, 5CoMtmPFgJRdf7mShziKeRq1gJoRyJVex9b83GHq3yH3C8Tk, 5FsEUyCnLhdv8jdT6X4rYB6WKi8VKazXahnSeh1ezhkTWUgz, 5CqduWFn7pKiGTvrYPe4BQCp3G5Egv6cqo7RtoVshZLFFdMy, 5H4Em4gYZe5g6Gzdsf38PWSuDSyU69neG2DhR45YQivTWZ3e, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5DCdUUZSEsdB3JBwdyQsKjEwdjWLyVajJaeki66M5YhGYWyK, 5GZSvT7Fda3wfZ5qx2kdSP526h3ddfn6BnL4jVyqD8NPN1zL, 5CtTGP7D9Re7AdGbViCrDGb8NFXJo9r74AnJsCmsfUBFTyx3 |
+| Third week(2020.3.26)   | 5FNmkE5pVgNYD8bhQQHYdTsDTcjQfLcjvJDwpKtLu3VXzfdA, 5CwSTvtMUvt6eFnrqKjpiZs8nzXvS5AmrSttpNyihfVAvuQC, 5GgivqrWGmUjkJSrZs5x3ifNgENsq2eM4ASta7LDtRnAkUqT, 5H6AEtxBvRgWPLqJKjy8MLnMdpXBHnuJLGFN1X1CZLTwidEL, 5Ckonmbx6tK1WGNPUqn1nke8JJKpFgKpQBUquRojM7gW51Me, 5GZSvT7Fda3wfZ5qx2kdSP526h3ddfn6BnL4jVyqD8NPN1zL, 5H4Em4gYZe5g6Gzdsf38PWSuDSyU69neG2DhR45YQivTWZ3e, 5DA9yUXbMd6pwuZ5GyYTEMb6Um8XLVKUcaTsqqgwy7GVZCQ8, 5GWj7uVdbEhTad1SwTyqaD2W7h1jX3fMSaWweHR3M3KHj9Qs, 5CtTGP7D9Re7AdGbViCrDGb8NFXJo9r74AnJsCmsfUBFTyx3 |
 
 > **106 lucky accounts**
 
@@ -744,23 +744,23 @@ The reward for each lucky account: 20 ACA + 20 KAR
 
 #### -Blogging Acala
 
-| Medium link                                                                                                                                                                                                                                                                                                  | Mandala address                                  | Results                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------- |
-| [https://medium.com/@x.zhang/acala-network-liquidize-your-staked-assets-for-defi-839c63ba8f32](https://medium.com/@x.zhang/acala-network-liquidize-your-staked-assets-for-defi-839c63ba8f32)                                                                                                                 | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X | reward, claps: 456                          |
-| [https://medium.com/@v.cryptor/acala-network-a-multi-collateral-and-cross-chain-capable-stable-coin-architecture-e0f0f8cbf156](https://medium.com/@v.cryptor/acala-network-a-multi-collateral-and-cross-chain-capable-stable-coin-architecture-e0f0f8cbf156)                                                 | 5Fj8pQ1e7iDfrAvae9k6WhrZRqM4Lqd6Umvk8J9cg1BXcJL9 | reward, claps: 427                          |
-| [https://medium.com/@x.zhang/24-cities-world-wide-join-the-acala-mandala-candy-festival-today-3445432340c0](https://medium.com/@x.zhang/24-cities-world-wide-join-the-acala-mandala-candy-festival-today-3445432340c0)                                                                                       | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X | reward, claps: 450                          |
-| [https://medium.com/@dujason1215/acala-airdrop-tutorial-a9dd2a9a39f](https://medium.com/@dujason1215/acala-airdrop-tutorial-a9dd2a9a39f)                                                                                                                                                                     | 5DvszTc6FJAmyhE6v5ZJhchtGH1ZQ2KR7iZi7g2776EX2ZQ7 | reward, claps: 378                          |
-| [https://medium.com/@gafaruzb70/acala-network-fbc2e335c50](https://medium.com/@gafaruzb70/acala-network-fbc2e335c50)                                                                                                                                                                                         | 5DCdUUZSEsdB3JBwdyQsKjEwdjWLyVajJaeki66M5YhGYWyK | encourage:333 ACA  + 16,666 KAR, claps: 256 |
-| [https://medium.com/@qash0430/cross-chain-stablecoin-platform-based-on-substrate-acala-5697bc34d24](https://medium.com/@qash0430/cross-chain-stablecoin-platform-based-on-substrate-acala-5697bc34d24)                                                                                                       | 5DSKU5oM1FcCjvRVKpF6rGPpvnZaMk6HmP9tZjSiJwakGhzn | reward, claps: 369                          |
-| [https://medium.com/@jgm5676/acala-the-forerunner-of-defi-55d35b308867](https://medium.com/@jgm5676/acala-the-forerunner-of-defi-55d35b308867)                                                                                                                                                               | 5EJR3vqBw8y2X4TNhqGHi7NzYM5H9DcyfdJM5XjrnH2CC6jt | reward, claps: 376                          |
-| [https://medium.com/@x.zhang/need-for-new-defi-infrastructure-why-acala-2f7cb4e6d27b](https://medium.com/@x.zhang/need-for-new-defi-infrastructure-why-acala-2f7cb4e6d27b)                                                                                                                                   | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X | reward, claps: 419                          |
-| [https://medium.com/@liquid19922/acala-consortium-the-first-global-decentralized-financial-ecological-alliance-8e414ded220e](https://medium.com/@liquid19922/acala-consortium-the-first-global-decentralized-financial-ecological-alliance-8e414ded220e)                                                     | 5D7eU4gL7GYQy1GhiwfLBUkXWogVnuaqag86SBXgvwxZQSxn | reward, claps: 373                          |
-| [https://medium.com/@Jackie007/how-will-acala-reshape-the-defi-ecosystem-in-the-future-59da733746ef](https://medium.com/@Jackie007/how-will-acala-reshape-the-defi-ecosystem-in-the-future-59da733746ef)                                                                                                     | 5EU2iHgcRyDxrWPg63eYHu4qQUVztEsu5Gj4mQYNsVuADkhJ | reward, claps: 385                          |
-| [https://medium.com/@kira1996/the-last-three-days-of-polkadots-ecological-high-quality-airdrop-event-come-and-win-acala-1b49656bbaf7](https://medium.com/@kira1996/the-last-three-days-of-polkadots-ecological-high-quality-airdrop-event-come-and-win-acala-1b49656bbaf7)                                   | 5GgQbgzvpPJvpVQMi96Dj8ZP7EnEZZDoJJma9XTcuge8yxs8 | encourage:333 ACA  + 16,666 KAR, claps: 366 |
-| [https://medium.com/@lapinandr6/acala-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%BE-%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5-defi-5e72720ea4f9](https://medium.com/@lapinandr6/acala-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%BE-%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5-defi-5e72720ea4f9) | 5HEn1YtswEWpqpC9E2E21nCtUqgdJLQ1UfErVombGfHnKaGq | encourage:333 ACA  + 16,666 KAR, claps: 222 |
-| [https://link.medium.com/6OOcykqN84](https://link.medium.com/6OOcykqN84)                                                                                                                                                                                                                                     | 5ELbRUyqUbiDei3F7kAwofGGaQx1NQEaQnVN1qL11uyZUCfh | encourage:333 ACA  + 16,666 KAR, claps: 287 |
-| [https://medium.com/@Jackson1992/defi-communitys-new-solution-to-the-crisis-acala-951c6db55a0b](https://medium.com/@Jackson1992/defi-communitys-new-solution-to-the-crisis-acala-951c6db55a0b)                                                                                                               | 5HKSjHopywfVCnVi4id3mD8rmPBmkx4YSnY6mrHURzRtB3jw | reward, claps: 371                          |
-| [https://medium.com/@willianm/acala-received-investment-from-several-well-known-institutions-around-the-world-b96c47d8f52e](https://medium.com/@willianm/acala-received-investment-from-several-well-known-institutions-around-the-world-b96c47d8f52e)                                                       | 5FKwpUEGHMVG3N58vCgkNF99JhHFGrji71CU8nHf1XRoa72L | encourage:333 ACA  + 16,666 KAR, claps: 351 |
+| Medium link                                                                                                                                                                                                                                                                                                  | Mandala address                                  | Results                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------ |
+| [https://medium.com/@x.zhang/acala-network-liquidize-your-staked-assets-for-defi-839c63ba8f32](https://medium.com/@x.zhang/acala-network-liquidize-your-staked-assets-for-defi-839c63ba8f32)                                                                                                                 | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X | reward, claps: 456                         |
+| [https://medium.com/@v.cryptor/acala-network-a-multi-collateral-and-cross-chain-capable-stable-coin-architecture-e0f0f8cbf156](https://medium.com/@v.cryptor/acala-network-a-multi-collateral-and-cross-chain-capable-stable-coin-architecture-e0f0f8cbf156)                                                 | 5Fj8pQ1e7iDfrAvae9k6WhrZRqM4Lqd6Umvk8J9cg1BXcJL9 | reward, claps: 427                         |
+| [https://medium.com/@x.zhang/24-cities-world-wide-join-the-acala-mandala-candy-festival-today-3445432340c0](https://medium.com/@x.zhang/24-cities-world-wide-join-the-acala-mandala-candy-festival-today-3445432340c0)                                                                                       | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X | reward, claps: 450                         |
+| [https://medium.com/@dujason1215/acala-airdrop-tutorial-a9dd2a9a39f](https://medium.com/@dujason1215/acala-airdrop-tutorial-a9dd2a9a39f)                                                                                                                                                                     | 5DvszTc6FJAmyhE6v5ZJhchtGH1ZQ2KR7iZi7g2776EX2ZQ7 | reward, claps: 378                         |
+| [https://medium.com/@gafaruzb70/acala-network-fbc2e335c50](https://medium.com/@gafaruzb70/acala-network-fbc2e335c50)                                                                                                                                                                                         | 5DCdUUZSEsdB3JBwdyQsKjEwdjWLyVajJaeki66M5YhGYWyK | encourage:333 ACA + 16,666 KAR, claps: 256 |
+| [https://medium.com/@qash0430/cross-chain-stablecoin-platform-based-on-substrate-acala-5697bc34d24](https://medium.com/@qash0430/cross-chain-stablecoin-platform-based-on-substrate-acala-5697bc34d24)                                                                                                       | 5DSKU5oM1FcCjvRVKpF6rGPpvnZaMk6HmP9tZjSiJwakGhzn | reward, claps: 369                         |
+| [https://medium.com/@jgm5676/acala-the-forerunner-of-defi-55d35b308867](https://medium.com/@jgm5676/acala-the-forerunner-of-defi-55d35b308867)                                                                                                                                                               | 5EJR3vqBw8y2X4TNhqGHi7NzYM5H9DcyfdJM5XjrnH2CC6jt | reward, claps: 376                         |
+| [https://medium.com/@x.zhang/need-for-new-defi-infrastructure-why-acala-2f7cb4e6d27b](https://medium.com/@x.zhang/need-for-new-defi-infrastructure-why-acala-2f7cb4e6d27b)                                                                                                                                   | 5FHCaBgXVmj4iStBArBgPKubNJGRZCjja1j1SfdaKMu5KA2X | reward, claps: 419                         |
+| [https://medium.com/@liquid19922/acala-consortium-the-first-global-decentralized-financial-ecological-alliance-8e414ded220e](https://medium.com/@liquid19922/acala-consortium-the-first-global-decentralized-financial-ecological-alliance-8e414ded220e)                                                     | 5D7eU4gL7GYQy1GhiwfLBUkXWogVnuaqag86SBXgvwxZQSxn | reward, claps: 373                         |
+| [https://medium.com/@Jackie007/how-will-acala-reshape-the-defi-ecosystem-in-the-future-59da733746ef](https://medium.com/@Jackie007/how-will-acala-reshape-the-defi-ecosystem-in-the-future-59da733746ef)                                                                                                     | 5EU2iHgcRyDxrWPg63eYHu4qQUVztEsu5Gj4mQYNsVuADkhJ | reward, claps: 385                         |
+| [https://medium.com/@kira1996/the-last-three-days-of-polkadots-ecological-high-quality-airdrop-event-come-and-win-acala-1b49656bbaf7](https://medium.com/@kira1996/the-last-three-days-of-polkadots-ecological-high-quality-airdrop-event-come-and-win-acala-1b49656bbaf7)                                   | 5GgQbgzvpPJvpVQMi96Dj8ZP7EnEZZDoJJma9XTcuge8yxs8 | encourage:333 ACA + 16,666 KAR, claps: 366 |
+| [https://medium.com/@lapinandr6/acala-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%BE-%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5-defi-5e72720ea4f9](https://medium.com/@lapinandr6/acala-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%BE-%D0%B2-%D0%BC%D0%B8%D1%80%D0%B5-defi-5e72720ea4f9) | 5HEn1YtswEWpqpC9E2E21nCtUqgdJLQ1UfErVombGfHnKaGq | encourage:333 ACA + 16,666 KAR, claps: 222 |
+| [https://link.medium.com/6OOcykqN84](https://link.medium.com/6OOcykqN84)                                                                                                                                                                                                                                     | 5ELbRUyqUbiDei3F7kAwofGGaQx1NQEaQnVN1qL11uyZUCfh | encourage:333 ACA + 16,666 KAR, claps: 287 |
+| [https://medium.com/@Jackson1992/defi-communitys-new-solution-to-the-crisis-acala-951c6db55a0b](https://medium.com/@Jackson1992/defi-communitys-new-solution-to-the-crisis-acala-951c6db55a0b)                                                                                                               | 5HKSjHopywfVCnVi4id3mD8rmPBmkx4YSnY6mrHURzRtB3jw | reward, claps: 371                         |
+| [https://medium.com/@willianm/acala-received-investment-from-several-well-known-institutions-around-the-world-b96c47d8f52e](https://medium.com/@willianm/acala-received-investment-from-several-well-known-institutions-around-the-world-b96c47d8f52e)                                                       | 5FKwpUEGHMVG3N58vCgkNF99JhHFGrji71CU8nHf1XRoa72L | encourage:333 ACA + 16,666 KAR, claps: 351 |
 
 | bihu.com link                                                              | Mandala address                                  | Results |
 | -------------------------------------------------------------------------- | ------------------------------------------------ | ------- |
@@ -809,7 +809,7 @@ To celebrate & reward supporters, we're hosting the Mandala Festival Prize Drops
 
 **3 prizes (55 ACA & 2,777 KAR) EACH DAY** till 27th Mar Collision symbol
 
-* Follow this guide  [https://github.com/AcalaNetwork/Acala/wiki/4.-Maintainers](https://github.com/AcalaNetwork/Acala/wiki/4.-Maintainers) 
+* Follow this guide [https://github.com/AcalaNetwork/Acala/wiki/4.-Maintainers](https://github.com/AcalaNetwork/Acala/wiki/4.-Maintainers)
 * Remember to put **first 10 char of your prize claim address using `--name`**
 * Also remember to get some test tokens so we can verify it
 
@@ -828,13 +828,13 @@ To celebrate & reward supporters, we're hosting the Mandala Festival Prize Drops
 
 * Submit a blog to Medium or Bihu
 * Remember to **include your Acala Mandala Address in the article to receive prizes**
-* Submit the article link to [https://riot.im/app/#/room/#acala:matrix.org](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY_BLOG
+* Submit the article link to [https://riot.im/app/#/room/#acala:matrix.org](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY\_BLOG
 
 ## Ongoing Rewards
 
 ### Coding
 
-**ELIGIBILITY** Anything built with or on top of Acala that inspires you and excites you. This could be bots, DApps, services, tooling… Please provide the following: 1. Clearly articulate the problem and solution 2. Complete at least a proof-of-concept runnable code 3. Provide appropriate documentation 4. Put your Acala Mandala Address inside your code repo e.g. in README 5. Submit your code to [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY_CODE
+**ELIGIBILITY** Anything built with or on top of Acala that inspires you and excites you. This could be bots, DApps, services, tooling… Please provide the following: 1. Clearly articulate the problem and solution 2. Complete at least a proof-of-concept runnable code 3. Provide appropriate documentation 4. Put your Acala Mandala Address inside your code repo e.g. in README 5. Submit your code to [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY\_CODE
 
 **REWARD** Each prize will be **at least 1,000 ACA and 60,000 KAR**, more can be awarded depends on coolness, significance, usefulness, quality, and other aspects the Acala Engineers may see fit.
 
@@ -846,7 +846,7 @@ The total prize pool is capped at 40,000 ACA and 2,000,000 KAR, and Acala reserv
 
 **ELIGIBILITY** Help identify bugs in Acala mainly for this repo [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala).
 
-Generally, a bug that poses significant vulnerability or causing systemic defects would be eligible. 1. Open an issue in Github, provide as much information as you can, including a description of the bug, its potential impact, steps for reproducing it 2. Include your Acala Mandala Address for prize giving in the Github issue 3. Submit the issue to [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY_RUNTIME_BUG
+Generally, a bug that poses significant vulnerability or causing systemic defects would be eligible. 1. Open an issue in Github, provide as much information as you can, including a description of the bug, its potential impact, steps for reproducing it 2. Include your Acala Mandala Address for prize giving in the Github issue 3. Submit the issue to [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY\_RUNTIME\_BUG
 
 **PRIZE** **Total Prize Pool**: 16,666 ACA and 833,333 KAR, and Acala reserves the right to extend it further.
 
@@ -860,7 +860,7 @@ Bugs are judged on significance and severity by the Acala Engineering team, and 
 
 ### UI Bug Bounty (Closed)
 
-Generally, a bug that poses significant vulnerability or causing systemic defects would be eligible. 1. Open an issue in Github, provide as much information as you can, including a description of the bug, its potential impact, steps for reproducing it 2. Include your Acala Mandala Address for prize giving in the Github issue 3. Submit to the [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY_UI_BUG
+Generally, a bug that poses significant vulnerability or causing systemic defects would be eligible. 1. Open an issue in Github, provide as much information as you can, including a description of the bug, its potential impact, steps for reproducing it 2. Include your Acala Mandala Address for prize giving in the Github issue 3. Submit to the [Acala Riot Channel](https://riot.im/app/#/room/#acala:matrix.org) with keyword CANDY\_UI\_BUG
 
 **PRIZE** **Total Prize Pool**: 2,000 ACA and 100,000 KAR, and Acala reserves the right to extend it further.
 

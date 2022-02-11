@@ -7,3 +7,5 @@ There are 4 ways to build with Acala:&#x20;
 3. Build a chain and _**connect with Acala using cross-chain message-passing protocol by Polkadot**_. We are currently deployed on Rococo as a parachain and are testing cross-chain communication, token transfers and other functionalities. If you are also a parachain (or parathread when it's available), and are ready to test cross-chain functionalities, please contact us for options. [Read more](composable-chains/).
 4. Deploy smart contracts using _Ink!_ rust-based native smart contract platform. This is yet to be production-ready and will be made available on Acala later, but if you are interested, feel free to contact us and learn more.&#x20;
 
+Developers, teams, or organizations looking to integrate the aUSD stablecoin and Acala Network can contact the Acala team here to schedule time to discuss the integration: [https://aca.la/build-with-Acala](https://aca.la/build-with-Acala)
+
