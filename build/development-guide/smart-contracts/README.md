@@ -8,7 +8,7 @@
 [advanced](advanced/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../learn/learn/acala-evm/" %}
-[acala-evm](../../../learn/learn/acala-evm/)
+{% content-ref url="../../../learn/acala-evm/" %}
+[acala-evm](../../../learn/acala-evm/)
 {% endcontent-ref %}
 

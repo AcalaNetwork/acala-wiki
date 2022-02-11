@@ -1,2 +1,0 @@
-# kUSD Stablecoin
-
