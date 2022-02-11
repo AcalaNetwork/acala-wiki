@@ -8,8 +8,8 @@
   * [Trilogy Networks](learn/trilogy-networks.md)
   * [Flexible Fees](learn/flexible-fees.md)
   * [Governance](learn/governance-overview.md)
-  * [Acala EVM](learn/acala-evm/README.md)
-    * [Why Acala EVM](learn/acala-evm/why-acala-evm.md)
+  * [Acala EVM+](learn/acala-evm/README.md)
+    * [Why Acala EVM+](learn/acala-evm/why-acala-evm.md)
     * [Existing Solutions](learn/acala-evm/existing-solutions.md)
     * [Acala EVM+](learn/acala-evm/acala-evm-composable-defi-stack/README.md)
       * [Composable DeFi Stack](learn/acala-evm/acala-evm-composable-defi-stack/composable-defi-stack.md)
@@ -109,6 +109,9 @@
 
 * [Guides](general/guides/README.md)
   * [How to change default fee token](general/guides/how-to-change-default-fee-token.md)
+  * [Set up an Oracle](general/guides/set-up-an-oracle/README.md)
+    * [Oracle on Mandala Testnet](general/guides/set-up-an-oracle/oracle-guide-for-mandala-test-network.md)
+  * [Node Interaction](general/guides/node-interaction.md)
 * [Acala Portal](general/acala-portal/README.md)
   * [General Links](general/acala-portal/general-links.md)
   * [Community](general/acala-portal/community.md)
@@ -134,28 +137,6 @@
   * [Try Acala DApp](general/acala-hacker-guide/try-acala-dapp.md)
 * [Contribution & Rewards](general/contribution-rewards/README.md)
   * [Acala Old Friend NFT](general/contribution-rewards/acala-old-friend-nft.md)
-* [DeFi Basics](learn/basics/README.md)
-  * [Acala Account](learn/basics/acala-account.md)
-  * [aUSD Stablecoin](learn/basics/ausd-stablecoin.md)
-  * [DeX](learn/basics/dex/README.md)
-    * [Provide Liquidity](learn/basics/dex/provide-liquidity.md)
-  * [Auctions](learn/basics/auctions/README.md)
-    * [Liquidation & Emergency Shutdown](learn/basics/auctions/liquidation-and-emergency-shutdown.md)
-  * [Liquid DOT](learn/basics/liquid-dot.md)
-  * [Open Oracle Gateway](learn/basics/oracle/README.md)
-    * [Oracle on Mandala Testnet](learn/basics/oracle/oracle-guide-for-mandala-test-network.md)
-  * [Cross Chain DeFi](learn/basics/cross-chain-defi.md)
-
-## Learn
-
-* [Economics](learn-1/economics/README.md)
-  * [ACA & KAR](learn-1/economics/aca-and-kar.md)
-  * [Parachain Slots Auction](https://wiki.polkadot.network/docs/en/learn-auction)
-  * [Acala Token Economy Paper](https://github.com/AcalaNetwork/Acala-white-paper/blob/master/Acala\_Token\_Economy\_Paper.pdf)
-  * [Acala Parachain](learn-1/economics/acala-parachain.md)
-* [Miscellaneous](learn-1/miscellaneous/README.md)
-  * [Runtime Events](learn-1/miscellaneous/runtime-events.md)
-  * [Modules](learn-1/miscellaneous/modules.md)
 
 ## Build
 
@@ -185,19 +166,13 @@
   * [General](build/development-guide/general/README.md)
     * [Transaction Construction](build/development-guide/general/transaction-construction.md)
     * [Type Documentation](build/development-guide/general/types-doc.md)
+* [Cross Chain DeFi](build/cross-chain-defi.md)
 * [Tools](build/tools.md)
 * [Resources](build/resources/README.md)
   * [Examples](build/resources/examples.md)
-
-## Maintain
-
-* [Network Maintainers](maintain/network-maintainers/README.md)
-  * [Mandala Test Network Maintainers Guide](maintain/network-maintainers/mandala-maintainers-guide.md)
-  * [Proof-of-Liveness (PoL) Node (Coming Soon)](maintain/network-maintainers/proof-of-liveness.md)
-  * [Node Management](maintain/network-maintainers/node-management.md)
-  * [Node Interaction](maintain/network-maintainers/node-interaction.md)
-  * [Run a RPC Archive Node](maintain/network-maintainers/node-archive.md)
-  * [Node Command Line Arguments](maintain/network-maintainers/node-cli.md)
+* [Miscellaneous](build/miscellaneous/README.md)
+  * [Runtime Events](build/miscellaneous/runtime-events.md)
+  * [Modules](build/miscellaneous/modules.md)
 
 ## Misc
 

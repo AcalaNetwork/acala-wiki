@@ -34,7 +34,7 @@ Overseeing updates of Liquid Staking parameters e.g. validator selection
 
 ### Oracle Collective
 
-Electing Oracle operators. Membership of the [Oracle Gateway](../../../../learn/basics/oracle/) requires approval from the General Council, which is essentially a Proof-of-Authority model that only authorized trusted operators can provide price feeds into the network. This model will evolve with the contemporary R\&D on the Oracle problem.
+Electing Oracle operators. Membership of the [Oracle Gateway](broken-reference) requires approval from the General Council, which is essentially a Proof-of-Authority model that only authorized trusted operators can provide price feeds into the network. This model will evolve with the contemporary R\&D on the Oracle problem.
 
 * Elected by the General Council via 2/3 approval rating.&#x20;
 

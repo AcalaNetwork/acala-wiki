@@ -1,6 +1,6 @@
-# Why Acala EVM
+# Why Acala EVM+
 
-## Why Acala EVM
+## Why Acala EVM+
 
 EVM is currently the most popular smart contract platform. Many new generation blockchains who claim to be faster and cheaper than Ethereum, would still keep the Ethereum compatibility, to attract Solidity developers allowing them to reuse existing toolchains and migrate existing contracts with minimal effort. Despite how bloated and expensive Ethereum has become, none of the challenger chains have taken any significant market share thus far.
 
