@@ -1,4 +1,8 @@
-# Integration Guide
+---
+description: Integration Guide
+---
+
+# Acala Network
 
 Acala is a parachain of the Polkadot Relay chain, with all of its network security and consensus provided by Polkadot's Validator set. As a [Substrate](https://www.substrate.io)-based chain, most of Acala's integration points are the same as Kusama and Polkadot. As a parachain specifically though, the key differences will be outlined in this document.
 
