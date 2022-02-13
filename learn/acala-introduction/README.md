@@ -11,7 +11,7 @@ Acala powered by Polkadot is cross-chain by nature. The reserve assets can be Po
 ## Assets
 
 * **Acala Dollar (aUSD)**: the Acala stablecoin that is soft-pegged to (stabilized against) the US Dollar. Minting Acala Dollar is trustless, sovereign and liberating act of the minting, using reserve assets in excess of value as collateral.&#x20;
-* **Reserve Assets**: DOT, LDOT ([Liquid Staking DOT powered by Homa Protocol](https://docs.homastaking.app)) and ACA are default reserve assets. New cross-chain assets can be included as reserve assets upon assessment by the Financial Committee and Risk Assessor like [Guanlet](https://gauntlet.network).&#x20;
+* **Reserve Assets**: DOT, LDOT ([Liquid Staking DOT powered by Homa Protocol](https://docs.homastaking.app)) and ACA are default reserve assets. New cross-chain assets can be included as reserve assets upon assessment by the Financial Committee and Risk Assessor like [Gauntlet](https://gauntlet.network).&#x20;
 * **Acala Token (ACA)**: the native token of Acala network. There is a fixed supply of ACA. ACA is the reserve asset to generate Acala stablecoin, and the governance token to regulate stablecoin price by adjusting risk parameters such as interest rate. ACA is also the transaction fees token of the network.&#x20;
 
 ## Why Acala Stablecoin
@@ -51,7 +51,7 @@ Multiple types of reserve assets with different risk profiles are accepted as co
 * **LiquidationPenalty:** cost for allowing your vault (loan) to be liquidated, a disincentive for leaving a vault unsafe
 * **RequiredCollateralRatio:** required when minting stablecoin. This is usually higher than the LiquidationRatio as a safety cushion to prevent immediate liquidation after minting for volatile assets
 * **MaximumTotalDebitValue:** debt Ceiling for a particular collateral, used to control portfolio diversification, risks willing to take on
-* **MaxSlippageSwapWithDEX:** the system liquidates Acceptable slippage when liquidating on Karura Swap, to ensure price efficiency
+* **MaxSlippageSwapWithDEX:** the system liquidates on AcalaSwap when slippage is within acceptable levels before goes to collateral auction, to ensure price efficiency
 
 ### Autonomous Liquidator
 
@@ -80,7 +80,7 @@ Once the autonomous Liquidator identifies an unsafe vault, it will trigger the l
 
 ### Liquidation Process
 
-Liquidating unsafe positions requires selling off some collateral assets to repay Acala stablecoin owed (borrowed from the vault). The liquidation mechanism uses [Acalaswap](https://docs.acalaswap.app) in conjunction of Collateral Auction to ensure efficiency and effectiveness.
+Liquidating unsafe positions requires selling off some collateral assets to repay Acala stablecoin owed (borrowed from the vault). The liquidation mechanism uses [AcalaSwap](https://docs.acalaswap.app) in conjunction of Collateral Auction to ensure efficiency and effectiveness.
 
 The end result of a liquidation is
 
