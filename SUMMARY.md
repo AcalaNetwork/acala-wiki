@@ -51,7 +51,7 @@
     * [Karura App](https://apps.karura.network)
     * [Governance](get-started/get-started/governance.md)
     * [Transaction Fees](get-started/get-started/transaction-fees.md)
-  * [Manada Testnet](get-started/networks.md)
+  * [Mandala Testnet](get-started/networks.md)
 * [Integrate](integrate/README.md)
   * [Acala Network](networks/acala-network/integration/README.md)
     * [Protocol Info](networks/acala-network/integration/protocol-info.md)
