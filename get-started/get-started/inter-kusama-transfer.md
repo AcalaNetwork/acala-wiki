@@ -4,6 +4,8 @@ Karura is an experimental network, or a 'canary network', for Acala. It's an ear
 
 ⚠️  Exchanges do NOT currently support direct withdraw/deposit KSM to/from Karura network. **Please do NOT send KSM to an exchange address on Karura App.** Read more [here](karura-account/exchange.md).
 
+* [Karura Web App Transfer Guide](https://wiki.karura.app/general/transfer-guide)
+
 ## Why Transfer KSM to Karura
 
 KSM is the native token of Kusama. It is used as the fee token, staking token to provide network security and governance token on the Kusama Relay chain. The launch of Karura's parachain unlocks new use cases for KSM:
