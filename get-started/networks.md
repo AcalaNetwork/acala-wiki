@@ -1,4 +1,4 @@
-# Manada Testnet
+# Mandala Testnet
 
 ### Web App
 
