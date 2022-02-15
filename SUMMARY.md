@@ -3,6 +3,7 @@
 * [Acala & Karura Wiki](README.md)
 * [Learn](learn/README.md)
   * [Acala Introduction](learn/acala-introduction/README.md)
+    * [Acala Dollar](https://docs.acaladollar.app)
     * [AcalaSwap](https://docs.acalaswap.app)
     * [Homa Liquid Staking](https://docs.homastaking.app)
     * [Redenomination of ACA](get-started/acala-network/redenomination-of-aca.md)
