@@ -2,6 +2,12 @@
 
 Read Governance overview [here](../../learn/governance-overview/).
 
+Below are governance discussion and proposal avenues:
+
+* [Karura Subsquare - Discussion & View related on-chain Proposal](https://karura.subsquare.io)
+* [Polkadot Web App - On-chain Voting](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-1.aca-api.network#/extrinsics)
+* [Acala Discourse Forum - long forum, informal discussions](https://acala.discourse.group/c/karura/)
+
 ## Governance Parameters
 
 These are important governance parameters, which may change over time as we progress through the governance phases.
