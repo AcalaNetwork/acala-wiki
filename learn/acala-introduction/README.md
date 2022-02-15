@@ -89,7 +89,7 @@ The end result of a liquidation is
 * remaining collaterals are returned to the vault owner
 * in an unfortunate liquidation event where not all Acala stablecoin can be recouped, `cdp_treasury` will record it as bad debt
 
-![](https://i.imgur.com/i6k6OTz.png)
+![](<../../.gitbook/assets/Screen Shot 2022-02-15 at 9.43.41 AM.png>)
 
 #### Liquidation on AcalaSwap
 
