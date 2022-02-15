@@ -46,12 +46,12 @@ We will outline below the key aspects of risk management and stability mechanism
 
 Multiple types of reserve assets with different risk profiles are accepted as collaterals of CDPs,  each of which has its own set of risk parameters to create a diversified basket of assets backing the stablecoin. The protocol dynamically manages the debt positions and safeguard the solvency of the protocol using these risk parameters.
 
-* **StabilityFee:** this is the interest rate or cost for minting Acala stablecoin. It is used as incentive to influence supply and demand of the stablecoin
-* **LiquidationRatio:** this is the ratio at which the collaterals will be sold to pay off outstanding stablecoin debt to ensure solvency of the system. Price volatility affects collateral risk profiles. A more risky collateral asset is usually associated with a higher LiquidationRatio, and vice versa
-* **LiquidationPenalty:** cost for allowing your vault (loan) to be liquidated, a disincentive for leaving a vault unsafe
-* **RequiredCollateralRatio:** required when minting stablecoin. This is usually higher than the LiquidationRatio as a safety cushion to prevent immediate liquidation after minting for volatile assets
-* **MaximumTotalDebitValue:** debt Ceiling for a particular collateral, used to control portfolio diversification, risks willing to take on
-* **MaxSlippageSwapWithDEX:** the system liquidates on AcalaSwap when slippage is within acceptable levels before goes to collateral auction, to ensure price efficiency
+* **Stability Fee:** this is the interest rate or cost for minting Acala stablecoin. It is used as incentive to influence supply and demand of the stablecoin
+* **Liquidation Ratio:** this is the ratio at which the collaterals will be sold to pay off outstanding stablecoin debt to ensure solvency of the system. Price volatility affects collateral risk profiles. A more risky collateral asset is usually associated with a higher LiquidationRatio, and vice versa
+* **Liquidation Penalty:** cost for allowing your vault (loan) to be liquidated, a disincentive for leaving a vault unsafe
+* **Required Collateral Ratio:** required when minting stablecoin. This is usually higher than the LiquidationRatio as a safety cushion to prevent immediate liquidation after minting for volatile assets
+* **Debt Ceiling:** debt Ceiling for a particular collateral, used to control portfolio diversification, risks willing to take on
+* **Accepted Slippage:** the system liquidates on AcalaSwap when slippage is within acceptable levels before goes to collateral auction, to ensure price efficiency
 
 ### Autonomous Liquidator
 
