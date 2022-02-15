@@ -2,13 +2,31 @@
 
 ## Tokens
 
-* **Token decimals:**
-  * Acala (ACA): 12
-  * LDOT: 12
-  * Acala Dollar (aUSD): 12
-* **Base unit:** “Plank"
-* **Balance type:**
-* **Total Fixed Supply of ACA:** 1,000,000,000
+* **Acala Token**
+  * Symbole: ACA
+  * Decimal: 12
+  * Total Fixed Supply: 1,000,000,000
+  * Token type: default native token
+  * Check balance: `system.account`
+* **Acala Dollar**
+  * Symbol: aUSD
+  * Decimal: 12
+  * Token type: [orml](https://github.com/open-web3-stack/open-runtime-module-library) tokens
+  * Check balance: `tokens.accounts`
+  * Total issuance: `tokens.totalIssuance`
+* **Liquid DOT:**
+  * Symbol: LDOT
+  * Decimal: 10
+  * Token type: orml tokens
+  * Check balance: `tokens.accounts`
+  * Total issuance: `tokens.totalIssuance`
+* **Liquid Crowdloan DOT**
+  * Symbol: LCDOT
+  * Decimal: 10
+  * Token type: orml LiquidCrowdloan token
+  * Check balance: `tokens.accounts`
+
+![](<../../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
 
 ## Account
 
