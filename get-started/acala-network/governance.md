@@ -6,7 +6,7 @@ Below are governance discussion and proposal avenues:
 
 * [Acala Subsquare - Discussion & View related on-chain Proposal](https://acala.subsquare.io)
 * [Polkadot Web App - On-chain Voting](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc-0.aca-api.network#/extrinsics)
-* [Acala Discourse Forum - long forum, informal discussions](https://acala.discourse.group/c/acala/16)
+* [Acala Discourse Forum - long form, informal discussions](https://acala.discourse.group/c/acala/16)
 
 ## Governance Parameters
 
