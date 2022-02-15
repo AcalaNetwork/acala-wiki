@@ -6,25 +6,26 @@
   * Symbole: ACA
   * Decimal: 12
   * Total Fixed Supply: 1,000,000,000
-  * Token type: default native token
+  * Token type: Native / Tokens(ACA)
   * Check balance: `system.account`
 * **Acala Dollar**
   * Symbol: aUSD
   * Decimal: 12
-  * Token type: [orml](https://github.com/open-web3-stack/open-runtime-module-library) tokens
+  * Token type: Tokens(AUSD)
   * Check balance: `tokens.accounts`
   * Total issuance: `tokens.totalIssuance`
 * **Liquid DOT:**
   * Symbol: LDOT
   * Decimal: 10
-  * Token type: orml tokens
+  * Token type: Tokens(LDOT)
   * Check balance: `tokens.accounts`
   * Total issuance: `tokens.totalIssuance`
 * **Liquid Crowdloan DOT**
   * Symbol: LCDOT
   * Decimal: 10
-  * Token type: orml LiquidCrowdloan token
+  * Token type: LiquidCrowdloan(13)
   * Check balance: `tokens.accounts`
+  * Total issuance: `tokens.totalIssuance`
 
 ![](<../../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
 
