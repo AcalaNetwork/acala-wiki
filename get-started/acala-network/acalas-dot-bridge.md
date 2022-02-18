@@ -8,6 +8,8 @@ One of these dependencies is the XCM Bridge Infrastructure, a component of the P
 
 To provide an answer to the desire from the community for DOT liquidity on Acala, we are pleased to announce an interim non-custodial bridge solution to support DOT transfers to Acala, endorsed by Parity. While it is a limited one-direction DOT bridge that enables transferring DOT from Polkadot to Acala, once XCM is available on Polkadot, it will be seamlessly upgraded to use XCM with no migration required for DOT holders.
 
+Note: Regarding DOT withdrawal from Acala, please refer to [Exchange Withdraw/Deposit](https://wiki.acala.network/get-started/acala-network/acala-account/exchange-withdraw-deposit).&#x20;
+
 ### What is the Acala's DOT Bridge
 
 The DOT bridge is Acala's solution which:
