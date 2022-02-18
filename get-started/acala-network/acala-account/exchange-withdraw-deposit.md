@@ -6,7 +6,7 @@
 
 Exchanges that support direct withdraw/deposit DOT to/from Acala Network
 
-* [Kucoin](https://www.kucoin.com/news/en-acala-aca-polkadot-dot-is-now-supported-on-kucoin-20220218)
+* [KuCoin](https://www.kucoin.com/news/en-acala-aca-polkadot-dot-is-now-supported-on-kucoin-20220218)
 
 #### ACA Withdraw/Deposit <a href="#aca-withdrawdeposit" id="aca-withdrawdeposit"></a>
 
