@@ -2,7 +2,11 @@
 
 #### DOT **withdraw/deposit to/from Acala network** <a href="#dot-withdrawdeposit" id="dot-withdrawdeposit"></a>
 
-⚠️ **Exchanges do NOT currently support direct withdraw/deposit DOT to/from Acala network.** Please do NOT transfer DOT to an exchange address on Acala App. We will list the exchanges support them as they become available.
+⚠️ **NOT All Exchanges support direct withdraw/deposit DOT to/from Acala network.** Please do Do NOT transfer DOT to an exchange address on Acala App except for the ones listed below as they become available.
+
+Exchanges that support direct withdraw/deposit DOT to/from Acala Network
+
+* [Kucoin](https://www.kucoin.com/news/en-acala-aca-polkadot-dot-is-now-supported-on-kucoin-20220218)
 
 #### ACA Withdraw/Deposit <a href="#aca-withdrawdeposit" id="aca-withdrawdeposit"></a>
 
