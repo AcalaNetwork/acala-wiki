@@ -8,7 +8,7 @@ Polkawallet users can link their Polkawallet account to Polkadot.js extension to
 
 2\) Open the browser extension and click on the gear icon. Select `Allow QR Camera Access` to enable the camera on the computer. Then, click `Open extension in new window.`
 
-![](<../../../../.gitbook/assets/image (37).png>)
+![](<../../../../.gitbook/assets/image (37) (1).png>)
 
 3\) Click on the plus sign and select `Attach external QR-signer account.` The camera on your computer will turn on asking you to `Scan Address Qr.`
 
