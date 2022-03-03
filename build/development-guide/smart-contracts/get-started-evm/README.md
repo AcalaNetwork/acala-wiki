@@ -1,7 +1,7 @@
 # Get Started
 
-{% content-ref url="connect-to-a-node/" %}
-[connect-to-a-node](connect-to-a-node/)
+{% content-ref url="connect-to-a-node.md" %}
+[connect-to-a-node.md](connect-to-a-node.md)
 {% endcontent-ref %}
 
 {% content-ref url="acala-console.md" %}

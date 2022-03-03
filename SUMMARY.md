@@ -87,7 +87,7 @@
     * [Smart Contracts](build/development-guide/smart-contracts/README.md)
       * [Acala EVM Overview](https://wiki.acala.network/learn/basics/acala-evm)
       * [Get Started](build/development-guide/smart-contracts/get-started-evm/README.md)
-        * [Connect to a Node](build/development-guide/smart-contracts/get-started-evm/connect-to-a-node/README.md)
+        * [Connect to a Node](build/development-guide/smart-contracts/get-started-evm/connect-to-a-node.md)
           * [Use MetaMask with EVM+](build/development-guide/smart-contracts/get-started-evm/connect-to-a-node/use-metamask-with-evm+.md)
         * [Setup EVM Account](build/development-guide/smart-contracts/get-started-evm/evm-account.md)
         * [Polkadot Explorer](build/development-guide/smart-contracts/get-started-evm/acala-console.md)

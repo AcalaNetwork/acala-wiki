@@ -2,13 +2,13 @@
 
 ## **Single Wallet, Single Account Experience**
 
-Users can use **one extension/wallet**, and **a single Substrate account** to interact with the Substrate runtime, contracts in EVM, and wasm contracts or a hybrid of these. If a user wants to use a particular Ethereum address, then simply link it with his/her Substrate address \(basically proving the user owns both addresses\), thereafter the user can just use the Substrate account with [Polkadot{js} extension](https://wiki.polkadot.network/docs/en/learn-account-generation) or alike to sign any Ethereum transactions seamlessly.
+Users can use **one extension/wallet**, and **a single Substrate account** to interact with the Substrate runtime, contracts in EVM, and wasm contracts or a hybrid of these. If a user wants to use a particular Ethereum address, then simply link it with his/her Substrate address (basically proving the user owns both addresses), thereafter the user can just use the Substrate account with [Polkadot{js} extension](https://wiki.polkadot.network/docs/en/learn-account-generation) or alike to sign any Ethereum transactions seamlessly.
 
 This allows users to use all functionalities within Acala and cross-chain capabilities without managing multiple accounts or wallets.
 
 ## Setup EVM Account
 
-A user on Acala will always have a Substrate-based account that enables users to easily navigate multiple blockchains and sign any \(EVM and Susbtrate\) transactions with a single account. Read more on Acala Substrate Account [here](https://wiki.acala.network/learn/basics/acala-account). Follow the guide [here](https://wiki.acala.network/learn/get-started#create-a-polkadot-account) or [here](https://wiki.polkadot.network/docs/en/learn-account-generation) to generate a Substrate account.
+A user on Acala will always have a Substrate-based account that enables users to easily navigate multiple blockchains and sign any (EVM and Susbtrate) transactions with a single account. Read more on Acala Substrate Account [here](https://wiki.acala.network/learn/basics/acala-account). Follow the guide [here](https://wiki.acala.network/learn/get-started#create-a-polkadot-account) or [here](https://wiki.polkadot.network/docs/en/learn-account-generation) to generate a Substrate account.
 
 To enable Single Account and use Acala EVM, you either
 
@@ -27,13 +27,13 @@ Balances are automatically synchronized between the Substrate account and the as
 
 The EVM Address is generated using the `blake2_256` hash function with a prefix `evm` and the associated Substrate account as input. Check out the source code [here](https://github.com/AcalaNetwork/Acala/blob/master/modules/evm-accounts/src/lib.rs#L185-L186).
 
-```text
+```
 blake2_256(“evm:” ++ account_id)[0..20]
 ```
 
 #### Generate an EVM Address via EVM Playground
 
-Navigate to the [EVM Playground](https://evm.acala.network/#/evmAccount) \(a web app to test various Acala EVM functionalities\).
+Navigate to the [EVM Playground](https://evm.acala.network/#/evmAccount) (a web app to test various Acala EVM functionalities).
 
 Navigate to the `Setup EVM Account` tab if you are not already on it.
 
@@ -71,6 +71,50 @@ _**One Substrate account can only be associated with one Ethereum address.**_ A 
 
 Binding an existing Ethereum account requires users to prove they own the Ethereum account private key, by signing a message, include it in a `claim` transaction and send it to the Acala network.
 
+#### Step 1: Get the genesis hash
+
+* Select the **Metadata** from the **Settings** Section of the [Polkadot App](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmandala-tc7-rpcnode.aca-dev.network%2Fws#/settings/metadata)
+* Copy the **Genesis Hash** hex string
+
+![Step 1: Getting the Genesis hash](<../../../../.gitbook/assets/image (34).png>)
+
+#### Step 2: Get the Chain ID for your target address
+
+* Select the **Developer** tab, then **Chain state** from the dropdown
+* Select **Constant** and then **evm** from the **constant query** dropdown
+* Choose **chainId** from  the method/action dropdown
+* Click the **+** button on the right
+
+![Developer > Chain state > Constants > evm > chainId](<../../../../.gitbook/assets/image (31).png>)
+
+#### Step 3: Create the signature of the claim on the [EVM+ Playground](https://evm.acala.network/#/Bind%20Account)
+
+1. Select the right account in Metamask
+2. Fill in the **Substrate address**, **Chain id** & **Genesis hash**
+3. Click **Sign** & copy the **signature** to the next step
+
+![Step 3: Create the signature of the claim](<../../../../.gitbook/assets/image (39).png>)
+
+#### Step 4: Claim Account on the Developer Section of the [Polkadot App](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmandala-tc7-rpcnode.aca-dev.network%2Fws#/extrinsics)
+
+The **ethAddress** should be the same as your Metamask wallet address that you used above to generate the signature.
+
+1. Select **evmAcounts** from the **extrinsic** dropdown menu
+2. Select **claimAccount(ethAddress, ethSignature)** from the method/action dropdown
+3. Fill in the **ethAddress** & **ethSignature**
+4. Click **Submit Transaction**
+
+![Step 4: Fill in eth address and eth signature](<../../../../.gitbook/assets/image (42).png>)
+
+#### Step 5: Confirm the bindings
+
+1. Select the **Developer** tab, then **Chain state** from the dropdown
+2. Select **Storage** and then **evmAccounts** from the **state query** dropdown
+3. Click the **+** button on the right
+4. Double check that the **evmAccounts.evmAddresses** is indeed the right one.
+
+![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (35).png>)
+
 #### Use Cases
 
 Below are two potential use cases of binding an existing Ethereum address.
@@ -83,5 +127,4 @@ The easiest way is to airdrop tokens to existing Ethereum addresses on Acala. He
 
 **Use Case 2**
 
-For DApps like [Linkdrop](https://linkdrop.io/), users are required to sign messages using Ethereum private key. Using Linkdrop on Acala, would require users to claim their existing Ethereum address, and bind it to their Substrate account. Thereafter they can send transactions on behalf of the Ethereum account.
-
+For DApps like [Linkdrop](https://linkdrop.io), users are required to sign messages using Ethereum private key. Using Linkdrop on Acala, would require users to claim their existing Ethereum address, and bind it to their Substrate account. Thereafter they can send transactions on behalf of the Ethereum account.
