@@ -26,7 +26,7 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 1\) Select `Adjust Bonded` and click `Unbond`.
 
-![](<../../../../../.gitbook/assets/image (40).png>)
+![](<../../../../../.gitbook/assets/image (40) (1).png>)
 
 2\) Enter the amount you'd like to unbond and click `Submit`.
 
@@ -64,4 +64,4 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 5\) You can see that your “Available” balance has increased by the amount you redeemed. Your tokens have been completely unstaked and are now freely transferable.
 
-![](<../../../../../.gitbook/assets/image (43).png>)
+![](<../../../../../.gitbook/assets/image (43) (1).png>)
