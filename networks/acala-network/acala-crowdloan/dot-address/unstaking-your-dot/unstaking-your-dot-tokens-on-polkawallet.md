@@ -12,25 +12,25 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 2\) Click `Validators` in the upper right corner.
 
-![](<../../../../../.gitbook/assets/image (31) (1).png>)
+![](<../../../../../.gitbook/assets/image (31).png>)
 
 3\) Select `Set Nominees` and click `Stop Nominating`.
 
-![](<../../../../../.gitbook/assets/image (35) (1).png>)
+![](<../../../../../.gitbook/assets/image (35).png>)
 
 4\) Click `Submit`.
 
-![](<../../../../../.gitbook/assets/image (38) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (38) (1).png>)
 
 ## Unbonding Your Tokens&#x20;
 
 1\) Select `Adjust Bonded` and click `Unbond`.
 
-![](<../../../../../.gitbook/assets/image (40) (1).png>)
+![](<../../../../../.gitbook/assets/image (40).png>)
 
 2\) Enter the amount you'd like to unbond and click `Submit`.
 
-![](<../../../../../.gitbook/assets/image (42) (1).png>)
+![](<../../../../../.gitbook/assets/image (42).png>)
 
 3\) Click `Submit`.
 
@@ -42,7 +42,7 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 5\) You can check how much longer before your tokens unlock by clicking on the clock icon. Once the unlocking period is over, proceed to the steps below to redeem your ubonded tokens and make them transferrable.
 
-![](<../../../../../.gitbook/assets/image (39) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (39) (1).png>)
 
 ## Redeeming Your Unbonded Tokens
 
@@ -60,8 +60,8 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 4\) Click `Submit`.
 
-![](<../../../../../.gitbook/assets/image (34) (1).png>)
+![](<../../../../../.gitbook/assets/image (34).png>)
 
 5\) You can see that your “Available” balance has increased by the amount you redeemed. Your tokens have been completely unstaked and are now freely transferable.
 
-![](<../../../../../.gitbook/assets/image (43) (1).png>)
+![](<../../../../../.gitbook/assets/image (43).png>)

@@ -65,6 +65,22 @@ Type definitions allow the SDK to know how to serialize / deserialize blocks, tr
 
 Acala's type definition bundle can be found [here](https://unpkg.com/browse/@acala-network/type-definitions@latest/json/typesBundle.json).
 
+## MultiLocation
+
+You can use these MultiLocation to add Karura token assets to other parachains foreign token list.
+
+aUSD:
+
+`{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 1] } ]}}`
+
+LDOT:
+
+`{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 3] } ]}}`&#x20;
+
+ACA:
+
+`{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 0] } ]}}`
+
 ## JS SDK
 
 Acala.js: [https://github.com/AcalaNetwork/acala.js](https://github.com/AcalaNetwork/acala.js)
