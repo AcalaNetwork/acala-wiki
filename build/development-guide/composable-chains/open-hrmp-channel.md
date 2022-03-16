@@ -32,7 +32,7 @@ In the example below, we're doing Karura to Statemine single one direction open 
 
 ### Generate encoded transact
 
-In PolkadotJS app, switch to the live Polkadot/Karura network. Go to **Developer -> Javascript** section. Run the encoding code, note to replace the demo recipient para id `1000` with your recipient:
+In PolkadotJS app, switch to the live Polkadot/Kusama network. Go to **Developer -> Javascript** section. Run the encoding code, note to replace the demo recipient para id `1000` with your recipient:
 
 ```javascript
 const tx = api.tx.hrmp.hrmpInitOpenChannel(1000, 1000, 102400);
@@ -50,9 +50,9 @@ Use `ormlXcm -> sendAsSovereign` to send the transaction. The xcm message format
 Notice there're two field should be changed:&#x20;
 
 * \<relay-chain-encoded-hex-call>: `0x3c00e8030000e803000000900100`
-* \<parachain-sovereign-account>: 5Ec4AhPUwPeyTFyuhGuBbD224mY85LKLMSqSSo33JYWCazU4
+* \<parachain-id>: 2000
 
-> Note: the sovereign account of parachain 2000 is: 5Ec4AhPUwPeyTFyuhGuBbD224mY85LKLMSqSSo33JYWCazU4. in your case, if your parachain intergrated `orml-xcm`, then you should change the \<parachain-sovereign-account> to your own parachain sovereign account.
+> Note: the parachain-id is your parachain, Karura's parachain id is 2000
 
 ```
 ormlXcm.sendAsSovereign(
@@ -117,10 +117,7 @@ ormlXcm.sendAsSovereign(
             parents: 0
             interior: {
               X1: {
-                AccountId32: {
-                  network: Any
-                  id: <parachain-sovereign-account>
-                }
+                Parachain: <parachain-id>
               }
             }
           }
@@ -137,7 +134,7 @@ To confirm the request was sent, switch to Polkadot/Kusama, go to **Developer ->
 
 ### Generate encoded transact
 
-In PolkadotJS app, switch to the live Polkadot/Karura network. Go to **Developer -> Javascript** section. Run the encoding code, note to replace the demo recipient para id `2000` with your recipient:
+In PolkadotJS app, switch to the live Polkadot/Kusama network. Go to **Developer -> Javascript** section. Run the encoding code, note to replace the demo recipient para id `2000` with your recipient:
 
 ```javascript
 const tx = api.tx.hrmp.hrmpAcceptOpenChannel(2000);
@@ -150,14 +147,14 @@ The result will be like `0x1c043c01d0070000`, remove the leading hex `1c04`, and
 
 Go to PolkadotJS app, switch to recipient parachain. Go to **Developer -> Sudo** section.
 
-Use `polkadotXcm -> send` to send the transaction. The xcm message format likes:
+Use `ormlXcm -> sendAsSovereign` to send the transaction. The xcm message format likes:
 
 Notice there're one field should be changed:&#x20;
 
 * \<relay-chain-encoded-hex-call>: `0x3c01d0070000`
 
 ```
-polkadotXcm.send(
+ormlXcm.sendAsSovereign(
   dest: XcmVersionedMultiLocation
   {
     V1: {
@@ -194,7 +191,7 @@ polkadotXcm.send(
               }
             }
             fun: {
-              Fungible: 1,000,000,000,000
+              Fungible: 40,000,000,000
             }
           }
           weightLimit: Unlimited
@@ -206,6 +203,22 @@ polkadotXcm.send(
           requireWeightAtMost: 1,000,000,000
           call: {
             encoded: <relay-chain-encoded-hex-call>
+          }
+        }
+      }
+      {
+        DepositAsset: {
+          assets: {
+            Wild: All
+          }
+          maxAssets: 1
+          beneficiary: {
+            parents: 0
+            interior: {
+              X1: {
+                Parachain: <parachain-id>
+              }
+            }
           }
         }
       }
