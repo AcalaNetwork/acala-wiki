@@ -10,6 +10,10 @@ On Acala there are the following steps balance types
 
 ## Check & Claim Vested Tokens
 
+### Claiming Vested ACA via Web App
+
+You can claim your vested ACA here [https://apps.acala.network/](https://apps.acala.network)
+
 ### Claiming Vested ACA
 
 **Even though tokens may be vested (unlocked), you will still need to claim them before you can transfer them or use them in DeFi applications on the Acala platform.** You can learn how to claim your tokens by following the guide below:
