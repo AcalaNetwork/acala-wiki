@@ -28,7 +28,7 @@ The Early Adopter program is a self-elected program making it open to anyone int
 
 ### How do I earn my NFT?
 
-To earn the exclusive NFT, Early Adopters must meet **ALL** of the following criteria by March 28th at 11:59pm UTC:&#x20;
+To earn the exclusive NFT, Early Adopters must meet **ALL** of the following criteria by April 28th at 11:59pm UTC:&#x20;
 
 * One on-chain recording of DOT transfer to Acala via the bridge
 * One on-chain recording of aUSD minting
@@ -37,7 +37,7 @@ To earn the exclusive NFT, Early Adopters must meet **ALL** of the following cri
 
 ### How long will the Early Adopter program run for?
 
-The Early Adopter Program will start on February 3rd and will end at 11:59 pm UTC on March 28th.
+The Early Adopter Program will start on February 3rd and will end at 11:59 pm UTC on April 28th.
 
 ### When will I be able to transfer my DOT assets out of Acala?
 

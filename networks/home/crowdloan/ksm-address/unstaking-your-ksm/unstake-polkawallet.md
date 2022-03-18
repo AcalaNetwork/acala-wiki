@@ -39,7 +39,7 @@ You will need to unstake your KSM tokens prior to bonding them to the crowdloan 
 
 6\) Your KSM tokens are now in a 7-day cooldown period. You can check to see how much time remains in the cooldown period by tapping on the clock icon under "Unlocking."&#x20;
 
-![](<../../../../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (13) (1).png>)
 
 
 

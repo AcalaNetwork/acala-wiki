@@ -16,23 +16,23 @@ On Acala there are the following steps balance types
 
 1\) Go to your Polkadot.js **extension** and make sure it is set to `allow use on any chain`.
 
-![](<../../../../.gitbook/assets/Allow use on any chain.png>)
+![](<../../../.gitbook/assets/Allow use on any chain (1).png>)
 
 2\) Go to [Polkadot JS Apps](https://polkadot.js.org/apps/#/explorer) and connect to the Acala network. You can do this by clicking on the dropdown box in the upper left hand corner (shown below).
 
-![](<../../../../.gitbook/assets/Toggle for Acala (2).png>)
+![](<../../../.gitbook/assets/Toggle for Acala (1) (1).png>)
 
 3\) Select an Acala node (any is fine) and click `Switch`.
 
-![](<../../../../.gitbook/assets/Select Acala (1).png>)
+![](<../../../.gitbook/assets/Select Acala.png>)
 
 4\) Select `Accounts`. You should see your ACA amount. You can expand the balance in your account to see if there's a vested (locked) balance. If there's one, it will be displayed.
 
-![](<../../../../.gitbook/assets/locked tokens wiki.png>)
+![](<../../../.gitbook/assets/locked tokens wiki.png>)
 
 Go to the `Developer - Extrinsics` section, use the account that you want to claim the vested balance. Select `vesting` then `claim()` in the `submit the following extrinsics` field, then click the `Submit Transaction` button to complete the process.
 
-![](../../../../.gitbook/assets/claim.png)
+![](../../../.gitbook/assets/claim.png)
 
 ### Claiming Vested ACA for Other Accounts
 
@@ -40,13 +40,13 @@ Users can also claim vested ACA for other accounts by going to the `Developer - 
 
 Note that submitting this transaction only makes the vested tokens transferrable. It does not transfer them to the account that initiates the claim.
 
-![](<../../../../.gitbook/assets/Screen Shot 2022-01-25 at 6.53.34 PM.png>)
+![](<../../../.gitbook/assets/Screen Shot 2022-01-25 at 6.53.34 PM.png>)
 
 ### Check Vesting
 
 Go to the `Developer - Chain state` section, select `vesting` then `vestingSchedules()` , then select your account, then click the `+` button to see what vesting schedule it has.
 
-![](<../../../../.gitbook/assets/vesting schedule.png>)
+![](<../../../.gitbook/assets/vesting schedule.png>)
 
 Below is an example result
 

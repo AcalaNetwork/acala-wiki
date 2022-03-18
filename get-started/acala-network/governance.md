@@ -37,7 +37,7 @@ Since the preimage can be quite large (hence costly to submit), you can submit a
 
 By clicking on the `Submit preimage` button, then fill in the action you want to propose, copy and note down the preimage hash `0xe2dafd2ace4fbc0b2f6d28f92db250d052975c704a16058b9d620a6a24800357`. Once you noted down the hash, you can now cancel the prompt.&#x20;
 
-![](../../.gitbook/assets/preimage.PNG)
+![](<../../.gitbook/assets/preimage (1).PNG>)
 
 #### Submit a proposal
 
