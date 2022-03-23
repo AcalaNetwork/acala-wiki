@@ -12,7 +12,7 @@ Polkawallet users can link their Polkawallet account to Polkadot.js extension to
 
 3\) Click on the plus sign and select `Attach external QR-signer account.` The camera on your computer will turn on asking you to `Scan Address Qr.`
 
-![](<../../../../.gitbook/assets/image (32).png>)
+![](<../../../../.gitbook/assets/image (32) (1).png>)
 
 4\) To retrieve your QR code, open your Polkawallet app and select the QR code symbol to the left of your address.
 

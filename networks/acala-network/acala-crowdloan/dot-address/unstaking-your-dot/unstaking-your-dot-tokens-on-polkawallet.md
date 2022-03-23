@@ -56,7 +56,7 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 3\) Enter the amount you wish to redeem. Click `Submit`.
 
-![](<../../../../../.gitbook/assets/image (32) (1).png>)
+![](<../../../../../.gitbook/assets/image (32) (1) (1).png>)
 
 4\) Click `Submit`.
 
