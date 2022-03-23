@@ -3,24 +3,28 @@
 ## Tokens
 
 * **Acala Token**
-  * Symbole: ACA
+  * Name: Acala
+  * Symbol: ACA
   * Decimal: 12
   * Total Fixed Supply: 1,000,000,000
   * Token type: Native / Tokens(ACA)
   * Check balance: `system.account`
 * **Acala USD**
+  * Name: Acala USD
   * Symbol: aUSD
   * Decimal: 12
   * Token type: Tokens(AUSD)
   * Check balance: `tokens.accounts`
   * Total issuance: `tokens.totalIssuance`
 * **Liquid DOT:**
+  * Name: Liquid DOT
   * Symbol: LDOT
   * Decimal: 10
   * Token type: Tokens(LDOT)
   * Check balance: `tokens.accounts`
   * Total issuance: `tokens.totalIssuance`
 * **Liquid Crowdloan DOT**
+  * Name: Liquid Crowdloan DOT
   * Symbol: LCDOT
   * Decimal: 10
   * Token type: LiquidCrowdloan(13)
