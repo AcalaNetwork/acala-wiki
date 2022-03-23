@@ -8,7 +8,7 @@
   * Total Fixed Supply: 1,000,000,000
   * Token type: Native / Tokens(ACA)
   * Check balance: `system.account`
-* **Acala Dollar**
+* **Acala USD**
   * Symbol: aUSD
   * Decimal: 12
   * Token type: Tokens(AUSD)
