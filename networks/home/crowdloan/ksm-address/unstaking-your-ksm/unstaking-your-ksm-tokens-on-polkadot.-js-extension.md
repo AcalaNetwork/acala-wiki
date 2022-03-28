@@ -8,7 +8,7 @@ You will need to unstake your KSM tokens prior to bonding them to the [crowdloan
 
 1.Open [Polkadot{.js}](https://polkadot.js.org/apps/#/explorer) and connect to the Kusama network. Then in the navigation bar at the top of the page, click on the “Network” dropdown and select “Staking.”
 
-![](<../../../../../.gitbook/assets/image-1 (1) (1).png>)
+![](<../../../../../.gitbook/assets/image-1 (1).png>)
 
 2\. Click on “Account actions” in the white sub-header towards the top of the screen. Then click “Stop” (towards the right of the screen) on the account that you’d like to unstake.
 
