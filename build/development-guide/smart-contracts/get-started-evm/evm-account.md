@@ -28,7 +28,7 @@ Balances are automatically synchronized between the Substrate account and the as
 The EVM Address is generated using the `blake2_256` hash function with a prefix `evm` and the associated Substrate account as input. Check out the source code [here](https://github.com/AcalaNetwork/Acala/blob/master/modules/evm-accounts/src/lib.rs#L185-L186).
 
 ```
-blake2_256(“evm:” ++ account_id)[0..20]
+blake2_256("evm:" ++ account_id)[0..20]
 ```
 
 #### Generate an EVM Address via EVM Playground
