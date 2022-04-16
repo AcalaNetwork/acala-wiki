@@ -3,19 +3,43 @@
 Acala supports different types of tokens than Polkadot, and allows various ways to transfer tokens. This guide will walk through tokens available on Acala, tools can be used for transfers, how to send transfer transactions, monitor and track these transactions.
 
 ## Token Types
+### Token
+  
+| Symbol | Description | CurrencyId | Decimals | Minimal Balance |
+| --- | --- | --- | --- | --- |
+| ACA | native token of Acala network | Token(ACA) | 12 | 0.1 ACA |
+| aUSD | multi-collateralized stablecoin | Token(AUSD) | 12 | 0.1 aUSD |
+| DOT | crossed to Acala from Polkadot Relay Chain | Token(DOT) | 10 | 0.01 DOT |
+| LDOT | tokenized staked DOT from the Liquid Staking protocol | Token(LDOT) | 10 | 0.05 LDOT |
 
-* **Native Network Token**
-  * ACA
-* **Native Protocol Tokens**
-  * LDOT: tokenized staked DOT from the Liquid Staking protocol
-  * LCDOT: tokenized liquid receipt of crowdloaned DOT
-  * aUSD: multi-collateralized stablecoin
-* **Foreign Tokens**
-  * DOT: crossed to Acala from Polkadot Relay Chain
-  * Tokens originated from other parachains
-  * Tokens crossed from other blockchains such as ETH, renBTC or Compound CASH
-* **ERC20 Tokens**
-  * Token issued by ERC20 contracts deployed in Acala EVM
+ `AssetRegistry` registered the metadata info of this type token.
+
+### DexShare
+The lp share token for the trading pair of Acala DEX. The CurrencyId type of Acala DEX's lp token are `CurrencyId::DexShare`, and the decimals and minimal balance of lp token are same as the first token in `DexShare`.
+For example, `CurrencyId::DexShare(Token(ACA), Token(AUSD))` is the CurrencyId of lp token of ACA/aUSD pair, its decimal is 12, and minimal balance is 0.1, these are same as ACA.
+
+Currently,  `AssetRegistry` does not register metadata info of any lp token.
+
+### Erc20
+Token issued by ERC20 contracts deployed in Acala EVM+. The CurrencyId type is `Erc20(Address)`, `Address` is the ERC20 contract address on EVM+.
+
+### LiquidCrowdloan
+| Symbol | Description | CurrencyId | Decimals | Minimal Balance |
+| --- | --- | --- | --- | --- |
+| LcDOT | tokenized liquid receipt of crowdloaned DOT | LiquidCrowdloan(13) | 10 | 0.01 LcDOT |
+
+ `AssetRegistry` registered the metadata info of this type token.
+
+### ForeignAsset
+Tokens originated from other parachains. 
+
+ `AssetRegistry` registered the metadata info of this type token.
+
+## Query token's metadata on assetRegistry
+
+![query asset metadata](./asset-registry-query.png)
+
+
 
 ## Tools
 
