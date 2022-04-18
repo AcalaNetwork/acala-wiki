@@ -46,8 +46,8 @@ Token issued by ERC20 contracts deployed in Karura EVM+. The CurrencyId type is 
 | MOVR | Moonriver | ForeignAsset(3) | 18 | 0.001 MOVR |
 | HKO | Heiko | ForeignAsset(4) | 12 | 0.1 HKO |
 | CSM | Crust Shadow Native Token | ForeignAsset(5) | 12 | 1 CSM |
-| KICO | KICO | ForeignAsset(5) | 14 | 1 KICO |
-| USDT | Tether USD | ForeignAsset(5) | 6 | 0.01 USDT |
+| KICO | KICO | ForeignAsset(6) | 14 | 1 KICO |
+| USDT | Tether USD | ForeignAsset(7) | 6 | 0.01 USDT |
 
 Tokens originated from other parachains. 
  `AssetRegistry` registered the metadata info of this type token.
