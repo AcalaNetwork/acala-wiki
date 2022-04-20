@@ -82,7 +82,7 @@ Binding an existing Ethereum account requires users to prove they own the Ethere
 
 * Select the **Developer** tab, then **Chain state** from the dropdown
 * Select **Constant** and then **evm** from the **constant query** dropdown
-* Choose **chainId** from  the method/action dropdown
+* Choose **chainId** from the method/action dropdown
 * Click the **+** button on the right
 
 ![Developer > Chain state > Constants > evm > chainId](<../../../../.gitbook/assets/image (31).png>)
@@ -113,7 +113,7 @@ The **ethAddress** should be the same as your Metamask wallet address that you u
 3. Click the **+** button on the right
 4. Double check that the **evmAccounts.evmAddresses** is indeed the right one.
 
-![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (35).png>)
+![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (38).png>)
 
 #### Use Cases
 

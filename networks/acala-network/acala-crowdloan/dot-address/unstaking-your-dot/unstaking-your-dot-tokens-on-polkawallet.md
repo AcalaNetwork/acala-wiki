@@ -8,7 +8,7 @@ Unstaking on Polkawallet involves a few steps. First, you need to stop nominatin
 
 1\) Open the Polkawallet mobile app and click `Staking`.
 
-![](<../../../../../.gitbook/assets/image (36) (1).png>)
+<img src="../../../../../.gitbook/assets/image (36) (1).png" alt="" data-size="original">
 
 2\) Click `Validators` in the upper right corner.
 

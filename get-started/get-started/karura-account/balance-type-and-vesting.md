@@ -50,6 +50,14 @@ Below is an example result
 ]
 ```
 
+### Claiming Vested KAR for Other Accounts
+
+Users can also claim vested KAR for other accounts by going to the `Developer - Extrinsics` section. Select the account you'd like to use to initiate the claim in `using the selected account`. Submit the `vesting` then `claimFor(dest)` extrinsic and the account you'd like to claim **for** which is the account that has the locked tokens (shown at bottom of screenshot).
+
+Note that submitting this transaction only makes the vested tokens transferrable. It does not transfer them to the account that initiates the claim.
+
+![](<../../../.gitbook/assets/Screen Shot 2022-04-20 at 4.09.22 PM.png>)
+
 ### On Karura App
 
 You can claim the released portion of vested KAR on the [Karura App](https://apps.karura.network).
