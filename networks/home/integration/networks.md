@@ -12,7 +12,7 @@
 
 [https://karura.subscan.io/](https://karura.subscan.io)
 
-### RPC Endpoints
+### WebSocket RPC Endpoints
 
 * `wss://karura.api.onfinality.io/public-ws`
 * `wss://pub.elara.patract.io/karura`
@@ -20,3 +20,7 @@
 * `wss://karura-rpc-1.aca-api.network`
 * `wss://karura-rpc-2.aca-api.network/ws`
 * `wss://karura-rpc-3.aca-api.network/ws`
+
+### HTTPS RPC Endpoints
+
+* `https://karura.api.onfinality.io/public-rpc`

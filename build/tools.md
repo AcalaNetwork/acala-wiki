@@ -12,15 +12,14 @@
 
 ### Supported Wallets
 
-| Wallet Name                                                    | Development State | Team Name   | Description                         |
-| -------------------------------------------------------------- | ----------------- | ----------- | ----------------------------------- |
-| [Acala DApp](https://apps.acala.network)                       | Live              | Acala       | Browser                             |
-| [Polkawallet](https://polkawallet.io)                          | Live              | Polkawallet | IOS and Android                     |
-| [Signer](https://www.parity.io/signer/)                        | Building          | Parity      | IOS and Android                     |
-| [Polkadot-JS](https://polkadot.js.org/apps/#/accounts)         | Live              | Parity      | Browser                             |
-| [Talisman](https://talisman.xyz)                               | Live              | Talisman    | Browser extension & Browser         |
-| [SubWallet](https://subwallet.app)                             | Live              | SubWallet   | Browser extension & IOS and Android |
-| [Polkadot.JS Plugin](https://github.com/polkadot-js/extension) | Building          | Parity      | Browser extension                   |
+| Wallet Name                                                    | Development State | Team Name   | Description       |
+| -------------------------------------------------------------- | ----------------- | ----------- | ----------------- |
+| [Acala DApp](https://apps.acala.network)                       | Live              | Acala       | Browser           |
+| [Polkadot Explorer](https://polkadot.js.org/apps/)             | Live              | Acala       | Browser           |
+| [Polkawallet](https://polkawallet.io)                          | Live              | Polkawallet | IOS and Android   |
+| [Signer](https://www.parity.io/signer/)                        | Building          | Parity      | IOS and Android   |
+| [Polkadot-JS](https://polkadot.js.org/apps/#/accounts)         | Building          | Parity      | Browser           |
+| [Polkadot.JS Plugin](https://github.com/polkadot-js/extension) | Building          | Parity      | Browser extension |
 
 ## Network Monitoring & Reporting
 
