@@ -92,7 +92,7 @@ ormlXcm.sendAsSovereign(
               }
             }
             fun: {
-              Fungible: 40,000,000,000
+              Fungible: 1,000,000,000,000
             }
           }
           weightLimit: Unlimited
@@ -101,7 +101,7 @@ ormlXcm.sendAsSovereign(
       {
         Transact: {
           originType: Native
-          requireWeightAtMost: 1,000,000,000
+          requireWeightAtMost: 5,000,000,000
           call: {
             encoded: <relay-chain-encoded-hex-call>
           }
@@ -134,7 +134,7 @@ To confirm the request was sent, switch to Polkadot/Kusama, go to **Developer ->
 
 ### Generate encoded transact
 
-In PolkadotJS app, switch to the live Polkadot/Kusama network. Go to **Developer -> Javascript** section. Run the encoding code, note to replace the demo recipient para id `2000` with your recipient:
+In PolkadotJS app, switch to the live Polkadot/Kusama network. Go to **Developer -> Javascript** section. Run the encoding code, Karura's parachain id is 2000:
 
 ```javascript
 const tx = api.tx.hrmp.hrmpAcceptOpenChannel(2000);
@@ -191,7 +191,7 @@ ormlXcm.sendAsSovereign(
               }
             }
             fun: {
-              Fungible: 40,000,000,000
+              Fungible: 1,000,000,000,000
             }
           }
           weightLimit: Unlimited
@@ -200,7 +200,7 @@ ormlXcm.sendAsSovereign(
       {
         Transact: {
           originType: Native
-          requireWeightAtMost: 1,000,000,000
+          requireWeightAtMost: 5,000,000,000
           call: {
             encoded: <relay-chain-encoded-hex-call>
           }
