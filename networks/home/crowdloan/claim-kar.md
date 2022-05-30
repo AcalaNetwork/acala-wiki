@@ -2,7 +2,7 @@
 
 **🔔 Claim Service is back online now. Please claim your KAR ASAP.**
 
-If you participated in Karura crowdloan from channels other than the officially supported ones, you will need to read and agree to our Terms and Conditions to claim your tokens. You can check if you need to claim KAR [here](https://distribution.acala.network).
+If you participated in Karura crowdloan from channels other than the officially supported ones, you will need to read and agree to our Terms and Conditions to claim your tokens. You can check if you need to claim KAR [here](https://distribution.acala.network/).
 
 ## Using Polkadot{js} Extension
 
@@ -75,7 +75,7 @@ I hereby agree to the terms of the statement whose SHA-256 multihash is QmSfG9pS
 
 ![](https://i.imgur.com/33Yb0qW.png)
 
-7\. Your remark transaction has been submitted onto Kusama. You can view the signed remark on [Kusama Subscan Explorer](https://kusama.subscan.io). Paste in your Kusama address used for sending the transaction.
+7\. Your remark transaction has been submitted onto Kusama. You can view the signed remark on [Kusama Subscan Explorer](https://kusama.subscan.io/). Paste in your Kusama address used for sending the transaction.
 
 ![](https://i.imgur.com/nCCwxXm.png)
 

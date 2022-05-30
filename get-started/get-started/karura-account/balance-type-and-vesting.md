@@ -60,6 +60,6 @@ Note that submitting this transaction only makes the vested tokens transferrable
 
 ### On Karura App
 
-You can claim the released portion of vested KAR on the [Karura App](https://apps.karura.network).
+You can claim the released portion of vested KAR on the [Karura App](https://apps.karura.network/).
 
 ![](../../../.gitbook/assets/screen-shot-2021-07-14-at-2.01.13-pm.png)

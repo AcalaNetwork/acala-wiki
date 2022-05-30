@@ -4,7 +4,7 @@ description: Thank you for contributing to the Karura crowdloan!! 🚀
 
 # Crowdloan Rewards
 
-**🔥Base reward**: **19.95 KAR for every 1 KSM contributed 🔥**Check your rewards [here](https://distribution.acala.network).
+**🔥Base reward**: **19.95 KAR for every 1 KSM contributed 🔥**Check your rewards [here](https://distribution.acala.network/).
 
 ## 1. Crowdloan Stats
 
@@ -46,7 +46,7 @@ Rewards to be distributed are all recorded on the [`Distribution Website`](https
 Most of the KAR rewards have been distributed (except for the ones that need to be claimed). You can check your balances&#x20;
 
 * on the [Polkadot Apps - Karura parachain - Accounts](https://polkadot.js.org/apps/#/accounts) (you need to switch to the Karura parachain under Kusama) OR
-* on [Karura Subscan explore](https://karura.subscan.io)
+* on [Karura Subscan explore](https://karura.subscan.io/)
 * If you participated via exchanges, all participated exchange rewards have been distributed to them, so please contact them directly
 
 If your rewards are marked as `To be Claimed`, please [follow the guide here](claim-kar.md) to claim.

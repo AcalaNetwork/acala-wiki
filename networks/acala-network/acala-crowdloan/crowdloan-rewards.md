@@ -36,7 +36,7 @@ description: 4.61 ACA for every 1 DOT contributed
 
 ## 4. Check Rewards
 
-Rewards to be distributed are all recorded on the [Distribution Website](https://distribution.acala.network).
+Rewards to be distributed are all recorded on the [Distribution Website](https://distribution.acala.network/).
 
 **All ACA rewards have been distributed (except for the ones that say `to be claimed` ).** There are several ways to check your balances:
 
@@ -60,4 +60,4 @@ Rewards to be distributed are all recorded on the [Distribution Website](https:/
 
 ### Check on Subscan
 
-Go to [Acala Subscan](https://acala.subscan.io) and enter your DOT address.
+Go to [Acala Subscan](https://acala.subscan.io/) and enter your DOT address.

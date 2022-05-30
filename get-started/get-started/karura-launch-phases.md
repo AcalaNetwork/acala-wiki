@@ -10,11 +10,11 @@ The Genesis block of the Karura network was launched on 23rd June, 2021, as a Pr
 
 Since genesis, Karura's network security is provided by Kusama's Nominated Proof of Stake (NPoS) Validators upon launch. Karura's Collators will be provided by node service partners at this stage.
 
-**Karura parachain is available on** [**Subscan**](https://karura.subscan.io) **&** [**Polkadot App**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws#/explorer)**.**
+**Karura parachain is available on** [**Subscan**](https://karura.subscan.io/) **&** [**Polkadot App**](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura.api.onfinality.io%2Fpublic-ws#/explorer)**.**
 
 ## 🏒 (Done) **Finalize KAR Distribution**
 
-**You can view KAR distributions are available** [**here**](https://distribution.acala.network)**.**
+**You can view KAR distributions are available** [**here**](https://distribution.acala.network/)**.**
 
 * [x] Testnet campaign rewards & airdrops
 * [x] "Build Acala #1" rewards

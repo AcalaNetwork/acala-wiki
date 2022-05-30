@@ -9,7 +9,7 @@ description: >-
 
 ## General Discussion & Support
 
-[Discord](https://discord.gg/vdbFVCH) **|** [Discourse Forum](https://acala.discourse.group) **|** [Riot](https://riot.im/app/#/room/#acala:matrix.org) **|** [General Enquiry Email](mailto:hello@acala.network)
+[Discord](https://discord.gg/vdbFVCH) **|** [Discourse Forum](https://acala.discourse.group/) **|** [Riot](https://riot.im/app/#/room/#acala:matrix.org) **|** [General Enquiry Email](mailto:hello@acala.network)
 
 Issues can be raised directly in the respective [Github](https://github.com/AcalaNetwork) repo or via Riot channel
 

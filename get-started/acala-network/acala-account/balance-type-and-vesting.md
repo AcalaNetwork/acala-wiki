@@ -12,7 +12,7 @@ On Acala there are the following steps balance types
 
 ### Claiming Vested ACA via Web App
 
-You can claim your vested ACA here [https://apps.acala.network/](https://apps.acala.network)
+You can claim your vested ACA here [https://apps.acala.network/](https://apps.acala.network/)
 
 ### Claiming Vested ACA
 

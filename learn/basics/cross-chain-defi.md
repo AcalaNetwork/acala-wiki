@@ -27,7 +27,7 @@ On Mandala testnet the cross-chain functionality is provided by a trusted servic
 
 ![lamianr](https://github.com/AcalaNetwork/Acala/wiki/image/cross-laminar.png)
 
-* [Laminar Flow Exchange](https://flow.laminar.one)
+* [Laminar Flow Exchange](https://flow.laminar.one/)
 * [Get Started Guide](https://github.com/laminar-protocol/laminar-chain/wiki/1.-Get-Started)
 * [Video: Margin Trading](https://youtu.be/s4pl6glM5kA)
 
@@ -41,7 +41,7 @@ Go to `Wallet` --> tab `Cross-chain` --> select `Inter Polkadot Transfer`. Next,
 
 ![transferback](https://github.com/AcalaNetwork/Acala/wiki/image/cross-laminartoacala.png)
 
-On [Laminar Flow Exchange](https://flow.laminar.one), go to `Dashboard` --> click `transfer` next to aUSD, then simply put the amount of aUSD you would like to send across to Acala, and click `Confirm`. The aUSD will be send to the same account on Laminar Chain.
+On [Laminar Flow Exchange](https://flow.laminar.one/), go to `Dashboard` --> click `transfer` next to aUSD, then simply put the amount of aUSD you would like to send across to Acala, and click `Confirm`. The aUSD will be send to the same account on Laminar Chain.
 
 ### Ren
 

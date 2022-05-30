@@ -2,7 +2,7 @@
 
 **Most crowdloan contributors do not need to claim their ACA or lcDOT tokens. They will be automatically distributed to you.** However, if you participated in the Acala crowdloan through the https://polkadot.js.org/apps/ website, you will need to read and agree to our Terms and Conditions in order to claim your tokens.
 
-If you are unsure, you can also check to see if you need to go through the claims process by going to our [distribution website](https://distribution.acala.network). Once you enter your address, if your status is `To Be Claimed`, then you need to go through the claims process.
+If you are unsure, you can also check to see if you need to go through the claims process by going to our [distribution website](https://distribution.acala.network/). Once you enter your address, if your status is `To Be Claimed`, then you need to go through the claims process.
 
 You can access the Claim Website directly [here](https://distribution.acala.network/claim/acala).&#x20;
 
@@ -62,7 +62,7 @@ Click `Submit Transaction`. Note that you’ll be required to pay a small fee to
 
 ![](https://lh6.googleusercontent.com/tIGP5ZHl8r\_XNT5EKKvylMLWTitl0IAgFoI0IhhNd58WoNzO0m55xcSSd9HCWSiQccHmsLz4ges17a9qC9SgM3diKGgmRw5eno0y271XOvB5lTDy4sF8HXJtYrA9vi5sCZuqg6eh)
 
-5\) Your remark transaction has been submitted onto Polkadot. You can view the signed remark on [Polkadot Subscan Explorer](https://polkadot.subscan.io). Paste in the Polkadot address used for sending the transaction.
+5\) Your remark transaction has been submitted onto Polkadot. You can view the signed remark on [Polkadot Subscan Explorer](https://polkadot.subscan.io/). Paste in the Polkadot address used for sending the transaction.
 
 ![](https://lh5.googleusercontent.com/17GsCIeXA\_0ijuwCxjuVu3jjRHiSrYaaLMlVY53YkqRpxi6yzTSDP7ASC3BvbAu9ZyWdcxRIQ945fyv0KQK\_aazJ76eZvLqb3\_88hGw6vkL0i\_Ade82Vx100V6TgbewNojuOnKkU)
 

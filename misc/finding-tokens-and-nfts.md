@@ -20,7 +20,7 @@ When the Karura Crowdloan occurs, users can also recommend others to participate
 
 * Desktop: Please use the plugin wallet ([https://polkadot.js.org/extension/](https://polkadot.js.org/extension/)) to import your Kusama account. Check it through the Dapp ([https://apps.acala.network/wallet](https://apps.acala.network/wallet)), Under the `Collectibles` column.\
   ![](https://i.imgur.com/fCDF0C6.png)
-* Mobile: Import your account into the mobile wallet ([https://polkawallet.io](https://polkawallet.io)), Switch network to Acala Mandala. If it does not appear, it may be the cause of network delay.\
+* Mobile: Import your account into the mobile wallet ([https://polkawallet.io](https://polkawallet.io/)), Switch network to Acala Mandala. If it does not appear, it may be the cause of network delay.\
   ![](https://i.imgur.com/JFeB0K1.png)
 
 #### 4. Everyone with over 130 Gleam entries wins 3 KAR (For Ledger, scroll below) <a href="#4-everyonenbspwith-over-130-gleam-entries-wins-3-kar" id="4-everyonenbspwith-over-130-gleam-entries-wins-3-kar"></a>
@@ -29,7 +29,7 @@ When the Karura Crowdloan occurs, users can also recommend others to participate
 
 * Desktop: Please use the plugin wallet ([https://polkadot.js.org/extension/](https://polkadot.js.org/extension/)) to import your Kusama account. And check it through the Acala Dapp ([https://apps.acala.network/#/wallet](https://apps.acala.network/#/wallet)), Under `Wallet` -> `AirDrop`.\
   ![](https://i.imgur.com/IQiTcIi.png)
-* Mobile: Import your account into the mobile wallet ([https://polkawallet.io](https://polkawallet.io)), Switch network to Acala Mandala. Under `AirDrop`.\
+* Mobile: Import your account into the mobile wallet ([https://polkawallet.io](https://polkawallet.io/)), Switch network to Acala Mandala. Under `AirDrop`.\
   ![](https://i.imgur.com/EI8mFb5.png)
 
 

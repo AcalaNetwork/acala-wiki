@@ -148,7 +148,7 @@ The experimental network for Polkadot. It consists of an early-release of the Po
 
 ### LIBP2P
 
-An open-source library for encrypted peer-to-peer communications and other networking functionality. More information at: [https://libp2p.io/](https://libp2p.io)
+An open-source library for encrypted peer-to-peer communications and other networking functionality. More information at: [https://libp2p.io/](https://libp2p.io/)
 
 ### Liveness
 

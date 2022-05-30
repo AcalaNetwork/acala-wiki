@@ -8,5 +8,5 @@ description: Get Started
 
 * [Set up Wallet & Accounts](../acala-network/acala-account/)
 * [Bridge KSM to Karura](inter-kusama-transfer.md)
-* [Karura Web App](https://apps.karura.network)
-* [Karura Web App Guide](https://wiki.karura.app)
+* [Karura Web App](https://apps.karura.network/)
+* [Karura Web App Guide](https://wiki.karura.app/)

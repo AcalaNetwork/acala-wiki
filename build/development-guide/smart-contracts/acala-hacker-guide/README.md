@@ -57,7 +57,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 ### Social Channels
 
-* [Acala Homepage](https://acala.network)
+* [Acala Homepage](https://acala.network/)
 * [Twitter](https://twitter.com/AcalaNetwork)
 * [Discord](https://discord.gg/vdbFVCH)
 * [Acala Newsletter](https://acala.network/newsletter-sign-up.html)

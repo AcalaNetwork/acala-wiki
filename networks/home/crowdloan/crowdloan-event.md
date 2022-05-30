@@ -72,15 +72,15 @@ Follow the [`How to Crowdloan`](https://wiki.acala.network/karura/crowdloan/how-
 #### Partner Exchanges&#x20;
 
 * [Kraken](https://www.kraken.com/learn/parachain-auctions): check with Kraken for the bonus amount.
-* [OKEx](https://www.okex.com): check with OKEx for how to participate and bonus amount.
-* [Huobi](https://www.huobi.com): check with Huobi for how to participate and bonus amount.
+* [OKEx](https://www.okex.com/): check with OKEx for how to participate and bonus amount.
+* [Huobi](https://www.huobi.com/): check with Huobi for how to participate and bonus amount.
 * KuCoin: coming soon
 
 #### & Mobile Wallets
 
-* [Polkawallet](https://polkawallet.io): non-custodial wallet, supports the Karura referral program.&#x20;
+* [Polkawallet](https://polkawallet.io/): non-custodial wallet, supports the Karura referral program.&#x20;
 * [MathWallet](https://mathwallet.org/en-us/): both cloud and non-custodial wallet. Check with MathWallet for promotions.&#x20;
-* [Fearless Wallet](https://fearlesswallet.io): non-custodial wallet, supports Karura referral program.
+* [Fearless Wallet](https://fearlesswallet.io/): non-custodial wallet, supports Karura referral program.
 
 More partners to come...
 
@@ -95,7 +95,7 @@ In order to participate in the crowdloan, KSM must be unbonded. If you are alrea
 
 ### 3.4 Check Contribution
 
-You can enter your KSM address in [Subscan explorer](https://kusama.subscan.io), the `Extrinsics` table at the bottom should show all your transactions including crowdloan contribution transactions.&#x20;
+You can enter your KSM address in [Subscan explorer](https://kusama.subscan.io/), the `Extrinsics` table at the bottom should show all your transactions including crowdloan contribution transactions.&#x20;
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-09-at-10.28.34-am.png)
 

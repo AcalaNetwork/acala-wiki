@@ -11,13 +11,13 @@
 
 ### 1.1 Overview
 
-[Acala ](https://acala.network)is the decentralized finance network and liquidity hub of Polkadot. It’s a layer-1 smart contract platform that’s scalable, Ethereum-compatible, and optimized for DeFi with built-in liquidity and ready-made financial applications.
+[Acala ](https://acala.network/)is the decentralized finance network and liquidity hub of Polkadot. It’s a layer-1 smart contract platform that’s scalable, Ethereum-compatible, and optimized for DeFi with built-in liquidity and ready-made financial applications.
 
 With the Acala Swap trustless exchange, the Acala Dollar decentralized stablecoin (aUSD), DOT Liquid Staking (LDOT), and the [Acala EVM+](https://medium.com/acalanetwork/scale-ethereum-based-defi-to-polkadot-with-acala-evm-now-fully-evm-compatible-with-full-access-to-cd3afd525f96), Acala lets developers access the best of Ethereum and the full power of Substrate.
 
 ### 1.2 ACA Token
 
-* **ACA** is the native token of the [Acala](https://acala.network).&#x20;
+* **ACA** is the native token of the [Acala](https://acala.network/).&#x20;
 * **ACA** has a fixed supply of 1,000,000,000.
 * **ACA** can be used for paying transaction fees, staking to deploy smart contracts and pallets, node incentivization, algorithmic risk adjustment, and governing the network and protocols.
 * Learn more about [ACA](https://acala.network/acala/token) token here.
@@ -87,8 +87,8 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 
 #### Option 4: Mobile Wallets
 
-* **Supporting Mobile Wallets:** [Polkawallet](https://polkawallet.io), [Math Wallet](https://mathwallet.org/en-us/), [Nova](https://novawallet.io), [Fearless](https://fearlesswallet.io)
-  * **Supports LCDOT:** [Polkawallet](https://polkawallet.io), [Nova](https://novawallet.io), [Talisman](https://app.talisman.xyz)
+* **Supporting Mobile Wallets:** [Polkawallet](https://polkawallet.io/), [Math Wallet](https://mathwallet.org/en-us/), [Nova](https://novawallet.io/), [Fearless](https://fearlesswallet.io/)
+  * **Supports LCDOT:** [Polkawallet](https://polkawallet.io/), [Nova](https://novawallet.io/), [Talisman](https://app.talisman.xyz/)
 * **Bonus Eligibility:** Eligible for all bonuses
 
 **Disclaimer:** Crowdloan via exchange or mobile wallet is provided by a third party, not Acala. Acala does not guarantee and does not assume any responsibility for, the acts or omissions of the third party, the performance of their products or services.&#x20;

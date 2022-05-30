@@ -4,7 +4,7 @@
 
 As laid out in our [launch roadmap](https://acala.notion.site/d1ce5e03f5354bc0be8fcf3c18b6e5b6?v=af1ff9fa66aa4dce851da0e429ed51ca), Acala is enabling each component of its new financial infrastructure in a phased approach. A blockchain platform can’t launch in a single-day event, so the Early Adopter program is meant to give the most advanced Acala users the opportunity to gain experience with Acala while the platform gets enabled. Since the platform is not completely enabled in the Early Adopter phase, users should anticipate some user experience difficulties (see disclaimers below). However, these difficulties will be resolved once all components are enabled and Acala fully launches.
 
-Users who try Acala (link to App [here](https://apps.acala.network)) as part of the Early Adopter program will be rewarded with an exclusive NFT if they meet certain criteria. For updates on the Early Adopter program go to [https://acala.network/early-adopters](https://acala.network/early-adopters). See the details below for how to qualify to receive the NFT.
+Users who try Acala (link to App [here](https://apps.acala.network/)) as part of the Early Adopter program will be rewarded with an exclusive NFT if they meet certain criteria. For updates on the Early Adopter program go to [https://acala.network/early-adopters](https://acala.network/early-adopters). See the details below for how to qualify to receive the NFT.
 
 It is important to note, **individuals who decide to participate in the Early Adopter program should be aware there are some disclaimers involved.** Please read below for additional information.
 
@@ -16,7 +16,7 @@ Users in the Early Adopter program should be aware of the following disclaimers:
 
 * **To bring DOT from Polkadot to Acala, a one-way DOT bridge is being enabled. Once DOT has been transferred to Acala, there will be no immediate way to transfer it back out.** Users will only be able to exit with their liquidity back to Polkadot once Polkadot’s cross-chain messaging (XCM) functionality is completely enabled. Read below for more information on the timing for exporting assets.
 
-&#x20;👉**As a reminder, you must leave a minimum of 1 DOT in your Polkadot account** for the required account minimum, called an [Existential Deposit](https://support.polkadot.network/support/solutions/articles/65000168651-what-is-the-existential-deposit-#:\~:text=This%20minimum%20amount%20is%20called,performance%20and%20to%20reduce%20fees.). Anything less than 1 DOT will be wiped from your account👈
+&#x20;👉**As a reminder, you must leave a minimum of 1 DOT in your Polkadot account** for the required account minimum, called an [Existential Deposit](https://support.polkadot.network/support/solutions/articles/65000168651-what-is-the-existential-deposit-). Anything less than 1 DOT will be wiped from your account👈
 
 * Features are being enabled on Acala using a staggered approach. There may be certain features users are interested in utilizing that are not readily available.
 * **This is not a testnet environment.** All tokens used to try the various primitives have real monetary value. If you make a mistake, Acala can not revert your actions.
@@ -24,7 +24,7 @@ Users in the Early Adopter program should be aware of the following disclaimers:
 
 ### How do I participate?&#x20;
 
-The Early Adopter program is a self-elected program making it open to anyone interested in gaining early experience with Acala. You can  use Acala by going to our [App](https://apps.acala.network). As a reminder, please make sure you are aware of the disclaimers involved in participating in the program.
+The Early Adopter program is a self-elected program making it open to anyone interested in gaining early experience with Acala. You can  use Acala by going to our [App](https://apps.acala.network/). As a reminder, please make sure you are aware of the disclaimers involved in participating in the program.
 
 ### How do I earn my NFT?
 

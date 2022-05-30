@@ -10,7 +10,7 @@
 
 ### Explorer
 
-[https://acala.subscan.io/](https://acala.subscan.io)
+[https://acala.subscan.io/](https://acala.subscan.io/)
 
 ### WebSocket RPC Endpoints
 

@@ -10,7 +10,7 @@
 
 ### Explorer
 
-[https://karura.subscan.io/](https://karura.subscan.io)
+[https://karura.subscan.io/](https://karura.subscan.io/)
 
 ### WebSocket RPC Endpoints
 

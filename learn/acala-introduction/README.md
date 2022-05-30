@@ -11,21 +11,21 @@ Acala powered by Polkadot is cross-chain by nature. The reserve assets can be Po
 ## Assets
 
 * **Acala Dollar (aUSD)**: the Acala stablecoin that is soft-pegged to (stabilized against) the US Dollar. Minting Acala Dollar is trustless, sovereign and liberating act of the minting, using reserve assets in excess of value as collateral.&#x20;
-* **Reserve Assets**: DOT, LDOT ([Liquid Staking DOT powered by Homa Protocol](https://docs.homastaking.app)) and ACA are default reserve assets. New cross-chain assets can be included as reserve assets upon assessment by the Financial Committee and Risk Assessor like [Gauntlet](https://gauntlet.network).&#x20;
+* **Reserve Assets**: DOT, LDOT ([Liquid Staking DOT powered by Homa Protocol](https://docs.homastaking.app/)) and ACA are default reserve assets. New cross-chain assets can be included as reserve assets upon assessment by the Financial Committee and Risk Assessor like [Gauntlet](https://gauntlet.network/).&#x20;
 * **Acala Token (ACA)**: the native token of Acala network. There is a fixed supply of ACA. ACA is the reserve asset to generate Acala stablecoin, and the governance token to regulate stablecoin price by adjusting risk parameters such as interest rate. ACA is also the transaction fees token of the network.&#x20;
 
 ## Why Acala Stablecoin
 
 Stablecoin since its inception to widespread popularity has proven its utility beyond speculation: they have been used in alleviating economic and political hardship, as a hedging mechanism for traders, and to release liquidity of underlying crypto assets without foregoing ownership of those assets.
 
-Users can get Acala stablecoin via [AcalaSwap](https://docs.acalaswap.app) or generate Acala Stablecoin by depositing collaterals to a stablecoin vault.&#x20;
+Users can get Acala stablecoin via [AcalaSwap](https://docs.acalaswap.app/) or generate Acala Stablecoin by depositing collaterals to a stablecoin vault.&#x20;
 
 These are some of the use cases for Acala Stablecoin:
 
 * Minting Acala stablecoin is **trustless, sovereign and liberating** act of the minter
 * Without foregoing ownership of the underlying asset, business operators may collateralize them to mint Acala stablecoin to **hedge volatility, pay for goods and services**
 * Traders may **leveraged long the underlying asset** by depositing the underlying asset to stablecoin vault, minting stablecoin, and swap more underlying assets, essentially multiplying exposure of underlying asset
-* Traders can use yield-bearing assets such as LDOT ([Liquid Staking DOT powered by Homa Protocol](https://docs.homastaking.app)) as collateral to **multiply exposure of the underlying asset while earning APR**
+* Traders can use yield-bearing assets such as LDOT ([Liquid Staking DOT powered by Homa Protocol](https://docs.homastaking.app/)) as collateral to **multiply exposure of the underlying asset while earning APR**
 * Liquidity Providers to can **increase capital efficiency** when providing liquidity to pools by using LP collateralized super loans
 * Acala stablecoin is designed to be stable, and an **ideal choice for medium of exchange**. Users can use it to pay transaction fees, trade, for remittance, on-and-off ramps as it integrates with more partners. Projects can use it as a quote asset for listing.
 * Acala stablecoin **is a DeFi building block in a multi-chain ecosystem**, it will empower more ecosystem growth and new product innovations
@@ -80,7 +80,7 @@ Once the autonomous Liquidator identifies an unsafe vault, it will trigger the l
 
 ### Liquidation Process
 
-Liquidating unsafe positions requires selling off some collateral assets to repay Acala stablecoin owed (borrowed from the vault). The liquidation mechanism uses [AcalaSwap](https://docs.acalaswap.app) in conjunction of Collateral Auction to ensure efficiency and effectiveness.
+Liquidating unsafe positions requires selling off some collateral assets to repay Acala stablecoin owed (borrowed from the vault). The liquidation mechanism uses [AcalaSwap](https://docs.acalaswap.app/) in conjunction of Collateral Auction to ensure efficiency and effectiveness.
 
 The end result of a liquidation is
 

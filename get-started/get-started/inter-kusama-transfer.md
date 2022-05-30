@@ -48,7 +48,7 @@ There are two transactions involved, one was on Kusama sending the KSM to parach
 
 **On Kusama Side**
 
-Go to the [Kusama Subscan Explorer](https://kusama.subscan.io), search with your Kusama account, and you shall see the relevant `xcmpallet` transaction in the Extrinsics table.
+Go to the [Kusama Subscan Explorer](https://kusama.subscan.io/), search with your Kusama account, and you shall see the relevant `xcmpallet` transaction in the Extrinsics table.
 
 ![](../../.gitbook/assets/screen-shot-2021-07-14-at-10.08.45-pm.png)
 
@@ -85,7 +85,7 @@ A Subquery will be implemented to make it easier to search and find your cross-c
 
 **On Kusama Side**
 
-Go to the [Kusama Subscan Explorer](https://kusama.subscan.io), search with your Kusama account, and you shall see the relevant `xcmpallet` transaction in the Extrinsics table.
+Go to the [Kusama Subscan Explorer](https://kusama.subscan.io/), search with your Kusama account, and you shall see the relevant `xcmpallet` transaction in the Extrinsics table.
 
 [Example Transaction on Subscan](https://kusama.subscan.io/extrinsic/8338413-2)
 
