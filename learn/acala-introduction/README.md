@@ -87,6 +87,7 @@ The end result of a liquidation is
 * the Acala stablecoin debt is repaid (the protocol is solvent)
 * liquidation fee is collected from the vault owner and added to the `cdp_treasury` as surplus
 * remaining collaterals are returned to the vault owner
+* in extreme market conditions, if collaterals cannot be sold (either via DeX or Auction) to repay debt and liquidation penalty, then the collateral will be collected by the `cdp_treasury`, while the outstanding aUSD will be recorded as debt. These collaterals can be sold at a later time (managed by governance) to repay the outstanding aUSD.
 * in an unfortunate liquidation event where not all Acala stablecoin can be recouped, `cdp_treasury` will record it as bad debt
 
 ![](<../../.gitbook/assets/Screen Shot 2022-02-15 at 9.43.41 AM.png>)
