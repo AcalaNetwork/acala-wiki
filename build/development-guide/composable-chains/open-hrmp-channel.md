@@ -47,7 +47,7 @@ Go to PolkadotJS app, switch to sender parachain(here is Karura). Go to **Develo
 
 Use `ormlXcm -> sendAsSovereign` to send the transaction. The xcm message format(v2):
 
-Notice there're two field should be changed:&#x20;
+Notice there are two fields should be changed:
 
 * \<relay-chain-encoded-hex-call>: `0x3c00e8030000e803000000900100`
 * \<parachain-id>: 2000
@@ -60,7 +60,11 @@ ormlXcm.sendAsSovereign(
   {
     V1: {
       parents: 1
-      interior: Here
+      interior: {
+        X1: {
+          Parachain: <parachain-id>
+        }
+      }
     }
   }
   
@@ -73,7 +77,11 @@ ormlXcm.sendAsSovereign(
             id: {
               Concrete: {
                 parents: 0
-                interior: Here
+                interior: {
+                  X1: {
+                    Parachain: <parachain-id>
+                  }
+                }
               }
             }
             fun: {
@@ -88,7 +96,11 @@ ormlXcm.sendAsSovereign(
             id: {
               Concrete: {
                 parents: 0
-                interior: Here
+                interior: {
+                  X1: {
+                    Parachain: <parachain-id>
+                  }
+                }
               }
             }
             fun: {
@@ -149,9 +161,10 @@ Go to PolkadotJS app, switch to recipient parachain. Go to **Developer -> Sudo**
 
 Use `ormlXcm -> sendAsSovereign` to send the transaction. The xcm message format likes:
 
-Notice there're one field should be changed:&#x20;
+Notice there are two fields that should be changed:
 
 * \<relay-chain-encoded-hex-call>: `0x3c01d0070000`
+* \<parachain-id>: 2000
 
 ```
 ormlXcm.sendAsSovereign(
@@ -159,7 +172,11 @@ ormlXcm.sendAsSovereign(
   {
     V1: {
       parents: 1
-      interior: Here
+      interior: {
+        X1: {
+          Parachain: <parachain-id>
+        }
+      }
     }
   }
   
@@ -172,7 +189,11 @@ ormlXcm.sendAsSovereign(
             id: {
               Concrete: {
                 parents: 0
-                interior: Here
+                interior: {
+                  X1: {
+                    Parachain: <parachain-id>
+                  }
+                }
               }
             }
             fun: {
@@ -187,7 +208,11 @@ ormlXcm.sendAsSovereign(
             id: {
               Concrete: {
                 parents: 0
-                interior: Here
+                interior: {
+                  X1: {
+                    Parachain: <parachain-id>
+                  }
+                }
               }
             }
             fun: {
