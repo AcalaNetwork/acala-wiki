@@ -16,6 +16,13 @@
   * Token type: Tokens(AUSD)
   * Check balance: `tokens.accounts`
   * Total issuance: `tokens.totalIssuance`
+* **Polkadot**
+  * Name: Polkadot
+  * Symbol: DOT
+  * Decimal: 10
+  * Token type: Tokens(DOT)
+  * Check balance: `tokens.accounts`
+  * Total issuance: `tokens.totalIssuance`
 * **Liquid DOT:**
   * Name: Liquid DOT
   * Symbol: LDOT
@@ -30,8 +37,30 @@
   * Token type: LiquidCrowdloan(13)
   * Check balance: `tokens.accounts`
   * Total issuance: `tokens.totalIssuance`
+* **Tapio DOT**
+  * Name: Tapio DOT
+  * Symbol: tDOT
+  * Decimal: 10
+  * Token type: StableAssetId(0)
+  * Check balance: `tokens.accounts`
+  * Total issuance: `tokens.totalIssuance`
+* **Moonbeam**
+  * Name: Moonbeam
+  * Symbol: GLMR
+  * Decimal: 18
+  * Token type: ForeignAssetId(0)
+  * Check balance: `tokens.accounts`
+  * Total issuance: `tokens.totalIssuance`
+* **Parallel**
+  * Name: Parallel
+  * Symbol: PARA
+  * Decimal: 12
+  * Token type: ForeignAssetId(1)
+  * Check balance: `tokens.accounts`
+  * Total issuance: `tokens.totalIssuance`
 
-![](<../../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
+![query asset metadata](./asset-registry-query.png)
+![query token balance](<../../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
 
 ## Account
 
