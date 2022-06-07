@@ -2,34 +2,18 @@
 
 ## Tokens
 
-* **Acala Token**
-  * Name: Acala
-  * Symbol: ACA
-  * Decimal: 12
-  * Total Fixed Supply: 1,000,000,000
-  * Token type: Native / Tokens(ACA)
-  * Check balance: `system.account`
-* **Acala USD**
-  * Name: Acala USD
-  * Symbol: aUSD
-  * Decimal: 12
-  * Token type: Tokens(AUSD)
-  * Check balance: `tokens.accounts`
-  * Total issuance: `tokens.totalIssuance`
-* **Liquid DOT:**
-  * Name: Liquid DOT
-  * Symbol: LDOT
-  * Decimal: 10
-  * Token type: Tokens(LDOT)
-  * Check balance: `tokens.accounts`
-  * Total issuance: `tokens.totalIssuance`
-* **Liquid Crowdloan DOT**
-  * Name: Liquid Crowdloan DOT
-  * Symbol: LCDOT
-  * Decimal: 10
-  * Token type: LiquidCrowdloan(13)
-  * Check balance: `tokens.accounts`
-  * Total issuance: `tokens.totalIssuance`
+| Name                 | Symbol | Decimal | Total Fixed Supply | Token Type           | Check Balance     | Total issuance         |
+| -------------------- | ------ | ------- | ------------------ | -------------------- | ----------------- | ---------------------- |
+| Acala                | ACA    | 12      | 1,000,000,000      | Native / Tokens(ACA) | `system.account`  |                        |
+| Acala USD            | aUSD   | 12      | N/A                | Tokens(AUSD)         | `tokens.accounts` | `tokens.totalIssuance` |
+| Polkadot             | DOT    | 10      | N/A                | Tokens(DOT)          | `tokens.accounts` | `tokens.totalIssuance` |
+| Liquid DOT           | LDOT   | 10      | N/A                | Tokens(LDOT)         | `tokens.accounts` | `tokens.totalIssuance` |
+| Liquid Crowdloan DOT | LCDOT  | 10      | N/A                |  LiquidCrowdloan(13) | `tokens.accounts` | `tokens.totalIssuance` |
+| Tapio DOT            | tDOT   | 10      | N/A                | StableAssetId(0)     | `tokens.accounts` | `tokens.totalIssuance` |
+| Moonbeam             | GLMR   | 18      | N/A                | ForeignAssetId(0)    | `tokens.accounts` | `tokens.totalIssuance` |
+| Parallel             | PARA   | 12      | N/A                | ForeignAssetId(1)    | `tokens.accounts` | `tokens.totalIssuance` |
+
+![](asset-registry-query.png)
 
 ![](<../../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
 

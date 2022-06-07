@@ -10,13 +10,6 @@ Welcome to the Acala & Karura wiki, the hub for those interested in learning, bu
 
 If you're looking for an introduction to Acala please [go here](https://wiki.acala.network/learn/acala-introduction).
 
-### Other Wikis:
-
-* [Acala Dollar](https://docs.acaladollar.app/)
-* [AcalaSwap](https://docs.acalaswap.app/)
-* [EVM+ Documentation](https://evmdocs.acala.network)
-* [Homa Liquid Staking](https://docs.homastaking.app/)
-
 ### Want to get started using?
 
 * [Get Started with the live Acala Network](networks/acala-network/integration/networks.md)
