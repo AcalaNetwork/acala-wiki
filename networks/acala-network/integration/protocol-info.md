@@ -2,16 +2,16 @@
 
 ## Tokens
 
-| Name                 | Symbol | Decimal | Total Fixed Supply | Token Type           | Check Balance     | Total issuance         |
-| -------------------- | ------ | ------- | ------------------ | -------------------- | ----------------- | ---------------------- |
-| Acala                | ACA    | 12      | 1,000,000,000      | Native / Tokens(ACA) | `system.account`  |                        |
-| Acala USD            | aUSD   | 12      | N/A                | Tokens(AUSD)         | `tokens.accounts` | `tokens.totalIssuance` |
-| Polkadot             | DOT    | 10      | N/A                | Tokens(DOT)          | `tokens.accounts` | `tokens.totalIssuance` |
-| Liquid DOT           | LDOT   | 10      | N/A                | Tokens(LDOT)         | `tokens.accounts` | `tokens.totalIssuance` |
-| Liquid Crowdloan DOT | LCDOT  | 10      | N/A                |  LiquidCrowdloan(13) | `tokens.accounts` | `tokens.totalIssuance` |
-| Tapio DOT            | tDOT   | 10      | N/A                | StableAssetId(0)     | `tokens.accounts` | `tokens.totalIssuance` |
-| Moonbeam             | GLMR   | 18      | N/A                | ForeignAssetId(0)    | `tokens.accounts` | `tokens.totalIssuance` |
-| Parallel             | PARA   | 12      | N/A                | ForeignAssetId(1)    | `tokens.accounts` | `tokens.totalIssuance` |
+| Name                 | Symbol | Decimal | [ED](https://wiki.polkadot.network/docs/learn-accounts#existential-deposit-and-reaping) | Token Type           | Check Balance     | Total issuance         |
+| -------------------- | ------ | ------- | ------| -------------------- | ----------------- | ---------------------- |
+| Acala                | ACA    | 12      | 0.1   | Native / Tokens(ACA) | `system.account`  | 1,000,000,000          |
+| Acala USD            | aUSD   | 12      | 0.1   | Tokens(AUSD)         | `tokens.accounts` | `tokens.totalIssuance` |
+| Polkadot             | DOT    | 10      | 0.01  | Tokens(DOT)          | `tokens.accounts` | `tokens.totalIssuance` |
+| Liquid DOT           | LDOT   | 10      | 0.05  | Tokens(LDOT)         | `tokens.accounts` | `tokens.totalIssuance` |
+| Liquid Crowdloan DOT | LCDOT  | 10      |       | LiquidCrowdloan(13)  | `tokens.accounts` | `tokens.totalIssuance` |
+| Tapio DOT            | tDOT   | 10      | 0.01  | StableAssetId(0)     | `tokens.accounts` | `tokens.totalIssuance` |
+| Moonbeam             | GLMR   | 18      | 0.1   | ForeignAssetId(0)    | `tokens.accounts` | `tokens.totalIssuance` |
+| Parallel             | PARA   | 12      | 0.1   | ForeignAssetId(1)    | `tokens.accounts` | `tokens.totalIssuance` |
 
 ![](asset-registry-query.png)
 
