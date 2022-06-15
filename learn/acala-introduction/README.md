@@ -90,7 +90,7 @@ The end result of a liquidation is
 * in extreme market conditions, if collaterals cannot be sold (either via DeX or Auction) to repay debt and liquidation penalty, then the collateral will be collected by the `cdp_treasury`, while the outstanding aUSD will be recorded as debt. These collaterals can be sold at a later time (managed by governance) to repay the outstanding aUSD.
 * in an unfortunate liquidation event where not all Acala stablecoin can be recouped, `cdp_treasury` will record it as bad debt
 
-![](<../../.gitbook/assets/Screen Shot 2022-02-15 at 9.43.41 AM.png>)
+![Liquidation with hybrid Auction + DeX mechanism, with collateral collection if both fail as last resort](<../../.gitbook/assets/Screen Shot 2022-06-15 at 8.28.05 PM.png>)
 
 #### Liquidation on AcalaSwap
 
