@@ -1,13 +1,14 @@
----
-description: Acala
----
-
 # Acala Assets
 
-These are native assets on the Acala Network
+These are native assets on the Karura Network
 
-* **Acala Token (ACA)** | Decimal Place: 12
-* **Acala Dollar (aUSD)** | Decimal Place: 12
-* **Liquid Staking DOT (LDOT)** | Decimal Place: 10
-* **Liquid Crowdloan DOT (LCDOT)** | Decimal Place: 10
-* **Polkadot (DOT)** | Decimal Place: 10
+* **Acala Token (ACA)** | Decimal Place: 12\
+  ERC20 mirrored token address 0x0000000000000000000100000000000000000000
+* **Acala Dollar (aUSD)** | Decimal Place: 12\
+  ERC20 mirrored token address 0x0000000000000000000100000000000000000001
+* **Liquid Staking DOT (LDOT)** | Decimal Place: 10\
+  ERC20 mirrored token address 0x0000000000000000000100000000000000000003
+* **Liquid Crowdloan DOT (LCDOT)** | Decimal Place: 10\
+  ERC20 mirrored token address 0x000000000000000000040000000000000000000d
+* **Polkadot DOT (DOT)** | Decimal Place: 10\
+  ERC20 mirrored token address 0x0000000000000000000100000000000000000002
