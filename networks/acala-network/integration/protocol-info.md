@@ -3,15 +3,15 @@
 ## Tokens
 
 | Name                 | Symbol | Decimal | [ED](https://wiki.polkadot.network/docs/learn-accounts#existential-deposit-and-reaping) | Token Type           | Check Balance     | Total issuance         |
-| -------------------- | ------ | ------- | ------| -------------------- | ----------------- | ---------------------- |
-| Acala                | ACA    | 12      | 0.1   | Native / Tokens(ACA) | `system.account`  | 1,000,000,000          |
-| Acala USD            | aUSD   | 12      | 0.1   | Tokens(AUSD)         | `tokens.accounts` | `tokens.totalIssuance` |
-| Polkadot             | DOT    | 10      | 0.01  | Tokens(DOT)          | `tokens.accounts` | `tokens.totalIssuance` |
-| Liquid DOT           | LDOT   | 10      | 0.05  | Tokens(LDOT)         | `tokens.accounts` | `tokens.totalIssuance` |
-| Liquid Crowdloan DOT | LCDOT  | 10      |       | LiquidCrowdloan(13)  | `tokens.accounts` | `tokens.totalIssuance` |
-| Tapio DOT            | tDOT   | 10      | 0.01  | StableAssetId(0)     | `tokens.accounts` | `tokens.totalIssuance` |
-| Moonbeam             | GLMR   | 18      | 0.1   | ForeignAssetId(0)    | `tokens.accounts` | `tokens.totalIssuance` |
-| Parallel             | PARA   | 12      | 0.1   | ForeignAssetId(1)    | `tokens.accounts` | `tokens.totalIssuance` |
+| -------------------- | ------ | ------- | --------------------------------------------------------------------------------------- | -------------------- | ----------------- | ---------------------- |
+| Acala                | ACA    | 12      | 0.1                                                                                     | Native / Tokens(ACA) | `system.account`  | 1,000,000,000          |
+| Acala USD            | aUSD   | 12      | 0.1                                                                                     | Tokens(AUSD)         | `tokens.accounts` | `tokens.totalIssuance` |
+| Polkadot             | DOT    | 10      | 0.01                                                                                    | Tokens(DOT)          | `tokens.accounts` | `tokens.totalIssuance` |
+| Liquid DOT           | LDOT   | 10      | 0.05                                                                                    | Tokens(LDOT)         | `tokens.accounts` | `tokens.totalIssuance` |
+| Liquid Crowdloan DOT | LCDOT  | 10      |                                                                                         | LiquidCrowdloan(13)  | `tokens.accounts` | `tokens.totalIssuance` |
+| Tapio DOT            | tDOT   | 10      | 0.01                                                                                    | StableAssetId(0)     | `tokens.accounts` | `tokens.totalIssuance` |
+| Moonbeam             | GLMR   | 18      | 0.1                                                                                     | ForeignAssetId(0)    | `tokens.accounts` | `tokens.totalIssuance` |
+| Parallel             | PARA   | 12      | 0.1                                                                                     | ForeignAssetId(1)    | `tokens.accounts` | `tokens.totalIssuance` |
 
 ![](asset-registry-query.png)
 
@@ -55,17 +55,17 @@ Acala's type definition bundle can be found [here](https://unpkg.com/browse/@aca
 
 ## MultiLocation
 
-You can use these MultiLocation to add Karura token assets to other parachains foreign token list.
+You can use these MultiLocation to add Acala token assets to other parachains foreign token list.
 
-aUSD:
+aUSD (Acala Dollar):
 
 `{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 1] } ]}}`
 
-LDOT:
+LDOT (Liquid DOT):
 
-`{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 3] } ]}}`&#x20;
+`{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 3] } ]}}`
 
-ACA:
+ACA (Acala):
 
 `{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 0] } ]}}`
 

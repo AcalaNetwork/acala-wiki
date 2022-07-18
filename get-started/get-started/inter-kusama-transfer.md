@@ -33,7 +33,7 @@ Use the [Karura App](https://apps.karura.network/portfolio), go to `Cross Chain`
 
 Select `Kusama` as the `From Chain`, and `Karura` as the `To Chain`. Your KSM balance (on Kusama) shall be displayed then. Then select the `To Account`, which can be the current account that you logged in to the Karura App.&#x20;
 
-![](<../../.gitbook/assets/screen-shot-2021-07-14-at-9.58.12-pm (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (1) (1) (2).png>)
+![](<../../.gitbook/assets/screen-shot-2021-07-14-at-9.58.12-pm (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (1) (2) (2).png>)
 
 There are two parts to the transaction fees (read more on fees [here](transaction-fees.md))
 
@@ -64,7 +64,7 @@ Use the [Karura App](https://apps.karura.network/portfolio), goto `Cross Chain` 
 
 Select `Karura` as the `From Chain`, and `Kusama` as the `To Chain`. Your KSM balance (on Karura) shall be displayed then. Then select the `To Account`, which can be the current account that you logged in to the Karura App. Make sure your account is set as `Allow use on any chain` on the Polkadot{js} extension.
 
-![](<../../.gitbook/assets/karura-to-kusama (1) (1).png>)
+![](<../../.gitbook/assets/karura-to-kusama (1) (1) (1).png>)
 
 There are two parts to the transaction fee (read more on fees [here](transaction-fees.md))
 

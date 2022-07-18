@@ -50,15 +50,15 @@ Acala's type definition bundle can be found [here](https://unpkg.com/browse/@aca
 
 You can use these MultiLocation to add Karura token assets to other parachains foreign token list.
 
-aUSD:
+aUSD (Acala Dollar):
 
 `{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 129] } ]}}`
 
-LKSM:
+LKSM (Liquid KSM):
 
 `{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 131] } ]}}`&#x20;
 
-KAR:
+KAR (Karura):
 
 `{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 128] } ]}}`
 
