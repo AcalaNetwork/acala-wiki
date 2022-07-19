@@ -8,7 +8,7 @@ You can check if your machine satisfy the spec requirement by using the followin
 
 ```
 // If you are running docker image:
-docker run acala/karura-node:latest benchmark machine
+docker run acala/karura-node:latest benchmark machine --chain=karura
 
 // If you are using dev environment:
 make benchmark-machine
