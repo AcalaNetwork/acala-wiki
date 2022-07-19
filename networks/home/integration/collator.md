@@ -52,6 +52,10 @@ Karura Collator needs Aura session key. RPC `author_rotateKeys` or `author_inser
 * Karura is currently using the `collectorSelection` pallet from Statemint to handle collator registration. During the authorized Collator set phase, the required candidacy bond will be an unattainably high value to prevent public registration.
 * Authorized providers will need to submit the public key of the Aura session key for the collator.
 
+#### **Machine Spec**
+
+Karura Collators need to ensure their machines satisfy the minimum spec requirement for running a full node. See ["Spec Requirement"](full-node.md#spec-requirement) for more details.
+
 #### CLI
 
 * `--collator` for the parachain part

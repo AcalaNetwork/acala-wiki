@@ -2,7 +2,25 @@
 
 ## Spec Requirement
 
-Same as the Kusama full node requirements.
+You can check if your machine satisfy the spec requirement by using the following make command to benchmark your machine.
+
+
+
+```
+// If you are running docker image:
+docker run acala/karura-node:latest benchmark machine --chain=karura
+
+// If you are using dev environment:
+make benchmark-machine
+```
+
+Note: 
+
+You need to setup your dev environment first for make commands to work.
+
+The benchmark result will look similar to this:
+![](<./machine-benchmark.png>)
+
 
 ## Run from Source Code
 
