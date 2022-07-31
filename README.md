@@ -1,6 +1,6 @@
 # Acala & Karura Wiki
 
-[Change Requests3](https://app.gitbook.com/o/-M\_OLwcDFbYSOX9rQ5hU/s/-MAz4EenwXLth\_HO\_hmJ-887967055/\~/changes/WHgZ4v1Pq9pDzamLmcqW/\~/change-requests/open)Welcome to the Acala & Karura wiki, the hub for those interested in learning, building, or using the Acala and Karura protocols. The wiki is divided into sections to cater to each of these different groups within the Acala ecosystem:
+Welcome to the Acala & Karura wiki, the hub for those interested in learning, building, or using the Acala and Karura protocols. The wiki is divided into sections to cater to each of these different groups within the Acala ecosystem:
 
 1. If you're eager to start building your project to connect to Acala or Karura, see the [build](build/) section.
 2. If you're interested in operating a node, head on over to the [integration](integrate/) section.
