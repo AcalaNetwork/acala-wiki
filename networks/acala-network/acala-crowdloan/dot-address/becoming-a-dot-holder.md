@@ -14,4 +14,4 @@ You can find a list of exchanges that trade DOT [here](https://coinmarketcap.com
 
 If you've downloaded the [polkadot.js extension](https://polkadot.js.org/extension/) and [created a DOT account](https://wiki.acala.network/acala/acala-crowdloan/dot-address/creating-a-new-dot-account), connect to the [polkadot.js user interface](https://polkadot.js.org/apps/) to view your balance. Click on `Accounts` and you'll see all of the accounts that you've created in your polkadot.js browser extension. If an account is not showing up, go to the browser extension and make sure all of your addresses are set to `Allow use on any chain`. Also, make sure that you are connected to the Polkadot network by looking in the upper left corner. If it doesn't say Polkadot in the upper right, click on the dropdown and select `Polkadot`.
 
-![](<../../../../.gitbook/assets/Screenshot (194).png>)
+![](<../../../../.gitbook/assets/Screenshot (194) (1).png>)

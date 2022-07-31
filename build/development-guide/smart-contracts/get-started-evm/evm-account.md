@@ -31,37 +31,43 @@ The EVM Address is generated using the `blake2_256` hash function with a prefix 
 blake2_256("evm:" ++ account_id)[0..20]
 ```
 
-#### Generate an EVM Address via EVM Playground
+#### Claiming the default EVM address
 
-Navigate to the [EVM Playground](https://evm.acala.network/#/evmAccount) (a web app to test various Acala EVM functionalities).
+Navigate to the [Polkadot.js web app](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-mandala.api.onfinality.io%2Fpublic-ws#/extrinsics). The ability to claim the default EVM address can be found under `Extrinsics` in the `Developer` tab.
 
-Navigate to the `Setup EVM Account` tab if you are not already on it.
+![Developer > Extrinsics](<../../../../.gitbook/assets/image (10).png>)
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-10.52.25-am.png)
+**Step 1: Select the Polkadot account**
 
-**Step 1: Select a Substrate Account**
+If you haven't yet installed the Polkadot{js} extension and created an account, please do so by following the steps [here](https://wiki.polkadot.network/docs/en/learn-account-generation#polkadotjs-browser-plugin).
 
-If you have yet installed the Polkadot{js} extension and created an account, please do so by following the steps [here](https://wiki.polkadot.network/docs/en/learn-account-generation#polkadotjs-browser-plugin).
+If the account is created and the extension is installed correctly, the account should be available in the `using the selected account` dropdown.
 
-If the account is created and the extension is installed correctly, the account should be available in the dropdown.
+In case you have no funds in the Substrate account, please use the #acala-testnet-faucet channel in our [Discord](https://www.acala.gg/), to get some. You will need the funds to sent the transaction to bind the Substrate and EVM accounts.
 
-Click on the `Faucet` Button to fund the account, as it will need to send a transaction to the Acala blockchain later to bind the accounts.
+**Step 2: Select the correct extrinsic**
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-10.53.47-am.png)
+To claim the default EVM address, select `evmAddress` from the `submit the following extrinsic` dropdown and select the `claimDefaultAccount()` option.
 
-**Step 2: Choose Option 1 to Bind an auto-generated EVM address**
+**Step 3: Claim the account**
 
-**Step 3: Bind**
+Using the `Send transaction`, the Substrate wallet should prompt you to sign the transaction. Once the transaction is signed and added to the blockchain, your accounts should be bound.
 
-You can see the generated EVM address under Step 3, and click the `Bind` button.
+![Sign and Submit transaction confirmation](<../../../../.gitbook/assets/image (22).png>)
 
-Polkadot{js} extension will prompt you to enter a password or use the saved password, and click the `Sign the transaction` Button.
+**Step 4: Validate the account binding**
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-10.54.49-am.png)
+Once the accounts have been bound, you can validate the binding of the accounts, using the same Polkadot.js web app.
 
-If the `Bind` transaction was successful, you will get a message `An evm account already exists to bind this account` basically means the binding was recorded on-chain, and you can use the Polkadot extension for any EVM transactions.
+The chain state is validated using state queries, which can be found under `Developer` dropdown's `Chain state` option.
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-5.01.33-pm.png)
+![Developer > Chain state](<../../../../.gitbook/assets/image (4).png>)
+
+Select the `evmAccounts` from the `selected state query` dropdown. The `evmAddress(AccountId32)` option should return the EVM address bound to the Substrate account selected in the dropdown below.
+
+Pressing the `+` button should query the chain for the associated EVM address and return it:
+
+![Successful query for bound EVM address](<../../../../.gitbook/assets/image (1).png>)
 
 ### **2. Bind an Existing Ethereum Account**
 
@@ -113,7 +119,7 @@ The **ethAddress** should be the same as your Metamask wallet address that you u
 3. Click the **+** button on the right
 4. Double check that the **evmAccounts.evmAddresses** is indeed the right one.
 
-![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (38).png>)
+![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (35).png>)
 
 #### Use Cases
 

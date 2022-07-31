@@ -62,7 +62,7 @@ Select whether you’d like to make a `Standard` contribution to the Acala crowd
 
 To participate in the crowdloan, you must read and accept the Terms and Conditions along with the Privacy Policy. Your acceptance will be a signed message using the DOT account used to participate in the crowdloan, but it will not cost you anything.
 
-![](<../../../.gitbook/assets/File (31).jpg>)
+![](<../../../.gitbook/assets/File (31) (1).jpg>)
 
 ### Contribute to the Crowdloan
 
@@ -84,7 +84,7 @@ If you participate using a referral link, you will receive an additional 5% ACA 
 
 Click `Submit`.
 
-![](../../../.gitbook/assets/IMG\_2001.PNG)
+![](<../../../.gitbook/assets/IMG\_2001 (1).PNG>)
 
 ### Post Submission&#x20;
 
