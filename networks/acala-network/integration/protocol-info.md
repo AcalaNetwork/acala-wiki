@@ -57,17 +57,26 @@ Acala's type definition bundle can be found [here](https://unpkg.com/browse/@aca
 
 You can use these MultiLocation to add Acala token assets to other parachains foreign token list.
 
-aUSD (Acala Dollar):
+Asset Name: Acala Dollar\
+Asset Symbol: AUSD\
+Decimals: 12\
+existentialDeposit: 0.1
 
-`{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 1] } ]}}`
+`{"parents": 1, "interior": {"X2": [{"Parachain": 2000}, {"GeneralKey": 0x0001} ]}}`
 
-LDOT (Liquid DOT):
+Asset Name: Liquid DOT\
+Asset Symbol: LDOT\
+Decimals: 10\
+existentialDeposit: 0.05
 
-`{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 3] } ]}}`
+`{"parents": 1, "interior": {"X2": [{"Parachain": 2000}, {"GeneralKey": 0x0003} ]}}`
 
-ACA (Acala):
+Asset Name: Acala Native Token\
+Asset Symbol: ACA\
+Decimals: 12\
+existentialDeposit: 0.1
 
-`{ "parents": 1, "interior": { "X2": [{ "Parachain": 2000 }, { "GeneralKey": [0, 0] } ]}}`
+`{"parents": 1, "interior": {"X2": [{"Parachain": 2000}, {"GeneralKey": 0x0000} ]}}`
 
 ## JS SDK
 
