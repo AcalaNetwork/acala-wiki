@@ -22,7 +22,7 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 ### Product Resources
 
 * Acala Overview: Cross-chain DeFi Hub for Polkadot and beyond ([Watch](https://www.youtube.com/watch?v=avtzY5lkM6s))
-* [Why Acala EVM](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack)&#x20;
+* [Why Acala EVM](../../../../learn/acala-evm/acala-evm-composable-defi-stack/)&#x20;
 
 ### Dev Resources
 
@@ -31,15 +31,15 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 * **Deploy Contracts on Acala EVM**
   * [Watch Live Coding](https://www.crowdcast.io/e/acala-ethdenver-2021): Deploy Uniswap Contracts, Recurring Payment Contracts.
     * Also available on Youtube [here](https://www.youtube.com/watch?v=7GdZucQ1SlE)
-  * Get started [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm)
+  * Get started [here](../get-started-evm/)
   * Download presentation slides [here](https://drive.google.com/file/d/1fVzCXC2BJf7k\_d25bMy4rqXBqU\_ByI\_I/view?usp=sharing)
 * **Build a DApp on Polkadot using Acala EVM with On-chain Automatic Scheduler**
   * Watch Live Coding [here](https://www.youtube.com/watch?v=0ZKK8IQXI3s\&list=PLAy4HNUNlzRkiRQFnr-gu6CyddoVTxeTy\&index=37)
-  * Tutorial [here](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler/scheduler-tutorial)
-* [Set up EVM Accounts](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/evm-account)
-* [Use the On-chain Scheduler Contract](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler)
+  * Tutorial [here](../advanced/use-on-chain-scheduler/scheduler-tutorial.md)
+* [Set up EVM Accounts](../get-started-evm/evm-account.md)
+* [Use the On-chain Scheduler Contract](../advanced/use-on-chain-scheduler/)
 * [Use Acala Oracle Feeds](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-oracle-feeds)
-* [Use Native & Cross-chain Tokens such as BTC and DOTs](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens)
+* [Use Native & Cross-chain Tokens such as BTC and DOTs](../advanced/use-native-tokens.md)
 * **Example code:** [https://github.com/AcalaNetwork/evm-examples](https://github.com/AcalaNetwork/evm-examples)
 
 #### **Build & Deployment Tools**

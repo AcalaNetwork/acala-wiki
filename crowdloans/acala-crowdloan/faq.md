@@ -28,7 +28,7 @@ You will receive your ACA after Acala wins a parachain slot, launches the networ
 
 ### What wallets can I use to participate? Can I use Ledger?&#x20;
 
-A list of supported wallets can be found [here](https://wiki.acala.network/acala/acala-crowdloan/crowdloan-event#3.2-ways-to-participate). Ledger does not support Crowdloans in Polkadot.
+A list of supported wallets can be found [here](crowdloan-event.md#3.2-ways-to-participate). Ledger does not support Crowdloans in Polkadot.
 
 ### How do I check my crowdloan contribution?
 
@@ -54,7 +54,7 @@ Perhaps. Contact your exchange to learn if they are supporting the Polkadot para
 
 ### I'm currently staking my DOT - what do I need to do?&#x20;
 
-If you are staking on an exchange, contact your exchange to learn if they are supporting the Polkadot parachain auctions and for instructions on how to participate. If you stake directly in Polkadot, you must go through the 28 day unbonding period before you can make your Crowdloan contribution. Learn how to unstake your DOT [here](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot).
+If you are staking on an exchange, contact your exchange to learn if they are supporting the Polkadot parachain auctions and for instructions on how to participate. If you stake directly in Polkadot, you must go through the 28 day unbonding period before you can make your Crowdloan contribution. Learn how to unstake your DOT [here](dot-address/unstaking-your-dot/).
 
 ### Will my DOT be returned after the parachain lease ends?&#x20;
 
@@ -122,7 +122,7 @@ Users that refer 500 accounts or more and get those accounts to contribute over 
 
 ### Can you show how the bonuses can be used together?
 
-![](<../../../.gitbook/assets/Screenshot (205).png>)
+![](<../../.gitbook/assets/Screenshot (205).png>)
 
 ###
 

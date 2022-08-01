@@ -38,7 +38,7 @@ Read more on ED [here](../../../get-started/get-started/karura-account/#existent
 
 ## Transaction Fees
 
-Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](https://wiki.acala.network/karura/transaction-fees) page for more info.
+Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](../../../get-started/get-started/transaction-fees.md) page for more info.
 
 ## Types
 

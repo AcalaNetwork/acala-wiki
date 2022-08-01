@@ -4,11 +4,11 @@ In this tutorial, we're going to be utilizing Acala's on-chain scheduler to crea
 
 ## Setup & Install Dependencies
 
-We will create a project from scratch, build and test it using Waffle. If you'd rather build your smart contracts using Remix, please check out [this](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/use-remix) page.
+We will create a project from scratch, build and test it using Waffle. If you'd rather build your smart contracts using Remix, please check out [this](../../get-started-evm/use-remix.md) page.
 
 To start, let's install `nodejs` and yarn if you haven't already:
 
-```text
+```
 sudo apt install -y nodejs
 
 npm install --global yarn
@@ -16,7 +16,7 @@ npm install --global yarn
 
 Next, run the following commands in the folder where you want your project to live:
 
-```text
+```
 mkdir subscription-contract
 cd subscription-contract
 
@@ -26,7 +26,7 @@ yarn add --dev ethereum-waffle@3.2.1
 
 And add the following script to your `package.json`:
 
-```text
+```
 "build": "waffle"
 ```
 
@@ -34,7 +34,7 @@ This will create a folder for our project, initialize a new yarn project, and ad
 
 Within your project folder, create a file called `waffle.json` and paste the following inside the file:
 
-```text
+```
 {
   "compilerType": "solcjs",
   "compilerVersion": "0.6.2",
@@ -47,7 +47,7 @@ This file is the configurations for `waffle` to use when building our smart cont
 
 Let's create our `contracts` folder.
 
-```text
+```
 mkdir contracts
 ```
 
@@ -55,7 +55,7 @@ mkdir contracts
 
 Inside the `contracts` folder create `Scheduler.sol` paste the following code:
 
-```text
+```
 pragma solidity ^0.6.0;
 
 abstract contract Scheduler {
@@ -76,13 +76,13 @@ abstract contract Scheduler {
 
 This file describes the scheduler smart contract and what arguments you must supply to it to use it. But how does the scheduler work?
 
-The Acala EVM provides Solidity, Substrate, and Web3 developers a complete full-stack \(Acala+EVM+Substrate+WASM\) experience seamlessly with a single wallet. Many Substrate and WASM customization are made available inside EVM via pre-compiled contracts, such as on-chain scheduler, bring your own gas, Quality of Service oracle feeds, and more. It allows us to add new features that would be impossible on Ethereum while still letting developers use existing code and tooling to create DApps that leverage these features. These pre-compiled smart contracts have static, known addresses on the Acala EVM making it incredibly easy to use.
+The Acala EVM provides Solidity, Substrate, and Web3 developers a complete full-stack (Acala+EVM+Substrate+WASM) experience seamlessly with a single wallet. Many Substrate and WASM customization are made available inside EVM via pre-compiled contracts, such as on-chain scheduler, bring your own gas, Quality of Service oracle feeds, and more. It allows us to add new features that would be impossible on Ethereum while still letting developers use existing code and tooling to create DApps that leverage these features. These pre-compiled smart contracts have static, known addresses on the Acala EVM making it incredibly easy to use.
 
 ## Create the Subscription Contract
 
 Let's create our smart contract file by creating a `Subscription.sol` file within the `contracts` folder. In it add the following code:
 
-```text
+```
 pragma solidity ^0.6.0;
 
 import "./Scheduler.sol";
@@ -101,7 +101,7 @@ Here you can see we're importing the abstract class that describes the `Schedule
 
 Next, let's set some state variables and modify a constructor. Within the contract add the following:
 
-```text
+```
 contract SubscriptionToken {
     uint period;
     address[] subscribers;
@@ -127,7 +127,7 @@ The constructor is self-explanatory, all it does is set the first state variable
 
 Next let's add the `subscribe` function:
 
-```text
+```
 contract SubscriptionToken {
   ...
 
@@ -147,7 +147,7 @@ Here the `subscribe` function simply adds a user to a list to which tokens will 
 
 Finally, let's have a look at the arguments of `scheduleCall`:
 
-```text
+```
 scheduler.scheduleCall(address(this), 0, 50000, 100, period, abi.encodeWithSignature("paySubscribers()"));
 ```
 
@@ -157,8 +157,8 @@ Let's break this line down:
 * `value` - How much native token to send alone with the call.
 * `gas_limit` - The gas limit for the call. The corresponding fee will be reserved upfront and refunded after the call.
 * `storage_limit` - The storage limit for the call. The corresponding fee will be reserved upfront and refunded after the call.
-* `min_delay` is the number of blocks from now it should try and execute this call \(though it could be more!\)
-* `abi.encodeWithSignature("paySubscribers()")` is the function to call within the smart contract \(we'll define it next\).
+* `min_delay` is the number of blocks from now it should try and execute this call (though it could be more!)
+* `abi.encodeWithSignature("paySubscribers()")` is the function to call within the smart contract (we'll define it next).
 
 For more information on the rest of the arguments being passed to the `scheduler` contract scroll up to where we created `Scheduler.sol`.
 
@@ -166,7 +166,7 @@ For more information on the rest of the arguments being passed to the `scheduler
 
 Now let's create the `paySubscribers` function that the scheduler is calling:
 
-```text
+```
 contract SubscriptionToken {
   ...
 
@@ -186,7 +186,7 @@ contract SubscriptionToken {
 
 Notice the first line of the function:
 
-```text
+```
 require(msg.sender == address(this), "No Permission");
 ```
 
@@ -198,19 +198,18 @@ And that's it! We now have a functioning smart contract with automated subscript
 
 To build the smart contract run the following in the project's root directory:
 
-```text
+```
 yarn build
 ```
 
 ## Deploy
 
-To deploy the smart contract follow the directions [here](https://wiki.acala.network/build/development-guide/smart-contracts/get-started-evm/deploy-contracts).
+To deploy the smart contract follow the directions [here](../../get-started-evm/deploy-contracts.md).
 
-You can set a `period` to 1 \(which is ≈6 secs\), and find the scheduler address in the list of predeployed contracts.
+You can set a `period` to 1 (which is ≈6 secs), and find the scheduler address in the list of predeployed contracts.
 
 ![](https://i.imgur.com/NX3iQUW.png) When everything is done press deploy.
 
 ## Executing the contract
 
-the only way is to get this new token is to subscribe to the smart contract. Execute `subscribe` function and check how balance changes over time for the subscriber \(`balanceOf` function\).
-
+the only way is to get this new token is to subscribe to the smart contract. Execute `subscribe` function and check how balance changes over time for the subscriber (`balanceOf` function).

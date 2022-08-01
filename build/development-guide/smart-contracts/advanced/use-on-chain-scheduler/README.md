@@ -1,6 +1,6 @@
 # Use On-chain Scheduler
 
-You can use the on-chain scheduler contract to schedule a recurring call to execute a given smart contract. Read more on use cases for the on-chain auto-scheduler [here](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack/on-chain-scheduler).
+You can use the on-chain scheduler contract to schedule a recurring call to execute a given smart contract. Read more on use cases for the on-chain auto-scheduler [here](../../../../../learn/acala-evm/acala-evm-composable-defi-stack/on-chain-scheduler.md).
 
 Contract source code [here](https://github.com/AcalaNetwork/predeploy-contracts/blob/master/contracts/schedule/Schedule.sol).
 
@@ -34,4 +34,3 @@ returns (uint256, uint256); // Returns a task id that can be used to cancel or r
 ## Tutorial
 
 Follow this tutorial to write and deploy a basic automatic subscription contract on Acala EVM.
-

@@ -4,5 +4,5 @@ In preparation for the Acala crowdloan event, supporters who are currently staki
 
 The following guides are available to help you through the process:&#x20;
 
-* [Unstaking Your DOT Tokens on Polkadot.{js} Extension](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension)
-* [Unstaking Your DOT Tokens on Polkawallet](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkawallet)
+* [Unstaking Your DOT Tokens on Polkadot.{js} Extension](unstaking-your-dot-tokens-on-polkadot.-js-extension.md)
+* [Unstaking Your DOT Tokens on Polkawallet](unstaking-your-dot-tokens-on-polkawallet.md)

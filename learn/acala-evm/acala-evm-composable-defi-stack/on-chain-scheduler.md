@@ -8,4 +8,4 @@ On Acala and Substrate, the automatic scheduler is a native feature of the block
 
 This will enable a wide range of use cases such as automatic and recurring payment rails, subscription services such as a Web3 version of Stripe, automatic profit-taking, reinvestment mechanisms, and a means to liquidate risky positions without external actors like keepers.
 
-Try the auto-scheduler contract [here](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-on-chain-scheduler).
+Try the auto-scheduler contract [here](../../../build/development-guide/smart-contracts/advanced/use-on-chain-scheduler/).

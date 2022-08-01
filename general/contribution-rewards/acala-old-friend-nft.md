@@ -10,6 +10,6 @@ We semi-secretly dropped the 'Acala Old Friend' NFT to those early participants 
 * ****[**Acala Mandala Festival Season #4 Halloween Give-Back**](https://medium.com/acalanetwork/acala-mandala-festival-season-4-halloween-give-back-d9b073f1fecc)****
 * Active user in 2020 or earlier
 
-Use [this guide](https://wiki.acala.network/misc/finding-tokens-and-nfts) to check NFTs on testnet.&#x20;
+Use [this guide](../../crowdloans/crowdloan/finding-tokens-and-nfts.md) to check NFTs on testnet.&#x20;
 
 ****

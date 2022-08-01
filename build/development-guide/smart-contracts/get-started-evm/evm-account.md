@@ -8,7 +8,7 @@ This allows users to use all functionalities within Acala and cross-chain capabi
 
 ## Setup EVM Account
 
-A user on Acala will always have a Substrate-based account that enables users to easily navigate multiple blockchains and sign any (EVM and Susbtrate) transactions with a single account. Read more on Acala Substrate Account [here](https://wiki.acala.network/learn/basics/acala-account). Follow the guide [here](https://wiki.acala.network/learn/get-started#create-a-polkadot-account) or [here](https://wiki.polkadot.network/docs/en/learn-account-generation) to generate a Substrate account.
+A user on Acala will always have a Substrate-based account that enables users to easily navigate multiple blockchains and sign any (EVM and Susbtrate) transactions with a single account. Read more on Acala Substrate Account [here](../../../../get-started/acala-network/acala-account/). Follow the guide [here](../../../../get-started/acala-network/acala-account/#create-account) or [here](https://wiki.polkadot.network/docs/en/learn-account-generation) to generate a Substrate account.
 
 To enable Single Account and use Acala EVM, you either
 

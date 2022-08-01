@@ -44,5 +44,5 @@ No. Ledger does not support Acala at all, even if you connect your Ledger to the
 
 ### How do I connect my Polkawallet to Acala Quests?
 
-Follow the guide we've created [here](https://wiki.acala.network/acala/acala-crowdloan/acala-quests/attaching-polkawallet-to-polkadot.js-extension).
+Follow the guide we've created [here](attaching-polkawallet-to-polkadot.js-extension.md).
 

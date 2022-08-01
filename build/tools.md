@@ -2,7 +2,7 @@
 
 ## Block Explorers
 
-* [Polkadot Explorer Explorer](https://polkadot.js.org/apps/#/explorer) - Acala console dashboard block explorer. Currently connects to Acala by default, but can be configured to connect to other remote or local endpoints.
+* [Polkadot Explorer](https://polkadot.js.org/apps/#/explorer) - Acala console dashboard block explorer. Currently connects to Acala by default, but can be configured to connect to other remote or local endpoints.
 * [Polkascan](https://polkascan.io/) - Blockchain explorer for Polkadot, Kusama, and other related chains.
 * [Subscan](https://subscan.io/) - Blockchain explorer for Substrate chains, include Acala.
 

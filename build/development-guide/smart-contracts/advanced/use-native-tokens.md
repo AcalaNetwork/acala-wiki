@@ -1,28 +1,28 @@
 # Use Native & Cross-chain Tokens
 
-Smart Contract Dapps deployed in Acala EVM can directly use native and cross-chain assets such as DOT, ACA, aUSD, renBTC, etc. ERC-20 tokens deployed in EVM can also be made available at runtime level, to be listed in the DeX, or \(by governance approval\) to be used as fee tokens. Read more [here](https://wiki.acala.network/learn/basics/acala-evm/acala-evm-composable-defi-stack/composable-defi-stack).
+Smart Contract Dapps deployed in Acala EVM can directly use native and cross-chain assets such as DOT, ACA, aUSD, renBTC, etc. ERC-20 tokens deployed in EVM can also be made available at runtime level, to be listed in the DeX, or (by governance approval) to be used as fee tokens. Read more [here](../../../../learn/acala-evm/acala-evm-composable-defi-stack/composable-defi-stack.md).
 
 ## ERC20 Contract Addresses
 
-| Token Ticker | ER20 Address |  |
-| :--- | :--- | :--- |
-| ACA | `0x0000000000000000000000000000000001000000` |  |
-| AUSD | `0x0000000000000000000000000000000001000001` |  |
-| DOT | `0x0000000000000000000000000000000001000002` |  |
-| LDOT | `0x0000000000000000000000000000000001000003` |  |
-| XBTC | `0x0000000000000000000000000000000001000004` |  |
-| RENBTC | `0x0000000000000000000000000000000001000005` |  |
-| POLKABTC | `0x0000000000000000000000000000000001000006` |  |
-| PLM | `0x0000000000000000000000000000000001000007` |  |
-| PHA | `0x0000000000000000000000000000000001000008` |  |
-| HDT | `0x0000000000000000000000000000000001000009` |  |
-| KAR | `0x0000000000000000000000000000000001000080` |  |
-| KUSD | `0x0000000000000000000000000000000001000081` |  |
-| KSM | `0x0000000000000000000000000000000001000082` |  |
-| LKSM | `0x0000000000000000000000000000000001000083` |  |
-| SDN | `0x0000000000000000000000000000000001000087` |  |
-| Oracle | `0x0000000000000000000000000000000000000801` |  |
-| Schedule | `0x0000000000000000000000000000000000000802` |  |
+| Token Ticker | ER20 Address                                 |
+| ------------ | -------------------------------------------- |
+| ACA          | `0x0000000000000000000000000000000001000000` |
+| AUSD         | `0x0000000000000000000000000000000001000001` |
+| DOT          | `0x0000000000000000000000000000000001000002` |
+| LDOT         | `0x0000000000000000000000000000000001000003` |
+| XBTC         | `0x0000000000000000000000000000000001000004` |
+| RENBTC       | `0x0000000000000000000000000000000001000005` |
+| POLKABTC     | `0x0000000000000000000000000000000001000006` |
+| PLM          | `0x0000000000000000000000000000000001000007` |
+| PHA          | `0x0000000000000000000000000000000001000008` |
+| HDT          | `0x0000000000000000000000000000000001000009` |
+| KAR          | `0x0000000000000000000000000000000001000080` |
+| KUSD         | `0x0000000000000000000000000000000001000081` |
+| KSM          | `0x0000000000000000000000000000000001000082` |
+| LKSM         | `0x0000000000000000000000000000000001000083` |
+| SDN          | `0x0000000000000000000000000000000001000087` |
+| Oracle       | `0x0000000000000000000000000000000000000801` |
+| Schedule     | `0x0000000000000000000000000000000000000802` |
 
 ## Contract Methods
 
@@ -74,4 +74,3 @@ function decreaseAllowance(address spender, uint256 subtractedValue) public retu
 ```
 
 More details and source code [here](https://github.com/AcalaNetwork/predeploy-contracts#erc20-contracts).
-

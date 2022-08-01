@@ -12,5 +12,4 @@ This initiative has received an Open Grant from Web3 Foundation and is under dev
 
 ## Get Started
 
-Try out Acala EVM [here](https://wiki.acala.network/build/development-guide/deploy-smart-contracts/get-started).
-
+Try out Acala EVM [here](../../build/development-guide/smart-contracts/get-started-evm/).

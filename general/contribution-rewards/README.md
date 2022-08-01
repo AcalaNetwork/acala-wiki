@@ -19,7 +19,7 @@ Festival-goers and contributors, have fun, learn & break things, behold & catch 
 \*\*This event has concluded, thank you for your participation. \*\*
 
 Building Acala is a community effort, and Mandala Fest then becomes a celebration of this growing community and the wealth of possibility that awaits us all in building web3. All past festival-goers would have a chance to claim Acala & Karura Halloween themed badges.\
-These collectibles don’t have a monetary value nor a market, they are our mere way of honoring our shared experience and saying thank you. Newcomers to the community who complete required tasks would also have a chance to claim these collectibles.\
+These collectibles don’t have a monetary value nor a market, they are our mere way of honouring our shared experience and saying thank you. Newcomers to the community who complete required tasks would also have a chance to claim these collectibles.\
 Here’s what the festival looks like and the rewards:
 
 * Part I (31-October-2020 to 06-November-2020 | Award Pool: 2,000 ACA + 2,000 KAR): Welcome Newcomers — complete required transactions to qualify.

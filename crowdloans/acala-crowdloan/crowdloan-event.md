@@ -97,8 +97,8 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 
 If you are already staking DOT, please begin the process of unstaking now to ensure that you can observe the 28-day cooldown. The following guides are available: ​
 
-* [Unstaking Your DOT Tokens on Polkadot.{js} Extension​](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension)&#x20;
-* [Unstaking Your DOT Tokens on Polkawallet](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkawallet)
+* [Unstaking Your DOT Tokens on Polkadot.{js} Extension​](dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension.md)&#x20;
+* [Unstaking Your DOT Tokens on Polkawallet](dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkawallet.md)
 
 
 

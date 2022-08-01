@@ -61,11 +61,11 @@ The KAR distributed to participants will be vested over a period of time, but th
 
 Crowdloan is a permissionless event, so you can make your own judgement on how you'd like to participate. We recommend the following ways to participate:
 
-1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Use a referral link to get an extra 5% bonus. Wallet setup guide [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account).&#x20;
+1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Use a referral link to get an extra 5% bonus. Wallet setup guide [here](ksm-address/create-new-ksm-account.md).&#x20;
 2. Participate via partner exchanges.
 3. Participate via partner mobile wallets.
 
-Follow the [`How to Crowdloan`](https://wiki.acala.network/karura/crowdloan/how-to-crowdloan) guide to participate via Karura official website and Polkawallet.
+Follow the [`How to Crowdloan`](how-to-crowdloan.md) guide to participate via Karura official website and Polkawallet.
 
 ![Join Karura](https://lh3.googleusercontent.com/KQ\_ds6czQc2GMuvsHHKUiRJymgThlJPLOeN262kUyo\_YY9XQYCJMTSsPZ\_6PiEpR1gN7ATEuFKXCkdf70u3UJT0tge8OTl4tzALR\_2YjvAk7jrjL-ny5tOzsK2DCNDARL1KZHv4)
 
@@ -90,14 +90,14 @@ More partners to come...
 
 In order to participate in the crowdloan, KSM must be unbonded. If you are already staking KSM, please begin the process of unstaking now to ensure that you can observe the 7-day cooldown. The following guides are available:
 
-* [Unstaking Your KSM Tokens on Polkadot.{js} Extension](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm-tokens-on-polkadot.-js-extension)
-* [Unstaking Your KSM Tokens on Polkawallet](https://wiki.acala.network/karura/ksm-address/unstake-polkawallet)
+* [Unstaking Your KSM Tokens on Polkadot.{js} Extension](ksm-address/unstaking-your-ksm/unstaking-your-ksm-tokens-on-polkadot.-js-extension.md)
+* [Unstaking Your KSM Tokens on Polkawallet](ksm-address/unstaking-your-ksm/unstake-polkawallet.md)
 
 ### 3.4 Check Contribution
 
 You can enter your KSM address in [Subscan explorer](https://kusama.subscan.io/), the `Extrinsics` table at the bottom should show all your transactions including crowdloan contribution transactions.&#x20;
 
-![](../../../.gitbook/assets/screen-shot-2021-06-09-at-10.28.34-am.png)
+![](../../.gitbook/assets/screen-shot-2021-06-09-at-10.28.34-am.png)
 
 ## **4. Post-Crowdloan/Auction**
 

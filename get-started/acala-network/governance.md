@@ -49,7 +49,7 @@ Before voting of your proposal completes, you will need to submit the actual pre
 
 ## Vote on a Referenda
 
-To Vote on Referenda, you must hold KAR tokens and these tokens must be held in a wallet that has the functionality to participate in Democracy like Polkadot.js. If you don't have your tokens in Polkadot.js wallet, you can read more about [account generation](https://wiki.acala.network/acala/acala-account#account-generation).
+To Vote on Referenda, you must hold KAR tokens and these tokens must be held in a wallet that has the functionality to participate in Democracy like Polkadot.js. If you don't have your tokens in Polkadot.js wallet, you can read more about [account generation](acala-account/#account-generation).
 
 Once a proposal is in as a referendum, it will show up in the referenda table. You can navigate to the [Polkadot Apps - Acala Parachain Democracy](https://polkadot.js.org/apps/#/democracy) to cast your vote.
 

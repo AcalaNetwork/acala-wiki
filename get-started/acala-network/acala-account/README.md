@@ -160,7 +160,7 @@ Your wallet is now set up! The screen will default to the Polkadot network. You 
 
 1. Click the menu button on the top-right corner.
 
-&#x20;![](https://i.imgur.com/JwPrsVe.jpg%20=250x)
+<img src="https://i.imgur.com/JwPrsVe.jpg%20=250x" alt="" data-size="original">
 
 2\. In the opened menu select the Polkadot logo, then press on the appeared address on the main screen.
 

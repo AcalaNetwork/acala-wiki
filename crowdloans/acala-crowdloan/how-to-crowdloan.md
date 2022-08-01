@@ -4,13 +4,13 @@
 
 ### **Check the Pre-Requisites**
 
-* [ ] I have installed the Polkadot.js browser extension. Click here for instructions on [creating a wallet through Polkadot.js.](https://wiki.acala.network/acala/acala-crowdloan/dot-address/creating-a-new-dot-account)
+* [ ] I have installed the Polkadot.js browser extension. Click here for instructions on [creating a wallet through Polkadot.js.](dot-address/creating-a-new-dot-account.md)
 * [ ] I have DOT in my Polkadot.js account.
-* [ ] My DOT has been ‘unbonded’. Click [here](https://wiki.acala.network/acala/acala-crowdloan/dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension) for instructions on unbonding if you’re staking DOT in Polkadot.js, or find the unstake/unbond option in your mobile wallet.&#x20;
+* [ ] My DOT has been ‘unbonded’. Click [here](dot-address/unstaking-your-dot/unstaking-your-dot-tokens-on-polkadot.-js-extension.md) for instructions on unbonding if you’re staking DOT in Polkadot.js, or find the unstake/unbond option in your mobile wallet.&#x20;
 
 ### **Select Your Desired Participation Method**
 
-Connect to the Acala [website](https://acala.network/acala/join-acala). Select whether you’d like to `Contribute Directly` to Acala crowdloan hosted by Polkadot on this website or whether you’d like to `Contribute & Stay Liquid` to Acala crowdloan hosted by the Liquid Crowdloan Vault also on this website and receive lcDOT. The ACA rewards are the same for both options. To learn more about these two options, please consult our [FAQ](https://wiki.acala.network/acala/acala-crowdloan/faq).
+Connect to the Acala [website](https://acala.network/acala/join-acala). Select whether you’d like to `Contribute Directly` to Acala crowdloan hosted by Polkadot on this website or whether you’d like to `Contribute & Stay Liquid` to Acala crowdloan hosted by the Liquid Crowdloan Vault also on this website and receive lcDOT. The ACA rewards are the same for both options. To learn more about these two options, please consult our [FAQ](faq.md).
 
 ![](https://lh3.googleusercontent.com/n7hpj19AJiwsFlHBUmJuFpd9vwPS3hvC8n4VfKMoMLmwUh0ZTN9n22PVp\_Ltux\_67x5JDdBVhrfL-FSStWi280T2aRxQ4w7KucNGtohGvWfSngXIDNtxTEG3MXnHaGd3LDrgM1TE)
 
@@ -54,15 +54,15 @@ You can contribute multiple times with the same account. If you share your refer
 
 You shall see your DOT balance once switched. Click the Polkadot Parachain Auction banner at the bottom of the screen.
 
-![](<../../../.gitbook/assets/File (30).jpg>)
+![](<../../.gitbook/assets/File (30).jpg>)
 
 ### **Select Your Desired Participation Method and Agree to Terms & Conditions**
 
-Select whether you’d like to make a `Standard` contribution to the Acala crowdloan hosted by Polkadot or whether you’d like to make a `Liquid` contribution to the Acala crowdloan hosted by the Liquid Crowdloan Vault and receive lcDOT. The ACA rewards are the same for both options. To learn more about these two options, please consult our [FAQ](https://wiki.acala.network/acala/acala-crowdloan/faq).&#x20;
+Select whether you’d like to make a `Standard` contribution to the Acala crowdloan hosted by Polkadot or whether you’d like to make a `Liquid` contribution to the Acala crowdloan hosted by the Liquid Crowdloan Vault and receive lcDOT. The ACA rewards are the same for both options. To learn more about these two options, please consult our [FAQ](faq.md).&#x20;
 
 To participate in the crowdloan, you must read and accept the Terms and Conditions along with the Privacy Policy. Your acceptance will be a signed message using the DOT account used to participate in the crowdloan, but it will not cost you anything.
 
-![](<../../../.gitbook/assets/File (31) (1).jpg>)
+![](<../../.gitbook/assets/File (31) (1).jpg>)
 
 ### Contribute to the Crowdloan
 
@@ -84,7 +84,7 @@ If you participate using a referral link, you will receive an additional 5% ACA 
 
 Click `Submit`.
 
-![](<../../../.gitbook/assets/IMG\_2001 (1).PNG>)
+![](<../../.gitbook/assets/IMG\_2001 (1).PNG>)
 
 ### Post Submission&#x20;
 

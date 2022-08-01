@@ -45,7 +45,7 @@ Read more on ED [here](../../../acala/get-started/acala-account/#existential-dep
 
 ## Transaction Fees
 
-Acala uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](https://wiki.acala.network/karura/get-started/transaction-fees) page for more info.
+Acala uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](../../../get-started/get-started/transaction-fees.md) page for more info.
 
 ## Types
 

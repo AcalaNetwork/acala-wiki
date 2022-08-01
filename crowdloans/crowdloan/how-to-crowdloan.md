@@ -2,7 +2,7 @@
 
 Crowdloan is a permissionless event, so you can make your own judgement on how you'd like to participate. We recommend the following ways to participate:
 
-1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Use a referral link to get an extra 5% bonus. Wallet setup guide [here](https://wiki.acala.network/karura/ksm-address/create-new-ksm-account).&#x20;
+1. Participate via [Karura official website](https://acala.network/karura/join-karura) using Polkadot{.js} browser extension. Use a referral link to get an extra 5% bonus. Wallet setup guide [here](ksm-address/create-new-ksm-account.md).&#x20;
 2. Participate via partner exchanges.
 3. Participate via partner mobile wallets.
 
@@ -12,7 +12,7 @@ Crowdloan is a permissionless event, so you can make your own judgement on how y
 
 * [ ] I have installed the [Polkadot.js browser extension](https://polkadot.js.org/extension/).
 * [ ] I have KSM in my Polkadot.js account.
-* [ ] My KSM has been ‘unbonded’. [Click here](https://wiki.acala.network/karura/ksm-address/unstaking-your-ksm) for instructions on unbonding if you’re staking KSM in Polkadot.js, or find the unstake/unbond option in your mobile wallet.
+* [ ] My KSM has been ‘unbonded’. [Click here](ksm-address/unstaking-your-ksm/) for instructions on unbonding if you’re staking KSM in Polkadot.js, or find the unstake/unbond option in your mobile wallet.
 
 ### **Connect Polkadot{js} Extension Wallet**
 
@@ -50,13 +50,13 @@ You can contribute multiple times with the same account. Do share your great con
 
 You shall see KSM balance once switched. Click the Kusama Parachain Auction banner at the bottom of the screen.
 
-![](../../../.gitbook/assets/merged.png)
+![](../../.gitbook/assets/merged.png)
 
 ### Read and Accept Terms & Conditions
 
 To participate in the crowdloan, you must read and accept the terms and conditions. You are required to sign with the account used to participate in the crowdloan, but it will not cost you anything.
 
-![](../../../.gitbook/assets/1011623119982\_.pic.jpg)
+![](../../.gitbook/assets/1011623119982\_.pic.jpg)
 
 ### Contribute to the crowdloan
 
@@ -66,13 +66,13 @@ If you have a referral code, enter it to receive an additional 5% bonus. Click `
 
 There may be other bonus programs depending on the time you join the crowdloan.
 
-![](../../../.gitbook/assets/merged-3.png)
+![](../../.gitbook/assets/merged-3.png)
 
 ### Submit Contribution
 
 Click `Contribute` button, this will submit your contribution to the Kusama Relay Chain. This may take a few seconds while Kusama finalizes your transaction.
 
-![](../../../.gitbook/assets/1041623120126\_.pic.jpg)
+![](../../.gitbook/assets/1041623120126\_.pic.jpg)
 
 ### **Post Submission**
 
