@@ -2,7 +2,7 @@
 
 To participate in Karura crowdloan, you must have a KSM address used to contribute KSM to the Karura crowdloan. This KSM address also has a corresponding Karura (KAR) address, that shares the same public-private-keypair, which will be used to receive your KAR rewards.
 
-If you already set up an Acala account following [this guide](https://wiki.acala.network/learn/get-started#create-a-polkadot-account), then you can check its corresponding KSM address for use in the crowdloan.
+If you already set up an Acala account following [this guide](../../../../get-started/get-started/karura-account/#create-account), then you can check its corresponding KSM address for use in the crowdloan.
 
 The guide below shows you how to check the corresponding address for KSM and KAR, how to create a new KSM address if you don't already have one. Note: you should NOT use an exchange address for the crowdloan.
 

@@ -10,7 +10,7 @@ You can now check your airdrop KAR & ACA balances on [https://apps.acala.network
 
 ![](../../.gitbook/assets/image.png)
 
-Learn more about ACA & KAR tokens [here](https://wiki.acala.network/learn/economics/aca-and-kar).
+Learn more about ACA & KAR tokens [here](../../learn/acala-introduction/#assets).
 
 Festival-goers and contributors, have fun, learn & break things, behold & catch the candies 🎁
 
