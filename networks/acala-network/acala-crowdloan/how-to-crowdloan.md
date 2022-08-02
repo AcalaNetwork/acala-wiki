@@ -54,7 +54,7 @@ You can contribute multiple times with the same account. If you share your refer
 
 You shall see your DOT balance once switched. Click the Polkadot Parachain Auction banner at the bottom of the screen.
 
-![](<../../.gitbook/assets/File (30).jpg>)
+![](<../../../.gitbook/assets/File (30).jpg>)
 
 ### **Select Your Desired Participation Method and Agree to Terms & Conditions**
 
@@ -62,7 +62,7 @@ Select whether you’d like to make a `Standard` contribution to the Acala crowd
 
 To participate in the crowdloan, you must read and accept the Terms and Conditions along with the Privacy Policy. Your acceptance will be a signed message using the DOT account used to participate in the crowdloan, but it will not cost you anything.
 
-![](<../../.gitbook/assets/File (31) (1).jpg>)
+![](<../../../.gitbook/assets/File (31) (1).jpg>)
 
 ### Contribute to the Crowdloan
 
@@ -84,7 +84,7 @@ If you participate using a referral link, you will receive an additional 5% ACA 
 
 Click `Submit`.
 
-![](<../../.gitbook/assets/IMG\_2001 (1).PNG>)
+![](<../../../.gitbook/assets/IMG\_2001 (1).PNG>)
 
 ### Post Submission&#x20;
 

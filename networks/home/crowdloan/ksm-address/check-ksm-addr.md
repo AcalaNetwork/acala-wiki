@@ -31,7 +31,7 @@ If you already set up a Polkadot account, Acala account, or any Substrate-based 
     ![](https://i.imgur.com/z7uFoCj.jpg%20=250x)
 2.  In the opened menu select Kusama logo (second from the top) and press on the appeared address on the main screen.
 
-    ![](<../../../.gitbook/assets/image (28).png>)
+    ![](<../../../../.gitbook/assets/image (28).png>)
 3.  Click on the account block under the `Add Account` button, which will navigate you back to the main page.
 
     ![](https://i.imgur.com/Btjlla4.jpg%20=250x)

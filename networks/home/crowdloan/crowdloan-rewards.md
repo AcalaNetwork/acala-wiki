@@ -51,4 +51,4 @@ Most of the KAR rewards have been distributed (except for the ones that need to 
 
 If your rewards are marked as `To be Claimed`, please [follow the guide here](claim-kar.md) to claim.
 
-![](../../.gitbook/assets/screen-shot-2021-06-28-at-3.45.11-pm.png)
+![](../../../.gitbook/assets/screen-shot-2021-06-28-at-3.45.11-pm.png)

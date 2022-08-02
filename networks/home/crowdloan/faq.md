@@ -4,13 +4,13 @@
 
 ### Have all the tokens been distributed?
 
-If you participated through our Karura website or through one of our mobile wallet partners, your tokens have been distributed. Users that participated through other means will need to go through the claims process. Learn how to [check your distribution](../../get-started/get-started/check-distribution.md).
+If you participated through our Karura website or through one of our mobile wallet partners, your tokens have been distributed. Users that participated through other means will need to go through the claims process. Learn how to [check your distribution](../../../get-started/get-started/check-distribution.md).
 
 ### Do I need to claim my tokens?
 
 Only users that participated through the website [https://polkadot.js.org/apps](https://polkadot.js.org/apps) (screenshot below) need to go through the claims process. All other users will have their tokens automatically distributed to them. If enter your Kusama address on [https://karura.subscan.io/](https://karura.subscan.io/) and don't see your tokens, you probably need to go through the claims process.
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (13).png>)
 
 ### How do I claim my tokens?
 
@@ -18,7 +18,7 @@ We have created the website [https://distribution.acala.network/claim](https://d
 
 ### **How do I access my tokens?**
 
-The KAR rewards will be distributed to the Karura address associated with the Kusama address you used to contribute. Polkawallet users can see their KAR tokens by connecting to the Karura network in the Polkawallet app. Polkadot.js browser extension users can learn how to [check their distribution.](../../get-started/get-started/check-distribution.md)
+The KAR rewards will be distributed to the Karura address associated with the Kusama address you used to contribute. Polkawallet users can see their KAR tokens by connecting to the Karura network in the Polkawallet app. Polkadot.js browser extension users can learn how to [check their distribution.](../../../get-started/get-started/check-distribution.md)
 
 ### Do I need to create a Karura account to claim/receive my tokens?
 

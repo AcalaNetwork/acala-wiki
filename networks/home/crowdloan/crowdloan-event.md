@@ -97,7 +97,7 @@ In order to participate in the crowdloan, KSM must be unbonded. If you are alrea
 
 You can enter your KSM address in [Subscan explorer](https://kusama.subscan.io/), the `Extrinsics` table at the bottom should show all your transactions including crowdloan contribution transactions.&#x20;
 
-![](../../.gitbook/assets/screen-shot-2021-06-09-at-10.28.34-am.png)
+![](../../../.gitbook/assets/screen-shot-2021-06-09-at-10.28.34-am.png)
 
 ## **4. Post-Crowdloan/Auction**
 

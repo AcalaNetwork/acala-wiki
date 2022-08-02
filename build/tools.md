@@ -39,7 +39,7 @@
 ## Faucet
 
 * [Faucet-bot](https://github.com/AcalaNetwork/faucet-bot) - the code for Riot and Discord faucet bot.
-* [Discord Faucet Channel ](https://discord.gg/kprpWDE3rm)- Discord faucet channel.
+* [Discord Faucet Channel ](https://www.acala.gg/)- Discord faucet channel.
 
 ## Collateral Auction & Liquidation Bot
 

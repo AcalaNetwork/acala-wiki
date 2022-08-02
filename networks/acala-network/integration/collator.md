@@ -29,7 +29,7 @@ Through governance approval, Acala will then enable the permissionless election 
 
 You can express interest in becoming a collator/liveness provider for the Acala Network (and later Acala Network) by [filling in this form](https://forms.gle/WQesfKVZmJeXov1e9).
 
-You can subscribe to the [`Node Operator - Announcement`](https://discord.gg/uWSZWsUcEn) channel on our Discord for updates and breaking changes.
+You can subscribe to the [`Node Operator - Announcement`](https://www.acala.gg/) channel on our Discord for updates and breaking changes.
 
 ## Collator Node
 

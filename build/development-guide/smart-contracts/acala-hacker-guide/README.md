@@ -2,7 +2,7 @@
 
 ## Start Here
 
-* **Join** [**Acala Official Discord**](https://discord.gg/vdbFVCH) **** to explore DeFi on Polkadot, for product and technical questions
+* **Join** [**Acala Official Discord**](https://www.acala.gg/) **** to explore DeFi on Polkadot, for product and technical questions
 * [**Watch**](https://www.crowdcast.io/e/acala-ethdenver-2021) the webinar: **Deploying your Ethereum Project on Polkadot & Acala**
 
 ## Resources
@@ -59,10 +59,5 @@ Acala is also the gateway for Ethereum Apps to get access to the Polkadot ecosys
 
 * [Acala Homepage](https://acala.network/)
 * [Twitter](https://twitter.com/AcalaNetwork)
-* [Discord](https://discord.gg/vdbFVCH)
+* [Discord](https://www.acala.gg/)
 * [Acala Newsletter](https://acala.network/newsletter-sign-up.html)
-
-###
-
-
-

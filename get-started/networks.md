@@ -26,4 +26,4 @@
 
 ### Faucet
 
-* [On Discord in the #acala-testnet-faucet Channel](https://discord.gg/eEhnhw8uav)
+* [On Discord in the #acala-testnet-faucet Channel](https://www.acala.gg/)

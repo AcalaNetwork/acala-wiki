@@ -122,7 +122,7 @@ Users that refer 500 accounts or more and get those accounts to contribute over 
 
 ### Can you show how the bonuses can be used together?
 
-![](<../../.gitbook/assets/Screenshot (205).png>)
+![](<../../../.gitbook/assets/Screenshot (205).png>)
 
 ###
 
