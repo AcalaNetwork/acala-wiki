@@ -11,7 +11,7 @@ Karura is an experimental network, or a 'canary network', for Acala. It's an ear
 KSM is the native token of Kusama. It is used as the fee token, staking token to provide network security and governance token on the Kusama Relay chain. The launch of Karura's parachain unlocks new use cases for KSM:
 
 * Participate in trustless trading with other tokens via [Karura Swap](https://apps.karura.network/swap)
-* Use as liquidity for KSM-based trading pairs in Karura Swap, use KSM to power the KAR/KSM pair (learn about becoming a liquidity provider & risks involved [here](broken-reference)). This will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
+* Use as liquidity for KSM-based trading pairs in Karura Swap, use KSM to power the KAR/KSM pair (learn about becoming a liquidity provider & risks involved [here](https://docs.acalaswap.app/overview/liquidity-pools#impermanent-loss)). This will also enable KSM as transaction fees on Karura. Read more [here](https://wiki.acala.network/karura/get-started/transaction-fees).
 * Use as a collateral asset to mint the kUSD stablecoin, which can then be used for leveraged trades and other use cases.
 * Stake in Karura's Liquid KSM staking pool to mint LKSM, which can then be used as collaterals, transferred, or traded.
   * LKSM is a programmable staking asset as the building block for many other protocols and applications

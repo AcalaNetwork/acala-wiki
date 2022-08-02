@@ -22,7 +22,7 @@
 
 ### EVM RPC
 
-* `https://tc7-eth.aca-dev.network`
+* `https://acala-mandala-adapter.api.onfinality.io/public`
 
 ### Faucet
 
