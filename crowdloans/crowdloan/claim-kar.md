@@ -14,7 +14,7 @@ It requires you to use the extension to sign a message, but it does not cost any
 
 You can navigate to the Claim Website from the Distribution site or directly [here](https://distribution.acala.network/claim). If you did not participate in the crowdloan event with the Polkadot{js} extension, then select `Claim Manually` and **enter the address you used to participate in the Karura crowdloan**.
 
-![](../../../.gitbook/assets/screen-shot-2021-07-12-at-12.38.19-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-07-12-at-12.38.19-pm.png)
 
 There are two ways to claim
 
@@ -29,7 +29,7 @@ You can go to the [Polkadot App - Developer - Sign and Verify](https://polkadot.
 
 1. You must select **the same account that was used in the Karura crowdloan**.
 
-![](../../../.gitbook/assets/screen-shot-2021-07-12-at-11.33.10-am.png)
+![](../../.gitbook/assets/screen-shot-2021-07-12-at-11.33.10-am.png)
 
 2\. In the `sign the following data` field, copy and paste in the required message to sign (shown on the Claim website).
 
@@ -39,7 +39,7 @@ I hereby agree to the terms of the statement whose SHA-256 multihash is QmSfG9pS
 
 3\. Sign, copy the hash and paste it back to the Claim website to complete the process
 
-![](../../../.gitbook/assets/screen-shot-2021-07-12-at-11.37.17-am.png)
+![](../../.gitbook/assets/screen-shot-2021-07-12-at-11.37.17-am.png)
 
 Once the process is completed, it may take up to 48 hours for distribution to be scheduled.&#x20;
 
@@ -49,7 +49,7 @@ If you are unable to use Sign and verify to sign the message e.g. you used a pro
 
 1. Log onto the [Polkadot Apps - Kusama](https://polkadot.js.org/apps/#/explorer), **you must switch to the Kusama App.**&#x20;
 
-![](../../../.gitbook/assets/screen-shot-2021-07-12-at-12.22.02-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-07-12-at-12.22.02-pm.png)
 
 2\. Go to the `Developer-Extrinsics` section
 
@@ -81,11 +81,11 @@ I hereby agree to the terms of the statement whose SHA-256 multihash is QmSfG9pS
 
 8\. You’ll see the `system(remark_with_event)` in your transaction history. Click on the corresponding `Extrinsic ID`
 
-![](../../../.gitbook/assets/sdxvujr.png)
+![](../../.gitbook/assets/sdxvujr.png)
 
 9\. Copy the `Extrinsic Hash`
 
-![](../../../.gitbook/assets/5i1qfz3.png)
+![](../../.gitbook/assets/5i1qfz3.png)
 
 10\. Paste the Extrinsic hash back to the Claim website to complete the process
 
