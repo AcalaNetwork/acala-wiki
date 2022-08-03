@@ -4,6 +4,12 @@
 
 Same as the Polkadot full node requirements.
 
+## Latest Release Version
+
+{% embed url="https://github.com/AcalaNetwork/Acala/releases/latest" %}
+Shows the latest release version of Acala, Karura & Mandala
+{% endembed %}
+
 ## Run from Source Code
 
 * Clone the repo: [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)
@@ -19,7 +25,7 @@ Same as the Polkadot full node requirements.
 
 ## Common CLI
 
-* CLI is mostly the same as any Substrate-based chain such as Polkadot and Polkadot
+* CLI is mostly the same as any Substrate-based chain such as Kusama and Polkadot
 * Because there are two node services are running, `--` is used to split the CLI. Arguments before `--` are passed to the parachain full-node service and arguments after `--` is passed to the Relay Chain full-node service.
   * For example `--chain=parachain.json --ws-port=9944 -- --chain=relaychain.json --ws-port=9945` means
     * The parachain service is using `parachain.json` as the chain spec and the web socket RPC port is 9944
