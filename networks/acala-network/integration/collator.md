@@ -35,7 +35,7 @@ You can subscribe to the [`Node Operator - Announcement`](https://www.acala.gg/)
 
 ### Spec Requirement
 
-Same as [the Polkadot validator node requirement](https://guide.polkadot.network/docs/maintain-guides-how-to-validate-polkadot/#requirements).
+Same as [the Polkadot validator node requirement](https://wiki.polkadot.network/docs/maintain-guides-how-to-validate-polkadot/#requirements).
 
 ### Run Node
 
