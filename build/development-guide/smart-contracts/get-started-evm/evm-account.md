@@ -35,7 +35,7 @@ blake2_256("evm:" ++ account_id)[0..20]
 
 Navigate to the [Polkadot.js web app](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-mandala.api.onfinality.io%2Fpublic-ws#/extrinsics). The ability to claim the default EVM address can be found under `Extrinsics` in the `Developer` tab.
 
-![Developer > Extrinsics](<../../../../.gitbook/assets/image (10).png>)
+![Developer > Extrinsics](<../../../../.gitbook/assets/image (10) (2).png>)
 
 **Step 1: Select the Polkadot account**
 
@@ -61,13 +61,13 @@ Once the accounts have been bound, you can validate the binding of the accounts,
 
 The chain state is validated using state queries, which can be found under `Developer` dropdown's `Chain state` option.
 
-![Developer > Chain state](<../../../../.gitbook/assets/image (4).png>)
+![Developer > Chain state](<../../../../.gitbook/assets/image (4) (2).png>)
 
 Select the `evmAccounts` from the `selected state query` dropdown. The `evmAddress(AccountId32)` option should return the EVM address bound to the Substrate account selected in the dropdown below.
 
 Pressing the `+` button should query the chain for the associated EVM address and return it:
 
-![Successful query for bound EVM address](<../../../../.gitbook/assets/image (1).png>)
+![Successful query for bound EVM address](<../../../../.gitbook/assets/image (1) (1).png>)
 
 ### **2. Bind an Existing Ethereum Account**
 

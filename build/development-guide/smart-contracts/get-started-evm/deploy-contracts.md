@@ -6,112 +6,180 @@ The `Acala EVM Playground` is useful to test various functionalities of Acala EV
 
 To deploy your smart contract you can use our testnet or you can run your local dev node.
 
-### Run your own dev node\*\*
+### Run your own development network
 
-To run your dev node, you can: 1. Build Acala project locally. You can follow the guide on how to do it here: [https://github.com/AcalaNetwork/Acala#3-building](https://github.com/AcalaNetwork/Acala#3-building). Once you have built Acala you can start an EVM ready local dev node by running the following command:
+To run your own development network, you can follow the [instructions](https://evmdocs.acala.network/network/network-setup/local-development-network) on setting up your own development network in the official EVM+ documentation.
 
-```
-make run-eth;
-```
+Once your development network is operational, you can connect your EVM wallet to it by using the following parameters:
 
-1.  Use the prebuilt Acala Docker image.
+| **Name**            | Mandala                 |   |
+| ------------------- | ----------------------- | - |
+| **URL**             | `http://127.0.0.1:8545` |   |
+| **Chain ID**        | 595                     |   |
+| **WS endpoint URL** | `ws://127.0.0.1:9944`   |   |
+| **Symbol**          | ACA                     |   |
 
-    You need to have Docker installed in your machine. You can follow the installation instructions here: [Install Docker](https://docs.docker.com/get-docker/). Once docker is running you need pull the last acala image and to run it:
+You can reference the [instructions](connect-to-a-node/use-metamask-with-evm+.md) on how to connect MetaMask to the EVM+ and substitute the values from instructions with the values from above.
 
-    ```
-    docker pull acala/acala-node:latest
-    docker run -p 9944:9944 acala/acala-node:latest --name "calling_home_from_a_docker_container" --rpc-external --ws-external --rpc-cors=all --dev
-    ```
+After your EVM wallet is connected to the Acala EVM+, you can continue to the [EVM playground](https://evm.acala.network/).
 
-Once your node is running you should see something similar to this in your terminal window:
-
-![](https://i.imgur.com/MQEURQr.png)
-
-After your dev node is up and running you can set the Acala EVM playground to point to your node by clicking the dropdown in the bottom left corner and selecting `Local Node`.
-
-![](https://i.imgur.com/pOfQb8z.png)
-
-Running the local dev node will prepopulate the `Accounts` dropdowns with pre-funded developer accounts.
-
-**Deploy to our test network**
+### **Deploy to our test network**
 
 To deploy to our test network you need to have the [polkadot{.js}](https://polkadot.js.org/extension/) wallet extension installed in your browser.
 
-Once you have the extension installed, you can bind your accounts with an EVM address and get test network funds on the `Setup EVM Account` page on the Acala EVM playground. For more in-depth instructions, read the documentation [here](evm-account.md).
+Once you have the extension installed, you can [bind your accounts](evm-account.md#2.-bind-an-existing-ethereum-account) with an EVM address and get test network funds from the [Discord faucet](../../../../get-started/networks.md#faucet).
 
-**Note:** For the remainder of this page we will assume you are using a local dev node. If you are deploying to the test network using the `polkadot{.js}` extension simply replace the accounts `Alice`, and `Bob` with the accounts you have set up in your extension.
+{% hint style="info" %}
+**Note:** For the remainder of this page we will assume you are using a local development network. If you are deploying to the test network.
+{% endhint %}
 
 ## **2. Upload Contract ABI & bytecode**
 
-Upload `BasicToken` ABI & bytecode file by navigating to [https://evm.acala.network/](https://evm.acala.network/).
+To deploy a smart contract using [EVM playgrounds](https://evm.acala.network/), you need to compile your smart contract in your preferred development framework so that you have the ABI bundle available to upload.
+
+<details>
+
+<summary>How to create an <code>ExampleToken</code> ABI bundle</summary>
+
+In case you want to use the same smart contract as it is used in this example, you can follow these short instructions on how to create it.
+
+First clone the Acala Hardhat tutorials example:
+
+```shell
+git clone git@github.com:AcalaNetwork/hardhat-tutorials.git
+```
+
+Move into the examples repository and into the `token` example:
+
+```shell
+cd hardhat-tutorials/token
+```
+
+Within the example directory, install all of the dependencies and compile the smart contracts:
+
+```shell
+yarn && yarn build
+```
+
+This will compile the `Token` smart contract and create an ABI bundle to the directory `artifacts/contracts/Token.sol/` the bundle file is called `Token.json`.
+
+</details>
+
+Upload `ExampleToken` ABI & bytecode file by navigating to [https://evm.acala.network/](https://evm.acala.network/).
 
 Go to the `Upload` tab.
 
-![](https://i.imgur.com/Ge3IwiM.png)
+![EVM playground => Upload](<../../../../.gitbook/assets/image (10).png>)
 
-Fill in the contract name, then upload the contract file `BasicToken.json`.
+Assign the `Name` of your smart contract. You will be able to identify the smart contract in the `Deploy` tab with it, once it gets uploaded.
 
-![](https://i.imgur.com/kRM8Mfb.png)
+To upload the ABI bundle itself, you can either drag and drop it into the upload section, or click on the section and select the file.
 
-It will then display a list of available methods in the contract. Then click `Upload`.
+![EVM playgrounds => Upload => Add file](<../../../../.gitbook/assets/image (16).png>)
+
+Once you have selected the correct ABI bundle, the methods of the smart contract should be displayed. You can verify that the correct methods are listed and press `Upload` to upload the ABI bundle.
 
 ## **3. Deploy the Contract**
 
-After uploading the ABI & bytecode file, the Playground will automatically navigate to the `Deploy` step. If not, just select `Deploy` in the left sidebar. `BasicToken` shall appear in the `ABI bundles`.
+Smart contracts can be deployed under the [Deploy tab](https://evm.acala.network/#/deploy) of the EVM playgrounds.
 
-Click the `Deploy` button, and choose `Alice` (or your account if using the browser extension) as the `deployment account`.
+The ABI bundles that you uploaded in the `Upload` tab can be seen here:
 
-![](https://i.imgur.com/FfoYEFU.png)
+![EVM playgrounds => Deploy](<../../../../.gitbook/assets/image (14).png>)
 
-Set the initial supply (e.g. `1000`) and press `Deploy`.
+The methods available for an ABI bundle can be seen by expanding the `ABI` menu. This can be helpful if you have multiple bundles uploaded and you want to be sure that you will be interacting with the right one.
 
-![](https://i.imgur.com/wY0YG54.png)
+![EVM playgrounds => Deploy => Expand ABI section](../../../../.gitbook/assets/image.png)
 
-After confirming the transaction you should be automatically navigated to the `Execute` section. Or you can navigate there manually by clicking "Execute" on the left sidebar.
+When you have verified that you are interacting with the ABI bundle that has the correct methods available, you can click `Deploy`, which should open a deployment interface:
 
-![](https://i.imgur.com/wyrpMIv.png)
+![EVM playgrounds => Deploy => Deploy selected ABI bundle](<../../../../.gitbook/assets/image (1).png>)
+
+The interface consists of the following components:
+
+* Button to connect to your EVM wallet (this is why connecting MetaMask to the EVM+ is a prerequisite for this entry)
+* Smart contract name, that can be changed, so you can deploy the same ABI bundle multiple times and easily differentiate between them
+* ABI bundle identifications
+* Fields to input the smart contract constructor parameters
+* Value field to determine wether to send some of the native currency with the deploy transaction
+* Fields to override the [`gas parameters`](https://evmdocs.acala.network/network/gas-parameters)
+* `Deploy` button to deploy the smart contract once you are satisfied with the deployment parameters
+
+### 1. Connect your EVM wallet
+
+Pressing the <img src="../../../../.gitbook/assets/image (18).png" alt="" data-size="line"> button will prompt your EVM wallet to connect to the site. You can select the account that you want to use with the EVM playgrounds and connect it.
+
+![](<../../../../.gitbook/assets/image (15).png>)![](<../../../../.gitbook/assets/image (8).png>)
+
+The selected account should be displayed at the top of the page now:
+
+![Displayed deployment account](<../../../../.gitbook/assets/image (17).png>)
+
+### 2. Update the required deployment parameters
+
+Depending on the requirements, you can modify the deployment parameters of your smart contract. It is required to fill out the constructor parameters, but modifying other values is optional.\
+
+
+![Filled out deployment values](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAr4HPdeSWiuUx1XzEALT%2Fuploads%2F9wxhZ96rDiIYMPvpYUKb%2Fimage.png?alt=media\&token=9afddcce-b216-42e2-bd55-24a7c0cd5cad)
+
+Once the values are filled out and double checked, the smart contract is ready to be deployed.
+
+{% hint style="warning" %}
+The `validUntil` field value has to be higher than the current block number, or the deployment transaction will fail, due to the validator treating it as outdated. You can verify the current block number in a [block explorer](https://evmdocs.acala.network/network/gas-parameters).
+{% endhint %}
+
+### 3. Deploy the smart contract
+
+Once the parameters of deployment are ready, you can deploy the smart contract by pressing the `Deploy` button. This should prompt your EVM wallet to confirm your deployment transaction:\
+
+
+![Confirming the deployment transaction](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAr4HPdeSWiuUx1XzEALT%2Fuploads%2FKRsWktz8uflxQILeGFkm%2Fimage.png?alt=media\&token=c5401b2a-5b30-4770-a1bf-018d1dd3fe2b)
+
+Once the transaction is included in a block, the deployed smart contract can be found under `Execute` tab.
 
 ## **4. Interact with the Contract**
 
-Navigate to the `Execute` tab. Find the deployed `BasicToken` contract and Click the `Execute` button on the bottom of the "BasicToken" box.
+Navigate to the `Execute` tab. Find the deployed `ExampleToken` contract and Click the `Execute` button on the bottom of the "ExampleToken" box.
 
 ## **5. Query Balances**
 
 To perform a query on an account's balance, do the following steps:
 
-1. Select `Alice` from the `Call from Account` dropdown. This is the account used to send the transaction.
+1. Make sure that the account you used to deploy the smart contract is connected to the `EVM playgrounds`.
 2. Pick `balanceOf` from the `Message to Send` dropdown.
-3. Find Alice’s EVM Address under `Call from Account`, copy and paste it in the `account: address` input.
+3. Copy and paste the address of the account that you used to deploy the smart contract to the `account: address` input.
 
-![](https://i.imgur.com/xH1j0ph.png)
+![Filled out balance query](<../../../../.gitbook/assets/image (9).png>)
 
-**Note:** Solidity contracts have two types of methods: `views` and `executable` methods.
+{% hint style="info" %}
+**Note:** Solidity smart contracts have two types of methods: `views` and `executable` methods.
+{% endhint %}
 
 * `Views` are used to query information from the blockchain without writing data to it. `Views` transactions are free. The Playground uses the `Call` button to indicate this.
 * `Executable` methods can write data onto the blockchain, and these transactions aren’t free. Click the `Execute` button to execute it.
 
-Finally, click `Call` at the bottom, and `Call results` should show the BasicToken balance of Alice (1000).
+Finally, click `Call` at the bottom, and `Call results` should show the ExampleToken balance of `123456789`.
 
-![](https://i.imgur.com/GS7Znys.png)
+![Completed balance query](<../../../../.gitbook/assets/image (20).png>)
 
 ## **6. Transfer**
 
-Now let's try transferring BasicTokens to Bob’s Account.
+Now let's try transferring ExampleTokens to another account.
 
-1. Select `Alice` from the account dropdown.
+1. Make sure that the deployer account is connected to the EVM playgrounds.
 2. Select `transfer` from the `Message to Send` dropdown.
-3. Select Bob’s account (don't forget to bind EVM address to BOB's account how we did for Alice) from the `Call from Account` dropdown, then copy its `EVM address` and paste it in the `recipient address` input box. (Remember to switch `Call from Account` back to `Alice`)
+3. Fill out the `recipient address` input box with another EVM address to which to send the tokens.
 4. Enter transfer amount in the `amount: unit256` argument box, note the token has a standard 18 decimals.
 5. Click `Execute`.
 
-![](https://i.imgur.com/l2utsuN.png)
+![Filled out token transaction](<../../../../.gitbook/assets/image (2).png>)
 
-A notification would pop-up to confirm the transaction is successful.
+A notification will pop-up to confirm that the transaction is successfully executed.
 
-Now check the balances of Alice and Bob, and confirm that they have changed. Alice's account:
+Now you can check the balances of both of the accounts, and confirm that they have changed. deployer's account:
 
-![](https://i.imgur.com/SCLwxRk.png)
+![Deployer's balance](<../../../../.gitbook/assets/image (3).png>)
 
-Bob's account:
+Other account:
 
-![](https://i.imgur.com/pi3AKiN.png)
+![Other account's balance](<../../../../.gitbook/assets/image (7).png>)

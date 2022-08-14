@@ -8,7 +8,7 @@ description: Records of some activity rules and rewards.
 
 You can now check your airdrop KAR & ACA balances on [https://apps.acala.network/wallet](https://apps.acala.network/wallet). The balances are recorded on-chain in the `airdrop` module, which will be used to allocate real tokens upon Karura Canary network and Acala mainnet genesis.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (21).png>)
 
 Learn more about ACA & KAR tokens [here](../../learn/acala-introduction/#assets).
 

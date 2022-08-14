@@ -26,7 +26,7 @@ This should open up a form to add a new network to your MetaMask (you might have
 | **Currency symbol**    | ACA                                                      |   |
 | **Block Explorer URL** | `https://blockscout.mandala.acala.network/`              |   |
 
-![Mandala TC7 connection details](<../../../../../.gitbook/assets/image (2).png>)
+![Mandala TC7 connection details](<../../../../../.gitbook/assets/image (2) (2).png>)
 
 Mandala TC7 should now be connected and you should see your ACA balance (if you already have it).
 

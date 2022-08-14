@@ -9,7 +9,7 @@ You will need to unstake your KSM tokens prior to bonding them to the crowdloan 
 
 1\) Open the Polkawallet mobile app and navigate to the "Staking" tab. Select "Adjust Bonded."&#x20;
 
-![](<../../../../../.gitbook/assets/image (15).png>)
+![](<../../../../../.gitbook/assets/image (15) (1).png>)
 
 
 
@@ -21,19 +21,19 @@ You will need to unstake your KSM tokens prior to bonding them to the crowdloan 
 
 3\) Enter the amount you wish to unbond and "Submit."
 
-![](<../../../../../.gitbook/assets/image (16).png>)
+![](<../../../../../.gitbook/assets/image (16) (1).png>)
 
 
 
 4\) Review the details, enter your password and "Submit."
 
-![](<../../../../../.gitbook/assets/image (18).png>)
+![](<../../../../../.gitbook/assets/image (18) (1).png>)
 
 
 
 5\) A new screen will appear and you will see the amount you have unbonded now appears under "Unlocking." You'll also see that the unbonding transaction shows up in your "Tx History."&#x20;
 
-![](<../../../../../.gitbook/assets/image (14).png>)
+![](<../../../../../.gitbook/assets/image (14) (1).png>)
 
 
 
@@ -45,13 +45,13 @@ You will need to unstake your KSM tokens prior to bonding them to the crowdloan 
 
 7\) After 7 days, return to the "Staking" tab and select the plus sign that says "Adjust Bonded" and then select "Redeem Unbonded."
 
-![](<../../../../../.gitbook/assets/image (21).png>)
+![](<../../../../../.gitbook/assets/image (21) (1).png>)
 
 
 
 8\) Enter the amount you wish to redeem. Click "Submit."&#x20;
 
-![](<../../../../../.gitbook/assets/image (20).png>)
+![](<../../../../../.gitbook/assets/image (20) (1).png>)
 
 
 

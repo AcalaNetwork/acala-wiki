@@ -34,7 +34,7 @@ You will need to unstake your KSM tokens prior to bonding them to the [crowdloan
 
 7\. Once the 7 days have passed, return to the account actions tab, click on the three ellipses, and select “Withdraw unbonded funds.” This will make your KSM transferable. Even though it says “withdraw,” they won’t be leaving your account.
 
-![](<../../../../../.gitbook/assets/image (17).png>)
+![](<../../../../../.gitbook/assets/image (17) (1).png>)
 
 8\. Sign and submit the transaction.
 
