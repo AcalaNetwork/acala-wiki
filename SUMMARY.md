@@ -15,6 +15,7 @@
 * [Governance Overivew](learn/governance-overview/README.md)
   * [Participate in Democracy](learn/governance-overview/participate-in-democracy.md)
   * [How to Verify a Runtime Upgrade](learn/governance-overview/how-to-verify-a-runtime-upgrade.md)
+  * [How to Verify Referendum Proposal](learn/governance-overview/how-to-verify-referendum-proposal.md)
 * [Treasury](learn/treasury.md)
 * [Acala EVM+](learn/acala-evm/README.md)
   * [Why Acala EVM+](learn/acala-evm/why-acala-evm.md)
