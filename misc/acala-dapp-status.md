@@ -16,20 +16,22 @@ description: >-
 |                                                     | To Acala                | <mark style="color:green;">Normal</mark> |
 |                                                     | Powered by EVM+         | Paused                                   |
 | <mark style="color:blue;">**Mint aUSD**</mark>      |                         |                                          |
-|                                                     | Stake                   | <mark style="color:green;">Normal</mark> |
-|                                                     | Unstake                 | <mark style="color:green;">Normal</mark> |
+|                                                     | Deposit Collateral      | <mark style="color:green;">Normal</mark> |
+|                                                     | Withdraw Collateral     | <mark style="color:green;">Normal</mark> |
 |                                                     | Mint aUSD               | Paused                                   |
 |                                                     | Payback aUSD            | Paused                                   |
 |                                                     | Related - Oracle Pallet | Paused                                   |
 |                                                     | Liquidation             | Paused                                   |
 | <mark style="color:blue;">**Swap**</mark>           |                         | <mark style="color:green;"></mark>       |
 |                                                     | Swap                    | Paused                                   |
-|                                                     | Liquidity (Add/Remove)  | Paused                                   |
+|                                                     | Add Liquidity           | Paused                                   |
+|                                                     | Remove Liquidity        | Paused                                   |
 | <mark style="color:blue;">**Liquid Staking**</mark> |                         |                                          |
 |                                                     | Stake                   | <mark style="color:green;">Normal</mark> |
 |                                                     | Unstake - Not Instantly | <mark style="color:green;">Normal</mark> |
 |                                                     | Unstake - Instantly     | Paused                                   |
 | <mark style="color:blue;">**Earn**</mark>           |                         | Paused                                   |
+|                                                     |                         |                                          |
 
 
 
