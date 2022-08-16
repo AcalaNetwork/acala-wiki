@@ -163,6 +163,7 @@
 
 ## Misc
 
+* [Acala DApp Status](misc/acala-dapp-status.md)
 * [Contributing](misc/contributing.md)
 * [Glossary](misc/glossary.md)
 * [Media Kits](misc/media-kits.md)
