@@ -19,8 +19,8 @@ description: >-
 |                                                     | To Acala                     | <mark style="color:green;">Normal</mark> |
 |                                                     | Powered by EVM+              | Paused                                   |
 | <mark style="color:blue;">**Mint aUSD**</mark>      |                              |                                          |
-|                                                     | Deposit Collateral           | <mark style="color:green;">Normal</mark> |
-|                                                     | Withdraw Collateral          | <mark style="color:green;">Normal</mark> |
+|                                                     | Deposit Collateral           | Paused                                   |
+|                                                     | Withdraw Collateral          | Paused                                   |
 |                                                     | Mint aUSD                    | Paused                                   |
 |                                                     | Payback aUSD                 | Paused                                   |
 |                                                     | Related - Oracle Pallet      | Paused                                   |
