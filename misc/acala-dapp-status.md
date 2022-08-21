@@ -8,35 +8,35 @@ description: >-
 
 
 
-| Category                                            | Description                  | Current Status                           |
-| --------------------------------------------------- | ---------------------------- | ---------------------------------------- |
-| <mark style="color:blue;">**Portfolio**</mark>      |                              |                                          |
-|                                                     | ACA Transfer                 | <mark style="color:green;">Normal</mark> |
-|                                                     | Other Tokens Transfer        | Paused                                   |
-|                                                     | Portfolio USD Values         | Not Accurate                             |
-| <mark style="color:blue;">**Bridge**</mark>         |                              |                                          |
-|                                                     | From Acala                   | Paused                                   |
-|                                                     | To Acala                     | <mark style="color:green;">Normal</mark> |
-|                                                     | Powered by EVM+              | Paused                                   |
-| <mark style="color:blue;">**Mint aUSD**</mark>      |                              |                                          |
-|                                                     | Deposit Collateral           | Paused                                   |
-|                                                     | Withdraw Collateral          | Paused                                   |
-|                                                     | Mint aUSD                    | Paused                                   |
-|                                                     | Payback aUSD                 | Paused                                   |
-|                                                     | Related - Oracle Pallet      | Paused                                   |
-|                                                     | Liquidation                  | Paused                                   |
-| <mark style="color:blue;">**Swap**</mark>           |                              | <mark style="color:green;"></mark>       |
-|                                                     | Swap                         | Paused                                   |
-|                                                     | Add Liquidity                | Paused                                   |
-|                                                     | Remove Liquidity             | Paused                                   |
-| <mark style="color:blue;">**Liquid Staking**</mark> |                              |                                          |
-|                                                     | Stake                        | <mark style="color:green;">Normal</mark> |
-|                                                     | Unstake - Not Instantly      | <mark style="color:green;">Normal</mark> |
-|                                                     | Unstake - Instantly          | Paused                                   |
-| <mark style="color:blue;">**Earn**</mark>           |                              | Paused                                   |
-|                                                     | Collateral Staking (Stake)   | Paused                                   |
-|                                                     | Collateral Staking (Unstake) | Paused                                   |
-|                                                     | LP Staking                   | Paused                                   |
+| Category                                            | Description                     | Current Status                           |
+| --------------------------------------------------- | ------------------------------- | ---------------------------------------- |
+| <mark style="color:blue;">**Portfolio**</mark>      |                                 |                                          |
+|                                                     | ACA Transfer                    | <mark style="color:green;">Normal</mark> |
+|                                                     | Other Tokens Transfer           | Paused                                   |
+|                                                     | Portfolio USD Values            | Not Accurate                             |
+| <mark style="color:blue;">**Bridge**</mark>         |                                 |                                          |
+|                                                     | From Acala                      | Paused                                   |
+|                                                     | To Acala                        | Paused                                   |
+|                                                     | Powered by EVM+                 | Paused                                   |
+| <mark style="color:blue;">**Mint aUSD**</mark>      |                                 |                                          |
+|                                                     | Deposit Collateral              | Paused                                   |
+|                                                     | Withdraw Collateral             | Paused                                   |
+|                                                     | Mint aUSD                       | Paused                                   |
+|                                                     | Payback aUSD                    | Paused                                   |
+|                                                     | Related - Oracle Pallet         | Paused                                   |
+|                                                     | Liquidation                     | Paused                                   |
+| <mark style="color:blue;">**Swap**</mark>           |                                 | <mark style="color:green;"></mark>       |
+|                                                     | Swap                            | Paused                                   |
+|                                                     | Add Liquidity                   | Paused                                   |
+|                                                     | Remove Liquidity                | Paused                                   |
+| <mark style="color:blue;">**Liquid Staking**</mark> |                                 |                                          |
+|                                                     | Stake                           | <mark style="color:green;">Normal</mark> |
+|                                                     | Unstake - Normal unbound period | <mark style="color:green;">Normal</mark> |
+|                                                     | Unstake - Instantly             | Paused                                   |
+| <mark style="color:blue;">**Earn**</mark>           |                                 | Paused                                   |
+|                                                     | Collateral Staking (Stake)      | Paused                                   |
+|                                                     | Collateral Staking (Unstake)    | Paused                                   |
+|                                                     | LP Staking                      | Paused                                   |
 
 
 
