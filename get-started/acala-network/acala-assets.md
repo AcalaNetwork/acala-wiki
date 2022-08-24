@@ -12,3 +12,7 @@ These are native assets on the Karura Network
   ERC20 mirrored token address 0x000000000000000000040000000000000000000d
 * **Polkadot DOT (DOT)** | Decimal Place: 10\
   ERC20 mirrored token address 0x0000000000000000000100000000000000000002
+
+### On-Chain Metadata
+
+{% embed url="https://replit.com/@GregoryLuneau/Acala-On-chain-Asset-Registry-Metadata?v=1" %}
