@@ -2,6 +2,11 @@
 
 * [Acala & Karura Wiki](README.md)
 
+## aUSD Incident <a href="#incident" id="incident"></a>
+
+* [Acala DApp Status](incident/acala-dapp-status.md)
+* [Resources](incident/resources.md)
+
 ## Learn
 
 * [Acala Introduction](learn/acala-introduction/README.md)
@@ -163,7 +168,6 @@
 
 ## Misc
 
-* [Acala DApp Status](misc/acala-dapp-status.md)
 * [Contributing](misc/contributing.md)
 * [Glossary](misc/glossary.md)
 * [Media Kits](misc/media-kits.md)
