@@ -30,8 +30,8 @@ description: >-
 |                                                     | Add Liquidity                   | Paused                                   |
 |                                                     | Remove Liquidity                | Paused                                   |
 | <mark style="color:blue;">**Liquid Staking**</mark> |                                 |                                          |
-|                                                     | Stake                           | <mark style="color:green;">Normal</mark> |
-|                                                     | Unstake - Normal unbound period | <mark style="color:green;">Normal</mark> |
+|                                                     | Stake                           | Paused                                   |
+|                                                     | Unstake - Normal unbound period | Paused                                   |
 |                                                     | Unstake - Instantly             | Paused                                   |
 | <mark style="color:blue;">**Earn**</mark>           |                                 | Paused                                   |
 |                                                     | Collateral Staking (Stake)      | Paused                                   |
