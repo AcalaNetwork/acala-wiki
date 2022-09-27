@@ -6,7 +6,7 @@
 
 ### Polkadot apps
 
-[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc.dwellir.com#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc.dwellir.com#/explorer)
+[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala.api.onfinality.io%2Fpublic-ws#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala.api.onfinality.io%2Fpublic-ws#/explorer)
 
 ### Explorer
 
@@ -14,7 +14,7 @@
 
 ### WebSocket RPC Endpoints
 
-* `wss://acala-rpc.dwellir.com`
+* `wss://acala-polkadot.api.onfinality.io/public-ws`
 * `wss://acala-rpc-0.aca-api.network`
 * `wss://acala-rpc-1.aca-api.network`
 * `wss://acala-rpc-2.aca-api.network/ws`
