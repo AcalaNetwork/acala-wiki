@@ -6,6 +6,7 @@
 
 * [Acala DApp Status](incident/acala-dapp-status.md)
 * [Resources](incident/resources.md)
+* [Price Display Disclaimer](incident/price-display-disclaimer.md)
 
 ## Learn
 
