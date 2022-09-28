@@ -13,9 +13,9 @@
 | Moonbeam             | GLMR   | 18      | 0.1                                                                                     | ForeignAssetId(0)    | `tokens.accounts` | `tokens.totalIssuance` |
 | Parallel             | PARA   | 12      | 0.1                                                                                     | ForeignAssetId(1)    | `tokens.accounts` | `tokens.totalIssuance` |
 
-![](asset-registry-query.png)
+![](../../networks/acala-network/integration/asset-registry-query.png)
 
-![](<../../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
 
 ## Account
 
@@ -35,7 +35,7 @@ ED of native token ACA is configured in the runtime. Non-native tokens (DOT, aUS
 
 `transfer` and `deposit` in `pallet_balances` and `orml_tokens` will check the ED of the receiver account. A transaction may fail due to not meeting ED requirements, a typical one would be a user is swapping token A for token B, where token A balance no longer meets ED requirements. A front-end DApp shall perform checks and prompt user for such incidents.
 
-Read more on ED [here](../../../acala/get-started/acala-account/#existential-deposit).
+Read more on ED [here](../../acala/get-started/acala-account/#existential-deposit).
 
 ## Protocol Fees
 
@@ -45,7 +45,7 @@ Read more on ED [here](../../../acala/get-started/acala-account/#existential-dep
 
 ## Transaction Fees
 
-Acala uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](../../../get-started/get-started/transaction-fees.md) page for more info.
+Acala uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](../../get-started/get-started/transaction-fees.md) page for more info.
 
 ## Types
 
@@ -91,3 +91,15 @@ Acala.js: [https://github.com/AcalaNetwork/acala.js](https://github.com/AcalaNet
 Documentation: [https://github.com/AcalaNetwork/acala.js/wiki](https://github.com/AcalaNetwork/acala.js/wiki)
 
 Please also refer to the [documentation of polkadot.js](https://polkadot.js.org/docs/api/).
+
+## Telemetry
+
+[https://telemetry.polkadot.io/#list/Acala](https://telemetry.polkadot.io/#list/Acala)
+
+## Polkadot apps
+
+[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc.dwellir.com#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc.dwellir.com#/explorer)
+
+## Explorer
+
+[https://acala.subscan.io/](https://acala.subscan.io/)

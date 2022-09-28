@@ -21,7 +21,7 @@ If you're looking for an introduction to Acala please [go here](learn/acala-intr
 
 ### Want to get started using?
 
-* [Get Started with the live Acala Network](networks/acala-network/integration/networks.md)
+* [Get Started with the live Acala Network](integrate/acala/networks.md)
 * [Get Started with the live Karura network](get-started/get-started/)
 * [Get Started](get-started/networks.md) with the testnet - Try the test network.
 * [Learn](broken-reference) - **Quick navigation in order to learn Acala.**

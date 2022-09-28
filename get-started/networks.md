@@ -10,7 +10,7 @@
 
 ### Polkadot apps
 
-[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fnode-6870830370282213376.rz.onfinality.io%2Fws%3Fapikey%3D0f273197-e4d5-45e2-b23e-03b015cb7000#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fnode-6870830370282213376.rz.onfinality.io%2Fws%3Fapikey%3D0f273197-e4d5-45e2-b23e-03b015cb7000#/explorer)
+[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmandala-rpc.aca-staging.network%2Fws#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmandala-rpc.aca-staging.network%2Fws#/explorer)
 
 ### Explorer
 
@@ -18,11 +18,12 @@
 
 ### RPC Endpoints
 
-* `wss://node-6870830370282213376.rz.onfinality.io/ws?apikey=0f273197-e4d5-45e2-b23e-03b015cb7000`
+* wss://mandala-rpc.aca-staging.network/ws
 
 ### EVM RPC
 
-* `https://acala-mandala-adapter.api.onfinality.io/public`
+* wss://mandala-rpc.aca-staging.network/ws
+* https://mandala-rpc.aca-staging.network/
 
 ### Faucet
 

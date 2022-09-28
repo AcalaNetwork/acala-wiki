@@ -3,58 +3,60 @@
 Karura supports different types of tokens than Kusama, and allows various ways to transfer tokens. This guide will walk through tokens available on Karura, tools can be used for transfers, how to send transfer transactions, monitor and track these transactions.
 
 ## Token Types
-### Token
-  
-| Symbol | Description | CurrencyId | Decimals | Minimal Balance |
-| --- | --- | --- | --- | --- |
-| KAR | native token of Karura network | Token(KAR) | 12 | 0.1 KAR |
-| aUSD | multi-collateralized stablecoin | Token(KUSD) | 12 | 0.01 aUSD |
-| KSM | crossed to Karura from Kusama Relay Chain | Token(KSM) | 10 | 0.01 KSM |
-| LKSM | tokenized staked LKSM from the Liquid Staking protocol | Token(LKSM) | 10 | 0.05 LKSM |
-| BNC | Bifrost Native Token | Token(BNC) | 12 | 0.008 BNC |
-| TAI | Taiga | Token(TAI) | 12 | 1 TAI |
-| PHA | Phala Native Token | Token(PHA) | 12 | 0.04 PHA |
-| KINT | Kintsugi Native Token | Token(KINT) | 12 | 0.00013333 KINT |
-| VSKSM | Bifrost Voucher Slot KSM | Token(VSKSM) | 12 | 0.0001 VSKSM |
-| KBTC | Kintsugi Wrapped BTC | Token(KBTC) | 8 | 0.00000066 KBTC |
 
- `AssetRegistry` registered the metadata info of this type token.
+### Token
+
+| Symbol | Description                                            | CurrencyId   | Decimals | Minimal Balance |
+| ------ | ------------------------------------------------------ | ------------ | -------- | --------------- |
+| KAR    | native token of Karura network                         | Token(KAR)   | 12       | 0.1 KAR         |
+| aUSD   | multi-collateralized stablecoin                        | Token(KUSD)  | 12       | 0.01 aUSD       |
+| KSM    | crossed to Karura from Kusama Relay Chain              | Token(KSM)   | 10       | 0.01 KSM        |
+| LKSM   | tokenized staked LKSM from the Liquid Staking protocol | Token(LKSM)  | 10       | 0.05 LKSM       |
+| BNC    | Bifrost Native Token                                   | Token(BNC)   | 12       | 0.008 BNC       |
+| TAI    | Taiga                                                  | Token(TAI)   | 12       | 1 TAI           |
+| PHA    | Phala Native Token                                     | Token(PHA)   | 12       | 0.04 PHA        |
+| KINT   | Kintsugi Native Token                                  | Token(KINT)  | 12       | 0.00013333 KINT |
+| VSKSM  | Bifrost Voucher Slot KSM                               | Token(VSKSM) | 12       | 0.0001 VSKSM    |
+| KBTC   | Kintsugi Wrapped BTC                                   | Token(KBTC)  | 8        | 0.00000066 KBTC |
+
+`AssetRegistry` registered the metadata info of this type token.
 
 ### DexShare
-The lp share token for the trading pair of Karura DEX. The CurrencyId type of Karura DEX's lp token are `CurrencyId::DexShare`, and the decimals and minimal balance of lp token are same as the first token in `DexShare`.
-For example, `CurrencyId::DexShare(Token(KAR), Token(KSM))` is the CurrencyId of lp token of KAR/KSM pair, its decimal is 12, and minimal balance is 0.1, these are same as KAR.
 
-Currently,  `AssetRegistry` does not register metadata info of any lp token.
+The lp share token for the trading pair of Karura DEX. The CurrencyId type of Karura DEX's lp token are `CurrencyId::DexShare`, and the decimals and minimal balance of lp token are same as the first token in `DexShare`. For example, `CurrencyId::DexShare(Token(KAR), Token(KSM))` is the CurrencyId of lp token of KAR/KSM pair, its decimal is 12, and minimal balance is 0.1, these are same as KAR.
+
+Currently, `AssetRegistry` does not register metadata info of any lp token.
 
 ### Erc20
+
 Token issued by ERC20 contracts deployed in Karura EVM+. The CurrencyId type is `Erc20(Address)`, `Address` is the ERC20 contract address on EVM+.
 
 ### StableAssetPoolToken
 
-| Symbol | Description | CurrencyId | Decimals | Minimal Balance |
-| --- | --- | --- | --- | --- |
-| taiKSM | Taiga KSM | StableAssetPoolToken(0) | 12 | 0.0001 taiKSM |
+| Symbol | Description | CurrencyId              | Decimals | Minimal Balance |
+| ------ | ----------- | ----------------------- | -------- | --------------- |
+| taiKSM | Taiga KSM   | StableAssetPoolToken(0) | 12       | 0.0001 taiKSM   |
 
- `AssetRegistry` registered the metadata info of this type token.
+`AssetRegistry` registered the metadata info of this type token.
 
 ### ForeignAsset
-| Symbol | Description | CurrencyId | Decimals | Minimal Balance |
-| --- | --- | --- | --- | --- |
-| RMRK | RMRK | ForeignAsset(0) | 10 | 0.01 RMRK |
-| ARIS | PolarisDAO | ForeignAsset(1) | 8 | 0.001 ARIS |
-| QTZ | Quartz | ForeignAsset(2) | 18 | 1 QTZ |
-| MOVR | Moonriver | ForeignAsset(3) | 18 | 0.001 MOVR |
-| HKO | Heiko | ForeignAsset(4) | 12 | 0.1 HKO |
-| CSM | Crust Shadow Native Token | ForeignAsset(5) | 12 | 1 CSM |
-| KICO | KICO | ForeignAsset(6) | 14 | 1 KICO |
-| USDT | Tether USD | ForeignAsset(7) | 6 | 0.01 USDT |
 
-Tokens originated from other parachains. 
- `AssetRegistry` registered the metadata info of this type token.
+| Symbol | Description               | CurrencyId      | Decimals | Minimal Balance |
+| ------ | ------------------------- | --------------- | -------- | --------------- |
+| RMRK   | RMRK                      | ForeignAsset(0) | 10       | 0.01 RMRK       |
+| ARIS   | PolarisDAO                | ForeignAsset(1) | 8        | 0.001 ARIS      |
+| QTZ    | Quartz                    | ForeignAsset(2) | 18       | 1 QTZ           |
+| MOVR   | Moonriver                 | ForeignAsset(3) | 18       | 0.001 MOVR      |
+| HKO    | Heiko                     | ForeignAsset(4) | 12       | 0.1 HKO         |
+| CSM    | Crust Shadow Native Token | ForeignAsset(5) | 12       | 1 CSM           |
+| KICO   | KICO                      | ForeignAsset(6) | 14       | 1 KICO          |
+| USDT   | Tether USD                | ForeignAsset(7) | 6        | 0.01 USDT       |
+
+Tokens originated from other parachains. `AssetRegistry` registered the metadata info of this type token.
 
 ## Query token's metadata on assetRegistry
 
-![query asset metadata](./asset-registry-query.png)
+![query asset metadata](../../networks/home/integration/asset-registry-query.png)
 
 * **Native Network Token**
   * KAR
