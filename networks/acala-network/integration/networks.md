@@ -1,4 +1,16 @@
-# Node Interaction
+# Acala Network
+
+### Telemetry
+
+[https://telemetry.polkadot.io/#list/Acala](https://telemetry.polkadot.io/#list/Acala)
+
+### Polkadot apps
+
+[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc.dwellir.com#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc.dwellir.com#/explorer)
+
+### Explorer
+
+[https://acala.subscan.io/](https://acala.subscan.io/)
 
 ### WebSocket RPC Endpoints
 

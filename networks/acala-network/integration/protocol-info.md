@@ -91,15 +91,3 @@ Acala.js: [https://github.com/AcalaNetwork/acala.js](https://github.com/AcalaNet
 Documentation: [https://github.com/AcalaNetwork/acala.js/wiki](https://github.com/AcalaNetwork/acala.js/wiki)
 
 Please also refer to the [documentation of polkadot.js](https://polkadot.js.org/docs/api/).
-
-## Telemetry
-
-[https://telemetry.polkadot.io/#list/Acala](https://telemetry.polkadot.io/#list/Acala)
-
-## Polkadot apps
-
-[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc.dwellir.com#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-rpc.dwellir.com#/explorer)
-
-## Explorer
-
-[https://acala.subscan.io/](https://acala.subscan.io/)

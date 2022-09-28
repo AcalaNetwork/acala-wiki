@@ -1,16 +1,4 @@
-# Karura Network
-
-### Telemetry
-
-[https://telemetry.polkadot.io/#list/Karura](https://telemetry.polkadot.io/#list/Karura)
-
-### Polkadot apps
-
-[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc.dwellir.com#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc.dwellir.com#/explorer)
-
-### Explorer
-
-[https://karura.subscan.io/](https://karura.subscan.io/)
+# Node Interaction
 
 ### WebSocket RPC Endpoints
 

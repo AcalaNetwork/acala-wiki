@@ -77,7 +77,7 @@
 * [Karura Network](networks/home/integration/README.md)
   * [Protocol Info](networks/home/integration/protocol-info.md)
   * [Token Transfer](networks/home/integration/token-transfer.md)
-  * [Karura Network](networks/home/integration/networks.md)
+  * [Node Interaction](networks/home/integration/networks.md)
   * [Full Node](networks/home/integration/full-node.md)
   * [Collator](networks/home/integration/collator.md)
 
