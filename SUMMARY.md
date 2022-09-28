@@ -71,7 +71,7 @@
 * [Acala Network](networks/acala-network/integration/README.md)
   * [Protocol Info](networks/acala-network/integration/protocol-info.md)
   * [Token Transfer](networks/acala-network/integration/token-transfer.md)
-  * [Acala Network](networks/acala-network/integration/networks.md)
+  * [Node Interaction](networks/acala-network/integration/networks.md)
   * [Full Node](networks/acala-network/integration/full-node.md)
   * [Collator](networks/acala-network/integration/collator.md)
 * [Karura Network](networks/home/integration/README.md)
