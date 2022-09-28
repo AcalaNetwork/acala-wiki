@@ -13,9 +13,9 @@
 | Moonbeam             | GLMR   | 18      | 0.1                                                                                     | ForeignAssetId(0)    | `tokens.accounts` | `tokens.totalIssuance` |
 | Parallel             | PARA   | 12      | 0.1                                                                                     | ForeignAssetId(1)    | `tokens.accounts` | `tokens.totalIssuance` |
 
-![](../../networks/acala-network/integration/asset-registry-query.png)
+![](asset-registry-query.png)
 
-![](<../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
+![](<../../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
 
 ## Account
 
@@ -35,7 +35,7 @@ ED of native token ACA is configured in the runtime. Non-native tokens (DOT, aUS
 
 `transfer` and `deposit` in `pallet_balances` and `orml_tokens` will check the ED of the receiver account. A transaction may fail due to not meeting ED requirements, a typical one would be a user is swapping token A for token B, where token A balance no longer meets ED requirements. A front-end DApp shall perform checks and prompt user for such incidents.
 
-Read more on ED [here](../../acala/get-started/acala-account/#existential-deposit).
+Read more on ED [here](../../../acala/get-started/acala-account/#existential-deposit).
 
 ## Protocol Fees
 
@@ -45,7 +45,7 @@ Read more on ED [here](../../acala/get-started/acala-account/#existential-deposi
 
 ## Transaction Fees
 
-Acala uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](../../get-started/get-started/transaction-fees.md) page for more info.
+Acala uses weight-based fees, unlike gas, are predictable and charged pre-dispatch. See the [transaction fee](../../../get-started/get-started/transaction-fees.md) page for more info.
 
 ## Types
 

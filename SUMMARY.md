@@ -68,18 +68,18 @@
 
 ## Integrate
 
-* [Acala Network](integrate/acala/README.md)
-  * [Protocol Info](integrate/acala/protocol-info.md)
-  * [Token Transfer](integrate/acala/token-transfer.md)
-  * [Node Interaction](integrate/acala/networks.md)
-  * [Full Node](integrate/acala/full-node.md)
-  * [Collator](integrate/acala/collator.md)
-* [Karura Network](integrate/karura/README.md)
-  * [Protocol Info](integrate/karura/protocol-info.md)
-  * [Token Transfer](integrate/karura/token-transfer.md)
-  * [Node Interaction](integrate/karura/networks.md)
-  * [Full Node](integrate/karura/full-node.md)
-  * [Collator](integrate/karura/collator.md)
+* [Acala Network](networks/acala-network/integration/README.md)
+  * [Protocol Info](networks/acala-network/integration/protocol-info.md)
+  * [Token Transfer](networks/acala-network/integration/token-transfer.md)
+  * [Node Interaction](integrate/acala/endpoints.md)
+  * [Full Node](networks/acala-network/integration/full-node.md)
+  * [Collator](networks/acala-network/integration/collator.md)
+* [Karura Network](networks/home/integration/README.md)
+  * [Protocol Info](networks/home/integration/protocol-info.md)
+  * [Token Transfer](networks/home/integration/token-transfer.md)
+  * [Node Interaction](integrate/karura/endpoints.md)
+  * [Full Node](networks/home/integration/full-node.md)
+  * [Collator](networks/home/integration/collator.md)
 
 ## Build
 

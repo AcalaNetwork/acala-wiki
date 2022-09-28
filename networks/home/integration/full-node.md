@@ -16,7 +16,7 @@ Note:
 
 You need to setup your dev environment first for make commands to work.
 
-The benchmark result will look similar to this: ![](../../networks/home/integration/machine-benchmark.png)
+The benchmark result will look similar to this: ![](machine-benchmark.png)
 
 ## Run from Source Code
 

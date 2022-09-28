@@ -56,7 +56,7 @@ Tokens originated from other parachains. `AssetRegistry` registered the metadata
 
 ## Query token's metadata on assetRegistry
 
-![query asset metadata](../../networks/home/integration/asset-registry-query.png)
+![query asset metadata](asset-registry-query.png)
 
 * **Native Network Token**
   * KAR

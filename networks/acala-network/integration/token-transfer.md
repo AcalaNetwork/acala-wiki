@@ -41,7 +41,7 @@ Tokens originated from other parachains.
 
 ## Query token's metadata on assetRegistry
 
-![query asset metadata](../../networks/acala-network/integration/asset-registry-query.png)
+![query asset metadata](asset-registry-query.png)
 
 ## Tools
 
