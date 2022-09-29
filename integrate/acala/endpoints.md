@@ -11,3 +11,8 @@
 ### HTTPS RPC Endpoints
 
 * `https://acala-rpc.dwellir.com`
+
+### ETH RPC Endpoints
+
+* `https://eth-rpc-acala.aca-api.network`
+* `https://rpc.evm.acala.network`
