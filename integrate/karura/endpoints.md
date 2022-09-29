@@ -11,3 +11,8 @@
 ### HTTPS RPC Endpoints
 
 * `https://karura-rpc.dwellir.com`
+
+### ETH RPC Endpoints
+
+* `https://eth-rpc-karura.aca-api.network`
+* `https://rpc.evm.karura.network`
