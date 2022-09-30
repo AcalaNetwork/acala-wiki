@@ -22,8 +22,8 @@
 
 ### EVM RPC
 
-* wss://mandala-rpc.aca-staging.network/ws
-* https://mandala-rpc.aca-staging.network/
+* wss://mandala-rpc.aca-staging.network
+* https://mandala-rpc.aca-staging.network
 
 ### Faucet
 
