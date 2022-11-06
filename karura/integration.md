@@ -46,7 +46,4 @@ Karura uses weight-based fees, unlike gas, are predictable and charged pre-dispa
 * `https://karura-rpc-2.aca-api.network/rpc`
 * `https://karura-rpc-3.aca-api.network/rpc`
 
-## Types
-
-Type buddle [here](https://unpkg.com/browse/@acala-network/type-definitions@0.7.4-19/json/typesBundle.json).
 
