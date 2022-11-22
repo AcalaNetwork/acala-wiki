@@ -4,7 +4,7 @@ This guide uses the runtime upgrade release 1.1.3 as an example.
 
 Once the upgrade is proposed, you shall see it on the [Polkadot App - Karura parachain - Democracy section](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-2.aca-api.network%2Fws#/democracy).
 
-![](../../../../.gitbook/assets/screen-shot-2021-07-14-at-10.22.16-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-07-14 at 10.22.16 PM.png>)
 
 ## Upgrade Preimage Info
 
@@ -44,4 +44,4 @@ In the discussion post of the proposal, it shall provide the release tag, runtim
 
 In the `Developer - Extrinsics` tab, use the following and upload the wasm to generate the call hash. Compare this with the preimage hash proposed.&#x20;
 
-![](<../../../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (76).png>)

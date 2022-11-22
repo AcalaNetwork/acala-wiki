@@ -14,11 +14,11 @@ Contributing to the wiki is easy with a GitHub account. Every page is a markdown
 
 Each page has an "Edit on Github" button on the top right of the content. By clicking this button you are taken to the GitHub sign in page, where you can either login or create an account.
 
-![](../.gitbook/assets/ping-mu-kuai-zhao-20200708-xia-wu-6.51.24.png)
+![](<../.gitbook/assets/屏幕快照 2020-07-08 下午6.51.24.png>)
 
 Once logged in, you'll be taken to the GitHub text editor in which you can make your edits directly. When you've completed your changes, you can add any specific details on what was changed and commit to a new branch to create a new Pull Request to the repository. From there one of the maintainers will either merge it in or request changes very soon.
 
-![](../.gitbook/assets/ping-mu-kuai-zhao-20200708-xia-wu-6.47.59.png)
+![](<../.gitbook/assets/屏幕快照 2020-07-08 下午6.47.59.png>)
 
 ### Rules
 
@@ -40,4 +40,3 @@ This document may also be subject to pull requests or changes by contributors wh
 ### Heritage
 
 This document was based on the Level contribution guidelines located here: [https://github.com/Level/community/blob/master/CONTRIBUTING.md](https://github.com/Level/community/blob/master/CONTRIBUTING.md)
-

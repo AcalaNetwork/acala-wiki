@@ -34,9 +34,9 @@ If you're looking for an introduction to Acala please [go here](learn/acala-intr
 ### Want to maintain the network?
 
 * [Integration Guide](broken-reference) - Information covering running a node on the Acala and Karura Network.
-* [Oracle Overview](general/guides/set-up-an-oracle/) - Provide pricing information for assets on the Acala and Karura Network.
+* [Oracle Overview](build/guides/set-up-an-oracle/) - Provide pricing information for assets on the Acala and Karura Network.
 
 ### Resources
 
-* [Community / Ecosystem](general/acala-portal/community.md) - List of community rooms and channels to talk to others about Acala.
+* [Community / Ecosystem](ecosystem/community.md) - List of community rooms and channels to talk to others about Acala.
 * [Contributing Guide ](misc/contributing.md)- Rules for contributing to the wiki.

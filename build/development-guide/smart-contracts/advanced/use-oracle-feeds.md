@@ -1,6 +1,6 @@
 # Use Oracle Feeds
 
-Acala's [Open Oracle Gateway](../../../../learn/acala-introduction/#open-oracle-gateway) allows multiple oracles to be deployed on the Acala network, leveraging Acala's DeFi optimized oracle infrastructure, and serving any DApps on Acala, Polkadot, Kusama and beyond. The Open Oracle Gateway ensures Quality of Service, that is oracle transactions are classified as system transactions, and are guaranteed to be included in a block. Read more in [Oracle Basics](../../../../learn/basics/oracle/oracle-guide-for-mandala-test-network.md).
+Acala's [Open Oracle Gateway](../../../../learn/acala-introduction/#open-oracle-gateway) allows multiple oracles to be deployed on the Acala network, leveraging Acala's DeFi optimized oracle infrastructure, and serving any DApps on Acala, Polkadot, Kusama and beyond. The Open Oracle Gateway ensures Quality of Service, that is oracle transactions are classified as system transactions, and are guaranteed to be included in a block. Read more in [Oracle Basics](../../../guides/set-up-an-oracle/oracle-guide-for-mandala-test-network.md).
 
 This pre-compiled contract make querying various price feeds for various assets available inside Acala EVM. Currently the `getPrice` method returns the aggregated price for a given asset. More price feed options are being made available.
 
@@ -26,14 +26,14 @@ Navigate to the [EVM Playground](https://evm.acala.network/#/execute) - `Execute
 
 Find the `Oracle Price Feed` contract and click the `Execute` Button.
 
-![](<../../../../.gitbook/assets/screen-shot-2021-02-03-at-12.55.05-pm (1).png>)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-03 at 12.55.05 PM.png>)
 
 In the `token: address` field, enter the ERC20 contract address (in the example DOT address as `0x0000000000000000000000000000000000000802`) for the token of interest. Feeds are available for DOT, RenBTC and XBTC.
 
 Find all available token contract addresses [here](https://wiki.acala.network/build/development-guide/smart-contracts/advanced/use-native-tokens).
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-12.27.16-pm.png)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-03 at 12.27.16 PM.png>)
 
 Click on the `Call` Button, `Call results` should show the price and timestamp.
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-12.27.29-pm.png)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-03 at 12.27.29 PM.png>)

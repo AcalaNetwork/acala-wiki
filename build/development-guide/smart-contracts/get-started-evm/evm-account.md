@@ -35,7 +35,7 @@ blake2_256("evm:" ++ account_id)[0..20]
 
 Navigate to the [Polkadot.js web app](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Facala-mandala.api.onfinality.io%2Fpublic-ws#/extrinsics). The ability to claim the default EVM address can be found under `Extrinsics` in the `Developer` tab.
 
-![Developer > Extrinsics](<../../../../.gitbook/assets/image (10) (2).png>)
+![Developer > Extrinsics](<../../../../.gitbook/assets/image (60).png>)
 
 **Step 1: Select the Polkadot account**
 
@@ -53,7 +53,7 @@ To claim the default EVM address, select `evmAddress` from the `submit the follo
 
 Using the `Send transaction`, the Substrate wallet should prompt you to sign the transaction. Once the transaction is signed and added to the blockchain, your accounts should be bound.
 
-![Sign and Submit transaction confirmation](<../../../../.gitbook/assets/image (22).png>)
+![Sign and Submit transaction confirmation](<../../../../.gitbook/assets/image (78).png>)
 
 **Step 4: Validate the account binding**
 
@@ -61,13 +61,13 @@ Once the accounts have been bound, you can validate the binding of the accounts,
 
 The chain state is validated using state queries, which can be found under `Developer` dropdown's `Chain state` option.
 
-![Developer > Chain state](<../../../../.gitbook/assets/image (4) (2).png>)
+![Developer > Chain state](<../../../../.gitbook/assets/image (80).png>)
 
 Select the `evmAccounts` from the `selected state query` dropdown. The `evmAddress(AccountId32)` option should return the EVM address bound to the Substrate account selected in the dropdown below.
 
 Pressing the `+` button should query the chain for the associated EVM address and return it:
 
-![Successful query for bound EVM address](<../../../../.gitbook/assets/image (1) (1).png>)
+![Successful query for bound EVM address](<../../../../.gitbook/assets/image (86).png>)
 
 ### **2. Bind an Existing Ethereum Account**
 
@@ -82,7 +82,7 @@ Binding an existing Ethereum account requires users to prove they own the Ethere
 * Select the **Metadata** from the **Settings** Section of the [Polkadot App](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmandala-tc7-rpcnode.aca-dev.network%2Fws#/settings/metadata)
 * Copy the **Genesis Hash** hex string
 
-![Step 1: Getting the Genesis hash](<../../../../.gitbook/assets/image (34).png>)
+![Step 1: Getting the Genesis hash](<../../../../.gitbook/assets/image (71).png>)
 
 #### Step 2: Get the Chain ID for your target address
 
@@ -91,7 +91,7 @@ Binding an existing Ethereum account requires users to prove they own the Ethere
 * Choose **chainId** from the method/action dropdown
 * Click the **+** button on the right
 
-![Developer > Chain state > Constants > evm > chainId](<../../../../.gitbook/assets/image (31).png>)
+![Developer > Chain state > Constants > evm > chainId](<../../../../.gitbook/assets/image (6).png>)
 
 #### Step 3: Create the signature of the claim on the [EVM+ Playground](https://evm.acala.network/#/Bind%20Account)
 
@@ -99,7 +99,7 @@ Binding an existing Ethereum account requires users to prove they own the Ethere
 2. Fill in the **Substrate address**, **Chain id** & **Genesis hash**
 3. Click **Sign** & copy the **signature** to the next step
 
-![Step 3: Create the signature of the claim](<../../../../.gitbook/assets/image (39).png>)
+![Step 3: Create the signature of the claim](<../../../../.gitbook/assets/image (30).png>)
 
 #### Step 4: Claim Account on the Developer Section of the [Polkadot App](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmandala-tc7-rpcnode.aca-dev.network%2Fws#/extrinsics)
 
@@ -110,7 +110,7 @@ The **ethAddress** should be the same as your Metamask wallet address that you u
 3. Fill in the **ethAddress** & **ethSignature**
 4. Click **Submit Transaction**
 
-![Step 4: Fill in eth address and eth signature](<../../../../.gitbook/assets/image (42).png>)
+![Step 4: Fill in eth address and eth signature](<../../../../.gitbook/assets/image (65).png>)
 
 #### Step 5: Confirm the bindings
 
@@ -119,7 +119,7 @@ The **ethAddress** should be the same as your Metamask wallet address that you u
 3. Click the **+** button on the right
 4. Double check that the **evmAccounts.evmAddresses** is indeed the right one.
 
-![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (35).png>)
+![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (72).png>)
 
 #### Use Cases
 

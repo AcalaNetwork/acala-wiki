@@ -12,12 +12,7 @@ To run your own development network, you can follow the [instructions](https://e
 
 Once your development network is operational, you can connect your EVM wallet to it by using the following parameters:
 
-| **Name**            | Mandala                 |   |
-| ------------------- | ----------------------- | - |
-| **URL**             | `http://127.0.0.1:8545` |   |
-| **Chain ID**        | 595                     |   |
-| **WS endpoint URL** | `ws://127.0.0.1:9944`   |   |
-| **Symbol**          | ACA                     |   |
+<table data-header-hidden><thead><tr><th>Key</th><th>Value</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Name</strong></td><td>Mandala</td><td></td></tr><tr><td><strong>URL</strong></td><td><code>http://127.0.0.1:8545</code></td><td></td></tr><tr><td><strong>Chain ID</strong></td><td>595</td><td></td></tr><tr><td><strong>WS endpoint URL</strong></td><td><code>ws://127.0.0.1:9944</code></td><td></td></tr><tr><td><strong>Symbol</strong></td><td>ACA</td><td></td></tr></tbody></table>
 
 You can reference the [instructions](connect-to-a-node/use-metamask-with-evm+.md) on how to connect MetaMask to the EVM+ and substitute the values from instructions with the values from above.
 
@@ -69,13 +64,13 @@ Upload `ExampleToken` ABI & bytecode file by navigating to [https://evm.acala.ne
 
 Go to the `Upload` tab.
 
-![EVM playground => Upload](<../../../../.gitbook/assets/image (10).png>)
+![EVM playground => Upload](<../../../../.gitbook/assets/image (2).png>)
 
 Assign the `Name` of your smart contract. You will be able to identify the smart contract in the `Deploy` tab with it, once it gets uploaded.
 
 To upload the ABI bundle itself, you can either drag and drop it into the upload section, or click on the section and select the file.
 
-![EVM playgrounds => Upload => Add file](<../../../../.gitbook/assets/image (16).png>)
+![EVM playgrounds => Upload => Add file](<../../../../.gitbook/assets/image (44).png>)
 
 Once you have selected the correct ABI bundle, the methods of the smart contract should be displayed. You can verify that the correct methods are listed and press `Upload` to upload the ABI bundle.
 
@@ -85,11 +80,11 @@ Smart contracts can be deployed under the [Deploy tab](https://evm.acala.network
 
 The ABI bundles that you uploaded in the `Upload` tab can be seen here:
 
-![EVM playgrounds => Deploy](<../../../../.gitbook/assets/image (14).png>)
+![EVM playgrounds => Deploy](<../../../../.gitbook/assets/image (10).png>)
 
 The methods available for an ABI bundle can be seen by expanding the `ABI` menu. This can be helpful if you have multiple bundles uploaded and you want to be sure that you will be interacting with the right one.
 
-![EVM playgrounds => Deploy => Expand ABI section](../../../../.gitbook/assets/image.png)
+![EVM playgrounds => Deploy => Expand ABI section](<../../../../.gitbook/assets/image (13).png>)
 
 When you have verified that you are interacting with the ABI bundle that has the correct methods available, you can click `Deploy`, which should open a deployment interface:
 
@@ -107,13 +102,13 @@ The interface consists of the following components:
 
 ### 1. Connect your EVM wallet
 
-Pressing the <img src="../../../../.gitbook/assets/image (18).png" alt="" data-size="line"> button will prompt your EVM wallet to connect to the site. You can select the account that you want to use with the EVM playgrounds and connect it.
+Pressing the <img src="../../../../.gitbook/assets/image (15).png" alt="" data-size="line"> button will prompt your EVM wallet to connect to the site. You can select the account that you want to use with the EVM playgrounds and connect it.
 
-![](<../../../../.gitbook/assets/image (15).png>)![](<../../../../.gitbook/assets/image (8).png>)
+![](<../../../../.gitbook/assets/image (7).png>)![](<../../../../.gitbook/assets/image (14).png>)
 
 The selected account should be displayed at the top of the page now:
 
-![Displayed deployment account](<../../../../.gitbook/assets/image (17).png>)
+![Displayed deployment account](<../../../../.gitbook/assets/image (19).png>)
 
 ### 2. Update the required deployment parameters
 
@@ -149,7 +144,7 @@ To perform a query on an account's balance, do the following steps:
 2. Pick `balanceOf` from the `Message to Send` dropdown.
 3. Copy and paste the address of the account that you used to deploy the smart contract to the `account: address` input.
 
-![Filled out balance query](<../../../../.gitbook/assets/image (9).png>)
+![Filled out balance query](<../../../../.gitbook/assets/image (12).png>)
 
 {% hint style="info" %}
 **Note:** Solidity smart contracts have two types of methods: `views` and `executable` methods.
@@ -160,7 +155,7 @@ To perform a query on an account's balance, do the following steps:
 
 Finally, click `Call` at the bottom, and `Call results` should show the ExampleToken balance of `123456789`.
 
-![Completed balance query](<../../../../.gitbook/assets/image (20).png>)
+![Completed balance query](<../../../../.gitbook/assets/image (23).png>)
 
 ## **6. Transfer**
 
@@ -172,14 +167,14 @@ Now let's try transferring ExampleTokens to another account.
 4. Enter transfer amount in the `amount: unit256` argument box, note the token has a standard 18 decimals.
 5. Click `Execute`.
 
-![Filled out token transaction](<../../../../.gitbook/assets/image (2).png>)
+![Filled out token transaction](<../../../../.gitbook/assets/image (43).png>)
 
 A notification will pop-up to confirm that the transaction is successfully executed.
 
 Now you can check the balances of both of the accounts, and confirm that they have changed. deployer's account:
 
-![Deployer's balance](<../../../../.gitbook/assets/image (3).png>)
+![Deployer's balance](<../../../../.gitbook/assets/image (11).png>)
 
 Other account:
 
-![Other account's balance](<../../../../.gitbook/assets/image (7).png>)
+![Other account's balance](<../../../../.gitbook/assets/image (46).png>)

@@ -14,23 +14,23 @@ On Karura there are the following steps balance types
 
 You can claim your vested KAR here [https://apps.karura.network/portfolio](https://apps.karura.network/portfolio)
 
-![](<../../../.gitbook/assets/image (32).png>)
+![](<../../../.gitbook/assets/image (21).png>)
 
 ### On Polkadot App
 
 Go to the [Polkadot App - Karura Parachain - Accounts section](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-1.aca-api.network#/accounts), expand the balance of your account, if there's a vested (locked) balance, it will be displayed.
 
-![](../../../.gitbook/assets/screen-shot-2021-07-14-at-4.12.58-pm.png)
+![](<../../../.gitbook/assets/Screen Shot 2021-07-14 at 4.12.58 PM.png>)
 
 Go to the `Developer - Extrinsics` section, use the account that you want to claim the vested balance. Select `vesting` then `claim()` in the `submit the following extrinsics` filed, then click the `Submit Transaction` button to complete the process.
 
-![](../../../.gitbook/assets/screen-shot-2021-07-14-at-4.17.00-pm.png)
+![](<../../../.gitbook/assets/Screen Shot 2021-07-14 at 4.17.00 PM.png>)
 
 ### Check Vesting
 
 Go to the `Developer - Chain state` section, select `vesting` then `vestingSchedules()` , then select your account, then click the `+` button to see what vesting schedule it has.
 
-![](../../../.gitbook/assets/screen-shot-2021-07-22-at-9.15.56-am.png)
+![](<../../../.gitbook/assets/Screen Shot 2021-07-22 at 9.15.56 AM.png>)
 
 Below is an example result
 
@@ -62,4 +62,4 @@ Note that submitting this transaction only makes the vested tokens transferrable
 
 You can claim the released portion of vested KAR on the [Karura App](https://apps.karura.network/).
 
-![](../../../.gitbook/assets/screen-shot-2021-07-14-at-2.01.13-pm.png)
+![](<../../../.gitbook/assets/Screen Shot 2021-07-14 at 2.01.13 PM.png>)

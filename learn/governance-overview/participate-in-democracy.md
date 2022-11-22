@@ -15,7 +15,7 @@ These are important governance parameters, which may change over time as we prog
 
 Most of these parameters are visible on the Polkadot App. You can also view upcoming governance events on `the Event Calendar`
 
-![](../../.gitbook/assets/screen-shot-2021-07-15-at-2.20.23-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-07-15 at 2.20.23 PM.png>)
 
 ## Propose a Referendum
 
@@ -31,7 +31,7 @@ Since the preimage can be quite large (hence costly to submit), you can submit a
 
 By clicking on the `Submit preimage` button, then fill in the action you want to propose, copy and note down the preimage hash `0x244fcb51680c90172ba55241d3d9229676c4471a4645aed223a2272b33264026`. Once you noted down the hash, you can now cancel the prompt.&#x20;
 
-![](../../.gitbook/assets/screen-shot-2021-07-09-at-6.34.14-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-07-09 at 6.34.14 PM.png>)
 
 #### Submit a proposal
 
@@ -49,28 +49,28 @@ To Vote on Referenda, you must hold KAR tokens and these tokens must be held in 
 
 Once a proposal is in as a referendum, it will show up in the referenda table. You can navigate to the [Polkadot Apps - Karura Parachain Democracy](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-1.aca-api.network#/democracy) to cast your vote.
 
-![](../../.gitbook/assets/screen-shot-2021-07-12-at-10.39.29-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-07-12 at 10.39.29 AM.png>)
 
 You can click on the ‘Vote’ button to vote. Select "Vote Aye" to support the proposal, and select "Vote Nay" to disapprove the proposal.&#x20;
 
 You can also increase your conviction with the same number of tokens by locking them. The longer you are willing to lock your tokens, the stronger your vote will be weighted. Read more on [voting](https://wiki.polkadot.network/docs/maintain-guides-democracy/#voting-on-a-proposal) and [tallying](https://wiki.polkadot.network/docs/learn-governance#tallying).
 
-![](../../.gitbook/assets/screen-shot-2021-07-21-at-5.02.21-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-07-21 at 5.02.21 PM.png>)
 
 ## Unlock locked tokens
 
 You will need to explicitly unlock these tokens once the locking period ends. You can go to the `Accounts` page, click the menu button for the voted account, and select the menu item`Clear expired democracy locks` to claim it back. Read more [here](https://wiki.polkadot.network/docs/maintain-guides-democracy/#unlocking-locked-tokens).&#x20;
 
-![](../../.gitbook/assets/screen-shot-2021-07-20-at-10.11.09-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-07-20 at 10.11.09 AM.png>)
 
 ### Check Locked Democracy Votes
 
 Go to `Developer` - `Chain state`, then select `democracy` and `locks`. Select the account used for voting in the dropdown, and click the `+` button to see whether there's locked votes, and if any how long they are locked for.
 
-![](../../.gitbook/assets/screen-shot-2021-07-21-at-5.04.35-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-07-21 at 5.04.35 PM.png>)
 
 ## Delegate Vote
 
 You can delegate your vote to others to vote on your behalf. On [the Polkadot Apps - Karura parachain,](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc-1.aca-api.network#/extrinsics) go to the `Developer` tab -- `Extrinsics` , then select `democracy.delegate` .
 
-![](<../../.gitbook/assets/screen-shot-2021-07-09-at-7.05.20-pm (1).png>)
+![](<../../.gitbook/assets/Screen Shot 2021-07-09 at 7.05.20 PM.png>)

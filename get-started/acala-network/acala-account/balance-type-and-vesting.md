@@ -24,11 +24,11 @@ You can claim your vested ACA here [https://apps.acala.network/](https://apps.ac
 
 2\) Go to [Polkadot JS Apps](https://polkadot.js.org/apps/#/explorer) and connect to the Acala network. You can do this by clicking on the dropdown box in the upper left hand corner (shown below).
 
-![](<../../../.gitbook/assets/Toggle for Acala (1) (1).png>)
+![](<../../../.gitbook/assets/Toggle for Acala.png>)
 
 3\) Select an Acala node (any is fine) and click `Switch`.
 
-![](<../../../.gitbook/assets/Select Acala.png>)
+![](<../../../.gitbook/assets/Select Acala (1).png>)
 
 4\) Select `Accounts`. You should see your ACA amount. You can expand the balance in your account to see if there's a vested (locked) balance. If there's one, it will be displayed.
 

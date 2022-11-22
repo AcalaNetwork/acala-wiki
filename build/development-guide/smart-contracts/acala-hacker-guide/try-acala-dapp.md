@@ -1,6 +1,6 @@
 # Try Acala DApp
 
-![](../../../../.gitbook/assets/screen-shot-2021-02-03-at-4.41.26-pm.png)
+![](<../../../../.gitbook/assets/Screen Shot 2021-02-03 at 4.41.26 PM.png>)
 
 Try Acala's DeFi Suite on the ETHDenver live testnet
 

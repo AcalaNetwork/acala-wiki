@@ -49,9 +49,9 @@ Batch distribution of KAR to&#x20;
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.&#x20;
 
-## 🎁 (WIP) Claim KAR
+## 🎁 (Done) Claim KAR
 
-**You can check whether your KAR rewards need to be claimed** [**here**](../../networks/home/crowdloan/claim-kar.md)**.**
+**You can check whether your KAR rewards need to be claimed** [**here**](../../crowdloans/crowdloan/claim-kar.md)**.**
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.&#x20;
 
@@ -86,24 +86,24 @@ More details will be provided as we launch each DeFi protocol.&#x20;
     * [x] Start Bootstrap
     * [x] Trading begins
     * [x] Start Liquidity Program
-  * [ ] KAR/kUSD pair
-  * [ ] LKSM/kUSD pair
+  * [x] KAR/kUSD pair
+  * [x] LKSM/kUSD pair
   * [ ] ...
-* [ ] kUSD Borrowing
+* [x] kUSD Borrowing
   * [x] Enable kUSD stablecoin protocol
   * [x] Enable KSM collateral (capped)
   * [x] Enable LKSM collateral
   * [ ] ...
-* [ ] Liquid KSM
+* [x] Liquid KSM
   * [x] Enable "Canary" Liquid KSM
-    * [ ] mint LKSM - withdraw is only available upon the network upgrading to trustless Liquid Staking
-    * [ ] KSM staking reward accrues&#x20;
-    * [ ] LKSM as collateral
-  * [ ] Liquid Staking upgrade
+    * [x] mint LKSM - including withdrawal
+    * [x] KSM staking reward accrues&#x20;
+    * [x] LKSM as collateral
+  * [x] Liquid Staking upgrade
 * [ ] USDT
   * [ ] as collateral
-  * [ ] as trading pair
-* [ ] Enable Acala EVM
+  * [x] as trading pair
+* [x] Enable Acala EVM
 
 
 
