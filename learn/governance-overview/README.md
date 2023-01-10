@@ -2,7 +2,7 @@
 description: The development direction.
 ---
 
-# Governance Overivew
+# Governance Overview
 
 Acala takes a phased approach to employ various governance mechanisms that will allow it to progressively decentralize and ultimately be commanded by the majority network stakeholders. Acala's governance framework is based on Polkadot's technology that employs a **Referenda chamber**, **a General Council**, and **a Technical Committee** to govern the network.
 
