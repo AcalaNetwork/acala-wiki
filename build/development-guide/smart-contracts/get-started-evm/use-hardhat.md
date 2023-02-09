@@ -1,20 +1,21 @@
-# Using Hardhat to deploy on Acala, Karura & Mandala
+# Use Hardhat
 
-This example is inpired by the [Getting Started](https://hardhat.org/getting-started/) section of Hardhat Documentation.  
+This example is inpired by the [Getting Started](https://hardhat.org/getting-started/) section of Hardhat Documentation.
 
 ## Prerequisites
-- node
-- yarn
+
+* node
+* yarn
 
 ## Let's create a basic sample project
 
-```bash=
+```
 mkdir hardhat && cd hardhat
 yarn add hardhat
 yarn hardhat
 ```
 
-```bash=
+```
 888    888                      888 888               888
 888    888                      888 888               888
 888    888                      888 888               888
@@ -36,7 +37,7 @@ Welcome to Hardhat v2.6.8
 
 Add the networks section to the `hardhat.config.js` file inside the `module.exports` like so:
 
-```javascript=
+```
 module.exports = {
   solidity: "0.8.4",
   networks: {
@@ -51,10 +52,10 @@ module.exports = {
 }
 ```
 
-
 ## To compile it, simply run:
 
 `yarn hardhat compile`
+
 ```
 Compiling 2 files with 0.8.4
 Compilation finished successfully
@@ -63,6 +64,7 @@ Compilation finished successfully
 ## You can run your tests with:
 
 `yarn hardhat test --network development`
+
 ```
   Greeter
     ✓ Should return the new greeting once it's changed (554ms)
@@ -74,15 +76,17 @@ Compilation finished successfully
 ## Next, to deploy the contract we will use a Hardhat script:
 
 `yarn hardhat run scripts/sample-script.js --network development`
+
 ```
 Greeter deployed to: 0x3d3593927228553b349767ABa68d4fb1514678CB
 ```
 
 ## Going beyond and reading the on-chain data
 
-Using the hardhat console, you can interact with your deployed contracts.  
+Using the hardhat console, you can interact with your deployed contracts.
 
 `yarn hardhat console --network development`
+
 ```
 Welcome to Node.js v14.18.1.
 Type ".help" for more information.

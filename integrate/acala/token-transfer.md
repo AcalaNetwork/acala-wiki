@@ -102,6 +102,22 @@ For non-native tokens, like DOT, LDOT, aUSD, query `tokens` module to get balanc
 * Same as `currencies.transferNativeCurrency`, only for native token (ACA).
 * Compatible with Polkadot / Polkadot and most other Substrate-based chains.
 
+#### xtokens transfer by XCM&#x20;
+
+* ORML's [Xtokens Module](https://github.com/open-web3-stack/open-runtime-module-library/blob/master/xtokens) supports token transfer by cross-consensus messages (XCM), and has a number of dispatchable functions to support different use cases.
+*   **xtokens transfer functions:**\
+    xtokens.transfer\
+    xtokens.transfer\_multiasset\
+    xtokens.transfer\_with\_fee
+
+    xtokens.transfer\_multiasset\_with\_fee
+
+    xtokens.transfer\_multicurrencies
+
+    xtokens.transfer\_multiassets
+* [https://acala.subscan.io/extrinsic?address=\&module=xtokens](https://acala.subscan.io/extrinsic?address=\&module=xtokens)
+* Can be used to send any supported tokens in the source and destination networks, including ERC20 tokens.
+
 ## Receive Tokens
 
 There are multiple ways to detect incoming balance transfers:
@@ -131,17 +147,11 @@ Monitoring events is a recommended way to track incoming balance transfers. It c
 * Emitted when a token is minted to an account. This could happen when it is a cross-chain transfer or it is a transaction minting stablecoins.
   * For cross-chain transfer, there would be `ExecutedDownward` event along with the deposit. [https://acala.subscan.io/event?address=\&module=dmpqueue\&event=executeddownward](https://acala.subscan.io/event?address=\&module=dmpqueue\&event=executeddownward)
 
-#### xtokens.transferred
+#### xtokens.transferredmultiassets
 
-* [https://acala.subscan.io/event?address=\&module=xtokens\&event=transferred](https://acala.subscan.io/event?address=\&module=xtokens\&event=transferred)
-* Emitted when a cross-chain transfer happened from Acala to other chains.
-* Triggered by `xtokens.transfer` extrinsic.
-
-#### xtokens.transferredmultiasset
-
-* [https://acala.subscan.io/event?address=\&module=xtokens\&event=transferredmultiasset](https://acala.subscan.io/event?address=\&module=xtokens\&event=transferredmultiasset)
-* Emitted when a cross-chain transfer happened from Acala to other chains.
-* Triggered by `xtokens.transfer_multiasset` extrinsic.
+* [https://acala.subscan.io/event?address=\&module=xtokens\&event=transferredmultiassets](https://acala.subscan.io/event?address=\&module=xtokens\&event=transferredmultiassets)
+* Emitted when a cross-chain transfer happened from Karura to other chains.
+* Triggered by`xtokens.transfer, xtokens.transfer_multiasset, xtokens.transfer_with_fee, xtokens.transfer_multiasset_with_fee, xtokens.transfer_multicurrencies, xtokens.transfer_multiassets` extrinsics .
 
 ### Storage changes RPC
 
