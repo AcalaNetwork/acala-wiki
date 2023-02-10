@@ -169,7 +169,7 @@
 
 ## Misc
 
-* [aUSD Incident Resources](misc/resources.md)
+* [aUSD Incident](misc/resources.md)
 * [Contributing](misc/contributing.md)
 * [Glossary](misc/glossary.md)
 * [Media Kits](misc/media-kits.md)
