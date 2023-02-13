@@ -20,7 +20,7 @@
 | [Polkadot-JS](https://polkadot.js.org/apps/#/accounts)         | Live                                                                                                                                         | Parity      | Browser                             |
 | [Talisman](https://talisman.xyz/)                              | Live                                                                                                                                         | Talisman    | Browser extension & Browser         |
 | [SubWallet](https://subwallet.app/)                            | Live [\[for Acala\]](https://docs.subwallet.app/dapps-user-guide/acala) [\[for Karura\]](https://docs.subwallet.app/dapps-user-guide/karura) | SubWallet   | Browser extension & IOS and Android |
-| [Enkrypt](https://enkrypt.com/)                      | Live                                                                                                                                         | MyEtherWallet       | Browser extension & Browser           |
+| [Enkrypt](https://www.enkrypt.com/?mtm_campaign=Acala%20Wiki%20-%20Supported%20Wallets)                      | Live                                                                                                                                         | MyEtherWallet       | Browser extension & Browser           |
 | [Polkadot.JS Plugin](https://github.com/polkadot-js/extension) | Building                                                                                                                                     | Parity      | Browser extension                   |
 
 ## Network Monitoring & Reporting
