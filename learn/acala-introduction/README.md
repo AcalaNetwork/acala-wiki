@@ -71,7 +71,7 @@ $$
 The `current ratio` is the debt to collateral ratio based on the current market value of the collateral asset, given by&#x20;
 
 $$
-Current~Rratio = minted~aUSD / Collateral~Market~ Price~($)
+Current~Ratio = minted~aUSD / Collateral~Market~ Price~($)
 $$
 
 Once the autonomous Liquidator identifies an unsafe vault, it will trigger the liquidation process to sell off the collateral for Acala stablecoin to repay the vault. The liquidation process uses a hybrid mechanism of liquidating on decentralized exchange and collateral auctions.
@@ -80,24 +80,41 @@ Once the autonomous Liquidator identifies an unsafe vault, it will trigger the l
 
 ### Liquidation Process
 
-Liquidating unsafe positions requires selling off some collateral assets to repay Acala stablecoin owed (borrowed from the vault). The liquidation mechanism uses [AcalaSwap](https://docs.acalaswap.app/) in conjunction of Collateral Auction to ensure efficiency and effectiveness.
+Liquidating unsafe positions requires selling off some collateral assets to repay Acala stablecoin owed (borrowed from the vault). The liquidation mechanism uses [AcalaSwap](https://docs.acalaswap.app/), Smart Contracts, in conjunction of Collateral Auction to ensure efficiency and effectiveness.
 
 The end result of a liquidation is
 
 * the Acala stablecoin debt is repaid (the protocol is solvent)
 * liquidation fee is collected from the vault owner and added to the `cdp_treasury` as surplus
 * remaining collaterals are returned to the vault owner
-* in extreme market conditions, if collaterals cannot be sold (either via DeX or Auction) to repay debt and liquidation penalty, then the collateral will be collected by the `cdp_treasury`, while the outstanding aUSD will be recorded as debt. These collaterals can be sold at a later time (managed by governance) to repay the outstanding aUSD.
+* in extreme market conditions, if collaterals cannot be sold (via DeX, Smart Contracts or Auction) to repay debt and liquidation penalty, then the collateral will be collected by the `cdp_treasury`, while the outstanding aUSD will be recorded as debt. These collaterals can be sold at a later time (managed by governance) to repay the outstanding aUSD.
 * in an unfortunate liquidation event where not all Acala stablecoin can be recouped, `cdp_treasury` will record it as bad debt
 
-![Liquidation with hybrid Auction + DeX mechanism, with collateral collection if both fail as last resort](<../../.gitbook/assets/Screen Shot 2022-06-15 at 8.28.05 PM.png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Liquidation with hybrid Auction, Smart Contracts and DeX mechanism, with collateral collection as last resort if all failed</p></figcaption></figure>
 
-#### Liquidation on AcalaSwap
+#### Liquidation Parameters
+
+Liquidation Price Ratio (LPR) = liquidation price / collateral's oracle price
+
+Immediate LPR - a predefined ratio, a price yields a LPR above this ratio will be immediately liquidated. E.g. 0.9
+
+Min LPR - a predefined ratio, a price should yield a LPR above this ratio for the liquidation to happen. E.g. 0.85
+
+#### Liquidation on Dex
 
 * the protocol calculates target Acala stablecoin amount (owed + liquidation penalty) to be purchased on the swap
-* the protocol swaps collateral asset from the vault for target Acala stablecoin if the slippage is within a predefined acceptable level
+* the protocol swaps collateral asset from the vault for target Acala stablecoin if the price is:
+  * above Immediate LPR, or
+  * higher than price from Smart Contracts, and above Min LPR&#x20;
 
 This is a far more efficient way for liquidation if the size of the trade is reasonable, and the swap has reasonable liquidity.&#x20;
+
+#### Liquidation via Smart Contract
+
+* the protocol calculates target Acala stablecoin amount (owed + liquidation penalty) to be purchased by the smart contract
+* the protocol sells collateral asset from the vault for target Acala stablecoin if the price is:
+  * above Immediate LPR, or
+  * higher than the price from Dex, and above Min LPR
 
 #### Liquidation on Collateral Auction
 
