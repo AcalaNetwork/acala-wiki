@@ -2,7 +2,7 @@
 
 ### **Fully Composable DeFi Primitives in EVM and Runtime**
 
-Smart Contract Dapps deployed in Acala EVM can directly use native and cross-chain assets such as DOT, ACA, aUSD, renBTC, etc. ERC-20 tokens deployed in EVM can also be made available at runtime level, to be listed in the DeX, or (by governance approval) to be used as fee tokens. For example, Ampleforth will deploy AMPL contracts on Acala EVM, which will be made available as a native token, so it can be used to pay transaction fees and listed directly on our DeX.
+Smart Contract Dapps deployed in Acala EVM can directly use native and cross-chain assets such as DOT, ACA, aUSD, renBTC, etc. ERC-20 tokens deployed in EVM can also be made available at runtime level, to be listed in the DeX, or (by governance approval) to be used as fee tokens.
 
 Smart Contract Dapps can directly use Acala DeFi primitives (DeX, stablecoin lending, and liquid staking), bridges, oracle infrastructure, native and cross-chain liquidity to compose various interesting DeFi applications, such as lending, special-purpose DeX, financial products based on staking and more.
 
