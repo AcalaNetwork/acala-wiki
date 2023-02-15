@@ -38,7 +38,7 @@ You will need to unstake your KSM tokens prior to bonding them to the [crowdloan
 
 8\. Sign and submit the transaction.
 
-![](<../../../../.gitbook/assets/image (3) (1).png>)
+![](<../../../../.gitbook/assets/image (3).png>)
 
 9\. You can return to “My Accounts” and select the dropdown next to balance to see that your KSM is now transferable.
 

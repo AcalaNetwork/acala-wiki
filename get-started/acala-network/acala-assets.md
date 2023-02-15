@@ -1,6 +1,6 @@
 # Acala Assets
 
-These are native assets on the Karura Network
+These are native assets on the Acala Network
 
 * **Acala Token (ACA)** | Decimal Place: 12\
   ERC20 mirrored token address 0x0000000000000000000100000000000000000000
