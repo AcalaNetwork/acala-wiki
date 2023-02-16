@@ -15,4 +15,4 @@ These are native assets on the Acala Network
 
 ### On-Chain Metadata
 
-{% embed url="https://replit.com/@GregoryLuneau/Acala-On-chain-Asset-Registry-Metadata?v=1" %}
+{% embed url="https://replit.com/@shunjizhan/Acala-On-chain-Asset-Registry-Metadata?v=1" %}
