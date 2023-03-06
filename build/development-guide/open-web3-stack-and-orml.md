@@ -4,7 +4,7 @@ Open Web3 Stack is a common-good collection of libraries to accelerate applicati
 
 Open Web3 Stack contains the following repos
 
-* **Open Runtime Module Library \(ORML\)** where we implemented all the commonly used pallets, modules
+* **Open Runtime Module Library (ORML)** where we implemented all the commonly used pallets, modules
 * **Open-web3.js** - frontend SDK for using extended Substrate logic from ORML
 * **Guardian** - a worker for monitoring and executing certain tasks
 * **Rococo-community**: a hosted environment for testing parachains and cross-chain communication
@@ -22,7 +22,7 @@ Find out more [here](https://github.com/open-web3-stack/open-runtime-module-libr
 * [orml-currencies](https://github.com/open-web3-stack/open-runtime-module-library/blob/master/currencies)
   * Provide `MultiCurrency` implementation using `pallet-balances` and `orml-tokens` module.
 * [orml-nft](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/nft)
-  * Non-fungible-token module provides basic functions to create and manager NFT\(non fungible token\)
+  * Non-fungible-token module provides basic functions to create and manager NFT(non fungible token)
 * [orml-oracle](https://github.com/open-web3-stack/open-runtime-module-library/blob/master/oracle)
   * Oracle module that makes off-chain data available on-chain.
 * [orml-auction](https://github.com/open-web3-stack/open-runtime-module-library/blob/master/auction)
@@ -39,7 +39,7 @@ Find out more [here](https://github.com/open-web3-stack/open-runtime-module-libr
 
 ### Guardian
 
-With Guardian, **with mere configuration**, you can set up a number of automatic tasks for monitoring and executing commands for a chain of concern. A task can be `monitoring margin positions` with conditions \(if collateral ratio &lt; 110%\) then trigger actions \(e.g. post warning message to database service, or execute a script to add position\).
+With Guardian, **with mere configuration**, you can set up a number of automatic tasks for monitoring and executing commands for a chain of concern. A task can be `monitoring margin positions` with conditions (if collateral ratio < 110%) then trigger actions (e.g. post warning message to database service, or execute a script to add position).
 
 Here're the [examples](https://github.com/open-web3-stack/guardian/tree/master/packages/example-guardian) and relevant [documentation](https://github.com/open-web3-stack/guardian/tree/master/packages/guardian/docs).
 
@@ -47,9 +47,12 @@ Here're the [examples](https://github.com/open-web3-stack/guardian/tree/master/p
 
 Open-web3 is a bunch of frontend packages that allow to interact with orml, indexer and oracles. Find out more [here](https://github.com/open-web3-stack/open-web3.js).
 
-### Community Rococo Testnet
+### Testnet
 
-We launched the community Rococo parachain testnet with shared infrastructure. It allows everyone to test cross-chain token transfers, running collators, validators, etc with lower overhead.
+The TL;DR is, we recommend to use [Chopsticks](https://github.com/AcalaNetwork/chopsticks) and create your own testnet.
 
-Get started [here](https://github.com/open-web3-stack/rococo-community).
+Chopsticks is a testing client that can fork a Substrate network with ease, with Chopsticks, you can fork Acala (or even two parachains on both sides of a cross-chain transfer) at a specific block height and start interact/test with it. As the 'testnet' is forked when needed, it will have the latest runtime and latest code, you can test with confident that your code will behave the same in production if it is going live now.
 
+Get started [here](https://github.com/AcalaNetwork/chopsticks).
+
+P.S. In case you are looking for it, Rococo parachain testnet is retired.
