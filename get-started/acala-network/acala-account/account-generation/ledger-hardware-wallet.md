@@ -27,7 +27,7 @@ Note: please add the account using Polkadot{.js} on web, do not use Polkadot.js 
     ****![](<../../../../.gitbook/assets/image (47).png>)****
 4. **Go** to Settings**, click** manage hardware connection**,** and **select**:\
    4.1. **Attach Ledger via WebHID** if you are on macOS or Linux.\
-   4.2. A**ttach Ledger via WebUSD** if you are on Windows.\
+   4.2. A**ttach Ledger via WebUSB** if you are on Windows.\
    4.3. **Click** Save
 5. **Go** to Accounts - Accounts via the top menu\
    5.1. Select **Add via Ledger**\
