@@ -13,7 +13,7 @@
 | Moonbeam             | GLMR   | 18      | 0.1                                                                                     | ForeignAssetId(0)    | `tokens.accounts` | `tokens.totalIssuance` |
 | Parallel             | PARA   | 12      | 0.1                                                                                     | ForeignAssetId(1)    | `tokens.accounts` | `tokens.totalIssuance` |
 
-![](../../.gitbook/assets/asset-registry-query.png)
+![](../../networks/acala-network/integration/asset-registry-query.png)
 
 ![](<../../.gitbook/assets/Screen Shot 2022-02-15 at 3.22.19 PM.png>)
 

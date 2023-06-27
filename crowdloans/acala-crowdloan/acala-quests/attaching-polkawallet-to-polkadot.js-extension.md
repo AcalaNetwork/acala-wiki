@@ -20,7 +20,7 @@ Polkawallet users can link their Polkawallet account to Polkadot.js extension to
 
 5\) A QR code will appear in Polkawallet. Show that to your computer camera.
 
-![](<../../../.gitbook/assets/File (25) (1).jpg>)
+![](<../../../.gitbook/assets/File (25).jpg>)
 
 6\) Your Polkadot.js extension will recognize the account and show the details of your Polkawallet account. Click `Add the account with the identified address.`
 

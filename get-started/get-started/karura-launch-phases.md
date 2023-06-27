@@ -55,7 +55,7 @@ If you have participated via exchanges or custodial agencies, the rewards will b
 
 If you have participated via exchanges or custodial agencies, the rewards will be distributed to you by these exchange and custodial agencies. Please contact them directly for the distribution schedule.&#x20;
 
-If you participated in Karura **** crowdloan via the **** Polkadot web app directly, or via non-custodial wallets other than Polkawallet and Fearless wallet, you will need to agree to our T\&C by completing a claim process for KAR. The Claim KAR website can be found [here](https://distribution.acala.network/claim).
+If you participated in Karura crowdloan via the Polkadot web app directly, or via non-custodial wallets other than Polkawallet and Fearless wallet, you will need to agree to our T\&C by completing a claim process for KAR. The Claim KAR website can be found [here](https://distribution.acala.network/claim).
 
 ## ✋ (Done) Council Governance + Democracy
 

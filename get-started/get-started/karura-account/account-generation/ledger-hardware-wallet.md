@@ -32,18 +32,18 @@ You can find the tutorial from Ledger above, or follow steps below:
    Note: Use the same browser with Polkadot.js browser extension installed if you would like to  access this account with Karura apps, **click** on either the **apps wallet (hosted)** or **apps wallet (ipfs)** tile
 3.  **Switch** to **Karura** network&#x20;
 
-    3.1. **** Clicking on top left corner of the site\
+    3.1. Clicking on top left corner of the site\
     ![](<../../../../.gitbook/assets/image (38).png>)
 
     3.2. **Click** and expand **Kusama & Parachains** then **select** **Karura** via any of the RPCs listed and **click Switch**\
-    ****![](<../../../../.gitbook/assets/image (39).png>)****
+    ![](<../../../../.gitbook/assets/image (39).png>)
 4. **Go** to Settings**, click** manage hardware connection**,** and **select**:\
    4.1. **Attach Ledger via WebHID** if you are on macOS or Linux.\
    4.2. A**ttach Ledger via WebUSD** if you are on Windows.\
    4.3. **Click** Save
 5. **Go** to Accounts - Accounts via the top menu\
    5.1. Select **Add via Ledger**\
-   ****5.2. Input a name for the account\
+   5.2. Input a name for the account\
    5.3. Select the Ledger Device connected if prompted\
    5.4. Done
 
@@ -51,7 +51,7 @@ You can find the tutorial from Ledger above, or follow steps below:
 
 1. **Click** on Polkadot.js browser extension, **click** + then **click** "Attach Ledger Account to add an account\
    \
-   ![](<../../../../.gitbook/assets/image (41).png>)
+   ![](<../../../../.gitbook/assets/image (37).png>)
 2. **Select** Karura\
    ![](<../../../../.gitbook/assets/image (33).png>)
 3. **Input** name of the account and **click** Import

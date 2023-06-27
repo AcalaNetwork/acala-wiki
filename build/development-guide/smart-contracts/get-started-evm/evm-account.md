@@ -119,7 +119,7 @@ The **ethAddress** should be the same as your Metamask wallet address that you u
 3. Click the **+** button on the right
 4. Double check that the **evmAccounts.evmAddresses** is indeed the right one.
 
-![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (72).png>)
+![Developer > Chain state > Storage > evmAccounts > evmAddresses](<../../../../.gitbook/assets/image (64).png>)
 
 #### Use Cases
 
