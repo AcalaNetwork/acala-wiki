@@ -1,4 +1,4 @@
-# Acala Exodus Upgrade
+# Acala 2.0: Exodus Upgrade
 
 _The following documentation outlines the intended features and processes that Acala Exodus Upgrade intends to implement in the future. This document will continue to be updated and reviewed as we progress with the Exodus Upgrade. Please note that certain sections may contain inaccuracies or outdated information._
 
@@ -11,7 +11,7 @@ The Exodus Plan aims to overhaul and upgrade the Acala Network protocols for lon
 The goals of the Acala Exodus Upgrade
 
 * Provide a path forward for aUSD with options to exit existing positions or continue to ride with Acala’s growth
-* Build the liquidity layer of web3 finance that has sustainable and captive liquidity&#x20;
+* Build the liquidity layer of web3 finance including LSDFi focused Universal Asset Hub that has sustainable and captive liquidity&#x20;
 * Upgrade ACA to boost ACA utility and support sustainable network growth
 
 See the original plan [here](https://acala.discourse.group/t/acala-exodus-plan/2125).
