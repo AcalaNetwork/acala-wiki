@@ -35,5 +35,6 @@ Follow Karura: [https://linktr.ee/karuranetwork](https://linktr.ee/karuranetwork
 
 Our team is keen to assist in promoting your content on the Acala and/or Karura community channels. Please reach out to our Growth & Marketing contacts to strategize on co-marketing activities, timing, social copy, and/or potential PR placement.&#x20;
 
-| <p><strong>Dan Reecer</strong><br>VP of Growth, Acala<br>dan@acala.network</p> |
-| ------------------------------------------------------------------------------ |
+| <p><strong>Contact Acala</strong><br>hello@acala.network</p> |
+| ------------------------------------------------------------ |
+
