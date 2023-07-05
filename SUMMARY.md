@@ -137,6 +137,7 @@
 * [Contribution & Rewards](ecosystem/contribution-rewards/README.md)
   * [Acala Old Friend NFT](ecosystem/contribution-rewards/acala-old-friend-nft.md)
 * [Ecosystem](https://acala.network/ecosystem)
+* [Media Kits](ecosystem/media-kits.md)
 
 ## Crowdloans
 
@@ -174,4 +175,3 @@
 * [aUSD Incident](misc/resources.md)
 * [Contributing](misc/contributing.md)
 * [Glossary](misc/glossary.md)
-* [Media Kits](misc/media-kits.md)
