@@ -18,7 +18,11 @@ The on-chain `assetRegistry` will be updated with the new symbol (aSEED) and nam
 
 If you are a holder of aUSD, then you do not need to take any action.
 
+If you are a vault owner, you can continue to manage your vaults after this date till CDP Conversion date.
+
 If you are a builder of a tool that consumes `@acala-network/api` then there should be no real changes to be made in your application. However if your application displays the token symbol and token name in an offchain way, then you will need to ensure you display the correct symbol and name.
+
+**Find aSEED brand assets** [**here**](https://wiki.acala.network/ecosystem/media-kits#acala-brand-assets)**.**
 
 ## CDP Conversion
 
