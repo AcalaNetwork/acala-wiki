@@ -2,6 +2,10 @@
 
 The goal of aUSD Seed (aSEED) is to provide a pathforward for aUSD with options to exit existing aUSD holdings/vaults or to participate in Acala’s future growth.
 
+{% hint style="warning" %}
+_The following documentation outlines the intended features and processes that Acala Exodus Upgrade intends to implement in the future. This document will continue to be updated and reviewed as we progress with the Exodus Upgrade. Please note that certain sections may contain inaccuracies or outdated information._
+{% endhint %}
+
 ## aUSD Conversion
 
 aUSD will be converted to aSEED 1:1 across all avenues including account balance, and liquidity pools etc. This means current aUSD holders will hold aSEED instead, and aUSD LPs will be converted to aSEED LPs.
