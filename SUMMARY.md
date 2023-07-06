@@ -3,6 +3,7 @@
 * [Acala & Karura Wiki](README.md)
 * [Acala 2.0: Exodus Upgrade](acala-exodus-upgrade/README.md)
   * [aUSD SEED (aSEED)](acala-exodus-upgrade/ausd-seed-aseed.md)
+  * [ACA](acala-exodus-upgrade/aca.md)
 
 ## Learn
 
