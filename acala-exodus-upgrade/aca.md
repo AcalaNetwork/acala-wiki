@@ -38,3 +38,4 @@ Acala will have a total of 100 million ACA emissions per year limited to 6 years
 A portion of unspent emissions will be burned periodically e.g. 1% unspent emission every month, a portion of the network fees accumulated over a period of time will also be burned e.g. cumulative network fees will be recorded every six months, and 20% will be burned via governance. This overtime may make ACA deflationary.
 
 \
+Note: Karura KAR will follow the same upgrade with 1/10 of the emission as ACA.
