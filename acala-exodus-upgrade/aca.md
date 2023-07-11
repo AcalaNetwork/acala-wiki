@@ -2,7 +2,7 @@
 
 ## Overview
 
-Acala network has grown beyond the original ACA scope which has limited utility to support new growth based on new infrastructure and protocols built. The Exodus Upgrade aims to align stakeholders, participants within the Acala ecosystem, protocol functionalities and network infrastructures, and ACA as a utility and securing element of the Acala Network. It will optimize for network growth, sustainability and safety by boosting ACA utility and ACA holder engagement.
+Acala network has grown beyond the original ACA scope which has limited utility to support new growth based on new infrastructure and protocols built. The Exodus Upgrade aims to align stakeholders, participants within the Acala ecosystem, protocol functionalities and network infrastructures, and ACA as a utility and securing element of Acala Network. It will optimize for network growth, sustainability and safety by boosting ACA utility and ACA holder engagement.
 
 {% hint style="warning" %}
 The following documentation outlines the intended features and processes that Acala Exodus Upgrade intends to implement in the future. This document will continue to be updated and reviewed as we progress with the Exodus Upgrade. Please note that certain sections may contain inaccuracies or outdated information.
@@ -16,8 +16,8 @@ The following are new ACA utilities in addition to existing utilities such as us
 
 * ACA Staking
 * Ecosystem token contributions are farmable via staked ACA
-* A portion (e.g. 20% via governance) of staked ACA can be used as a mitigation tool in case of a shortfall event within the protocols that are native to Acala
 * Vote for emission distribution to liquidity pools and dApps
+* A portion (e.g. 20% via governance) of staked ACA can be used as a mitigation tool in case of a shortfall event within the protocols that are native to Acala
 
 ACA will also power captive liquidity with the following initial long-term incentivized liquidity pools in Acala Swap
 
