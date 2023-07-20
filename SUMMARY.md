@@ -5,6 +5,7 @@
   * [aUSD SEED (aSEED)](acala-exodus-upgrade/ausd-seed-aseed.md)
   * [ACA](acala-exodus-upgrade/aca.md)
   * [Universal Asset Hub (UAH)](acala-exodus-upgrade/universal-asset-hub-uah.md)
+  * [Execution Roadmap](acala-exodus-upgrade/execution-roadmap.md)
 
 ## Learn
 
