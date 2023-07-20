@@ -9,15 +9,19 @@ Acala supports different types of tokens than Polkadot, and allows various ways 
 | Symbol | Description                                           | CurrencyId  | Decimals | Minimal Balance |
 | ------ | ----------------------------------------------------- | ----------- | -------- | --------------- |
 | ACA    | native token of Acala network                         | Token(ACA)  | 12       | 0.1 ACA         |
-| aUSD   | multi-collateralized stablecoin                       | Token(AUSD) | 12       | 0.1 aUSD        |
+| aSEED  | multi-collateralized stablecoin                       | Token(AUSD) | 12       | 0.1 aUSD        |
 | DOT    | crossed to Acala from Polkadot Relay Chain            | Token(DOT)  | 10       | 0.01 DOT        |
 | LDOT   | tokenized staked DOT from the Liquid Staking protocol | Token(LDOT) | 10       | 0.05 LDOT       |
+
+{% hint style="info" %}
+aUSD is converted to [aSEED](../../acala-exodus-upgrade/ausd-seed-aseed.md) on July 20 2023
+{% endhint %}
 
 `AssetRegistry` registered the metadata info of this type token.
 
 ### DexShare
 
-The lp share token for the trading pair of Acala DEX. The CurrencyId type of Acala DEX's lp token are `CurrencyId::DexShare`, and the decimals and minimal balance of lp token are same as the first token in `DexShare`. For example, `CurrencyId::DexShare(Token(ACA), Token(AUSD))` is the CurrencyId of lp token of ACA/aUSD pair, its decimal is 12, and minimal balance is 0.1, these are same as ACA.
+The lp share token for the trading pair of Acala DEX. The CurrencyId type of Acala DEX's lp token are `CurrencyId::DexShare`, and the decimals and minimal balance of lp token are same as the first token in `DexShare`. For example, `CurrencyId::DexShare(Token(ACA), Token(AUSD))` is the CurrencyId of lp token of ACA/aSEED pair, its decimal is 12, and minimal balance is 0.1, these are same as ACA.
 
 Currently, `AssetRegistry` does not register metadata info of any lp token.
 
