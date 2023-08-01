@@ -2,7 +2,8 @@
 
 * [Acala & Karura Wiki](README.md)
 * [Acala 2.0: Exodus Upgrade](acala-exodus-upgrade/README.md)
-  * [aUSD SEED (aSEED)](acala-exodus-upgrade/ausd-seed-aseed.md)
+  * [aUSD SEED (aSEED)](acala-exodus-upgrade/ausd-seed-aseed/README.md)
+    * [aSEED Integration Guide](acala-exodus-upgrade/ausd-seed-aseed/aseed-integration-guide.md)
   * [ACA](acala-exodus-upgrade/aca.md)
   * [Universal Asset Hub (UAH)](acala-exodus-upgrade/universal-asset-hub-uah.md)
   * [Execution Roadmap](acala-exodus-upgrade/execution-roadmap.md)

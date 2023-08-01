@@ -14,7 +14,7 @@ Acala supports different types of tokens than Polkadot, and allows various ways 
 | LDOT   | tokenized staked DOT from the Liquid Staking protocol | Token(LDOT) | 10       | 0.05 LDOT       |
 
 {% hint style="info" %}
-aUSD is converted to [aSEED](../../acala-exodus-upgrade/ausd-seed-aseed.md) on July 20 2023
+aUSD is converted to [aSEED](../../acala-exodus-upgrade/ausd-seed-aseed/) on July 20 2023
 {% endhint %}
 
 `AssetRegistry` registered the metadata info of this type token.
