@@ -8,6 +8,8 @@ The following documentation outlines the intended features and processes that Ac
 
 <figure><img src="https://lh6.googleusercontent.com/9mtrU6kxF3L3547AoNJhwpL1pj4M-esxh71KUxPk-qghvPDbao5mKObkPzRf7-77a7tEWABxhgMweoBOaSTp8uyttEzxqZ0mbQ_iwu-g8wBo8wq-OE_YGhphcnepwaUmkBbyj8if3ZyqoAwTOFFJSas" alt=""><figcaption></figcaption></figure>
 
+## Execution Status
+
 * [x] Approval Vote ([here](https://twitter.com/AcalaNetwork/status/1669606148209778688?s=20))
 * [x] aSEED I: aUSD Conversion ([here](https://twitter.com/AcalaNetwork/status/1681919546691842049?s=20), [here](https://twitter.com/AcalaNetwork/status/1679339060857556993?s=20))
 * [ ] aSEED II: Vault Conversion
