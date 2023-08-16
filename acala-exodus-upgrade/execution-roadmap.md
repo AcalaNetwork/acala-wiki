@@ -14,7 +14,7 @@ The following documentation outlines the intended features and processes that Ac
 * [x] aSEED I: aUSD Conversion ([here](https://twitter.com/AcalaNetwork/status/1681919546691842049?s=20), [here](https://twitter.com/AcalaNetwork/status/1679339060857556993?s=20))
 * [ ] aSEED II: Vault Conversion
 * [ ] aSEED III: Redemption
-* [ ] ACA I: Emission ([targeting Aug 15](https://twitter.com/AcalaNetwork/status/1678955311561076737?s=20))
+* [x] ACA I: Emission ([targeting Aug 15](https://twitter.com/AcalaNetwork/status/1678955311561076737?s=20))
 * [ ] ACA II: Staking
 * [ ] ACA III: Security, Dynamic Voting
 * [ ] UHA I: Acala Multichain Asset Router & LSTs ([in progress](https://twitter.com/AcalaNetwork/status/1678260945263669248?s=20))
