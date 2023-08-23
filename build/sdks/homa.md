@@ -9,7 +9,7 @@ For those looking to stake DOT or unstake LDOT, we also offer the [Homa SDK](htt
 
 The following example demonstrates how to utilize the Homa SDK and the Polkadot API for staking DOT and unstaking LDOT:
 
-{% embed url="https://codesandbox.io/p/sandbox/condescending-forest-g5cvz4?file=/index.js" %}
+{% embed url="https://replit.com/@xlc/acalajs-examples#index.js" %}
 Click Run to see the homa example in action.
 {% endembed %}
 
