@@ -87,7 +87,7 @@ const fakeSign = (tx, addr, nonce) => {
 }
 ```
 
-setup walelt sdk and homa sdk
+setup wallet sdk and homa sdk
 ```ts
 const wallet = new Wallet(api)
 await wallet.isReady
@@ -348,6 +348,11 @@ INFO (block-builder/14701): Block built
     ump: {}
 ```
 
+#### clean up
+shutdown the Chopsticks server
+```ts
+await close()
+```
 
 ## More References
 - Homa source code can be found [here](https://github.com/AcalaNetwork/Acala/tree/master/modules/homa).
