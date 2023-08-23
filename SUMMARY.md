@@ -92,6 +92,7 @@
 * [EVM+ documentation](build/evm+-documentation.md)
 * [SDKs](build/sdks/README.md)
   * [Acala Stablecoin](build/sdks/stablecoin-api.md)
+  * [Homa Liquid Staking](build/sdks/homa.md)
   * [AcalaSwap](https://docs.acalaswap.app/api-sdk)
   * [Homa Staking](https://docs.homastaking.app/developer-guides)
 * [Guides](build/guides/README.md)
