@@ -36,7 +36,7 @@ The easiest way to track your rewards is by logging onto the [Acala website](htt
 
 Contributors that used the polkadot.js browser extension wallet to participate and selected the `Direct` contribution method, can also connect their wallet to [polkadot.js.org](https://polkadot.js.org/apps/#/explorer) and go to Network->Parachains->Crowdloan and see `My contributions` in the `raised` column. Note that participants that elected the&#x20;
 
-If a contributor elected the the `Contribute & Stay Liquid` method, those contributions will not show up in [polkadot.js.org](https://polkadot.js.org/apps/#/explorer). It's best to check those contributions on the [Acala website](https://acala.network/acala/join-acala/bonus).
+If a contributor elected the `Contribute & Stay Liquid` method, those contributions will not show up in [polkadot.js.org](https://polkadot.js.org/apps/#/explorer). It's best to check those contributions on the [Acala website](https://acala.network/acala/join-acala/bonus).
 
 ### I made a contribution but it seems like I lost an extra \~1 DOT - what happened?
 

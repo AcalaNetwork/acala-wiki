@@ -4,7 +4,7 @@
 
 The Acala Treasury is a reserve of digital tokens, native and foreign to the Acala ecosystem, stewarded by ACA holders and funded from Acala protocol fees and community contribution events with the purpose of enabling long-term network self-sustainability and growth.
 
-Deployment of the Treasury is primary focused on
+Deployment of the Treasury is primarily focused on
 
 * Self-funding a parachain slots on Polkadot
 * Bootstrapping protocol liquidity (e.g. provide LKSM, kUSD or DEX pair liquidity)
