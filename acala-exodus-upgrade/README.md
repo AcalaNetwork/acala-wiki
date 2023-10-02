@@ -23,6 +23,7 @@ See the original plan [here](https://acala.discourse.group/t/acala-exodus-plan/2
 * Overview of Acala 2.0 ([tweet thread](https://twitter.com/AcalaNetwork/status/1668272031564021760?s=20))
 * aSEED: a path forward for aUSD and share growth of Acala ([tweet thread](https://twitter.com/AcalaNetwork/status/1676788072107905025?s=20))
 * ACA upgrade: boosting ACA and share Acala growth ([tweet thread](https://twitter.com/AcalaNetwork/status/1678955311561076737?s=20))
+* Euphrates liquidity DApp for boosted staking is now Live ([tweet thread](https://x.com/AcalaNetwork/status/1706600178629955814?s=20))
 
 {% content-ref url="execution-roadmap.md" %}
 [execution-roadmap.md](execution-roadmap.md)

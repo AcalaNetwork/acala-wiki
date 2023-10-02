@@ -7,6 +7,7 @@
     * [aSEED Integration Guide](acala-exodus-upgrade/ausd-seed-aseed/aseed-integration-guide.md)
   * [ACA](acala-exodus-upgrade/aca.md)
   * [Universal Asset Hub (UAH)](acala-exodus-upgrade/universal-asset-hub-uah.md)
+  * [Euphrates DApp](https://farm.acala.network/)
 
 ## Learn
 
