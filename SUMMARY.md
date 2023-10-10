@@ -1,13 +1,17 @@
 # Table of contents
 
 * [Acala & Karura Wiki](README.md)
-* [Acala 2.0: Exodus Upgrade](acala-exodus-upgrade/README.md)
-  * [Execution Roadmap](acala-exodus-upgrade/execution-roadmap.md)
-  * [aUSD SEED (aSEED)](acala-exodus-upgrade/ausd-seed-aseed/README.md)
-    * [aSEED Integration Guide](acala-exodus-upgrade/ausd-seed-aseed/aseed-integration-guide.md)
-  * [ACA](acala-exodus-upgrade/aca.md)
-  * [Universal Asset Hub (UAH)](acala-exodus-upgrade/universal-asset-hub-uah.md)
-  * [Euphrates DApp](https://farm.acala.network/)
+
+## Acala 2.0 <a href="#acala-exodus-upgrade" id="acala-exodus-upgrade"></a>
+
+* [Overview](acala-exodus-upgrade/overview.md)
+* [Execution Roadmap](acala-exodus-upgrade/execution-roadmap.md)
+* [aUSD SEED (aSEED)](acala-exodus-upgrade/ausd-seed-aseed/README.md)
+  * [aSEED Integration Guide](acala-exodus-upgrade/ausd-seed-aseed/aseed-integration-guide.md)
+* [ACA](acala-exodus-upgrade/aca/README.md)
+  * [ACA/KAR Staking](acala-exodus-upgrade/aca/aca-kar-staking.md)
+* [Universal Asset Hub (UAH)](acala-exodus-upgrade/universal-asset-hub-uah.md)
+* [Euphrates DApp](https://farm.acala.network/)
 
 ## Learn
 
