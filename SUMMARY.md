@@ -75,7 +75,7 @@
   * [Karura Web Apps](https://apps.karura.network)
   * [Governance](get-started/get-started/governance.md)
   * [Transaction Fees](get-started/get-started/transaction-fees.md)
-* [Mandala Testnet](get-started/networks.md)
+* [Mandala Testnet](get-started/mandala-testnet.md)
 
 ## Integrate
 
