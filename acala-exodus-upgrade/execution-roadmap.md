@@ -12,13 +12,13 @@ The following documentation outlines the intended features and processes that Ac
 
 * [x] Approval Vote ([here](https://twitter.com/AcalaNetwork/status/1669606148209778688?s=20))
 * [x] aSEED I: aUSD Conversion ([here](https://twitter.com/AcalaNetwork/status/1681919546691842049?s=20), [here](https://twitter.com/AcalaNetwork/status/1679339060857556993?s=20))
-* [ ] aSEED II: Vault Conversion
+* [x] aSEED II: Vault Conversion
 * [ ] aSEED III: Redemption
 * [x] ACA I: Emission ([targeting Aug 15](https://twitter.com/AcalaNetwork/status/1678955311561076737?s=20))
-* [ ] ACA II: Staking
-* [ ] ACA III: Security, Dynamic Voting
-* [ ] UHA I: Acala Multichain Asset Router & LSTs
-* [ ] UHA II: Euphrates&#x20;
+* [x] ACA II: Staking
+* [x] ACA III: Security, Dynamic Voting
+* [x] UHA I: Acala Multichain Asset Router & LSTs
+* [x] UHA II: Euphrates&#x20;
 * [ ] UHA III Multichain
 
 To kick off the Exodus Plan, an approval vote will be put forward for the general direction proposed. Each component of the Exodus Plan will be rolled out in phases.
