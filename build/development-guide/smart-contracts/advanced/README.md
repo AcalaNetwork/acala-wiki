@@ -8,5 +8,7 @@
 
 {% page-ref page="use-oracle-feeds.md" %}
 
+{% page-ref page="build-arbitrager.md" %}
+
 
 
