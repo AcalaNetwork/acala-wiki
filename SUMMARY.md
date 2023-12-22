@@ -134,6 +134,8 @@
     * [Acala EVM Hacker Guide](build/development-guide/smart-contracts/acala-hacker-guide/README.md)
       * [Try Acala DApp](build/development-guide/smart-contracts/acala-hacker-guide/try-acala-dapp.md)
 * [Tools](build/tools.md)
+* [Indexers](build/indexers/README.md)
+  * [SubQuery](build/indexers/subquery.md)
 * [Miscellaneous](build/miscellaneous/README.md)
   * [Runtime Events](build/miscellaneous/runtime-events.md)
   * [Modules](build/miscellaneous/modules.md)
