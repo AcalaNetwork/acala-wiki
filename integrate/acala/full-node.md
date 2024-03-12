@@ -27,7 +27,7 @@ Shows the latest release version of Acala, Karura & Mandala
 
 * CLI is mostly the same as any Substrate-based chain such as Kusama and Polkadot
 * Because there are two node services are running, `--` is used to split the CLI. Arguments before `--` are passed to the parachain full-node service and arguments after `--` is passed to the Relay Chain full-node service.
-  * For example `--chain=parachain.json --ws-port=9944 -- --chain=relaychain.json --ws-port=9945` means
+  * For example `--chain=parachain.json --rpc-port=9944 -- --chain=relaychain.json --rpc-port=9945` means
     * The parachain service is using `parachain.json` as the chain spec and the web socket RPC port is 9944
     *   The Relay Chain service is using `relaychain.json` as the chain spec and the web socket
 
@@ -45,12 +45,10 @@ Shows the latest release version of Acala, Karura & Mandala
 --chain=acala
 --name=rpc-1
 --pruning=archive
---ws-external
 --rpc-external
 --rpc-cors=all
---ws-port=9944
---rpc-port=9933
---ws-max-connections=2000
+--rpc-port=9944
+--rpc-max-connections=2000
 --execution=wasm
 --
 --chain=polkadot
