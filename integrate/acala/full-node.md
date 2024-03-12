@@ -49,7 +49,6 @@ Shows the latest release version of Acala, Karura & Mandala
 --rpc-cors=all
 --rpc-port=9944
 --rpc-max-connections=2000
---execution=wasm
 --
 --chain=polkadot
 ```
