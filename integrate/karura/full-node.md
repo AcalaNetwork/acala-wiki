@@ -22,7 +22,7 @@ The benchmark result will look similar to this: ![](../../networks/home/integrat
 
 * Clone the repo: [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)
 * Checkout tag here: [https://github.com/AcalaNetwork/Acala/tags](https://github.com/AcalaNetwork/Acala/tags)
-* Install dependencies
+  Install dependencies using instructions from [here](https://github.com/AcalaNetwork/Acala?tab=readme-ov-file#3-building)
 * Build Karura: `cargo build --release --features with-karura-runtime`
 * Run `./target/release acala --chain=karura`
 
@@ -35,7 +35,7 @@ The benchmark result will look similar to this: ![](../../networks/home/integrat
 
 * CLI is mostly the same as any Substrate-based chain such as Polkadot and Kusama
 * Because there are two node services are running, `--` is used to split the CLI. Arguments before `--` are passed to the parachain full-node service and arguments after `--` is passed to the Relay Chain full-node service.
-  * For example `--chain=parachain.json --ws-port=9944 -- --chain=relaychain.json --ws-port=9945` means
+  * For example `--chain=parachain.json --rpc-port=9944 -- --chain=relaychain.json --rpc-port=9945` means
     * The parachain service is using `parachain.json` as the chain spec and the web socket RPC port is 9944
     *   The Relay Chain service is using `relaychain.json` as the chain spec and the web socket
 
@@ -53,13 +53,10 @@ The benchmark result will look similar to this: ![](../../networks/home/integrat
 --chain=karura
 --name=rpc-1
 --pruning=archive
---ws-external
 --rpc-external
 --rpc-cors=all
---ws-port=9944
---rpc-port=9933
---ws-max-connections=2000
---execution=wasm
+--rpc-port=9944
+--rpc-max-connections=2000
 --
 --chain=kusama
 ```
