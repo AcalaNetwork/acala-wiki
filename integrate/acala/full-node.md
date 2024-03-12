@@ -14,7 +14,7 @@ Shows the latest release version of Acala, Karura & Mandala
 
 * Clone the repo: [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)
 * Checkout tag here: [https://github.com/AcalaNetwork/Acala/tags](https://github.com/AcalaNetwork/Acala/tags)
-* Install dependencies
+* Install dependencies using instructions from [here](https://github.com/AcalaNetwork/Acala?tab=readme-ov-file#3-building)
 * Build Acala: `cargo build --release --features with-acala-runtime`
 * Run `./target/release acala --chain=acala`
 
