@@ -9,7 +9,7 @@ description: >-
 
 ## General Discussion & Support
 
-[Discord](https://www.acala.gg/) **|** [Discourse Forum](https://acala.discourse.group/) **|** [Riot](https://riot.im/app/#/room/#acala:matrix.org) **|** [General Enquiry Email](mailto:hello@acala.network)
+[Discord](https://discord.gg/7vHp97RrQF) **|** [Discourse Forum](https://acala.discourse.group/) **|** [Riot](https://riot.im/app/#/room/#acala:matrix.org) **|** [General Enquiry Email](mailto:hello@acala.network)
 
 Issues can be raised directly in the respective [Github](https://github.com/AcalaNetwork) repo or via Riot channel
 
@@ -17,11 +17,11 @@ Issues can be raised directly in the respective [Github](https://github.com/Acal
 
 #### Acala&#x20;
 
-[Discord](https://www.acala.gg/) | [Twitter](https://twitter.com/AcalaNetwork) | [Telegram](https://t.me/AcalaAnnouncement) **|** [Medium](https://medium.com/acalanetwork) | [Facebook](https://www.facebook.com/acalanetwork/) | [LinkedIn](https://www.linkedin.com/company/acalanetwork) | [Reddit](https://www.reddit.com/r/acalanetwork) | [YouTube](http://youtube.com/c/acalanetwork)
+[Discord](https://discord.gg/7vHp97RrQF) | [Twitter](https://twitter.com/AcalaNetwork) | [Telegram](https://t.me/AcalaAnnouncement) **|** [Medium](https://medium.com/acalanetwork) | [Facebook](https://www.facebook.com/acalanetwork/) | [LinkedIn](https://www.linkedin.com/company/acalanetwork) | [Reddit](https://www.reddit.com/r/acalanetwork) | [YouTube](http://youtube.com/c/acalanetwork)
 
 #### **Karura**
 
-[Discord](https://www.acala.gg/) | [Twitter](https://twitter.com/KaruraNetwork) | [Telegram](https://t.me/karuraannouncements) **|** [LinkedIn](https://www.linkedin.com/showcase/karuranetwork/) | [Reddit](https://www.reddit.com/r/karuranetwork)&#x20;
+[Discord](https://discord.gg/7vHp97RrQF) | [Twitter](https://twitter.com/KaruraNetwork) | [Telegram](https://t.me/karuraannouncements) **|** [LinkedIn](https://www.linkedin.com/showcase/karuranetwork/) | [Reddit](https://www.reddit.com/r/karuranetwork)&#x20;
 
 For more updates on the Acala and Karura ecosystems, subscribe to the [newsletter](https://share.hsforms.com/1X9RxkXk-R62I0VNbATaDXw4h8qc).
 
