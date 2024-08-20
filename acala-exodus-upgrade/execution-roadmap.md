@@ -1,62 +1,69 @@
 # Execution Roadmap
 
 {% hint style="warning" %}
-The following documentation outlines the intended features and processes that Acala Exodus Upgrade intends to implement in the future. This document will continue to be updated and reviewed as we progress with the Exodus Upgrade. Please note that certain sections may contain inaccuracies or outdated information.
+The following documentation outlines the intended features and processes that Acala Sinai Upgrade intends to implement in the future. This document will continue to be updated and reviewed as we progress with the Sinai Upgrade. Please note that certain sections may contain inaccuracies or outdated information.
 {% endhint %}
 
 ## Execution Roadmap
 
-<figure><img src="https://lh6.googleusercontent.com/9mtrU6kxF3L3547AoNJhwpL1pj4M-esxh71KUxPk-qghvPDbao5mKObkPzRf7-77a7tEWABxhgMweoBOaSTp8uyttEzxqZ0mbQ_iwu-g8wBo8wq-OE_YGhphcnepwaUmkBbyj8if3ZyqoAwTOFFJSas" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sinai upgrade image1.png" alt=""><figcaption></figcaption></figure>
 
 ## Execution Status
 
-* [x] Approval Vote ([here](https://twitter.com/AcalaNetwork/status/1669606148209778688?s=20))
-* [x] aSEED I: aUSD Conversion ([here](https://twitter.com/AcalaNetwork/status/1681919546691842049?s=20), [here](https://twitter.com/AcalaNetwork/status/1679339060857556993?s=20))
-* [x] aSEED II: Vault Conversion
+* [x] One-Click MultiChain Cross-stack DeFi
+* [ ] Ethereum, Solana & L2 chain Liquidity Integration
+* [ ] LSTFi Ecosystem Expansion
+* [ ] Euphrates Goes Multichain
+* [ ] Open Gov Upgrade
+* [x] Cross Chain Security
+* [ ] Performance Upgrade: Asynchronous Backing
+* [ ] JAM Service Research & Development
+* [x] aSEED II: Conversion
 * [ ] aSEED III: Redemption
-* [x] ACA I: Emission ([targeting Aug 15](https://twitter.com/AcalaNetwork/status/1678955311561076737?s=20))
-* [x] ACA II: Staking
-* [x] ACA III: Security, Dynamic Voting
-* [x] UHA I: Acala Multichain Asset Router & LSTs
-* [x] UHA II: Euphrates&#x20;
-* [ ] UHA III Multichain
 
-To kick off the Exodus Plan, an approval vote will be put forward for the general direction proposed. Each component of the Exodus Plan will be rolled out in phases.
+The Sinai Upgrade is the next major phase of Acala’s technological advancement, following the successful completion of the Exodus upgrade. This section outlines the objectives and key features of the Sinai Upgrade.
 
-### ACA Tokenomics I: Emission
+#### One-Click MultiChain Cross-stack DeFi
 
-Proposal and vote for new ACA emission and burn schedule. On-chain Treasury can be used to store the emission before actual distribution to pools and dApps etc. as some of which will require specific governance voting.
+This innovative feature streamlines the process of interacting with multiple blockchain ecosystems through a single, user-friendly interface. By enabling seamless cross-chain transactions, Acala aims to significantly reduce the complexity and improve the efficiency of accessing diverse DeFi products across different blockchains. Acala has taken user experience as a top priority when building new products.&#x20;
 
-### ACA Tokenomics II: Staking
+#### Ethereum, Solana & L2 chain Liquidity Integration
 
-Deliver the ACA Farm pallet to provide ACA Staking and receive multiple reward tokens. ACA holders (including stakers) will vote for ACA emission distribution to liquidity programs. LST projects and dApps can deposit token contributions to the ACA Farm pallets.
+Acala Network will expand its interoperability by integrating liquidity from Ethereum, Solana, and various Layer 2 (L2) chains. This upcoming enhancement will allow for smoother asset transfers and greater access to a diverse range of decentralized finance (DeFi) opportunities across these leading blockchain networks. Read more about the liquidity integration in this [article](https://medium.com/acalanetwork/the-new-frontier-of-restaking-and-yield-bearing-lp-pools-on-acala-4cd4ac23e9b7).&#x20;
 
-### ACA Tokenomics III: Add Security, Dynamics Voting
+#### LSTFi Ecosystem Expansion
 
-Deliver pallet code to use locked assets in case of network shortfall. Proposal and vote for security parameters. In addition, there is more optimisation of II, delivering pallets that enable the following functionalities: voting for ACA emission distribution can be dynamically weighted based on vote participation, and LST projects and dApps token contributions to ACA Farm can be done via Smart Contract that is tied to emission governance, making the entire process more autonomous.
+Acala Network  is set to broaden its DeFi landscape focusing on the enhancement and diversification of Liquid Staking Token Finance (LSTFi). This initiative will introduce new products and partnerships that leverage the benefits of liquid staking tokens, offering users more flexibility and yield-generating opportunities. As part of this expansion, the platform will integrate additional staking options and financial instruments designed to optimize liquidity and yield. This strategic development of native and non-native products will not only enrich our current offerings but also attract a wider audience, establishing a more robust and versatile DeFi ecosystem.
 
-### aSEED I: aUSD Conversion
+#### Euphrates Goes Multichain
 
-Prepare proposal and vote for parameter changes to aUSD Honzon protocol e.g. setting debt ceiling = 0 to cap aUSD issuance, pause oracle and liquidation etc. Prepare proposal and vote for aUSD conversion to aSEED such that all aUSD holders will then hold aSEED, aUSD pools will become aSEED pools, aUSD LPs will become aSEED LPs. aUSD and aUSD pools on other parachains can be coordinated for the conversion to continue support aSEED. Vault owners can still close vaults.
+The [Euphrates platform](https://farm.acala.network/), known for its boosted liquid staking capabilities, will extend its reach across multiple popular blockchain networks. This strategic enhancement aims to funnel liquidity into various applications across different chains, thereby maximizing user rewards and broadening investment opportunities. By integrating with multiple chains, Euphrates will enhance its ability to attract diverse pools of liquidity. This expansion supports a seamless and efficient interaction for users, reinforcing Euphrates’ position as a leader in innovative staking solutions.
 
-### aSEED II: Vault Conversion
+#### Open Gov Upgrade
 
-Deliver the conversion pallet that can take % of the collateral in a vault, put it into the aSEED treasury and return the remaining collateral to the vault owner. This can be voted to execute at a specific later time so that vault owners would have sufficient time to prepare.
+The Open Gov Upgrade marks a transformative step in enhancing our on-chain governance system by adopting a model used within the Polkadot ecosystem. This change will better democratize decision-making processes, allowing for more transparent and community-driven governance. ACA holders will be able to propose, vote on, and implement changes directly within the ecosystem, ensuring that the platform remains responsive to the needs and preferences of its community. The upgrade will introduce mechanisms for greater participation and accountability, fostering a more inclusive and adaptable governance framework.
 
-### aSEED III: Redemption
+#### Cross Chain Security Enhancement
 
-Prepare proposal and vote for redemption criteria e.g. after 12 months and aSEED underlying value >= $1. Deliver redemption pallet code for aSEED redemption for aSEED treasury assets.
+Recognizing the critical importance of robust security in a multichain landscape, we are committed to enhancing protective measures across blockchain networks. To this end, we have introduced Sentinel, an open-source tool that currently offers essential functionalities like rate limiting between parachains to maintain network stability and prevent misuse. As we continue to expand our multichain capabilities, Sentinel will evolve to include more advanced security features. These enhancements will fortify our cross-chain security framework, providing comprehensive protection against a broader spectrum of vulnerabilities and attacks, ensuring a safer and more reliable blockchain environment for all users.
 
-### UAH I: Infrastructure and onboard/boost LSTs
+#### Performance Upgrade: Asynchronous Backing
 
-Launch UAH infrastructure such as Acala Multichain Asset Router, launch liquidity programs for LST pools and partners
+The Acala network is set to undergo a significant performance upgrade through the implementation of asynchronous backing. This advanced feature is designed to enhance the network's throughput and efficiency by allowing transactions to be processed in a non-linear, asynchronous manner. This upgrade is critical for supporting higher transaction volumes and providing a smoother, faster user experience, aligning with Acala’s commitment to scalable and robust blockchain solutions.
 
-### UAH II: Euphrates dApp
+#### JAM Service Research & Development
 
-Deliver the smart contract dApp on UAH, initially supporting boosted vaults for DOT LSTs. This will be one of the first examples where ACA emission gets distributed to boost a dApp, and LST project tokens are contributed to ACA Farm.
+The Acala team is actively involved in the research and development of the newly introduced Polkadot JAM chain. By leveraging our expertise in development in blockchain technology, we aim to enhance and refine the functionalities of this cutting-edge chain. This initiative allows us to advance decentralized technologies and further cement our leadership in the blockchain industry.
 
-### UAH III: Multichain LSTs
+#### aSEED II: Vault Conversion
 
-Launch a pipeline of other L1 LSTs and LSTFi dApps. Incubate or deploy dApps that enable DOT holders to get exposure to multichain e.g. Ethereum staking yield and vice versa.
+We are developing a conversion pallet designed to allow a percentage of the collateral in a vault to be transferred to the aSEED treasury, while the remaining collateral is returned to the vault owner. Additionally, this conversion can be scheduled to execute at a future date, providing vault owners ample time to prepare for the changes.
+
+#### aSEED III: Redemption
+
+We are preparing to implement a redemption mechanism for aSEED by drafting proposals and establishing voting protocols for redemption criteria, such as eligibility after 12 months with the underlying aSEED value being at least $1. The delivery of the redemption pallet code will enable the redemption of aSEED using treasury assets, allowing users to exit their aSEED positions.
+
+\
+
 
 \

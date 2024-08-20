@@ -32,7 +32,7 @@ Your sub-module will be pulled into the [ecosystem-modules](https://github.com/A
 
 Once you have completed development, please submit your repo and our tech team will help review and provide feedback before pull into our repo.
 
-**4. Testnet Deployment** [Acala Mandala Test Network](../../get-started/networks.md) is a live no-value testnet to verify new chain logics and functionalities. Your module once passed the review, can be deployed on Mandala via runtime upgrade.
+**4. Testnet Deployment** [Acala Mandala Test Network](broken-reference) is a live no-value testnet to verify new chain logics and functionalities. Your module once passed the review, can be deployed on Mandala via runtime upgrade.
 
 **5. Audit** Module level integration in essence changes chain logic to the Acala Network, while it offers project team highest level of flexibility and customization, it also puts responsibility on Acala to ensure the code is secure and fit for purpose, and does no pose unintended consequences to the overall chain operation. Therefore we will perform security audit on modules added to Acala, and we will be in touch when that happens.
 

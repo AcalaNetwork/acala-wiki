@@ -1,29 +1,28 @@
-# Acala 2.0: Exodus Upgrade
+# Overview
 
 {% hint style="warning" %}
-_The following documentation outlines the intended features and processes that Acala Exodus Upgrade intends to implement in the future. This document will continue to be updated and reviewed as we progress with the Exodus Upgrade. Please note that certain sections may contain inaccuracies or outdated information._
+_The following documentation outlines the intended features and processes that Acala Sinai Upgrade intends to implement in the future. This document will continue to be updated and reviewed as we progress with the Sinai Upgrade. Please note that certain sections may contain inaccuracies or outdated information._
 {% endhint %}
 
 ## Overview
 
-_Exodus is a story of courage and breaking new ground, having faith in what you believe in, and acting upon it with hard work and determination despite adversity. So Acala is determined to build for web3 finance vision, and this plan is to break old molds and pave new ways forward._
+_The Sinai Upgrade, akin to the biblical Mount Sinai where transformative revelations were received, marks the next major phase in Acala’s journey of innovation and growth. It is a testament to our unwavering faith in the vision of web3 finance, our commitment to overcoming challenges, and our dedication to creating a sustainable and prosperous future._&#x20;
 
-The Exodus Upgrade aims to overhaul and upgrade the Acala Network protocols for long-term self-sustainability and growth. This plan will provide a path forward for the aUSD product line, address the fundamental challenges of liquidity and adoption, propose a new product roadmap and refreshed tokenomics to build captive and sustainable liquidity and prosperity. This will enable Acala to deliver the unbiased prosperity vision with infrastructures and protocols essential to the evolving crypto ecosystem, a new global economy and better individual financial prospects.
+Following the successful Exodus Upgrade, the Sinai Upgrade aims to elevate the Acala Network to new heights, introducing ground-breaking features and enhancements for a robust and dynamic DeFi ecosystem.
 
-The goals of the Acala Exodus Upgrade
+The goals of the Acala Sinai Upgrade
 
-* Provide a path forward for aUSD with options to exit existing positions or continue to ride with Acala’s growth
-* Build the liquidity layer of web3 finance including LSTFi focused Universal Asset Hub that has sustainable and captive liquidity&#x20;
-* Upgrade ACA to boost ACA utility and support sustainable network growth
+* Improve infrastructure on a performance, security and governance level.
+* Build the liquidity layer of web3 finance including Multi-chain LSTFi&#x20;
+* Complete the path of aSEED
 
-See the original plan [here](https://acala.discourse.group/t/acala-exodus-plan/2125).
+See the original plan [here](https://acala.discourse.group/t/acala-sinai-upgrade-a-liquidity-layer-for-all-l0s-l1s-l2s-and-lxs/2298).
 
 ## Roadmap
 
-* Overview of Acala 2.0 ([tweet thread](https://twitter.com/AcalaNetwork/status/1668272031564021760?s=20))
-* aSEED: a path forward for aUSD and share growth of Acala ([tweet thread](https://twitter.com/AcalaNetwork/status/1676788072107905025?s=20))
-* ACA upgrade: boosting ACA and share Acala growth ([tweet thread](https://twitter.com/AcalaNetwork/status/1678955311561076737?s=20))
-* Euphrates liquidity DApp for boosted staking is now Live ([tweet thread](https://x.com/AcalaNetwork/status/1706600178629955814?s=20))
+* Overview of the Sinai Upgrade ([X article](https://x.com/AcalaNetwork/status/1778115130108108824))
+* Sentinel providing cross chain security ([X article](https://x.com/AcalaNetwork/status/1773019267555864668))
+* aSeed Conversion on Karura ([Karura subsquare](https://karura.subsquare.io/democracy/referenda/104))
 
 {% content-ref url="execution-roadmap.md" %}
 [execution-roadmap.md](execution-roadmap.md)

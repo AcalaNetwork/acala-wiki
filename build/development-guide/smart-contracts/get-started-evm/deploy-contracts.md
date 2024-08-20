@@ -22,7 +22,7 @@ After your EVM wallet is connected to the Acala EVM+, you can continue to the [E
 
 To deploy to our test network you need to have the [polkadot{.js}](https://polkadot.js.org/extension/) wallet extension installed in your browser.
 
-Once you have the extension installed, you can [bind your accounts](evm-account.md#2.-bind-an-existing-ethereum-account) with an EVM address and get test network funds from the [Discord faucet](../../../../get-started/networks.md#faucet).
+Once you have the extension installed, you can [bind your accounts](evm-account.md#2.-bind-an-existing-ethereum-account) with an EVM address and get test network funds from the [Discord faucet](broken-reference).
 
 {% hint style="info" %}
 **Note:** For the remainder of this page we will assume you are using a local development network. If you are deploying to the test network.
