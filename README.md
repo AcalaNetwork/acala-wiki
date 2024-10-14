@@ -15,7 +15,7 @@ If you're looking for an introduction to Acala please [go here](learn/acala-intr
 * [Acala Dollar](https://docs.acaladollar.app/)
 * [AcalaSwap](https://docs.acalaswap.app/)
 * [Homa Liquid Staking](https://docs.homastaking.app/)
-* [Acala Apps](https://guide.acalaapps.wiki/)
+* [Acala Apps](https://wiki-apps.acala.network/)
 * [Karura Apps](https://wiki.karura.app/)
 * [EVM+ Documentation](https://evmdocs.acala.network)
 
