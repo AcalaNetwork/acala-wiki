@@ -18,4 +18,4 @@ See [https://evmdocs.acala.network/network/network-configuration#mandala-testnet
 
 ### Faucet
 
-* [On Discord in the #acala-testnet-faucet Channel](https://www.acala.gg/)
+* [On Discord in the #acala-testnet-faucet Channel](https://discord.gg/5JJgXKSznc)

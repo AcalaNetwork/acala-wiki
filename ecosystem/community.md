@@ -9,7 +9,7 @@ description: >-
 
 ## General Discussion & Support
 
-[Discord](https://discord.gg/xZfRD6rVfJ) **|** [Discourse Forum](https://acala.discourse.group/) **|** [Riot](https://riot.im/app/#/room/#acala:matrix.org) **|** [General Enquiry Email](mailto:hello@acala.network)
+[Discord](https://discord.gg/5JJgXKSznc) **|** [Discourse Forum](https://acala.discourse.group/)  **|** [General Enquiry Email](mailto:hello@acala.network)
 
 Issues can be raised directly in the respective [Github](https://github.com/AcalaNetwork) repo or via Riot channel
 

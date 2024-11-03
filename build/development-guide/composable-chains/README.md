@@ -2,8 +2,6 @@
 
 Currently, cross-chain message passing and parachains are available on Polkadot/Kusama. Acala/Karura is now launched on Polkadot/Kusama, and is testing cross-chain fungible token transfers, and other functionalities.
 
-Please contact us in our [Discord tech chat](https://www.acala.gg/) if you need support.
-
 ## Composable With Acala
 
 * Karura is live on Kusama [here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/parachains)

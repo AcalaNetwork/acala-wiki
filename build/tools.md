@@ -12,16 +12,16 @@
 
 ### Supported Wallets
 
-| Wallet Name                                                    | Development State                                                                                                                            | Team Name   | Description                         |
-| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------- |
-| [Acala DApp](https://apps.acala.network/)                      | Live                                                                                                                                         | Acala       | Browser                             |
-| [Polkawallet](https://polkawallet.io/)                         | Live                                                                                                                                         | Polkawallet | IOS and Android                     |
-| [Signer](https://www.parity.io/signer/)                        | Building                                                                                                                                     | Parity      | IOS and Android                     |
-| [Polkadot-JS](https://polkadot.js.org/apps/#/accounts)         | Live                                                                                                                                         | Parity      | Browser                             |
-| [Talisman](https://talisman.xyz/)                              | Live                                                                                                                                         | Talisman    | Browser extension & Browser         |
-| [SubWallet](https://subwallet.app/)                            | Live [\[for Acala\]](https://docs.subwallet.app/dapps-user-guide/acala) [\[for Karura\]](https://docs.subwallet.app/dapps-user-guide/karura) | SubWallet   | Browser extension & IOS and Android |
-| [Enkrypt](https://www.enkrypt.com/?mtm_campaign=Acala%20Wiki%20-%20Supported%20Wallets)                      | Live                                                                                                                                         | MyEtherWallet       | Browser extension & Browser           |
-| [Polkadot.JS Plugin](https://github.com/polkadot-js/extension) | Building                                                                                                                                     | Parity      | Browser extension                   |
+| Wallet Name                                                                              | Development State                                                                                                                            | Team Name     | Description                         |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----------------------------------- |
+| [Acala DApp](https://apps.acala.network/)                                                | Live                                                                                                                                         | Acala         | Browser                             |
+| [Polkawallet](https://polkawallet.io/)                                                   | Live                                                                                                                                         | Polkawallet   | IOS and Android                     |
+| [Signer](https://www.parity.io/signer/)                                                  | Building                                                                                                                                     | Parity        | IOS and Android                     |
+| [Polkadot-JS](https://polkadot.js.org/apps/#/accounts)                                   | Live                                                                                                                                         | Parity        | Browser                             |
+| [Talisman](https://talisman.xyz/)                                                        | Live                                                                                                                                         | Talisman      | Browser extension & Browser         |
+| [SubWallet](https://subwallet.app/)                                                      | Live [\[for Acala\]](https://docs.subwallet.app/dapps-user-guide/acala) [\[for Karura\]](https://docs.subwallet.app/dapps-user-guide/karura) | SubWallet     | Browser extension & IOS and Android |
+| [Enkrypt](https://www.enkrypt.com/?mtm\_campaign=Acala%20Wiki%20-%20Supported%20Wallets) | Live                                                                                                                                         | MyEtherWallet | Browser extension & Browser         |
+| [Polkadot.JS Plugin](https://github.com/polkadot-js/extension)                           | Building                                                                                                                                     | Parity        | Browser extension                   |
 
 ## Network Monitoring & Reporting
 
@@ -39,8 +39,7 @@
 
 ## Faucet
 
-* [Faucet-bot](https://github.com/AcalaNetwork/faucet-bot) - the code for Riot and Discord faucet bot.
-* [Discord Faucet Channel ](https://www.acala.gg/)- Discord faucet channel.
+* [Discord Faucet Channel](https://discord.gg/5JJgXKSznc) - Discord faucet channel.
 
 ## Collateral Auction & Liquidation Bot
 

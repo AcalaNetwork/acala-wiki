@@ -43,7 +43,7 @@ If you haven't yet installed the Polkadot{js} extension and created an account, 
 
 If the account is created and the extension is installed correctly, the account should be available in the `using the selected account` dropdown.
 
-In case you have no funds in the Substrate account, please use the #acala-testnet-faucet channel in our [Discord](https://www.acala.gg/), to get some. You will need the funds to sent the transaction to bind the Substrate and EVM accounts.
+In case you have no funds in the Substrate account, please use the #acala-testnet-faucet channel in our [Discord](https://discord.gg/5JJgXKSznc), to get some. You will need the funds to sent the transaction to bind the Substrate and EVM accounts.
 
 **Step 2: Select the correct extrinsic**
 

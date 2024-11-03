@@ -2,7 +2,7 @@
 
 ## Start Here
 
-* **Join** [**Acala Official Discord**](https://www.acala.gg/) to explore DeFi on Polkadot, for product and technical questions
+* **Join** [**Acala Official Discord**](https://discord.gg/5JJgXKSznc) to explore DeFi on Polkadot, for product and technical questions
 * [**Watch**](https://www.crowdcast.io/e/acala-ethdenver-2021) the webinar: **Deploying your Ethereum Project on Polkadot & Acala**
 
 ## Resources
