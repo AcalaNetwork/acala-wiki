@@ -34,7 +34,6 @@ If you're looking for an introduction to Acala please [go here](learn/acala-intr
 ### Want to maintain the network?
 
 * [Integration Guide](broken-reference) - Information covering running a node on the Acala and Karura Network.
-* [Oracle Overview](build/guides/set-up-an-oracle/) - Provide pricing information for assets on the Acala and Karura Network.
 
 ### Resources
 
