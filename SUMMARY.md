@@ -147,6 +147,7 @@
   * [Acala Old Friend NFT](ecosystem/contribution-rewards/acala-old-friend-nft.md)
 * [Ecosystem](https://acala.network/ecosystem)
 * [Media Kits](ecosystem/media-kits.md)
+* [Ledger Generic App Migration](ecosystem/ledger-generic-app-migration.md)
 
 ## Crowdloans
 
