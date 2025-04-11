@@ -6,7 +6,7 @@ You can check if your machine satisfy the spec requirement by using the followin
 
 ```
 // If you are running docker image:
-docker run acala/karura-node:latest benchmark machine --chain=karura
+docker run acala/acala-node:latest benchmark machine --chain=karura
 
 // If you are using dev environment:
 make benchmark-machine
@@ -20,16 +20,16 @@ The benchmark result will look similar to this: ![](../../networks/home/integrat
 
 ## Run from Source Code
 
-* Clone the repo: [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)
-* Checkout tag here: [https://github.com/AcalaNetwork/Acala/tags](https://github.com/AcalaNetwork/Acala/tags)
-  Install dependencies using instructions from [here](https://github.com/AcalaNetwork/Acala?tab=readme-ov-file#3-building)
-* Build Karura: `cargo build --release --features with-karura-runtime`
-* Run `./target/release acala --chain=karura`
+* Clone the repo: [https://github.com/AcalaNetwork/acala-node](https://github.com/AcalaNetwork/acala-node)
+* Checkout tag here: [https://github.com/AcalaNetwork/acala-node/tags](https://github.com/AcalaNetwork/acala-node/tags)
+  Install dependencies using instructions from [here](https://github.com/AcalaNetwork/acala-node?tab=readme-ov-file#building)
+* Build Karura: `cargo build --release`
+* Run `./target/release/acala --chain=karura`
 
 ## Using Docker
 
-* Image: `acala/karura-node:latest` or `acala/karura-node:[version number]`
-* `docker run acala/karura-node:latest --chain=karura`
+* Image: `acala/acala-node:latest` or `acala/acala-node:[version number]`
+* `docker run acala/acala-node:latest --chain=karura`
 
 ## Common CLI
 
@@ -43,6 +43,7 @@ The benchmark result will look similar to this: ![](../../networks/home/integrat
 * It is recommended to explicitly specify the ports for both services to avoid confusion
   * For example `--listen-addr=/ip4/0.0.0.0/tcp/30333 --listen-addr=/ip4/0.0.0.0/tcp/30334/ws -- --listen-addr=/ip4/0.0.0.0/tcp/30335 --listen-addr=/ip4/0.0.0.0/tcp/30336/ws`
 * It is recommended to add `--execution=wasm` for parachain service to avoid syncing issues.
+* It is recommended to add `--relay-chain-rpc-url` or `--relay-chain-rpc-urls` for parachain service to avoid fully sync with the relay chain to work, so in general, they will use fewer system resources.
 
 ## Example CLI
 
@@ -57,6 +58,5 @@ The benchmark result will look similar to this: ![](../../networks/home/integrat
 --rpc-cors=all
 --rpc-port=9944
 --rpc-max-connections=2000
---
---chain=kusama
+--relay-chain-rpc-url=wss://kusama-rpc.publicnode.com
 ```
