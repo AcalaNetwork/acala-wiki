@@ -43,6 +43,5 @@ Acala Collator needs Aura session key. RPC `author_rotateKeys` or `author_insert
 --name=collator-1
 --collator
 --execution=wasm
---
---chain=polkadot
+--relay-chain-rpc-url=wss://polkadot-rpc.publicnode.com
 ```

@@ -68,6 +68,5 @@ Karura Collators need to ensure their machines satisfy the minimum spec requirem
 --name=collator-1
 --collator
 --execution=wasm
---
---chain=kusama
+--relay-chain-rpc-url=wss://kusama-rpc.publicnode.com
 ```

@@ -12,11 +12,11 @@ Shows the latest release version of Acala, Karura & Mandala
 
 ## Run from Source Code
 
-* Clone the repo: [https://github.com/AcalaNetwork/Acala](https://github.com/AcalaNetwork/Acala)
-* Checkout tag here: [https://github.com/AcalaNetwork/Acala/tags](https://github.com/AcalaNetwork/Acala/tags)
-* Install dependencies using instructions from [here](https://github.com/AcalaNetwork/Acala?tab=readme-ov-file#3-building)
-* Build Acala: `cargo build --release --features with-acala-runtime`
-* Run `./target/release acala --chain=acala`
+* Clone the repo: [https://github.com/AcalaNetwork/acala-node](https://github.com/AcalaNetwork/acala-node)
+* Checkout tag here: [https://github.com/AcalaNetwork/acala-node/tags](https://github.com/AcalaNetwork/acala-node/tags)
+* Install dependencies using instructions from [here](https://github.com/AcalaNetwork/acala-node?tab=readme-ov-file#building)
+* Build Acala: `cargo build --release
+* Run `./target/release/acala --chain=acala`
 
 ## Using Docker
 
@@ -35,6 +35,7 @@ Shows the latest release version of Acala, Karura & Mandala
 * It is recommended to explicitly specify the ports for both services to avoid confusion
   * For example `--listen-addr=/ip4/0.0.0.0/tcp/30333 --listen-addr=/ip4/0.0.0.0/tcp/30334/ws -- --listen-addr=/ip4/0.0.0.0/tcp/30335 --listen-addr=/ip4/0.0.0.0/tcp/30336/ws`
 * It is recommended to add `--execution=wasm` for parachain service to avoid syncing issues.
+* It is recommended to add `--relay-chain-rpc-url` or `--relay-chain-rpc-urls` for parachain service to avoid fully sync with the relay chain to work, so in general, they will use fewer system resources.
 
 ## Example CLI
 
@@ -49,6 +50,5 @@ Shows the latest release version of Acala, Karura & Mandala
 --rpc-cors=all
 --rpc-port=9944
 --rpc-max-connections=2000
---
---chain=polkadot
+--relay-chain-rpc-url=wss://polkadot-rpc.publicnode.com
 ```
