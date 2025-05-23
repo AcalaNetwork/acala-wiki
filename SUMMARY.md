@@ -8,6 +8,7 @@
 * [Execution Roadmap](acala-exodus-upgrade/execution-roadmap.md)
 * [aUSD SEED (aSEED)](acala-exodus-upgrade/ausd-seed-aseed/README.md)
   * [aSEED Integration Guide](acala-exodus-upgrade/ausd-seed-aseed/aseed-integration-guide.md)
+  * [aSEED Redemption Guide](acala-exodus-upgrade/ausd-seed-aseed/aseed-redemption-guide.md)
 * [ACA](acala-exodus-upgrade/aca/README.md)
   * [ACA/KAR Staking](acala-exodus-upgrade/aca/aca-kar-staking.md)
 * [Universal Asset Hub (UAH)](acala-exodus-upgrade/universal-asset-hub-uah.md)

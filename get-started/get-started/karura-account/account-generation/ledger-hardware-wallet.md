@@ -37,7 +37,7 @@ You can find the tutorial from Ledger above, or follow steps below:
 
     3.2. **Click** and expand **Kusama & Parachains** then **select** **Karura** via any of the RPCs listed and **click Switch**\
     ![](<../../../../.gitbook/assets/image (39).png>)
-4. **Go** to Settings**, click** manage hardware connection**,** and **select**:\
+4. **Go** to Setting&#x73;**, click** manage hardware connectio&#x6E;**,** and **select**:\
    4.1. **Attach Ledger via WebHID** if you are on macOS or Linux.\
    4.2. A**ttach Ledger via WebUSD** if you are on Windows.\
    4.3. **Click** Save

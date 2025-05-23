@@ -21,7 +21,7 @@ description: Thank you for contributing to the Karura crowdloan!! 🚀
   * **1,001-9,999 KSM:** 50 (0.35%)
   * **>10k KSM:** 6 (0.04%)
 
-![](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MAz4EenwXLth\_HO\_hmJ-887967055%2Fuploads%2FgAnqBIhHtdz96XQET2MK%2Ffile.png?alt=media)
+![](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MAz4EenwXLth_HO_hmJ-887967055%2Fuploads%2FgAnqBIhHtdz96XQET2MK%2Ffile.png?alt=media)
 
 ## 2. Reward Stats
 
@@ -34,8 +34,8 @@ description: Thank you for contributing to the Karura crowdloan!! 🚀
 
 * **Base reward**: **19.95 KAR for every 1 KSM contributed**
 * **Referral bonus**: 5% additional KAR for the referee, 5% for the referrer when a referral link used
-* **Early Bird bonus (**Block 7830327-7873712**):** 10% additional KAR for contribution during the first 3 days of the Karura crowdloan
-* **Auction Kickoff bonus (**Block 7923125-7920725**):** 5% additional KAR for contributing between 4 hours before the auction and the end of auction phase one
+* **Early Bird bonus (**&#x42;lock 7830327-787371&#x32;**):** 10% additional KAR for contribution during the first 3 days of the Karura crowdloan
+* **Auction Kickoff bonus (**&#x42;lock 7923125-792072&#x35;**):** 5% additional KAR for contributing between 4 hours before the auction and the end of auction phase one
 * **Other:**&#x20;
   * 5% referral bonuses is given to the keen ones who contributed in the first 2 hours of Karura crowdloan without a referral
 
