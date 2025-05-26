@@ -1,12 +1,10 @@
 # aSEED Redemption Guide
 
-aSEED Redemption went live after the passing of governance proposal \_\_\_. aSEED holders are free to redeem aSEED's underlying assets from the aSEED treasury.&#x20;
+aSEED Redemption went live after the passing of governance proposal [140](https://acala.subsquare.io/democracy/referenda/140). aSEED holders are free to redeem aSEED's underlying assets from the aSEED treasury.&#x20;
 
 ## Video
 
-{% file src="../../.gitbook/assets/Redeem aSEED.mp4" %}
-aSEED Redemption
-{% endfile %}
+{% embed url="https://youtu.be/2e77MhAVBgE" %}
 
 ## aSEED Redemption
 
