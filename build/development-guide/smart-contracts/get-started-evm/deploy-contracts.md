@@ -64,7 +64,7 @@ Upload `ExampleToken` ABI & bytecode file by navigating to [https://evm.acala.ne
 
 Go to the `Upload` tab.
 
-![EVM playground => Upload](<../../../../.gitbook/assets/image (2).png>)
+![EVM playground => Upload](<../../../../.gitbook/assets/image (2) (2).png>)
 
 Assign the `Name` of your smart contract. You will be able to identify the smart contract in the `Deploy` tab with it, once it gets uploaded.
 

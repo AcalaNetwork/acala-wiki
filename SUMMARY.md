@@ -11,6 +11,9 @@
   * [aSEED Redemption Guide](acala-exodus-upgrade/ausd-seed-aseed/aseed-redemption-guide.md)
 * [ACA](acala-exodus-upgrade/aca/README.md)
   * [ACA/KAR Staking](acala-exodus-upgrade/aca/aca-kar-staking.md)
+* [LDOT](acala-exodus-upgrade/ldot/README.md)
+  * [Validator Candidate Guide](acala-exodus-upgrade/ldot/validator-candidate-guide.md)
+  * [Validator Voting Guide](acala-exodus-upgrade/ldot/validator-voting-guide.md)
 * [Universal Asset Hub (UAH)](acala-exodus-upgrade/universal-asset-hub-uah.md)
 * [Euphrates DApp](https://farm.acala.network/)
 
