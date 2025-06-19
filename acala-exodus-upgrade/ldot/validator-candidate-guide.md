@@ -1,16 +1,14 @@
----
-description: Below are the steps to become a LDOT validator candidate
----
-
 # Validator Candidate Guide
+
+To become an LDOT validator, candidates must bond LDOT as insurance. Once 10,000 LDOT is bonded, the validator becomes eligible for voting in the Validators section. This bond can be slashed, therefore proceed only if you fully understand the risks. Eligibility does not guarantee selection as only the top 16 validators, chosen by LDOT nominators, are included in the active set.
 
 ### How to Start a Candidate
 
 1. Visit [https://apps.acala.network/ldot/candidates](https://apps.acala.network/ldot/candidates) or select the Candidates tab within the Liquid Staking tab on the Acala dApp.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-09 at 9.40.18 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 
-2. Click Add Candidate, enter your validator address, the amount to bind, (minimum of 1000 LDOT) and click Submit.&#x20;
+1. Click Add Candidate, enter your validator address, the amount to bind, (minimum of 1000 LDOT) and click Submit.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-09 at 9.42.42 AM (1).png" alt=""><figcaption></figcaption></figure>
 
