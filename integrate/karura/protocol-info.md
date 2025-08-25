@@ -91,7 +91,7 @@ Please also refer to the [documentation of polkadot.js](https://polkadot.js.org/
 
 ## Polkadot apps
 
-[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc.dwellir.com#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc.dwellir.com#/explorer)
+[https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc.n.dwellir.com#/explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkarura-rpc.n.dwellir.com#/explorer)
 
 ## Explorer
 
