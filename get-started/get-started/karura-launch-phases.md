@@ -67,8 +67,6 @@ Read more [here](../../learn/governance-overview/participate-in-democracy.md).
 
 Sudo module will be removed via a runtime upgrade, and the Karura network will be governed by on-chain governance and token holders hereafter.&#x20;
 
-Read more [here](https://acala.discourse.group/t/1-karura-runtime-upgrade-disable-sudo-enable-token-transfers/163).
-
 ## 🚃 (Done) Enable Balance Transfers
 
 Balance transfers within the Karura network are restricted until this point.&#x20;

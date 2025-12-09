@@ -16,8 +16,6 @@ The goals of the Acala Sinai Upgrade
 * Build the liquidity layer of web3 finance including Multi-chain LSTFi&#x20;
 * Complete the path of aSEED
 
-See the original plan [here](https://acala.discourse.group/t/acala-sinai-upgrade-a-liquidity-layer-for-all-l0s-l1s-l2s-and-lxs/2298).
-
 ## Roadmap
 
 * Overview of the Sinai Upgrade ([X article](https://x.com/AcalaNetwork/status/1778115130108108824))

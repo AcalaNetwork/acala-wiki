@@ -9,9 +9,9 @@ description: >-
 
 ## General Discussion & Support
 
-[Discord](https://discord.gg/5JJgXKSznc) **|** [Discourse Forum](https://acala.discourse.group/)  **|** [General Enquiry Email](mailto:hello@acala.network)
+[Discord](https://discord.gg/5JJgXKSznc) **|** [Discourse Forum](http://forum.acala.network)  **|** [General Enquiry Email](mailto:hello@acala.network)
 
-Issues can be raised directly in the respective [Github](https://github.com/AcalaNetwork) repo or via Riot channel
+Issues can be raised directly in the respective [Github repo](https://github.com/AcalaNetwork) 
 
 ## **Social & Announcements**
 

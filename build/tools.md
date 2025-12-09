@@ -37,10 +37,6 @@
 * [@acala-weaver/chain-recoder](https://github.com/AcalaNetwork/chain-sync-server/tree/master/packages/chain-recoder) - sync chain and maintain accounts, CDP and so on.
 * [@acala-weaver/storage-recoder](https://github.com/AcalaNetwork/chain-sync-server/tree/master/packages/storage-recoder) - sync chain storage data to a time series database for monitor and alert.
 
-## Faucet
-
-* [Discord Faucet Channel](https://discord.gg/5JJgXKSznc) - Discord faucet channel.
-
 ## Collateral Auction & Liquidation Bot
 
 We have currently 2 bots for monitoring of the liquidation auctions.

@@ -80,8 +80,6 @@ Enable public referenda so that anyone can propose a referendum by depositing th
 
 Sudo module will be removed via a runtime upgrade, and the Acala network will be governed by on-chain governance and token holders hereafter.
 
-Read more [here](https://acala.discourse.group/t/1-acala-runtime-upgrade-disable-sudo-enable-token-transfers/163).
-
 ## 🚃 (Done) Enable Balance Transfers
 
 Balance transfers within the Acala network are restricted until this point.

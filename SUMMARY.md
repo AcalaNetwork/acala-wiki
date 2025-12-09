@@ -186,6 +186,5 @@
 
 ## Misc
 
-* [aUSD Incident](misc/resources.md)
 * [Contributing](misc/contributing.md)
 * [Glossary](misc/glossary.md)
